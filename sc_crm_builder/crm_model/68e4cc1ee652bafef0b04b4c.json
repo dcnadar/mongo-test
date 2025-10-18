@@ -5,7 +5,7 @@
   "isOrg": false,
   "isOrgScopeApplicable": false,
   "isUserAccount": false,
-  "name": "Entity Index",
+  "name": "Entity Index ch",
   "collectionName": "entity_index",
   "baseModelId": "65e2c399226e7b80fe49ae3a",
   "properties": [
@@ -59,10 +59,5 @@
       "$numberLong": "1759824926417"
     }
   },
-  "createdBy": "68e09e923a6ade54590da550",
-  "updated": {
-    "$date": {
-      "$numberLong": "1760538704577"
-    }
-  }
+  "createdBy": "68e09e923a6ade54590da550"
 }
