@@ -2,11 +2,6 @@ name: Push MongoDB Collection Data
 
 on:
   workflow_dispatch:
-    inputs:
-      release_version:
-        description: "Release tag version (e.g. v0.1, v0.2)"
-        required: false
-        default: "manual-run"
   release:
     types: [published]
 
@@ -36,7 +31,7 @@ jobs:
           MONGO_URI: ${{ secrets.MONGO_URI }}
           DB_NAME: ${{secrets.DB_NAME }}
           FOLDER_NAME: ${{secrets.FOLDER_NAME }}
-          RELEASE_VERSION: ${{ github.event.inputs.release_version || github.ref_name }}
+          RELEASE_VERSION: ${{github.ref_name }}
           BATCH_SIZE: 1000
         run: |
           echo "------------------------------------"
