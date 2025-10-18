@@ -1,0 +1,19 @@
+{
+  "_id": {
+    "$oid": "68ef2d2307c24ca63302c8f3"
+  },
+  "name": "Area",
+  "fieldName": "_area",
+  "order": {
+    "$numberInt": "4"
+  },
+  "modelId": "68ef2d2307c24ca63302c8f2",
+  "modelType": "BASE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1760505123760"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518"
+}
