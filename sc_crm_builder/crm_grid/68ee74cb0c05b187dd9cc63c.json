@@ -1,0 +1,42 @@
+{
+  "_id": {
+    "$oid": "68ee74cb0c05b187dd9cc63c"
+  },
+  "gridTitle": "Test",
+  "gridType": "form",
+  "crmModelId": "68e14e5721d558639afe253f",
+  "rows": [
+    {
+      "$key": "8wrcd2e4lup",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "breadcrumb": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1760457931481"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45"
+}
