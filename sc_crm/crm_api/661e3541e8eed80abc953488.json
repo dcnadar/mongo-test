@@ -1,0 +1,15 @@
+{
+  "_id": "661e3541e8eed80abc953488",
+  "name": "All Blog Content ",
+  "path": "[OLD]/admin",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "668390263108ad7b7d063f10",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-16T08:22:25.167Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": [],
+  "innerGridType": "table",
+  "innerSourceId": "661e326ee8eed80abc953487"
+}

@@ -1,0 +1,10 @@
+{
+  "_id": "64a6dfd1723fb912796f149d",
+  "name": "Delete Product Variant Option",
+  "action": "ENTITY_DELETE",
+  "modelId": "64a5a7b0099de82bca61ca8d",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/product/variant-option/delete",
+  "created": "2024-01-27T07:48:44.538Z"
+}

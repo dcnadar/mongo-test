@@ -1,0 +1,53 @@
+{
+  "_id": {
+    "$oid": "65eb1830aa00ec382f84ccf1"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Field Name",
+          "id": "field",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "hint": "Enter the field name"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Sort Order",
+          "id": "order",
+          "type": "list",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "hint": "Select the sort order"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e8027a424719e028f20659",
+  "gridTitle": "Crm Grid TableMeta ColumnSort",
+  "created": {
+    "$date": {
+      "$numberLong": "1709905968879"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150654"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_id": "666830c2cf65cd7a11ef2c4c",
+  "name": "Inputs",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "nel7vvqutm",
+      "key": "noOfChicksPerBatch",
+      "name": "No Of Chicks Per Batch",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "j6qlkq9ns8",
+      "key": "medicine",
+      "name": "Medicine",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "xph74jhstr",
+      "key": "vaccine",
+      "name": "Vaccine",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "luiz33v5t5",
+      "key": "quantityOfLitter ",
+      "name": "Quantity Of Litter ",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "y2vcuva2cga",
+      "key": "quantityOfFeedConsumption ",
+      "name": "Quantity Of Feed Consumption ",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "gfuec7iz7jf",
+      "name": "Transport",
+      "key": "transport",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "4yfaxs5drq4",
+      "key": "adminElectricityCosts",
+      "name": "Admin Eectricity & Other Misc Costs",
+      "dataType": "INTEGER"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T11:10:58.943Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

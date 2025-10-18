@@ -1,0 +1,36 @@
+{
+  "_id": "655e02756bf5e640cd3a5c03",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Size Name",
+          "id": "name",
+          "type": "text",
+          "span": 24,
+          "o": false,
+          "$key": "5ol9g95yrcs"
+        },
+        {
+          "index": 1,
+          "title": "Size Code",
+          "id": "value",
+          "type": "text",
+          "span": 24,
+          "o": false,
+          "$key": "k1wfbau6a0o"
+        }
+      ],
+      "$key": "4kr44nsu6j"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "655e0da56bf5e640cd3a5c07",
+  "gridTitle": "Product Variant Size Option Value",
+  "fetchDocWithoutId": false
+}

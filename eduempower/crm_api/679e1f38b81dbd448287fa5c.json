@@ -1,0 +1,14 @@
+{
+  "_id": "679e1f38b81dbd448287fa5c",
+  "name": "All Book",
+  "path": "/admin/library/book/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "679e1e9cb81dbd448287fa5a",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-02-01T13:18:48.015Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:57.503Z"
+}

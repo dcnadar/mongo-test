@@ -1,0 +1,20 @@
+{
+  "_id": "668531493108ad7b7d063f6d",
+  "name": "NativeGrid GlobalCategoryWithOverlay",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "jb6mecq6opf",
+      "key": "section",
+      "name": "Section",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "668531083108ad7b7d063f6c"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T11:08:57.436Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

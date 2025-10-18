@@ -1,0 +1,27 @@
+{
+  "_id": "66124a0ba10af254b4b437e8",
+  "gridTitle": "Eduempower Class/Sections Setup Menu",
+  "gridType": "menu",
+  "menuItems": [
+    {
+      "$key": "x8wiorfvyjk",
+      "key": "classes",
+      "slug": "/admin/schoolsetup/class-section/all",
+      "value": "Classes",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path fill=\"currentColor\" d=\"M22 17a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4a1 1 0 011-1h4zm-1 2h-2v2h2v-2zm-7-2a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4a1 1 0 011-1h4zm-1 2h-2v2h2v-2zm-7-2a1 1 0 011 1v4a1 1 0 01-1 1H2a1 1 0 01-1-1v-4a1 1 0 011-1h4zm-1 2H3v2h2v-2zM22 9a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4a1 1 0 011-1h4zm-1 2h-2v2h2v-2zm-7-2a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4a1 1 0 011-1h4zm-1 2h-2v2h2v-2zM6 9a1 1 0 011 1v4a1 1 0 01-1 1H2a1 1 0 01-1-1v-4a1 1 0 011-1h4zm-1 2H3v2h2v-2zM22 1a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1V2a1 1 0 011-1h4zm-1 2h-2v2h2V3zm-7-2a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1V2a1 1 0 011-1h4zm-1 2h-2v2h2V3zM6 1a1 1 0 011 1v4a1 1 0 01-1 1H2a1 1 0 01-1-1V2a1 1 0 011-1h4zM5 3H3v2h2V3z\"></path> </g></svg>"
+    },
+    {
+      "$key": "pjmhrlq4dqo",
+      "key": "class-incharge",
+      "slug": "/admin/schoolsetup/class-incharge/all",
+      "value": "Class Incharge",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 1024 1024\" class=\"icon\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\">   <g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\">   </g>   <g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\">   </g>   <g id=\"SVGRepo_iconCarrier\">     <path d=\"M427.84 547.52a193.6 193.6 0 1 0-193.6-193.6 193.92 193.92 0 0 0 193.6 193.6z m0-323.52a129.6 129.6 0 1 1-129.6 129.6A129.92 129.92 0 0 1 427.84 224zM822.72 937.28a32 32 0 0 0-45.44 0 32 32 0 0 0-6.72 10.56A32 32 0 0 0 768 960a32 32 0 1 0 64 0 32 32 0 0 0-2.56-12.16 32 32 0 0 0-6.72-10.56zM672 928h-128a32 32 0 0 0 0 64h128a32 32 0 0 0 0-64z\"     fill=\"currentColor\">     </path>     <path d=\"M776.96 861.76h2.24a32 32 0 0 0 4.8-3.52l3.84-3.2a32 32 0 0 0 3.84-5.76 20.16 20.16 0 0 0 4.16-10.88 32 32 0 0 0 0-5.76 32 32 0 0 0 0-6.4 30.08 30.08 0 0 0 0-4.8 394.56 394.56 0 0 0-367.36-256A400.64 400.64 0 0 0 32 960a32 32 0 0 0 32 32h352a32 32 0 0 0 0-64H98.56a335.04 335.04 0 0 1 329.28-299.84A330.88 330.88 0 0 1 736 843.52v2.56a32 32 0 0 0 15.04 14.4h1.6a28.48 28.48 0 0 0 23.04 0zM565.76 124.8a110.08 110.08 0 1 1 123.84 179.84 32 32 0 1 0 28.8 57.28 174.08 174.08 0 1 0-196.16-284.16 32 32 0 1 0 43.52 47.04zM675.2 389.44a32 32 0 0 0-6.4 64 293.44 293.44 0 0 1 256 256H832a32 32 0 0 0 0 64h128a32 32 0 0 0 32-32 359.36 359.36 0 0 0-316.8-352z\"     fill=\"currentColor\">     </path>   </g> </svg>"
+    }
+  ],
+  "title": "Class/Sections Setup",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T07:23:55.543Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "thumb": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/66066cd92ecf59ad3517dcdb/65e8cdff97f0eca7ba094627/thumb/2024/3/7/upload_7db5m6f6oi-1712474812228.png",
+  "updated": "2025-09-08T10:51:00.722Z"
+}

@@ -1,0 +1,52 @@
+{
+  "_id": "689f02534e2ed283d94615b2",
+  "gridTitle": "scheduleInterviewRounds",
+  "gridType": "form",
+  "crmModelId": "689ee8c658973fec4e05cc48",
+  "rows": [
+    {
+      "$key": "sgqv5qgchir",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8,
+          "$key": "57g4l92bsy2"
+        },
+        {
+          "$key": "kmcru1m95fm",
+          "id": "date",
+          "title": "Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "bk3ao8rhoho",
+          "id": "type",
+          "title": "Type",
+          "type": "strings",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T09:48:03.591Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.948Z"
+}

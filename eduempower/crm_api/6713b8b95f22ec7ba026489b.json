@@ -1,0 +1,15 @@
+{
+  "_id": "6713b8b95f22ec7ba026489b",
+  "name": "All Previous School",
+  "path": "/admin/student/previous-school/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "67138cea5f22ec7ba0264893",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T13:48:41.628Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "updated": "2025-09-08T10:50:52.769Z"
+}

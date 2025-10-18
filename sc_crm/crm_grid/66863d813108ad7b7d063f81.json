@@ -1,0 +1,50 @@
+{
+  "_id": "66863d813108ad7b7d063f81",
+  "gridTitle": "NativeGrid GlobalPriceing1 Header\t",
+  "gridType": "form",
+  "crmModelId": "66863ada3108ad7b7d063f7d",
+  "rows": [
+    {
+      "$key": "huxdss3gl2i",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "zfv0pztwvpk"
+        },
+        {
+          "$key": "lg1ny90cg8",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "cb3dt5p4ezf",
+          "id": "description",
+          "title": "Description",
+          "span": 12,
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-04T06:13:21.627Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "68ad60b623737c0ed9ef89e6",
+  "name": "Tranner",
+  "path": "/admin/training/trainer/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "getAllRecords": false,
+  "sourceId": "68ac15d37be295936f39ddd5",
+  "innerGridType": "table",
+  "innerSourceId": "68ad5fd123737c0ed9ef89e5",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T07:22:30.728Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:51.466Z"
+}

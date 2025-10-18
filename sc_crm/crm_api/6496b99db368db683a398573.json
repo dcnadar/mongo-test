@@ -1,0 +1,11 @@
+{
+  "_id": "6496b99db368db683a398573",
+  "name": "Update Product Category",
+  "action": "CRM_GRID",
+  "sourceId": "648ddd4e10856c10af4cb5df",
+  "gridType": "form",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/product/category/update",
+  "created": "2024-01-27T07:48:43.777Z"
+}

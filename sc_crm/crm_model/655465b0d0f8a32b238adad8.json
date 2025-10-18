@@ -1,0 +1,55 @@
+{
+  "_id": "655465b0d0f8a32b238adad8",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "manufacturer",
+      "name": "Manufacturer",
+      "$key": "6qwongs4295"
+    },
+    {
+      "dataType": "STRING",
+      "key": "packer",
+      "name": "Packer",
+      "$key": "pnspdo3wo"
+    },
+    {
+      "dataType": "STRING",
+      "key": "importer",
+      "name": "Importer",
+      "$key": "v5a62bc7ojt"
+    },
+    {
+      "dataType": "STRING",
+      "key": "genericName",
+      "name": "Generic Name",
+      "$key": "b6e6jbrj16"
+    },
+    {
+      "$key": "v2i05g0inw",
+      "key": "supplier",
+      "name": "Supplier",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6"
+    },
+    {
+      "$key": "flwc70kivq",
+      "key": "productCancelPolicy",
+      "name": "Product Cancel Policy",
+      "dataType": "REFERENCE",
+      "modelId": "66e1b55bab08f3103afa06f1"
+    },
+    {
+      "$key": "y4bz3kcbi3h",
+      "key": "productReturnPolicy",
+      "name": "Product Return Policy\t",
+      "dataType": "REFERENCE",
+      "modelId": "66e1b132ab08f3103afa06ef"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Product Variant Advanced Details",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:52.115Z"
+}

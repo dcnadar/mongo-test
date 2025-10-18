@@ -1,0 +1,76 @@
+{
+  "_id": "66a1ff87cba7cf7aed264a05",
+  "gridTitle": "Product Seo",
+  "gridType": "table",
+  "columns": [
+    {
+      "$key": "iex41dwhmff",
+      "key": "title ",
+      "name": "Title",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "3s1s1flmwfh",
+      "key": "description",
+      "name": "Description",
+      "type": "text",
+      "width": 149,
+      "sort": false
+    },
+    {
+      "$key": "garw381llle",
+      "key": "keywords",
+      "name": "Keywords",
+      "width": 150,
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "p8adn37ngwi",
+      "key": "image",
+      "name": "Image",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "xbsfsv4k8g",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "width": 150,
+      "actions": [
+        {
+          "$key": "p3b9zfzpu4i",
+          "gridTitle": "save",
+          "gridType": "popupForm",
+          "value": "Save",
+          "apiUrl": "/admin/product/seo"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "5wr6iip9ne",
+      "gridTitle": "save",
+      "apiUrl": "/admin/product/seo",
+      "value": "Save",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-25T07:32:23.283Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "crmModelId": "66a1f9cbcba7cf7aed264a03",
+  "backUrl": "/admin/product/all",
+  "upsertDoc": false
+}

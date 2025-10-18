@@ -1,0 +1,13 @@
+{
+  "_id": "673869335bfbb47aebef4661",
+  "name": "Add Branch",
+  "path": "/admin/account/branch/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67384c7c5bfbb47aebef4658",
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-16T09:43:15.806Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

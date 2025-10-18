@@ -1,0 +1,54 @@
+{
+  "_id": "68ad56e323737c0ed9ef89e2",
+  "name": "Trainer",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "trainer",
+  "properties": [
+    {
+      "$key": "mzw232swa9k",
+      "key": "userId",
+      "name": "User",
+      "dataType": "REFERENCE",
+      "modelId": "6703b5dc30083226ac6affc4"
+    },
+    {
+      "$key": "cyyyjknxzbw",
+      "key": "verification",
+      "name": "Verification",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "vwsv24jbtd",
+      "key": "ratingAvg",
+      "name": "Rating Avg",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "kvdrjt7zfd",
+      "key": "ratingCount",
+      "name": "Rating Count",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "d5jgf5til9r",
+      "key": "trainingId",
+      "name": "Training",
+      "dataType": "REFERENCE",
+      "modelId": "689c3cc7e8e746ac85de559c",
+      "searchable": {
+        "value": true,
+        "description": true
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T06:40:35.582Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:56.052Z"
+}

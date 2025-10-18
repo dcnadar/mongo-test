@@ -1,0 +1,15 @@
+{
+  "_id": "66192627aee00c70206deb31",
+  "name": "All Wishlist",
+  "path": "/admin/customer/wishlist/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "661913d3aee00c70206deb2b",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T12:16:39.716Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": [],
+  "innerGridType": "table",
+  "innerSourceId": "6619052caee00c70206deb27"
+}

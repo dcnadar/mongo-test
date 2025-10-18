@@ -1,0 +1,87 @@
+{
+  "_id": "660cd6b3c7b99128d924f724",
+  "gridTitle": "Eduempower LeavePlan",
+  "gridType": "form",
+  "crmModelId": "66081f1e60d4f873b5fa4f4a",
+  "rows": [
+    {
+      "$key": "zyc4zanp7c",
+      "fields": [
+        {
+          "$key": "4ldnaf5cgl6",
+          "id": "departmentId",
+          "title": "Department",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "designationName"
+          ],
+          "meta": {
+            "queryParams": "absentValue=All"
+          }
+        },
+        {
+          "$key": "ijnrmkf0gep",
+          "id": "leaveType",
+          "title": "Leave Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "status=ACTIVE"
+          }
+        },
+        {
+          "$key": "h9gp74zbg24",
+          "id": "planName",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "l0xvwhaov2d",
+          "id": "leavePlanDuration",
+          "title": "Max Leaves Per Duration",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "gdp731zcw1u",
+          "id": "effectiveFrom",
+          "title": "Effective From",
+          "span": 8,
+          "type": "list",
+          "multiple": false,
+          "apiUrl": "/api/io/schoolsetup/leave-setting/leave-plan/month"
+        },
+        {
+          "$key": "731guuox9cr",
+          "id": "effectiveTo",
+          "title": "Effective To",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "apiUrl": "/api/io/schoolsetup/leave-setting/leave-plan/month"
+        },
+        {
+          "$key": "6ciasissrhg",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "INACTIVE"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T04:10:27.034Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.279Z"
+}

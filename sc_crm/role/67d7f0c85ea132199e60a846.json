@@ -1,0 +1,10 @@
+{
+  "_id": "67d7f0c85ea132199e60a846",
+  "name": "Administrator",
+  "permissions": [
+    "67d7f0ac5ea132199e60a845"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-17T09:52:08.280Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

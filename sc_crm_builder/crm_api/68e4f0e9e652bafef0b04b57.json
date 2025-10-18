@@ -1,0 +1,25 @@
+{
+  "_id": {
+    "$oid": "68e4f0e9e652bafef0b04b57"
+  },
+  "name": "Add Index",
+  "path": "/admin/entity/index/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68e4d665e652bafef0b04b50",
+  "fetchDocWithoutId": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1759834345875"
+    }
+  },
+  "createdBy": "68e09e923a6ade54590da550",
+  "updated": {
+    "$date": {
+      "$numberLong": "1760538696499"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "_id": "68ac37e47be295936f39ddd7",
+  "gridTitle": "Trainer",
+  "gridType": "table",
+  "crmModelId": "6703b5dc30083226ac6affc4",
+  "columns": [
+    {
+      "$key": "rbf5o884g77",
+      "key": "avatarUrl",
+      "name": "Avatar",
+      "sort": true,
+      "type": "thumb"
+    },
+    {
+      "$key": "fkpg3h8tv7a",
+      "key": "firstName",
+      "name": "FirstName",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "i88zw750ri",
+      "key": "lastName",
+      "name": "Last Name",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "z15oorkn9r",
+      "key": "slug",
+      "name": "Slug",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "parmbcys5zk",
+      "key": "email",
+      "name": "Email",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "m8y7nb6xcf",
+      "key": "userType",
+      "name": "user Type",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "abz7ngd0hoj",
+      "key": "preferredModes",
+      "name": "Preferred Modes",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "h8al9zmcssm",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "dn81wdy7xjf",
+          "apiUrl": "/admin/trainer/edit?id=:_id _id ",
+          "gridTitle": "Edit trainer",
+          "value": "Edit",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "nngrludijab",
+      "gridTitle": "Add Trainer",
+      "value": "Add trainer",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/trainer/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "1ckwm66u6kq",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EQUALS": "TRAINER"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "firstname"
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-25T10:16:04.537Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/training/details",
+  "updated": "2025-09-05T11:02:53.898Z"
+}

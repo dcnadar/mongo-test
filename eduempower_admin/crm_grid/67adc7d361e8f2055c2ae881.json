@@ -1,0 +1,92 @@
+{
+  "_id": "67adc7d361e8f2055c2ae881",
+  "gridTitle": "Eduempower LeavePlan",
+  "gridType": "table",
+  "crmModelId": "67adc59f61e8f2055c2ae87e",
+  "columns": [
+    {
+      "$key": "w7z2xk293r",
+      "key": "leaveType",
+      "name": "Leave Type",
+      "sort": true,
+      "type": "card"
+    },
+    {
+      "$key": "99e3uydktrb",
+      "key": "planName",
+      "name": "Leave plan Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "zu5tc3nmaoh",
+      "key": "leavePlanDuration",
+      "name": "Leave Duration",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "1dqv9az2mzi",
+      "key": "effectiveFrom",
+      "name": "Effective From",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "iiyhehk74gg",
+      "key": "effectiveTo",
+      "name": "Effective To",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "vbohmmforog",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true
+    },
+    {
+      "$key": "o36ve1ak2tq",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "dmd12r6r8wp",
+          "value": "Edit ",
+          "gridTitle": "Edit Leave Plan",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/school-setup/leave-settings/leave-plan/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "lk4jk85dmyg",
+      "value": "Add Leave Plan",
+      "apiUrl": "/admin/school-setup/leave-settings/leave-plan/add",
+      "gridType": "popupForm",
+      "gridTitle": "Add Leave Plan"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "z5bkb37wr9k",
+        "propertyKey": "entityType",
+        "operator": "EQUALS",
+        "EQUALS": "MASTER_SETUP"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T10:22:11.548Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

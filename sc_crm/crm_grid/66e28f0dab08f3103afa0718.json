@@ -1,0 +1,44 @@
+{
+  "_id": "66e28f0dab08f3103afa0718",
+  "gridTitle": "ReactGrid WebsiteLogo2",
+  "gridType": "form",
+  "crmModelId": "66e28d33ab08f3103afa0717",
+  "rows": [
+    {
+      "$key": "jv121029oi",
+      "fields": [
+        {
+          "id": "thumb",
+          "title": "Thumb",
+          "type": "upload",
+          "multiple": false,
+          "$key": "axvug3a2bre",
+          "span": 24,
+          "showCondition": "return !this.useSvg;",
+          "o": true
+        },
+        {
+          "$key": "pz5vwy0awmp",
+          "id": "useSvg",
+          "title": "Use SVG",
+          "type": "bool",
+          "span": 0,
+          "o": true
+        },
+        {
+          "$key": "i82v8hf0hn",
+          "id": "svg",
+          "title": "Svg",
+          "type": "text",
+          "span": 24,
+          "showCondition": "return this.useSvg;"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-12T06:49:49.498Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

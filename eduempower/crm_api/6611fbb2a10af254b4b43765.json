@@ -1,0 +1,15 @@
+{
+  "_id": "6611fbb2a10af254b4b43765",
+  "name": "All Buildings",
+  "path": "/admin/schoolsetup/buildings/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660d8943c7b99128d924f762",
+  "innerGridType": "table",
+  "innerSourceId": "660d8943c7b99128d924f762",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T01:49:38.538Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:47.310Z"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "660cf27bc7b99128d924f737",
+  "gridTitle": "Eduempower ClassIncharge",
+  "gridType": "form",
+  "crmModelId": "66096e01c7b99128d924f672",
+  "rows": [
+    {
+      "$key": "tag1xdvt9q9",
+      "fields": [
+        {
+          "$key": "12jz68zfn2oj",
+          "id": "className",
+          "title": "Class",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 12
+        },
+        {
+          "$key": "inbm67yqsx",
+          "id": "staffName",
+          "title": "Incharge",
+          "type": "list",
+          "span": 12,
+          "multiple": false,
+          "meta": {
+            "queryParams": "userType=STAFF"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T06:08:59.973Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.852Z"
+}

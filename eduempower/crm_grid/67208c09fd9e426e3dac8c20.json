@@ -1,0 +1,53 @@
+{
+  "_id": "67208c09fd9e426e3dac8c20",
+  "gridTitle": "Front Office history",
+  "gridType": "table",
+  "crmModelId": "671a5ed45f22ec7ba02649fe",
+  "columns": [
+    {
+      "$key": "p3skkmuzvn",
+      "key": "visitId",
+      "name": "Visit Id",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "f8syg5ew4w7",
+      "name": "Updated Date",
+      "key": "updatedDate",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "t6nosg6b3p",
+      "key": "actionTakenBy",
+      "name": "Updated By",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "2wbhtvggrgo",
+      "name": "Status",
+      "key": "status",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "dapen48u9k9",
+      "name": "Remark",
+      "key": "remark",
+      "type": "text",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-29T07:17:29.118Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-08T10:51:02.887Z"
+}

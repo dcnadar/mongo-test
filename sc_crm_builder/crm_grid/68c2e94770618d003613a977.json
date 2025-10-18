@@ -1,0 +1,100 @@
+{
+  "_id": {
+    "$oid": "68c2e94770618d003613a977"
+  },
+  "gridTitle": "User Group Account Access Table",
+  "gridType": "table",
+  "crmModelId": "68c2e3bf70618d003613a975",
+  "columns": [
+    {
+      "$key": "o2hh07xiczn",
+      "key": "role",
+      "name": "Role",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "giq0222fgk6",
+      "key": "userGroupId",
+      "name": "User Group Id",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "8wl2wtw27vx",
+      "key": "admin",
+      "name": "Admin",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "a3amf930hb",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "zirn9mu3mfj",
+      "key": "privileges",
+      "name": "Privileges",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "jtp3f7883or",
+      "key": "portalLoginAccess ",
+      "name": "Portal Login Access ",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "omh53kcylei",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "9hq5w0x6dgr",
+          "value": "Edit",
+          "apiUrl": "/admin/user-group/account-access/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "k3p5y41kv",
+      "value": "Add Account Access",
+      "apiUrl": "/admin/user-group/account-access/add",
+      "gridType": "popupForm",
+      "gridTitle": "Add Account Access"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757604167381"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "gridParams": [
+    {
+      "key": "userGroupId",
+      "required": true
+    }
+  ],
+  "backUrl": "/admin/user-group/all",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377691625"
+    }
+  }
+}

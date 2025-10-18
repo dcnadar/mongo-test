@@ -1,0 +1,108 @@
+{
+  "_id": {
+    "$oid": "66203b4ee8eed80abc9534a2"
+  },
+  "gridTitle": "Permission",
+  "gridType": "table",
+  "crmModelId": "66202f1ae8eed80abc9534a0",
+  "columns": [
+    {
+      "$key": "4saq03uowyn",
+      "key": "key",
+      "name": "Key",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "kq45avr4vii",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true,
+      "width": {
+        "$numberInt": "200"
+      }
+    },
+    {
+      "$key": "syc9a3mi6m",
+      "key": "description",
+      "name": "Description",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "l9qru83h6hq",
+      "key": "apisAccess",
+      "name": "APIs Access",
+      "type": "card",
+      "sort": false,
+      "width": {
+        "$numberInt": "300"
+      }
+    },
+    {
+      "$key": "3ssz5sf0e19",
+      "key": "conditions",
+      "name": "Conditions",
+      "type": "text",
+      "width": {
+        "$numberInt": "100"
+      },
+      "valueCondition": "return this.conditions ? this.conditions.length : 'NA';",
+      "sort": false
+    },
+    {
+      "$key": "730dfqb45br",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "width": {
+        "$numberInt": "100"
+      },
+      "align": "right",
+      "actions": [
+        {
+          "$key": "as4do9zijn",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/permissions/update?id=:_id _id"
+        },
+        {
+          "$key": "db8z9j5vpmn",
+          "gridTitle": "Delete permission",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure, want to delete permission :name?",
+          "gridMsgParams": "name",
+          "apiUrl": "/admin/permissions/delete?id=:_id _id",
+          "value": "Delete permission"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "bz7a8eav2gp",
+      "value": "Create Permission",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/permissions/create"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1713388366816"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151276"
+    }
+  }
+}

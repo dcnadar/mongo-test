@@ -1,0 +1,20 @@
+{
+  "_id": "671273c55f22ec7ba0264869",
+  "name": "Add Academic Info",
+  "path": "/admin/staff/academic-info/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "67123c385f22ec7ba0264852",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T14:42:13.125Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true
+    }
+  ],
+  "updated": "2025-09-08T10:50:51.930Z"
+}

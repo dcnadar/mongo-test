@@ -1,0 +1,13 @@
+{
+  "_id": "67ac8bfd570d4c4a2423d4b6",
+  "name": "All Department",
+  "path": "/admin/school-setup/departments/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "67ac88f4570d4c4a2423d4b4",
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-12T11:54:37.059Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

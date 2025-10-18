@@ -1,0 +1,73 @@
+{
+  "_id": "66715d90faf6243feb6c9977",
+  "name": "ReactGrid GlobalTrufalLogin BasicInfoForm",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "1jve56g4lan",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "pp5uyg8pbh",
+      "key": "headingLeftText",
+      "name": "HeadingLeftText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5y0wrk4reiu",
+      "key": "forgetText",
+      "name": "ForgetText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "129t2covn9j",
+      "key": "singUpOtpText",
+      "name": "SingUpOtpText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vks1tmblkw",
+      "key": "headingLinkText",
+      "name": "HeadingLinkText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "uxaedg41b2f",
+      "key": "headingRightText",
+      "name": "HeadingRightText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "43v4d8gvf3k",
+      "key": "emailaddresslabel",
+      "name": "Emailaddresslabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gqimgehy68c",
+      "key": "passwordlabel",
+      "name": "Passwordlabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nw7cxrz2lv",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bfion32h22i",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "compoundUniqueFields": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T10:12:32.001Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

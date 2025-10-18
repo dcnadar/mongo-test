@@ -1,0 +1,40 @@
+{
+  "_id": "65c3217c87aef35653f833d9",
+  "properties": [
+    {
+      "dataType": "INNER_MODEL",
+      "key": "primary",
+      "name": "Primary Colors",
+      "modelId": "65c3217c87aef35653f833d7"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "secondary",
+      "name": "Secondary Colors",
+      "modelId": "65c3217c87aef35653f833d7"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "tertiary",
+      "name": "Tertiary Colors",
+      "modelId": "65c3217c87aef35653f833d7"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "quaternary",
+      "name": "Quaternary Colors",
+      "modelId": "65c3217c87aef35653f833d7"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "quinary",
+      "name": "Quinary Colors",
+      "modelId": "65c3217c87aef35653f833d7"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "GlobalThemeColors",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-07T06:21:48.280Z"
+}

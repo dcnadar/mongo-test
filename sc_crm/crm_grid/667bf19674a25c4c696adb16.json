@@ -1,0 +1,35 @@
+{
+  "_id": "667bf19674a25c4c696adb16",
+  "gridTitle": "NativeGrid GlobalCommonProductList4 Header\t",
+  "gridType": "form",
+  "crmModelId": "667bf14a74a25c4c696adb15",
+  "rows": [
+    {
+      "$key": "scjrenev53",
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-26T10:46:46.750Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

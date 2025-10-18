@@ -1,0 +1,42 @@
+{
+  "_id": "66e2a36bab08f3103afa0723",
+  "gridTitle": "UserPassword",
+  "gridType": "form",
+  "crmModelId": "6662a17007b1a041b15e0b52",
+  "rows": [
+    {
+      "$key": "far1m1unbxp",
+      "fields": [
+        {
+          "id": "password",
+          "title": "Password",
+          "type": "password"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "gridParams": [
+    {
+      "key": "user",
+      "required": true,
+      "documentKey": "id"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-12T08:16:43.825Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

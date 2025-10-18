@@ -1,0 +1,15 @@
+{
+  "_id": "68ac13e07be295936f39ddd4",
+  "category": "verificationStatus",
+  "categoryName": "Verification Status",
+  "name": [
+    "UNVERIFIED",
+    "PENDING",
+    "VERIFIED",
+    "REJECTED"
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-25T07:42:24.711Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:47.738Z"
+}

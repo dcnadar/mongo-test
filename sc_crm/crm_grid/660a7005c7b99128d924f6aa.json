@@ -1,0 +1,69 @@
+{
+  "_id": "660a7005c7b99128d924f6aa",
+  "gridTitle": "ReactGrid GlobalTeamSections3 Section",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "sgyc2flnftp",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8,
+          "$key": "y701uck4tmi"
+        },
+        {
+          "$key": "unsxegzb18",
+          "id": "thumb",
+          "title": "Thumb",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "jrit0xynbsi",
+          "id": "enableButton",
+          "title": "Enable Click",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "hn94azy6g1",
+          "id": "buttonAction",
+          "title": "Click Action",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "hh3tdejt74o",
+          "id": "description",
+          "title": "Descriptions",
+          "type": "textarea",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-01T08:27:49.820Z",
+  "createdBy": "660a41ecdeefcc0a51709289",
+  "crmModelId": "660a6771c7b99128d924f6a8"
+}

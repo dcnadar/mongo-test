@@ -1,0 +1,44 @@
+{
+  "_id": "67693dd97efd1c53bd16c159",
+  "name": "Tax Settings\tExtraCharge",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "s4r4hiw600s",
+      "key": "displayName",
+      "name": "DisplayName",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yefekg2jq8m",
+      "key": "logic",
+      "name": "Logic",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "o507n8pxd1",
+            "key": "FIXED_PERCENTAGE",
+            "value": "Fixed Percentage"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "sz73o5jtsyl",
+      "key": "fixedPercentage",
+      "name": "Percentage",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "egoqmpxj8mv",
+      "key": "applyTax",
+      "name": "Apply TAX",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-12-23T10:39:21.240Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

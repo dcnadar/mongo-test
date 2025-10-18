@@ -1,0 +1,12 @@
+{
+  "_id": "66151f7da10af254b4b438ad",
+  "name": "Add Customer",
+  "path": "/admin/account/customer/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66151ae7a10af254b4b438a9",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T10:59:09.196Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

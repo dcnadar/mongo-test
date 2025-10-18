@@ -1,0 +1,16 @@
+{
+  "_id": "67c2c3deb0b44915d3227f35",
+  "name": "All Fee Challan",
+  "path": "/admin/fee/generateFeeChallan/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "getAllRecords": false,
+  "sourceId": "67c2c39eb0b44915d3227f34",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-01T08:22:54.766Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:57.702Z"
+}

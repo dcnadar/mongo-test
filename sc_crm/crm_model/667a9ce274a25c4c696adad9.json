@@ -1,0 +1,18 @@
+{
+  "_id": "667a9ce274a25c4c696adad9",
+  "name": "NativeGrid GlobalCommonProductList3 Header",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "z34ujojexb",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-25T10:33:06.190Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

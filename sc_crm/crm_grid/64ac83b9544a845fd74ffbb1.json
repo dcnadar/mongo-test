@@ -1,0 +1,45 @@
+{
+  "_id": "64ac83b9544a845fd74ffbb1",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 24,
+          "o": false,
+          "$key": "uf1y17jiayd"
+        },
+        {
+          "index": 1,
+          "title": "Value",
+          "id": "value",
+          "type": "text",
+          "span": 24,
+          "o": false,
+          "$key": "so0brs7gwrb"
+        },
+        {
+          "index": 2,
+          "title": "Add to Highlights",
+          "id": "addToHighlights",
+          "type": "bool",
+          "span": 24,
+          "o": true,
+          "$key": "newwupod87"
+        }
+      ],
+      "$key": "bfep0i5a5yv"
+    }
+  ],
+  "gridType": "form",
+  "edit": true,
+  "gridTitle": "Product Variant Specification",
+  "crmModelId": "64a5c1b8099de82bca61ca93",
+  "fetchDocWithoutId": false
+}

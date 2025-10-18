@@ -1,0 +1,62 @@
+{
+  "_id": "689c391be8e746ac85de5599",
+  "name": "trainingSchedule",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "75uokhkb1jh",
+      "key": "schedule",
+      "name": "Schedule",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "e01g0i3227s",
+            "key": "SUNDAY",
+            "value": "Sunday"
+          },
+          {
+            "$key": "b7akqa5cqso",
+            "key": "MONDAY",
+            "value": "Monday"
+          },
+          {
+            "$key": "mjfjswh8f5",
+            "key": "TUESDAY",
+            "value": "Tuesday"
+          },
+          {
+            "$key": "4ve6qllh67a",
+            "key": "WEDNESDAY",
+            "value": "Wednesday"
+          },
+          {
+            "$key": "2zzukuhr6h7",
+            "key": "THURSDAY",
+            "value": "Thursday"
+          },
+          {
+            "$key": "nz0l0ntqjnk",
+            "key": "FRIDAY",
+            "value": "Friday"
+          },
+          {
+            "$key": "jwmj5gyglno",
+            "key": "SATURDAY",
+            "value": "Saturday"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "6tm81l6t5hj",
+      "key": "time",
+      "name": "Time",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T07:04:59.106Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:54.951Z"
+}

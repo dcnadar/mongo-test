@@ -1,0 +1,11 @@
+{
+  "_id": "653c91e38a08e1675b252dd7",
+  "name": "Update Product Basic Details POST",
+  "action": "FORM_SAVE",
+  "sourceId": "64a7ccfae7d297735dc044c7",
+  "gridType": "form",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "POST",
+  "path": "/admin/product/basic-details/update",
+  "created": "2024-01-27T07:48:46.884Z"
+}

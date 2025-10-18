@@ -1,0 +1,14 @@
+{
+  "_id": "6733281202f79267ffc56561",
+  "key": "staff.transfer",
+  "name": "Staff Transfer",
+  "apisAccess": [
+    "671611b05f22ec7ba02648c5",
+    "671611b95f22ec7ba02648c6"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T10:04:02.920Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.167Z"
+}

@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "68c488c7f66798986dd89f12"
+  },
+  "name": "Add Account Access Details",
+  "path": "/admin/user-group/account-access/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "68c40b87f66798986dd89ef1",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757710535388"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377686504"
+    }
+  }
+}

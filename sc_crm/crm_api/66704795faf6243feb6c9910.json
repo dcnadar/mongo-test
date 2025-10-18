@@ -1,0 +1,13 @@
+{
+  "_id": "66704795faf6243feb6c9910",
+  "name": "App Screen Section",
+  "path": "/admin/mobileapp/app-screen-section",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "666fe770faf6243feb6c98e8",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-17T14:26:29.729Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

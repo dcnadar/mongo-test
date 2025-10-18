@@ -1,0 +1,26 @@
+{
+  "_id": {
+    "$oid": "68d0ef34f42bc3ef836dc7d0"
+  },
+  "name": "Add Permission",
+  "path": "/admin/app-permission/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68d0ed7ef42bc3ef836dc7cc",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758523188071"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231672029"
+    }
+  }
+}

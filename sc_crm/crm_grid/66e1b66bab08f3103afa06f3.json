@@ -1,0 +1,81 @@
+{
+  "_id": "66e1b66bab08f3103afa06f3",
+  "gridTitle": "Product Return Policy",
+  "gridType": "table",
+  "crmModelId": "66e1b132ab08f3103afa06ef",
+  "columns": [
+    {
+      "$key": "icrrz726m1",
+      "key": "policyName",
+      "name": "Policy Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "dmqoxbyyxx7",
+      "key": "returnWindowDays",
+      "name": "Return Window Days",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "if804mmlqz",
+      "key": "refundProcessingDays",
+      "name": "Refund Processing Days",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "97n50lystop",
+      "key": "eligibleReturnConditions",
+      "name": "Eligible Return Conditions",
+      "type": "tag",
+      "width": 250,
+      "sort": false
+    },
+    {
+      "$key": "0cmll1z2bnxh",
+      "key": "refundMethod",
+      "name": "Refund Method",
+      "width": 300,
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "p1adfwnrwbe",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 100,
+      "actions": [
+        {
+          "$key": "3c8nksdahz3",
+          "gridTitle": "Edit Return Policy",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/account/policy/return-policy/edit?id=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "p1oq0lxjdyk",
+      "gridTitle": "Add Return Policy",
+      "value": "Add Return Policy",
+      "apiUrl": "/admin/account/policy/return-policy/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:25:31.593Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

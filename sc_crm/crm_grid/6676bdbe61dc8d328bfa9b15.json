@@ -1,0 +1,48 @@
+{
+  "_id": "6676bdbe61dc8d328bfa9b15",
+  "gridTitle": "NativeGrid GlobalThemeProductList4",
+  "gridType": "form",
+  "crmModelId": "6676ba2161dc8d328bfa9b10",
+  "rows": [
+    {
+      "$key": "bhbscn3wmou",
+      "fields": [
+        {
+          "$key": "6x91s9aicwo",
+          "id": "showDynamicContent",
+          "title": "Show Dynamic Content",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "nz9mcx150xn",
+          "id": "dynamicContentFilter",
+          "title": "Dynamic Content Filters",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "showCondition": "return this.showDynamicContent;"
+        },
+        {
+          "id": "section",
+          "title": "Section",
+          "span": 24,
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "min": 1,
+          "max": 10,
+          "$key": "eap4ys7wgsi",
+          "showCondition": "return !this.showDynamicContent;"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-22T12:04:14.044Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

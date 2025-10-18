@@ -1,0 +1,28 @@
+{
+  "_id": "6683851b3108ad7b7d063eff",
+  "gridTitle": "NativeGrid Global FeaturedBrandCard1",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "6az0xnyahf5",
+      "fields": [
+        {
+          "id": "section",
+          "title": "Section",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 10,
+          "$key": "cjvszq2sak9"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T04:42:03.421Z",
+  "createdBy": "660837fd3afc795c92fa7f61",
+  "crmModelId": "668383843108ad7b7d063efd"
+}

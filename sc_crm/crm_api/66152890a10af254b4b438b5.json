@@ -1,0 +1,12 @@
+{
+  "_id": "66152890a10af254b4b438b5",
+  "name": "Staff",
+  "path": "/admin/account/staff/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66152822a10af254b4b438b3",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T11:37:52.489Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,98 @@
+{
+  "_id": "67b8603fd102ac67ee6a50fc",
+  "gridTitle": "ReactGrid GlobalCustomerSignIn",
+  "gridType": "form",
+  "crmModelId": "67b85ef5d102ac67ee6a50fb",
+  "rows": [
+    {
+      "$key": "9q8k08sqbir",
+      "fields": [
+        {
+          "$key": "jmg1bxlap8",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "py1sbu8owy",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "yn71f3nshw",
+          "id": "emailLabel",
+          "title": "Email Label",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "xqxn5ziwrr8",
+          "id": "emailPlaceholder",
+          "title": "Email Placeholder",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "hhniga39ikk",
+          "id": "passwordLabel",
+          "title": "Password Label",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "xcitn5bz72",
+          "id": "passwordPlaceholder",
+          "title": "Password Placeholder",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "tfjq4losnub",
+          "id": "signInButtonText",
+          "title": "SignIn ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "vpth96142x",
+          "id": "otherSignInText",
+          "title": "Other SignInText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "6yr0qi4m74o",
+          "id": "googleButtonText",
+          "title": "Google ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "91xouiodrnn",
+          "id": "signUpMessage",
+          "title": "SignUp Message",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "0lan9fjp28k",
+          "id": "buttonTextSignUp",
+          "title": "ButtonText SignUp",
+          "type": "text",
+          "span": 8
+        }
+      ],
+      "showDescription": false,
+      "descriptionSpan": 4,
+      "description": "Hello\n\nThis is data with **bold** text"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-21T11:15:11.131Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "668b6b923eaa6c40dacfe52f",
+  "name": "NativeGrid GlobalSelectAddress",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "eiuwldljvtv",
+      "key": "headerTitle",
+      "name": "HeaderTitle",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T04:31:14.963Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

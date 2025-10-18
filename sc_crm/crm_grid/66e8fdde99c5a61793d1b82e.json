@@ -1,0 +1,34 @@
+{
+  "_id": "66e8fdde99c5a61793d1b82e",
+  "gridTitle": "ReactGrid GlobalHeader Settings",
+  "gridType": "form",
+  "crmModelId": "66e83fe999c5a61793d1b825",
+  "rows": [
+    {
+      "$key": "9bfsxuhspzd",
+      "fields": [
+        {
+          "$key": "945wk71t3d",
+          "id": "rightButtons",
+          "title": "RightButtons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "min": 0,
+          "max": 2,
+          "span": 24,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-17T03:56:14.505Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

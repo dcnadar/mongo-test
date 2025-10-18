@@ -1,0 +1,73 @@
+{
+  "_id": "68ad8d1f077fdcc858b135cc",
+  "name": "Student Additional Details",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "6cbybxm8ar",
+      "key": "studentSummary",
+      "name": "Student Summary",
+      "dataType": "INNER_MODEL",
+      "modelId": "68ad713c077fdcc858b135ca"
+    },
+    {
+      "$key": "ueo2sn1rgt",
+      "key": "studentEducation",
+      "name": "Student Education",
+      "dataType": "LIST_OF",
+      "modelId": "68a8303b929889208088b242",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "2z08sfnnsv7",
+      "key": "studentProject",
+      "name": "Student Project",
+      "dataType": "LIST_OF",
+      "modelId": "68ad4bdd077fdcc858b135c1",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "zsi4okp90m",
+      "key": "studentSkills",
+      "name": "Student Skills",
+      "dataType": "LIST_OF",
+      "modelId": "68ad521d077fdcc858b135c3",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "lvddesf3g9l",
+      "key": "studentExperience",
+      "name": "Student Experience",
+      "dataType": "LIST_OF",
+      "modelId": "68ac2943e1a84e7a30bfdbd5",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "brewk4eul4t",
+      "key": "studentAcademicWork",
+      "name": "Student Academic Work",
+      "dataType": "LIST_OF",
+      "modelId": "68ad631c077fdcc858b135c7",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "1g61t2f8l3b",
+      "key": "studentCertificate",
+      "name": "Student Certificate",
+      "dataType": "LIST_OF",
+      "modelId": "68ad5b74077fdcc858b135c5",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "b9eqedp1d5q",
+      "key": "studentComLanguage",
+      "name": "Communication Language",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T10:31:59.961Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:56.212Z"
+}

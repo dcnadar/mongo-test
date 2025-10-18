@@ -1,0 +1,93 @@
+{
+  "_id": "661cd412aee00c70206deb66",
+  "name": "Blog",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "blog",
+  "properties": [
+    {
+      "$key": "jg65i2f1rh",
+      "key": "title",
+      "name": " Blog Title",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "e7o0lzk27ve",
+      "key": "slug",
+      "name": "Slug",
+      "dataType": "STRING",
+      "unique": true
+    },
+    {
+      "$key": "d116xtshbv9",
+      "key": "author",
+      "name": "Author",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6",
+      "searchable": {
+        "value": false,
+        "description": false
+      }
+    },
+    {
+      "$key": "088dvm22bx8f",
+      "key": "date",
+      "name": "Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "kh2nd061rpo",
+      "key": "category",
+      "name": "Category",
+      "dataType": "REFERENCE",
+      "modelId": "661ccdc6aee00c70206deb65",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "yr449px7cg",
+      "key": "shortDescription",
+      "name": "Short Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "n47wmq51mr",
+      "key": "tags",
+      "name": "Tags",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "tdzibvauioh",
+      "key": "image",
+      "name": "Image ",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "la383sgebe",
+      "key": "content",
+      "name": "Content",
+      "unique": false,
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {
+    "details": [
+      {
+        "$key": "68qx9uzt2kq",
+        "value": "slug",
+        "key": "Slug"
+      }
+    ],
+    "thumb": "image",
+    "title": "title"
+  },
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T07:15:30.043Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

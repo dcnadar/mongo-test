@@ -1,0 +1,31 @@
+{
+  "_id": "660ac8cdc7b99128d924f6c0",
+  "name": "Eduempower MapLocation",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "v2c9mxcj7k",
+      "key": "latitude",
+      "name": "Latitude",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cn19xcv6dej",
+      "key": "longitude",
+      "name": "Longitude",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kxgys8hv4sl",
+      "key": "address",
+      "name": "Address",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-01T14:46:37.955Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.045Z"
+}

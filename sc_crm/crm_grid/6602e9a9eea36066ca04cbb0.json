@@ -1,0 +1,58 @@
+{
+  "_id": "6602e9a9eea36066ca04cbb0",
+  "gridTitle": "ReactGrid GlobalFooter2 iconLinks",
+  "gridType": "form",
+  "crmModelId": "6602e6beeea36066ca04cbad",
+  "rows": [
+    {
+      "$key": "o18u6e149pc",
+      "fields": [
+        {
+          "id": "svg",
+          "title": "Svg Code",
+          "type": "text",
+          "span": 8,
+          "$key": "197591vu9hu"
+        },
+        {
+          "$key": "ael49vrp21g",
+          "id": "enableButton",
+          "title": "Enable Click",
+          "type": "bool",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "hfjzm1er6lj",
+          "id": "buttonAction",
+          "title": "Click Action",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-26T15:28:41.080Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

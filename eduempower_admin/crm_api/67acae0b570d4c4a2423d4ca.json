@@ -1,0 +1,13 @@
+{
+  "_id": "67acae0b570d4c4a2423d4ca",
+  "name": "All AcademicSession",
+  "path": "/admin/school-setup/academicSession/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "67af3cfaff270b0488bcfe23",
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-12T14:19:55.820Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

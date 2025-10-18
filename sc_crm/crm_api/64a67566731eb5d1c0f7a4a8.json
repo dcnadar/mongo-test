@@ -1,0 +1,11 @@
+{
+  "_id": "64a67566731eb5d1c0f7a4a8",
+  "name": "Create Brand",
+  "action": "CRM_GRID",
+  "sourceId": "64a6708c099de82bca61caad",
+  "gridType": "form",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/product/brand/create",
+  "created": "2024-01-27T07:48:43.976Z"
+}

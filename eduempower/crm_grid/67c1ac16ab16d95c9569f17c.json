@@ -1,0 +1,92 @@
+{
+  "_id": "67c1ac16ab16d95c9569f17c",
+  "gridTitle": "Collect Fee ",
+  "gridType": "table",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "columns": [
+    {
+      "$key": "fmckcggghov",
+      "key": "academicDetails.admissionNo",
+      "name": "Admission No",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "h1rroftg8zr",
+      "key": "_id",
+      "name": "Student",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "1xdkmr0ami8",
+      "key": "academicDetails.class",
+      "name": "Class",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "58ldxqncyub",
+      "key": "academicDetails.section",
+      "name": "Section",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "15j1q9wuigmj",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "dddlbz33sms",
+      "key": "email",
+      "name": "Email",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "p5clcsbon1c",
+      "key": "academicDetails.feeCategory",
+      "name": "Fee Category",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "j3fymvq8f7r",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "6tt96szf60m",
+          "gridTitle": "Collect Fee",
+          "value": "Collect Fee",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": []
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-02-28T12:29:10.895Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "_workLocation",
+      "required": true,
+      "serverValue": "filter_value",
+      "value": "_workLocation"
+    }
+  ],
+  "updated": "2025-09-08T10:51:04.236Z"
+}

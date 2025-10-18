@@ -1,0 +1,115 @@
+{
+  "_id": "68a99ed0b06332591026b7f7",
+  "gridTitle": "Staff",
+  "gridType": "form",
+  "crmModelId": "6703b5dc30083226ac6affc4",
+  "rows": [
+    {
+      "$key": "baejvytrrow",
+      "fields": [
+        {
+          "id": "logo",
+          "title": "Avatar",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 6,
+          "$key": "be5e2ta1ec"
+        },
+        {
+          "$key": "zedjwhkffb",
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 9
+        },
+        {
+          "$key": "eb2ygu6mia",
+          "id": "lastName",
+          "title": "Last Name",
+          "type": "text",
+          "span": 9
+        },
+        {
+          "$key": "d88hikwr85",
+          "id": "userName",
+          "title": "userName",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "wbyj35bqga",
+          "id": "email",
+          "title": "Email Address",
+          "type": "email",
+          "span": 8
+        },
+        {
+          "$key": "lrnjhwmtva",
+          "id": "mobileNumber",
+          "title": "Phone Number",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "hi6c57zuvyk",
+          "id": "address",
+          "title": "Address",
+          "type": "textarea",
+          "span": 12
+        },
+        {
+          "$key": "uxgxb8fznrq",
+          "id": "bio",
+          "title": "Bio",
+          "span": 12,
+          "type": "textarea",
+          "o": true
+        },
+        {
+          "$key": "zvoxii9e0vk",
+          "id": "userType",
+          "title": "UserType",
+          "type": "text",
+          "multiple": false,
+          "createType": "hidden_fe",
+          "updateType": "hidden"
+        },
+        {
+          "$key": "3h4qph8jnpf",
+          "id": "password",
+          "title": "Password",
+          "type": "password",
+          "span": 12,
+          "updateType": "hidden_fe",
+          "createType": "none"
+        },
+        {
+          "$key": "w74bumuutqk",
+          "id": "admin",
+          "title": "Admin",
+          "type": "bool",
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-23T10:58:24.099Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "userType",
+      "required": true,
+      "serverValue": "fixed_value",
+      "value": "STAFF"
+    }
+  ],
+  "updated": "2025-09-05T11:02:53.650Z"
+}

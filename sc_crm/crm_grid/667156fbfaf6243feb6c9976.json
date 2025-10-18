@@ -1,0 +1,67 @@
+{
+  "_id": "667156fbfaf6243feb6c9976",
+  "gridTitle": " NativeGrid GlobalCommonProductList5 Section",
+  "gridType": "form",
+  "crmModelId": "66713891faf6243feb6c9966",
+  "rows": [
+    {
+      "$key": "0m41nbrhx2sl",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 24,
+          "$key": "4gicr99wh9d"
+        },
+        {
+          "$key": "viw6mpd2nl",
+          "id": "category",
+          "title": "Category",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "mlb71yiqsgo",
+          "id": "rating",
+          "title": "Rating",
+          "type": "number",
+          "span": 12
+        },
+        {
+          "$key": "wujijxyf8n",
+          "id": "price",
+          "title": "Price",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "4aeknh4708u",
+          "id": "mrp",
+          "title": "Mrp",
+          "type": "text",
+          "span": 10
+        },
+        {
+          "$key": "4r0ggi6493q",
+          "id": "currencycode",
+          "title": "Currency Code",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "2h00uo696ot",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 16
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T09:44:27.119Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

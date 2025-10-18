@@ -1,0 +1,12 @@
+{
+  "_id": "665c29087a29a87a0def3d91",
+  "name": "Delete Variant Option",
+  "path": "/admin/product/variant-option/deletes",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "665c1a407a29a87a0def3d85",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-02T08:10:48.300Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

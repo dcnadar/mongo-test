@@ -1,0 +1,59 @@
+{
+  "_id": "66252e02990ac402ed0d3eca",
+  "gridTitle": "Eduempower VendorDetails",
+  "gridType": "form",
+  "crmModelId": "66252613990ac402ed0d3ebf",
+  "rows": [
+    {
+      "$key": "zo3lw4br4lm",
+      "fields": [
+        {
+          "id": "vendor",
+          "title": "Vendor",
+          "type": "list",
+          "multiple": false,
+          "$key": "bugup0hgo5r",
+          "span": 8
+        },
+        {
+          "$key": "o7wdgqzyxjk",
+          "id": "purchasePrice",
+          "title": "Purchase Price",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "wqb0hqoumcs",
+          "id": "purchaseDate",
+          "title": "Purchase Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "q5solhzioes",
+          "id": "quantity",
+          "title": "Quantity",
+          "type": "number",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T15:17:22.816Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:01.132Z"
+}

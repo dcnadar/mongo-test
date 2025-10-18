@@ -1,0 +1,77 @@
+{
+  "_id": "67b85ef5d102ac67ee6a50fb",
+  "name": "ReactGrid GlobalCustomerSignIn",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "hcms4q4qpqe",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "azo1ynux6th",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y4ou60pzxmp",
+      "key": "emailLabel",
+      "name": "Email Label",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "h7kfa2gdx8",
+      "key": "emailPlaceholder",
+      "name": "Email Placeholder",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cg43ecsw4nf",
+      "key": "passwordLabel",
+      "name": "Password Label",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "k0g4udiclif",
+      "key": "passwordPlaceholder",
+      "name": "Password Placeholder",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "h68ngmuxuz9",
+      "key": "signInButtonText",
+      "name": "SignIn ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "h5acm876ui",
+      "key": "otherSignInText",
+      "name": "Other SignInText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8f8l9buj4av",
+      "key": "googleButtonText",
+      "name": "Google ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dk3zxrs33d",
+      "key": "signUpMessage",
+      "name": "SignUp Message",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bsyvn9ukei",
+      "key": "buttonTextSignUp",
+      "name": "ButtonText SignUp",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-21T11:09:41.740Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

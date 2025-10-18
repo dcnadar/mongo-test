@@ -1,0 +1,62 @@
+{
+  "_id": "66644ef507b1a041b15e0ba5",
+  "gridTitle": "Farmer Producer Organization",
+  "gridType": "form",
+  "crmModelId": "66644ad107b1a041b15e0ba1",
+  "rows": [
+    {
+      "$key": "xzutlhv5e",
+      "fields": [
+        {
+          "$key": "6ovk9p7t004",
+          "id": "fpoName",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "a6nfj0bd35p",
+          "id": "blockId",
+          "title": "Area of operation",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "min": 1,
+          "max": 20,
+          "span": 8
+        },
+        {
+          "$key": "ewr7gav4aho",
+          "id": "registrationDate",
+          "title": "Registration Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "kgbksew2uvq",
+          "id": "legalEntityType",
+          "title": "Legal Entity Type",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "hkwg0ttp6ue",
+          "id": "address",
+          "title": "Address",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T12:30:45.363Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false
+}

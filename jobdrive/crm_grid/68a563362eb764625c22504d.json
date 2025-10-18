@@ -1,0 +1,41 @@
+{
+  "_id": "68a563362eb764625c22504d",
+  "gridTitle": "Interview Completed",
+  "gridType": "form",
+  "crmModelId": "68a2dff154ca9a05d8c9777f",
+  "rows": [
+    {
+      "$key": "tvqf8xa1cjn",
+      "fields": [
+        {
+          "id": "location",
+          "title": "Location",
+          "type": "text",
+          "span": 8,
+          "$key": "hyrx0ckzzid"
+        },
+        {
+          "$key": "livi32x2tg",
+          "id": "feedback",
+          "title": "Feedback",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "tv97bd9wrgg",
+          "id": "score",
+          "title": "Score",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-20T05:55:02.332Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "postUrl": "/api/io/admin/interview/completed",
+  "updated": "2025-09-05T11:02:53.238Z"
+}

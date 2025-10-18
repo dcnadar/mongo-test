@@ -1,0 +1,42 @@
+{
+  "_id": "66a34c35e287100717693bc9",
+  "gridTitle": "Order Number Setting",
+  "gridType": "form",
+  "crmModelId": "66a34b77e287100717693bc7",
+  "rows": [
+    {
+      "$key": "z1hn83j8x4",
+      "fields": [
+        {
+          "id": "orderNoPrefix",
+          "title": "Order Number prefix",
+          "type": "text",
+          "o": true,
+          "span": 24,
+          "$key": "g3qhjbbi3xj"
+        },
+        {
+          "$key": "n3z3u1ccwnj",
+          "id": "orderCurrentNo",
+          "title": "Order Current Number",
+          "type": "number",
+          "o": true,
+          "span": 24
+        },
+        {
+          "$key": "ofyq7h4ubte",
+          "id": "orderNoPostfix",
+          "title": "Order Number postfix",
+          "o": true,
+          "span": 24,
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T07:11:49.784Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "upsertDoc": false
+}

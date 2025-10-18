@@ -1,0 +1,44 @@
+{
+  "_id": "662b52c1dd50c90abe7a7dbd",
+  "name": "WebsitePlugin",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "9v9exg7zbv",
+      "key": "pluginType",
+      "name": "Plugin Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "q02s77riae",
+            "key": "GOOGLE_TAG_MANAGER",
+            "value": "Google Tag Manager"
+          },
+          {
+            "$key": "8pybs8s9dtt",
+            "key": "GOOGLE_ANALYTICS",
+            "value": "Google Analytics"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "x21qym3mcv9",
+      "key": "measurementId",
+      "name": "Measurement Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vgd03du3o6",
+      "key": "gtmId",
+      "name": "GTM Id",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-26T07:07:45.094Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

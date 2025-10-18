@@ -1,0 +1,20 @@
+{
+  "_id": "655e0db76bf5e640cd3a5c08",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name"
+    },
+    {
+      "dataType": "STRING",
+      "key": "value",
+      "name": "Value"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Product Variant Option Image Value",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:52.299Z"
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "660837fd3afc795c92fa7f61",
+  "email": "timtimtrp2021@gmail.com",
+  "mobileNumber": "",
+  "landlineNumber": "",
+  "gender": "MALE",
+  "roleId": "admin",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "password": "ld14402V8Hf48JMh8xLE4HnMPE6YpplLnuECEb4h7GA=",
+  "callingCode": "+91",
+  "userName": "timtimtrp2021@gmail.com",
+  "appId": "65e255c8efb82357eb86d51b",
+  "ecomAccountId": "65e2539fefb82357eb86d514",
+  "firstName": "Timtim",
+  "lastName": "Kumari",
+  "crmLastFilter": {
+    "accountId": "5d6590b3af790ca2bcc707b7"
+  },
+  "admin": true,
+  "userType": "STAFF"
+}

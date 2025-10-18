@@ -1,0 +1,49 @@
+{
+  "_id": "673124c27a1bdc0b65d0bd23",
+  "gridTitle": "Admission Enquiry followup\t",
+  "gridType": "table",
+  "crmModelId": "672f03287a1bdc0b65d0bd0b",
+  "columns": [
+    {
+      "$key": "gh23ylwasx",
+      "name": "Next Follow-Up Date",
+      "key": "nextFollowUp",
+      "type": "date",
+      "sort": false
+    },
+    {
+      "$key": "mxjn8jxavzj",
+      "name": "Follow-Up Remark",
+      "key": "remark",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "d0y6dut1p8t",
+      "name": "Follow-Up Status",
+      "key": "followUpStatus",
+      "type": "tag",
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "c2qkdswkkkc",
+      "gridTitle": "Add new Follow-Up",
+      "value": "Add Follow-Up",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/admission/follow-up/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "backUrl": "/admin/admission/manage/all",
+  "gridParams": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-10T21:25:22.285Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:03.020Z"
+}

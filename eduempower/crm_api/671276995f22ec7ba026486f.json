@@ -1,0 +1,20 @@
+{
+  "_id": "671276995f22ec7ba026486f",
+  "name": "Add Work Experience",
+  "path": "/admin/staff/work-experience/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "671260995f22ec7ba026485a",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T14:54:17.578Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true
+    }
+  ],
+  "updated": "2025-09-08T10:50:52.132Z"
+}

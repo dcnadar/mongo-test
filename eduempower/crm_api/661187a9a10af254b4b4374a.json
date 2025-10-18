@@ -1,0 +1,13 @@
+{
+  "_id": "661187a9a10af254b4b4374a",
+  "name": "All Class Subject",
+  "path": "/admin/schoolsetup/examinations/class-subject/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660fbc24c7b99128d924f77a",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T17:34:33.693Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:46.547Z"
+}

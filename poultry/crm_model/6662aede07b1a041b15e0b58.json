@@ -1,0 +1,165 @@
+{
+  "_id": "6662aede07b1a041b15e0b58",
+  "name": "Farmer",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "poultry_farmer",
+  "properties": [
+    {
+      "$key": "gsfopuifbr7",
+      "key": "uniqueId",
+      "name": "Unique Id",
+      "dataType": "STRING",
+      "unique": true,
+      "searchable": {
+        "primary": false,
+        "description": true
+      },
+      "modelId": "67d060b78662d46110c0619a"
+    },
+    {
+      "$key": "nr62fpy6x",
+      "key": "farmerName",
+      "name": "Farmer Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true,
+        "primary": false
+      },
+      "modelId": "67d060b78662d46110c0619a"
+    },
+    {
+      "$key": "dz0u8bdubi4",
+      "key": "fatherOrHusbandName",
+      "name": "Father or Husband Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3z8pckpql34",
+      "key": "phone",
+      "name": "Phone",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "9s046fv4iba",
+      "key": "aadhaar",
+      "name": "Aadhaar",
+      "unique": true,
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "j0y1s13gv2m",
+      "key": "villageId",
+      "name": "Village",
+      "dataType": "REFERENCE",
+      "modelId": "6664494307b1a041b15e0ba0"
+    },
+    {
+      "$key": "hojpeq11jb",
+      "key": "gramPanchayatId",
+      "name": "Gram Panchayat",
+      "dataType": "REFERENCE",
+      "modelId": "6664488d07b1a041b15e0b9f"
+    },
+    {
+      "$key": "t9sesc0g3q",
+      "key": "districtId",
+      "name": "District",
+      "dataType": "REFERENCE",
+      "modelId": "6662abef07b1a041b15e0b54"
+    },
+    {
+      "$key": "mf2hyf2gg2q",
+      "key": "blockId",
+      "name": "Block",
+      "dataType": "REFERENCE",
+      "modelId": "6662ac4007b1a041b15e0b55"
+    },
+    {
+      "$key": "djr5efkb0p",
+      "key": "shgId",
+      "name": "SHG",
+      "dataType": "REFERENCE",
+      "modelId": "6662acf307b1a041b15e0b57"
+    },
+    {
+      "$key": "015r3ejhv2m6",
+      "key": "pgId",
+      "name": "PG",
+      "dataType": "REFERENCE",
+      "modelId": "6662ac9c07b1a041b15e0b56"
+    },
+    {
+      "$key": "zygt2kdhzj",
+      "key": "annualFamilyIncome",
+      "name": "Annual Family Income",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y1oidd86ni",
+      "key": "fpoId",
+      "name": "FPO",
+      "dataType": "REFERENCE",
+      "modelId": "66644ad107b1a041b15e0ba1"
+    },
+    {
+      "$key": "x6jj72gm2si",
+      "key": "stateId",
+      "name": "State",
+      "dataType": "REFERENCE",
+      "modelId": "6664474607b1a041b15e0b9e"
+    },
+    {
+      "$key": "9wjc4hhbxlt",
+      "key": "farmerFarmStatus",
+      "name": "Farmer Farm Status",
+      "dataType": "INNER_MODEL",
+      "modelId": "66755cc14a068a49da02152f"
+    },
+    {
+      "$key": "ak5u2apgndv",
+      "key": "dataCollectorUser",
+      "name": "Data Collector",
+      "dataType": "REFERENCE",
+      "modelId": "6662a17007b1a041b15e0b52"
+    },
+    {
+      "$key": "7ad0zc08pq7",
+      "key": "shgCode",
+      "name": "SHG code",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "hi3juf99xc",
+      "key": "dateOfEstablishment",
+      "name": "Date of Establishment",
+      "dataType": "DATE"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {
+    "title": "farmerName",
+    "details": [
+      {
+        "$key": "9al3rcxuell",
+        "value": "uniqueId",
+        "key": "ID"
+      },
+      {
+        "$key": "c66b5t26t0r",
+        "key": "MOB",
+        "value": "phone"
+      }
+    ]
+  },
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T06:55:26.033Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "compoundUniqueFields": []
+}

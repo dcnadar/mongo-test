@@ -1,0 +1,20 @@
+{
+  "_id": "66d6aef674ed55427bf5478b",
+  "name": "Delete current user address",
+  "path": "/cuser/address/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "66a35460e287100717693bcf",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-03T06:38:46.590Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

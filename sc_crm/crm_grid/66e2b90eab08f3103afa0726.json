@@ -1,0 +1,186 @@
+{
+  "_id": "66e2b90eab08f3103afa0726",
+  "gridTitle": "ReactGrid GlobalCart",
+  "gridType": "form",
+  "crmModelId": "66e2a6c9ab08f3103afa0725",
+  "rows": [
+    {
+      "$key": "9mb7snhurq5",
+      "fields": [
+        {
+          "id": "deliverToText",
+          "title": "DeliverToText",
+          "type": "text",
+          "span": 8,
+          "$key": "vs8exypdi"
+        },
+        {
+          "$key": "v5vgqk8qvpj",
+          "id": "changeAddressText",
+          "title": "ChangeAddressText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "l3op7bektkg",
+          "id": "couponText",
+          "title": "CouponText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "mfyh37xzmn",
+          "id": "applayCouponsText",
+          "title": "ApplayCouponsText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "5dnvpokpetv",
+          "id": "applayCouponsButtonText",
+          "title": "ApplayCouponsButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "1ruvb5q4ghm",
+          "id": "editButtonText",
+          "title": "EditButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "5tpaygmh6ya",
+          "id": "outOfStockMessage",
+          "title": "OutOfStockMessage",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "t4p1tcw8ycg",
+          "id": "fewLeftText",
+          "title": "FewLeftText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "etwwahqbqep",
+          "id": "orderSummaryHeading",
+          "title": "OrderSummaryHeading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "wtkw7tpppa",
+          "id": "shoppingCartHeading",
+          "title": "ShoppingCartHeading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "77klljonpoi",
+          "id": "discountText",
+          "title": "DiscountText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "r2c1eevibd",
+          "id": "checkoutButtonText",
+          "title": "CheckoutButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "sztjhapeggf",
+          "id": "subTotalText",
+          "title": "SubTotalText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "rj6nz007o2e",
+          "id": "shippingText",
+          "title": "ShippingText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "zdjpizohk1",
+          "id": "taxText",
+          "title": "TaxText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "9gywzndl2ea",
+          "id": "orderTotalText",
+          "title": "OrderTotalText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "n0laqcw3m8q",
+          "id": "emptyMessageText",
+          "title": "EmptyMessageText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "iypcrd5pgkg",
+          "id": "storeButtonText",
+          "title": "StoreButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "z93vk1wllq",
+          "id": "onlineModeText",
+          "title": "OnlineModeText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "b4t9e3bjn6p",
+          "id": "payLableText",
+          "title": "PayLableText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "4jrf2ee8k3a",
+          "id": "cashModeText",
+          "title": "CashModeText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ircqhmstj8",
+          "id": "taxableAmountText",
+          "title": "TaxableAmountText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "46rjkyk85nu",
+          "id": "gstText",
+          "title": "GstText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "xsarwsjd4gr",
+          "id": "extraChargesText",
+          "title": "ExtraChargesText",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-12T09:49:02.604Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

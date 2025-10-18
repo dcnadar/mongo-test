@@ -1,0 +1,15 @@
+{
+  "_id": "671af62a5f22ec7ba0264a02",
+  "name": "Add Student Transfer History",
+  "path": "/admin/staff/transfer/history/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "671a29275f22ec7ba02649de",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-25T01:36:42.243Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:55.281Z"
+}

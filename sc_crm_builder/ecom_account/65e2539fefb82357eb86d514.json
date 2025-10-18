@@ -1,0 +1,23 @@
+{
+  "_id": "65e2539fefb82357eb86d514",
+  "name": "Radyfy",
+  "status": "ACTIVE",
+  "domain": [
+    "radyfy.com",
+    "superhost"
+  ],
+  "favicon": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/8/16/file_3ipcf6eb7ct-1757999305362.ico",
+  "logo": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/8/16/file_0kdlo0rhz1ze-1757999333256.png",
+  "loginImages": [
+    "/default/default/6899f37b7805d23c977499b4/imageUpload/2025/8/16/file_ki84uuxpiz-1758006801143.png"
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "subDomain": "super",
+  "theme": "global",
+  "created": "2025-09-06T09:46:29.642Z",
+  "updated": "2025-09-06T09:46:29.642Z",
+  "entityMongoDBCredential": {
+    "useDefaultCluster": true,
+    "dbName": "radyfy-dev-entity"
+  }
+}

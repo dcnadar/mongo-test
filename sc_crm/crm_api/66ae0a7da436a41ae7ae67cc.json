@@ -1,0 +1,13 @@
+{
+  "_id": "66ae0a7da436a41ae7ae67cc",
+  "name": "Add Review POST",
+  "path": "/admin/order/review/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66ae0a67a436a41ae7ae67ca",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-03T10:46:21.945Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,74 @@
+{
+  "_id": "67371f8502f79267ffc56594",
+  "name": "Eduempower Account",
+  "modelType": "COLLECTION",
+  "baseModelId": "67371c6002f79267ffc56592",
+  "collectionName": "ecom_account",
+  "properties": [
+    {
+      "$key": "umsr5043ew7",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "ehkfg53vblw",
+      "key": "domain",
+      "name": "Domains",
+      "dataType": "LIST_OF",
+      "listType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "ydgnb4kgc4",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING",
+      "searchable": {
+        "thumb": true
+      }
+    },
+    {
+      "$key": "lzxfsoft9ig",
+      "key": "favicon",
+      "name": "Favicon",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "iroc5isovvl",
+      "key": "loginImages",
+      "name": "Login Banner Images",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "y8gmxbi5wz7",
+      "key": "branch",
+      "name": "Branch",
+      "dataType": "INNER_MODEL",
+      "modelId": "67aecfa1397e373602fa0cf5",
+      "listType": "REFERENCE"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name",
+    "thumb": "logo",
+    "subtitles": [
+      "domain"
+    ]
+  },
+  "menuTargets": {
+    "title": "name",
+    "thumb": "logo",
+    "details": [],
+    "description": "domain"
+  },
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-15T10:16:37.913Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

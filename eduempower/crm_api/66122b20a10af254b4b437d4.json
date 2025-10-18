@@ -1,0 +1,13 @@
+{
+  "_id": "66122b20a10af254b4b437d4",
+  "name": "Edit Leave Plan",
+  "path": "/admin/schoolsetup/leave-settings/leave-plan/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cd6b3c7b99128d924f724",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T05:12:00.717Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:49.838Z"
+}

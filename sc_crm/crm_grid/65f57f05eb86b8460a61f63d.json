@@ -1,0 +1,52 @@
+{
+  "_id": "65f57f05eb86b8460a61f63d",
+  "gridTitle": "ReactGrid GlobalStatsSection2",
+  "gridType": "form",
+  "rows": [
+    {
+      "fields": [
+        {
+          "type": "text",
+          "span": 7,
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 20,
+          "id": "heading",
+          "title": "Heading"
+        },
+        {
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 17
+        },
+        {
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 20
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-16T11:14:13.826Z",
+  "crmModelId": "65f57eb3eb86b8460a61f63c"
+}

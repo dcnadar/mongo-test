@@ -1,0 +1,68 @@
+{
+  "_id": "66d93f0020ea9a402cc8a3a3",
+  "name": "NativeGrid ButtonAction",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "o2pv1dnm4kn",
+      "key": "navigateTo",
+      "name": "NavigateTo",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "026rw3ilevk1",
+            "key": "category",
+            "value": "Category"
+          },
+          {
+            "$key": "e1sbh0cnd7a",
+            "key": "product",
+            "value": "Product"
+          },
+          {
+            "$key": "ri16omty84",
+            "key": "screen",
+            "value": "Screen"
+          },
+          {
+            "$key": "8l6bgbwhoy4",
+            "key": "webView",
+            "value": "WebView"
+          }
+        ]
+      },
+      "modelId": "648b5dfa568ed162c961ede3"
+    },
+    {
+      "$key": "uz4gajv1q5f",
+      "key": "category",
+      "name": "Category",
+      "dataType": "REFERENCE",
+      "modelId": "648563687d5f915dc103d28f"
+    },
+    {
+      "$key": "qn4t1nax57d",
+      "key": "product",
+      "name": "Product",
+      "dataType": "REFERENCE",
+      "modelId": "648563687d5f915dc103d28f"
+    },
+    {
+      "$key": "v3srwybydm",
+      "key": "screen",
+      "name": "Screen",
+      "dataType": "REFERENCE",
+      "modelId": "666fddaafaf6243feb6c98d1"
+    },
+    {
+      "$key": "9ddfz4cs0ei",
+      "key": "webLink",
+      "name": "WebLink",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-05T05:17:52.403Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

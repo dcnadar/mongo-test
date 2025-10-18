@@ -1,0 +1,89 @@
+{
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Examination Name",
+      "searchable": {
+        "value": true
+      },
+      "unique": true
+    },
+    {
+      "dataType": "STRING",
+      "key": "centerName",
+      "name": "Center Name",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "guidelines",
+      "name": "Guidelines"
+    },
+    {
+      "dataType": "DOUBLE",
+      "key": "registrationFee",
+      "name": "Registration Fee"
+    },
+    {
+      "dataType": "STRING",
+      "key": "contactEmail",
+      "name": "Contact Email"
+    },
+    {
+      "dataType": "STRING",
+      "key": "contactPhone",
+      "name": "Contact Phone"
+    },
+    {
+      "dataType": "STRING",
+      "key": "examPattern",
+      "name": "Exam Pattern"
+    },
+    {
+      "dataType": "STRING",
+      "key": "syllabus",
+      "name": "Syllabus"
+    },
+    {
+      "dataType": "DATE",
+      "key": "registrationStarts",
+      "name": "Registration Starts"
+    },
+    {
+      "dataType": "DATE",
+      "key": "lastDateOfSignup",
+      "name": "Last Date of Signup"
+    },
+    {
+      "dataType": "DATE",
+      "key": "examDate",
+      "name": "Exam Date"
+    },
+    {
+      "dataType": "DATE",
+      "key": "admitCardRelease",
+      "name": "Admit Card Release"
+    },
+    {
+      "dataType": "DATE",
+      "key": "resultDeclaration",
+      "name": "Result Declaration"
+    }
+  ],
+  "accountId": "65d0d41b0d1f40b74ff1bd92",
+  "collectionName": "niralafoundation_examination",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "name": "NiralaFoundation Examination",
+  "created": "2024-02-11T11:01:02.748Z",
+  "_id": "65c8a8ee49292ef0296fcba4",
+  "cardDataTargets": {
+    "title": "name",
+    "slug": "/admin/exams/update?id=:exam exam",
+    "subtitles": ["centerName"]
+  }
+}

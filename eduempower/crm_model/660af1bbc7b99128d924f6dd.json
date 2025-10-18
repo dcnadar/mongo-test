@@ -1,0 +1,26 @@
+{
+  "_id": "660af1bbc7b99128d924f6dd",
+  "name": "Eduempower BookPublisher",
+  "modelType": "COLLECTION",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "collectionName": "eduempower_book_publisher",
+  "properties": [
+    {
+      "$key": "ko5tpzj9a5q",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-01T17:41:15.066Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.283Z"
+}

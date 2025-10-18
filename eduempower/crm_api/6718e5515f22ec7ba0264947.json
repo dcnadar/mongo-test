@@ -1,0 +1,14 @@
+{
+  "_id": "6718e5515f22ec7ba0264947",
+  "name": "Eduempower Visit",
+  "path": "/admin/front-office/addvisit/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "671a60405f22ec7ba02649ff",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T12:00:17.021Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-08T10:50:54.201Z"
+}

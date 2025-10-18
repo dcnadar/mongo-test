@@ -1,0 +1,13 @@
+{
+  "_id": "669b91ad531ed762273ebc82",
+  "name": "Cart Items",
+  "path": "/admin/customer/cart_items/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "6618f1ceaee00c70206deb24",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-20T10:30:05.810Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

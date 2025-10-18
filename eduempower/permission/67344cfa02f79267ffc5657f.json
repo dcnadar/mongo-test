@@ -1,0 +1,24 @@
+{
+  "_id": "67344cfa02f79267ffc5657f",
+  "key": "school-setup.leave-setting",
+  "name": "Leave Setting",
+  "apisAccess": [
+    "6610e4a1fd0bb04de4cc7037",
+    "66121f59a10af254b4b437c3",
+    "661223e7a10af254b4b437c9",
+    "661223eea10af254b4b437ca",
+    "661224c4a10af254b4b437cc",
+    "661224cca10af254b4b437cd",
+    "661228bea10af254b4b437cf",
+    "661228c6a10af254b4b437d0",
+    "66122a1aa10af254b4b437d1",
+    "66122a25a10af254b4b437d2",
+    "66122b20a10af254b4b437d4",
+    "66122b27a10af254b4b437d5"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-13T06:53:46.002Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.845Z"
+}

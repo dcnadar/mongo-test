@@ -1,0 +1,49 @@
+{
+  "_id": "68c8f39c1b16f8d6e8bc5c98",
+  "name": "TechMahindra",
+  "aId": "32131",
+  "status": "UNDER_DEVELOPMENT",
+  "userDetails": {
+    "firstName": "Pintu",
+    "lastName": "Kumar",
+    "email": "skpintu93@gmail.com"
+  },
+  "companyDetails": {
+    "favicon": "/default/default/6899f37b7805d23c977499b4/imageUpload/2025/8/16/file_ojh5kqii8z-1757999991551.ico",
+    "loginImages": [
+      "/default/default/6899f37b7805d23c977499b4/imageUpload/2025/8/16/file_8sn0n66unql-1758000008418.png"
+    ],
+    "subDomain": "techmahindra",
+    "logo": "/default/default/6899f37b7805d23c977499b4/imageUpload/2025/8/16/file_krur1g3l4f8-1757999888308.svg"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2025-09-16T05:20:28.115Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "dbCredentials": {
+    "dev": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "techmahindra-dev"
+      }
+    },
+    "qa": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "techmahindra-qa"
+      }
+    },
+    "uat": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "techmahindra-uat"
+      }
+    },
+    "prod": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "techmahindra"
+      }
+    }
+  },
+  "version": "1.0.1"
+}

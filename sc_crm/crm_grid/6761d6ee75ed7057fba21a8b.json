@@ -1,0 +1,195 @@
+{
+  "_id": "6761d6ee75ed7057fba21a8b",
+  "gridTitle": "NYF Admissions",
+  "gridType": "table",
+  "crmModelId": "6761d62275ed7057fba21a8a",
+  "columns": [
+    {
+      "$key": "774izh1q453",
+      "key": "name",
+      "name": "Student Name",
+      "type": "name",
+      "sort": false,
+      "width": 100
+    },
+    {
+      "$key": "5orf9d9vyry",
+      "key": "mobileNumber",
+      "name": "Mobile number",
+      "type": "text",
+      "sort": false,
+      "width": 99
+    },
+    {
+      "$key": "48a624ykmhp",
+      "key": "class",
+      "name": "Class",
+      "type": "text",
+      "sort": true,
+      "width": 50
+    },
+    {
+      "$key": "bv7x07ls2bf",
+      "key": "paymentStatus",
+      "name": "Payment Status",
+      "type": "tag",
+      "sort": false,
+      "width": 99
+    },
+    {
+      "$key": "ma2twhi7vaq",
+      "key": "rollNo",
+      "name": "Roll no",
+      "type": "tag",
+      "sort": false,
+      "width": 50
+    },
+    {
+      "$key": "nj3810q5dwe",
+      "key": "fatherName",
+      "name": "Father Name",
+      "type": "text",
+      "sort": false,
+      "width": 100
+    },
+    {
+      "$key": "eazng4xfqy5",
+      "key": "schoolName",
+      "name": "School Name",
+      "type": "text",
+      "sort": false,
+      "width": 100
+    },
+    {
+      "$key": "3y43rdk373x",
+      "key": "created",
+      "name": "Time",
+      "type": "text",
+      "sort": true,
+      "valueCondition": "return new Date(this.created).toISOString().replace('T', ' ').split('.')[0];",
+      "width": 100
+    },
+    {
+      "$key": "exbu8pyq6d",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "width": 200,
+      "align": "right",
+      "actions": [
+        {
+          "$key": "5gyznk96ens",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "gridMsg": "Are you sure?",
+          "apiUrl": "/api/public/nyf/checkout/verify/:pgTransactionId pgTransactionId",
+          "value": "Recheck",
+          "showCondition": "return this.paymentStatus != 'SUCCESS' && !!this.pgTransactionId;"
+        },
+        {
+          "$key": "fy9usat679",
+          "gridType": "download",
+          "gridMsg": "Are your sure?",
+          "apiUrl": "/api/public/nyf/checkout/download/admit-card?rollNo=:rollNo&mobileNo=:mobileNumber rollNo mobileNumber",
+          "showCondition": "return this.paymentStatus === 'SUCCESS';",
+          "value": "Download Admit card"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "uv4q24rooun",
+      "gridTitle": "Export",
+      "gridType": "private_download",
+      "showGridComment": false,
+      "gridMsg": "Are you sure, you want to download?",
+      "apiUrl": "/admin/nyf/admissions/export",
+      "value": "Export",
+      "responseType": "excel",
+      "apiType": "GET"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "1ps0701l2rd",
+      "fields": [
+        {
+          "$key": "3u2xphwude9",
+          "id": "created",
+          "title": "Time",
+          "type": "date_range_2",
+          "span": 6,
+          "o": true,
+          "min": 0
+        },
+        {
+          "$key": "0ohs12f3awiq",
+          "id": "class",
+          "title": "Class",
+          "type": "list",
+          "multiple": true,
+          "o": true,
+          "span": 4,
+          "add": false,
+          "delete": false,
+          "options": [
+            {
+              "$key": "5qbb762kfe3",
+              "key": "5",
+              "value": "5"
+            },
+            {
+              "$key": "2a8ffp5s53a",
+              "key": "6",
+              "value": "6"
+            },
+            {
+              "$key": "0phe4xkmlu",
+              "key": "7",
+              "value": "7"
+            },
+            {
+              "$key": "gvwyfg4xpq",
+              "key": "8",
+              "value": "8"
+            },
+            {
+              "$key": "not6xcmnw",
+              "key": "9",
+              "value": "9"
+            },
+            {
+              "$key": "z99fsnsftmp",
+              "key": "10",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "$key": "32xlpvyvtyy",
+          "id": "paymentStatus",
+          "title": "Payment Status",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": 4
+        }
+      ]
+    }
+  ],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "firstName",
+    "lastName"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-12-17T19:54:22.730Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "search": {
+    "placeHolder": "Search by name or mobile no"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "_id": "660fe795c7b99128d924f782",
+  "gridTitle": "Eduempower Leave Request (OLD)",
+  "gridType": "form",
+  "crmModelId": "660fe1f2c7b99128d924f77f",
+  "rows": [
+    {
+      "$key": "me3ye9i8g6f",
+      "fields": [
+        {
+          "$key": "hgejxrtftwn",
+          "id": "userId",
+          "title": "User Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "w2b12tehd4",
+          "id": "leaveType",
+          "title": "Leave Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "onChangeCondition": [
+            {
+              "$key": "7wykjgyvfws",
+              "key": "leavesTaken",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/leave/apply-leave/leave-taken?leaveType=:leaveType leaveType"
+            }
+          ]
+        },
+        {
+          "$key": "zrdpr60lra9",
+          "id": "leaveSession",
+          "title": "Leave Session",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "5981a0uedhv",
+          "id": "from",
+          "title": "From",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "o2fbv8yidw8",
+          "id": "to",
+          "title": "To",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "q4iexy7gfmn",
+          "id": "noOfLeaves",
+          "title": "No Of Leaves",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "qz2cke1u99j",
+          "id": "leavesTaken",
+          "title": "Leaves Taken",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "17gg4ut6v6t",
+          "id": "leavesBalance",
+          "title": "Leave Balance",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "s09r6pth7m",
+          "id": "reason",
+          "title": "Reason",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "s3kqtyfz0an",
+          "id": "document",
+          "title": "Document",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "x0xrlu4c7gd",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-05T11:59:17.011Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:51:00.356Z"
+}

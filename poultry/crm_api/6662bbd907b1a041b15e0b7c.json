@@ -1,0 +1,13 @@
+{
+  "_id": "6662bbd907b1a041b15e0b7c",
+  "name": "Edit Producer Group",
+  "path": "/admin/groups/producer-group/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6662afa907b1a041b15e0b5b",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:50:49.191Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

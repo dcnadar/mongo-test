@@ -1,0 +1,14 @@
+{
+  "_id": "6671938efaf6243feb6c999c",
+  "name": "Update Screen Section Group",
+  "path": "/admin/mobileapp/settings/section-group/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66718a6efaf6243feb6c9991",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T14:02:54.894Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

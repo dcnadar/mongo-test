@@ -1,0 +1,51 @@
+{
+  "_id": "660ce448c7b99128d924f72f",
+  "gridTitle": "Eduempower FeeFine FeeSlabFavourLogic",
+  "gridType": "form",
+  "crmModelId": "6609624dc7b99128d924f66a",
+  "rows": [
+    {
+      "$key": "wicxrovfjb",
+      "fields": [
+        {
+          "$key": "l49x0elidbp",
+          "id": "from",
+          "title": "From",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "b7oy3pd5agh",
+          "id": "to",
+          "title": "To",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "c6j8bb9bg4",
+          "id": "value",
+          "title": "Value",
+          "type": "number",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T05:08:24.553Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:58.619Z"
+}

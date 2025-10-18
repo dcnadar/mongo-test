@@ -1,0 +1,41 @@
+{
+  "_id": "678f24fb179e036c80a4d928",
+  "gridTitle": "InventoryBook",
+  "gridType": "form",
+  "crmModelId": "678f228b179e036c80a4d927",
+  "rows": [
+    {
+      "$key": "m455zc3t9ed",
+      "fields": [
+        {
+          "id": "bookItemId",
+          "title": "Book Id",
+          "type": "text",
+          "span": 14,
+          "$key": "b2qm4xgfafm"
+        },
+        {
+          "$key": "3huscuw2a22",
+          "id": "inventoryId",
+          "title": "Inventory Id",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "22ijtiq41fyh",
+          "id": "bookId",
+          "title": "Book Id",
+          "span": 12,
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-21T04:39:23.962Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:03.859Z"
+}

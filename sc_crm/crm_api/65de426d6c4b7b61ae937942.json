@@ -1,0 +1,11 @@
+{
+  "_id": "65de426d6c4b7b61ae937942",
+  "name": "Website Page Seo",
+  "action": "FORM_SAVE",
+  "sourceId": "65de2d61b5345e6e3d426c01",
+  "gridType": "form",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "POST",
+  "path": "/admin/website/page/seo",
+  "created": "2024-02-27T20:13:33.235Z"
+}

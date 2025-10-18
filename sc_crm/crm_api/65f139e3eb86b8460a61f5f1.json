@@ -1,0 +1,11 @@
+{
+  "_id": "65f139e3eb86b8460a61f5f1",
+  "name": "Website Page Section Info",
+  "path": "/admin/website/settings/section-info",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "65f13893eb86b8460a61f5ef",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-13T05:30:11.301Z"
+}

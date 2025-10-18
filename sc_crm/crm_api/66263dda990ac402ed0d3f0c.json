@@ -1,0 +1,12 @@
+{
+  "_id": "66263dda990ac402ed0d3f0c",
+  "name": "Supplier",
+  "path": "/admin/account/supplier/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "6618db58aee00c70206deb1a",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T10:37:14.409Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

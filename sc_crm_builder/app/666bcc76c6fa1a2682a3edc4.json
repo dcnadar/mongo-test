@@ -1,0 +1,11 @@
+{
+  "_id": "666bcc76c6fa1a2682a3edc4",
+  "name": "super",
+  "basePath": "",
+  "ecomAccountId": "65e2539fefb82357eb86d514",
+  "appType": "ECOM_SUBSCRIBER_WEB",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2024-06-13T05:35:54.995Z",
+  "_class": "com.trufal.common.model.App",
+  "updated": "2025-09-06T09:46:22.940Z"
+}

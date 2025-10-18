@@ -1,0 +1,31 @@
+{
+  "_id": "662371b27d57294ed2705109",
+  "gridTitle": "UserPassword",
+  "gridType": "form",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "rows": [
+    {
+      "$key": "iw2cppp537m",
+      "fields": [
+        {
+          "id": "password",
+          "title": "Password",
+          "type": "password",
+          "$key": "nd966xf25f",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-20T07:41:38.545Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "user",
+      "required": true,
+      "documentKey": "id"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_id": "65b53659f7815fa135bd04df",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-27T16:59:05.919Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Header",
+          "id": "header",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "65b53659f7815fa135bd04dc"
+          },
+          "hint": "Header details including heading and description",
+          "$key": "gh38b7vr2ak"
+        },
+        {
+          "$key": "3a1ixla7e8h",
+          "id": "showDynamicContent",
+          "title": "Show Dynamic Content",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "wyqqba59gjh",
+          "id": "dynamicContentFilter",
+          "title": "Dynamic Content Filters",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "showCondition": "return this.showDynamicContent;"
+        },
+        {
+          "index": 1,
+          "title": "Sections",
+          "id": "sections",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 20,
+          "countTitle": "No Section Added",
+          "add": true,
+          "delete": true,
+          "hint": "Collection of sections with blog cards",
+          "$key": "1fnoevduc1jj",
+          "showCondition": "return !this.showDynamicContent;"
+        },
+        {
+          "$key": "8858pu16gj8",
+          "id": "showFilter",
+          "title": "ShowFilter",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "fds1qmgumxr",
+          "id": "showSearch",
+          "title": "ShowSearch",
+          "type": "bool",
+          "span": 8
+        }
+      ],
+      "$key": "7lmjf9py1kd"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b53659f7815fa135bd04db",
+  "gridTitle": "ReactGrid GlobalBlogCards",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "6611518623b39252de459b23",
+  "name": "All Fee Category",
+  "path": "/admin/schoolsetup/fee-settings/fee-category/all",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "table",
+  "sourceId": "660d6451c7b99128d924f75a",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T13:43:34.887Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:45.407Z"
+}

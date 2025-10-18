@@ -1,0 +1,61 @@
+{
+  "_id": "66644d5e07b1a041b15e0ba3",
+  "gridTitle": "Gram Panchayat",
+  "gridType": "form",
+  "crmModelId": "6664488d07b1a041b15e0b9f",
+  "rows": [
+    {
+      "$key": "rest3a8zl0e",
+      "fields": [
+        {
+          "$key": "znqlwxcbej",
+          "id": "stateId",
+          "title": "State",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "districtId"
+          ]
+        },
+        {
+          "$key": "hgqlcevlmm6",
+          "id": "districtId",
+          "title": "District",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "stateId=:stateId stateId"
+          },
+          "nullIds": [
+            "blockId"
+          ]
+        },
+        {
+          "$key": "akd0nrto67l",
+          "id": "blockId",
+          "title": "Block",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "districtId=:districtId districtId"
+          }
+        },
+        {
+          "$key": "r6p2k5rhti",
+          "id": "gramPanchayatName",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T12:23:58.639Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/location/gram-panchayat/all"
+}

@@ -1,0 +1,94 @@
+{
+  "_id": "66d9407120ea9a402cc8a3a4",
+  "name": "ReactGrid GlobalHeader4 loginData",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "09mcm7m13knf",
+      "key": "loginHeading",
+      "name": "LoginHeading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5o96l3a51qv",
+      "key": "resetHeading",
+      "name": "ResetHeading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dkiyjtzcuh",
+      "key": "registerHeading",
+      "name": "RegisterHeading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rjxy9dsvus",
+      "key": "forgetButtonText",
+      "name": "ForgetButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fi14g87ilov",
+      "key": "customerButtonText",
+      "name": "CustomerButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "j6c240m04y",
+      "key": "resetTitle",
+      "name": "ResetTitle",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "etvp3hd2q5k",
+      "key": "cancelButtonText",
+      "name": "CancelButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "pbn6h7ky3w",
+      "key": "registerButtonText",
+      "name": "RegisterButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "evq0gkg8a",
+      "key": "emailLabel",
+      "name": "EmailLabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lvwm68a374",
+      "key": "passwordLabel",
+      "name": "PasswordLabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1c3ybj4cupw",
+      "key": "firstNameLabel",
+      "name": "FirstNameLabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "giwb5qqwkhc",
+      "key": "lastNameLabel",
+      "name": "LastNameLabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jewasg0plr",
+      "key": "mobileNumberLabel",
+      "name": "MobileNumberLabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "t5ftu0pz1w8",
+      "key": "emailAddressLabel",
+      "name": "EmailAddressLabel",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-05T05:24:01.769Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "66e9076699c5a61793d1b83f",
+  "gridTitle": "ReactGrid GlobalHeader MainMenu",
+  "gridType": "form",
+  "crmModelId": "66e84a3e99c5a61793d1b82a",
+  "rows": [
+    {
+      "$key": "r06xmnu9cii",
+      "fields": [
+        {
+          "$key": "0ennd3ydr8lu",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "up7ukp1r6b",
+          "id": "buttonAction",
+          "title": "ButtonAction",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "y1llvdt3gdh",
+          "id": "subMenu",
+          "title": "SubMenu",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 5,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-17T04:36:54.270Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

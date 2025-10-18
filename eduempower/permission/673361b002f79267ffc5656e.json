@@ -1,0 +1,14 @@
+{
+  "_id": "673361b002f79267ffc5656e",
+  "key": "leave.apply-leave",
+  "name": "Apply Leave",
+  "apisAccess": [
+    "6718ce0f5f22ec7ba0264916",
+    "6718ce145f22ec7ba0264917"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T14:09:52.434Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.549Z"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "66264b6b990ac402ed0d3f15",
+  "gridTitle": "ReactGrid GlobalSwiperJSCrousal Sections",
+  "gridType": "form",
+  "crmModelId": "66264896990ac402ed0d3f13",
+  "rows": [
+    {
+      "$key": "vjq3ao3qjuf",
+      "fields": [
+        {
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "span": 24,
+          "$key": "wi8mpk6fxxr",
+          "multiple": false
+        },
+        {
+          "$key": "exg4qqfis96",
+          "id": "html",
+          "title": "Html",
+          "type": "text_editor",
+          "span": 23,
+          "o": true
+        },
+        {
+          "$key": "9e895eit6c7",
+          "id": "buttons",
+          "title": "Buttons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T11:35:07.784Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "upsertDoc": false
+}

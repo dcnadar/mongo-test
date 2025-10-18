@@ -1,0 +1,16 @@
+{
+  "_id": "64a499e91952437b761aac16",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Ecom Account Filter",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "REFERENCE",
+      "key": "ecomAccountId",
+      "name": "Ecom Account",
+      "modelId": "647dbb584c329b142537625c"
+    }
+  ],
+  "created": "2024-01-27T07:48:50.398Z"
+}

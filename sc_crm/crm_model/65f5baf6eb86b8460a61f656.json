@@ -1,0 +1,17 @@
+{
+  "_id": "65f5baf6eb86b8460a61f656",
+  "name": "ReactGrid GlobalStatsSection3",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65f5baa5eb86b8460a61f655",
+      "$key": "ldt0r4svffj"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-16T15:29:58.333Z"
+}

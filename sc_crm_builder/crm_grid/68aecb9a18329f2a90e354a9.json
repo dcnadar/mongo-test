@@ -1,0 +1,70 @@
+{
+  "_id": {
+    "$oid": "68aecb9a18329f2a90e354a9"
+  },
+  "gridTitle": "Object Form",
+  "gridType": "form",
+  "crmModelId": "65e4e721d796c9ccbd1b408e",
+  "rows": [
+    {
+      "$key": "kp05wy4axo9",
+      "fields": [
+        {
+          "$key": "pt3f9geaj5",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "hint": "Name of the entity"
+        },
+        {
+          "$key": "j6dxxmjuia",
+          "id": "properties",
+          "title": "Properties",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": {
+            "$numberInt": "24"
+          },
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "200"
+          },
+          "hint": "Properties of the entity"
+        },
+        {
+          "$key": "ma2e19vjis",
+          "id": "modelType",
+          "title": "Model Type",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "INNER",
+          "multiple": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1756285850380"
+    }
+  },
+  "createdBy": "68adb9f43e8ef56770f82104",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151906"
+    }
+  }
+}

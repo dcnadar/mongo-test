@@ -1,0 +1,26 @@
+{
+  "_id": "667174effaf6243feb6c9987",
+  "gridTitle": "App settings menu",
+  "gridType": "menu",
+  "menuItems": [
+    {
+      "$key": "u8oe38ne9uk",
+      "key": "section-info",
+      "value": "Screen-Section-Info",
+      "slug": "/admin/mobileapp/settings/section-info",
+      "icon": "<svg fill=\"#000000\" width=\"64px\" height=\"64px\" viewBox=\"0 0 32 32\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path d=\"M22.005 0h-12.009c-1.657 0-3 1.343-3 3v26c0 1.657 1.343 3 3 3h12.009c1.657 0 3-1.343 3-3v-26c0-1.657-1.343-3-3-3zM23.005 29c0 0.552-0.448 1-1 1h-12.009c-0.552 0-1-0.448-1-1v-26c0-0.552 0.448-1 1-1h12.009c0.552 0 1 0.448 1 1v26zM16.002 25.006c-1.102 0-1.995 0.893-1.995 1.994s0.893 1.995 1.995 1.995c1.102 0 1.995-0.894 1.995-1.995s-0.892-1.994-1.995-1.994zM18.002 3h-4c-0.552 0-1 0.448-1 1s0.448 1 1 1h4c0.552 0 1-0.448 1-1s-0.448-1-1-1z\"></path> </g></svg>"
+    },
+    {
+      "$key": "zjea0a2voi",
+      "key": "section-group",
+      "value": "Screen-Section-Group",
+      "slug": "/admin/mobileapp/settings/section-group",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 48 48\" id=\"a\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#000000\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <defs> <style>.d{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style> </defs> <g> <path class=\"d\" d=\"m27.7679,22.062h0c2.0795,0,3.7679,1.6883,3.7679,3.7679h0c0,2.0796-1.6883,3.7679-3.7679,3.7679h-3.7679v-3.7679c0-2.0795,1.6883-3.7679,3.7679-3.7679Z\"></path> <path class=\"d\" d=\"m27.7679,29.5977h0c2.0795,0,3.7679,1.6883,3.7679,3.7679h0c0,2.0796-1.6883,3.7679-3.7679,3.7679h-3.7679v-3.7679c0-2.0795,1.6883-3.7679,3.7679-3.7679Z\" transform=\"translate(61.1335 5.5977) rotate(90)\"></path> <path class=\"d\" d=\"m16.4642,22.062h3.7679c2.0795,0,3.7679,1.6883,3.7679,3.7679h0c0,2.0796-1.6883,3.7679-3.7679,3.7679h0c-2.0795,0-3.7679-1.6883-3.7679-3.7679v-3.7679h0Z\" transform=\"translate(40.4642 51.6597) rotate(180)\"></path> <path class=\"d\" d=\"m16.4642,29.5977h3.7679c2.0795,0,3.7679,1.6883,3.7679,3.7679h0c0,2.0796-1.6883,3.7679-3.7679,3.7679h0c-2.0795,0-3.7679-1.6883-3.7679-3.7679v-3.7679h0Z\" transform=\"translate(53.5977 13.1335) rotate(90)\"></path> </g> <path class=\"d\" d=\"m14.6463,10.6889c2.2762,3.1298,4.8725,4.8013,9.3537,4.8013,4.4813,0,7.0775-1.6716,9.3537-4.8013\"></path> <g id=\"b\"> <path id=\"c\" class=\"d\" d=\"m40.5,5.5H7.5c-1.1046,0-2,.8954-2,2v33c0,1.1046.8954,2,2,2h33c1.1046,0,2-.8954,2-2V7.5c0-1.1046-.8954-2-2-2Z\"></path> </g> </g></svg>"
+    }
+  ],
+  "thumb": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/thumb/2024/5/18/upload_z7a5sb7itn9-1718711494975.png",
+  "title": "Screen Section Settings",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T11:52:15.521Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "65b627b79191e1c37c78831e",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "heading",
+      "name": "Heading",
+      "$key": "q4eg721gc7d"
+    },
+    {
+      "dataType": "LIST_OF",
+      "key": "images",
+      "name": "Images",
+      "listType": "STRING",
+      "$key": "f1rog1ok7qc"
+    },
+    {
+      "$key": "ikss2k07r6",
+      "key": "title",
+      "name": "Title",
+      "unique": false,
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalImageRow",
+  "modelType": "INNER",
+  "created": "2024-01-28T10:08:55.612Z",
+  "modelStatus": "ACTIVE"
+}

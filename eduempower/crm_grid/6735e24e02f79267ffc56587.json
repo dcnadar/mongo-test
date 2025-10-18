@@ -1,0 +1,118 @@
+{
+  "_id": "6735e24e02f79267ffc56587",
+  "gridTitle": "Fee Stucture Configure",
+  "gridType": "table",
+  "crmModelId": "66096021c7b99128d924f667",
+  "columns": [
+    {
+      "$key": "eojekl7flkf",
+      "key": "typeId",
+      "name": "Fee Type",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "9mtim88qtbp",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true
+    },
+    {
+      "$key": "u5zc7eqt3zr",
+      "key": "installmentCount",
+      "name": "Instalments",
+      "type": "text",
+      "sort": false,
+      "valueCondition": "return this.installments ? this.installments.length : 0;"
+    },
+    {
+      "$key": "60mje54l857",
+      "key": "amount",
+      "name": "Amount",
+      "type": "text",
+      "sort": false,
+      "valueCondition": "return this.installments ? '' + this.installments.reduce((d, i)=> d + i.amount, 0) : 'NA';"
+    },
+    {
+      "$key": "3u8c8jzgf9a",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "width": 199,
+      "actions": [
+        {
+          "$key": "3hwta3s9hhq",
+          "gridTitle": "Add Installments",
+          "value": "Add Installments",
+          "apiUrl": "/admin/schoolsetup/fee-settings/fee-structure/classes/categories/configure/add?classId=:classId&categoryId=:categoryId&typeId=:typeId classId categoryId typeId",
+          "gridType": "popupForm",
+          "showCondition": "return !this.created;"
+        },
+        {
+          "$key": "j4rzwxv4fpi",
+          "apiUrl": "/admin/schoolsetup/fee-settings/fee-structure/classes/categories/configure/edit?id=:_id _id",
+          "gridTitle": "Installments",
+          "value": "Edit Installments",
+          "showCondition": "return !!this.created;",
+          "gridType": "popupForm"
+        },
+        {
+          "$key": "ycud7hc3n3d",
+          "gridTitle": "Activate Fee Structure",
+          "value": "Activate",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "apiUrl": "/api/io/schoolsetup/fee-setting/stucture/status/change?id=:_id&status=ACTIVE _id",
+          "showCondition": "return !!this.created && this.status === 'INACTIVE';",
+          "gridMsg": "Are you sure you want to activate fee stucture?"
+        },
+        {
+          "$key": "3f41muzlhrx",
+          "apiUrl": "/api/io/schoolsetup/fee-setting/stucture/status/change?id=:_id&status=INACTIVE _id",
+          "gridTitle": "Deactivate Fee Structure",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "showCondition": "return !!this.created && this.status === 'ACTIVE';",
+          "gridMsg": "Are you sure you want to deactivate fee stucture?",
+          "value": "Deactivate"
+        },
+        {
+          "$key": "yky5eahix8b",
+          "gridTitle": "Delete Fee Structure",
+          "value": "Delete",
+          "apiUrl": "/admin/schoolsetup/fee-settings/fee-structure/delete?id=:_id _id",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "showCondition": "return !!this.created;",
+          "gridMsg": "Are you sure you want to delete?"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "installments",
+    "created"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-14T11:43:10.797Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "backUrl": "/admin/schoolsetup/fee-settings/fee-structure/classes/categories",
+  "gridParams": [
+    {
+      "key": "classId",
+      "required": true
+    },
+    {
+      "key": "categoryId",
+      "required": true
+    }
+  ],
+  "updated": "2025-09-08T10:51:03.222Z"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "689edb1658973fec4e05cc46",
+  "name": "placementDriveEligibility",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "6a22hyyd5ba",
+      "key": "mincgpa",
+      "name": "MinCGPA",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "yo9eeywat7",
+      "key": "maxBacklogs",
+      "name": "Max Backlogs",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "gkce8b99oh8",
+      "key": "eligibleBranches",
+      "name": "Eligible Branches",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "6899c3647af5145812897af7"
+    },
+    {
+      "$key": "9kt4df00zr",
+      "key": "eligibleSemesters",
+      "name": "Eligible Semesters",
+      "dataType": "LIST_OF",
+      "listType": "INTEGER"
+    },
+    {
+      "$key": "hqpj1tbwskp",
+      "key": "requiredSkills",
+      "name": "Required Skills",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T07:00:38.436Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.406Z"
+}

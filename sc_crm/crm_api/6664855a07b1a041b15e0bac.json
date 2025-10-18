@@ -1,0 +1,13 @@
+{
+  "_id": "6664855a07b1a041b15e0bac",
+  "name": "Email Settings",
+  "path": "/admin/account/setting/email",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "666484cd07b1a041b15e0baa",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-08T16:22:50.119Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

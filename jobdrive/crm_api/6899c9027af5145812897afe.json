@@ -1,0 +1,14 @@
+{
+  "_id": "6899c9027af5145812897afe",
+  "name": "Add Student",
+  "path": "/admin/student/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6899c6557af5145812897af9",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-11T10:42:10.292Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:48.889Z"
+}

@@ -1,0 +1,10 @@
+{
+  "_id": "650fd6c8b7a9b0077ae9861a",
+  "name": "Website Header Menu Item Delete",
+  "action": "ENTITY_DELETE",
+  "modelId": "650d3b02ac425a65d3141bcf",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/website/header/menu/delete",
+  "created": "2024-01-27T07:48:45.943Z"
+}

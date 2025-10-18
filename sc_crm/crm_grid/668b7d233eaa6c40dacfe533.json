@@ -1,0 +1,162 @@
+{
+  "_id": "668b7d233eaa6c40dacfe533",
+  "gridTitle": "Order",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "3nupzydymq",
+      "fields": [
+        {
+          "id": "userId",
+          "title": "User Id",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "$key": "dfgwn9ptoh",
+          "nullIds": [
+            "address"
+          ],
+          "hint": "<p></p>\n"
+        },
+        {
+          "$key": "5r6hkjmv4po",
+          "id": "orderId",
+          "title": "Order Id",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "1es4vfjhfv1",
+          "id": "orderDate",
+          "title": "Order Date",
+          "type": "date_time",
+          "span": 8
+        },
+        {
+          "$key": "e1uqppda9d",
+          "id": "shippingDate",
+          "title": "Shipping Date",
+          "type": "date_time",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "q7zbsts0ozc",
+          "id": "deliveredDate",
+          "title": "Delivered Date",
+          "type": "date_time",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "kii02p1wdi",
+          "id": "cancelDate",
+          "title": "Cancel Date",
+          "type": "date_time",
+          "o": true,
+          "span": 8
+        },
+        {
+          "$key": "8jntha5tstj",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "3r3byq00avp",
+          "id": "productVariantId",
+          "title": "Product Variant Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "fz7on1zueci",
+          "id": "mrp",
+          "title": "MRP",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "3rrlsopv4yh",
+          "id": "discount",
+          "title": "Discount",
+          "type": "number",
+          "o": false,
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "1by3dh4uysd",
+          "id": "price",
+          "title": "Price",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "atqwryzkzrj",
+          "id": "nyf_admissionId",
+          "title": "NYF Admission",
+          "type": "list",
+          "multiple": false,
+          "o": true
+        },
+        {
+          "$key": "ah2qs34h5t",
+          "id": "taxablePrice",
+          "title": "Taxable Price",
+          "type": "number",
+          "o": false,
+          "span": 8
+        },
+        {
+          "$key": "xwhiqnr76ml",
+          "id": "taxAmount",
+          "type": "number",
+          "span": 8,
+          "title": "Tax Amount"
+        },
+        {
+          "$key": "eqgebjzrzbl",
+          "id": "finalPrice",
+          "title": "Final Price",
+          "type": "number",
+          "span": 8,
+          "o": false
+        },
+        {
+          "$key": "5rfkufgmdfx",
+          "id": "taxPercent",
+          "title": "Tax Percent",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "vfn4blox95",
+          "id": "address",
+          "title": "Address",
+          "span": 24,
+          "type": "inner_form",
+          "multiple": false,
+          "meta": {
+            "queryParams": "customerId=:userId userId",
+            "defaultOpen": false,
+            "showCopyToClipboard": false,
+            "hideCollapse": false
+          },
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T05:46:11.483Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "crmModelId": "6684e3603108ad7b7d063f47",
+  "upsertDoc": false
+}

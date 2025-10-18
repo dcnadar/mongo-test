@@ -1,0 +1,82 @@
+{
+  "_id": "662533b2990ac402ed0d3ecd",
+  "name": "Eduempower IssuedBooks",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_issued_books",
+  "properties": [
+    {
+      "$key": "2e1wwevy2pa",
+      "key": "bookId",
+      "name": "Book Name",
+      "dataType": "REFERENCE",
+      "searchable": {
+        "value": false,
+        "thumb": false,
+        "description": false
+      },
+      "modelId": "6790930d179e036c80a4d934"
+    },
+    {
+      "$key": "sks0fq4unjh",
+      "key": "inventoryBookId",
+      "name": "Availble Books",
+      "dataType": "REFERENCE",
+      "modelId": "678f228b179e036c80a4d927",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "ko0qyfyyvt",
+      "key": "track",
+      "name": "Track",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "679c9bf9b81dbd448287fa4d"
+    },
+    {
+      "$key": "3vsu3nd0aim",
+      "key": "bookReturnDate",
+      "name": "Book Return Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "9bekl2r59d8",
+      "key": "comment",
+      "name": "Comment",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3p9wpefdiky",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "enl0gfrn2z",
+            "key": "ISSUED",
+            "value": "Issued"
+          },
+          {
+            "$key": "72x5h3zjhp7",
+            "key": "REISSUED",
+            "value": "Reissued"
+          },
+          {
+            "$key": "hx9baufe6u",
+            "key": "RETURN",
+            "value": "return"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T15:41:38.242Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.748Z"
+}

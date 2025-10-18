@@ -1,0 +1,57 @@
+{
+  "_id": "68e67005f1d98e08adaa7f60",
+  "name": "Flipkart",
+  "aId": "666",
+  "status": "UNDER_DEVELOPMENT",
+  "userDetails": {
+    "firstName": "Sundar",
+    "lastName": "Kumar",
+    "email": "sundarmgr666@gmail.com"
+  },
+  "companyDetails": {
+    "favicon": "/default/default/6899f37b7805d23c977499b4/imageUpload/2025/8/25/file_xou5vxlqk8f-1758784089901.jpeg",
+    "loginImages": [
+      "/default/default/6899f37b7805d23c977499b4/imageUpload/2025/8/16/file_ki84uuxpiz-1758006801143.png"
+    ],
+    "subDomain": "flipkart",
+    "logo": "/default/default/6899f37b7805d23c977499b4/imageUpload/2025/8/25/file_xou5vxlqk8f-1758784089901.jpeg"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2025-10-08T14:07:01.166Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "dbCredentials": {
+    "dev": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "flipkart_dev"
+      }
+    },
+    "qa": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "flipkart_qa"
+      }
+    },
+    "uat": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "flipkart_uat"
+      }
+    },
+    "prod": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "flipkart"
+      }
+    }
+  },
+  "setupStartTime": "2025-10-08T14:07:05.393Z",
+  "setupTasks": {
+    "metaDataProvision": true,
+    "entityDataProvision": true,
+    "cetificateIssue": true,
+    "certificateAssignedtoALB": true,
+    "notifyByEmail": true
+  },
+  "version": "1.0.1"
+}

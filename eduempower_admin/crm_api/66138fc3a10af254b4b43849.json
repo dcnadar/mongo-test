@@ -1,0 +1,13 @@
+{
+  "_id": "66138fc3a10af254b4b43849",
+  "name": "Edit Class Types",
+  "path": "/admin/entity-setup/class-type/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660c3032c7b99128d924f712",
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-08T06:33:39.878Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "ecomApiMappings": []
+}

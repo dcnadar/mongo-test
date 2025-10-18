@@ -1,0 +1,54 @@
+{
+  "_id": {
+    "$oid": "68d618f050534a672a4cc5e4"
+  },
+  "gridTitle": "Domain Form",
+  "gridType": "form",
+  "crmModelId": "65e2c398226e7b80fe49ae39",
+  "rows": [
+    {
+      "$key": "ds557ubh7rm",
+      "fields": [
+        {
+          "id": "companyDetails.subDomain",
+          "title": "Your sub domain",
+          "type": "text",
+          "span": {
+            "$numberInt": "23"
+          },
+          "meta": {
+            "addonBefore": "https://",
+            "addonAfter": ".radyfy.com"
+          },
+          "$key": "trt6d65wa7g",
+          "updateType": "disabled"
+        }
+      ],
+      "span": {
+        "$numberInt": "12"
+      }
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758861552470"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "id",
+      "required": false,
+      "serverValue": "filter_value",
+      "value": "accountId"
+    }
+  ],
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231679645"
+    }
+  }
+}

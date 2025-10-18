@@ -1,0 +1,73 @@
+{
+  "_id": {
+    "$oid": "65e78602fb169c602da0bfc5"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid FormRow",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "label",
+      "name": "Label",
+      "$key": "az1mtqle75i"
+    },
+    {
+      "dataType": "STRING",
+      "key": "tab",
+      "name": "Tab",
+      "$key": "4u0f6bbfhg8"
+    },
+    {
+      "$key": "o1eu3756gw",
+      "key": "span",
+      "name": "Span",
+      "dataType": "INTEGER"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "fields",
+      "name": "Fields (FormRow)",
+      "modelId": "65e7bd39da2db33603c1698a",
+      "$key": "zhbztrfzqs"
+    },
+    {
+      "$key": "l2oxsg91wlb",
+      "key": "showDescription",
+      "name": "Show description",
+      "unique": false,
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "xup772t02bq",
+      "key": "descriptionSpan",
+      "name": "Description span",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "ed0jfg650iw",
+      "key": "description",
+      "name": "Description",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "t7b2wctbega",
+      "key": "showCondition",
+      "name": "Show condition",
+      "dataType": "STRING"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709671938807"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152622"
+    }
+  }
+}

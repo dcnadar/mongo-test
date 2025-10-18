@@ -1,0 +1,48 @@
+{
+  "_id": "668502373108ad7b7d063f5b",
+  "name": "NativeGrid GlobalCouponCards section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "0fb84akutl15",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "a5xyhqladx",
+      "key": "code",
+      "name": "Code",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "10dcmgoel0p",
+      "key": "expiry",
+      "name": "Expiry",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "40yay3ktktg",
+      "key": "minPurchase",
+      "name": "MinPurchase",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "k10w250qib",
+      "key": "minItems",
+      "name": "MinItems",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "s7n82fybor",
+      "key": "flatOff",
+      "name": "FlatOff",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T07:48:07.371Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

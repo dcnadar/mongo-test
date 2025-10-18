@@ -1,0 +1,42 @@
+{
+  "_id": "668bc943531ed762273ebbf7",
+  "gridTitle": "Product Setting SKU",
+  "gridType": "form",
+  "crmModelId": "668bc84e531ed762273ebbf5",
+  "rows": [
+    {
+      "$key": "jogq9v1sql",
+      "fields": [
+        {
+          "$key": "4h3io5l7qp5",
+          "id": "skuPrefix",
+          "title": "SKU Number Prefix",
+          "type": "text",
+          "o": true,
+          "span": 24
+        },
+        {
+          "$key": "jxlfevcac6",
+          "id": "skuCurrentNumber",
+          "title": "SKU Current Number",
+          "type": "number",
+          "min": 0,
+          "span": 24
+        },
+        {
+          "$key": "jj5wst98h98",
+          "id": "skuPostfix",
+          "title": "SKU Number Postfix",
+          "type": "text",
+          "span": 24,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T11:10:59.650Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false
+}

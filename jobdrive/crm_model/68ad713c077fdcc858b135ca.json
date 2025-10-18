@@ -1,0 +1,17 @@
+{
+  "_id": "68ad713c077fdcc858b135ca",
+  "name": "Student Summary",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "0751jcwd3scd",
+      "key": "summary",
+      "name": "Summary",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T08:33:00.908Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:56.174Z"
+}

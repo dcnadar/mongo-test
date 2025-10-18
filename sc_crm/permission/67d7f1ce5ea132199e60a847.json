@@ -1,0 +1,12 @@
+{
+  "_id": "67d7f1ce5ea132199e60a847",
+  "key": "customer",
+  "name": "Customer Api Access",
+  "apisAccess": [
+    "66151eb2a10af254b4b438ac",
+    "66151eaba10af254b4b438ab"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-17T09:56:30.174Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

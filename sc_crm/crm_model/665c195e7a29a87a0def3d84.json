@@ -1,0 +1,25 @@
+{
+  "_id": "665c195e7a29a87a0def3d84",
+  "name": "Variant Option Value",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "iewum8h6nsg",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "meon3ifdvca",
+      "key": "value",
+      "name": "Value",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-02T07:03:58.878Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

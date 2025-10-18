@@ -1,0 +1,14 @@
+{
+  "_id": "6899c7867af5145812897afc",
+  "name": "All Student",
+  "path": "/admin/student/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6899c7767af5145812897afa",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-11T10:35:50.538Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:48.811Z"
+}

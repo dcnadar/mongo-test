@@ -1,0 +1,138 @@
+{
+  "_id": {
+    "$oid": "6624e3beb8af707274b214d4"
+  },
+  "gridTitle": "EcomApiMapping",
+  "gridType": "form",
+  "rows": [
+    {
+      "fields": [
+        {
+          "o": false,
+          "id": "ecomAccountId",
+          "title": "Ecom Account",
+          "type": "list",
+          "hint": "<p></p>\n",
+          "span": {
+            "$numberInt": "8"
+          },
+          "$key": "9yyfq1tin0r"
+        },
+        {
+          "id": "action",
+          "title": "Action to perform",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "$key": "wuismf5inac"
+        },
+        {
+          "id": "gridType",
+          "title": "For Grid type",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": false,
+          "showCondition": "return this.action === 'CRM_GRID' || this.action === 'FORM_SAVE';",
+          "$key": "gal074sbx26"
+        },
+        {
+          "id": "sourceId",
+          "title": "Select grid",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "meta": {
+            "queryParams": "?gridType=:gridType gridType"
+          },
+          "showCondition": "return this.action === 'CRM_GRID' || this.action === 'FORM_SAVE';",
+          "$key": "g2vqqyyryc"
+        },
+        {
+          "id": "modelId",
+          "title": "Select model",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "meta": {
+            "queryParams": "?modelType=COLLECTION"
+          },
+          "showCondition": "return this.action === 'ENTITY_DELETE' || this.action === 'ENTITY_GET';",
+          "$key": "9kflx7t5fav"
+        },
+        {
+          "id": "innerGridType",
+          "title": "Inner Grid type",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.action === 'CRM_GRID' && this.gridType === 'menu';",
+          "o": false,
+          "$key": "467rt4qubx8"
+        },
+        {
+          "showCondition": "return this.action === 'CRM_GRID' && this.gridType === 'menu';",
+          "id": "innerSourceId",
+          "title": "Select Inner grid",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "meta": {
+            "queryParams": "?gridType=:innerGridType innerGridType"
+          },
+          "$key": "unwfpfdg54o"
+        },
+        {
+          "$key": "i31enaydxfq",
+          "id": "gridParams",
+          "title": "API Params",
+          "type": "input_table",
+          "add": true,
+          "delete": true,
+          "o": true,
+          "span": {
+            "$numberInt": "16"
+          },
+          "max": {
+            "$numberInt": "20"
+          },
+          "min": {
+            "$numberInt": "0"
+          }
+        },
+        {
+          "$key": "9mk3pvw3rn9",
+          "id": "fetchDocWithoutId",
+          "title": "Fetch Document Without ID",
+          "type": "bool",
+          "o": true,
+          "span": {
+            "$numberInt": "12"
+          },
+          "showCondition": "return this.action === 'ENTITY_GET';"
+        }
+      ],
+      "$key": "jtk73a9w4k"
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1709970899490"
+    }
+  },
+  "crmModelId": "6624e1a6b8af707274b214d1",
+  "fetchDocWithoutId": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151428"
+    }
+  }
+}

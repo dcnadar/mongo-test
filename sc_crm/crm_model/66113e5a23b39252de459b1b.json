@@ -1,0 +1,46 @@
+{
+  "_id": "66113e5a23b39252de459b1b",
+  "name": "Website Footer Section",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "website_footer_section",
+  "properties": [
+    {
+      "$key": "v0ow4fwnlwk",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "tvwh7cjk96e",
+      "key": "order",
+      "name": "Order",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "a6kthku5qwl",
+      "key": "gridInfo",
+      "name": "Grid Info",
+      "dataType": "INNER_MODEL",
+      "modelId": "65a94e69004f4d43a5f06c9e"
+    },
+    {
+      "$key": "5mont83l5dx",
+      "key": "gridData",
+      "name": "Grid Data",
+      "dataType": "INNER_MODEL"
+    },
+    {
+      "$key": "uivneogmlz",
+      "key": "gridSettings",
+      "name": "Grid Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "65c07f689c7b5168f8ea683c"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-06T12:21:46.274Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "66716c0cfaf6243feb6c9981",
+  "gridTitle": "GlobalTrufalLogin OtpForm",
+  "gridType": "form",
+  "crmModelId": "667160b4faf6243feb6c997b",
+  "rows": [
+    {
+      "$key": "2pan09tydr",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "v95xfk7d2us"
+        },
+        {
+          "$key": "gm4wofwn2p",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "n4zgdaf1n5",
+          "id": "emailaddresslabel",
+          "title": "Emailaddresslabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7e5805ez5nt",
+          "id": "otptitle",
+          "title": "Otptitle",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "fwc1lsnggt4",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 8
+        },
+        {
+          "$key": "s99cnwbse3",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ekf7d08c5da",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T11:14:20.241Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

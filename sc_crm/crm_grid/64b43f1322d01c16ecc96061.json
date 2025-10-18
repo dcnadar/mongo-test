@@ -1,0 +1,39 @@
+{
+  "_id": "64b43f1322d01c16ecc96061",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "MRP",
+          "id": "mrp",
+          "type": "number",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "index": 0,
+          "title": "Price",
+          "id": "price",
+          "type": "number",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "64a5d46f099de82bca61ca9a",
+  "gridTitle": "Product Variant Pricing Form",
+  "backUrl": "/admin/product/all"
+}

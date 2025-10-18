@@ -1,0 +1,13 @@
+{
+  "_id": "66a35bade287100717693bd4",
+  "name": "Add Address",
+  "path": "/admin/customer/address/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66a3585de287100717693bd0",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T08:17:49.226Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

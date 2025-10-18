@@ -1,0 +1,55 @@
+{
+  "_id": "661913d3aee00c70206deb2b",
+  "gridTitle": "Customer Menu",
+  "gridType": "menu",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "menuItems": [
+    {
+      "$key": "yp2fwpsfar",
+      "value": "Details",
+      "slug": "/admin/account/customer/update",
+      "key": "Details",
+      "icon": "<svg fill=\"currentColor\" width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"><path d=\"M15 11h7v2h-7zm1 4h6v2h-6zm-2-8h8v2h-8zM4 19h10v-1c0-2.757-2.243-5-5-5H7c-2.757 0-5 2.243-5 5v1h2zm4-7c1.995 0 3.5-1.505 3.5-3.5S9.995 5 8 5 4.5 6.505 4.5 8.5 6.005 12 8 12z\"></path></g></svg>"
+    },
+    {
+      "$key": "4mc0ji8eghe",
+      "slug": "/admin/customer/cart_items/all",
+      "value": "Cart Items",
+      "key": "cartitems",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path d=\"M21 5L19 12H7.37671M20 16H8L6 3H3M11 6L13 8L17 4M9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20ZM20 20C20 20.5523 19.5523 21 19 21C18.4477 21 18 20.5523 18 20C18 19.4477 18.4477 19 19 19C19.5523 19 20 19.4477 20 20Z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> </g></svg>"
+    },
+    {
+      "$key": "w3uihlikmwf",
+      "key": "wishlist",
+      "value": "Wishlist",
+      "slug": "/admin/customer/wishlist/all",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path d=\"M20.6804 13.9084V13.8984C19.8004 12.9684 18.5704 12.3984 17.2004 12.3984C14.5504 12.3984 12.4004 14.5484 12.4004 17.1984C12.4004 18.4284 12.8704 19.5484 13.6304 20.3984C14.5104 21.3784 15.7804 21.9984 17.2004 21.9984C19.8504 21.9984 22.0004 19.8484 22.0004 17.1984C22.0004 15.9284 21.5004 14.7684 20.6804 13.9084ZM18.9904 18.0084H17.9504V19.0984C17.9504 19.5084 17.6104 19.8484 17.2004 19.8484C16.7904 19.8484 16.4504 19.5084 16.4504 19.0984V18.0084H15.4104C14.9904 18.0084 14.6604 17.6784 14.6604 17.2584C14.6604 16.8484 14.9804 16.5184 15.4004 16.5084H16.4504V15.5084C16.4504 15.4884 16.4504 15.4684 16.4604 15.4484C16.4804 15.0684 16.8104 14.7584 17.2004 14.7584C17.6004 14.7584 17.9304 15.0784 17.9504 15.4784V16.5084H18.9904C19.4104 16.5084 19.7404 16.8484 19.7404 17.2584C19.7404 17.6784 19.4104 18.0084 18.9904 18.0084Z\" fill=\"#93969a\"></path> <path d=\"M22 8.73062C22 9.92062 21.81 11.0206 21.48 12.0406C21.42 12.2506 21.17 12.3106 20.99 12.1806C19.9 11.3706 18.57 10.9406 17.2 10.9406C13.73 10.9406 10.9 13.7706 10.9 17.2406C10.9 18.3206 11.18 19.3806 11.71 20.3206C11.87 20.6006 11.68 20.9606 11.38 20.8506C8.97 20.0306 4.1 17.0406 2.52 12.0406C2.19 11.0206 2 9.92062 2 8.73062C2 5.64062 4.49 3.14063 7.56 3.14063C9.37 3.14063 10.99 4.02062 12 5.37062C13.01 4.02062 14.63 3.14063 16.44 3.14063C19.51 3.14062 22 5.64062 22 8.73062Z\" fill=\"#93969a\"></path> </g></svg>"
+    },
+    {
+      "$key": "y9f100gb3vl",
+      "key": "customerAddress",
+      "slug": "/admin/customer/address/all",
+      "value": "Address",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path d=\"M18 9H14M18 12H14M12 15.5C11.7164 14.3589 10.481 13.5 9 13.5C7.519 13.5 6.28364 14.3589 6 15.5M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19ZM10 9.5C10 10.0523 9.55228 10.5 9 10.5C8.44772 10.5 8 10.0523 8 9.5C8 8.94772 8.44772 8.5 9 8.5C9.55228 8.5 10 8.94772 10 9.5Z\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> </g></svg>"
+    },
+    {
+      "$key": "jripnbyh4z",
+      "key": "orders",
+      "slug": "/admin/customer/orders/all",
+      "value": "Orders",
+      "icon": "<svg fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\" width=\"64px\" height=\"64px\" viewBox=\"0 0 100 100\" xml:space=\"preserve\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <g> <g> <path d=\"M78.8,62.1l-3.6-1.7c-0.5-0.3-1.2-0.3-1.7,0L52,70.6c-1.2,0.6-2.7,0.6-3.9,0L26.5,60.4 c-0.5-0.3-1.2-0.3-1.7,0l-3.6,1.7c-1.6,0.8-1.6,2.9,0,3.7L48,78.5c1.2,0.6,2.7,0.6,3.9,0l26.8-12.7C80.4,65,80.4,62.8,78.8,62.1z\"></path> </g> <g> <path d=\"M78.8,48.1l-3.7-1.7c-0.5-0.3-1.2-0.3-1.7,0L52,56.6c-1.2,0.6-2.7,0.6-3.9,0L26.6,46.4 c-0.5-0.3-1.2-0.3-1.7,0l-3.7,1.7c-1.6,0.8-1.6,2.9,0,3.7L48,64.6c1.2,0.6,2.7,0.6,3.9,0l26.8-12.7C80.4,51.1,80.4,48.9,78.8,48.1 z\"></path> </g> <g> <path d=\"M21.2,37.8l26.8,12.7c1.2,0.6,2.7,0.6,3.9,0l26.8-12.7c1.6-0.8,1.6-2.9,0-3.7L51.9,21.4 c-1.2-0.6-2.7-0.6-3.9,0L21.2,34.2C19.6,34.9,19.6,37.1,21.2,37.8z\"></path> </g> </g> </g></svg>"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T10:58:27.124Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "thumb": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/thumb/2024/3/12/upload_fm5u7lk0fqk-1712920265367.jpg",
+  "title": "Customer ",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ]
+}

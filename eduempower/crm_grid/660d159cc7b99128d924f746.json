@@ -1,0 +1,73 @@
+{
+  "_id": "660d159cc7b99128d924f746",
+  "gridTitle": "Eduempower AcademicSession",
+  "gridType": "table",
+  "columns": [
+    {
+      "$key": "2n1334cr8hn",
+      "key": "session",
+      "name": "Session Name",
+      "type": "text",
+      "sort": true,
+      "width": 300
+    },
+    {
+      "$key": "wb8j7lhsga",
+      "key": "from",
+      "name": "From",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "e49n2br437m",
+      "key": "to",
+      "name": "To",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "kmrcq7jc5ui",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true,
+      "width": 80
+    },
+    {
+      "$key": "67esh2382le",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "align": "right",
+      "actions": [
+        {
+          "$key": "23gzk3k5unj",
+          "value": "Edit",
+          "apiUrl": "/admin/schoolsetup/academic-session/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "dxmbusregcd",
+      "value": "Add Academic Session",
+      "gridType": "popupForm",
+      "gridTitle": "Add Academic Session",
+      "apiUrl": "/admin/schoolsetup/academic-session/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T08:38:52.199Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "crmModelId": "66067807eea36066ca04cbcc",
+  "updated": "2025-09-08T10:50:59.293Z"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "668d16a7531ed762273ebc07",
+  "name": "OrderInvoice Buyer",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "yxcsgejkd8",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lj5mbdg8u1",
+      "key": "phoneNumber",
+      "name": "Phone Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "28kxatenz8q",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gj63r521z0v",
+      "key": "address",
+      "name": "Address",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "785oc4p3s9c",
+      "key": "gstNo",
+      "name": "GST No",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-09T10:53:27.422Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

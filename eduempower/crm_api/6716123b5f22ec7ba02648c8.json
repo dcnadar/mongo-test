@@ -1,0 +1,15 @@
+{
+  "_id": "6716123b5f22ec7ba02648c8",
+  "name": "All Staff Transfer",
+  "path": "/admin/staff/transfer/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6716120c5f22ec7ba02648c7",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-21T08:35:07.524Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:53.413Z"
+}

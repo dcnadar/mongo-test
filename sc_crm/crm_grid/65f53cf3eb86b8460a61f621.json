@@ -1,0 +1,75 @@
+{
+  "_id": "65f53cf3eb86b8460a61f621",
+  "gridTitle": "ReactGrid globalCTASection5",
+  "gridType": "form",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8,
+          "$key": "fqetv7yo9do"
+        },
+        {
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 16,
+          "$key": "m91sc2m64xd"
+        },
+        {
+          "$key": "1umwmqmvx91",
+          "id": "messageUp",
+          "title": "Message Up",
+          "type": "text_editor",
+          "o": true,
+          "span": 24
+        },
+        {
+          "id": "buttons",
+          "title": "Buttons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 2,
+          "$key": "spa0i5ujcb"
+        },
+        {
+          "$key": "zpqjm5n3zm",
+          "id": "messageDown",
+          "title": "Message Down",
+          "type": "text_editor",
+          "o": true,
+          "span": 24
+        },
+        {
+          "id": "backgroundAccent",
+          "title": "BackgroundAccent",
+          "type": "color",
+          "span": 8,
+          "$key": "ze68pbsnyk8"
+        }
+      ],
+      "$key": "2i0klx13pt1"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-16T06:32:19.039Z",
+  "crmModelId": "65f53ca9eb86b8460a61f620"
+}

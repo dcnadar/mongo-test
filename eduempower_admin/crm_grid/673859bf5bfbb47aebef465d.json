@@ -1,0 +1,92 @@
+{
+  "_id": "673859bf5bfbb47aebef465d",
+  "gridTitle": "Eduempower AcademicSession",
+  "gridType": "table",
+  "columns": [
+    {
+      "$key": "bs2of1jkqvg",
+      "key": "session",
+      "name": "Session Name",
+      "type": "text",
+      "sort": true,
+      "width": 200
+    },
+    {
+      "$key": "pmeszzvb53g",
+      "key": "from",
+      "name": "From",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "oj1cmi2rlt",
+      "key": "to",
+      "name": "To",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "uwl1ne34u6",
+      "key": "_workLocation",
+      "name": "Branch",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "dply5ffxywr",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "7kq612izlgy",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "io2vr6a8828",
+          "gridTitle": "Edit Academic Session",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/account/session/edit?id=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "sjsd1ohnowb",
+      "gridTitle": "Add Academic Session",
+      "value": "Add Academic Session",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/account/session/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "pzcbvz06mgd",
+        "propertyKey": "entityType",
+        "operator": "NOT_EQUALS",
+        "NOT_EQUALS": "MASTER_SETUP"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "gridParams": [
+    {
+      "key": "ecomAccountId",
+      "required": true
+    }
+  ],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-16T08:37:19.020Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "crmModelId": "673855455bfbb47aebef465b"
+}

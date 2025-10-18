@@ -1,0 +1,17 @@
+{
+  "_id": "6513def2581c417ed1d0dcf4",
+  "properties": [
+    {
+      "dataType": "LIST_OF",
+      "key": "sections",
+      "name": "Sections",
+      "listType": "INNER_MODEL",
+      "modelId": "6513dd1f581c417ed1d0dcf3"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Foodio Grid Top Services",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:51.622Z"
+}

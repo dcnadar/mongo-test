@@ -1,0 +1,50 @@
+{
+  "_id": "6612fbdba10af254b4b43838",
+  "name": "Enquiry",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "enquiry",
+  "properties": [
+    {
+      "$key": "9qxc5y5h30n",
+      "key": "customerName",
+      "name": "Customer Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "t69zl8lavhp",
+      "key": "customerEmail",
+      "name": "Customer Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "21cbwroqp87",
+      "key": "customerContact",
+      "name": "Customer Contact",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "szk008lokkq",
+      "key": "message",
+      "name": "Message",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "f7xxip04omc",
+      "key": "customerAddress",
+      "name": "Customer Address",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "k8mfnsep5ve",
+      "key": "service",
+      "name": "Service",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T20:02:35.972Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,12 @@
+{
+  "_id": "6614f2f2a10af254b4b4389a",
+  "name": "Add Branches",
+  "path": "/admin/account/branches/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6614ee06a10af254b4b43893",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T07:49:06.546Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "662b5737dd50c90abe7a7dc1",
+  "gridTitle": "Website Plugins",
+  "gridType": "form",
+  "crmModelId": "64c771c283c24f1379031dc4",
+  "rows": [
+    {
+      "$key": "rvp8xkxqwt",
+      "fields": [
+        {
+          "id": "plugins",
+          "title": "Plugins",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 2,
+          "$key": "czuxcvo4pm",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-26T07:26:47.084Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

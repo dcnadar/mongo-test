@@ -1,0 +1,21 @@
+{
+  "_id": "65f57d67eb86b8460a61f638",
+  "name": "ReactGrid GlobalStatsSection2 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "key",
+      "name": "Key",
+      "dataType": "STRING"
+    },
+    {
+      "key": "value",
+      "name": "Value",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-16T11:07:19.087Z"
+}

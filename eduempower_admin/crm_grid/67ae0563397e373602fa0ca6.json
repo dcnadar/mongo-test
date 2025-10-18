@@ -1,0 +1,57 @@
+{
+  "_id": "67ae0563397e373602fa0ca6",
+  "gridTitle": "Eduempower SchoolSubject",
+  "gridType": "form",
+  "crmModelId": "67ae02a7397e373602fa0c97",
+  "rows": [
+    {
+      "$key": "whgceiduwn",
+      "fields": [
+        {
+          "id": "subjectName",
+          "title": "Subject Name",
+          "type": "text",
+          "span": 8,
+          "$key": "r93352gcqw"
+        },
+        {
+          "$key": "ijdb26inzz",
+          "id": "shortName",
+          "title": "Short Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "uf44yss9na",
+          "id": "subjectCode",
+          "title": "Subject Code",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "n0dvvkzc2yl",
+          "id": "subjectCategory",
+          "title": "Subject Category",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "l0owh07gwze",
+          "id": "entityType",
+          "title": "Entity Type",
+          "type": "text",
+          "span": 12,
+          "value": "MASTER_SETUP",
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T14:44:51.621Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

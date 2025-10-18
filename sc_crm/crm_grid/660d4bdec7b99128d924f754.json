@@ -1,0 +1,61 @@
+{
+  "_id": "660d4bdec7b99128d924f754",
+  "gridTitle": "ReactGrid GlobalBanner2 section",
+  "gridType": "form",
+  "crmModelId": "660d4ad3c7b99128d924f752",
+  "rows": [
+    {
+      "$key": "lngdn8b6f1n",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "zqz2c6eqjws"
+        },
+        {
+          "$key": "nw2bvks7ob",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "g1t4dp1jizd",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 8
+        },
+        {
+          "$key": "narakkorwvf",
+          "id": "image",
+          "title": "Images",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "allowGallery": true
+          }
+        },
+        {
+          "$key": "z981scm5s49",
+          "id": "buttons",
+          "title": "Buttons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 2
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-03T12:30:22.079Z",
+  "createdBy": "65f1586feece0c4fb315fa82",
+  "upsertDoc": false
+}

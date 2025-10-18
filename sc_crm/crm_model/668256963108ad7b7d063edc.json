@@ -1,0 +1,38 @@
+{
+  "_id": "668256963108ad7b7d063edc",
+  "name": "NativeGrid GlobalBlogCardsWithBgImage",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "1wz4thrp8hd",
+      "key": "header",
+      "name": "Header",
+      "dataType": "INNER_MODEL",
+      "modelId": "66825e813108ad7b7d063ee3"
+    },
+    {
+      "$key": "brjreo52rhj",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66825c9e3108ad7b7d063ee0"
+    },
+    {
+      "$key": "ruk3ofnffrj",
+      "key": "showDynamicContent",
+      "name": "Show Dynamic Content",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "4pk65yjfp4o",
+      "key": "dynamicContentFilter",
+      "name": "Dynamic Content Filters",
+      "dataType": "INNER_MODEL",
+      "modelId": "66222ca07d57294ed27050fa"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T07:11:18.269Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

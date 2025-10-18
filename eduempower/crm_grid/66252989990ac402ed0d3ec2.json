@@ -1,0 +1,83 @@
+{
+  "_id": "66252989990ac402ed0d3ec2",
+  "gridTitle": "Eduempower Inventory",
+  "gridType": "table",
+  "crmModelId": "6625200e990ac402ed0d3ebc",
+  "columns": [
+    {
+      "$key": "dxzdthhu9kg",
+      "name": "BOOK",
+      "type": "card",
+      "sort": true,
+      "width": 150,
+      "key": "book"
+    },
+    {
+      "$key": "c8su7o3t9ua",
+      "key": "bookDetails",
+      "name": "BOOK DETAILS",
+      "type": "card",
+      "sort": true,
+      "width": 160
+    },
+    {
+      "$key": "ml7azxapf0r",
+      "key": "vendorDetails",
+      "type": "card",
+      "sort": true,
+      "width": 150,
+      "name": "Vendor Details"
+    },
+    {
+      "$key": "zz3u98uxrd",
+      "key": "libraryDetails",
+      "name": "Library Details",
+      "sort": true,
+      "type": "card"
+    },
+    {
+      "$key": "m528fzpw9kl",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "z5tiz9ciwo",
+          "gridTitle": "Edit Inventory",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/library/inventory/edit?id=:_id _id"
+        }
+      ],
+      "sort": false,
+      "width": 100
+    }
+  ],
+  "actions": [
+    {
+      "$key": "4d6ebtwekcp",
+      "gridTitle": "Add Inventory",
+      "value": "Add Inventory",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/library/inventory/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "bookDetail",
+    "isbn",
+    "name",
+    "subTitle",
+    "edition",
+    "bookImage",
+    "libraryDetails",
+    "vendorDetail"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T14:58:17.307Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:01.065Z"
+}

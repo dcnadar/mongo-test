@@ -1,0 +1,13 @@
+{
+  "_id": "6618e001aee00c70206deb1f",
+  "name": "Supplier",
+  "path": "/admin/account/supplier/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6618dbb0aee00c70206deb1b",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T07:17:21.753Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": []
+}

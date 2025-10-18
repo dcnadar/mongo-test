@@ -1,0 +1,47 @@
+{
+  "_id": "68ac2943e1a84e7a30bfdbd5",
+  "name": "Student Professional Experience",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "4qwo89p7q4y",
+      "key": "jobTitle",
+      "name": "Job Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "21c9ywkemss",
+      "name": "Company / Organization Name",
+      "key": "organizationName",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nclyg8gc5ei",
+      "name": "Location",
+      "key": "location",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6b8ov9yql1o",
+      "name": "Start Date",
+      "key": "start_date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "0l86qngt2h2d",
+      "name": "End Date",
+      "key": "end_date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "pz5ygy4ebj",
+      "name": "Description",
+      "key": "description",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-25T09:13:39.359Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:55.935Z"
+}

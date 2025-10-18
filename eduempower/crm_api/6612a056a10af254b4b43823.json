@@ -1,0 +1,13 @@
+{
+  "_id": "6612a056a10af254b4b43823",
+  "name": "Edit Department",
+  "path": "/admin/account-settings/department/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cd3a9c7b99128d924f721",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T13:32:06.722Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:50.415Z"
+}

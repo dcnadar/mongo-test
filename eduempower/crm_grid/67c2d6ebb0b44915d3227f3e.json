@@ -1,0 +1,48 @@
+{
+  "_id": "67c2d6ebb0b44915d3227f3e",
+  "gridTitle": "ChallanDetail",
+  "gridType": "form",
+  "crmModelId": "67c2b7fab0b44915d3227f2c",
+  "rows": [
+    {
+      "$key": "tqdjlm14e8r",
+      "fields": [
+        {
+          "id": "feeType",
+          "title": "Fee Type",
+          "type": "text",
+          "$key": "nwyuox6ge",
+          "span": 8
+        },
+        {
+          "$key": "58kz68b3w45",
+          "id": "installmentName",
+          "title": "Installment Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "qtzn1k9qi6",
+          "id": "amount",
+          "title": "Amount",
+          "span": 8,
+          "type": "number"
+        },
+        {
+          "$key": "46qq3zqy2xi",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-01T09:44:11.960Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:04.332Z"
+}

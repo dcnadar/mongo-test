@@ -1,0 +1,14 @@
+{
+  "_id": "661520bba10af254b4b438af",
+  "name": "Update Customer",
+  "path": "/admin/account/customer/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "661913d3aee00c70206deb2b",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T11:04:27.159Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "innerGridType": "form",
+  "innerSourceId": "66151ae7a10af254b4b438a9"
+}

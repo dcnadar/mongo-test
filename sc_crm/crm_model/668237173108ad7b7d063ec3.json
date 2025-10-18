@@ -1,0 +1,30 @@
+{
+  "_id": "668237173108ad7b7d063ec3",
+  "name": "NativeGrid GlobalFeatureSection User",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "nm693oxsa9",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1lquolvw8no",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1zfmy0b8h95",
+      "key": "subtitle",
+      "name": "Subtitle",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T04:56:55.766Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

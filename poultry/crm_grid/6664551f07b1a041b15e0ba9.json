@@ -1,0 +1,107 @@
+{
+  "_id": "6664551f07b1a041b15e0ba9",
+  "gridTitle": "Farmer Producer Organization",
+  "gridType": "table",
+  "crmModelId": "66644ad107b1a041b15e0ba1",
+  "columns": [
+    {
+      "$key": "w4nf7xklunq",
+      "key": "fpoName",
+      "name": "Name",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "y6scqb9j7r",
+      "key": "blockId",
+      "name": "Area of operation",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "wxna0dic4cb",
+      "key": "legalEntityType",
+      "name": "Legal Entity Type",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "8v0zsjwhxa",
+      "key": "noOfMember",
+      "name": "No Of Member",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "mtqbn2vx49m",
+      "key": "noOfVillage",
+      "name": "No Of Village",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "plkd41wwww",
+      "key": "noOfGramPanchayat",
+      "name": "No Of GP/VC",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "z8jwrxm61lk",
+      "key": "noOfSHG",
+      "name": "No Of SHG",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "6npfgwi0aqc",
+      "key": "noOfDistrict",
+      "name": "No Of District",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "g3usi2q7jls",
+      "key": "actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "t6p1x9o16cc",
+          "apiUrl": "/admin/groups/farmer-producer-organization/edit?id=:_id _id",
+          "gridTitle": "Edit Farmer Producer Organization",
+          "value": "Edit",
+          "gridType": "popupForm"
+        }
+      ],
+      "name": "Actions"
+    }
+  ],
+  "actions": [
+    {
+      "$key": "s8nzjhld5r",
+      "gridTitle": "Add Farmer Producer Organization",
+      "apiUrl": "/admin/groups/farmer-producer-organization/add",
+      "value": "Add Farmer Producer Organization",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T12:57:03.604Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false
+}

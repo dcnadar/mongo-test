@@ -1,0 +1,20 @@
+{
+  "_id": "655dfedf6bf5e640cd3a5c00",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name"
+    },
+    {
+      "dataType": "STRING",
+      "key": "value",
+      "name": "Value"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Product Variant Option Generic Value",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:52.161Z"
+}

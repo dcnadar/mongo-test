@@ -1,0 +1,30 @@
+{
+  "_id": {
+    "$oid": "68baceb72d9faaf2ca5a746e"
+  },
+  "name": "Account Env DB credentials",
+  "properties": [
+    {
+      "$key": "nva707yrkwm",
+      "key": "mongoDBEntity",
+      "name": "Mongo DB Entity Credentials",
+      "dataType": "INNER_MODEL",
+      "modelId": "68bbfd84ca4fa9290c0f6ae2"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "modelType": "INNER",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757073079270"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757151989493"
+    }
+  }
+}

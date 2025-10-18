@@ -1,0 +1,29 @@
+{
+  "_id": "665a99d07a29a87a0def3d82",
+  "gridTitle": "Product Variant Table 2",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "2qjrv65a1dv",
+      "fields": [
+        {
+          "id": "productVariantTable",
+          "title": "Product Variant Table",
+          "type": "input_table",
+          "add": true,
+          "delete": true,
+          "$key": "lxy6f4qq67",
+          "span": 200,
+          "min": 1,
+          "max": 20,
+          "countTitle": "No Variant Added"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-01T03:47:28.981Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "crmModelId": "665a97b27a29a87a0def3d80"
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "660c140ec7b99128d924f70c",
+  "gridTitle": "Eduempower Country",
+  "gridType": "form",
+  "crmModelId": "660c0606c7b99128d924f709",
+  "rows": [
+    {
+      "$key": "g4b2ytzvcdm",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8,
+          "$key": "yz5omccgz19"
+        },
+        {
+          "$key": "4rpf18zy54m",
+          "id": "code",
+          "title": "Code",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-02T14:19:58.019Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/account/all",
+  "upsertDoc": false
+}

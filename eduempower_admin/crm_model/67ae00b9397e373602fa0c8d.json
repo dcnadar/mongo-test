@@ -1,0 +1,25 @@
+{
+  "_id": "67ae00b9397e373602fa0c8d",
+  "name": "Eduempower SchoolSubject Fee",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ul5e9a6axx9",
+      "key": "subjectFee",
+      "name": "Subject Fee",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "b4gqc9eqsqs",
+      "key": "scheduleId",
+      "name": "Schedule Id",
+      "dataType": "REFERENCE",
+      "modelId": "67adf4d9397e373602fa0c6c"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T14:24:57.413Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "660cdd4ac7b99128d924f72c",
+  "gridTitle": "Eduempower FeeFine Setting FineRefuseTimeFrame",
+  "gridType": "form",
+  "crmModelId": "6609607cc7b99128d924f668",
+  "rows": [
+    {
+      "$key": "i5pt9ivm3zg",
+      "fields": [
+        {
+          "$key": "acanekfy9bb",
+          "id": "from",
+          "title": "From",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "myiz9gcm9pi",
+          "id": "to",
+          "title": "To",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "k3dafnuu96k",
+          "id": "maxAmount",
+          "title": "Max Amount",
+          "type": "number",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T04:38:34.796Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:58.552Z"
+}

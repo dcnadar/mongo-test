@@ -1,0 +1,47 @@
+{
+  "_id": "65f425e8eb86b8460a61f616",
+  "gridTitle": "ReactGrid GlobalFeatureSection5",
+  "gridType": "form",
+  "crmModelId": "65f42485eb86b8460a61f615",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 16
+        },
+        {
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 20
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-15T10:41:44.613Z"
+}

@@ -1,0 +1,122 @@
+{
+  "_id": "6662fae307b1a041b15e0b95",
+  "gridTitle": "Farm Status",
+  "gridType": "table",
+  "crmModelId": "6662ed0207b1a041b15e0b91",
+  "columns": [
+    {
+      "$key": "iojwxpdxet",
+      "key": "month",
+      "name": "Month - Year",
+      "type": "text",
+      "sort": false,
+      "valueCondition": "return this.month + ' - ' + this.year",
+      "width": 150
+    },
+    {
+      "$key": "qemwok77wsa",
+      "key": "noOfBirds",
+      "name": "Number Of Birds (Capacity)",
+      "sort": false,
+      "width": 150,
+      "type": "text"
+    },
+    {
+      "$key": "szmmc5ev78d",
+      "key": "avgWgtOfBirds",
+      "name": "Average Weight Of Birds(Per Batch) (Last One Year)",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "2872qsy2iqm",
+      "key": "oldChicksProcured",
+      "name": "Number Of Day Old Chicks Procured",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "y5pgwykf4w",
+      "key": "noOfDeadBirds",
+      "name": "Number Of Dead Birds",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "jrwdojrwgv",
+      "key": "mortalityRate",
+      "name": "Mortality Rate (Every 7 Days)",
+      "sort": false,
+      "width": 150,
+      "type": "text"
+    },
+    {
+      "$key": "53y4yawcxlp",
+      "key": "profitNetIncome.totalCostOfRearing",
+      "name": "Total Cost Of Rearing",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "w1ucv3xvgc",
+      "key": "profitNetIncome.netIncome",
+      "name": "Net Income ",
+      "width": 100,
+      "sort": false,
+      "type": "text"
+    },
+    {
+      "$key": "lnwv3dtllm",
+      "key": "profitNetIncome.totalIncome",
+      "name": "Total Income",
+      "type": "text",
+      "width": 100,
+      "sort": false
+    },
+    {
+      "$key": "8c353j6smlg",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 50,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "hnxzr0dyzm",
+          "gridTitle": "Edit Farm Status",
+          "value": "Edit",
+          "slug": "/admin/farmer/status/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "w76khm9ghdq",
+      "slug": "/admin/farmer/status/add",
+      "gridTitle": "Add Status",
+      "value": "Add Status"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "year"
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T12:19:47.580Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "required": true,
+      "key": "farmerId"
+    }
+  ],
+  "backUrl": "/admin/farmer/all"
+}

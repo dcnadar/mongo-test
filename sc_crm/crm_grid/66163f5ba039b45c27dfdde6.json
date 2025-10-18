@@ -1,0 +1,91 @@
+{
+  "_id": "66163f5ba039b45c27dfdde6",
+  "gridTitle": "Common Address",
+  "gridType": "form",
+  "crmModelId": "64a5b2c2099de82bca61ca91",
+  "rows": [
+    {
+      "$key": "k8vuevc0mf",
+      "label": "Address",
+      "fields": [
+        {
+          "$key": "2wf1pshzyn",
+          "id": "addressLine1",
+          "title": "Address Line 1",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "bvxf40mkef9",
+          "id": "addressLine2",
+          "title": "Address Line 2",
+          "type": "text",
+          "span": 12,
+          "o": true
+        },
+        {
+          "id": "pincode",
+          "title": "Pincode",
+          "type": "text",
+          "span": 12,
+          "$key": "wuls3hiaqvq"
+        },
+        {
+          "$key": "egnibxfzs54",
+          "id": "locality",
+          "title": "Locality",
+          "span": 12,
+          "type": "text"
+        },
+        {
+          "$key": "rpudka3rxpf",
+          "id": "district",
+          "title": "District",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "24ohf3voylt",
+          "id": "state",
+          "title": "State",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "1wobo5tw9ju",
+          "id": "country",
+          "title": "Country",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "tbxjxauzjn",
+          "id": "addressType",
+          "title": "Address Type",
+          "type": "list",
+          "span": 12,
+          "multiple": false
+        },
+        {
+          "$key": "vklpkugy03",
+          "id": "openOnSaturday",
+          "title": "Open On Saturday",
+          "type": "bool",
+          "span": 12
+        },
+        {
+          "$key": "awy9f6c3g0a",
+          "id": "openOnSunday",
+          "title": "Open On Sunday",
+          "type": "bool",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-10T07:27:23.905Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "upsertDoc": false
+}

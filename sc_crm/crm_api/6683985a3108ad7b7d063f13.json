@@ -1,0 +1,13 @@
+{
+  "_id": "6683985a3108ad7b7d063f13",
+  "name": "Add Blog Commnet",
+  "path": "/admin/website/blog/comments/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66838c9e3108ad7b7d063f08",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T06:04:10.147Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

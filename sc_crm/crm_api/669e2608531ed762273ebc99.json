@@ -1,0 +1,13 @@
+{
+  "_id": "669e2608531ed762273ebc99",
+  "name": " Edit Transaction",
+  "path": "/admin/order/transaction/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "668ce076531ed762273ebc02",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-22T09:27:36.683Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

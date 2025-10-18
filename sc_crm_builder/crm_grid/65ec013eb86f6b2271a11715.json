@@ -1,0 +1,184 @@
+{
+  "_id": {
+    "$oid": "65ec013eb86f6b2271a11715"
+  },
+  "gridTitle": "Crm API",
+  "gridType": "table",
+  "crmModelId": "65e782c5da2444a1d00dfeb2",
+  "columns": [
+    {
+      "index": {
+        "$numberInt": "0"
+      },
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true,
+      "$key": "x32aq8163hb"
+    },
+    {
+      "index": {
+        "$numberInt": "1"
+      },
+      "key": "path",
+      "name": "Path",
+      "type": "text",
+      "sort": true,
+      "$key": "53jwbmgockm"
+    },
+    {
+      "index": {
+        "$numberInt": "2"
+      },
+      "key": "apiType",
+      "name": "API Type",
+      "type": "tag",
+      "sort": true,
+      "width": {
+        "$numberInt": "80"
+      },
+      "$key": "fuxgak3uxrd"
+    },
+    {
+      "index": {
+        "$numberInt": "3"
+      },
+      "key": "action",
+      "name": "Action",
+      "type": "tag",
+      "sort": true,
+      "width": {
+        "$numberInt": "100"
+      },
+      "$key": "eazr7vf3duo"
+    },
+    {
+      "index": {
+        "$numberInt": "4"
+      },
+      "key": "gridType",
+      "name": "Grid Type",
+      "type": "tag",
+      "sort": false,
+      "width": {
+        "$numberInt": "79"
+      },
+      "$key": "uxcf63m2es8"
+    },
+    {
+      "index": {
+        "$numberInt": "5"
+      },
+      "key": "sourceId",
+      "name": "Grid",
+      "type": "card",
+      "sort": false,
+      "$key": "3fn7v5bqzeq"
+    },
+    {
+      "$key": "sxx6sfkf5c8",
+      "key": "modelId",
+      "name": "Model",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "index": {
+        "$numberInt": "6"
+      },
+      "key": "e",
+      "name": "Edit",
+      "type": "actions",
+      "align": "left",
+      "actions": [
+        {
+          "slug": "/admin/api/update?id=:_id _id",
+          "value": "Edit",
+          "pagination": false,
+          "$key": "uhyd2v3wb6"
+        }
+      ],
+      "sort": false,
+      "$key": "epiljjy863r"
+    }
+  ],
+  "actions": [
+    {
+      "slug": "/admin/api/add",
+      "value": "Add API",
+      "pagination": false,
+      "$key": "b6cideo1dut"
+    }
+  ],
+  "border": false,
+  "search": {
+    "placeHolder": "Search by name"
+  },
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "5lu7ethoayy",
+      "fields": [
+        {
+          "$key": "yi53k6sscyl",
+          "id": "sourceId",
+          "title": "Grid",
+          "type": "list",
+          "multiple": true,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "ru1jl9qlbom",
+          "id": "action",
+          "title": "Action",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "6"
+          }
+        },
+        {
+          "$key": "nlsklagkrta",
+          "id": "gridType",
+          "title": "Grid Type",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "$key": "q2o74nrtxp",
+          "id": "apiType",
+          "title": "API type",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          }
+        }
+      ]
+    }
+  ],
+  "tableMeta": {},
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1709965630672"
+    }
+  },
+  "fetchAdditionalKeys": [],
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150797"
+    }
+  }
+}

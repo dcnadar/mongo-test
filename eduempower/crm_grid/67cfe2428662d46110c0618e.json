@@ -1,0 +1,33 @@
+{
+  "_id": "67cfe2428662d46110c0618e",
+  "gridTitle": "School asset configuration",
+  "gridType": "form",
+  "crmModelId": "67cfdd258662d46110c0618d",
+  "rows": [
+    {
+      "$key": "k45wollocu7",
+      "fields": [
+        {
+          "id": "key",
+          "title": "Key",
+          "type": "text",
+          "span": 24,
+          "$key": "9mvvhmwzi7"
+        },
+        {
+          "$key": "h2dpf8mvm",
+          "id": "value",
+          "title": "Value",
+          "type": "text",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-11T07:12:02.673Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:04.572Z"
+}

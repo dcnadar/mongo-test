@@ -1,0 +1,20 @@
+{
+  "_id": "6713b9595f22ec7ba026489e",
+  "name": "Add Previous School",
+  "path": "/admin/student/previous-school/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67138bfd5f22ec7ba0264892",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T13:51:21.486Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "studentId",
+      "required": true
+    }
+  ],
+  "updated": "2025-09-08T10:50:52.834Z"
+}

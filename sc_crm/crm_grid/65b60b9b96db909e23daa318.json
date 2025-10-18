@@ -1,0 +1,109 @@
+{
+  "_id": "65b60b9b96db909e23daa318",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-28T08:08:59.495Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Date",
+          "id": "date",
+          "type": "date",
+          "span": 8,
+          "o": true,
+          "format": "MM/DD/YYYY",
+          "hint": "Date of the blog post",
+          "$key": "9qyswovsre6",
+          "meta": {
+            "datePickerType": "month"
+          }
+        },
+        {
+          "index": 1,
+          "title": "Tag",
+          "id": "tag",
+          "type": "text",
+          "span": 8,
+          "o": true,
+          "hint": "Category or tag of the blog post",
+          "$key": "zbmpx590gsd"
+        },
+        {
+          "index": 1,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 8,
+          "o": false,
+          "hint": "Image for the blog post",
+          "$key": "cjnzle4kc6l"
+        },
+        {
+          "index": 3,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Title of the blog post",
+          "$key": "012mam1gekpj"
+        },
+        {
+          "index": 4,
+          "title": "Description",
+          "id": "descriptions",
+          "type": "textarea",
+          "span": 16,
+          "o": false,
+          "hint": "Summary or excerpt of the blog post",
+          "$key": "6vnivur7m9r"
+        },
+        {
+          "$key": "b3ptvo0ac0t",
+          "id": "enableButton",
+          "title": "Enable Click",
+          "type": "bool",
+          "span": 4,
+          "o": true
+        },
+        {
+          "index": 3,
+          "title": "Click Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 20,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "hint": "Define the action for the button. For example, you could set it to navigate to a blog page, open a modal, etc.",
+          "$key": "gulexkfwngl",
+          "showCondition": "return this.enableButton;"
+        },
+        {
+          "index": 5,
+          "title": "User",
+          "id": "user",
+          "type": "inner_form",
+          "span": 24,
+          "o": true,
+          "meta": {
+            "crmFormId": "65b53659f7815fa135bd04dd",
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "hint": "Details about the author or related user",
+          "$key": "9ia9qccqe2v"
+        }
+      ],
+      "$key": "9tvykrbbzzc"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b60ab65b707c75947fa67f",
+  "gridTitle": "ReactGrid GlobalBlogCards1 Section",
+  "fetchDocWithoutId": false
+}

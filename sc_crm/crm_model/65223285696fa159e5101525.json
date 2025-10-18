@@ -1,0 +1,51 @@
+{
+  "_id": "65223285696fa159e5101525",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "currencyCode",
+      "name": "Currency Symbol"
+    },
+    {
+      "dataType": "STRING",
+      "key": "price",
+      "name": "Price"
+    },
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name"
+    },
+    {
+      "dataType": "STRING",
+      "key": "rotatingImage",
+      "name": "Rotating Image"
+    },
+    {
+      "dataType": "DOUBLE",
+      "key": "rating",
+      "name": "Rating"
+    },
+    {
+      "name": "Enable Button",
+      "key": "enableButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Foodio Home Crousal Common Card",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:51.725Z"
+}

@@ -1,0 +1,53 @@
+{
+  "_id": "67ada53c61e8f2055c2ae873",
+  "gridTitle": "ReactGrid GlobalLocation1",
+  "gridType": "form",
+  "crmModelId": "67ad9ff761e8f2055c2ae870",
+  "rows": [
+    {
+      "$key": "9ktn5jn8nrl",
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8,
+          "$key": "bcyrjsp8yj"
+        },
+        {
+          "$key": "70ohl9c4kz2",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 16
+        },
+        {
+          "$key": "o87up0s3xo",
+          "id": "latitude",
+          "title": "Latitude",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "h4kxm3hzml",
+          "id": "longitude",
+          "title": "Longitude",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "dw9l60lm185",
+          "id": "address",
+          "title": "Address",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-13T07:54:36.858Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

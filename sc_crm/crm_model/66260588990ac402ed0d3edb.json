@@ -1,0 +1,47 @@
+{
+  "_id": "66260588990ac402ed0d3edb",
+  "name": "NewsLetterSubscriber",
+  "modelType": "COLLECTION",
+  "properties": [
+    {
+      "$key": "n63x36021ls",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING",
+      "unique": true
+    },
+    {
+      "$key": "ehpg6e8q9s",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ldrnepwsvfo",
+            "key": "SUBSCRIBED",
+            "value": "Subscribed"
+          },
+          {
+            "$key": "f29kym7edde",
+            "key": "UNSUBSCRIBED",
+            "value": "Unsubscribed"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ht75ex8xkpp",
+      "key": "unsubscribeReason",
+      "name": "Unsubscribe Reason",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T06:36:56.948Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "cardDataTargets": {},
+  "collectionName": "news_letter_subscriber",
+  "menuTargets": {}
+}

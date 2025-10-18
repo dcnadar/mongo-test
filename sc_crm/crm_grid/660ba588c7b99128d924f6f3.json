@@ -1,0 +1,87 @@
+{
+  "_id": "660ba588c7b99128d924f6f3",
+  "gridTitle": "ReactGrid GlobalTeamSections7 Section",
+  "gridType": "form",
+  "crmModelId": "660b96cfc7b99128d924f6f1",
+  "rows": [
+    {
+      "$key": "mqbtthidgqe",
+      "fields": [
+        {
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "$key": "9xlyqixa7ea"
+        },
+        {
+          "$key": "99ejfvm7m28",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "t2vpsugpb9h",
+          "id": "enableButton",
+          "title": "Enable Click",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "o6clg5v69g7",
+          "id": "buttonAction",
+          "title": "Click Action",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "tooti61x4ba",
+          "id": "subtitle",
+          "title": "Subtitle",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "wb65cymtgx8",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 16
+        },
+        {
+          "$key": "jvld5s6hwhi",
+          "id": "buttons",
+          "title": "Buttons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 2
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-02T06:28:24.645Z",
+  "createdBy": "660a41ecdeefcc0a51709289"
+}

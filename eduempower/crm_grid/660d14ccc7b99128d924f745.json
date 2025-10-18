@@ -1,0 +1,153 @@
+{
+  "_id": "660d14ccc7b99128d924f745",
+  "gridTitle": "Eduempower AcademicSession",
+  "gridType": "form",
+  "crmModelId": "66067807eea36066ca04cbcc",
+  "rows": [
+    {
+      "$key": "4467oj9aeq3",
+      "fields": [
+        {
+          "id": "session",
+          "title": "Session Name",
+          "type": "text",
+          "span": 8,
+          "$key": "qn95hawae6g"
+        },
+        {
+          "$key": "lsjscr97btk",
+          "id": "from",
+          "title": "From",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "n8e4s3v9kvl",
+          "span": 8,
+          "id": "to",
+          "title": "To",
+          "type": "date"
+        },
+        {
+          "$key": "rr6ng3cgfqm",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "xr1bvwlc7d",
+          "id": "copyFromCurrent",
+          "title": "Copy Current Data",
+          "type": "checkbox_group",
+          "multiple": false,
+          "checkboxGroups": [
+            {
+              "$key": "aqgr70g9dtk",
+              "name": "Class Setup",
+              "options": [
+                {
+                  "key": "eduempower_class",
+                  "value": "Class",
+                  "$key": "wp5c5owx5jf"
+                },
+                {
+                  "$key": "babqymhvepb",
+                  "value": "Section",
+                  "key": "eduempower_class_section"
+                },
+                {
+                  "$key": "0tu9o4v6kscg",
+                  "key": "eduempower_class_incharge",
+                  "value": "Class Incharge"
+                }
+              ]
+            },
+            {
+              "$key": "5s0b6itr26a",
+              "name": "Leave Setup",
+              "options": [
+                {
+                  "key": "eduempower_leave_type",
+                  "$key": "tfv7zfnjdh9",
+                  "value": "Leave Type"
+                },
+                {
+                  "$key": "zczil86vieb",
+                  "key": "eduempower_leave_plan",
+                  "value": "Leave Plan"
+                }
+              ]
+            },
+            {
+              "$key": "fiz1erfu1bj",
+              "name": "Fee Setup",
+              "options": [
+                {
+                  "key": "eduempower_fee_type",
+                  "value": "Fee Type",
+                  "$key": "l7msmu5oax"
+                },
+                {
+                  "$key": "qz6z0u9lyv",
+                  "key": "eduempower-fee-category",
+                  "value": "Fee Category"
+                },
+                {
+                  "$key": "dpfyxw9plqa",
+                  "key": "eduempower_fee_schedule",
+                  "value": "Fee Schedule"
+                },
+                {
+                  "$key": "gjfj3nb6f4m",
+                  "key": "eduempower_fee_structure",
+                  "value": "Fee Structure"
+                },
+                {
+                  "$key": "nds4z1nn6i",
+                  "key": "eduempower_fee_fine",
+                  "value": "Fee Fine"
+                },
+                {
+                  "$key": "nf20yh7g1s",
+                  "key": "eduempower_fee_concession",
+                  "value": "Fee Concession"
+                }
+              ]
+            },
+            {
+              "$key": "yur5sqyio8n",
+              "name": "Examination Setup",
+              "options": [
+                {
+                  "key": "eduempower_class_subject",
+                  "value": "Class Subject",
+                  "$key": "t5a4nu83vws"
+                },
+                {
+                  "$key": "m5tlaqjt1fj",
+                  "key": "eduempower_teacher_mapping",
+                  "value": "Class Teacher"
+                },
+                {
+                  "$key": "7qyxqxtvd7d",
+                  "key": "eduempower_teacher_mapping",
+                  "value": "Subject Teacher"
+                }
+              ]
+            }
+          ],
+          "span": 24,
+          "updateType": "hidden"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T08:35:24.330Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:59.256Z"
+}

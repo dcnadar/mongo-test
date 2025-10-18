@@ -1,0 +1,94 @@
+{
+  "_id": "66e54da0ab08f3103afa077e",
+  "gridTitle": "Order Cancel Requests",
+  "gridType": "table",
+  "crmModelId": "6684e3603108ad7b7d063f47",
+  "columns": [
+    {
+      "$key": "q812slw46sf",
+      "key": "userId",
+      "name": "Customer",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "wk7ntiq5d3o",
+      "key": "productVariantId",
+      "name": "Product Variant",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "0i6hujse3rap",
+      "key": "orderId",
+      "name": "Order",
+      "type": "tag",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "qwevmmlrr8o",
+      "key": "cancelData.cancelReason",
+      "name": "Reason",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "ni0e9cxz04c",
+      "key": "cancelData.cancelRequestDate",
+      "name": "Request Date",
+      "sort": false,
+      "width": 200,
+      "type": "date"
+    },
+    {
+      "$key": "dkuzl3x6zo4",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 299,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "jznh7fz1839",
+          "gridTitle": "Accept Request",
+          "value": "Accept",
+          "gridType": "confirm",
+          "apiUrl": "/api/io/order/cancel/request/accept?orderId=:_id _id",
+          "showGridComment": false,
+          "gridMsg": "Are you sure, want to cancel the order?"
+        },
+        {
+          "$key": "kk51kx3i6c",
+          "gridTitle": "Reject Request",
+          "value": "Reject",
+          "gridType": "confirm",
+          "apiUrl": "/api/io/order/cancel/request/reject?orderId=:_id _id",
+          "showGridComment": true,
+          "gridMsg": "Reject the cancel request?"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "ckyirzj6s2f",
+        "propertyKey": "status",
+        "operator": "EQUALS",
+        "EQUALS": "CANCEL_REQUEST"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-14T08:47:28.466Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

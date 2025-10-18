@@ -1,0 +1,10 @@
+{
+  "_id": "67d7f3605ea132199e60a84d",
+  "name": "Shop Manager",
+  "permissions": [
+    "67d7f3495ea132199e60a84c"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-17T10:03:12.092Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

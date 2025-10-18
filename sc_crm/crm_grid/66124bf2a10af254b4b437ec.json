@@ -1,0 +1,64 @@
+{
+  "_id": "66124bf2a10af254b4b437ec",
+  "gridTitle": "Invoice Item",
+  "gridType": "form",
+  "crmModelId": "6612413ba10af254b4b437e0",
+  "rows": [
+    {
+      "$key": "ywlltxxn7ff",
+      "fields": [
+        {
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 24,
+          "$key": "znbz4t06aom"
+        },
+        {
+          "$key": "vroz5x9i6s",
+          "id": "rate",
+          "title": "Rate",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "idhkqtp53mh",
+          "id": "qty",
+          "title": "Qty",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "s55pw8bg80c",
+          "id": "amount",
+          "title": "Amount",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "eiqv2q4um96",
+          "id": "tax",
+          "title": "Tax",
+          "type": "bool",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T07:32:02.738Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

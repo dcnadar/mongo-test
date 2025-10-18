@@ -1,0 +1,137 @@
+{
+  "_id": "64a485ec1952437b761aac09",
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "columns": [
+    {
+      "index": 0,
+      "name": "Name",
+      "key": "name",
+      "type": "text",
+      "sort": true,
+      "width": 300,
+      "$key": "gv20suwb3xs"
+    },
+    {
+      "index": 1,
+      "name": "Thumb",
+      "type": "thumb",
+      "sort": false,
+      "$key": "d6l3djn00ij",
+      "key": "basicDetails.media"
+    },
+    {
+      "index": 2,
+      "name": "Brand",
+      "key": "brand",
+      "type": "card",
+      "sort": false,
+      "$key": "s88l1iabon"
+    },
+    {
+      "index": 3,
+      "name": "Category",
+      "key": "category",
+      "type": "card",
+      "sort": false,
+      "$key": "2ywxs3t2npy"
+    },
+    {
+      "index": 4,
+      "name": "Created On",
+      "key": "created",
+      "type": "date",
+      "sort": true,
+      "$key": "izbh3iqf3x"
+    },
+    {
+      "index": 5,
+      "name": "Edit",
+      "key": "edit",
+      "type": "actions",
+      "show": true,
+      "align": "right",
+      "sort": false,
+      "width": 215,
+      "actions": [
+        {
+          "value": "View Details",
+          "slug": "/admin/product/variant?product=:_id _id",
+          "type": "icon_button",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10015/10015359.png",
+          "$key": "bchp5f3yzwf",
+          "showCondition": "return this.useProductVariant=== 'true';",
+          "gridTitle": "View Details"
+        },
+        {
+          "$key": "r2etpcj5swa",
+          "gridTitle": "View Details",
+          "value": "View Details",
+          "slug": "/admin/product/variant/edit?product=:_id _id",
+          "type": "icon_button",
+          "icon": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/65e8cdff97f0eca7ba094627/columns.5.actions.1.icon/2025/1/10/file_c09fj0ot42-1739183569517.png"
+        },
+        {
+          "gridTitle": "Delete Product",
+          "gridType": "confirm",
+          "gridMsg": "This Product may be important for some customer. Are you sure to delete ':name'?",
+          "gridMsgParams": "name",
+          "apiUrl": "/admin/product/delete?id=:_id _id",
+          "type": "icon",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10347/10347120.png",
+          "$key": "ei305oo6u8k",
+          "showGridComment": false
+        }
+      ],
+      "$key": "yi0lkkb5qfd"
+    }
+  ],
+  "crmModelId": "648563687d5f915dc103d28f",
+  "gridTitle": "All Product",
+  "apiType": "POST",
+  "createButton": {
+    "value": "Add Product",
+    "slug": "/admin/product/create"
+  },
+  "apiUrl": "/admin/product/all",
+  "search": {
+    "placeHolder": "Search by name or description"
+  },
+  "created": "2024-01-27T07:48:47.120Z",
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "fetchAdditionalKeys": [],
+  "leftOpenFilters": [
+    {
+      "$key": "gojrh9cv0us",
+      "fields": [
+        {
+          "$key": "ysjujldtnfm",
+          "id": "category",
+          "title": "Category",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "o": true,
+          "span": 8,
+          "hint": "<p />"
+        },
+        {
+          "$key": "mjrhkeavl2",
+          "id": "brand",
+          "title": "Brand",
+          "type": "list",
+          "multiple": true,
+          "o": true,
+          "span": 8,
+          "add": false,
+          "delete": false
+        }
+      ]
+    }
+  ],
+  "tableMeta": {}
+}

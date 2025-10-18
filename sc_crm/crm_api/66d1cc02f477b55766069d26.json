@@ -1,0 +1,14 @@
+{
+  "_id": "66d1cc02f477b55766069d26",
+  "name": "Edit Shipment",
+  "path": "/admin/order/shipment/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66d1af33f477b55766069c4a",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-30T13:41:22.873Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

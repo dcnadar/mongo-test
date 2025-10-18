@@ -1,0 +1,20 @@
+{
+  "_id": "670d1aa45f22ec7ba02647fa",
+  "name": "Staff Discontinue",
+  "path": "/admin/staff/discontinue/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "670cf2ef5f22ec7ba02647e8",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-14T13:20:36.636Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true
+    }
+  ],
+  "updated": "2025-09-08T10:50:51.789Z"
+}

@@ -1,0 +1,73 @@
+{
+  "_id": "66127baba10af254b4b4380a",
+  "name": " Company Details",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "pvmufsj1m7c",
+      "key": "primaryEmail",
+      "name": "Primary Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "tp6axdr8yoo",
+      "key": "primaryContact",
+      "name": "Primary contact",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "s2j79d9gzfl",
+      "key": "secondaryEmail",
+      "name": "Secondary email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y8cujvkpuqe",
+      "key": "secondaryContact",
+      "name": "Secondary contact",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3gssof5tx9d",
+      "key": "address",
+      "name": "Address",
+      "dataType": "INNER_MODEL",
+      "modelId": "64a5b2c2099de82bca61ca91"
+    },
+    {
+      "$key": "0oe8wb8u5f7",
+      "key": "facebook",
+      "name": "Facebook",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "utqayjos35q",
+      "key": "instagram",
+      "name": "Instagram",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "sgrdxskukre",
+      "key": "linkedin",
+      "name": "Linkedin",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0uavwrd7oiii",
+      "key": "twitter",
+      "name": "Twitter",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "izel0cyytqf",
+      "key": "youtube",
+      "name": "Youtube",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T10:55:39.859Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

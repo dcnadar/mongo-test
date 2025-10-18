@@ -1,0 +1,55 @@
+{
+  "_id": "66cef57197c5ab7546485c1d",
+  "gridTitle": "ReactGrid GlobalHeade3 mainMenu",
+  "gridType": "form",
+  "crmModelId": "66ced0747954ad1d98836ead",
+  "rows": [
+    {
+      "$key": "71ycul77xl",
+      "fields": [
+        {
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8,
+          "$key": "9glta4zjo2m"
+        },
+        {
+          "$key": "pat5vp5ptg9",
+          "id": "subMenu",
+          "title": "SubMenu",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 5,
+          "o": true
+        },
+        {
+          "$key": "su2wvfytrtt",
+          "id": "buttonAction",
+          "title": "Enable Click",
+          "type": "inner_form",
+          "span": 8,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "o51al6y08n",
+          "title": "Enable Click",
+          "id": "enableButton",
+          "type": "bool",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-28T10:01:21.540Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

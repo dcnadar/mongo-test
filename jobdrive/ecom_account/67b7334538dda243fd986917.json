@@ -1,0 +1,14 @@
+{
+  "_id": "67b7334538dda243fd986917",
+  "name": "Switch online",
+  "status": "ACTIVE",
+  "domain": [
+    "switchonline.trufal.in",
+    "jobdrive.radyfy.com",
+    "jobdrivehost"
+  ],
+  "subDomain": "switchonline",
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-03-17T11:35:00.143Z",
+  "_class": "com.doonvalley.model.EcomAccount"
+}

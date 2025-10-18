@@ -1,0 +1,22 @@
+{
+  "_id": "65f7f21c52bbad30f7463f4c",
+  "name": "ReactGrid GlobalHeaderSection1 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "key",
+      "name": "Key",
+      "dataType": "STRING"
+    },
+    {
+      "key": "value",
+      "name": "Value",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-18T07:49:48.246Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

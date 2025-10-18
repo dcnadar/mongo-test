@@ -1,0 +1,32 @@
+{
+  "_id": "6716002d5f22ec7ba02648be",
+  "name": "Eduempower Staff Transfer",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "uf27q26tms",
+      "key": "staff",
+      "name": "Staff",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "7dy9kgx64ih",
+      "key": "branch",
+      "name": "Branch",
+      "dataType": "REFERENCE",
+      "modelId": "6606750ceea36066ca04cbca"
+    },
+    {
+      "$key": "ta35pa9trrn",
+      "key": "transferto",
+      "name": "Transfer To",
+      "dataType": "REFERENCE",
+      "modelId": "6606750ceea36066ca04cbca"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-21T07:18:05.435Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:07.084Z"
+}

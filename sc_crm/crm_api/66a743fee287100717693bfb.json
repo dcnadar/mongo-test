@@ -1,0 +1,14 @@
+{
+  "_id": "66a743fee287100717693bfb",
+  "name": "Customer Orders",
+  "path": "/admin/customer/orders/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66a741a9e287100717693bfa",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-29T07:25:50.129Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

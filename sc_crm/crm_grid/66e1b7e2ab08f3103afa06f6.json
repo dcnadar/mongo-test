@@ -1,0 +1,51 @@
+{
+  "_id": "66e1b7e2ab08f3103afa06f6",
+  "gridTitle": "BankAccountDetails",
+  "gridType": "form",
+  "crmModelId": "66e1b770ab08f3103afa06f5",
+  "rows": [
+    {
+      "$key": "j4yopzhmp09",
+      "fields": [
+        {
+          "$key": "apnbhh1u67",
+          "id": "username",
+          "title": "Username",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "9lscw2mr36s",
+          "id": "accountNo",
+          "title": "Account Number",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "0u1s4c56crpf",
+          "id": "ifsc",
+          "title": "IFSC Code",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:31:46.186Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

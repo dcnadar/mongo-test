@@ -1,0 +1,148 @@
+{
+  "_id": "66a35b13e287100717693bd2",
+  "gridTitle": "customer address",
+  "gridType": "table",
+  "crmModelId": "66a35460e287100717693bcf",
+  "columns": [
+    {
+      "$key": "jy4f8n1a79",
+      "key": "firstName",
+      "name": "Full Name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "54vo1hhqyhe",
+      "key": "mobileNumber",
+      "name": "mobile Number",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "cadpo6zrmts",
+      "key": "pincode",
+      "name": "Pin code",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "f8uf0ve8b0l",
+      "key": "state",
+      "name": "State",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "iiffhcj21q",
+      "key": "addressLine1",
+      "name": "Address Line1",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "je2toihjmd",
+      "key": "addressLine2",
+      "name": "Address Line2",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "fha12gkcr2j",
+      "key": "locality",
+      "name": "Locality",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "q85acxs93x",
+      "key": "district",
+      "name": "District",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "0g535ul13ol5",
+      "key": "addressType",
+      "name": "Address Type",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "rraesb5rp2",
+      "key": "country",
+      "name": "country",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "56muszafb9j",
+      "key": "default",
+      "name": "Default",
+      "type": "text",
+      "width": 150,
+      "sort": false,
+      "valueCondition": "return this.default ? 'Yes' : 'No';"
+    },
+    {
+      "$key": "85sgty1xz24",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "width": 200,
+      "actions": [
+        {
+          "$key": "9cg05fjdzc4",
+          "gridTitle": "edit",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/customer/address/edit?id=:_id _id"
+        },
+        {
+          "$key": "xhal0xa3z5",
+          "gridTitle": "delete",
+          "gridType": "confirm",
+          "value": "Delete",
+          "apiUrl": "/admin/customer/address/delete?id=:_id _id",
+          "type": "icon",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.11.actions.1.icon/2024/6/29/upload_6f5h09ck0ar-1722261565009.png"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "hdhjaict6fb",
+      "value": "Add Address",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/customer/address/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "openOnSaturday",
+    "openOnSunday",
+    "lastName"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T08:15:15.410Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true
+    }
+  ],
+  "backUrl": "/admin/customer/all"
+}

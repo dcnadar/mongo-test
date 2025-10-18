@@ -1,0 +1,13 @@
+{
+  "_id": "65133d92e0926040430aa1f0",
+  "name": "Website Page Sections",
+  "action": "CRM_GRID",
+  "sourceId": "65dd815689b9cdc46673f75f",
+  "gridType": "menu",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/website/page/section",
+  "innerGridType": "table",
+  "innerSourceId": "6512773d551621212be4a59f",
+  "created": "2024-01-27T07:48:46.582Z"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "66e1b770ab08f3103afa06f5",
+  "name": "BankAccountDetails",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ktpk087diun",
+      "key": "username",
+      "name": "Username",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nk7q2gtjvuh",
+      "key": "accountNo",
+      "name": "Account Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "j8bjj4ac4ij",
+      "key": "ifsc",
+      "name": "IFSC Code",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:29:52.205Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "660818ea60d4f873b5fa4f48",
+  "name": "Eduempower Designation",
+  "modelType": "COLLECTION",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "collectionName": "eduempower_designation",
+  "properties": [
+    {
+      "$key": "96vthd4oy1",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "7cz5vjcujrs",
+      "key": "departmentId",
+      "name": "Department Id",
+      "dataType": "REFERENCE",
+      "modelId": "660817b960d4f873b5fa4f47",
+      "searchable": {
+        "value": false
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-30T13:51:38.530Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.229Z"
+}

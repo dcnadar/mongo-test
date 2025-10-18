@@ -1,0 +1,79 @@
+{
+  "_id": {
+    "$oid": "65e4e720d796c9ccbd1b408d"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid CardData",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title",
+      "$key": "n4byf3hit7m"
+    },
+    {
+      "$key": "zh4rvc0ce5h",
+      "key": "type",
+      "name": "Type",
+      "dataType": "STRING"
+    },
+    {
+      "dataType": "STRING",
+      "key": "thumb",
+      "name": "Thumb",
+      "$key": "hmg36xbwe97"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "STRING",
+      "key": "subtitles",
+      "name": "Subtitles",
+      "$key": "8ooffhbm3qg"
+    },
+    {
+      "dataType": "STRING",
+      "key": "slug",
+      "name": "Slug",
+      "$key": "ztifgqbwrhn"
+    },
+    {
+      "$key": "uqr2xumirhp",
+      "key": "thumbInitials",
+      "name": "Thumb Initials",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "pcswl1gu12",
+      "key": "thumbColor",
+      "name": "Thumb Color",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rjl05sitwf",
+      "key": "crossButton",
+      "name": "Cross Button",
+      "dataType": "INNER_MODEL",
+      "modelId": "65e80278424719e028f20657"
+    },
+    {
+      "$key": "rocu35fq7yo",
+      "key": "actions",
+      "name": "Actions",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65e80278424719e028f20657"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709500192481"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152398"
+    }
+  }
+}

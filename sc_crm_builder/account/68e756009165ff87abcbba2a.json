@@ -1,0 +1,57 @@
+{
+  "_id": "68e756009165ff87abcbba2a",
+  "name": "Infosys",
+  "aId": "82628",
+  "status": "UNDER_DEVELOPMENT",
+  "userDetails": {
+    "firstName": "Sundar",
+    "lastName": "Kumar",
+    "email": "sundarmgr666@gmail.com"
+  },
+  "companyDetails": {
+    "favicon": "/default/default/6899f37b7805d23c977499b4/imageUpload/2025/8/25/file_xou5vxlqk8f-1758784089901.jpeg",
+    "loginImages": [
+      "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/8/9/file_11toglxp71dj-1757416664845.png"
+    ],
+    "subDomain": "infosys",
+    "logo": "/default/default/6899f37b7805d23c977499b4/imageUpload/2025/8/25/file_xou5vxlqk8f-1758784089901.jpeg"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2025-10-09T06:28:16.830Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "dbCredentials": {
+    "dev": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "infosys_dev"
+      }
+    },
+    "qa": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "infosys_qa"
+      }
+    },
+    "uat": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "infosys_uat"
+      }
+    },
+    "prod": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "infosys"
+      }
+    }
+  },
+  "setupStartTime": "2025-10-09T06:31:28.878Z",
+  "setupTasks": {
+    "metaDataProvision": true,
+    "entityDataProvision": true,
+    "cetificateIssue": true,
+    "certificateAssignedtoALB": true,
+    "notifyByEmail": true
+  },
+  "version": "1.0.1"
+}

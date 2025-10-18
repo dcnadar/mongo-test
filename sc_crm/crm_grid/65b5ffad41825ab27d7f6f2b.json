@@ -1,0 +1,41 @@
+{
+  "_id": "65b5ffad41825ab27d7f6f2b",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Header",
+          "id": "header",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "65b0e0d54720140d59822ed7"
+          }
+        },
+        {
+          "index": 1,
+          "title": "Sections",
+          "id": "sections",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 10,
+          "countTitle": "No Feature Point Added",
+          "add": true,
+          "delete": true,
+          "hint": "Add Feature Point"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b0e0d54720140d59822eda",
+  "gridTitle": "ReactGrid GlobalFeatureSection2",
+  "created": "2024-01-28T07:18:05.359Z"
+}

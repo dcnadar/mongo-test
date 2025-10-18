@@ -1,0 +1,24 @@
+{
+  "_id": "667aa4dd74a25c4c696adadb",
+  "gridTitle": "NativeGrid GlobalCommonProductList3 Header ",
+  "gridType": "form",
+  "crmModelId": "667a9ce274a25c4c696adad9",
+  "rows": [
+    {
+      "$key": "0ckahuao01a",
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 24,
+          "$key": "izyplwid89"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-25T11:07:09.551Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

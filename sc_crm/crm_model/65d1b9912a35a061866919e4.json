@@ -1,0 +1,74 @@
+{
+  "_id": "65d1b9912a35a061866919e4",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "type",
+      "name": "Section Type",
+      "data": {
+        "tagCategory": "websiteReactGridContentSectionType"
+      },
+      "$key": "kuc5n48xv2"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image",
+      "$key": "kir08eksowr"
+    },
+    {
+      "dataType": "STRING",
+      "key": "paragraph",
+      "name": "Paragraph",
+      "$key": "kkeoe5v8ben"
+    },
+    {
+      "dataType": "STRING",
+      "key": "heading",
+      "name": "Heading",
+      "$key": "isgq41llvq"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "points",
+      "name": "Points",
+      "modelId": "65d1b9932a35a061866919e6",
+      "$key": "c0cxue3a73g"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "quote",
+      "name": "Quote",
+      "modelId": "65d1b9942a35a061866919e7",
+      "$key": "qlrm2x16ye"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "buttons",
+      "name": "Buttons",
+      "modelId": "65b0b2b014cae9d8eba5398a",
+      "$key": "xq1pm3cp47c"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "dataPoints",
+      "name": "Data Points",
+      "modelId": "65d1b9922a35a061866919e5",
+      "$key": "d1peskdhvl"
+    },
+    {
+      "$key": "jqew3kxx6w",
+      "key": "message",
+      "name": "Message",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalCommon ContentSection",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-18T08:02:25.176Z"
+}

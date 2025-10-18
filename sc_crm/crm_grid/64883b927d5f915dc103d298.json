@@ -1,0 +1,112 @@
+{
+  "_id": "64883b927d5f915dc103d298",
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "columns": [
+    {
+      "index": 0,
+      "name": "Name",
+      "key": "name",
+      "type": "text",
+      "sort": true,
+      "$key": "bweq7qdoyaa",
+      "width": 100
+    },
+    {
+      "index": 1,
+      "name": "Logo",
+      "key": "logo",
+      "type": "thumb",
+      "sort": false,
+      "$key": "j0imuzjeh0g",
+      "width": 100
+    },
+    {
+      "index": 2,
+      "name": "Path",
+      "key": "path",
+      "type": "text",
+      "sort": true,
+      "$key": "6g70iythdvr",
+      "width": 100
+    },
+    {
+      "index": 2,
+      "name": "Sub Categories",
+      "key": "meta.subCategoriesCount",
+      "type": "text",
+      "sort": false,
+      "$key": "xbzgn1wi6m",
+      "width": 100
+    },
+    {
+      "index": 3,
+      "name": "Created On",
+      "key": "created",
+      "type": "date",
+      "sort": true,
+      "$key": "k1hhoe43ps",
+      "width": 100
+    },
+    {
+      "index": 4,
+      "name": "Edit",
+      "key": "edit",
+      "type": "actions",
+      "show": true,
+      "align": "right",
+      "sort": false,
+      "width": 50,
+      "actions": [
+        {
+          "value": "Edit Product Category",
+          "gridType": "expendedForm",
+          "apiUrl": "/admin/product/category/update?id=:_id&parentId=:parentId _id parentId",
+          "type": "icon",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10015/10015359.png",
+          "$key": "2sdre9f5blz"
+        },
+        {
+          "value": "Delete Product Category",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure to delete ':name' category?",
+          "gridMsgParams": "name",
+          "apiUrl": "/admin/product/category/delete?id=:_id _id",
+          "type": "icon",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10347/10347120.png",
+          "$key": "qd34b89089c",
+          "showGridComment": false
+        }
+      ],
+      "$key": "o7srw9bil4e"
+    }
+  ],
+  "crmModelId": "648b5dfa568ed162c961ede3",
+  "gridTitle": "All Product Category",
+  "apiType": "POST",
+  "createButton": {
+    "value": "Add Category",
+    "slug": "/admin/product/category/create"
+  },
+  "apiUrl": "/admin/product/category",
+  "search": {
+    "placeHolder": "Search by Category title"
+  },
+  "gridParams": [
+    {
+      "key": "parentId",
+      "required": false,
+      "defaultBDQuery": {
+        "$exists": false
+      }
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "fetchAdditionalKeys": [],
+  "leftOpenFilters": [],
+  "tableMeta": {}
+}

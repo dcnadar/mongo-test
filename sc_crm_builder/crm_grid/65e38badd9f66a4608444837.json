@@ -1,0 +1,105 @@
+{
+  "_id": {
+    "$oid": "65e38badd9f66a4608444837"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Key",
+          "id": "key",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "$key": "r3tpzbeu85"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Slug",
+          "id": "slug",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "$key": "yr883eu72y"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Value",
+          "id": "value",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "$key": "2hrxghcm1bc"
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Icon",
+          "id": "icon",
+          "type": "text",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "$key": "cqfmniguzst"
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "SubMenu",
+          "id": "subMenu",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "10"
+          },
+          "countTitle": "No SubMenu Added",
+          "add": true,
+          "delete": true,
+          "hint": "Add SubMenu",
+          "$key": "u3mzwpd3y"
+        }
+      ],
+      "$key": "dj9ku2z72ci"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e388705850bd3b0c0f2963",
+  "gridTitle": "Crm App Menu Item",
+  "created": {
+    "$date": {
+      "$numberLong": "1709411245594"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149830"
+    }
+  }
+}

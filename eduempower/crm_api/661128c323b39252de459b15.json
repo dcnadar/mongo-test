@@ -1,0 +1,13 @@
+{
+  "_id": "661128c323b39252de459b15",
+  "name": "All Class",
+  "path": "/admin/schoolsetup/class-section/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660d6284c7b99128d924f759",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T10:49:39.358Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:44.990Z"
+}

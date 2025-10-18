@@ -1,0 +1,24 @@
+{
+  "_id": "65e25492efb82357eb86d518",
+  "email": "pintu.kumar@trufal.com",
+  "logo": "http://localhost:8080/api/public/downloadFile/image-1612274608057.png",
+  "mobileNumber": "9876543210",
+  "landlineNumber": "1234567",
+  "gender": "MALE",
+  "roleId": "admin",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2024-03-02T14:05:44.964Z",
+  "password": "ld14402V8Hf48JMh8xLE4HnMPE6YpplLnuECEb4h7GA=",
+  "callingCode": "+91",
+  "userName": "pintu.kumar@trufal.com",
+  "appId": "65e255c8efb82357eb86d51b",
+  "ecomAccountId": "65e2539fefb82357eb86d514",
+  "firstName": "Pintu",
+  "lastName": "Kumar",
+  "crmLastFilter": {
+    "accountId": "65e23e399013eda2edcd3f2e"
+  },
+  "admin": true,
+  "userType": "STAFF"
+}

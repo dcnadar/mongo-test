@@ -1,0 +1,78 @@
+{
+  "_id": "669e4b3d531ed762273ebc9a",
+  "name": "NativeGrid GlobalProductList sections",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "3gq38v1cb4c",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "v7rqoi9c9b",
+      "key": "rating",
+      "name": "Rating",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "5yft8l9paca",
+      "key": "reviewCount",
+      "name": "ReviewCount",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "0dah7w9dbap6",
+      "key": "brand",
+      "name": "Brand",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "91wu2rdyzih",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "l856xqhwwrj",
+      "key": "category",
+      "name": "Category",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "clm7djpchxg",
+      "key": "bestPrice",
+      "name": "BestPrice",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "oxz6p3zmw7h",
+      "key": "currencySymbol",
+      "name": "CurrencySymbol",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "et1i2ac2i4u",
+      "key": "price",
+      "name": "Price",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dczgdhrc0ow",
+      "key": "mrp",
+      "name": "mrp",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1nwk7n1ht86",
+      "key": "discount",
+      "name": "Discount",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-22T12:06:21.490Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

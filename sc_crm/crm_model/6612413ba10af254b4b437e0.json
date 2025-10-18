@@ -1,0 +1,42 @@
+{
+  "_id": "6612413ba10af254b4b437e0",
+  "name": "Invoice Item",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ty3r5pwff5s",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0o1dpvhla4bi",
+      "key": "rate",
+      "name": "Rate",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "od6wppdi8z",
+      "key": "qty",
+      "name": "QTY",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "dlebq2hgai",
+      "key": "amount",
+      "name": "Amount",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "4shh446gtnr",
+      "key": "tax",
+      "name": "Tax",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T06:46:19.475Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

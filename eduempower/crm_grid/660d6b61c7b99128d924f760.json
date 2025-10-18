@@ -1,0 +1,128 @@
+{
+  "_id": "660d6b61c7b99128d924f760",
+  "gridTitle": "Eduempower LeavePlan",
+  "gridType": "table",
+  "crmModelId": "66081f1e60d4f873b5fa4f4a",
+  "columns": [
+    {
+      "$key": "twb6q8bsvu",
+      "key": "departmentId",
+      "name": "Department",
+      "type": "card",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "z4h94vcm9jl",
+      "key": "leaveType",
+      "name": "Leave Type",
+      "type": "card",
+      "sort": true,
+      "width": 100
+    },
+    {
+      "$key": "t50w5zgoof",
+      "key": "planName",
+      "name": "Leave Plan Name",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "11k0j9ut3wc",
+      "key": "leavePlanDuration",
+      "name": "Leave Duration",
+      "type": "text",
+      "sort": true,
+      "width": 100
+    },
+    {
+      "$key": "k69t2gy83e",
+      "key": "effectiveFrom",
+      "name": "Effective From",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "6su018zkx34",
+      "key": "effectiveTo",
+      "name": "Effective To",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "s10uuv4en4",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true,
+      "width": 100
+    },
+    {
+      "$key": "c1a3bqkoxv6",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "width": 200,
+      "actions": [
+        {
+          "$key": "8nmpvcqfvtj",
+          "gridTitle": "Edit Leave Plan",
+          "value": "Edit",
+          "apiUrl": "/admin/schoolsetup/leave-settings/leave-plan/edit?id=:_id _id",
+          "gridType": "popupForm"
+        },
+        {
+          "$key": "3qz5f9xiey",
+          "gridTitle": "Activate",
+          "value": "Activate",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "showCondition": "return this.status==='INACTIVE';",
+          "apiUrl": "/api/io/schoolsetup/leave-setting/leave-plan/changeStatus?id=:_id&status=ACTIVE _id",
+          "gridMsg": "Are you sure?"
+        },
+        {
+          "$key": "h8r3nt2yyup",
+          "gridTitle": "Deactivate",
+          "value": "Deactivate",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "showCondition": "return this.status==='ACTIVE';",
+          "apiUrl": "/api/io/schoolsetup/leave-setting/leave-plan/changeStatus?id=:_id&status=INACTIVE _id",
+          "gridMsg": "Are you sure?"
+        },
+        {
+          "$key": "vqvsjjullu",
+          "gridTitle": "Delete",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "gridMsg": "Are you sure?",
+          "apiUrl": "/admin/schoolsetup/leave-settings/leave-plan/delete",
+          "value": "Delete"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "6338pdu7a09",
+      "gridTitle": "Add Leave Plan",
+      "value": "Add Leave Plan",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/schoolsetup/leave-settings/leave-plan/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T14:44:49.845Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.662Z"
+}

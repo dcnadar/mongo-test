@@ -1,0 +1,52 @@
+{
+  "_id": "68ad631c077fdcc858b135c7",
+  "name": "Student Research & Academic Work",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "cp0xkhi6saw",
+      "dataType": "STRING",
+      "listType": "STRING",
+      "data": {
+        "options": []
+      },
+      "key": "researchTitle",
+      "name": "Research Title"
+    },
+    {
+      "$key": "ufz0j91ndz",
+      "key": "researchDescription",
+      "name": "Research Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gt1rykr18j",
+      "key": "researchOutcome",
+      "name": "Research Outcome",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "li3lkeqzjl",
+      "key": "publicationTitle",
+      "name": "Publication Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jarg8fblyt",
+      "key": "publicationConference",
+      "name": "Publication Conference",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "c6smgdt6nq7",
+      "name": "Digital Object Identifier",
+      "key": "publicationIdentifier",
+      "unique": true,
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T07:32:44.383Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:56.131Z"
+}

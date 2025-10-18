@@ -1,0 +1,53 @@
+{
+  "_id": "6551c8c3333ade58a3768963",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2023-10-08T00:00:00.000Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 5,
+          "title": "Technical Points",
+          "id": "technicalPoints",
+          "min": 1,
+          "max": 200,
+          "type": "input_table",
+          "span": 24,
+          "o": true,
+          "countTitle": "No Technical Points Added",
+          "add": true,
+          "delete": true,
+          "hint": "<strong>Key Technical Points</strong> of the product.<br>Example: 'Waterproof up to 50m', 'Battery life: 10 hours'",
+          "$key": "ipq26eri5cs"
+        },
+        {
+          "index": 6,
+          "title": "Small Description",
+          "id": "smallDescription",
+          "type": "text_editor",
+          "span": 24,
+          "o": false,
+          "hint": "<strong>Brief Product Description.</strong> Summarize key features.<br>Example: 'Compact and lightweight design, perfect for travel.'",
+          "$key": "my8wapozmdh"
+        },
+        {
+          "index": 7,
+          "title": "Long Description",
+          "id": "longDescription",
+          "type": "text_editor",
+          "span": 24,
+          "o": true,
+          "hint": "<strong>Detailed Product Description.</strong> Include specifications, benefits, and more.<br>Example: 'This camera features a 24.2MP APS-C sensor, capable of capturing high-quality images in various lighting conditions. Its compact form factor makes it an ideal travel companion.'",
+          "$key": "73e1iyq2h33"
+        }
+      ],
+      "$key": "ju1acjllgz"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "654b2a7bf9b217759444504e",
+  "gridTitle": "Product Basic Details",
+  "fetchDocWithoutId": false
+}

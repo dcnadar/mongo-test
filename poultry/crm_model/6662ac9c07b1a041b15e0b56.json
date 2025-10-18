@@ -1,0 +1,72 @@
+{
+  "_id": "6662ac9c07b1a041b15e0b56",
+  "name": "Producer Group",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "poultry_producer_group",
+  "properties": [
+    {
+      "$key": "zwtoemcsw4d",
+      "key": "pgName",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true,
+        "primary": true
+      }
+    },
+    {
+      "$key": "i2elwwlvol",
+      "key": "inceptionDate",
+      "name": "Inception Data",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "3kcfxhoxjy8",
+      "key": "bankAccountNo",
+      "name": "Bank Account No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "pe02ghtnl3l",
+      "key": "accountType",
+      "name": "Account Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "sc695h6lwdh",
+            "key": "SAVING",
+            "value": "Saving"
+          },
+          {
+            "$key": "3vhbhgphebt",
+            "key": "CURRENT",
+            "value": "Current"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "t9ethzz4m3",
+      "key": "ifscCode",
+      "name": "IFSC Code",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nug49f4tite",
+      "key": "blockId",
+      "name": "Block",
+      "dataType": "REFERENCE",
+      "modelId": "6662ac4007b1a041b15e0b55"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "pgName"
+  },
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T06:45:48.150Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "compoundUniqueFields": []
+}

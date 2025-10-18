@@ -1,0 +1,53 @@
+{
+  "_id": {
+    "$oid": "65e5b5cd41f4f9dcaa63ac7c"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Key",
+          "id": "key",
+          "type": "text",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "hint": "Enter Key"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Value",
+          "id": "value",
+          "type": "text",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "hint": "Enter Value"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e46e2562e81af0993f8515",
+  "gridTitle": "Crm Model Property Data Option",
+  "created": {
+    "$date": {
+      "$numberLong": "1709553101174"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150059"
+    }
+  }
+}

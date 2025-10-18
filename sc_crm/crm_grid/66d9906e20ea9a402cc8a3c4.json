@@ -1,0 +1,101 @@
+{
+  "_id": "66d9906e20ea9a402cc8a3c4",
+  "gridTitle": "Customer Create form public",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "p4tg8e58zgr",
+      "fields": [
+        {
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 8,
+          "$key": "cxwj97fopep"
+        },
+        {
+          "$key": "cuo20q6y8x7",
+          "id": "lastName",
+          "title": "LastName",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "l1p7wyemmsj",
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": 8
+        },
+        {
+          "$key": "29mr3x4khxs",
+          "id": "password",
+          "title": "Password",
+          "type": "password",
+          "span": 8
+        },
+        {
+          "$key": "9rm8yy98yh",
+          "id": "userType",
+          "title": "User Type",
+          "type": "text",
+          "span": 8,
+          "value": "CUSTOMER"
+        },
+        {
+          "$key": "i8azx04d2n",
+          "id": "mobileNumber",
+          "title": "MobileNumber",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "5aulu3uhgs5",
+          "id": "callingCode",
+          "title": "Calling Code",
+          "type": "list",
+          "multiple": false,
+          "span": 5
+        },
+        {
+          "$key": "3uds8ttkx0u",
+          "id": "birthDate",
+          "title": "Birth Date",
+          "type": "date",
+          "span": 6
+        },
+        {
+          "$key": "jhoolya7lde",
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "multiple": false,
+          "span": 4
+        },
+        {
+          "$key": "aq585uhy23g",
+          "id": "logo",
+          "title": "Profile pic",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "epbqfffehfh",
+          "id": "userName",
+          "title": "User Name",
+          "type": "text",
+          "span": 8,
+          "o": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-05T11:05:18.727Z",
+  "createdBy": "660837fd3afc795c92fa7f61",
+  "crmModelId": "64c7748983c24f1379031dc6"
+}

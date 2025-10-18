@@ -1,0 +1,17 @@
+{
+  "_id": "67ab315d8eb1a51b7f845b09",
+  "name": "ReactGrid GlobalBrand3 images row2 [OLD]",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "701tsuanjtg",
+      "key": "row2",
+      "name": "Row2",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-11T11:15:41.340Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

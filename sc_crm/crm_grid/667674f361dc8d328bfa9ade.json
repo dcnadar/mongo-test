@@ -1,0 +1,32 @@
+{
+  "_id": "667674f361dc8d328bfa9ade",
+  "gridTitle": "Website Section Sample Data",
+  "gridType": "form",
+  "crmModelId": "66766e0361dc8d328bfa9add",
+  "rows": [
+    {
+      "$key": "wcxhla9rg6g",
+      "fields": [
+        {
+          "id": "ecom_category",
+          "title": "Ecom Category",
+          "type": "tag",
+          "span": 23,
+          "$key": "nh1998mccth",
+          "multiple": false
+        },
+        {
+          "$key": "940oyiffthn",
+          "id": "data",
+          "title": "Data",
+          "span": 24,
+          "type": "textarea"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-22T06:53:39.885Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

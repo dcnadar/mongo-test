@@ -1,0 +1,149 @@
+{
+  "_id": "666880accf65cd7a11ef2c60",
+  "gridTitle": "Gross Income",
+  "gridType": "form",
+  "crmModelId": "66686402cf65cd7a11ef2c5a",
+  "rows": [
+    {
+      "$key": "ln303r7pr0l",
+      "fields": [
+        {
+          "$key": "qid8ahqjp3",
+          "id": "noOfAgedBirdsSold",
+          "title": "Number Of Aged (Adult) Birds Sold",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "8e7qb5rsf2",
+          "id": "totalWgtOfBirdsSold",
+          "title": "Total Weight Of Birds Sold",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonAfter": "KG"
+          }
+        },
+        {
+          "$key": "j63dmkz08tc",
+          "id": "salesRateAdult",
+          "title": "Sales Rate",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "b5d004tyb79",
+          "id": "incomeAgedBirds",
+          "title": "Income From Sales Of Aged (Adult) Birds",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        }
+      ],
+      "label": "Aged Birds",
+      "span": 24
+    },
+    {
+      "fields": [
+        {
+          "$key": "20sqkyrjkyn",
+          "id": "handicappedBirdsSold",
+          "title": "Number Of Handicapped (Stunted) Birds Sold",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "yrhjez5ddg",
+          "id": "wgtHandicappedBirdsSold",
+          "type": "number",
+          "span": 8,
+          "title": "Total Weight Of Handicapped Birds Sold",
+          "meta": {
+            "addonAfter": "KG"
+          }
+        },
+        {
+          "$key": "4plnvdqoame",
+          "id": "salesRateStunnted",
+          "title": "Sales Rate",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "3xwm034mzbi",
+          "id": "incomeHandicappedBirds",
+          "title": "Income From Sales Of (Stunnted) Handicapped Birds",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        }
+      ],
+      "$key": "dvglufwz6s",
+      "label": "Handicapped Birds",
+      "span": 24
+    },
+    {
+      "fields": [
+        {
+          "$key": "yufn6w873vq",
+          "id": "quantityOfLitterSold",
+          "title": "Quantity Of Litter Sold (Income From Sale)",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "97rmmahir0n",
+          "id": "salesRateUsed",
+          "title": "Sales Rate",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "5b2v6n3bab",
+          "id": "incomeFromSaleLitter",
+          "title": "Income From Sale (Used) Litter",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        }
+      ],
+      "$key": "ob641tpaqi",
+      "label": "Litter",
+      "span": 24
+    },
+    {
+      "fields": [
+        {
+          "$key": "n9co12ao2mc",
+          "id": "IncomeFeedEmptyBags",
+          "title": "Income From Selling Of Used Feed Empty Bags",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        }
+      ],
+      "$key": "jm4q854vcm"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T16:51:56.674Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

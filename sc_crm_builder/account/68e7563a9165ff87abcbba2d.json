@@ -1,0 +1,55 @@
+{
+  "_id": "68e7563a9165ff87abcbba2d",
+  "name": "Nvidia",
+  "aId": "666666",
+  "status": "SETUP_IN_PROGRESS",
+  "userDetails": {
+    "firstName": "Sundar",
+    "lastName": "Kumar",
+    "email": "sundarmgr666@gmail.com"
+  },
+  "companyDetails": {
+    "favicon": "/1/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/9/9/file_rr6lpxfuvl-1759990702046.png",
+    "loginImages": [
+      "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/8/9/file_11toglxp71dj-1757416664845.png"
+    ],
+    "subDomain": "nvidia",
+    "logo": "/1/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/9/9/file_rr6lpxfuvl-1759990702046.png"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2025-10-09T06:29:14.179Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "dbCredentials": {
+    "dev": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "nvidia_dev"
+      }
+    },
+    "qa": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "nvidia_qa"
+      }
+    },
+    "uat": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "nvidia_uat"
+      }
+    },
+    "prod": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "nvidia"
+      }
+    }
+  },
+  "setupStartTime": "2025-10-09T06:29:19.076Z",
+  "setupTasks": {
+    "metaDataProvision": true,
+    "entityDataProvision": true,
+    "cetificateIssue": true
+  },
+  "version": "1.0.1"
+}

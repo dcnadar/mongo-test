@@ -1,0 +1,13 @@
+{
+  "_id": "66116ffc23b39252de459b46",
+  "name": "Edit Fee Schedule",
+  "path": "/admin/schoolsetup/fee-settings/fee-schedule/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cda12c7b99128d924f729",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T15:53:32.193Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:46.052Z"
+}

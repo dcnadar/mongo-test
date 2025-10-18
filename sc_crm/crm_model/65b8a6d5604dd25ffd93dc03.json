@@ -1,0 +1,46 @@
+{
+  "_id": "65b8a6d5604dd25ffd93dc03",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image"
+    },
+    {
+      "dataType": "STRING",
+      "key": "price",
+      "name": "Price"
+    },
+    {
+      "dataType": "STRING",
+      "key": "currencycode",
+      "name": "Currency Symbol"
+    },
+    {
+      "dataType": "STRING",
+      "key": "subTitle",
+      "name": "Sub Title"
+    },
+    {
+      "name": "Enable Button",
+      "key": "enableButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid CommonProductList5 Section",
+  "modelType": "INNER",
+  "created": "2024-01-30T07:35:49.596Z",
+  "modelStatus": "ACTIVE"
+}

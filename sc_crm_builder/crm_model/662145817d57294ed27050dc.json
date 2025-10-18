@@ -1,0 +1,45 @@
+{
+  "_id": {
+    "$oid": "662145817d57294ed27050dc"
+  },
+  "name": "Role",
+  "modelType": "COLLECTION",
+  "baseModelId": "65e2c399226e7b80fe49ae3a",
+  "collectionName": "role",
+  "properties": [
+    {
+      "$key": "fo0wy931jvn",
+      "key": "name",
+      "name": "Name",
+      "unique": true,
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "bibtje6on1p",
+      "key": "permissions",
+      "name": "Permissions",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "66202f1ae8eed80abc9534a0"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1713456513477"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070153226"
+    }
+  }
+}

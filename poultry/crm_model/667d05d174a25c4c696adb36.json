@@ -1,0 +1,58 @@
+{
+  "_id": "667d05d174a25c4c696adb36",
+  "name": "Batch Output",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "m8ny4ucvcc8",
+      "name": "Date of Sale",
+      "key": "dateOfSale",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "w8jkffdeknm",
+      "name": "Number of Bird Sold",
+      "key": "noBirdSold",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "v0qwifr1lf",
+      "name": "Total Body Weight",
+      "key": "totalBodyWgt",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "arwli57zacm",
+      "name": "Income from Bird Selling",
+      "key": "incBirdSelling",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "72zan03c1g",
+      "name": "Number of Stunted Bird Sold",
+      "key": "noStuntedSold",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "qf4cu1nbhz",
+      "name": "Income from Stunted Bird Selling",
+      "key": "incStuntedSelling",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "j9zj7yji0ys",
+      "name": "Income from Selling of Litter",
+      "key": "incSellingLitter",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "4e8mjellxrv",
+      "name": "Income from Selling of Empty Bag",
+      "key": "incSellingEmpBag",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-27T06:25:21.666Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

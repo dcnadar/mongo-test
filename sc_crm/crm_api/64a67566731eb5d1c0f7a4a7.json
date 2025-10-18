@@ -1,0 +1,11 @@
+{
+  "_id": "64a67566731eb5d1c0f7a4a7",
+  "name": "Brand Table",
+  "action": "CRM_GRID",
+  "sourceId": "64a5d950099de82bca61caab",
+  "gridType": "table",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "POST",
+  "path": "/admin/product/brand",
+  "created": "2024-01-27T07:48:43.928Z"
+}

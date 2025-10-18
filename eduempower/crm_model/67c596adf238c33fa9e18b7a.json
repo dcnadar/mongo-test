@@ -1,0 +1,56 @@
+{
+  "_id": "67c596adf238c33fa9e18b7a",
+  "name": " Eduempower Collect Challan",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "avv09tary1b",
+      "key": "paymentMode",
+      "name": "Payment Mode",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "e1t08d7xr1p",
+            "key": "CHEQUE",
+            "value": "Cheque"
+          },
+          {
+            "$key": "l8zgy1nhk7",
+            "key": "DD",
+            "value": "DD"
+          },
+          {
+            "$key": "n2s3mzuzvo",
+            "key": "CASH",
+            "value": "Cash"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "m8visq4tv6",
+      "key": "chequeDDNo",
+      "name": "Cheque/DD No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ypx2lnp68r",
+      "key": "bank",
+      "name": "Bank",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dg9ly20e9c",
+      "key": "cashDetails",
+      "name": "Cash",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "67c5978ef238c33fa9e18b7b"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-03T11:46:53.892Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.487Z"
+}

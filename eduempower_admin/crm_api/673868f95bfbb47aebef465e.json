@@ -1,0 +1,16 @@
+{
+  "_id": "673868f95bfbb47aebef465e",
+  "name": "All Branches",
+  "path": "/admin/account/branch/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67384f635bfbb47aebef465a",
+  "innerGridType": "table",
+  "innerSourceId": "67384de55bfbb47aebef4659",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-16T09:42:17.213Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

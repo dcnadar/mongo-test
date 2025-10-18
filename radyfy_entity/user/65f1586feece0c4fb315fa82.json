@@ -1,0 +1,22 @@
+{
+  "_id": "65f1586feece0c4fb315fa82",
+  "email": "nutankumari7262@gmail.com",
+  "mobileNumber": "9876543210",
+  "landlineNumber": "1234567",
+  "gender": "FEMALE",
+  "roleId": "admin",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "password": "ld14402V8Hf48JMh8xLE4HnMPE6YpplLnuECEb4h7GA=",
+  "callingCode": "+91",
+  "userName": "nutankumari7262@gmail.com",
+  "appId": "65e255c8efb82357eb86d51b",
+  "ecomAccountId": "65e2539fefb82357eb86d514",
+  "firstName": "Nutan",
+  "lastName": "Kumari",
+  "crmLastFilter": {
+    "accountId": "5d6590b3af790ca2bcc707b7"
+  },
+  "admin": true,
+  "userType": "STAFF"
+}

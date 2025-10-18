@@ -1,0 +1,14 @@
+{
+  "_id": "6733658902f79267ffc56576",
+  "key": "student.create",
+  "name": " Student Create",
+  "apisAccess": [
+    "66192f63aee00c70206deb3c",
+    "66192f6caee00c70206deb3d"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T14:26:17.733Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.715Z"
+}

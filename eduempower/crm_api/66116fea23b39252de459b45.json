@@ -1,0 +1,13 @@
+{
+  "_id": "66116fea23b39252de459b45",
+  "name": "Edit Fee Schedule",
+  "path": "/admin/schoolsetup/fee-settings/fee-schedule/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cda12c7b99128d924f729",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T15:53:14.534Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:46.008Z"
+}

@@ -1,0 +1,55 @@
+{
+  "_id": "689c3cc7e8e746ac85de559c",
+  "name": "Training",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "training",
+  "properties": [
+    {
+      "$key": "2fjkmr0z0kj",
+      "key": "trainingBasicInformation",
+      "name": "Training Basic Information",
+      "dataType": "INNER_MODEL",
+      "modelId": "689c3212e8e746ac85de5597",
+      "searchable": {
+        "value": true,
+        "description": true
+      }
+    },
+    {
+      "$key": "3t631mj9694",
+      "key": "trainingScheduleAndVenue",
+      "name": "Schedule & Venue",
+      "dataType": "INNER_MODEL",
+      "modelId": "689c37b4e8e746ac85de5598"
+    },
+    {
+      "$key": "m0pemktjg3j",
+      "key": "trainingTrainerInformation",
+      "name": "Trainer Information",
+      "dataType": "INNER_MODEL",
+      "modelId": "689c3a09e8e746ac85de559a"
+    },
+    {
+      "$key": "tegl4hohp1h",
+      "key": "trainingAdditionalFeatures",
+      "name": "Additional Features",
+      "dataType": "INNER_MODEL",
+      "modelId": "689c3b9ce8e746ac85de559b"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "trainingBasicInformation.traningtitle",
+    "subtitles": [
+      "trainingBasicInformation.category"
+    ]
+  },
+  "menuTargets": {
+    "title": "trainingBasicInformation.traningtitle",
+    "description": "trainingBasicInformation.description"
+  },
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T07:20:39.595Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.075Z"
+}

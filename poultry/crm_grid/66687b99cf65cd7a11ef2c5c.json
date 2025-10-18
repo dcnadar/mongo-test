@@ -1,0 +1,169 @@
+{
+  "_id": "66687b99cf65cd7a11ef2c5c",
+  "gridTitle": "Farm Condition",
+  "gridType": "form",
+  "crmModelId": "66682eb7cf65cd7a11ef2c4a",
+  "rows": [
+    {
+      "$key": "uz3rvopln09",
+      "fields": [
+        {
+          "id": "availabilityOfCrossVentilation ",
+          "title": "Availability Of Cross Ventilation",
+          "$key": "ulr4j1hcp6p",
+          "type": "radio",
+          "span": 8,
+          "meta": {
+            "horizontal": false
+          }
+        },
+        {
+          "$key": "r4dbmbfbl3f",
+          "id": "typeOfHousing",
+          "title": "Type Of Housing",
+          "type": "radio",
+          "span": 8,
+          "meta": {
+            "horizontal": false
+          }
+        },
+        {
+          "$key": "ti1ywibnfw",
+          "id": "separateBroodingHouse",
+          "title": "Separate Brooding House",
+          "span": 8,
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          }
+        },
+        {
+          "$key": "p4523nvcr7h",
+          "id": "typeOfPoultryHousing",
+          "title": "Type Of Poultry Housing",
+          "type": "radio",
+          "span": 8,
+          "meta": {
+            "horizontal": false
+          }
+        },
+        {
+          "$key": "tx8znbd6qzr",
+          "id": "whetherRodentProof",
+          "title": "Whether Rodent Proof",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "gufrw4tr12m",
+          "id": "maintainFootBathContaining",
+          "title": "Maintain Foot Bath Containing",
+          "span": 8,
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          }
+        },
+        {
+          "$key": "vf52zef7pmi",
+          "id": "roofTypeOfTheHouse",
+          "span": 8,
+          "title": "Roof Type Of The House",
+          "type": "text"
+        },
+        {
+          "$key": "aryyixeib1e",
+          "id": "noOfFeeders",
+          "title": "No. Of Feeders/100 Birds",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "g260jr5etnc",
+          "id": "noOfDrinker",
+          "title": "No. Of Drinker/100 Birds",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "v3jr4blcgnk",
+          "id": "typeOfDrinker",
+          "title": "Type Of Drinker",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "5ddr9cmojaj",
+          "id": "noOfFeederAvailable",
+          "title": "No. Of Feeder Available",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "817vx7qtm4o",
+          "id": "sprayDisinfectantLitter",
+          "title": "Spray Of Any Disinfectant After Removal Of Litter",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "kqqujifv78",
+          "id": "wipingDisinfectantSolution",
+          "title": "Wiping The Floor With Any Disinfectant Solution",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "awgw0jwo9vm",
+          "id": "whiteWashFarmBird",
+          "title": "White Wash Of The Farm Before Every Entry Of Bird",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "l4vmxvyr5eq",
+          "id": " fumigationFarmWhiteWashing",
+          "title": "Fumigation Of Farm House After Cleaning And White Washing",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "iz5puv14spm",
+          "id": "ei",
+          "title": "EI",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "93bzkfoqk6t",
+          "id": "fcr",
+          "title": "FCR",
+          "type": "number",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T16:30:17.458Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

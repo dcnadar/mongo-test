@@ -1,0 +1,44 @@
+{
+  "_id": "67aa0af28eb1a51b7f845af0",
+  "name": "ReactGrid GlobalBrand3",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "sw5y90t8brb",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8m4y7tzuwrc",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yw69si8moci",
+      "dataType": "LIST_OF",
+      "listType": "STRING",
+      "modelId": "67ab2f248eb1a51b7f845b06",
+      "key": "row1",
+      "name": "Row1"
+    },
+    {
+      "$key": "6zkv1rrqaex",
+      "key": "row2",
+      "name": "Row2",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "bictcvo9o6",
+      "key": "row3",
+      "name": "Row3",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-10T14:19:30.029Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

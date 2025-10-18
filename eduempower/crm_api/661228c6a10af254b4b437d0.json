@@ -1,0 +1,13 @@
+{
+  "_id": "661228c6a10af254b4b437d0",
+  "name": "All Leave Plan",
+  "path": "/admin/schoolsetup/leave-settings/leave-plan/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660d6b61c7b99128d924f760",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T05:01:58.948Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:49.733Z"
+}

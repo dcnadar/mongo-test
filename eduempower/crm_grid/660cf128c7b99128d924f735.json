@@ -1,0 +1,61 @@
+{
+  "_id": "660cf128c7b99128d924f735",
+  "gridTitle": "Eduempower ClassSubject",
+  "gridType": "form",
+  "crmModelId": "66096978c7b99128d924f66f",
+  "rows": [
+    {
+      "$key": "udo3wg98o9",
+      "fields": [
+        {
+          "$key": "ym44hdsecu",
+          "id": "classId",
+          "title": "Class",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "section"
+          ],
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "gffcsfpbbua",
+          "id": "schoolSubjectId",
+          "title": "School Subject",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "gqqkhguoi6d",
+          "id": "subjectName",
+          "title": "Subject Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "hpa06qrmbmw",
+          "title": "Short Name",
+          "id": "shortName",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "2h36prqm5h",
+          "id": "mandatory",
+          "title": "Mandatory",
+          "type": "bool",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T06:03:20.886Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.785Z"
+}

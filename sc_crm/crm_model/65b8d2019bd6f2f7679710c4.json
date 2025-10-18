@@ -1,0 +1,16 @@
+{
+  "_id": "65b8d2019bd6f2f7679710c4",
+  "properties": [
+    {
+      "dataType": "LIST_OF",
+      "key": "images",
+      "name": "Images",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalTwoImageGrid",
+  "modelType": "INNER",
+  "created": "2024-01-30T10:40:01.359Z",
+  "modelStatus": "ACTIVE"
+}

@@ -1,0 +1,11 @@
+{
+  "_id": "64a7cdc2723fb912796f14a2",
+  "name": "Update Product POST",
+  "action": "FORM_SAVE",
+  "sourceId": "64a7ccfae7d297735dc044c7",
+  "gridType": "form",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "POST",
+  "path": "/admin/product/update",
+  "created": "2024-01-27T07:48:44.796Z"
+}

@@ -1,0 +1,12 @@
+{
+  "_id": "661ce097aee00c70206deb6f",
+  "name": "All Blog",
+  "path": "/admin/website/blog/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "661cdf3baee00c70206deb6b",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T08:08:55.851Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "668bc84e531ed762273ebbf5",
+  "name": "Product Setting SKU",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "7z0z8qs3jxb",
+      "key": "skuPrefix",
+      "name": "SKU Prefix",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xe36cybu7d",
+      "key": "skuCurrentNumber",
+      "name": "SKU Current Number",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "gj4g8fqc7lm",
+      "key": "skuPostfix",
+      "name": "SKU Postfix",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T11:06:54.208Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

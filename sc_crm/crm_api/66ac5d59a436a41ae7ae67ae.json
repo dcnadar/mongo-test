@@ -1,0 +1,14 @@
+{
+  "_id": "66ac5d59a436a41ae7ae67ae",
+  "name": "WebisteThemeSettings (OLD)",
+  "path": "[OLD]/admin/website/global/theme/settings",
+  "apiType": "GET",
+  "action": "ENTITY_GET",
+  "modelId": "66ab53c3e287100717693d33",
+  "gridParams": [],
+  "fetchDocWithoutId": true,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-02T04:15:21.451Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

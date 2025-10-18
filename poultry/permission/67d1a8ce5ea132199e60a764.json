@@ -1,0 +1,17 @@
+{
+  "_id": "67d1a8ce5ea132199e60a764",
+  "key": "farmer_roof_type_data_collector",
+  "name": "Farmer roof type for data collector",
+  "apisAccess": [
+    "66767c4461dc8d328bfa9ae7",
+    "66767c5361dc8d328bfa9ae8",
+    "66767c1b61dc8d328bfa9ae5",
+    "66767c2061dc8d328bfa9ae6",
+    "669b61d2531ed762273ebc7f",
+    "66767c6761dc8d328bfa9ae9",
+    "66767c6e61dc8d328bfa9aea"
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2025-03-12T15:31:26.556Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

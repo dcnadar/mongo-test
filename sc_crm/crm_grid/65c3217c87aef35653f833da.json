@@ -1,0 +1,79 @@
+{
+  "_id": "65c3217c87aef35653f833da",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-02-07T06:21:48.329Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Primary Colors",
+          "id": "primary",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "65c3217c87aef35653f833d8"
+          },
+          "$key": "hwqanliqrrf"
+        },
+        {
+          "index": 1,
+          "title": "Secondary Colors",
+          "id": "secondary",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "65c3217c87aef35653f833d8"
+          },
+          "$key": "5p7ds0uqwwi"
+        },
+        {
+          "index": 2,
+          "title": "Tertiary Colors",
+          "id": "tertiary",
+          "type": "inner_form",
+          "span": 24,
+          "o": true,
+          "meta": {
+            "crmFormId": "65c3217c87aef35653f833d8"
+          },
+          "$key": "k84q3k5vwfi"
+        },
+        {
+          "index": 3,
+          "title": "Quaternary Colors",
+          "id": "quaternary",
+          "type": "inner_form",
+          "span": 24,
+          "o": true,
+          "meta": {
+            "crmFormId": "65c3217c87aef35653f833d8"
+          },
+          "$key": "0f8v7pttefrf"
+        },
+        {
+          "index": 4,
+          "title": "Quinary Colors",
+          "id": "quinary",
+          "type": "inner_form",
+          "span": 24,
+          "o": true,
+          "meta": {
+            "crmFormId": "65c3217c87aef35653f833d8"
+          },
+          "$key": "jgbwaq8lkkp"
+        }
+      ],
+      "$key": "s895c7c80ce"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65c3217c87aef35653f833d9",
+  "gridTitle": "GlobalThemeColors",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

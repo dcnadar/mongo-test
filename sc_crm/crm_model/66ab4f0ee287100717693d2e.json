@@ -1,0 +1,60 @@
+{
+  "_id": "66ab4f0ee287100717693d2e",
+  "name": "WebsiteGlobalThemeCustomFontSettings",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "g313ur853o",
+      "key": "headingFontName",
+      "name": "Heading Font Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7jz7b0l2mfh",
+      "key": "headingFontStyle",
+      "name": "Heading Font Style",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "v7kuacstgr",
+      "key": "headingSize",
+      "name": "Heading Size",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "pzjc5wq3t5",
+      "key": "headingLineHeight",
+      "name": "Heading Line Height",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "vfwhvon1d9a",
+      "key": "bodyFontName",
+      "name": "Body Font Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wrhbzrxr9a",
+      "key": "bodyFontStyle",
+      "name": "Body Font Style",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "tdm64lvan3m",
+      "key": "bodySize",
+      "name": "Body Size",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "sb9kofb6esf",
+      "key": "bodyLineHeight",
+      "name": "Body Line Height",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T09:02:06.058Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "66825f3f3108ad7b7d063ee4",
+  "gridTitle": "NativeGrid GlobalBlogCardsWithBgImage",
+  "gridType": "form",
+  "crmModelId": "668256963108ad7b7d063edc",
+  "rows": [
+    {
+      "$key": "9nvdxqrwlo5",
+      "fields": [
+        {
+          "id": "header",
+          "title": "Header",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "vfia2htko4"
+        },
+        {
+          "$key": "pypl3mdxlyq",
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 4,
+          "showCondition": "return !this.showDynamicContent;"
+        },
+        {
+          "$key": "6mp6lqzgxfl",
+          "id": "showDynamicContent",
+          "title": "Show Dynamic Content",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "mz5xhwl005k",
+          "id": "dynamicContentFilter",
+          "title": "Dynamic Content Filters",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "showCondition": "return this.showDynamicContent;"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T07:48:15.880Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

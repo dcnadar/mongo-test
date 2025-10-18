@@ -1,0 +1,90 @@
+{
+  "_id": "689f0a3e4e2ed283d94615b7",
+  "gridTitle": "placementDrive",
+  "gridType": "table",
+  "crmModelId": "689dc7635f986889b43879a3",
+  "columns": [
+    {
+      "$key": "vhm509wpd5",
+      "key": "placementDriveCompanyAndPosition.companyId",
+      "name": "Company",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "a9bbtqoz7mq",
+      "key": "placementDriveCompanyAndPosition.position",
+      "name": "Company And Position",
+      "sort": true,
+      "type": "text",
+      "valueCondition": "const companyData=this.placementDriveCompanyAndPosition||{};const rows=[companyData.position&&`<div style=\"margin-bottom:8px;\"><strong>Position:</strong> ${companyData.position}</div>`,(companyData.minSalary||companyData.maxSalary)&&`<div style=\"margin-bottom:8px;\"><strong>Salary:</strong> ${companyData.minSalary||\"\"}${companyData.maxSalary?\" - \"+companyData.maxSalary:\"\"} ${companyData.currency||\"\"}</div>`,companyData.jobDescription&&`<div style=\"margin-bottom:8px;\"><strong>Job Description:</strong> ${companyData.jobDescription}</div>`,companyData.jobLocation&&`<div style=\"margin-bottom:8px;\"><strong>Job Location:</strong> ${companyData.jobLocation}</div>`,companyData.jobType&&`<div style=\"margin-bottom:8px;\"><strong>Job Type:</strong> ${companyData.jobType}</div>`].filter(Boolean).join(\"\");const htmlString=rows?`<div style=\"width:100%;max-width:600px;margin:0 auto;padding:15px;font-size:14px;color:#333;line-height:1.6;\">${rows}</div>`:\"\";return htmlString;"
+    },
+    {
+      "$key": "ptyjolo7p1g",
+      "name": "Eligibility Criteria",
+      "key": "placementDriveEligibility",
+      "type": "text",
+      "valueCondition": "const eligibility=this.placementDriveEligibility||{};const rows=[eligibility.mincgpa&&`<div style=\"margin-bottom:8px;\"><strong>Min CGPA:</strong> ${eligibility.mincgpa}</div>`,(eligibility.maxBacklogs||eligibility.maxBacklogs===0)&&`<div style=\"margin-bottom:8px;\"><strong>Max Backlogs:</strong> ${eligibility.maxBacklogs}</div>`,eligibility.requiredSkills?.length&&`<div style=\"margin-bottom:8px;\"><strong>Required Skills:</strong> ${eligibility.requiredSkills.join(\", \")}</div>`,eligibility.eligibleSemesters?.length&&`<div style=\"margin-bottom:8px;\"><strong>Eligible Semesters:</strong> ${eligibility.eligibleSemesters.join(\", \")}</div>`,eligibility.eligibleBranches?.length&&`<div style=\"margin-bottom:8px;\"><strong>Eligible Branches:</strong> ${eligibility.eligibleBranches.join(\", \")}</div>`].filter(Boolean).join(\"\");const htmlString=rows?`<div style=\"width:100%;max-width:400px;margin:0 auto;padding:15px;font-size:14px;color:#333;line-height:1.6;\">${rows}</div>`:\"\";return htmlString;",
+      "sort": true
+    },
+    {
+      "$key": "m1d4py9m3ur",
+      "type": "text",
+      "valueCondition": "const schedule=this.placementDriveSchedule||{},tz=\"Asia/Kolkata\",fmt=iso=>iso?new Date(iso).toLocaleString(\"en-IN\",{timeZone:tz,year:\"numeric\",month:\"short\",day:\"2-digit\",hour:\"2-digit\",minute:\"2-digit\"}):\"\",rows=[schedule.driveDate&&`<div style=\"margin-bottom:8px;\"><strong>Drive Date:</strong> ${fmt(schedule.driveDate)}</div>`,schedule.registrationDeadline&&`<div style=\"margin-bottom:8px;\"><strong>Registration Deadline:</strong> ${fmt(schedule.registrationDeadline)}</div>`,schedule.testDate&&`<div style=\"margin-bottom:8px;\"><strong>Test Date:</strong> ${fmt(schedule.testDate)}</div>`,schedule.interviewRounds?.length&&`<div style=\"margin-bottom:8px;\"><strong>Interview Rounds:</strong><ul style=\"margin:4px 0 0 15px;padding:0;\">${schedule.interviewRounds.map(r=>`<li>${r.name}${r.date?` - ${fmt(r.date)}`:\"\"}${r.type?.length?` (${r.type.join(\", \")})`:\"\"}</li>`).join(\"\")}</ul></div>`].filter(Boolean).join(\"\");const htmlString=rows?`<div style=\"width:100%;max-width:600px;margin:0 auto;padding:15px;font-size:14px;color:#333;line-height:1.6;\">${rows}</div>`:\"\";return htmlString;",
+      "key": "placementDriveSchedule",
+      "name": "Schedule & Capacity",
+      "sort": true
+    },
+    {
+      "$key": "utetn5howg8",
+      "type": "text",
+      "valueCondition": "const requirementsData=this.placementDriveRequirements||{};const rows=[(requirementsData.isActive===true||requirementsData.isActive===false)&&`<div style=\"margin-bottom:8px;\"><strong>Is Active:</strong> ${requirementsData.isActive?\"Yes\":\"No\"}</div>`,requirementsData.status&&`<div style=\"margin-bottom:8px;\"><strong>Status:</strong> ${requirementsData.status}</div>`].filter(Boolean).join(\"\");const htmlString=rows?`<div style=\"width:100%;max-width:600px;margin:0 auto;padding:15px;font-size:14px;color:#333;line-height:1.6;\">${rows}</div>`:\"\";return htmlString;",
+      "name": "Requirements",
+      "key": "placementDriveRequirements",
+      "sort": true
+    },
+    {
+      "$key": "wrh4fufir4h",
+      "key": "actions",
+      "name": "Actions",
+      "type": "options",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "9eoqavj86lj",
+          "value": "View Details",
+          "apiUrl": "/admin/placement-drive/edit?driveId=:_id _id",
+          "gridTitle": "Details",
+          "gridType": "slug",
+          "slugTarget": "_self"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "fegosyy3hk5",
+      "gridTitle": "Add Placement drive",
+      "value": "Add Placement drive",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/placement-drive/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "placementDriveCompanyAndPosition.jobDescription",
+    "placementDriveCompanyAndPosition.jobLocation",
+    "placementDriveCompanyAndPosition.minSalary",
+    "placementDriveCompanyAndPosition.maxSalary",
+    "placementDriveCompanyAndPosition.currency",
+    "placementDriveCompanyAndPosition.jobType"
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T10:21:50.726Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [],
+  "updated": "2025-09-05T11:02:52.990Z"
+}

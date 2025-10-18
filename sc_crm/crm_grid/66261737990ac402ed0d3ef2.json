@@ -1,0 +1,58 @@
+{
+  "_id": "66261737990ac402ed0d3ef2",
+  "gridTitle": "Website Page Sections for builder",
+  "gridType": "table",
+  "crmModelId": "6511ee6df9686d32acb3e2d3",
+  "columns": [
+    {
+      "$key": "tyip644evr",
+      "key": "gridInfoId",
+      "name": "gridInfoId",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "g90xsxvp7w7",
+      "key": "gridData",
+      "name": "gridData",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "8rww3kttmmg",
+      "key": "gridSettings",
+      "name": "gridSettings",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "ebo9h9xlj7",
+      "key": "styleSettings",
+      "name": "Style Settings",
+      "type": "text",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultSort": {
+      "field": "order",
+      "order": "ascend"
+    }
+  },
+  "fetchAdditionalKeys": [
+    "order"
+  ],
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T07:52:23.587Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

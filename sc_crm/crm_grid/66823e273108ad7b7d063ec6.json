@@ -1,0 +1,51 @@
+{
+  "_id": "66823e273108ad7b7d063ec6",
+  "gridTitle": "NativeGrid GlobalFeatureSection sections",
+  "gridType": "form",
+  "crmModelId": "6682353a3108ad7b7d063ec1",
+  "rows": [
+    {
+      "$key": "vz0taxfugfc",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "gevadtl754b"
+        },
+        {
+          "$key": "t03qvx1h29p",
+          "id": "descriptions",
+          "title": "Descriptions",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "easjxyol74i",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T05:27:03.126Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

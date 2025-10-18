@@ -1,0 +1,64 @@
+{
+  "_id": "667ba8fb74a25c4c696adaf4",
+  "gridTitle": "NativeGrid GlobalCommonProductList4 sections",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "82yt6ojjrca",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "span": 8,
+          "$key": "chr7bt04luv",
+          "type": "text"
+        },
+        {
+          "$key": "g03seo85a3",
+          "id": "price",
+          "title": "Price",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "296mbb396h6",
+          "id": "currency",
+          "title": "Currency",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "4xyv701m2kc",
+          "id": "category",
+          "title": "Category",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "jur29ogohj",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "b2rw1qtfhcs",
+          "title": "Thumb",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "id": "thumb"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-26T05:36:59.752Z",
+  "createdBy": "660837fd3afc795c92fa7f61",
+  "crmModelId": "667bee4a74a25c4c696adb14"
+}

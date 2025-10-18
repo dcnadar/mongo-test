@@ -1,0 +1,61 @@
+{
+  "_id": "66b07f1ca436a41ae7ae68b0",
+  "gridTitle": "WebsitePageGridThemeSettings ButtonSetting",
+  "gridType": "form",
+  "crmModelId": "6511ee6df9686d32acb3e2d3",
+  "rows": [
+    {
+      "$key": "a8oaz5pjvpg",
+      "fields": [
+        {
+          "$key": "bgp8lj079re",
+          "id": "styleSettings.buttonSetting.primaryButton",
+          "title": "Primary Button",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "q6wris8xaht",
+          "id": "styleSettings.buttonSetting.secondaryButton",
+          "title": "Secondary Button",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "h69hy8zkcvo",
+          "id": "styleSettings.buttonSetting.linkTextColor",
+          "title": "Link Text Color",
+          "type": "color",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-05T07:28:28.287Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "upsertDoc": false,
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true
+    },
+    {
+      "key": "id",
+      "required": true
+    }
+  ]
+}

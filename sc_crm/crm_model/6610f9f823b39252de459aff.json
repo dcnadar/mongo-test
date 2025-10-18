@@ -1,0 +1,48 @@
+{
+  "_id": "6610f9f823b39252de459aff",
+  "name": "ReactGrid Global3dCards section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "rvnyhhn6nb",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "hxmzy518cie",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4l9ti4vbjlg",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0y2b28xbhe7m",
+      "key": "zoom",
+      "name": "Zoom",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "c9lh4geszyr",
+      "key": "leftButton",
+      "name": "LeftButton",
+      "dataType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    },
+    {
+      "$key": "ny65env9kpf",
+      "key": "rightButton",
+      "name": "RightButton",
+      "dataType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-06T07:30:00.581Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "671a50905f22ec7ba02649e8",
+  "name": "History Details",
+  "path": "/admin/staff/transfer/history/details/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660fea89c7b99128d924f784",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T13:50:08.282Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:55.178Z"
+}

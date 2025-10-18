@@ -1,0 +1,13 @@
+{
+  "_id": "66121411a10af254b4b43798",
+  "name": "Add Library",
+  "path": "/admin/schoolsetup/library-setup/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cf556c7b99128d924f73c",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T03:33:37.519Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:48.490Z"
+}

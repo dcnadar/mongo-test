@@ -1,0 +1,13 @@
+{
+  "_id": "66192f6caee00c70206deb3d",
+  "name": "Add Student",
+  "path": "/admin/student/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "661631de706ffe32cf5d96dd",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-12T12:56:12.701Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:50.947Z"
+}

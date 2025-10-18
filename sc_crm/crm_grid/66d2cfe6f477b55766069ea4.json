@@ -1,0 +1,43 @@
+{
+  "_id": "66d2cfe6f477b55766069ea4",
+  "gridTitle": "Shipment Number Setting",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "7knw7sinj5k",
+      "fields": [
+        {
+          "$key": "l8nj8kz7r4",
+          "id": "shipmentNoPrefix",
+          "title": "Shipment Number Prefix",
+          "type": "text",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "z1blch42wqs",
+          "id": "shipmentCurrentNo",
+          "title": "Shipment Current Number",
+          "type": "number",
+          "span": 24,
+          "min": 0,
+          "o": true
+        },
+        {
+          "$key": "nmyaw3r2tn",
+          "id": "shipmentNoPostfix",
+          "title": "Shipment Number Postfix",
+          "type": "text",
+          "span": 24,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-31T08:10:14.014Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "crmModelId": "66d2cf60f477b55766069ea3"
+}

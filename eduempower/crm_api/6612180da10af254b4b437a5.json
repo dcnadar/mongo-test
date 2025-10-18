@@ -1,0 +1,13 @@
+{
+  "_id": "6612180da10af254b4b437a5",
+  "name": "Add Author",
+  "path": "/admin/schoolsetup/author/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cf5b8c7b99128d924f73e",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T03:50:37.044Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:48.769Z"
+}

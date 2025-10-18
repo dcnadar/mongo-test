@@ -1,0 +1,11 @@
+{
+  "_id": "651280f4551621212be4a5a8",
+  "name": "Website Pages",
+  "action": "CRM_GRID",
+  "sourceId": "65127f83551621212be4a5a1",
+  "gridType": "table",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/website/page",
+  "created": "2024-01-27T07:48:46.239Z"
+}

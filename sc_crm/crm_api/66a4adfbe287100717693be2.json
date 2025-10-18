@@ -1,0 +1,12 @@
+{
+  "_id": "66a4adfbe287100717693be2",
+  "name": "customer address",
+  "path": "/admin/customer/address/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "66a35460e287100717693bcf",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-27T08:21:15.191Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "679dfd10b81dbd448287fa57",
+  "gridTitle": "Return book",
+  "gridType": "table",
+  "crmModelId": "662533b2990ac402ed0d3ecd",
+  "columns": [
+    {
+      "$key": "igoa5v88l5q",
+      "name": "Book Name",
+      "sort": true,
+      "type": "card",
+      "key": "bookId"
+    },
+    {
+      "$key": "59wawnen059",
+      "key": "inventoryBookId",
+      "name": "Available Books",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "u68d2bffyz",
+      "key": "track",
+      "name": "Track",
+      "type": "text",
+      "sort": true,
+      "valueCondition": "const track = this.track || []; let htmlString = `     <div style=\"width: 100%; max-width: 600px; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; display: grid; grid-template-columns: 1fr;\"> `;  track.forEach(({ comment, issuedDate, bookReturnDate, returnedOnDate }) => {     htmlString += `         <div style=\"padding: 10px; border-bottom: 1px solid #ddd;\">             <div style=\"font-weight: bold; color: #333; font-size: 16px; margin-bottom: 5px;\">${comment}</div>             <div style=\"color: #555; font-size: 13px; line-height: 1.5;\">                 ${                     returnedOnDate                         ? `<span><strong>Returned On:</strong> ${new Date(returnedOnDate).toLocaleDateString()}</span>`                         : `                             <span><strong>Issued Date:</strong> ${new Date(issuedDate).toLocaleDateString()}</span><br>                             <span><strong>Book Return Date:</strong> ${new Date(bookReturnDate).toLocaleDateString()}</span>                         `                 }             </div>         </div>     `; });  htmlString += `</div>`; return htmlString;"
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-02-01T10:53:04.008Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:04.097Z"
+}

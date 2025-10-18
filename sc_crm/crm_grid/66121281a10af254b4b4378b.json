@@ -1,0 +1,83 @@
+{
+  "_id": "66121281a10af254b4b4378b",
+  "gridTitle": "ReactGrid GlobalHeader2",
+  "gridType": "form",
+  "crmModelId": "66120e9aa10af254b4b4377f",
+  "rows": [
+    {
+      "$key": "h2ps3jt5hj",
+      "fields": [
+        {
+          "$key": "ie0owsocw",
+          "id": "isTransparent",
+          "title": "isTransparent",
+          "type": "bool",
+          "span": 12
+        },
+        {
+          "$key": "tbq3ecjmzi",
+          "id": "isSticky",
+          "title": "isSticky",
+          "type": "bool",
+          "span": 12
+        },
+        {
+          "$key": "0zdvdfox3nwe",
+          "id": "useSvg",
+          "title": "Use SVG",
+          "type": "bool",
+          "o": true
+        },
+        {
+          "id": "thumb",
+          "title": "Thumb",
+          "type": "upload",
+          "multiple": false,
+          "span": 24,
+          "$key": "z57ormyhlws",
+          "showCondition": "return !this.useSvg;",
+          "uploadUISize": "sm",
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          }
+        },
+        {
+          "$key": "ktjawrxpln9",
+          "id": "svg",
+          "title": "Svg",
+          "type": "text",
+          "span": 24,
+          "showCondition": "return this.useSvg;"
+        },
+        {
+          "$key": "a1qkodpvj3m",
+          "id": "mainMenu",
+          "title": "MainMenu",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 30
+        },
+        {
+          "$key": "aamm4vn4z4",
+          "id": "rightButtons",
+          "title": "RghtButtons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T03:26:57.369Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "upsertDoc": false
+}

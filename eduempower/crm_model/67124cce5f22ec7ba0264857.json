@@ -1,0 +1,86 @@
+{
+  "_id": "67124cce5f22ec7ba0264857",
+  "name": "Eduempower Work Experience",
+  "modelType": "COLLECTION",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "collectionName": "eduempower_work_experience",
+  "properties": [
+    {
+      "$key": "3ss52dc86l2",
+      "key": "designationId",
+      "name": "Designation",
+      "dataType": "REFERENCE",
+      "modelId": "660818ea60d4f873b5fa4f48"
+    },
+    {
+      "$key": "zfxh7h33fgd",
+      "key": "natureOfEducation",
+      "name": "Nature Of Education",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "tp547yxwrok",
+            "key": "FULL_TIME",
+            "value": "Full Time"
+          },
+          {
+            "$key": "35182a7tsbt",
+            "key": "PART_TIME",
+            "value": "Part Time"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "74xoxr24fnx",
+      "key": "departmentId",
+      "name": "Department",
+      "dataType": "REFERENCE",
+      "modelId": "660817b960d4f873b5fa4f47"
+    },
+    {
+      "$key": "6pqfixjvz5v",
+      "key": "organizationName",
+      "name": "Organization Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "586obipn7ms",
+      "key": "place",
+      "name": "Place",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0w7hhm39a9ur",
+      "key": "from",
+      "name": "From",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "5cy2ta0amv2",
+      "key": "currentlyWorking",
+      "name": "Currently Working",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "opbev8hrabn",
+      "key": "to",
+      "name": "To",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "92uqxi2f25s",
+      "key": "staffId",
+      "name": "Staff",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T11:55:58.458Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.922Z"
+}

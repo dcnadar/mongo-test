@@ -1,0 +1,96 @@
+{
+  "_id": "689f24bb4b4ca5d6487cadfd",
+  "name": "SettingsPreferences",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "e36zxeh0w4",
+      "key": "theme",
+      "name": "Theme",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "rkafspu98nm",
+            "key": "LIGHT",
+            "value": "Light"
+          },
+          {
+            "$key": "zkreliiijq",
+            "key": "DARK",
+            "value": "Dark"
+          },
+          {
+            "$key": "n06wiglxuts",
+            "key": "SYSTEM",
+            "value": "System"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ntktxtcd18",
+      "key": "language",
+      "name": "Language",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "7q8hp4mcr14",
+            "key": "ENGLISH",
+            "value": "English"
+          },
+          {
+            "$key": "idet6d6dnd",
+            "key": "HINDI",
+            "value": "Hindi"
+          },
+          {
+            "$key": "h76d89d3lbl",
+            "key": "SPANISH",
+            "value": "Spanish"
+          },
+          {
+            "$key": "l5y1n6jvjuq",
+            "key": "FRENCH",
+            "value": "French"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "es7ktpgu8ib",
+      "key": "timezone",
+      "name": "TimeZone",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "hwupbceffcq",
+            "key": "ASIA-KOLKATA",
+            "value": "Asia/kolkata (IST)"
+          },
+          {
+            "$key": "2y0pkieip4w",
+            "key": "UTC",
+            "value": "UTC"
+          },
+          {
+            "$key": "jqgww7wwxf",
+            "key": "AMERICA-NEW_YORK",
+            "value": "America/New_York (EST)"
+          },
+          {
+            "$key": "g0gv80sbzbe",
+            "value": "Europe/London (GMT)",
+            "key": "EUROPE-LONDON"
+          }
+        ]
+      }
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T12:14:51.289Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.777Z"
+}

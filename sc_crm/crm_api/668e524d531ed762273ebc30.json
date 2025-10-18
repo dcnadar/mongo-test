@@ -1,0 +1,13 @@
+{
+  "_id": "668e524d531ed762273ebc30",
+  "name": "All Order Invoice",
+  "path": "/admin/order/invoice/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "668e39ea531ed762273ebc2d",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-10T09:20:13.985Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

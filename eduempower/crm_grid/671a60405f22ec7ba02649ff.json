@@ -1,0 +1,68 @@
+{
+  "_id": "671a60405f22ec7ba02649ff",
+  "gridTitle": "Eduempower Visit",
+  "gridType": "form",
+  "crmModelId": "671a5ed45f22ec7ba02649fe",
+  "rows": [
+    {
+      "$key": "xyf26ib9k2j",
+      "fields": [
+        {
+          "id": "scheduleStartDateAndTime",
+          "title": "Schedule Date And Time",
+          "span": 8,
+          "type": "date_time",
+          "$key": "menyh47lv"
+        },
+        {
+          "$key": "g75e17umcll",
+          "id": "visitorForms",
+          "title": "Visitor Details",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "o": true,
+          "min": 1,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "7dvcf6x8i1d",
+          "id": "approvalRequired",
+          "title": "Approval Required",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "wbme6ho1qpa",
+          "id": "approvalType",
+          "title": "Approval Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "showCondition": "return this.approvalRequired;"
+        },
+        {
+          "$key": "j1kg1hz5iks",
+          "id": "staffs",
+          "title": "Approvals",
+          "type": "card",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 24,
+          "showCondition": "return this.approvalRequired;"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T14:57:04.301Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:02.681Z"
+}

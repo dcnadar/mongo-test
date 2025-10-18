@@ -1,0 +1,13 @@
+{
+  "_id": "66140115a10af254b4b43873",
+  "name": "Edit Fee Concession",
+  "path": "/admin/schoolsetup/fee-settings/fee-concession/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cef75c7b99128d924f732",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-08T14:37:09.144Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:50.519Z"
+}

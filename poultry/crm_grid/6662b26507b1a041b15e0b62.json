@@ -1,0 +1,243 @@
+{
+  "_id": "6662b26507b1a041b15e0b62",
+  "gridTitle": "Farmer",
+  "gridType": "table",
+  "crmModelId": "6662aede07b1a041b15e0b58",
+  "columns": [
+    {
+      "$key": "sopw89r1wkl",
+      "key": "uniqueId",
+      "name": "Unique Id",
+      "type": "text",
+      "width": 125,
+      "sort": true
+    },
+    {
+      "$key": "x17qspi25og",
+      "key": "farmerName",
+      "name": "Farmer Name",
+      "type": "text",
+      "sort": true,
+      "width": 125
+    },
+    {
+      "$key": "j6hjmy1n87i",
+      "key": "phone",
+      "name": "Phone",
+      "type": "text",
+      "width": 125,
+      "sort": false
+    },
+    {
+      "$key": "v48gt4j0dx",
+      "key": "stateId",
+      "name": "State",
+      "type": "card",
+      "width": 125,
+      "sort": false
+    },
+    {
+      "$key": "itvsvzx9on",
+      "key": "districtId",
+      "name": "District",
+      "type": "card",
+      "width": 125,
+      "sort": false
+    },
+    {
+      "$key": "osobmq720r",
+      "key": "blockId",
+      "name": "Block",
+      "type": "card",
+      "width": 125,
+      "sort": false
+    },
+    {
+      "$key": "773gsc9c8yy",
+      "key": "gramPanchayatId",
+      "name": "GP/VC",
+      "type": "card",
+      "width": 125,
+      "sort": false
+    },
+    {
+      "$key": "ogvsrsg7jjg",
+      "key": "villageId",
+      "name": "Village",
+      "type": "card",
+      "width": 125,
+      "sort": false
+    },
+    {
+      "$key": "nl8uw129yxm",
+      "key": "fpoId",
+      "name": "FPO",
+      "type": "card",
+      "width": 125,
+      "sort": false
+    },
+    {
+      "$key": "v43s4o6povs",
+      "key": "pgId",
+      "name": "PG",
+      "type": "card",
+      "width": 125,
+      "sort": false
+    },
+    {
+      "$key": "5m4tvnym8lt",
+      "key": "shgId",
+      "name": "SHG",
+      "type": "card",
+      "sort": false,
+      "width": 125
+    },
+    {
+      "$key": "90c4dee8gwf",
+      "key": "annualFamilyIncome",
+      "name": "Annual Family Income",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "6a9j6j5l1dv",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "width": 50,
+      "actions": [
+        {
+          "$key": "9kuqll48l3q",
+          "slug": "/admin/farmer/batch-info/all?farmerId=:_id _id",
+          "gridTitle": "View Details",
+          "value": "View Details"
+        },
+        {
+          "$key": "1g1tdz1gz0r",
+          "gridTitle": "Delete Farmer",
+          "gridType": "confirm",
+          "apiUrl": "/admin/farmer/delete?id=:_id _id",
+          "gridMsg": "Are you sure to delete ':farmerName'?",
+          "gridMsgParams": "farmerName",
+          "type": "icon",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/66629d6de2144644664d9bb4/65e8cdff97f0eca7ba094627/columns.12.actions.1.icon/2024/6/20/upload_8gj1wdos15t-1721458936479.png",
+          "showCondition": "return false;"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "6foipe81byf",
+      "gridTitle": "Add Farmer",
+      "gridType": "popupForm",
+      "value": "Add Farmer",
+      "apiUrl": "/admin/farmer/add"
+    },
+    {
+      "$key": "umjd7lqz8xe",
+      "gridTitle": "Export",
+      "gridType": "private_download",
+      "showGridComment": false,
+      "apiUrl": "/admin/farmer/export/excel",
+      "value": "Export",
+      "responseType": "excel",
+      "pagination": true,
+      "apiType": "POST",
+      "gridMsg": "Export farmer data in excel?"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "ytgnsoibojj",
+      "fields": [
+        {
+          "$key": "0l47vlusp83a",
+          "id": "stateId",
+          "title": "State",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": 4
+        },
+        {
+          "$key": "4yeonh3ry95",
+          "id": "districtId",
+          "span": 4,
+          "title": "District",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "6r5bqrw69ii",
+          "id": "blockId",
+          "title": "Block",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": 4
+        },
+        {
+          "$key": "taua93lec3",
+          "id": "gramPanchayatId",
+          "title": "GP/VC",
+          "type": "list",
+          "multiple": false,
+          "span": 4,
+          "o": true
+        },
+        {
+          "$key": "d1zc0ndayc8",
+          "id": "villageId",
+          "title": "Village",
+          "o": true,
+          "span": 4,
+          "type": "list",
+          "multiple": false
+        },
+        {
+          "$key": "vun061drl6a",
+          "id": "fpoId",
+          "title": "FPO",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": 4
+        },
+        {
+          "$key": "gfqejz7xpkf",
+          "id": "pgId",
+          "title": "PG",
+          "type": "list",
+          "multiple": false,
+          "span": 4,
+          "o": true
+        },
+        {
+          "$key": "hnh725du0fp",
+          "id": "shgId",
+          "title": "SHG",
+          "o": true,
+          "span": 4,
+          "type": "list",
+          "multiple": false
+        }
+      ]
+    }
+  ],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:10:29.955Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "search": {
+    "placeHolder": "Search by id, name and phone"
+  }
+}

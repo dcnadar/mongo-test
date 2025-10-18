@@ -1,0 +1,36 @@
+{
+  "_id": "66d52575f477b55766069fd2",
+  "gridTitle": "Files form",
+  "gridType": "form",
+  "crmModelId": "66cd872decf9fb0993c3e6c4",
+  "rows": [
+    {
+      "$key": "a60p3h0y6ft",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "multiple": false,
+          "span": 12,
+          "o": false,
+          "$key": "3v5k7wt5ok2"
+        },
+        {
+          "$key": "ya81th1i9wl",
+          "type": "upload_v2",
+          "multiple": false,
+          "span": 12,
+          "fileAccept": "*",
+          "id": "file",
+          "title": "Publication file"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-02T02:39:49.667Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

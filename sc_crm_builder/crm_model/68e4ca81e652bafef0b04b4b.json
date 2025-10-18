@@ -1,0 +1,63 @@
+{
+  "_id": {
+    "$oid": "68e4ca81e652bafef0b04b4b"
+  },
+  "name": "Indexed Field",
+  "properties": [
+    {
+      "key": "fieldName",
+      "name": "FieldName",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      },
+      "$key": "nnt329khb6"
+    },
+    {
+      "$key": "ofwp9hdd2n",
+      "key": "indexType",
+      "name": "IndexType",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      },
+      "data": {
+        "options": [
+          {
+            "$key": "4bx2bxxquzt",
+            "value": "Ascending",
+            "key": "ASC"
+          },
+          {
+            "$key": "ik6w5hxqqor",
+            "value": "Descending",
+            "key": "DESC"
+          },
+          {
+            "$key": "x2hn2co3o7",
+            "value": "Hashed",
+            "key": "HASHED"
+          },
+          {
+            "$key": "h81ejk00kmb",
+            "key": "TEXT",
+            "value": "Text"
+          }
+        ]
+      }
+    }
+  ],
+  "modelType": "INNER",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1759824513999"
+    }
+  },
+  "createdBy": "68e09e923a6ade54590da550",
+  "updated": {
+    "$date": {
+      "$numberLong": "1760538704523"
+    }
+  }
+}

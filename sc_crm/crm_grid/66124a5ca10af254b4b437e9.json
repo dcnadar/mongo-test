@@ -1,0 +1,71 @@
+{
+  "_id": "66124a5ca10af254b4b437e9",
+  "gridTitle": "Invoice To",
+  "gridType": "form",
+  "crmModelId": "66123fa9a10af254b4b437dd",
+  "rows": [
+    {
+      "$key": "cdk1mzt8od9",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name ",
+          "type": "text",
+          "span": 8,
+          "$key": "4f99f81rzkh"
+        },
+        {
+          "$key": "xkfzqxe1kyl",
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": 8
+        },
+        {
+          "$key": "omiamw21nkk",
+          "id": "address",
+          "title": "Address",
+          "type": "textarea",
+          "span": 8
+        },
+        {
+          "$key": "hlfp98tx1qr",
+          "id": "phone",
+          "title": "Phone",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "ahgbz6wces",
+          "id": "mobile",
+          "title": "Mobile",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "xqztv1afueq",
+          "id": "fax",
+          "title": "Fax",
+          "type": "number",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T07:25:16.339Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,65 @@
+{
+  "_id": "66687da7cf65cd7a11ef2c5e",
+  "gridTitle": "Outputs",
+  "gridType": "form",
+  "crmModelId": "666835ddcf65cd7a11ef2c4e",
+  "rows": [
+    {
+      "$key": "zg9dqu3eo9",
+      "fields": [
+        {
+          "$key": "xpzdhyeqcql",
+          "id": "numberOfAdultBirds",
+          "title": "Number Of Adult Birds",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "adfwhjatkkk",
+          "id": "totalWeightOfBirds",
+          "title": "Total Weight Of Birds",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonAfter": "KG"
+          }
+        },
+        {
+          "$key": "oj53xd9gp4d",
+          "id": "noOfHandicapperBirds",
+          "title": "Number Of Handicapper (Stunnted) Birds ",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "ecwyxhhu3q",
+          "id": "totalwgtOfdBirds",
+          "title": "Total Weight Of Handicapped Birds",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonAfter": "KG"
+          }
+        },
+        {
+          "$key": "b7nien3cvc9",
+          "id": "quantityOfLitter",
+          "title": "Quantity Of Litter (In Bag)",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "qavf9l1fji",
+          "id": "noOfEmptyFeedBags ",
+          "title": "Number Of Empty Feed Bags ",
+          "type": "number",
+          "span": 7
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T16:39:03.395Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

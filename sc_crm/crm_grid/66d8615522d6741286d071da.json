@@ -1,0 +1,50 @@
+{
+  "_id": "66d8615522d6741286d071da",
+  "gridTitle": "Delivery ServiceProvider setting",
+  "gridType": "form",
+  "crmModelId": "66d860ac22d6741286d071d8",
+  "rows": [
+    {
+      "$key": "qdwbpmuib2",
+      "fields": [
+        {
+          "$key": "44at55aqk87",
+          "id": "serviceProvider",
+          "title": "Service Provider",
+          "type": "list",
+          "multiple": false,
+          "span": 24
+        }
+      ],
+      "showDescription": true,
+      "descriptionSpan": 12,
+      "description": "#### Service Provider\n\n* The Delivery Service Provider is the logistics partner responsible for managing the shipping and delivery of your products from your warehouse to your customers.\n* Select from the available options provided in a drop-down list (currently, only **Shiprocket** is available).\n* If you require integration with a new **Delivery Service Provider** not listed, email us at [skpintu93@gmail.com](mailto:skpintu93@gmail.com) (this service will incur additional charges).\n* Follow the respective gateway’s documentation for guidance on generating these credentials."
+    },
+    {
+      "$key": "tnthq6eksb",
+      "fields": [
+        {
+          "id": "shiprocketSetting",
+          "title": "Shiprocket Setting",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": true,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "showCondition": "return this.serviceProvider === 'SHIPROCKET';",
+          "$key": "0qbk5vqp4q7"
+        }
+      ],
+      "showDescription": false,
+      "descriptionSpan": 12,
+      "description": "#### Shiprocket Username\n\n* The Shiprocket Username is the unique identifier used to access your Shiprocket account and integrate its API with your system.\n\n#### Shiprocket Password\n\n* The Shiprocket Password is a secure key used to authenticate your access to the Shiprocket API.\n\n#### Shiprocket Channel Id\n\n* The Shiprocket Channel Id is a unique identifier assigned to your specific shipping channel, used to route and track your orders.\n\n#### Shiprocket Webhook Token\n\n* The Webhook Token is a security token used to verify that webhook notifications received from Shiprocket are authentic and have not been tampered with.\n* This is the<html style=\"color : red\">most recommended</html>to setup webhook\n* Please read<html style=\"color : red\">'To Setup Webhook'</html>which is given below for setup webhook.\n\n***\n\n#### To Generate Shiprocket Username and Shiprocket Password\n\n* **Visit the Shiprocket Website:**\n  * Open your web browser and navigate to [Shiprocket](https://www.shiprocket.in/)\n  * Click on the \"Sign Up\" or \"Register\" button if you are new to Shiprocket.\n* **Register for a Shiprocket Account:**\n  * Fill in the required registration details, such as your business name, email, contact number, and any other requested information.\n  * Submit the registration form and verify your email (if required) to activate your account.\n* **Log In to Your Account:**\n  * Once your account is activated, log in using the email and password you created during registration.\n* **Access Your Dashboard:**\n  * After logging in, you will be directed to your Shiprocket dashboard. This is where you can manage your account and access integration    details.\n* **Locate Your Shiprocket Username:**\n  * In the dashboard, navigate to the “Settings” or “Developer Settings” section.\n  * Within Settings, find and click on “API Users” or a similar option related to API credentials.\n  * Click on the “Add New API User” button or update existing users credentials.\n* **Retrieve or Set Your Password:**\n  * The password you created during registration is your Shiprocket Password.\n  * If you need to change or generate a new password, look for an option like “Change Password” or “Reset Password” in the settings.\n  * Follow the prompts to update your password as needed.\n* **Copy and Save Your Keys:**\n  * Once you have your Shiprocket Username and confirmed your password, ensure you store these details in a secure location (e.g., a password manager).\n  * Now copy the keys And paste it here in the **Shiprocket Username** and **Shiprocket Password Key** column.\n* **Use Your credentials Safely:**\n  * Do not share your credentials with anyone.\n\n***\n\n#### To Generate Shiprocket Channel Id\n\n* **Log In to Your Shiprocket Account**\n  * Open your web browser and navigate to[Shiprocket](https://www.shiprocket.in/)\n  * Log in using your Shiprocket credentials.\n* **Navigate to the Integration or Channel Settings Section**\n  * Once logged in, access your dashboard.\n  * Look for sections labeled **\"Setup & Manage\"** or **\"Channel Management\"**. These sections typically house the details related to your shipping channels.\n* **Locate the Channel Management Area**\n  * In the **Setup & Manage** menu, find the option to **\"Channels\"** or **\"Manage Shipping Channels\".**\n  * If your dashboard lists existing channels, check if a **Channel Id** is already assigned to your account or if there’s an option to generate a new one.\n* **Generate a New Channel Id (If Required)**\n  * If you need to create a new shipping channel, look for a button or link such as **\"Add New Channel\"** or **\"Generate Channel Id\"**.\n  * Click on this option and follow any on-screen instructions to enter necessary details (for example, selecting a service type or providing additional shipping information).\n* **Retrieve and Record Your Channel Id**\n  * Once generated, the system will display your new Channel Id.\n  * Copy this Channel Id immediately and pate it here in **Shiprocket Channel Id** column.\n\n#### To Setup Shiprocket Webhook\n\n* **Log In to Your Shiprocket Account**\n  * Open your web browser and navigate to [Shiprocket](https://www.shiprocket.in/).\n  * Log in using your Shiprocket credentials.\n* **Access the Webhook Settings**\n  * From your dashboard, locate the **Settings** or **Integration/API Settings** section.\n  * Look for the **Webhook Configuration** option within this area. If you can’t find it immediately, check under sections like “Developer Settings” or “Notifications.”\n* **Enter Your Webhook URL**\n  * In the Webhook Configuration page, enter the URL of your server endpoint where you wish to receive webhook notifications.\n  * The **Webhook URL** should be:<html style=\"color : red\">https://{yourdomainName}/api/public/webhook/ship_rocket/shipment</html>\n  * eg: \n       [https://example.com/api/public/webhook/ship_rocket/shipment](https://example.com/api/public/webhook/ship_rocket/shipment)\n* **Select Event Types (If Available)**\n  * Some setups allow you to choose which events trigger a webhook notification (e.g., order pickup, shipment dispatched, delivery status updates).\n  * Select the events that are relevant to your business needs.\n* **Set a Webhook Secret Key**\n  * Enter the necessary <html style=\"color : red\">Security Token</html>to help verify the authenticity of incoming webhook payloads.\n  * Insert this same Secret Key here also **Shiprocket Webhook Token** column.\n  * Make sure you store this secret securely.\n* **Save Your Webhook Configuration**\n  * Click **Test** or **Save** to apply your webhook settings.\n  * Confirm that the configuration has been saved successfully.\n"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-04T13:32:05.332Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

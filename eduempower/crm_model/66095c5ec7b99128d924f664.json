@@ -1,0 +1,31 @@
+{
+  "_id": "66095c5ec7b99128d924f664",
+  "name": "Eduempower FeeSchedule Installment",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "h21mtpf2x2g",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5nymwobe9cc",
+      "key": "startDate",
+      "name": "Start Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "txi4x7hvt6c",
+      "key": "endDate",
+      "name": "End Date",
+      "dataType": "DATE"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T12:51:42.192Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.428Z"
+}

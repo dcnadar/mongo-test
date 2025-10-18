@@ -1,0 +1,73 @@
+{
+  "_id": "67adc94461e8f2055c2ae883",
+  "gridTitle": "Eduempower LeavePlan",
+  "gridType": "form",
+  "crmModelId": "67adc59f61e8f2055c2ae87e",
+  "rows": [
+    {
+      "$key": "ns9zmv0npu",
+      "fields": [
+        {
+          "$key": "uzvbqth2v5",
+          "id": "leaveType",
+          "title": "Leave Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "u3s75rkuy1i",
+          "id": "planName",
+          "title": "Name ",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "02sj0immh3yf",
+          "id": "leavePlanDuration",
+          "title": "Max Leaves Per Duration",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "iec9u5zy7f8",
+          "id": "effectiveFrom",
+          "title": "Effective From",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "j5mz0twn5zi",
+          "id": "effectiveTo",
+          "title": "Effective To",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "9sbqvslaq7g",
+          "id": "entityType",
+          "title": "Entity Type",
+          "type": "text",
+          "span": 12,
+          "value": "MASTER_SETUP",
+          "updateType": "hidden",
+          "createType": "hidden"
+        },
+        {
+          "$key": "63j331bxiox",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "value": "INACTIVE"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T10:28:20.262Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

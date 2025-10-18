@@ -1,0 +1,52 @@
+{
+  "_id": "66718d47faf6243feb6c9993",
+  "gridTitle": "App Screen Section Type",
+  "gridType": "table",
+  "crmModelId": "66718a1cfaf6243feb6c9990",
+  "columns": [
+    {
+      "$key": "8oz7pjpkicd",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "eiiropzc90n",
+      "key": "status",
+      "name": "Status",
+      "sort": true,
+      "type": "tag"
+    },
+    {
+      "$key": "9bv74oscj3t",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "ui82l4jvvjp",
+          "value": "Edit",
+          "slug": "/admin/mobileapp/settings/section-group/update?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "ellzj190ftc",
+      "value": "Add Group",
+      "slug": "/admin/mobileapp/settings/section-group/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T13:36:07.077Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/mobileapp/settings/section-group"
+}

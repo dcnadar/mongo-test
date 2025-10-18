@@ -1,0 +1,38 @@
+{
+  "_id": "65b53659f7815fa135bd04dc",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-27T16:59:05.767Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Title of the blog section",
+          "$key": "19dt59289tt"
+        },
+        {
+          "index": 1,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 16,
+          "o": false,
+          "hint": "Brief description of the blog section",
+          "$key": "fsdammq5kwn"
+        }
+      ],
+      "$key": "z0j0neoh8mg"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b53659f7815fa135bd04d8",
+  "gridTitle": "ReactGrid GlobalBlogCards Header",
+  "fetchDocWithoutId": false
+}

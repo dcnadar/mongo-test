@@ -1,0 +1,91 @@
+{
+  "_id": "666fe770faf6243feb6c98e8",
+  "gridTitle": "App Screen Section",
+  "gridType": "table",
+  "crmModelId": "666fe475faf6243feb6c98de",
+  "columns": [
+    {
+      "$key": "w9l0eh8s9wd",
+      "key": "order",
+      "name": "Order",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "wvjfrc0zvu",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "3hlby1785od",
+      "key": "gridInfoId.thumb",
+      "name": "Grid Type",
+      "type": "thumb",
+      "sort": true
+    },
+    {
+      "$key": "6lelwafrn6x",
+      "key": "created",
+      "name": "Created On",
+      "type": "date",
+      "sort": true,
+      "width": -1
+    },
+    {
+      "$key": "3pml86v8q0k",
+      "key": "edit",
+      "name": "Edit",
+      "type": "actions",
+      "sort": true,
+      "width": 0,
+      "align": "right",
+      "actions": [
+        {
+          "$key": "38k64xaq67",
+          "value": "Edit",
+          "slug": "/admin/mobileapp/app-screen-section/update?id=:_id _id",
+          "type": "icon_button"
+        },
+        {
+          "$key": "ja9ebofwxc",
+          "gridTitle": "Delete Menu Item",
+          "gridMsg": "Are you sure to delete ':name'?",
+          "value": "Delete",
+          "gridType": "confirm",
+          "type": "icon",
+          "apiUrl": "/admin/mobileapp/app-screen-section/delete?id=:_id _id",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.2.actions.1.icon/2024/5/18/upload_2b5l78spjkx-1718697331696.png"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "eusqxmxafaf",
+      "slug": "/admin/mobileapp/app-screen-section/add",
+      "value": "Add Section"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultSort": {
+      "field": "order",
+      "order": "ascend"
+    }
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-17T07:36:16.909Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/mobileapp/app-screen/all",
+  "gridParams": [
+    {
+      "key": "screenId",
+      "required": true
+    }
+  ]
+}

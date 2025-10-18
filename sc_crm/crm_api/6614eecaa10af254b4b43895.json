@@ -1,0 +1,12 @@
+{
+  "_id": "6614eecaa10af254b4b43895",
+  "name": "All Branches",
+  "path": "/admin/account/branches/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6614ee4ba10af254b4b43894",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T07:31:22.638Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

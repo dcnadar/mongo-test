@@ -1,0 +1,15 @@
+{
+  "_id": "65d4850ce9f4dc1ab2f2a1a4",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "schema",
+      "name": "Schema Object"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Website CommonSEO Schema",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-20T10:55:08.889Z"
+}

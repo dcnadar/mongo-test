@@ -1,0 +1,67 @@
+{
+  "_id": "6704e0c35f22ec7ba026473b",
+  "gridTitle": "package",
+  "gridType": "table",
+  "crmModelId": "6703e13b5f22ec7ba0264730",
+  "columns": [
+    {
+      "$key": "ubwndprvgc",
+      "type": "text",
+      "key": "name",
+      "name": "Name",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "nwcig5q2qt8",
+      "key": "category",
+      "name": "Category",
+      "sort": false,
+      "width": 200,
+      "type": "card"
+    },
+    {
+      "$key": "l69lnfm4c6q",
+      "key": "platformCovered",
+      "name": "Platform Covered",
+      "type": "tag",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "90zqf0i4jig",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "width": 200,
+      "actions": [
+        {
+          "$key": "jb6buvvl88m",
+          "gridTitle": "Edit package",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/package/edit?id=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "guqhv1z5x19",
+      "gridTitle": "Add Package",
+      "gridType": "popupForm",
+      "value": "Add Package",
+      "apiUrl": "/admin/package/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-08T07:35:31.248Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:51.828Z"
+}

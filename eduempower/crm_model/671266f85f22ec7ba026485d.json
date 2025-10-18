@@ -1,0 +1,85 @@
+{
+  "_id": "671266f85f22ec7ba026485d",
+  "name": "Eduempower Documents",
+  "modelType": "COLLECTION",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "collectionName": "eduempower_documents",
+  "properties": [
+    {
+      "$key": "8zt1krakmaf",
+      "key": "documentName",
+      "name": "Document Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bnj9csr46f4",
+      "key": "type",
+      "name": "Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "bovdroj5a9e",
+            "key": "DOCUMENT",
+            "value": "Document"
+          },
+          {
+            "$key": "l4cb6uezvk",
+            "key": "CERTIFICATE",
+            "value": "Certificate"
+          },
+          {
+            "$key": "1qeqzebrd6u",
+            "key": "CONTRACT",
+            "value": "Contract"
+          },
+          {
+            "$key": "7sjumi6s7r9",
+            "key": "PROOF",
+            "value": "Proof"
+          },
+          {
+            "$key": "92e6e8g7trv",
+            "key": "REPORT",
+            "value": "Report"
+          },
+          {
+            "$key": "rylox2abeng",
+            "key": "PHOTO",
+            "value": "Photo"
+          },
+          {
+            "$key": "nzpwyi2kzd",
+            "key": "OTHERS",
+            "value": "Others"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "o7cwfuio72",
+      "key": "document",
+      "name": "Document",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5ijr709too5",
+      "key": "expiry",
+      "name": "Expiry",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "gepao4dzb1t",
+      "key": "userId",
+      "name": "User",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T13:47:36.784Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.952Z"
+}

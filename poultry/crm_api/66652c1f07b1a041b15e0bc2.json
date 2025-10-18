@@ -1,0 +1,13 @@
+{
+  "_id": "66652c1f07b1a041b15e0bc2",
+  "name": "Edit Village",
+  "path": "/admin/location/village/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66644df807b1a041b15e0ba4",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-09T04:14:23.599Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

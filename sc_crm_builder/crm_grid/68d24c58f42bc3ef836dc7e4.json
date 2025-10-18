@@ -1,0 +1,64 @@
+{
+  "_id": {
+    "$oid": "68d24c58f42bc3ef836dc7e4"
+  },
+  "gridTitle": "App Permission Entry table",
+  "gridType": "table",
+  "crmModelId": "68d0e93df42bc3ef836dc7ca",
+  "columns": [
+    {
+      "$key": "1zay2pqqqdf",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": false,
+      "valueCondition": "return `${this.name}<br/><span style=\"font-size:12px;color:#666;\">${this.slug}</span>`;"
+    },
+    {
+      "$key": "ivtp4tetl8d",
+      "key": "create",
+      "name": "Create",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "ffu32603osl",
+      "key": "read",
+      "name": "Read",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "fa7uz43kw9",
+      "key": "update",
+      "name": "Update",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "v36yxgeunf8",
+      "key": "delete",
+      "name": "Delete",
+      "type": "text",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758612568044"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231679201"
+    }
+  }
+}

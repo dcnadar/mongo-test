@@ -1,0 +1,23 @@
+{
+  "_id": "6522338b696fa159e5101528",
+  "properties": [
+    {
+      "dataType": "INNER_MODEL",
+      "key": "commonCard",
+      "name": "Common Card",
+      "modelId": "65223285696fa159e5101525"
+    },
+    {
+      "dataType": "LIST_OF",
+      "key": "sections",
+      "name": "Sections",
+      "listType": "INNER_MODEL",
+      "modelId": "652232e2696fa159e5101527"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Foodio Home Crausal",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:51.817Z"
+}

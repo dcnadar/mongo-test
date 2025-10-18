@@ -1,0 +1,14 @@
+{
+  "_id": "667bb4d174a25c4c696adb03",
+  "name": "Navigator",
+  "path": "/admin/public/mobileapp/navigator",
+  "apiType": "GET",
+  "action": "ENTITY_GET",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-26T06:27:29.501Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "fetchDocWithoutId": true,
+  "gridParams": [],
+  "modelId": "667bb23574a25c4c696adafc"
+}

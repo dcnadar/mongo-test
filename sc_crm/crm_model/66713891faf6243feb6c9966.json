@@ -1,0 +1,53 @@
+{
+  "_id": "66713891faf6243feb6c9966",
+  "name": "NativeGrid GlobalCommonProductList5 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "cb6nh40ifl5",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yj5io0q6qxq",
+      "key": "category",
+      "name": "Category",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nt878r0urcd",
+      "key": "rating",
+      "name": "Rating",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "wsx7bv521p",
+      "key": "price",
+      "name": "Price",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "di9nf0cfiat",
+      "key": "mrp",
+      "name": "Mrp",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vc4d9x0h1l",
+      "key": "currencycode",
+      "name": "Currency Code",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gj4oh6jie7i",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    }
+  ],
+  "compoundUniqueFields": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T07:34:41.974Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

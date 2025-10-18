@@ -1,0 +1,13 @@
+{
+  "_id": "667bafc674a25c4c696adaf5",
+  "name": "Add Cart Items",
+  "path": "/admin/customer/cart_items/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6619064baee00c70206deb28",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-26T06:05:58.547Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

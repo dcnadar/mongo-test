@@ -1,0 +1,33 @@
+{
+  "_id": "6662af2307b1a041b15e0b59",
+  "gridTitle": "District",
+  "gridType": "form",
+  "crmModelId": "6662abef07b1a041b15e0b54",
+  "rows": [
+    {
+      "$key": "o0ucv0fipb",
+      "fields": [
+        {
+          "$key": "b3f6l7l5908",
+          "id": "stateId",
+          "title": "State",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "id": "districtName",
+          "title": "Name",
+          "type": "text",
+          "span": 12,
+          "$key": "1d8fbff9fcv"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T06:56:35.325Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/setup/district/all"
+}

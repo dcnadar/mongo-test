@@ -1,0 +1,14 @@
+{
+  "_id": "67335c0b02f79267ffc5656d",
+  "key": "setting.role.update",
+  "name": "Branch Update",
+  "apisAccess": [
+    "661220daa10af254b4b437c8",
+    "661220d1a10af254b4b437c7"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T13:45:47.203Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.517Z"
+}

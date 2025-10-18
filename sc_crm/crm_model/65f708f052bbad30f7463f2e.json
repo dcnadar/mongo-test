@@ -1,0 +1,36 @@
+{
+  "_id": "65f708f052bbad30f7463f2e",
+  "name": "ReactGrid GlobalNewsLetterSection2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING",
+      "$key": "kga2rtzcrhp"
+    },
+    {
+      "dataType": "STRING",
+      "key": "subscribeButtonText",
+      "name": "Subscribe Button Text",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a",
+      "$key": "jwzzs8s8xa"
+    },
+    {
+      "key": "emailaddresslabel",
+      "name": "EmailAddressLabel",
+      "dataType": "STRING",
+      "$key": "ije29nfou4"
+    },
+    {
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING",
+      "$key": "xg0pq7a6lwp"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-17T15:14:56.439Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

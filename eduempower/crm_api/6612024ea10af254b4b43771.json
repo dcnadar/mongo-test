@@ -1,0 +1,13 @@
+{
+  "_id": "6612024ea10af254b4b43771",
+  "name": "Add Rooms",
+  "path": "/admin/schoolsetup/rooms/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cf50ac7b99128d924f73b",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T02:17:50.640Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:47.680Z"
+}

@@ -1,0 +1,34 @@
+{
+  "_id": "67a5d320b81dbd448287fa6b",
+  "name": "Variant Options",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "s3yj7ylmwdc",
+      "key": "displayName",
+      "name": "Display Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ns1c7uk2278",
+      "key": "valueType",
+      "name": "Value Type",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0pcycq87rs9",
+      "key": "variantName",
+      "name": "Variant Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lx8d34t1vsh",
+      "key": "variantValue",
+      "name": "Variant Value",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-07T09:32:16.086Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

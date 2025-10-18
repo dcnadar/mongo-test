@@ -1,0 +1,67 @@
+{
+  "_id": "67b5bfd59510c41f5f1e5313",
+  "name": "Eduempower ClassSubject",
+  "modelType": "COLLECTION",
+  "baseModelId": "67371c6002f79267ffc56592",
+  "collectionName": "eduempower_class_subject",
+  "properties": [
+    {
+      "$key": "r5q4vyyfgq",
+      "key": "schoolSubjectId",
+      "name": "School Subject Id",
+      "dataType": "REFERENCE",
+      "modelId": "67ae02a7397e373602fa0c97"
+    },
+    {
+      "$key": "eqf3fdq63kb",
+      "key": "mandatory",
+      "name": "Mandatory",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "g6kyciqpomr",
+      "key": "subjectName",
+      "name": "Subject Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "p7idv65z3dk",
+      "key": "shortName",
+      "name": "ShortName",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6am5ck41zcq",
+      "key": "classType",
+      "name": "Class Type",
+      "listType": "REFERENCE",
+      "modelId": "660c0713c7b99128d924f70b",
+      "dataType": "REFERENCE"
+    },
+    {
+      "$key": "d7khyx6yh4d",
+      "key": "entityType",
+      "name": "Entity Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "rv0h022clbp",
+            "key": "MASTER_SETUP",
+            "value": "Master Setup"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "subjectName",
+    "subtitles": [
+      "shortName"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-19T11:26:13.099Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

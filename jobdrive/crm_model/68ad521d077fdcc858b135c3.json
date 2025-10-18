@@ -1,0 +1,25 @@
+{
+  "_id": "68ad521d077fdcc858b135c3",
+  "name": "Student Skills",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "3m9nopfmnz2",
+      "key": "skill",
+      "name": "Skills Type",
+      "dataType": "STRING",
+      "listType": "STRING"
+    },
+    {
+      "$key": "jw937toaig",
+      "name": "Skill Name",
+      "listType": "STRING",
+      "dataType": "LIST_OF",
+      "key": "name"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T06:20:13.455Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:56.013Z"
+}

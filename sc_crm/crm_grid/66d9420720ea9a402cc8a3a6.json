@@ -1,0 +1,46 @@
+{
+  "_id": "66d9420720ea9a402cc8a3a6",
+  "gridTitle": "ReactGrid GlobalHeader3 reset",
+  "gridType": "form",
+  "crmModelId": "66d940eb20ea9a402cc8a3a5",
+  "rows": [
+    {
+      "$key": "up7lhlvyflf",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "fz6ijpvpyj7"
+        },
+        {
+          "$key": "3uea9i7twyq",
+          "id": "description",
+          "title": "Description",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "a3you284m6u",
+          "id": "emailaddresslabel",
+          "title": "EmailAddressLabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "a4np8qepg5j",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-05T05:30:47.300Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

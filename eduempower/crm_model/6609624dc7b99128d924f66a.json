@@ -1,0 +1,31 @@
+{
+  "_id": "6609624dc7b99128d924f66a",
+  "name": "Eduempower FeeFine FeeSlabFavourLogic",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "3xz24dumesd",
+      "key": "from",
+      "name": "From",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "fwk4vcflfgj",
+      "key": "to",
+      "name": "To",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "914ww9wnt1v",
+      "key": "value",
+      "name": "Value",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T13:17:01.817Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.626Z"
+}

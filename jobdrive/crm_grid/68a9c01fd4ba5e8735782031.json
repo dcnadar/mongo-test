@@ -1,0 +1,63 @@
+{
+  "_id": "68a9c01fd4ba5e8735782031",
+  "gridTitle": "Student Education",
+  "gridType": "form",
+  "crmModelId": "68a8303b929889208088b242",
+  "rows": [
+    {
+      "$key": "tgbmroklb4",
+      "fields": [
+        {
+          "id": "level",
+          "title": "Education Level",
+          "type": "text",
+          "$key": "b9akp1wdbmf"
+        },
+        {
+          "$key": "fxz2rr9nal",
+          "id": "institutionName",
+          "title": "Institute Name",
+          "type": "text"
+        },
+        {
+          "$key": "8uab92u158r",
+          "id": "boardorUniversity",
+          "title": "Board/University",
+          "type": "text"
+        },
+        {
+          "$key": "2xbndp1jyr",
+          "id": "start_date",
+          "title": "Start Date",
+          "type": "date"
+        },
+        {
+          "$key": "5shnkge9h6c",
+          "id": "end_date",
+          "title": "End Date",
+          "type": "date",
+          "o": true
+        },
+        {
+          "$key": "pmvmkn50t6",
+          "id": "marks",
+          "title": "Percentage/CGPA/SGPA",
+          "type": "number"
+        },
+        {
+          "$key": "qem522twou",
+          "id": "additional",
+          "title": "Additional Info",
+          "o": true,
+          "type": "textarea"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-23T13:20:31.344Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:53.727Z"
+}

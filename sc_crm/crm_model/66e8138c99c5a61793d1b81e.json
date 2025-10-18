@@ -1,0 +1,44 @@
+{
+  "_id": "66e8138c99c5a61793d1b81e",
+  "name": "ReactGrid GlobalHeader4 socialLinks",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ham2w84yfk7",
+      "key": "facebookLink",
+      "name": "FacebookLink",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gdingiozegf",
+      "key": "twitterLink",
+      "name": "TwitterLink",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "okan4i5qti8",
+      "key": "instagramLink",
+      "name": "InstagramLink",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xgns4o34ke",
+      "key": "linkedInLink",
+      "name": "LinkedInLink",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "laatw0lcomr",
+      "key": "pinterestLink",
+      "name": "PinterestLink",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-16T11:16:28.269Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

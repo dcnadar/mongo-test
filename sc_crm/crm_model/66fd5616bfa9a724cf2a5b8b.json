@@ -1,0 +1,36 @@
+{
+  "_id": "66fd5616bfa9a724cf2a5b8b",
+  "name": "Order Return Shipment",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "n50r87haanm",
+      "key": "weight",
+      "name": "Weight",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "gko71xy5og",
+      "key": "length",
+      "name": "Length",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "ro1jrex36na",
+      "key": "breadth",
+      "name": "Breadth",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "m7qon0k0xx",
+      "key": "height",
+      "name": "Height",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-10-02T14:17:58.018Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

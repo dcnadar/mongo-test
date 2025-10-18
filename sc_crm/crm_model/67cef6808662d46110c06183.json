@@ -1,0 +1,67 @@
+{
+  "_id": "67cef6808662d46110c06183",
+  "name": "ReactGrid CommonProductList7 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "nq8pfd6ula",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0xz892w8rfhk",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "uzrj18hhs2b",
+      "key": "price",
+      "name": "price",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nu2fjvhzbec",
+      "key": "currencycode",
+      "name": "currencycode",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y4m3elmq16b",
+      "key": "subTitle",
+      "name": "subTitle",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4e118yooqji",
+      "key": "mrp",
+      "name": "mrp",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "g5a9lssdlzd",
+      "key": "enableButton",
+      "name": "Enable Button",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "gxb3nrt5bvg",
+      "key": "buttonText",
+      "name": "Button Text",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "t3nm89l2km",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-10T14:26:08.774Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

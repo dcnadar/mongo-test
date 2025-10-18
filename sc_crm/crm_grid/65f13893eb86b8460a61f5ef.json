@@ -1,0 +1,89 @@
+{
+  "_id": "65f13893eb86b8460a61f5ef",
+  "gridTitle": "Website Page Section Info",
+  "gridType": "table",
+  "crmModelId": "6511dfccf9686d32acb3e2d2",
+  "columns": [
+    {
+      "index": 0,
+      "key": "reactGrid",
+      "name": "Name",
+      "type": "text",
+      "sort": true,
+      "$key": "cb1070cqaps"
+    },
+    {
+      "index": 1,
+      "key": "thumb",
+      "name": "Screenshot",
+      "type": "thumb",
+      "sort": false,
+      "$key": "jnw0fctu0r",
+      "width": 100
+    },
+    {
+      "$key": "kqy6gbl76n",
+      "key": "designPrototype",
+      "name": "Design Prototype",
+      "type": "thumb",
+      "sort": false,
+      "width": 100
+    },
+    {
+      "index": 2,
+      "key": "theme",
+      "name": "Theme",
+      "type": "tag",
+      "sort": true,
+      "$key": "krbj1huwoxs",
+      "width": 60
+    },
+    {
+      "index": 3,
+      "key": "crmForm",
+      "name": "Crm Form",
+      "type": "card",
+      "sort": false,
+      "$key": "tim1eoqn0wj"
+    },
+    {
+      "$key": "dx0cxvhr4g9",
+      "key": "sectionTypeId",
+      "name": "Group",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "key": "action",
+      "index": 4,
+      "name": "Action",
+      "type": "actions",
+      "sort": false,
+      "actions": [
+        {
+          "slug": "/admin/website/settings/section-info/edit?id=:_id _id",
+          "value": "Edit",
+          "$key": "ovf1auj4zjh"
+        }
+      ],
+      "$key": "1x7ef728byu"
+    }
+  ],
+  "actions": [
+    {
+      "slug": "/admin/website/settings/section-info/add",
+      "value": "Add Section Info",
+      "$key": "jhqutvjhgo"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-13T05:24:35.887Z",
+  "fetchAdditionalKeys": [],
+  "search": {
+    "placeHolder": "Search by name"
+  }
+}

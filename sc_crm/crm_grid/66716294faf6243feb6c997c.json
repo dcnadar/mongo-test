@@ -1,0 +1,100 @@
+{
+  "_id": "66716294faf6243feb6c997c",
+  "gridTitle": "ReactGrid GlobalTrufalLogin BasicInfoForm",
+  "gridType": "form",
+  "crmModelId": "66715d90faf6243feb6c9977",
+  "rows": [
+    {
+      "$key": "7fbl242p778",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "18c4dhfcuj7"
+        },
+        {
+          "$key": "o9x7uwcjm5p",
+          "id": "headingLeftText",
+          "title": "HeadingLeftText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "dwh7iqdymqp",
+          "id": "forgetText",
+          "title": "ForgetText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "gj5gu6yrgmr",
+          "id": "singUpOtpText",
+          "title": "SingUpOtpText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "3gjw50h13lo",
+          "id": "headingRightText",
+          "title": "HeadingRightText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "pv5im0ppuo",
+          "id": "emailaddresslabel",
+          "title": "Emailaddresslabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "d2in5v859uh",
+          "id": "passwordlabel",
+          "title": "Passwordlabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "4wy5eapsdn",
+          "id": "headingLinkText",
+          "title": "HeadingLinkText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "qsrhj03wcj8",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "k1pnl3w8e0i",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T10:33:56.542Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

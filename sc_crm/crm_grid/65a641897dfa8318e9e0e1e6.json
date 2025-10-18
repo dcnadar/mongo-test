@@ -1,0 +1,29 @@
+{
+  "_id": "65a641897dfa8318e9e0e1e6",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Sections",
+          "id": "section",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 10,
+          "add": true,
+          "delete": true,
+          "countTitle": "No Section Added"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65a63f780bd9427e125f63fe",
+  "gridTitle": "ReactGrid GlobalImageSlider",
+  "created": "2024-01-16T08:42:49.528Z"
+}

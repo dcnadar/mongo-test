@@ -1,0 +1,46 @@
+{
+  "_id": "66d5a30874ed55427bf5476b",
+  "name": "App Header Section",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "app-header-section",
+  "properties": [
+    {
+      "$key": "0xbwl79qci",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "61561ulg7z7",
+      "key": "order",
+      "name": "ordere",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "y2yp9f1csj",
+      "key": "gridInfo",
+      "name": "Grid Info",
+      "dataType": "INNER_MODEL",
+      "modelId": "65a94e69004f4d43a5f06c9e"
+    },
+    {
+      "$key": "msvu07au4w",
+      "key": "gridData",
+      "name": "GridData",
+      "dataType": "INNER_MODEL"
+    },
+    {
+      "$key": "8gfny6x57t3",
+      "key": "gridSettings",
+      "name": "Grid Settings",
+      "dataType": "INNER_MODEL",
+      "modelId": "65c07f689c7b5168f8ea683c"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-02T11:35:36.458Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

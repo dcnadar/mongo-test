@@ -1,0 +1,18 @@
+{
+  "_id": "67344c7502f79267ffc5657e",
+  "key": "school-setup.academic-session",
+  "name": "Accadmic Sessions",
+  "apisAccess": [
+    "660d1735c7b99128d924f747",
+    "66103c1ac7b99128d924f787",
+    "661049b1c7b99128d924f789",
+    "661049f0c7b99128d924f78a",
+    "6610de45fd0bb04de4cc7033",
+    "6610de58fd0bb04de4cc7034"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-13T06:51:33.494Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.811Z"
+}

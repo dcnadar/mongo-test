@@ -1,0 +1,57 @@
+{
+  "_id": "660b8946c7b99128d924f6e9",
+  "name": "ReactGrid GlobalTeamSections5 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "054bsjthj7oc",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "44wybxbfsgm",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xvn7z316z1",
+      "key": "enableButton",
+      "name": "EnableButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "in8rgh4amg",
+      "key": "buttonAction",
+      "name": "ButtonAction",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "24j15s1cd9zh",
+      "key": "subtitle",
+      "name": "Subtitle",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8gay5itvio7",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3vbcvfhk80a",
+      "key": "buttons",
+      "name": "Buttons",
+      "dataType": "LIST_OF",
+      "modelId": "65b0b2b014cae9d8eba5398a",
+      "listType": "INNER_MODEL"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-02T04:27:50.199Z",
+  "createdBy": "660a41ecdeefcc0a51709289"
+}

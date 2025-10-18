@@ -1,0 +1,142 @@
+{
+  "_id": "66755f534a068a49da021531",
+  "gridTitle": "Farmer Farm Status",
+  "gridType": "form",
+  "crmModelId": "66755cc14a068a49da02152f",
+  "rows": [
+    {
+      "$key": "4v81d5b3tac",
+      "fields": [
+        {
+          "$key": "rj0ubi62r4",
+          "id": "farmDimension",
+          "title": "Farm Dimension (Ft)",
+          "span": 8,
+          "type": "input_group",
+          "hint": "<p>Enter Breadth and Length of farm in feet</p>\n",
+          "meta": {
+            "inputParams": [
+              {
+                "$key": "u6wncwiyn4o",
+                "type": "number",
+                "placeholder": "Breadth",
+                "min": 1
+              },
+              {
+                "$key": "gkow51dwees",
+                "min": 1,
+                "placeholder": "Length",
+                "type": "number"
+              }
+            ]
+          }
+        },
+        {
+          "$key": "alz0d4v9laa",
+          "id": "directionOfPoultryShed",
+          "title": "Direction of Poultry Shed",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "9v7q6u4xxs5",
+          "id": "crossVentilation",
+          "title": "Cross Ventilation",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "ysmsgf6r8wr",
+          "id": "typeOfConstruction",
+          "title": "Type of Construction",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "5yufm976z7e",
+          "id": "separateBroodingSpace",
+          "title": "Separate Brooding Space",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "6c6yjg68wo3",
+          "id": "whetherRodentProof",
+          "title": "Whether Rodent Proof",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "3wya0l7d70o",
+          "id": "maintainFootBath",
+          "title": "Maintain Foot Bath",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "aoc6ggkjb2q",
+          "id": "floorType",
+          "title": "Floor Type",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "kkel4ncnued",
+          "id": "sideWall",
+          "title": "Side Wall",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "iai4ht0pub",
+          "id": "roofType",
+          "title": "Roof Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": []
+        },
+        {
+          "$key": "qdd0jsv0zo",
+          "id": "customRoofType",
+          "title": "Custom Roof Type",
+          "type": "text",
+          "span": 8,
+          "onChangeCondition": [],
+          "showCondition": "return this.roofType === 'ANY_OTHER';",
+          "updateType": "none",
+          "createType": "none"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-21T11:09:07.417Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false
+}

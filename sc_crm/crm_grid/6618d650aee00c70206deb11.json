@@ -1,0 +1,105 @@
+{
+  "_id": "6618d650aee00c70206deb11",
+  "gridTitle": "Vendor",
+  "gridType": "table",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "columns": [
+    {
+      "$key": "jpe0lqu2bzi",
+      "key": "logo",
+      "name": "Profile Pic",
+      "type": "thumb",
+      "sort": false,
+      "width": 100
+    },
+    {
+      "$key": "msrjvtzw4jj",
+      "key": "firstName",
+      "name": "Full Name",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "iihk8h9tlgb",
+      "key": "userName",
+      "name": "User Name",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "unqmkb0mimb",
+      "key": "email",
+      "name": "Email",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "iddr4r46y0c",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "8soi6ik6tlh",
+      "key": "edit",
+      "name": "EDIT",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "9i9brp82gti",
+          "value": "EDIT",
+          "slug": "/admin/account/vendor/update?id=:_id _id"
+        },
+        {
+          "$key": "fazcu3t0rwg",
+          "apiUrl": "/admin/account/staff/password/update?user=:_id _id",
+          "gridTitle": "Update Password",
+          "value": "Change Password",
+          "gridType": "popupForm"
+        },
+        {
+          "$key": "ub44cu96qa",
+          "value": "Delete",
+          "gridMsg": "Are you sure want to delete?",
+          "gridType": "confirm",
+          "type": "icon",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.4.actions.1.icon/2024/3/22/upload_96to4j32kk-1713781984089.png",
+          "apiUrl": "/admin/account/vendor/delete"
+        }
+      ],
+      "width": 200
+    }
+  ],
+  "actions": [
+    {
+      "$key": "ghwgdangchh",
+      "value": "Add Vender",
+      "slug": "/admin/account/vendor/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "un9mrpouem",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EQUALS": "VENDOR"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "lastName"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T06:36:00.280Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "6667cd069714d940fe2f3679",
+  "name": "Firebase Settings",
+  "path": "/admin/public/appsettings",
+  "apiType": "GET",
+  "action": "ENTITY_GET",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-11T04:05:26.014Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "fetchDocWithoutId": true,
+  "gridParams": [],
+  "modelId": "6666e12f07b1a041b15e0be0"
+}

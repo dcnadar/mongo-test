@@ -1,0 +1,13 @@
+{
+  "_id": "65de426c6c4b7b61ae937941",
+  "name": "Website Page Seo",
+  "action": "CRM_GRID",
+  "sourceId": "65dd815689b9cdc46673f75f",
+  "gridType": "menu",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/website/page/seo",
+  "innerGridType": "form",
+  "innerSourceId": "65de2d61b5345e6e3d426c01",
+  "created": "2024-02-27T20:13:32.522Z"
+}

@@ -1,0 +1,55 @@
+{
+  "_id": "6703c98c5f22ec7ba0264721",
+  "name": "Package plan",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "3kpnt81luzu",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jj6v67rr6me",
+      "key": "amount",
+      "name": "Amount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "ljdplrhjjk",
+      "key": "recommanded",
+      "name": "Recommanded",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "btvn6bh5gr",
+      "key": "estimateViews",
+      "name": "EstimateViews",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "qg9iu9buzcc",
+      "key": "estimateMinLeads",
+      "name": "EstimateMinLeads",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "f0erethlkbe",
+      "key": "estimateMaxLeads",
+      "name": "EstimateMaxLeads",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "uejd95kuvd",
+      "key": "adRunDays",
+      "name": "AdRunDays",
+      "dataType": "INTEGER"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-07T11:44:12.085Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:54.433Z"
+}

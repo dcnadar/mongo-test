@@ -1,0 +1,153 @@
+{
+  "_id": "68a85afe2e775374be67fb94",
+  "gridTitle": "Student Resume Details",
+  "gridType": "form",
+  "crmModelId": "6703b5dc30083226ac6affc4",
+  "rows": [
+    {
+      "$key": "mux2ghnojyk",
+      "label": "Summary",
+      "tab": "Student Summary",
+      "fields": [
+        {
+          "id": "studentAdditionalDetails.studentSummary",
+          "title": "Student Summary",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "x173dwsnh0o"
+        }
+      ]
+    },
+    {
+      "$key": "uuxjo2lla0r",
+      "label": "Education Details",
+      "tab": "Education",
+      "fields": [
+        {
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "$key": "rww8qkspcp",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "title": "Student Education",
+          "id": "studentAdditionalDetails.studentEducation",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "$key": "01u561xcambb",
+      "label": "Projects",
+      "tab": "Student Projects",
+      "fields": [
+        {
+          "id": "studentAdditionalDetails.studentProject",
+          "title": "Student Project",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "o": false,
+          "$key": "u5awgicgcl",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "$key": "7i21r0u3bgv",
+      "label": "Skills & Language",
+      "tab": "Student Skills",
+      "fields": [
+        {
+          "id": "studentAdditionalDetails.studentSkills",
+          "span": 24,
+          "title": "Student Skill",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "o": false,
+          "$key": "v21qgv304xh",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "min": 1
+        },
+        {
+          "$key": "1cuj4c7mdnc",
+          "id": "studentAdditionalDetails.studentComLanguage",
+          "title": "Communication Language",
+          "type": "strings"
+        }
+      ]
+    },
+    {
+      "$key": "2xhnyjybmxl",
+      "label": "Professional Experience",
+      "tab": "Experience",
+      "fields": [
+        {
+          "span": 24,
+          "id": "studentAdditionalDetails.studentExperience",
+          "title": "Student Experience",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "$key": "pscwszuocj9",
+          "o": true
+        }
+      ]
+    },
+    {
+      "$key": "60jikza0s5m",
+      "label": "Research & Academic Work",
+      "tab": "Research & Academic Work",
+      "fields": [
+        {
+          "id": "studentAdditionalDetails.studentAcademicWork",
+          "title": "Student Research & Academic Work",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "o": true,
+          "span": 24,
+          "$key": "ao7lc4yvkn"
+        }
+      ]
+    },
+    {
+      "$key": "9r1nh2zw899",
+      "label": "Certificate",
+      "tab": "Student Certificates",
+      "fields": [
+        {
+          "id": "studentAdditionalDetails.studentCertificate",
+          "title": "Student Certificate",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "$key": "o6wwdj4jtfm",
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-22T11:56:46.655Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:53.563Z"
+}

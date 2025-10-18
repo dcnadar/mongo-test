@@ -1,0 +1,102 @@
+{
+  "_id": "67adeaed61e8f2055c2ae896",
+  "name": "Eduempower FeeType",
+  "modelType": "COLLECTION",
+  "baseModelId": "67371c6002f79267ffc56592",
+  "collectionName": "eduempower_fee_type",
+  "properties": [
+    {
+      "$key": "xmii3rxkxc",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "3wq3lqkpdib",
+      "key": "code",
+      "name": "Code",
+      "dataType": "STRING",
+      "searchable": {
+        "thumbInitials": true
+      }
+    },
+    {
+      "$key": "8v2xrpsi2ea",
+      "key": "color",
+      "name": "Color",
+      "dataType": "STRING",
+      "searchable": {
+        "thumbColor": true
+      }
+    },
+    {
+      "$key": "73fezfv7rsb",
+      "key": "type",
+      "name": "Fee Type",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      },
+      "data": {
+        "options": [
+          {
+            "$key": "3g5xqqj4znv",
+            "key": "MANDATORY",
+            "value": "Mandatory"
+          },
+          {
+            "$key": "3ua2rs8bi2r",
+            "key": "OPTIONAL",
+            "value": "Optional"
+          },
+          {
+            "$key": "w7jlbhjcxcj",
+            "key": "AD_HOC",
+            "value": "Ad Hoc"
+          },
+          {
+            "$key": "rxqp5ym8vw",
+            "key": "NEW_ADMISSION",
+            "value": "New Admission"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ejj6ormmm9",
+      "key": "classTypes",
+      "name": "Class Type",
+      "dataType": "LIST_OF",
+      "modelId": "660c0713c7b99128d924f70b",
+      "listType": "REFERENCE"
+    },
+    {
+      "$key": "3jstu1giqt1",
+      "key": "entityType",
+      "name": "Entity Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "myvft4amq9b",
+            "key": "MASTER_SETUP",
+            "value": "Master Setup"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name",
+    "subtitles": [
+      "type"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T12:51:57.251Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "6719ed875f22ec7ba026499d",
+  "name": "Eduempower Alerts",
+  "path": "/admin/circulars&news/alerts/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6719ed065f22ec7ba026499b",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T06:47:35.669Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:54.871Z"
+}

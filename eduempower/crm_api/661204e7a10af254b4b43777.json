@@ -1,0 +1,13 @@
+{
+  "_id": "661204e7a10af254b4b43777",
+  "name": "Add Floor Deatails",
+  "path": "/admin/schoolsetup/floor-details/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cf343c7b99128d924f739",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T02:28:55.762Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:47.892Z"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "66114a2923b39252de459b1e",
+  "name": "All Fee Type",
+  "path": "/admin/schoolsetup/fee-settings/fee-type/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66114d8423b39252de459b20",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T13:12:09.249Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "innerGridType": "table",
+  "innerSourceId": "660d6646c7b99128d924f75b",
+  "updated": "2025-09-08T10:50:45.303Z"
+}

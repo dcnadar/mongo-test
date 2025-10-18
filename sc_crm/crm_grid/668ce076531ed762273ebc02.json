@@ -1,0 +1,255 @@
+{
+  "_id": "668ce076531ed762273ebc02",
+  "gridTitle": "Transaction",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "avocayyd41",
+      "fields": [
+        {
+          "$key": "aqaq3bhhpiq",
+          "id": "customerId",
+          "title": "Customer",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "wvj74dj4gtm",
+          "id": "orderIds",
+          "title": "Order Ids",
+          "type": "list",
+          "multiple": true,
+          "span": 8,
+          "o": true,
+          "add": false,
+          "delete": false,
+          "min": 1,
+          "meta": {
+            "queryParams": "userId=:userId userId"
+          }
+        },
+        {
+          "$key": "6ywqhs88ct",
+          "id": "transactionType",
+          "title": "Transaction Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "id": "transactionId",
+          "title": "Transaction Id",
+          "type": "text",
+          "span": 8,
+          "$key": "np7ost5stif",
+          "o": false
+        },
+        {
+          "$key": "l8569x7na2",
+          "id": "paymentMode",
+          "title": "Payment Mode",
+          "type": "list",
+          "span": 8,
+          "o": false,
+          "multiple": false
+        },
+        {
+          "$key": "zjm3zzucla",
+          "id": "paymentGateway",
+          "title": "payment Gateway",
+          "type": "list",
+          "span": 8,
+          "o": false,
+          "multiple": false,
+          "showCondition": "return this.paymentMode === 'ONLINE';",
+          "updateType": "none",
+          "createType": "none"
+        },
+        {
+          "$key": "wbs5bwxcu7",
+          "id": "pgTransactionId",
+          "title": "Pg Transaction Id",
+          "type": "text",
+          "span": 8,
+          "o": true,
+          "showCondition": "return this.paymentMode === 'ONLINE';"
+        },
+        {
+          "$key": "y10jf13706l",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "span": 8,
+          "o": false,
+          "multiple": false
+        },
+        {
+          "$key": "ia6f95xjz2",
+          "id": "totalMrp",
+          "title": "Total Mrp",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "k1yzk0sx09b",
+          "id": "totalDiscount",
+          "title": "Total Discount",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "v8qvyfsm5k",
+          "id": "totalPrice",
+          "type": "number",
+          "span": 8,
+          "o": false,
+          "title": "Total Price",
+          "min": 0
+        },
+        {
+          "$key": "yj1ce1sxa3f",
+          "id": "phonepePayAPIResponse",
+          "title": "Phonepe Pay API Response",
+          "type": "json",
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "o": true
+        },
+        {
+          "$key": "x6ekiheu5z",
+          "id": "phonepePayAPIData",
+          "title": "Phonepe Pay API Data",
+          "type": "json",
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "o": true
+        },
+        {
+          "$key": "owxfh7dme3",
+          "id": "razorpayCreateOrderResponse",
+          "title": "Razorpay Create Order Response",
+          "type": "json",
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "o": true
+        },
+        {
+          "$key": "jdyinomws9b",
+          "id": "cashfreeCreateOrderResponse",
+          "title": "Cashfree Create Order Response",
+          "type": "json",
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "o": true
+        },
+        {
+          "$key": "gmqjz3eb7zs",
+          "id": "razorpayWebhookResponse",
+          "title": "Razorpay Webhook Response",
+          "type": "json",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "4r9433htqw",
+          "id": "cashfreeWebhookResponse",
+          "title": "Cashfree Webhook Response",
+          "type": "json",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "rr226dj218b",
+          "id": "phonepeWebhookResponse",
+          "title": "Phonepe Webhook Response",
+          "type": "json",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "gop8ea1sch",
+          "id": "cancelData",
+          "title": "Cancel Data",
+          "type": "json",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "jmomgk66brh",
+          "id": "returnData",
+          "title": "Return Data",
+          "type": "json",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "77n60dpua7o",
+          "id": "taxableAmount",
+          "title": "Taxable Amount",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "grx7vccu89",
+          "id": "taxOnAmount",
+          "title": "Tax on Amount",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "e0h2qrlfik9",
+          "id": "totalAmount",
+          "title": "Total Amount",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "31kgbxr473w",
+          "id": "totalExtraCharges",
+          "title": "Total Extra Charges",
+          "type": "number"
+        },
+        {
+          "$key": "pvxupfqxodh",
+          "id": "totalTaxOnExtraCharges",
+          "title": "Total Tax on Extra Charges",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "mygylzds4nq",
+          "id": "extraCharges",
+          "title": "Extra Charges Details",
+          "type": "json",
+          "span": 8
+        },
+        {
+          "$key": "ild63lgpo4e",
+          "id": "finalTotal",
+          "title": "Final Total",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "1qdb9fw9jnm",
+          "id": "taxSettings",
+          "title": "Tax Settings",
+          "type": "json"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-09T07:02:14.619Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "crmModelId": "668cdde4531ed762273ebc01",
+  "upsertDoc": false
+}

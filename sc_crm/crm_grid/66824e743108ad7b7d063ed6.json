@@ -1,0 +1,64 @@
+{
+  "_id": "66824e743108ad7b7d063ed6",
+  "gridTitle": "NativeGrid GlobalBlogCardsWithImage sections",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "wlodnlt3fie",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "span": 8,
+          "type": "text",
+          "$key": "p9lxovmhjin"
+        },
+        {
+          "$key": "9s5i2sa09ju",
+          "id": "descriptions",
+          "title": "Descriptions",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "ut1d5h7gcim",
+          "id": "data",
+          "title": "Data",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "zgzjylytc7",
+          "id": "tag",
+          "title": "Tag",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ch16etce7fk",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "0zxo5rkcyt5o",
+          "id": "user",
+          "title": "User",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T06:36:36.825Z",
+  "createdBy": "660837fd3afc795c92fa7f61",
+  "crmModelId": "66824c623108ad7b7d063ed0"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "65b644c588ce476919e91bcd",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-28T12:12:53.543Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "$key": "ermx1oroqqo"
+        },
+        {
+          "index": 1,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 12,
+          "o": false,
+          "$key": "64b47jcvfcj"
+        },
+        {
+          "index": 2,
+          "title": "Section",
+          "id": "section",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 2,
+          "max": 5,
+          "add": true,
+          "delete": true,
+          "hint": "Tabs data",
+          "$key": "42d3m8zl7m2"
+        }
+      ],
+      "$key": "yxdspq91hl"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b644c588ce476919e91bcb",
+  "gridTitle": "ReactGrid GlobalTabSection2",
+  "fetchDocWithoutId": false
+}

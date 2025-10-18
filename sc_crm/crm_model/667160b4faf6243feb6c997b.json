@@ -1,0 +1,53 @@
+{
+  "_id": "667160b4faf6243feb6c997b",
+  "name": "ReactGrid GlobalTrufalLogin OtpForm",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "s10nqlppdf",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vo7xps5g1o",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ab7copu7sr",
+      "key": "emailaddresslabel",
+      "name": "Emailaddresslabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "aqgkvmrxxh5",
+      "key": "otptitle",
+      "name": "Otptitle",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ltciadim30r",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dm1xo32ezcg",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2g7uj80umib",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    }
+  ],
+  "compoundUniqueFields": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T10:25:56.429Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

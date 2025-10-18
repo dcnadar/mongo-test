@@ -1,0 +1,41 @@
+{
+  "_id": "6760160c75ed7057fba21a79",
+  "gridTitle": "SchoolAsset Log",
+  "gridType": "form",
+  "crmModelId": "6760104075ed7057fba21a76",
+  "rows": [
+    {
+      "$key": "jdgrm084vab",
+      "fields": [
+        {
+          "id": "date",
+          "title": "Date",
+          "type": "date",
+          "span": 8,
+          "$key": "7wj78zhquxw"
+        },
+        {
+          "$key": "k87knxcjcp",
+          "id": "message",
+          "title": "Message",
+          "type": "textarea",
+          "span": 8
+        },
+        {
+          "$key": "ijyg8upe3q",
+          "id": "staffId",
+          "title": "Staff Id",
+          "type": "list",
+          "span": 8,
+          "multiple": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-16T11:59:08.332Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:03.357Z"
+}

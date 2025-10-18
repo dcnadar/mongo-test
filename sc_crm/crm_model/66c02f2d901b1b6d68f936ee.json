@@ -1,0 +1,28 @@
+{
+  "_id": "66c02f2d901b1b6d68f936ee",
+  "name": "RazorpayPaymentGatewayConfig",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "6ylq2vpmq9m",
+      "key": "razorpayAPIKey",
+      "name": "Razorpay API Key",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3s4mq24mygr",
+      "key": "razorpaySecretKey",
+      "name": "Razorpay Secret Key",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "sx5lzrwzjif",
+      "key": "razorpayWebhookSecretKey",
+      "name": "Razorpay Webhook Secret Key",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-17T05:03:41.130Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

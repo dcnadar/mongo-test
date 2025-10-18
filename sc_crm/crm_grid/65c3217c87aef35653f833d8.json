@@ -1,0 +1,48 @@
+{
+  "_id": "65c3217c87aef35653f833d8",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-02-07T06:21:48.209Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Background Color",
+          "id": "bg",
+          "type": "color",
+          "span": 6,
+          "o": true
+        },
+        {
+          "index": 1,
+          "title": "Text Color",
+          "id": "text",
+          "type": "color",
+          "span": 6,
+          "o": true
+        },
+        {
+          "index": 2,
+          "title": "Border Color",
+          "id": "border",
+          "type": "color",
+          "span": 6,
+          "o": true
+        },
+        {
+          "index": 3,
+          "title": "Accent Color",
+          "id": "accent",
+          "type": "color",
+          "span": 6,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65c3217c87aef35653f833d7",
+  "gridTitle": "GlobalThemeColors Set"
+}

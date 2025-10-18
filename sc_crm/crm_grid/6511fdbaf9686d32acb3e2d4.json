@@ -1,0 +1,94 @@
+{
+  "_id": "6511fdbaf9686d32acb3e2d4",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Page",
+          "id": "pageId",
+          "type": "list",
+          "span": 24,
+          "o": true,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "$key": "ebviljzlo94"
+        },
+        {
+          "index": 1,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "$key": "4tso6yiwzqy"
+        },
+        {
+          "index": 2,
+          "title": "Order",
+          "id": "order",
+          "type": "number",
+          "span": 4,
+          "o": false,
+          "$key": "jrbrq4at6z"
+        },
+        {
+          "index": 3,
+          "title": "Crm Form Id",
+          "id": "meta.crmForm",
+          "type": "text",
+          "span": 4,
+          "o": false,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "$key": "sgs10yidii9"
+        },
+        {
+          "index": 4,
+          "title": "Grid Type",
+          "id": "gridInfoId",
+          "type": "c_page_section_selection",
+          "span": 12,
+          "apiUrl": "/admin/website/page/",
+          "o": false,
+          "nullIds": [
+            "gridData"
+          ],
+          "$key": "y6r1d67x4u"
+        },
+        {
+          "index": 5,
+          "title": "Grid Settings",
+          "id": "gridData",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "showCondition": "return !!this.gridInfoId;",
+          "meta": {
+            "crmFormIdField": "meta.crmForm",
+            "showCopyToClipboard": true,
+            "defaultOpen": true
+          },
+          "$key": "xdp3iqqo0j"
+        }
+      ],
+      "$key": "5640vrt1e4l"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "6511ee6df9686d32acb3e2d3",
+  "gridTitle": "Website Page Section Form",
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true
+    }
+  ],
+  "backUrl": "/admin/website/page/section",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

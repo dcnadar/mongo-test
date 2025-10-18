@@ -1,0 +1,100 @@
+{
+  "_id": "65fe6a21af73461003dd2560",
+  "gridTitle": "ReactGrid GlobalBlogCards5 Section",
+  "gridType": "form",
+  "crmModelId": "65fe6886af73461003dd255e",
+  "rows": [
+    {
+      "$key": "zvayx8vlijg",
+      "fields": [
+        {
+          "type": "date",
+          "span": 8,
+          "format": "MM/DD/YYYY",
+          "$key": "1ywpkm6ram3",
+          "o": true,
+          "id": "date",
+          "title": "Date"
+        },
+        {
+          "$key": "gy1sd2x3bao",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "2tm33yg8ga6",
+          "id": "tag",
+          "title": "Tag",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "41m18pcpici",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "iqu5bhvxw7b",
+          "id": "descriptions",
+          "title": "Descriptions",
+          "type": "textarea",
+          "span": 18
+        },
+        {
+          "$key": "pqcqlax7s4",
+          "id": "enableButton",
+          "title": "Enable Section Click",
+          "type": "bool",
+          "o": true,
+          "span": 4
+        },
+        {
+          "$key": "27j87fa4zvr",
+          "id": "buttonAction",
+          "title": "Click Action",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 20,
+          "showCondition": "return this.enableButton;"
+        },
+        {
+          "$key": "4a8tqrvccii",
+          "id": "user",
+          "title": "User",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-23T05:35:29.133Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

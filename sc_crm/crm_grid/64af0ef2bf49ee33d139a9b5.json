@@ -1,0 +1,25 @@
+{
+  "_id": "64af0ef2bf49ee33d139a9b5",
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "columns": [
+    {
+      "index": 0,
+      "name": "Name",
+      "key": "name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "index": 1,
+      "name": "Value",
+      "key": "value",
+      "type": "text",
+      "sort": false
+    }
+  ],
+  "crmModelId": "64a5c279099de82bca61ca94",
+  "gridTitle": "Product Variant Key Points",
+  "created": "2024-01-27T07:48:47.795Z"
+}

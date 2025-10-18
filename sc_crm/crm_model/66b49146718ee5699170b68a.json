@@ -1,0 +1,30 @@
+{
+  "_id": "66b49146718ee5699170b68a",
+  "name": "ReactGrid GlobalPricing4 footer",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "zw92d4wh9ho",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7gpy6qdpy7j",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "77k3sqzknix",
+      "key": "buttonText",
+      "name": "Button Text",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-08T09:35:02.408Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

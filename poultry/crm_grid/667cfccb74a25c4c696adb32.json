@@ -1,0 +1,44 @@
+{
+  "_id": "667cfccb74a25c4c696adb32",
+  "gridTitle": "Batch Info old",
+  "gridType": "form",
+  "crmModelId": "667cfc6a74a25c4c696adb31",
+  "rows": [
+    {
+      "$key": "vrnwf1o2bl",
+      "fields": [
+        {
+          "id": "batchInfo",
+          "title": "Batch Info",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "1b2brd5pdqe"
+        },
+        {
+          "$key": "tr170kisen9",
+          "id": "farmerId",
+          "title": "farmer id",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-27T05:46:51.403Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "farmerId",
+      "required": true
+    }
+  ]
+}

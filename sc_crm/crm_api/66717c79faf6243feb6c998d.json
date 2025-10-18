@@ -1,0 +1,13 @@
+{
+  "_id": "66717c79faf6243feb6c998d",
+  "name": "App Screen Section Info",
+  "path": "/admin/mobileapp/settings/section-info/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66716c41faf6243feb6c9982",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T12:24:25.170Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

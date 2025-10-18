@@ -1,0 +1,32 @@
+{
+  "_id": "666eefcbfaf6243feb6c98b1",
+  "gridTitle": "Farmer Growth",
+  "gridType": "dashboard",
+  "crmModelId": "6662ed0207b1a041b15e0b91",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "backUrl": "/admin/farmer/all",
+  "gridParams": [
+    {
+      "key": "farmerId",
+      "required": true
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-16T13:59:39.924Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

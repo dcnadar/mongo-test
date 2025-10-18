@@ -1,0 +1,475 @@
+{
+  "_id": {
+    "$oid": "65e8cdff97f0eca7ba094627"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Grid Name",
+          "id": "gridTitle",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Name of the Grid",
+          "$key": "6a7ciasdbaf"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Grid Type",
+          "id": "gridType",
+          "type": "radio",
+          "meta": {
+            "horizontal": true
+          },
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Type of the Grid",
+          "$key": "kk0kjvmncms"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Model",
+          "id": "crmModelId",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Model of you account",
+          "$key": "dij2cj19zbg",
+          "meta": {
+            "queryParams": "modelType=COLLECTION,INNER"
+          }
+        }
+      ],
+      "$key": "co8vqvj59j6"
+    },
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Form Rows",
+          "id": "rows",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "200"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Rows (Form)",
+          "showCondition": "return this.gridType === 'form' || this.gridType === 'account_filter';",
+          "$key": "1cq4mc4ukzr"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Fetch Document Without Id",
+          "id": "fetchDocWithoutId",
+          "type": "bool",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Fetch Document Without Id (Form), Use this if you have only one document in the collection",
+          "showCondition": "return this.gridType === 'form';",
+          "$key": "mkelh27mm3"
+        },
+        {
+          "$key": "aad91xyww6l",
+          "id": "upsertDoc",
+          "title": "Upsert Document",
+          "type": "bool",
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.gridType === 'form';"
+        },
+        {
+          "$key": "tdail0z2737",
+          "id": "postUrl",
+          "title": "Save API URL",
+          "type": "text",
+          "o": true,
+          "span": {
+            "$numberInt": "16"
+          },
+          "showCondition": "return this.gridType === 'form';"
+        },
+        {
+          "$key": "r2or9316pw",
+          "id": "submitType",
+          "title": "Submit Type",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "showCondition": "return this.gridType === 'form';",
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "$key": "pl6mr3pl278",
+          "id": "responseType",
+          "title": "File Type",
+          "type": "list",
+          "multiple": false,
+          "options": [
+            {
+              "$key": "z0ahuym9hzq",
+              "key": "excel",
+              "value": "Excel"
+            }
+          ],
+          "showCondition": "return this.gridType === 'form' && this.submitType === 'download';"
+        }
+      ],
+      "$key": "zksvb34m3r"
+    },
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Menu Items",
+          "id": "menuItems",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "200"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Menu Items (Menu)",
+          "showCondition": "return this.gridType === 'menu';",
+          "$key": "6i6475mcevu"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Thumb",
+          "id": "thumb",
+          "type": "upload",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": true,
+          "hint": "Thumb (Menu)",
+          "showCondition": "return this.gridType === 'menu';",
+          "$key": "rdwveahlyr"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": true,
+          "hint": "Title (Menu)",
+          "showCondition": "return this.gridType === 'menu';",
+          "$key": "jupy053x15h"
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Description",
+          "id": "description",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "hint": "Description (Menu)",
+          "showCondition": "return this.gridType === 'menu';",
+          "$key": "a3myy2qyj5d"
+        }
+      ],
+      "$key": "2rncsu75z11"
+    },
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Columns",
+          "id": "columns",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "200"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Columns (Table)",
+          "showCondition": "return this.gridType === 'table';",
+          "$key": "66zjq6v0k2v"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Actions",
+          "id": "actions",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "4"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Actions (Grid Buttons)",
+          "showCondition": "return this.gridType === 'table';",
+          "$key": "shmfpidmo5"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Show Border",
+          "id": "border",
+          "type": "bool",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Border (Table)",
+          "showCondition": "return this.gridType === 'table';",
+          "$key": "ao5tobqdllh"
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Search Placeholder",
+          "id": "search.placeHolder",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Search Placeholder (Table)",
+          "showCondition": "return this.gridType === 'table';",
+          "$key": "6kgldn5lxg3"
+        },
+        {
+          "index": {
+            "$numberInt": "4"
+          },
+          "title": "Custom Filters",
+          "id": "customFilters",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "1"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Custom Filters (Grid FormRows)",
+          "meta": {
+            "crmFormId": "65eb1831aa00ec382f84ccf2"
+          },
+          "showCondition": "return this.gridType === 'table';",
+          "$key": "es0moaciuec"
+        },
+        {
+          "index": {
+            "$numberInt": "5"
+          },
+          "title": "Left Open Filters",
+          "id": "leftOpenFilters",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "1"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Left Open Filters (Grid FormRows)",
+          "meta": {
+            "crmFormId": "65eb1831aa00ec382f84ccf2"
+          },
+          "showCondition": "return this.gridType === 'table';",
+          "$key": "0yle0nuaqmiq"
+        },
+        {
+          "index": {
+            "$numberInt": "6"
+          },
+          "title": "Table Meta",
+          "id": "tableMeta",
+          "type": "inner_form",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "hint": "Table Meta",
+          "showCondition": "return this.gridType === 'table';",
+          "$key": "ht9gkd1jzh6"
+        },
+        {
+          "index": {
+            "$numberInt": "6"
+          },
+          "title": "Fetch Additional Keys",
+          "id": "fetchAdditionalKeys",
+          "type": "strings",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Fetch Additional Keys",
+          "showCondition": "return this.gridType === 'table';",
+          "$key": "i4u0gjsagrr"
+        }
+      ],
+      "$key": "1jhzi673cei"
+    },
+    {
+      "label": "Additional setting",
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Back URL",
+          "id": "backUrl",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Back URL (API path)",
+          "$key": "tdkj47oxkhp"
+        },
+        {
+          "$key": "422kgtd36q2",
+          "id": "breadcrumb",
+          "title": "Breadcrumb",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "hint": "Breadcrum(slug)",
+          "add": true,
+          "delete": true
+        },
+        {
+          "index": {
+            "$numberInt": "4"
+          },
+          "title": "Grid Params",
+          "id": "gridParams",
+          "type": "input_table",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "max": {
+            "$numberInt": "200"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Grid Params (Request params for auto filter criteria)",
+          "$key": "lu2hdm4jngi"
+        }
+      ],
+      "$key": "qjihtx8oh4"
+    },
+    {
+      "$key": "4cbs0c50vax",
+      "fields": [
+        {
+          "id": "iframeSrc",
+          "title": "iFrame src",
+          "type": "text",
+          "span": {
+            "$numberInt": "24"
+          },
+          "showCondition": "return this.gridType == 'iframe';",
+          "$key": "kgujizc571h"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e782c6da2444a1d00dfeb3",
+  "gridTitle": "Crm Grid",
+  "backUrl": "/admin/grid",
+  "created": {
+    "$date": {
+      "$numberLong": "1709755903548"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150287"
+    }
+  },
+  "breadcrum": [],
+  "breadcrumb": []
+}

@@ -1,0 +1,144 @@
+{
+  "_id": {
+    "$oid": "65eaa00c6ac40fb24f3db150"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Row Label",
+          "id": "label",
+          "type": "text",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": true,
+          "hint": "Row Label",
+          "$key": "h4azgtrdch"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Tab Label",
+          "id": "tab",
+          "type": "text",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": true,
+          "hint": "Tab",
+          "$key": "isyvex2yjy"
+        },
+        {
+          "$key": "v8ryh4l5vrn",
+          "id": "span",
+          "title": "Row Span",
+          "type": "number",
+          "o": true,
+          "span": {
+            "$numberInt": "4"
+          },
+          "min": {
+            "$numberInt": "2"
+          },
+          "max": {
+            "$numberInt": "24"
+          }
+        },
+        {
+          "$key": "l4dqe3trlv",
+          "id": "showDescription",
+          "title": "Show Description",
+          "type": "bool",
+          "o": true,
+          "span": {
+            "$numberInt": "4"
+          }
+        },
+        {
+          "$key": "j53mrjmkqoh",
+          "id": "descriptionSpan",
+          "title": "Description span",
+          "type": "number",
+          "o": false,
+          "min": {
+            "$numberInt": "2"
+          },
+          "max": {
+            "$numberInt": "24"
+          },
+          "span": {
+            "$numberInt": "4"
+          },
+          "showCondition": "return this.showDescription;"
+        },
+        {
+          "$key": "doueloujx6k",
+          "id": "description",
+          "title": "Description",
+          "type": "text_editor",
+          "o": true,
+          "span": {
+            "$numberInt": "24"
+          },
+          "showCondition": "return this.showDescription;"
+        },
+        {
+          "$key": "fgse2ip7x2",
+          "id": "showCondition",
+          "title": "Show condition",
+          "type": "text",
+          "o": true,
+          "span": {
+            "$numberInt": "24"
+          }
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Fields",
+          "id": "fields",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "200"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Fields (FormRow)",
+          "$key": "s0ib0f8lzw"
+        }
+      ],
+      "$key": "5fzod3nvvm3"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e78602fb169c602da0bfc5",
+  "gridTitle": "Crm Grid FormRow",
+  "created": {
+    "$date": {
+      "$numberLong": "1709875212271"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150437"
+    }
+  }
+}

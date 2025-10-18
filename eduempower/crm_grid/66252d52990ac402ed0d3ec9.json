@@ -1,0 +1,64 @@
+{
+  "_id": "66252d52990ac402ed0d3ec9",
+  "gridTitle": "Eduempower BookDetails",
+  "gridType": "form",
+  "crmModelId": "662522c5990ac402ed0d3ebd",
+  "rows": [
+    {
+      "$key": "tfpz5r5lwn",
+      "fields": [
+        {
+          "$key": "l63o85xca6",
+          "id": "publicationYear",
+          "title": "Publication Year",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "e9lkmwxkr5q",
+          "id": "author",
+          "title": "Author",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "jvtdi43qufk",
+          "id": "publisher",
+          "title": "Publisher",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "ydy9bcjasv",
+          "id": "bookType",
+          "title": "Book Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "bio61txcbwn",
+          "id": "noOfPage",
+          "title": "No Of Pages",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "pttyd34vvc",
+          "id": "bookId",
+          "title": "Book Id",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T15:14:26.691Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:51:01.098Z"
+}

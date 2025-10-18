@@ -1,0 +1,14 @@
+{
+  "_id": "68a570082eb764625c225053",
+  "name": "Ongoing",
+  "path": "/admin/interview/ongoing",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "68a562252eb764625c22504c",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-20T06:49:44.506Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:50.295Z"
+}

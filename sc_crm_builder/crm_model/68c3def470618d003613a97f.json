@@ -1,0 +1,41 @@
+{
+  "_id": {
+    "$oid": "68c3def470618d003613a97f"
+  },
+  "name": "Privilege",
+  "properties": [
+    {
+      "key": "hasAllAccess",
+      "name": "Has All Access",
+      "dataType": "BOOLEAN",
+      "$key": "7hcxkc9wkwb"
+    },
+    {
+      "$key": "jezp5i6v5al",
+      "key": "access",
+      "name": "Access",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "si6q3jblux",
+      "key": "except",
+      "name": "Except",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "modelType": "INNER",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757667060873"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377696318"
+    }
+  }
+}

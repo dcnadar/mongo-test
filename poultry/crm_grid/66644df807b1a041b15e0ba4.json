@@ -1,0 +1,74 @@
+{
+  "_id": "66644df807b1a041b15e0ba4",
+  "gridTitle": "Village",
+  "gridType": "form",
+  "crmModelId": "6664494307b1a041b15e0ba0",
+  "rows": [
+    {
+      "$key": "dr08qkninnr",
+      "fields": [
+        {
+          "$key": "x60hiqiwmp",
+          "id": "stateId",
+          "title": "State",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "districtId"
+          ]
+        },
+        {
+          "$key": "xv12sk4yw3",
+          "id": "districtId",
+          "title": "District",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "stateId=:stateId stateId"
+          },
+          "nullIds": [
+            "blockId"
+          ]
+        },
+        {
+          "$key": "by33l4oyhkd",
+          "id": "blockId",
+          "title": "Block",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "districtId=:districtId districtId"
+          },
+          "nullIds": [
+            "gramPanchayatId"
+          ]
+        },
+        {
+          "$key": "7s41rlugu0d",
+          "id": "gramPanchayatId",
+          "title": "GP/VC",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "blockId=:blockId blockId"
+          }
+        },
+        {
+          "$key": "sr2433qdpya",
+          "id": "villageName",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T12:26:32.054Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

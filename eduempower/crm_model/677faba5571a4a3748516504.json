@@ -1,0 +1,68 @@
+{
+  "_id": "677faba5571a4a3748516504",
+  "name": "Eduempower Student Discontinue",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "q9aq0luzaul",
+      "key": "type",
+      "name": "Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "aj3hqj2v9ud",
+            "key": "TEMPORARILY",
+            "value": "Temporarily"
+          },
+          {
+            "$key": "axehuiploy",
+            "key": "PERMANENT",
+            "value": "Permanent"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "7w21nw2jfmj",
+      "key": "from",
+      "name": "From",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "cuk23ptprmt",
+      "key": "till",
+      "name": "Till",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "1j4knvn5l8s",
+      "key": "remark",
+      "name": "Remark",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "p2kywph5qh",
+      "key": "studentId",
+      "name": "User",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "yz9jycg3mi",
+      "key": "document",
+      "name": "Document",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bskthfjbme8",
+      "key": "userMessage",
+      "name": "User Message",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-09T10:57:41.894Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.145Z"
+}

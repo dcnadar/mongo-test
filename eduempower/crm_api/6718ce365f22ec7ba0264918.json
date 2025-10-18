@@ -1,0 +1,15 @@
+{
+  "_id": "6718ce365f22ec7ba0264918",
+  "name": "Add Apply Leave",
+  "path": "/admin/leave/apply-leave/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6718cc385f22ec7ba0264912",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:21:42.371Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:53.565Z"
+}

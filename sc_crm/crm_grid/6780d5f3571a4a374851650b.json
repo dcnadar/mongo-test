@@ -1,0 +1,84 @@
+{
+  "_id": "6780d5f3571a4a374851650b",
+  "gridTitle": "ReactGrid CommonProductList Section",
+  "gridType": "form",
+  "crmModelId": "6780ccc3571a4a3748516509",
+  "rows": [
+    {
+      "$key": "piiivt7nhlc",
+      "fields": [
+        {
+          "$key": "05lf4s4sauxj",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8,
+          "$key": "7bv9vu3y6jj"
+        },
+        {
+          "$key": "2mmmbxp076q",
+          "id": "currencySymbol",
+          "title": "CurrencySymbol",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "c681f27c4pe",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "bdjyebvapo5",
+          "id": "price",
+          "title": "Price",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "chp7mhqeoon",
+          "id": "discount",
+          "title": "Discount",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ng11bztabr",
+          "id": "mrp",
+          "title": "Mrp",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-01-10T08:10:27.990Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

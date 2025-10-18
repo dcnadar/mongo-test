@@ -1,0 +1,13 @@
+{
+  "_id": "665c22067a29a87a0def3d8e",
+  "name": "Edit Variant Option",
+  "path": "/admin/product/variant-option/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "665c1bc47a29a87a0def3d87",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-02T07:40:54.422Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

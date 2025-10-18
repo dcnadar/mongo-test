@@ -1,0 +1,14 @@
+{
+  "_id": "67adca3a61e8f2055c2ae886",
+  "name": "Add Leave Plan",
+  "path": "/admin/school-setup/leave-settings/leave-plan/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67adc94461e8f2055c2ae883",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T10:32:26.144Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

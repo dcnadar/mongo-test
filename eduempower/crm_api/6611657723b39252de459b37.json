@@ -1,0 +1,13 @@
+{
+  "_id": "6611657723b39252de459b37",
+  "name": "Add Fee Category",
+  "path": "/admin/schoolsetup/fee-settings/fee-category/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cd81fc7b99128d924f726",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T15:08:39.619Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:45.781Z"
+}

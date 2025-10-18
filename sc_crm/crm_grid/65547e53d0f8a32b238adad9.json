@@ -1,0 +1,77 @@
+{
+  "_id": "65547e53d0f8a32b238adad9",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2023-10-08T00:00:00.000Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Manufacturer",
+          "id": "manufacturer",
+          "type": "text",
+          "span": 24,
+          "o": true,
+          "hint": "Enter the name of the product's manufacturer. Example: 'Sony Corporation'",
+          "$key": "d0kob4p37bl"
+        },
+        {
+          "index": 1,
+          "title": "Packer",
+          "id": "packer",
+          "type": "text",
+          "span": 24,
+          "o": true,
+          "hint": "Specify the packer of the product. Example: 'ABC Packaging Ltd.'",
+          "$key": "kvhz317tjoo"
+        },
+        {
+          "index": 2,
+          "title": "Importer",
+          "id": "importer",
+          "type": "text",
+          "span": 24,
+          "o": true,
+          "hint": "Name of the company importing the product. Example: 'XYZ Imports Inc.'",
+          "$key": "uvcnpjfx4g"
+        },
+        {
+          "index": 5,
+          "title": "Generic Name",
+          "id": "genericName",
+          "type": "text",
+          "span": 24,
+          "o": true,
+          "hint": "Generic name of the product. Example: 'LED Television'",
+          "$key": "vuo0zhjoomb"
+        },
+        {
+          "$key": "pe1pnv4n2o",
+          "id": "productCancelPolicy",
+          "title": "Product Cancel Policy",
+          "type": "list",
+          "multiple": false,
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "el7ws0xf7yg",
+          "id": "productReturnPolicy",
+          "title": "Product Return Policy\t",
+          "type": "list",
+          "multiple": false,
+          "span": 24,
+          "o": true
+        }
+      ],
+      "$key": "u508ky0g89h"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "655465b0d0f8a32b238adad8",
+  "gridTitle": "Product Variant Advanced Details Form",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

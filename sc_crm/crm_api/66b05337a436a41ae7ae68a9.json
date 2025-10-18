@@ -1,0 +1,14 @@
+{
+  "_id": "66b05337a436a41ae7ae68a9",
+  "name": "WebisteThemeSettings FontSetting",
+  "path": "/admin/website/global/theme/settings/font",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66ab5df5e287100717693d38",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-05T04:21:11.053Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

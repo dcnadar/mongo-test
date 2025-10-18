@@ -1,0 +1,13 @@
+{
+  "_id": "6662b2a107b1a041b15e0b63",
+  "name": "All District",
+  "path": "/admin/location/district/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6662b17107b1a041b15e0b5e",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:11:29.420Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

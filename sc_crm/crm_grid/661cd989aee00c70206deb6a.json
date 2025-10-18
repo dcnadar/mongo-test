@@ -1,0 +1,32 @@
+{
+  "_id": "661cd989aee00c70206deb6a",
+  "gridTitle": "FAQ",
+  "gridType": "form",
+  "crmModelId": "661cd493aee00c70206deb67",
+  "rows": [
+    {
+      "$key": "x5srqdz1za",
+      "fields": [
+        {
+          "id": "question",
+          "title": "Question",
+          "type": "text",
+          "span": 24,
+          "$key": "tjxnmyfyfrg"
+        },
+        {
+          "$key": "y8mpen8n4na",
+          "id": "answer",
+          "title": "Answer",
+          "type": "textarea",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T07:38:49.101Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/website/faq/all"
+}

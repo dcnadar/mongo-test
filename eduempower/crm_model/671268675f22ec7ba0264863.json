@@ -1,0 +1,46 @@
+{
+  "_id": "671268675f22ec7ba0264863",
+  "name": "History 2 (OLD)",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "history2",
+  "properties": [
+    {
+      "$key": "lp3p59m86v",
+      "key": "when",
+      "name": "When",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "jrdjv95fgfe",
+      "key": "user",
+      "name": "User",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "45da58rpehk",
+      "key": "doneBy",
+      "name": "Done By",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "v0mq2ljrbqm",
+      "key": "details",
+      "name": "Details",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ww0cxl5lj9",
+      "key": "remark",
+      "name": "Remark",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T13:53:43.847Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.986Z"
+}

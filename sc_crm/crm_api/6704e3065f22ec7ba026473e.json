@@ -1,0 +1,22 @@
+{
+  "_id": "6704e3065f22ec7ba026473e",
+  "name": "Get package shipment by orderid",
+  "path": "/cuser/order/shipment/get",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66d1b1dbf477b55766069c55",
+  "modelId": "66d1ae7df477b55766069c49",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-10-08T07:45:10.916Z",
+  "createdBy": "65f54da5eece0c4fb315fab8"
+}

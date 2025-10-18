@@ -1,0 +1,16 @@
+{
+  "_id": "66e1bb46ab08f3103afa06fe",
+  "name": "All Product Cancel Policy",
+  "path": "/admin/account/policy/cancel-policy/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66e1abd5ab08f3103afa06ee",
+  "innerGridType": "table",
+  "innerSourceId": "66e1b70aab08f3103afa06f4",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:46:14.601Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

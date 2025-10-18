@@ -1,0 +1,60 @@
+{
+  "_id": "66cd886decf9fb0993c3e6c6",
+  "gridTitle": "Image Gallery Table",
+  "gridType": "table",
+  "crmModelId": "66cd8665ecf9fb0993c3e6c2",
+  "upsertDoc": false,
+  "columns": [
+    {
+      "$key": "qkc93lcxy57",
+      "key": "image.path",
+      "name": "Image",
+      "type": "thumb",
+      "sort": false,
+      "width": 200
+    },
+    {
+      "$key": "yq951qn0x3",
+      "key": "description",
+      "name": "Description",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "jozyx2yscc",
+      "key": "action",
+      "name": "Delete",
+      "type": "actions",
+      "sort": false,
+      "width": 100,
+      "align": "right",
+      "actions": [
+        {
+          "$key": "d0301gyxz3",
+          "gridTitle": "Delete Image",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure, want to delete?",
+          "apiUrl": "/admin/gallery/image/delete?id=:_id _id",
+          "value": "Delete Image"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "gli9q1zruck",
+      "gridTitle": "Add Image",
+      "gridType": "popupForm",
+      "value": "Add Image",
+      "apiUrl": "/admin/gallery/image/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-08-27T08:03:57.038Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

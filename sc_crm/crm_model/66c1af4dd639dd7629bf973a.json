@@ -1,0 +1,22 @@
+{
+  "_id": "66c1af4dd639dd7629bf973a",
+  "name": "CashfreePaymentGatewayConfig",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "fnhu9lmesyt",
+      "key": "cashfreeApiKey",
+      "name": "Cashfree API Key",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "634t6kxvo4j",
+      "key": "cashfreeSecretKey",
+      "name": "Cashfree Secret Key",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-18T08:22:37.567Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,169 @@
+{
+  "_id": "6718a48d5f22ec7ba0264905",
+  "name": "Eduempower Visit (OLD)",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_visit_old",
+  "properties": [
+    {
+      "$key": "wlsfcrffkk",
+      "key": "visitorName",
+      "name": "Visitor",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6719204f5f22ec7ba0264975"
+    },
+    {
+      "$key": "8q95yxc3exr",
+      "key": "visitId",
+      "name": "Visit ID",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jy4y6r75q8",
+      "key": "visitCreationTime",
+      "name": "Created Date Time",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "xhon21aefgd",
+      "name": "Schedule Date Time",
+      "key": "scheduleDateTime",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "gq5mt04g8uc",
+      "key": "approvalType",
+      "name": "Approval Type",
+      "dataType": "STRING",
+      "listType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "u706d2w99b9",
+            "value": "Individual",
+            "key": "INDIVIDUAL"
+          },
+          {
+            "$key": "3c0d0yk7fmv",
+            "value": "Level",
+            "key": "LEVEL"
+          },
+          {
+            "$key": "oiu45jwov3q",
+            "value": "All",
+            "key": "ALL"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "cc5e6s88x0w",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "izhrnctals9",
+            "key": "APPROVAL_PENDING",
+            "value": "Approval Pending"
+          },
+          {
+            "$key": "3ogl3cjxto",
+            "key": "APPROVED",
+            "value": "Approved"
+          },
+          {
+            "$key": "muvvvv4nuri",
+            "key": "UPCOMING",
+            "value": "Upcoming"
+          },
+          {
+            "$key": "0yyhuj3if9j",
+            "key": "ONGOING",
+            "value": "Ongoing"
+          },
+          {
+            "$key": "lmwoee2dft7",
+            "key": "EXIT",
+            "value": "Exit"
+          },
+          {
+            "$key": "ubzs96y5ig",
+            "key": "REJECTED",
+            "value": "Rejected"
+          },
+          {
+            "$key": "yjw6ky581om",
+            "key": "PENDING",
+            "value": "Pending"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "zea2f6p5s",
+      "key": "approvers",
+      "name": "Approvers",
+      "dataType": "STRING",
+      "listType": "INTEGER"
+    },
+    {
+      "$key": "r84uz28thj",
+      "key": "scheduleDate",
+      "name": "Schedule Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "s72tso1leah",
+      "key": "scheduleStartTime",
+      "name": "Start Time",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "xxt6bljhamn",
+      "name": "Approvals",
+      "key": "staffs",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "ymgeftapcq",
+      "name": "Approvers",
+      "key": "approvers",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "uvxawku3ge9",
+            "key": "INDIVIDUAL",
+            "value": "Individual"
+          },
+          {
+            "$key": "qwnhf5z3z8",
+            "key": "LEVEL",
+            "value": "Level"
+          },
+          {
+            "$key": "n3ytnscy9b",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "id2lqtbbij",
+      "name": "Approval Required",
+      "key": "approvalRequired",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T07:23:57.739Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-08T10:51:07.118Z"
+}

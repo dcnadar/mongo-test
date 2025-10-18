@@ -1,0 +1,37 @@
+{
+  "_id": "689ee97458973fec4e05cc49",
+  "name": "placementDriveSchedule",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "py00d2f7dqh",
+      "key": "registrationDeadline",
+      "name": "Registration Deadline",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "vnnxexzyye9",
+      "key": "testDate",
+      "name": "Test Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "u57dl4fymo",
+      "key": "interviewRounds",
+      "name": "Interview Rounds",
+      "listType": "INNER_MODEL",
+      "modelId": "689ee8c658973fec4e05cc48",
+      "dataType": "LIST_OF"
+    },
+    {
+      "$key": "lbhcrxpw8v",
+      "key": "driveDate",
+      "name": "Drive Date",
+      "dataType": "DATE"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T08:01:56.307Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.492Z"
+}

@@ -1,0 +1,96 @@
+{
+  "_id": "6679065861dc8d328bfa9b26",
+  "gridTitle": "ReactGrid GlobalTrufalResetPassword",
+  "gridType": "form",
+  "crmModelId": "6679025961dc8d328bfa9b24",
+  "rows": [
+    {
+      "$key": "83f4a617m44",
+      "fields": [
+        {
+          "id": "logo",
+          "title": "Logo",
+          "type": "upload",
+          "span": 8,
+          "$key": "5crz582f85d",
+          "multiple": false
+        },
+        {
+          "$key": "onmw8s7py8j",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "57ecqah2gro",
+          "id": "headingLeftText",
+          "title": "HeadingLeftText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "r8ue5g6fixe",
+          "id": "forgetText",
+          "title": "ForgetText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "3kimw1ja14v",
+          "id": "emailaddresslabel",
+          "title": "Emailaddresslabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "i6en8i7xhef",
+          "id": "passwordlabel",
+          "title": "Passwordlabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "hogrtf3d41g",
+          "id": "confirmpasswordlabel",
+          "title": "Confirmpasswordlabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "m5x0dv57wy9",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "f6dn1gz3neq",
+          "id": "image",
+          "title": "image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "5myte30myi4",
+          "id": "successMessage",
+          "title": "SuccessMessage",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "u8qkay01m6l",
+          "id": "errorMessage",
+          "title": "ErrorMessage",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-24T05:38:32.576Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

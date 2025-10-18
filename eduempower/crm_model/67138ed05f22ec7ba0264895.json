@@ -1,0 +1,100 @@
+{
+  "_id": "67138ed05f22ec7ba0264895",
+  "name": "Eduempower Student Transfer",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "cepckob6kr6",
+      "key": "student",
+      "name": "Student",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "39kzvq67gfl",
+      "key": "studentBranch",
+      "name": "Student Branch",
+      "dataType": "REFERENCE",
+      "modelId": "6606750ceea36066ca04cbca"
+    },
+    {
+      "$key": "he52hloej7u",
+      "key": "academicSession",
+      "name": "Academic Session",
+      "dataType": "REFERENCE",
+      "modelId": "66067807eea36066ca04cbcc"
+    },
+    {
+      "$key": "aoeric5e2ui",
+      "key": "class",
+      "name": "Class",
+      "dataType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4"
+    },
+    {
+      "$key": "fm07lt648gs",
+      "key": "section",
+      "name": "Section",
+      "dataType": "REFERENCE",
+      "modelId": "6710fa555f22ec7ba026482b"
+    },
+    {
+      "$key": "9ibw2ovf3n",
+      "key": "rollNumber",
+      "name": "Roll Number",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "bndk8p6ct1",
+      "key": "transferStudentBranch",
+      "name": "Student Branch",
+      "dataType": "REFERENCE",
+      "modelId": "6606750ceea36066ca04cbca"
+    },
+    {
+      "$key": "62rb3vj0zwp",
+      "key": "transferAcademicSession",
+      "name": "Academic Session",
+      "dataType": "REFERENCE",
+      "modelId": "66067807eea36066ca04cbcc"
+    },
+    {
+      "$key": "bpb86cq4qkf",
+      "key": "transferAdmissionClass",
+      "name": "Admission Class",
+      "dataType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4"
+    },
+    {
+      "$key": "021m2zmawc3q",
+      "name": "Admission Section",
+      "key": "transferAdmissionSection",
+      "dataType": "REFERENCE",
+      "modelId": "6710fa555f22ec7ba026482b"
+    },
+    {
+      "$key": "mke3hhllov",
+      "key": "transferClass",
+      "name": "Class",
+      "dataType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4"
+    },
+    {
+      "$key": "gart9mzzv4f",
+      "key": "transferSection",
+      "name": "Section",
+      "dataType": "REFERENCE",
+      "modelId": "6710fa555f22ec7ba026482b"
+    },
+    {
+      "$key": "92c64slbn9h",
+      "key": "transferRollNumber",
+      "name": "Roll Number",
+      "dataType": "INTEGER"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T10:49:52.708Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:07.051Z"
+}

@@ -1,0 +1,86 @@
+{
+  "_id": "661e326ee8eed80abc953487",
+  "gridTitle": "Blog Content ",
+  "gridType": "table",
+  "crmModelId": "661e3052e8eed80abc953485",
+  "columns": [
+    {
+      "$key": "9b8o63zb3dr",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "zglu9o8q01p",
+      "key": "order",
+      "name": "Order",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "hptkvi4ygh6",
+      "key": "gridInfo.thumb",
+      "name": "Grid Sample Thumb",
+      "type": "thumb",
+      "sort": true
+    },
+    {
+      "$key": "lf007nuh6w",
+      "key": "created",
+      "name": "Created",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "f3ptwd4oda",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "fyqkfuph998",
+          "value": "Edit",
+          "gridTitle": "Edit Blog Content",
+          "apiUrl": "/admin/website/blog/content/edit?id=:_id _id",
+          "gridType": "popupForm"
+        },
+        {
+          "$key": "ez6hfrproq8",
+          "value": "Delete",
+          "gridMsg": "Are you sure want to delete?",
+          "apiUrl": "/admin/website/blog/content/delete",
+          "gridType": "confirm",
+          "type": "icon",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.5.actions.1.icon/2024/3/16/upload_o18lwfbc9e-1713262234879.png",
+          "gridTitle": "Delete Blog Content"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "tbx6ahjkwvk",
+      "value": "Add Content",
+      "gridTitle": "Add Blog Content",
+      "gridType": "popupForm",
+      "slug": "/admin/website/blog/content/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-16T08:10:22.252Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/website/blog/all",
+  "gridParams": [
+    {
+      "key": "blogId",
+      "required": true
+    }
+  ]
+}

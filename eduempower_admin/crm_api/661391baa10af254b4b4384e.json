@@ -1,0 +1,13 @@
+{
+  "_id": "661391baa10af254b4b4384e",
+  "name": "Edit Examination Board",
+  "path": "/admin/entity-setup/examination-board/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6612912fa10af254b4b4380f",
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-08T06:42:02.793Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "ecomApiMappings": []
+}

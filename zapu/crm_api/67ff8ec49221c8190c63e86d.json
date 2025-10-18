@@ -1,0 +1,19 @@
+{
+  "_id": "67ff8ec49221c8190c63e86d",
+  "name": "All Customer Address",
+  "path": "/admin/customer/address/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "67ff8e719221c8190c63e86b",
+  "ecomApiMappings": [],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-04-16T11:04:36.227Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true
+    }
+  ]
+}

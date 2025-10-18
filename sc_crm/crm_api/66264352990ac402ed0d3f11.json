@@ -1,0 +1,12 @@
+{
+  "_id": "66264352990ac402ed0d3f11",
+  "name": "Branches",
+  "path": "/admin/account/branches/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "6614ecd6a10af254b4b43892",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T11:00:34.388Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

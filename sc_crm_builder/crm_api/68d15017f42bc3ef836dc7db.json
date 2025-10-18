@@ -1,0 +1,26 @@
+{
+  "_id": {
+    "$oid": "68d15017f42bc3ef836dc7db"
+  },
+  "name": "Add App Role",
+  "path": "/admin/app-role/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68d14e3ef42bc3ef836dc7d6",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758547991084"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231672334"
+    }
+  }
+}

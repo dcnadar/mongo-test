@@ -1,0 +1,57 @@
+{
+  "_id": {
+    "$oid": "662148e17d57294ed27050de"
+  },
+  "gridTitle": "Role",
+  "gridType": "form",
+  "crmModelId": "662145817d57294ed27050dc",
+  "rows": [
+    {
+      "$key": "6uisuv1zi9m",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Role Name",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "$key": "2lhy5sfq7rh"
+        },
+        {
+          "$key": "gwxi0pny267",
+          "id": "permissions",
+          "title": "Permissions",
+          "type": "list",
+          "multiple": true,
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "add": true,
+          "delete": true,
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "100"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "backUrl": "/admin/roles",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1713457377867"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151353"
+    }
+  }
+}

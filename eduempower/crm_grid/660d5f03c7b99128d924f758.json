@@ -1,0 +1,52 @@
+{
+  "_id": "660d5f03c7b99128d924f758",
+  "gridTitle": "Branch and Academic Session Filter",
+  "gridType": "account_filter",
+  "crmModelId": "660d5ea4c7b99128d924f757",
+  "rows": [
+    {
+      "$key": "bfuq9e7rgxu",
+      "fields": [
+        {
+          "id": "_workLocation",
+          "title": "Branch",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "dsulfg6l2k5"
+        },
+        {
+          "$key": "p36vucps6lm",
+          "id": "_sessionId",
+          "title": "Academic Session",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "searchAdditionalKeys": [
+              "from",
+              "to"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T13:52:03.568Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:59.394Z"
+}

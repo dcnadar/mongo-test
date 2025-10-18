@@ -1,0 +1,173 @@
+{
+  "_id": "64c7748983c24f1379031dc6",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "User",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "$key": "3legrmp80jh",
+      "key": "logo",
+      "name": "Thumb",
+      "dataType": "STRING",
+      "searchable": {
+        "thumb": true
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "firstName",
+      "name": "First Name",
+      "searchable": {
+        "value": true
+      },
+      "$key": "z7zdglheloi"
+    },
+    {
+      "$key": "vj92vaee727",
+      "key": "lastName",
+      "name": "Last Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "email",
+      "name": "Email",
+      "searchable": {
+        "value": false,
+        "description": true
+      },
+      "$key": "e5q6pw7gow6",
+      "unique": true
+    },
+    {
+      "dataType": "STRING",
+      "key": "userName",
+      "name": "User Name",
+      "searchable": {
+        "primary": true
+      },
+      "$key": "662tjnshbz4",
+      "unique": true
+    },
+    {
+      "dataType": "STRING",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "searchable": {
+        "value": false
+      },
+      "$key": "akw0mes1nn"
+    },
+    {
+      "dataType": "STRING",
+      "key": "callingCode",
+      "name": "Calling Code",
+      "$key": "rgv21eskv5q",
+      "data": {
+        "options": [
+          {
+            "$key": "xqvdxf7ui0i",
+            "key": "+91",
+            "value": "+91 (India)"
+          }
+        ]
+      }
+    },
+    {
+      "dataType": "DATE",
+      "key": "birthDate",
+      "name": "BirthDate",
+      "searchable": {
+        "thumb": false
+      },
+      "$key": "hddu225tbh"
+    },
+    {
+      "$key": "fain6gadnoo",
+      "key": "gender",
+      "name": "Gender",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "62u7gq5xbny",
+            "key": "MALE",
+            "value": "Male"
+          },
+          {
+            "$key": "empgs3chzk9",
+            "key": "FEMALE",
+            "value": "Female"
+          },
+          {
+            "$key": "wvw19blrmuo",
+            "key": "OTHERS",
+            "value": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "gdncwow5tbc",
+      "key": "userType",
+      "name": "UserType",
+      "dataType": "STRING",
+      "data": {
+        "options": [],
+        "tagCategory": "USER_TYPE"
+      }
+    },
+    {
+      "$key": "c6q14jiyj4",
+      "key": "address",
+      "name": "Address",
+      "dataType": "INNER_MODEL",
+      "modelId": "64a5b2c2099de82bca61ca91"
+    },
+    {
+      "$key": "t29a88blcf",
+      "key": "unsubscribedEmail",
+      "name": "Unsubscribed From Email",
+      "dataType": "INNER_MODEL",
+      "modelId": "661b5a28aee00c70206deb5b"
+    },
+    {
+      "$key": "pgct4ge96vb",
+      "key": "roleId",
+      "name": "Role",
+      "dataType": "REFERENCE",
+      "modelId": "66236ef67d57294ed2705108"
+    },
+    {
+      "$key": "lzcamtmshv",
+      "key": "password",
+      "name": "Password",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ef0e0wk4k4j",
+      "key": "admin",
+      "name": "Is Admin",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "collectionName": "user",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "created": "2024-01-27T07:48:51.178Z",
+  "cardDataTargets": {
+    "title": "firstName lastName",
+    "subtitles": [
+      "email"
+    ],
+    "thumb": "logo"
+  },
+  "menuTargets": {
+    "thumb": "logo",
+    "title": "firstName",
+    "description": "email"
+  }
+}

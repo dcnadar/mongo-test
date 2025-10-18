@@ -1,0 +1,58 @@
+{
+  "_id": {
+    "$oid": "68d14de3f42bc3ef836dc7d5"
+  },
+  "name": "App Role",
+  "collectionName": "app_role",
+  "properties": [
+    {
+      "$key": "3mwynm13lts",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      },
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "brlyvhkwrcv",
+      "key": "permissions",
+      "name": "Permissions",
+      "dataType": "LIST_OF",
+      "$meta": {
+        "fetchModelType": "COLLECTION"
+      },
+      "listType": "REFERENCE",
+      "modelId": "68d0e9c8f42bc3ef836dc7cb"
+    },
+    {
+      "$key": "barniipme8",
+      "key": "key",
+      "name": "Key",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "modelType": "COLLECTION",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758547427355"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231683925"
+    }
+  }
+}

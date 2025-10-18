@@ -1,0 +1,198 @@
+{
+  "_id": {
+    "$oid": "65e80279424719e028f20658"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid TableColumn",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "key",
+      "name": "Key",
+      "$key": "b0z897e3t2q"
+    },
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name",
+      "$key": "b46xaa8fx2c"
+    },
+    {
+      "dataType": "STRING",
+      "key": "type",
+      "name": "Type",
+      "data": {
+        "options": [
+          {
+            "key": "text",
+            "value": "Text",
+            "$key": "41q2als7s4n"
+          },
+          {
+            "key": "name",
+            "value": "Name",
+            "$key": "nohcnu7kaqn"
+          },
+          {
+            "key": "link",
+            "value": "Link",
+            "$key": "dsketapmu3"
+          },
+          {
+            "key": "actions",
+            "value": "Actions",
+            "$key": "m8iieeo6mg"
+          },
+          {
+            "key": "date",
+            "value": "Date",
+            "$key": "xy7fcdwioxs"
+          },
+          {
+            "$key": "zpa61ivrfx",
+            "key": "date_time",
+            "value": "Date & Time"
+          },
+          {
+            "key": "mark",
+            "value": "Mark",
+            "$key": "51tc82bhx6p"
+          },
+          {
+            "key": "options",
+            "value": "Options",
+            "$key": "gmbrpxc12b"
+          },
+          {
+            "key": "errors",
+            "value": "Errors",
+            "$key": "hgut1rky3qa"
+          },
+          {
+            "key": "changes",
+            "value": "Changes",
+            "$key": "mau2fy9maj8"
+          },
+          {
+            "key": "tag",
+            "value": "Tag",
+            "$key": "bizcbwlkbug"
+          },
+          {
+            "key": "input",
+            "value": "Input",
+            "$key": "mrnosxo4pq"
+          },
+          {
+            "key": "card",
+            "value": "Card",
+            "$key": "a5u0ak4jwj4"
+          },
+          {
+            "key": "thumb",
+            "value": "Thumb",
+            "$key": "0v982pj1oibr"
+          },
+          {
+            "key": "checkbox_group",
+            "value": "Checkbox Group",
+            "$key": "eornjmlw9xk"
+          },
+          {
+            "key": "html_view",
+            "value": "Html View",
+            "$key": "f8xtegxfo54"
+          },
+          {
+            "$key": "nf40k81ieqs",
+            "key": "mdx_view",
+            "value": "MDX View"
+          }
+        ]
+      },
+      "$key": "ueig8zsxoqp"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "sort",
+      "name": "Sort",
+      "$key": "xoqgl084y3e"
+    },
+    {
+      "dataType": "STRING",
+      "key": "slug",
+      "name": "Slug (for link)",
+      "$key": "xrhsa0gja3d"
+    },
+    {
+      "dataType": "INTEGER",
+      "key": "width",
+      "name": "Width",
+      "$key": "yqdwvj5zf8t"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "actions",
+      "name": "Actions (Grid Button)",
+      "modelId": "65e80278424719e028f20657",
+      "$key": "fhpgxgaq2jp"
+    },
+    {
+      "dataType": "STRING",
+      "key": "align",
+      "name": "Align",
+      "data": {
+        "options": [
+          {
+            "key": "left",
+            "value": "Left",
+            "$key": "cjv9zd7qhu6"
+          },
+          {
+            "key": "right",
+            "value": "Right",
+            "$key": "7yyh2bs099o"
+          }
+        ]
+      },
+      "$key": "ni37ehgczl"
+    },
+    {
+      "dataType": "STRING",
+      "key": "handleKey",
+      "name": "Handle Key (pick data from this key)",
+      "$key": "k9nsfok8u8r"
+    },
+    {
+      "dataType": "STRING",
+      "key": "disableKey",
+      "name": "Disable Key",
+      "$key": "xxngoeosge"
+    },
+    {
+      "dataType": "STRING",
+      "key": "inputType",
+      "name": "Input Type",
+      "$key": "xdrsrv2xice"
+    },
+    {
+      "dataType": "STRING",
+      "key": "valueCondition",
+      "name": "Value Condition Function",
+      "$key": "86d13uo3d3g"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709703801545"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152957"
+    }
+  }
+}

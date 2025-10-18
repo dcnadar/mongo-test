@@ -1,0 +1,107 @@
+{
+  "_id": "6713be975f22ec7ba02648a9",
+  "gridTitle": "Student Transfer",
+  "gridType": "table",
+  "crmModelId": "67138ed05f22ec7ba0264895",
+  "columns": [
+    {
+      "$key": "eizud9zyn5i",
+      "key": "student",
+      "name": "Student",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "46mif04fv2z",
+      "key": "studentBranch",
+      "name": "Student Branch",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "r8ep94zjigd",
+      "key": "academicSession",
+      "name": "Academic Session",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "0b82s3sewvuf",
+      "key": "admissionClass",
+      "name": "Admission Class",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "j6chk48sg",
+      "key": "admissionSection",
+      "name": "Admission Section",
+      "width": 200,
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "xp20w57cp5",
+      "key": "class",
+      "name": "Class",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "nd5tmj0gh6",
+      "key": "section",
+      "name": "Section",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "0eksyuabmtr9",
+      "key": "rollNumber",
+      "name": "Roll Number",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "qjn5azhfb6",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "t2fp7actpsk",
+          "gridTitle": "Edit Transfer",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/student/transfer/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "k0dg94gye4s",
+      "gridTitle": "Add Transfer",
+      "gridType": "popupForm",
+      "value": "Add Transfer",
+      "apiUrl": "/admin/student/transfer/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T14:13:43.554Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:01.818Z"
+}

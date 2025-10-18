@@ -1,0 +1,74 @@
+{
+  "_id": "686b587eeafb2047bf212bbb",
+  "gridTitle": "Eduempower Additional Contact",
+  "gridType": "form",
+  "crmModelId": "686b5838eafb2047bf212bba",
+  "rows": [
+    {
+      "$key": "wupdsd2998d",
+      "fields": [
+        {
+          "$key": "poxesuomyni",
+          "id": "phone",
+          "title": "Phone",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "8rfodg56w95",
+          "id": "email",
+          "title": "Email",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "o3u1pw4mrd",
+          "id": "remarks",
+          "title": "Remarks",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "n4h33q6lta8",
+          "id": "description",
+          "title": "Description",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "l58fi46g46",
+          "id": "mobile",
+          "title": "Mobile",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "c6iv68x8td",
+          "id": "address",
+          "title": "Address",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "prwgr2tm50j",
+          "id": "residentialAddress",
+          "title": "Residential Address",
+          "type": "text",
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-07-07T05:17:50.601Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:04.670Z"
+}

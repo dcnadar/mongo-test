@@ -1,0 +1,56 @@
+{
+  "_id": "676fcc3633897d49a1050c9d",
+  "gridTitle": "Import Common\t",
+  "gridType": "table",
+  "crmModelId": "676fca9e33897d49a1050c9c",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "qn8czutpjbs",
+      "key": "templateName",
+      "name": "Template Name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "gfl3nf4of18",
+      "key": "description",
+      "name": "Description",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "zidjhadicf",
+      "key": "recommendedFor",
+      "name": "Recommended For",
+      "sort": false,
+      "type": "text"
+    },
+    {
+      "$key": "evkl8j39iph",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": false,
+      "width": 300,
+      "actions": []
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-28T10:00:22.679Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:03.692Z"
+}

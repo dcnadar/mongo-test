@@ -1,0 +1,62 @@
+{
+  "_id": "65b89847c6a2772837f39e21",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image"
+    },
+    {
+      "dataType": "STRING",
+      "key": "price",
+      "name": "Price"
+    },
+    {
+      "dataType": "STRING",
+      "key": "currencycode",
+      "name": "Currency Symbol"
+    },
+    {
+      "dataType": "STRING",
+      "key": "subTitle",
+      "name": "Sub Title"
+    },
+    {
+      "name": "Enable Product Button",
+      "key": "enableProductButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "productButtonAction",
+      "name": "Product Button Action",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "name": "Enable Button",
+      "key": "enableButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "name": "Button Text",
+      "key": "buttonText",
+      "dataType": "STRING"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid CommonProductList3 Section",
+  "modelType": "INNER",
+  "created": "2024-01-30T06:33:43.960Z",
+  "modelStatus": "ACTIVE"
+}

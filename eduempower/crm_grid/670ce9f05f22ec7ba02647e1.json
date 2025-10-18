@@ -1,0 +1,26 @@
+{
+  "_id": "670ce9f05f22ec7ba02647e1",
+  "gridTitle": "Change Password (OLD)",
+  "gridType": "table",
+  "crmModelId": "670ce98b5f22ec7ba02647df",
+  "columns": [
+    {
+      "$key": "53x4ewee4ge",
+      "key": "password",
+      "name": "Password",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-14T09:52:48.527Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:01.302Z"
+}

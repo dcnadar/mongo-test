@@ -1,0 +1,185 @@
+{
+  "_id": {
+    "$oid": "65e46e2762e81af0993f8517"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Model Property",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "dataType",
+      "name": "Data Type",
+      "$key": "7cyef2dir97",
+      "data": {
+        "options": [
+          {
+            "$key": "2wtxqt02w4u",
+            "key": "STRING",
+            "value": "String"
+          },
+          {
+            "$key": "4n6v2smx9xo",
+            "key": "INTEGER",
+            "value": "Integer"
+          },
+          {
+            "$key": "isndm5bm44g",
+            "key": "LONG",
+            "value": "Long"
+          },
+          {
+            "$key": "glmwy34c9ps",
+            "key": "DOUBLE",
+            "value": "Double"
+          },
+          {
+            "$key": "nmerj8s6u89",
+            "key": "DATE",
+            "value": "Date"
+          },
+          {
+            "$key": "fdvjd3dbs8e",
+            "key": "BOOLEAN",
+            "value": "Boolean"
+          },
+          {
+            "$key": "xw687hnyibh",
+            "key": "LIST_OF",
+            "value": "List of"
+          },
+          {
+            "$key": "rcmyjo8gfg",
+            "key": "REFERENCE",
+            "value": "Reference"
+          },
+          {
+            "$key": "wg0rp3bho8",
+            "key": "INNER_MODEL",
+            "value": "Object"
+          },
+          {
+            "$key": "nac1pvdbbu",
+            "key": "ANY",
+            "value": "Any"
+          },
+          {
+            "$key": "npvx4u7nwyj",
+            "key": "OBJECT",
+            "value": "JSON"
+          }
+        ]
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "listType",
+      "name": "List Data Type",
+      "$key": "9nu2pcijdul",
+      "data": {
+        "options": [
+          {
+            "$key": "o8ewyrd5fch",
+            "key": "STRING",
+            "value": "String"
+          },
+          {
+            "$key": "i2pggnm2n7a",
+            "key": "INTEGER",
+            "value": "Integer"
+          },
+          {
+            "$key": "op2uw83r1i",
+            "key": "LONG",
+            "value": "Long"
+          },
+          {
+            "$key": "3hi6p4r139k",
+            "key": "DOUBLE",
+            "value": "Double"
+          },
+          {
+            "$key": "lg810mxfvzc",
+            "key": "DATE",
+            "value": "Date"
+          },
+          {
+            "$key": "vzmx99ypfim",
+            "key": "BOOLEAN",
+            "value": "Boolean"
+          },
+          {
+            "$key": "2uvqc0ilkzp",
+            "key": "REFERENCE",
+            "value": "Reference"
+          },
+          {
+            "$key": "q818aw7q46",
+            "key": "INNER_MODEL",
+            "value": "Object"
+          },
+          {
+            "$key": "8yfg7u2dxox",
+            "key": "ANY",
+            "value": "Any"
+          },
+          {
+            "$key": "8nfodlz2ytx",
+            "key": "OBJECT",
+            "value": "JSON"
+          }
+        ]
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "key",
+      "name": "Key",
+      "$key": "3yibslrqahg"
+    },
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name",
+      "$key": "oyonexyrj8"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "data",
+      "name": "Data Setting",
+      "modelId": "65e46e2662e81af0993f8516",
+      "$key": "9zfvzlns54e"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "searchable",
+      "name": "Search Setting",
+      "modelId": "65e45388a092a295233a12d4",
+      "$key": "87fashcbpzv"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "unique",
+      "name": "Unique",
+      "$key": "ujxzcidgam9"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "modelId",
+      "name": "Crm Model ID",
+      "modelId": "65e4e721d796c9ccbd1b408e",
+      "$key": "9uqvgzoxvsa"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709469223025"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152362"
+    }
+  }
+}

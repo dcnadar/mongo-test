@@ -1,0 +1,46 @@
+{
+  "_id": "66827eb63108ad7b7d063eed",
+  "name": "NativeGrid GlobalOmgDealCard section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "bnrs3dijh2h",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7m5pnthmkzo",
+      "key": "icon",
+      "name": "Icon",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fczkq5cyk8",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "17zs67oe426",
+      "key": "mrp",
+      "name": "Mrp",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yimnp750lz",
+      "key": "price",
+      "name": "Price",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "b34acdbm4y",
+      "key": "currencySymbol",
+      "name": "CurrencySymbol",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T10:02:30.653Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

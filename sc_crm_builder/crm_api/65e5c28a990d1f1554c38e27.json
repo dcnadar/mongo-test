@@ -1,0 +1,22 @@
+{
+  "_id": {
+    "$oid": "65e5c28a990d1f1554c38e27"
+  },
+  "name": "Add Entity",
+  "action": "CRM_GRID",
+  "sourceId": "65e5b5d141f4f9dcaa63ac80",
+  "gridType": "form",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "apiType": "GET",
+  "path": "/admin/entity/add",
+  "created": {
+    "$date": {
+      "$numberLong": "1709556362421"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070147463"
+    }
+  }
+}

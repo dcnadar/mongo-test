@@ -1,0 +1,76 @@
+{
+  "_id": "65b8a6d5604dd25ffd93dc05",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-30T07:35:49.730Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Sub Title",
+          "id": "subTitle",
+          "type": "text",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 3,
+          "title": "Currency Symbol",
+          "id": "currencycode",
+          "type": "text",
+          "span": 4,
+          "o": false
+        },
+        {
+          "index": 4,
+          "title": "Price",
+          "id": "price",
+          "type": "text",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 5,
+          "title": "Enable Product Button",
+          "id": "enableButton",
+          "type": "bool",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 6,
+          "title": "Product Button Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 12,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "showCondition": "return this.enableButton;"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b8a6d5604dd25ffd93dc03",
+  "gridTitle": "ReactGrid CommonProductList5 Section"
+}

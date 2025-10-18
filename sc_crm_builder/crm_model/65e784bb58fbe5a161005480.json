@@ -1,0 +1,70 @@
+{
+  "_id": {
+    "$oid": "65e784bb58fbe5a161005480"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid Param",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "key",
+      "name": "Key",
+      "$key": "jroffwzfff"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "required",
+      "name": "Required",
+      "$key": "kguodveeos"
+    },
+    {
+      "dataType": "STRING",
+      "key": "documentKey",
+      "name": "Document Key",
+      "$key": "8d3zfk9fbhw"
+    },
+    {
+      "$key": "x0y4ywlkb3r",
+      "key": "serverValue",
+      "name": "Server value",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "c3r6gm1hrdw",
+            "key": "current_user_id",
+            "value": "Current User ID"
+          },
+          {
+            "$key": "tjvba5sb3m",
+            "key": "fixed_value",
+            "value": "Fixed Value"
+          },
+          {
+            "$key": "cyzxlv6w04s",
+            "key": "filter_value",
+            "value": "Filter Value"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "i8aj4lw656",
+      "key": "value",
+      "name": "Value",
+      "dataType": "STRING"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709671611340"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152585"
+    }
+  }
+}

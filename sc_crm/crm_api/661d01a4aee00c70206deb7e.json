@@ -1,0 +1,15 @@
+{
+  "_id": "661d01a4aee00c70206deb7e",
+  "name": "Update Blog",
+  "path": "/admin/website/blog/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "668390263108ad7b7d063f10",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T10:29:56.619Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": [],
+  "innerGridType": "form",
+  "innerSourceId": "661cd8b2aee00c70206deb69"
+}

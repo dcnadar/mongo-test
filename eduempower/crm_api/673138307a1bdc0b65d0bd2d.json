@@ -1,0 +1,21 @@
+{
+  "_id": "673138307a1bdc0b65d0bd2d",
+  "name": "Confitm Admission",
+  "path": "/admin/admission/confirm",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "673135527a1bdc0b65d0bd27",
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-10T22:48:16.130Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:55.995Z"
+}

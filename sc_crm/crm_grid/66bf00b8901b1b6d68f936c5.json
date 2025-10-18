@@ -1,0 +1,44 @@
+{
+  "_id": "66bf00b8901b1b6d68f936c5",
+  "gridTitle": "Variant Option Color Value",
+  "gridType": "form",
+  "crmModelId": "665c195e7a29a87a0def3d84",
+  "rows": [
+    {
+      "$key": "4mbh1i0xjdf",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Color Name",
+          "type": "text",
+          "span": 12,
+          "$key": "eqe5kvp87xr"
+        },
+        {
+          "$key": "kv6qpuzw118",
+          "id": "value",
+          "title": "Color Value",
+          "type": "color",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-16T07:33:12.813Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

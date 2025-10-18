@@ -1,0 +1,21 @@
+{
+  "_id": "6712774c5f22ec7ba0264875",
+  "name": "Add Staff Documents",
+  "path": "/admin/staff/documents/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "671267805f22ec7ba026485e",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T14:57:16.526Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true,
+      "documentKey": "userId"
+    }
+  ],
+  "updated": "2025-09-08T10:50:52.332Z"
+}

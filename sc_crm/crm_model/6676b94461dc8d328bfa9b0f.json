@@ -1,0 +1,40 @@
+{
+  "_id": "6676b94461dc8d328bfa9b0f",
+  "name": "NativeGrid GlobalThemeProductList4 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ecdtvz86lp6",
+      "name": "Brand",
+      "dataType": "STRING",
+      "key": "brand"
+    },
+    {
+      "$key": "cy7q4tgkpb",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2hqx7yk6wld",
+      "key": "price",
+      "name": "Price",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "owzgcfqoikp",
+      "key": "currencycode",
+      "name": "Currency Code",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7sxqklzon7a",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-22T11:45:08.159Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

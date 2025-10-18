@@ -1,0 +1,51 @@
+{
+  "_id": "65b627b79191e1c37c78831f",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-28T10:08:55.681Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "$key": "bgiw253jppp"
+        },
+        {
+          "$key": "n4cds3r53mo",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "index": 1,
+          "id": "images",
+          "name": "Images",
+          "min": 1,
+          "max": 20,
+          "type": "upload",
+          "span": 12,
+          "o": false,
+          "multiple": true,
+          "countTitle": "No Media Added",
+          "add": true,
+          "delete": true,
+          "$key": "cfwja7si4ir",
+          "title": "Images"
+        }
+      ],
+      "$key": "j4ac00hl2pd"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b627b79191e1c37c78831e",
+  "gridTitle": "ReactGrid GlobalImageRow",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

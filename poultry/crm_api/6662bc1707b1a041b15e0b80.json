@@ -1,0 +1,13 @@
+{
+  "_id": "6662bc1707b1a041b15e0b80",
+  "name": "Edit Self Help Group",
+  "path": "/admin/groups/self-help-group/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6662afc507b1a041b15e0b5c",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:51:51.853Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

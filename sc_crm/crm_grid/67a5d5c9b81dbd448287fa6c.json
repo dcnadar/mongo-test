@@ -1,0 +1,58 @@
+{
+  "_id": "67a5d5c9b81dbd448287fa6c",
+  "gridTitle": "Variant Options",
+  "gridType": "form",
+  "crmModelId": "67a5d320b81dbd448287fa6b",
+  "rows": [
+    {
+      "$key": "3aqssy0nvyd",
+      "fields": [
+        {
+          "$key": "0u6zak6072t",
+          "id": "displayName",
+          "title": "Display Name",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "up3nd3jkob",
+          "id": "valueType",
+          "title": "Value Type",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "fki14ciin86",
+          "id": "variantName",
+          "title": "Variant Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "1y8f142iu3u",
+          "id": "variantValue",
+          "title": "Variant Value",
+          "span": 8,
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-07T09:43:37.189Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

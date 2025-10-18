@@ -1,0 +1,30 @@
+{
+  "_id": "6628e800dd50c90abe7a7db2",
+  "name": "ReactGrid GlobalFAQ4",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "62zxqhp2u2e",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "uu08urxt2q9",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "zi290z0kumb",
+      "key": "questionAnswers",
+      "name": "QuestionAnswers",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6628e3cfdd50c90abe7a7db0"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-24T11:07:44.749Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "6614ee06a10af254b4b43893",
+  "gridTitle": "Branches",
+  "gridType": "form",
+  "crmModelId": "6614ecd6a10af254b4b43892",
+  "rows": [
+    {
+      "$key": "p742wn41nn",
+      "fields": [
+        {
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 12,
+          "$key": "evpibjn3udp"
+        },
+        {
+          "$key": "nfx0e5trx9f",
+          "title": "Address",
+          "id": "address",
+          "span": 12,
+          "type": "textarea"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "y9ouvn4xn9b"
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T07:28:06.855Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/account/branches/all"
+}

@@ -1,0 +1,17 @@
+{
+  "_id": "671277df5f22ec7ba026487a",
+  "name": "Staff History",
+  "path": "/admin/staff/history",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67126c0b5f22ec7ba0264866",
+  "innerGridType": "table",
+  "innerSourceId": "6779367833897d49a1050d5a",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T14:59:43.099Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "updated": "2025-09-08T10:50:52.470Z"
+}

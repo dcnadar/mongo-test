@@ -1,0 +1,72 @@
+{
+  "_id": "6790f8b99b99392f025cdf6d",
+  "gridTitle": "Eduempower Book\t",
+  "gridType": "form",
+  "crmModelId": "6790930d179e036c80a4d934",
+  "rows": [
+    {
+      "$key": "l3uwvtndeae",
+      "fields": [
+        {
+          "$key": "9mzk97eb644",
+          "id": "isbn",
+          "title": "ISBN",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "n4q9x17f0u",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7llep3q4s4p",
+          "id": "subTitle",
+          "title": "Sub Title",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "x5tqc04kbc",
+          "id": "edition",
+          "title": "Edition",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "u9x3xgqvv9",
+          "id": "bookImage",
+          "title": "Book Image",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "1s9kfmk7vny",
+          "id": "bookDetail",
+          "title": "Book Detail",
+          "type": "inner_form",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-22T13:55:05.981Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:03.895Z"
+}

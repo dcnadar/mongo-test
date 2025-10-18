@@ -1,0 +1,162 @@
+{
+  "_id": "68a2e43e54ca9a05d8c97781",
+  "gridTitle": "Interview",
+  "gridType": "table",
+  "crmModelId": "68a2dff154ca9a05d8c9777f",
+  "columns": [
+    {
+      "$key": "1jkc8ipizvy",
+      "key": "studentId",
+      "name": "Student",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "vhlxww0mz3",
+      "key": "roundName",
+      "name": "Round name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "xkrmhoz16f8",
+      "key": "interviewDateAndTime",
+      "name": "Interview Date And Time",
+      "sort": true,
+      "type": "text",
+      "valueCondition": "const data = this || {};  let formattedDateTime = \"\";  if (data.interviewDateAndTime) {    const date = new Date(data.interviewDateAndTime);    const day = String(date.getDate()).padStart(2, \"0\");    const month = date.toLocaleString(\"en-US\", { month: \"short\" });    const year = date.getFullYear();    let hours = date.getHours();    const minutes = String(date.getMinutes()).padStart(2, \"0\");    const ampm = hours >= 12 ? \"pm\" : \"am\";    hours = hours % 12 || 12;    formattedDateTime = `${day} ${month} ${year}, ${hours}:${minutes} ${ampm}`;  }  const htmlString = `<div style=\"width:100%;max-width:600px;margin:0 auto;padding:15px;font-size:14px;color:#333;line-height:1.6;\">${formattedDateTime ? `<div style=\"margin-bottom:8px;\">${formattedDateTime}</div>` : \"\"}</div>`;  return htmlString;"
+    },
+    {
+      "$key": "kn295gst1u",
+      "key": "interviewStatus",
+      "name": "Interview Status",
+      "type": "text",
+      "sort": true,
+      "valueCondition": "const data=this||{},tz=\"Asia/Kolkata\",fmt=iso=>iso?new Date(iso).toLocaleString(\"en-IN\",{timeZone:tz,year:\"numeric\",month:\"short\",day:\"2-digit\",hour:\"2-digit\",minute:\"2-digit\"}):\"\",statusColor=data.interviewStatus===\"ONGOING\"?\"#007bff\":data.interviewStatus===\"COMPLETED\"?\"#28a745\":data.interviewStatus===\"CANCELLED\"?\"#dc3545\":data.interviewStatus===\"SCHEDULED\"?\"#ffc107\":\"#333\",rows=[data.interviewStatus&&`<div style=\"margin-bottom:8px;\"><strong>Status:</strong> <span style=\"color:${statusColor};font-weight:bold;\">${data.interviewStatus}</span></div>`,...(data.interviewStatus===\"ONGOING\"?[data.ongoingDate&&`<div style=\"margin-bottom:8px;\"><strong>Start time:</strong> ${fmt(data.ongoingDate)}</div>`,data.location&&`<div style=\"margin-bottom:8px;\"><strong>Location:</strong> ${data.location}</div>`]:data.interviewStatus===\"COMPLETED\"?[data.ongoingDate&&`<div style=\"margin-bottom:8px;\"><strong>Start time:</strong> ${fmt(data.ongoingDate)}</div>`,(data.completedDate||data.completedTime||data.interviewDateAndTime)&&`<div style=\"margin-bottom:8px;\"><strong>Completed time:</strong> ${fmt(data.completedDate||data.completedTime||data.interviewDateAndTime)}</div>`,data.location&&`<div style=\"margin-bottom:8px;\"><strong>Location:</strong> ${data.location}</div>`,data.feedback&&`<div style=\"margin-bottom:8px;\"><strong>Feedback:</strong> ${data.feedback}</div>`,(data.score||data.score===0)&&`<div style=\"margin-bottom:8px;\"><strong>Score:</strong> ${data.score}</div>`]:data.interviewStatus===\"CANCELLED\"?[data.cancelledDate&&`<div style=\"margin-bottom:8px;\"><strong>Cancelled time:</strong> ${fmt(data.cancelledDate)}</div>`,data.comment&&`<div style=\"margin-bottom:8px;\"><strong>Reason:</strong> ${data.comment}</div>`]:[])],htmlString=rows.length?`<div style=\"width:100%;max-width:600px;margin:0 auto;padding:15px;font-size:14px;color:#333;line-height:1.6;\">${rows.filter(Boolean).join(\"\")}</div>`:\"\";return htmlString;"
+    },
+    {
+      "$key": "6qa1si1sp1v",
+      "key": "studentSelectionStatus",
+      "name": "Student Selection Status",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "7n5tiqh8bat",
+      "key": "interviewerName",
+      "name": "InterVewer",
+      "sort": true,
+      "type": "text",
+      "valueCondition": "const data = this || {};  const htmlString = `   <div style=\"width:100%;max-width:600px;margin:0 auto;padding:15px;font-size:14px;color:#333;line-height:1.6;\">     ${data.interviewerName ? `<div style=\"margin-bottom:8px;\"><strong>Interviewer Name:</strong> ${data.interviewerName}</div>` : \"\"}     ${data.interviewerEmail ? `<div style=\"margin-bottom:8px;\"><strong>Interviewer Email:</strong> ${data.interviewerEmail}</div>` : \"\"}   </div> `;  return htmlString;"
+    },
+    {
+      "$key": "vds8rxlslh9",
+      "key": "actions",
+      "type": "options",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "xashhh3b6f",
+          "gridTitle": "Ongoing",
+          "value": "Set as Ongoing",
+          "apiUrl": "/admin/interview/ongoing?id=:_id _id",
+          "gridType": "popupForm",
+          "apiType": "GET",
+          "showCondition": "return this.interviewStatus === 'SCHEDULED';"
+        },
+        {
+          "$key": "gzjno5it7jl",
+          "gridTitle": "Completed",
+          "value": "Set as Completed",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/interview/completed?id=:_id _id",
+          "apiType": "GET",
+          "showCondition": "return this.interviewStatus === 'SCHEDULED' || this.interviewStatus === 'ONGOING';"
+        },
+        {
+          "$key": "hfyyuud3trd",
+          "gridTitle": "Cancel",
+          "value": "Cancel",
+          "gridMsg": "Are You Sure Want To Cancel ?",
+          "apiUrl": "/api/io/admin/interview/cancel?id=:_id _id",
+          "apiType": "GET",
+          "gridType": "confirm",
+          "showGridComment": true,
+          "showCondition": "return this.interviewStatus === 'SCHEDULED' || this.interviewStatus === 'ONGOING';"
+        },
+        {
+          "$key": "f2dxpe0xnlq",
+          "gridTitle": "Reschedule",
+          "value": "Reschedule",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/interview/reschedule?id=:_id _id",
+          "apiType": "GET",
+          "showCondition": "return this.interviewStatus === 'SCHEDULED' || this.interviewStatus === 'ONGOING';"
+        },
+        {
+          "$key": "5q3knuk90ro",
+          "gridTitle": "Edit Inverview",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/interview/edit?id=:_id _id",
+          "showCondition": "return this.interviewStatus === 'SCHEDULED';"
+        },
+        {
+          "$key": "tjy8xbnjky",
+          "gridTitle": "Student selection",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/interview/selection?id=:_id _id",
+          "value": "Selection",
+          "showCondition": "return this.interviewStatus === 'COMPLETED';"
+        },
+        {
+          "$key": "jdwcomzacml",
+          "gridTitle": "Download offer letter",
+          "gridType": "private_download",
+          "showGridComment": false,
+          "apiUrl": "/api/admin/offer-letter/generate?interviewId=:_id _id",
+          "value": "Download",
+          "showCondition": "return this.interviewStatus === 'COMPLETED' && this.studentSelectionStatus === 'SELECTED';",
+          "responseType": "pdf",
+          "gridMsg": "Download offer letter?"
+        }
+      ],
+      "width": 50,
+      "name": "↓"
+    }
+  ],
+  "actions": [
+    {
+      "$key": "6go84h9xywv",
+      "gridTitle": "Add Interview",
+      "value": "Add Interview",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/interview/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "interviewerEmail",
+    "feedback",
+    "score",
+    "location",
+    "ongoingDate",
+    "completedDate",
+    "cancelledDate",
+    "comment"
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-18T08:28:46.241Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "driveId",
+      "required": true,
+      "documentKey": "placementDrive"
+    }
+  ],
+  "updated": "2025-09-05T11:02:53.110Z"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "6662afc507b1a041b15e0b5c",
+  "gridTitle": "Self Help Group",
+  "gridType": "form",
+  "crmModelId": "6662acf307b1a041b15e0b57",
+  "rows": [
+    {
+      "$key": "woehrj2hksa",
+      "fields": [
+        {
+          "id": "shgName",
+          "title": "Name",
+          "type": "text",
+          "span": 12,
+          "$key": "h4i14lx3c4q",
+          "meta": {
+            "horizontal": false
+          }
+        },
+        {
+          "$key": "ygjbyhbtui",
+          "id": "shgCode",
+          "title": "SHG code",
+          "type": "text",
+          "span": 12,
+          "updateType": "disabled"
+        },
+        {
+          "$key": "barng31n0wh",
+          "id": "dateOfEstablishment",
+          "title": "Date of Establishment",
+          "type": "date",
+          "span": 8,
+          "updateType": "disabled"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T06:59:17.778Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/setup/self-help-group/all",
+  "upsertDoc": false
+}

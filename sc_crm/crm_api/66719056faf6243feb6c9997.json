@@ -1,0 +1,15 @@
+{
+  "_id": "66719056faf6243feb6c9997",
+  "name": "Screen Section Groups",
+  "path": "/admin/mobileapp/settings/section-group",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "667174effaf6243feb6c9987",
+  "innerGridType": "table",
+  "innerSourceId": "66718d47faf6243feb6c9993",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T13:49:10.375Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

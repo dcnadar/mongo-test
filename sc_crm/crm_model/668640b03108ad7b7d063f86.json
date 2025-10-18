@@ -1,0 +1,38 @@
+{
+  "_id": "668640b03108ad7b7d063f86",
+  "name": "NativeGrid GlobalBlogSection1",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "x66en5qjg5s",
+      "key": "header",
+      "name": "Header",
+      "dataType": "INNER_MODEL",
+      "modelId": "66825e813108ad7b7d063ee3"
+    },
+    {
+      "$key": "udq278pkqeo",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "668647b43108ad7b7d063f89"
+    },
+    {
+      "$key": "0vsd38ob51al",
+      "key": "showDynamicContent",
+      "name": "Show Dynamic Content",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "t1mzhsixn8s",
+      "key": "dynamicContentFilter",
+      "name": "Dynamic Content Filters",
+      "dataType": "INNER_MODEL",
+      "modelId": "66222ca07d57294ed27050fa"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-04T06:26:56.056Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

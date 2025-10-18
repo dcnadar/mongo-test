@@ -1,0 +1,52 @@
+{
+  "_id": "65b8ae034ca452699ea3192d",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-30T08:06:27.064Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 5,
+          "title": "Enable Click",
+          "id": "enableButton",
+          "type": "bool",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 6,
+          "title": "Click Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 12,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "showCondition": "return this.enableButton;"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b8ae024ca452699ea3192b",
+  "gridTitle": "ReactGrid GlobalCategoryImageCards Section"
+}

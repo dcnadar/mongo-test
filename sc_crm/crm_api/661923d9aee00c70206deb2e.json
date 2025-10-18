@@ -1,0 +1,15 @@
+{
+  "_id": "661923d9aee00c70206deb2e",
+  "name": "All Cart Items",
+  "path": "/admin/customer/cart_items/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "661913d3aee00c70206deb2b",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T12:06:49.593Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": [],
+  "innerGridType": "table",
+  "innerSourceId": "661906b0aee00c70206deb29"
+}

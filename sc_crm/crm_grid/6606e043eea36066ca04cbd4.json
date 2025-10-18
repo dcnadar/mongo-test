@@ -1,0 +1,74 @@
+{
+  "_id": "6606e043eea36066ca04cbd4",
+  "gridTitle": "ReactGrid GlobalTestimonial",
+  "gridType": "form",
+  "crmModelId": "6606d37ceea36066ca04cbd3",
+  "rows": [
+    {
+      "$key": "zafq2sa8xm",
+      "fields": [
+        {
+          "$key": "hw94upqaduh",
+          "id": "svg",
+          "title": "TitleSvg",
+          "type": "text",
+          "span": 16
+        },
+        {
+          "$key": "cj370wgp12c",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "zxiz95tmybe",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "e4gips51ajd",
+          "id": "userThumb",
+          "title": "UserThumb",
+          "type": "upload",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "c556p3ml8tr",
+          "id": "name",
+          "title": "UserName",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "wmlnttpfku",
+          "id": "designation",
+          "title": "UserDesignation",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "wfgwyqj9ih"
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-29T15:37:39.972Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

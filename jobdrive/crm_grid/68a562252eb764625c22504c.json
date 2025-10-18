@@ -1,0 +1,28 @@
+{
+  "_id": "68a562252eb764625c22504c",
+  "gridTitle": "Interview Ongoing",
+  "gridType": "form",
+  "crmModelId": "68a2dff154ca9a05d8c9777f",
+  "rows": [
+    {
+      "$key": "iyiwll4y1d",
+      "fields": [
+        {
+          "id": "location",
+          "title": "Location",
+          "type": "text",
+          "span": 24,
+          "$key": "tvoo3d4nd9"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-20T05:50:29.761Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "postUrl": "/api/io/admin/interview/ongoing",
+  "gridParams": [],
+  "updated": "2025-09-05T11:02:53.196Z"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "6611295123b39252de459b16",
+  "name": "All Class",
+  "path": "/admin/schoolsetup/class-section/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66124a0ba10af254b4b437e8",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T10:52:01.496Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "innerGridType": "table",
+  "innerSourceId": "660d6284c7b99128d924f759",
+  "updated": "2025-09-08T10:50:45.080Z"
+}

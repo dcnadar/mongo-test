@@ -1,0 +1,21 @@
+{
+  "_id": "66130cc3a10af254b4b4383d",
+  "name": "All Enquiries",
+  "path": "/admin/contacts/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66130c5ca10af254b4b4383b",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T21:14:43.530Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "ecomApiMappings": [
+    {
+      "$key": "o47ivty1y2m",
+      "ecomAccountId": "65bf9e2ec0fccc07b5d23381",
+      "action": "CRM_GRID",
+      "gridType": "table",
+      "sourceId": "6624c324c9fe887cdf0ebd37"
+    }
+  ]
+}

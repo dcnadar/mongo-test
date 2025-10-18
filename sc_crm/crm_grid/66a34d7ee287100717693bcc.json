@@ -1,0 +1,79 @@
+{
+  "_id": "66a34d7ee287100717693bcc",
+  "gridTitle": "Order Settings",
+  "gridType": "form",
+  "crmModelId": "661679a02742031ccaab99cf",
+  "rows": [
+    {
+      "$key": "54hcs2iq2z",
+      "fields": [
+        {
+          "id": "orderSetting.orderNumberSetting",
+          "title": "Order Number",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "hideCollapse": true
+          },
+          "span": 24,
+          "$key": "bd04rc3mibc"
+        }
+      ],
+      "label": "Order Setting",
+      "span": 24,
+      "showDescription": true,
+      "description": "#### Order Number Prefix\n\n* A text string placed at the beginning of an order number to help create a unique identifier.\n* Enter a concise text string (e.g., **ORD** or **2023-ORD**).\n* Use alphanumeric characters along with hyphens or underscores if needed.\n\n#### Order Current Number\n\n* The sequential numeric value that represents the current order count.\n* Enter a numeric value (e.g., **5**, **12**, **1000**).\n* Use only digits; **avoid** use zero **(0)** starting of the SKU Current Number. (e.g., **0005**, **0012**)\n\n#### Order Number Postfix\n\n* A text string appended at the end of the order number for additional differentiation.\n* Enter a short text string (e.g., **US** or **A**).\n* Keep it simple and avoid unnecessary special characters.",
+      "descriptionSpan": 16
+    },
+    {
+      "$key": "9b8ey8k4daw",
+      "fields": [
+        {
+          "id": "orderSetting.transactionNumberSetting",
+          "title": "Transaction Number",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": true,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "xad99fwd0la"
+        }
+      ],
+      "label": "Transaction Setting",
+      "span": 24,
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "description": "#### Transaction Number Prefix\n\n* A text string placed at the beginning of a transaction number to help distinguish it.\n* Enter a concise alphanumeric string (e.g., **TXN**).\n* Use hyphens or underscores as separators if needed.\n\n#### Transaction Current Number\n\n* The sequential numeric value that represents the current transaction count.\n* Enter a numeric value (e.g., **5**, **12**, **5000**).\n* Use only digits; **avoid** use zero **(0)** starting of the SKU Current Number. (e.g., **0005**, **0012**)\n\n#### Transaction Number Postfix\n\n* A text string appended to the transaction number for further identification.\n* Enter a short text string (e.g., **NY** or **B**)\n* Keep it simple and free of extraneous special characters."
+    },
+    {
+      "$key": "ejmt3y5dqh",
+      "fields": [
+        {
+          "id": "orderSetting.shipmentNumberSetting",
+          "title": "Shipment Number Setting",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": true,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "yz4f8ft0i0d"
+        }
+      ],
+      "label": "Shipment Setting",
+      "span": 24,
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "description": "#### Shipment Number Prefix\n\n* A text string placed at the beginning of the shipment number to create a distinct identifier.\n* Enter a concise text string (e.g., **SHP**).\n* Use hyphens or underscores as separators if needed.\n\n#### Shipment Current Number\n\n* The numeric component that represents the current count of shipments.\n* Enter a numeric value (e.g., **5**, **12** **3000**)\n* Use only digits; **avoid** use zero **(0)** starting of the SKU Current Number. (e.g., **0005**, **0012**)\n\n#### Shipment Number Postfix\n\n* A text string appended to the shipment number for additional identification.\n* Enter a short text string (e.g., **EXP** or **IN**).\n* Avoid spaces and unsupported special characters."
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T07:17:18.280Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "upsertDoc": false
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "689d8d7e4b0c9f85deb37d56",
+  "gridTitle": "AssessmentBasicInformation",
+  "gridType": "form",
+  "crmModelId": "689d8cac4b0c9f85deb37d55",
+  "rows": [
+    {
+      "$key": "5h7cqyfpmi",
+      "fields": [
+        {
+          "id": "assessmenttitle",
+          "title": "Assessment Title",
+          "type": "text",
+          "span": 18,
+          "$key": "6fxh9hb14uu"
+        },
+        {
+          "$key": "golpnxz42f9",
+          "id": "assessmenttype",
+          "title": "Assessment Type",
+          "type": "list",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "pie624nq8z",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "g1f2sfmix6b",
+          "id": "instructions",
+          "title": "instructions (Ontional)",
+          "span": 24,
+          "type": "textarea",
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T07:17:18.195Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.606Z"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "660aa23fc7b99128d924f6b3",
+  "name": "ReactGrid GlobalTestimonial7",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "getpnr6psg",
+      "key": "headingTitle",
+      "name": "HeadingTitle",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rnur3a6w7fb",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xn12gy8g7g8",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "660aa187c7b99128d924f6b2"
+    },
+    {
+      "$key": "j0x4avdki88",
+      "key": "button",
+      "name": "Button",
+      "dataType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-01T12:02:07.548Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

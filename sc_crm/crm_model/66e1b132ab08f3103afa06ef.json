@@ -1,0 +1,122 @@
+{
+  "_id": "66e1b132ab08f3103afa06ef",
+  "name": "Product Return Policy",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "product_return_policy",
+  "properties": [
+    {
+      "$key": "tustjap7qy9",
+      "key": "policyName",
+      "name": "Policy Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "jo721kbhzf",
+      "key": "returnWindowDays",
+      "name": "Return Window Days",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "jxve5qnyxk7",
+      "key": "eligibleReturnConditions",
+      "name": "Eligible Return Conditions",
+      "dataType": "LIST_OF",
+      "data": {
+        "options": [
+          {
+            "$key": "6krm9ywr3ap",
+            "key": "UNUSED",
+            "value": "Unused"
+          },
+          {
+            "$key": "e2rtj1ryfvq",
+            "key": "UNDAMAGED",
+            "value": "Undamaged"
+          },
+          {
+            "$key": "71mf7ztuu6",
+            "key": "ORIGINAL_PACKAGING",
+            "value": "Original Packaging"
+          }
+        ]
+      },
+      "listType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "82d5onunmll",
+      "key": "requiresProofOfPurchase",
+      "name": "Requires Proof of Purchase",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "xb5f3ndf6r",
+      "key": "returnShippingResponsibility",
+      "name": "Return Shipping Responsibility",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "6mugmf9f2vg",
+            "key": "CUSTOMER",
+            "value": "Customer"
+          },
+          {
+            "$key": "i8lywoz9oka",
+            "key": "COMPANY",
+            "value": "Company"
+          }
+        ]
+      },
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "ycgyessphb",
+      "key": "refundMethod",
+      "name": "Refund Method",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "iqfl9smff4c",
+            "key": "RETURN_TO_ORIGINAL_SOURCE",
+            "value": "Return to Original Source"
+          },
+          {
+            "$key": "ogggdxg5g4j",
+            "key": "ASK_CUSTOMER",
+            "value": "Ask Customer"
+          }
+        ]
+      },
+      "searchable": {
+        "description": false
+      }
+    },
+    {
+      "$key": "2me9e0u7u62",
+      "key": "refundProcessingDays",
+      "name": "Refund Processing Days",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "9zteharwzd",
+      "key": "allowExchanges",
+      "name": "Allow Exchanges",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:03:14.778Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

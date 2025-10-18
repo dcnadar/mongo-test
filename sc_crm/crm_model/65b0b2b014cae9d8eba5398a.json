@@ -1,0 +1,31 @@
+{
+  "_id": "65b0b2b014cae9d8eba5398a",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "buttonText",
+      "name": "Button Text"
+    },
+    {
+      "dataType": "STRING",
+      "key": "icon",
+      "name": "Icon"
+    },
+    {
+      "name": "Enable Button",
+      "key": "enableButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalCommon Button",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-24T06:48:16.575Z"
+}

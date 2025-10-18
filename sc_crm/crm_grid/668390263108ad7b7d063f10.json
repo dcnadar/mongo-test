@@ -1,0 +1,49 @@
+{
+  "_id": "668390263108ad7b7d063f10",
+  "gridTitle": "Blog Menu",
+  "gridType": "menu",
+  "crmModelId": "661cd412aee00c70206deb66",
+  "menuItems": [
+    {
+      "$key": "umbdnlz3tgb",
+      "key": "content",
+      "value": "Content",
+      "slug": "/admin/website/blog/content/edit",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"currentColor\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <title>content / 21 - content, download, save, archive, box, documents, office icon</title> <g id=\"Free-Icons\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <g transform=\"translate(-451.000000, -304.000000)\" id=\"Group\" stroke=\"currentColor\" stroke-width=\"2\"> <g transform=\"translate(449.000000, 302.000000)\" id=\"Shape\"> <path d=\"M9.00087234,13.5 L12.0008723,11 L15.0008723,13.5 M12.0008723,11.0017447 L12.0008723,16.9991277\" transform=\"translate(12.000872, 13.999564) rotate(-180.000000) translate(-12.000872, -13.999564) \"> </path> <path d=\"M3,7 L21,7 L21,19.25 C21,20.2164983 20.2324881,21 19.2857143,21 L4.71428571,21 C3.76751186,21 3,20.2164983 3,19.25 L3,7 Z\"> </path> <path d=\"M3,7 L5.7,3.4 C5.88885438,3.14819416 6.1852427,3 6.5,3 L17.5,3 C17.8147573,3 18.1111456,3.14819416 18.3,3.4 L21,7 L3,7 Z\"> </path> </g> </g> </g> </g></svg>"
+    },
+    {
+      "$key": "cttu1ng75lp",
+      "key": "comments",
+      "value": "Comments",
+      "slug": "/admin/website/blog/comments/all",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 32 32\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:sketch=\"http://www.bohemiancoding.com/sketch/ns\" fill=\"currentColor\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <title>comment 3</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" sketch:type=\"MSPage\"> <g id=\"Icon-Set-Filled\" sketch:type=\"MSLayerGroup\" transform=\"translate(-207.000000, -257.000000)\" fill=\"currentColor\"> <path d=\"M231,273 C229.896,273 229,272.104 229,271 C229,269.896 229.896,269 231,269 C232.104,269 233,269.896 233,271 C233,272.104 232.104,273 231,273 L231,273 Z M223,273 C221.896,273 221,272.104 221,271 C221,269.896 221.896,269 223,269 C224.104,269 225,269.896 225,271 C225,272.104 224.104,273 223,273 L223,273 Z M215,273 C213.896,273 213,272.104 213,271 C213,269.896 213.896,269 215,269 C216.104,269 217,269.896 217,271 C217,272.104 216.104,273 215,273 L215,273 Z M223,257 C214.164,257 207,263.269 207,271 C207,275.419 209.345,279.354 213,281.919 L213,289 L220.009,284.747 C220.979,284.907 221.977,285 223,285 C231.836,285 239,278.732 239,271 C239,263.269 231.836,257 223,257 L223,257 Z\" id=\"comment-3\" sketch:type=\"MSShapeGroup\"> </path> </g> </g> </g></svg>"
+    },
+    {
+      "$key": "kjivlhcsq8",
+      "key": "reaction",
+      "value": "Reaction",
+      "slug": "/admin/website/blog/reaction/all",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 -0.5 21 21\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"currentColor\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <title>like [#1385]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> <g id=\"Dribbble-Light-Preview\" transform=\"translate(-259.000000, -760.000000)\" fill=\"currentColor\"> <g id=\"icons\" transform=\"translate(56.000000, 160.000000)\"> <path d=\"M203,620 L207.200006,620 L207.200006,608 L203,608 L203,620 Z M223.924431,611.355 L222.100579,617.89 C221.799228,619.131 220.638976,620 219.302324,620 L209.300009,620 L209.300009,608.021 L211.104962,601.825 C211.274012,600.775 212.223214,600 213.339366,600 C214.587817,600 215.600019,600.964 215.600019,602.153 L215.600019,608 L221.126177,608 C222.97313,608 224.340232,609.641 223.924431,611.355 L223.924431,611.355 Z\" id=\"like-[#1385]\"> </path> </g> </g> </g> </g></svg>"
+    },
+    {
+      "$key": "fm6yotyxucn",
+      "key": "setting",
+      "slug": "/admin/website/blog/update",
+      "value": "Setting",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <g id=\"style=fill\"> <g id=\"setting\"> <path id=\"Subtract\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10.8946 3.00654C10.2226 1.87704 8.75191 1.45656 7.59248 2.14193L5.86749 3.12906C4.59518 3.85639 4.16378 5.48726 4.8906 6.74522L4.89112 6.74611C5.26606 7.39298 5.20721 7.8062 5.09018 8.00929C4.97308 8.21249 4.64521 8.47001 3.9 8.47001C2.43322 8.47001 1.25 9.66837 1.25 11.12V12.88C1.25 14.3317 2.43322 15.53 3.9 15.53C4.64521 15.53 4.97308 15.7875 5.09018 15.9907C5.20721 16.1938 5.26606 16.607 4.89112 17.2539L4.8906 17.2548C4.16378 18.5128 4.59558 20.1439 5.8679 20.8712L7.59257 21.8581C8.75199 22.5434 10.2226 22.123 10.8946 20.9935L11.0091 20.7958C11.3841 20.1489 11.773 19.9925 12.0087 19.9925C12.2434 19.9925 12.6293 20.1476 12.9993 20.793L13.0009 20.7958L13.1109 20.9858L13.1154 20.9935C13.7874 22.123 15.258 22.5434 16.4174 21.8581L18.1425 20.871C19.4157 20.1431 19.8444 18.5235 19.1212 17.2579L19.1189 17.2539C18.7439 16.607 18.8028 16.1938 18.9198 15.9907C19.0369 15.7875 19.3648 15.53 20.11 15.53C21.5768 15.53 22.76 14.3317 22.76 12.88V11.12C22.76 9.65323 21.5616 8.47001 20.11 8.47001C19.3648 8.47001 19.0369 8.21249 18.9198 8.00929C18.8028 7.8062 18.7439 7.39298 19.1189 6.74611L19.1194 6.74522C19.8463 5.48713 19.4147 3.85604 18.1421 3.12883L16.4175 2.14193C15.2581 1.45656 13.7874 1.877 13.1154 3.00651L13.0009 3.20423C12.6259 3.85115 12.237 4.00751 12.0012 4.00751C11.7666 4.00751 11.3807 3.85247 11.0107 3.20701L11.0091 3.20423L10.8991 3.01421L10.8946 3.00654ZM15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z\" fill=\"currentColor\"></path> </g> </g> </g></svg>"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T05:29:10.221Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/website/blog/all",
+  "thumb": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/thumb/2024/6/2/upload_xbhjz9hxkcd-1719898388583.png",
+  "title": "Blog Menu",
+  "gridParams": [
+    {
+      "key": "blogId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ]
+}

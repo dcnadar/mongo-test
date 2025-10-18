@@ -1,0 +1,14 @@
+{
+  "_id": "67332df702f79267ffc56563",
+  "key": "admission.list",
+  "name": "Enquiry List",
+  "apisAccess": [
+    "6719097c5f22ec7ba026496c",
+    "671909875f22ec7ba026496d"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T10:29:11.257Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.231Z"
+}

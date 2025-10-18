@@ -1,0 +1,68 @@
+{
+  "_id": "6662b1c107b1a041b15e0b5f",
+  "gridTitle": "Block",
+  "gridType": "table",
+  "crmModelId": "6662ac4007b1a041b15e0b55",
+  "columns": [
+    {
+      "$key": "mf5au992waa",
+      "key": "blockName",
+      "name": "Name",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "fxwyfd1jj2s",
+      "key": "districtId",
+      "name": "District",
+      "type": "card",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "wh4ybsk4gyp",
+      "key": "stateId",
+      "name": "State",
+      "type": "card",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "4oyv3a4yo1g",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "h6tbqbj2xik",
+          "gridTitle": "Edit Block",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/location/block/edit?id=:_id _id",
+          "type": "icon_button"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "xj541zopkx",
+      "gridTitle": "Add Block",
+      "value": "Add Block",
+      "type": "icon_button",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/location/block/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:07:45.399Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

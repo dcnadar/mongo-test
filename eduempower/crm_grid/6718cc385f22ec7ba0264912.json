@@ -1,0 +1,201 @@
+{
+  "_id": "6718cc385f22ec7ba0264912",
+  "gridTitle": "Eduempower Apply Leave",
+  "gridType": "form",
+  "crmModelId": "660fe1f2c7b99128d924f77f",
+  "rows": [
+    {
+      "$key": "1oz2h858ddn",
+      "fields": [
+        {
+          "$key": "ediwgt6fjww",
+          "id": "leaveType",
+          "title": "Leave Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "onChangeCondition": [
+            {
+              "$key": "krlshmqzib",
+              "key": "leavesTaken",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/leave/apply-leave/leave-taken?leaveType=:leaveType leaveType"
+            }
+          ],
+          "meta": {
+            "queryParams": "status=ACTIVE"
+          }
+        },
+        {
+          "$key": "m4k05z5owss",
+          "id": "leaveSession",
+          "title": "Leave Session",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "onChangeCondition": [
+            {
+              "$key": "suayno37c8",
+              "key": "noOfLeaves",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/leave/apply-leave/noOfLeaves?leaveSession=:leaveSession&applyLeaveFrom=:applyLeaveFrom&applyLeaveTo=:applyLeaveTo leaveSession applyLeaveFrom applyLeaveTo"
+            },
+            {
+              "$key": "pr66u15vil",
+              "key": "leavesBalance",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/leave/apply-leave/leave-balance?leaveType=:leaveType&applyLeaveTo=:applyLeaveTo applyLeaveTo leaveType"
+            }
+          ]
+        },
+        {
+          "$key": "e98etgf2g7",
+          "id": "applyLeaveFrom",
+          "title": "From",
+          "type": "date",
+          "span": 8,
+          "onChangeCondition": [
+            {
+              "$key": "b47cmkiy4y",
+              "key": "noOfLeaves",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/leave/apply-leave/noOfLeaves?leaveSession=:leaveSession&applyLeaveFrom=:applyLeaveFrom&applyLeaveTo=:applyLeaveTo leaveSession applyLeaveFrom applyLeaveTo"
+            },
+            {
+              "$key": "yw89loh4jgn",
+              "key": "leavesBalance",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/leave/apply-leave/leave-balance?leaveType=:leaveType&applyLeaveTo=:applyLeaveTo applyLeaveTo leaveType"
+            }
+          ],
+          "format": "YYYY/MM/DD"
+        },
+        {
+          "$key": "y44cgx2jrlc",
+          "id": "applyLeaveTo",
+          "title": "To",
+          "span": 8,
+          "type": "date",
+          "onChangeCondition": [
+            {
+              "$key": "0g4395qr8fdq",
+              "key": "noOfLeaves",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/leave/apply-leave/noOfLeaves?leaveSession=:leaveSession&applyLeaveFrom=:applyLeaveFrom&applyLeaveTo=:applyLeaveTo leaveSession applyLeaveFrom applyLeaveTo"
+            },
+            {
+              "$key": "y9rvyoguqa9",
+              "key": "leavesBalance",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/leave/apply-leave/leave-balance?leaveType=:leaveType&applyLeaveTo=:applyLeaveTo applyLeaveTo leaveType"
+            }
+          ],
+          "format": "YYYY/MM/DD"
+        },
+        {
+          "$key": "kvxk67a8nqg",
+          "id": "noOfLeaves",
+          "title": "No. of Leaves",
+          "span": 8,
+          "type": "number",
+          "min": 0,
+          "disableCondition": "return true;",
+          "o": true
+        },
+        {
+          "$key": "vaapja1yn4",
+          "id": "leavesTaken",
+          "title": "Leaves Taken",
+          "span": 8,
+          "type": "number",
+          "min": 0,
+          "disableCondition": "return true;",
+          "o": true
+        },
+        {
+          "$key": "ms81hz0syai",
+          "id": "leavesBalance",
+          "title": "Leaves Balance",
+          "type": "number",
+          "min": 0,
+          "span": 8,
+          "disableCondition": "return true;",
+          "o": true
+        },
+        {
+          "$key": "b6f44b0eevd",
+          "id": "reason",
+          "title": "Reason",
+          "span": 24,
+          "type": "textarea"
+        },
+        {
+          "$key": "xq4sakc1o2o",
+          "id": "leaveStatus",
+          "title": "Status",
+          "type": "text",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "PENDING"
+        },
+        {
+          "$key": "kg5zgt39yi",
+          "id": "document",
+          "title": "Document",
+          "span": 8,
+          "type": "upload",
+          "multiple": false,
+          "o": true,
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "svdaduasxtj",
+          "id": "userId",
+          "title": "User",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:13:12.250Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "userId",
+      "required": true,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "updated": "2025-09-08T10:51:02.059Z"
+}

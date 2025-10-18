@@ -1,0 +1,31 @@
+{
+  "_id": "67a73028b81dbd448287fa6e",
+  "name": "ReactGrid GlobalBrand2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "kla38yf2isq",
+      "key": "title",
+      "name": "title",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "q8jc5y9uo1",
+      "key": "description",
+      "name": "Description",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bywsru84vfw",
+      "key": "images",
+      "name": "Images",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-08T10:21:28.296Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

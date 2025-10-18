@@ -1,0 +1,45 @@
+{
+  "_id": "65f818e9bd35a916175a5843",
+  "gridTitle": "ReactGrid GlobalHeaderSection2 Section",
+  "gridType": "form",
+  "crmModelId": "65f81774bd35a916175a583d",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 16
+        },
+        {
+          "id": "svg",
+          "title": "SVG Code",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-18T10:35:21.546Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

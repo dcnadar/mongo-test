@@ -1,0 +1,25 @@
+{
+  "_id": "67ce98ee8662d46110c06175",
+  "name": "Student Primay Address(OLD)",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "r1x88pn6x0r",
+      "key": "primaryContact",
+      "name": "primaryContact",
+      "dataType": "INNER_MODEL",
+      "modelId": "671923b95f22ec7ba0264976"
+    },
+    {
+      "$key": "8wzux1c38rd",
+      "key": "primaryContact",
+      "name": "Present Address",
+      "dataType": "INNER_MODEL",
+      "modelId": "660ac9ccc7b99128d924f6c1"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-10T07:46:54.350Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.553Z"
+}

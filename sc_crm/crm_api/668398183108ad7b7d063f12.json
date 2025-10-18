@@ -1,0 +1,19 @@
+{
+  "_id": "668398183108ad7b7d063f12",
+  "name": "All Blog Comment",
+  "path": "/admin/public/website/blog/comments/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66838cff3108ad7b7d063f09",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T06:03:04.587Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "blogId",
+      "required": true
+    }
+  ]
+}

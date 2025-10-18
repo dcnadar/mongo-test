@@ -1,0 +1,24 @@
+{
+  "_id": "688b3e0b049b509a8e8b88ce",
+  "email": "adminuser123@gmail.com",
+  "logo": "http://localhost:8080/api/public/downloadFile/image-1612274608057.png",
+  "mobileNumber": "9876543210",
+  "landlineNumber": "1234567",
+  "gender": "MALE",
+  "roleId": "admin",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2024-03-02T14:05:44.964Z",
+  "password": "Sr7qO8CwslI5Hv/x9CDcdB5uIoNB5hicxNXtjdb/FuI=",
+  "callingCode": "+91",
+  "userName": "adminuser123@gmail.com",
+  "appId": "65e255c8efb82357eb86d51b",
+  "ecomAccountId": "65e2539fefb82357eb86d514",
+  "firstName": "Admin",
+  "lastName": "user",
+  "crmLastFilter": {
+    "accountId": "68a8b29f40acae1bdca49209"
+  },
+  "admin": true,
+  "userType": "STAFF"
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "667bf1b474a25c4c696adb17",
+  "name": "NativeGrid GlobalCommonProductList4 User\t",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "kffaxgwv5om",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-26T10:47:16.583Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

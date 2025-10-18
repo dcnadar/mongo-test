@@ -1,0 +1,21 @@
+{
+  "_id": "67ad7aa4570d4c4a2423d4d0",
+  "gridTitle": "Eduempower Leave Setup Menu",
+  "gridType": "menu",
+  "menuItems": [
+    {
+      "$key": "1gaiy4h13oy",
+      "key": "leave-type",
+      "value": "Leave Types",
+      "slug": "/admin/school-setup/leave-settings/leave-type/all",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15.6666 8L17.75 10.5L15.6666 8Z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15.6666 13L17.75 10.5L15.6666 13Z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path d=\"M16.5 10.5L10 10.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path> <line x1=\"4\" y1=\"3.5\" x2=\"13\" y2=\"3.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></line> <line x1=\"4\" y1=\"17.5\" x2=\"13\" y2=\"17.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></line> <path d=\"M13 3.5V7.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path> <path d=\"M13 13.5V17.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path> <path d=\"M4 3.5L4 17.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path> </g></svg>",
+      "subMenu": []
+    }
+  ],
+  "thumb": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/65e8cdff97f0eca7ba094627/thumb/2025/1/13/file_y1f8dfcjbd-1739429978988.png",
+  "title": "Leave Setup",
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T04:52:52.444Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "description": "This leave setup is for the current academic session"
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "67c139a191597b1039f21173",
+  "name": "Image Bulk upload",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "qlvyq24e98d",
+      "key": "images",
+      "name": "Images",
+      "dataType": "INNER_MODEL",
+      "modelId": "67befecc91597b1039f21171"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-02-28T04:20:49.630Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.314Z"
+}

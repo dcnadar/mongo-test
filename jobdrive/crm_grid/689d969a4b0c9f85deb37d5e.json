@@ -1,0 +1,47 @@
+{
+  "_id": "689d969a4b0c9f85deb37d5e",
+  "gridTitle": "AssessmentSchedule",
+  "gridType": "form",
+  "crmModelId": "689d95d84b0c9f85deb37d5d",
+  "rows": [
+    {
+      "$key": "8nl342h58jl",
+      "fields": [
+        {
+          "id": "startdate",
+          "title": "Start Date",
+          "type": "date",
+          "span": 12,
+          "$key": "fimufwcx2u"
+        },
+        {
+          "$key": "0yvm3keeuag",
+          "id": "enddate",
+          "title": "End Date",
+          "span": 12,
+          "type": "date"
+        },
+        {
+          "$key": "hki6zkh9rqq",
+          "id": "starttime",
+          "title": "Start Time",
+          "span": 12,
+          "type": "time"
+        },
+        {
+          "$key": "kbpg56a8zt",
+          "id": "endtime",
+          "title": "End Time",
+          "type": "time",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T07:56:10.084Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.747Z"
+}

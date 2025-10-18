@@ -1,0 +1,61 @@
+{
+  "_id": "66cec9907954ad1d98836e7d",
+  "name": "ReactGrid GlobalHeader3",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "7vru8lfmtg",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "x43v4fo5zg9",
+      "key": "section1",
+      "name": "Section1",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66cece067954ad1d98836e8b"
+    },
+    {
+      "$key": "watbn3fmxn",
+      "key": "section2",
+      "name": "Section2",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66cecfd87954ad1d98836ea7"
+    },
+    {
+      "$key": "p3s6tu3ic8q",
+      "key": "mainMenu",
+      "name": "MainMenu",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66ced0747954ad1d98836ead"
+    },
+    {
+      "$key": "4ea5ikyl4ug",
+      "key": "login",
+      "name": "Login",
+      "dataType": "INNER_MODEL",
+      "modelId": "66d83bb122d6741286d071cf"
+    },
+    {
+      "$key": "7wwi5dg8oma",
+      "key": "reset",
+      "name": "Reset",
+      "dataType": "INNER_MODEL",
+      "modelId": "66d940eb20ea9a402cc8a3a5"
+    },
+    {
+      "$key": "0zk9pqxbmt",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "INNER_MODEL",
+      "modelId": "66e28d33ab08f3103afa0717"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-28T06:54:08.008Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

@@ -1,0 +1,131 @@
+{
+  "_id": "6718c85c5f22ec7ba026490e",
+  "name": "Eduempower Apply Leave (OLD)",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_apply_leave",
+  "properties": [
+    {
+      "$key": "cccazd221hi",
+      "key": "leaveType",
+      "name": "Leave Type",
+      "dataType": "REFERENCE",
+      "modelId": "66081d3c60d4f873b5fa4f49"
+    },
+    {
+      "$key": "mjpkly44igd",
+      "key": "leaveSession",
+      "name": "Leave Session",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ozsd19pulx",
+            "key": "FULL_DAY",
+            "value": "Full Day"
+          },
+          {
+            "$key": "b4cusqlfjnw",
+            "key": "FIRST_HALF",
+            "value": "First Half"
+          },
+          {
+            "$key": "717t3e4babr",
+            "key": "SECOND_HALF",
+            "value": "Second Half"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "6t0spmtqz0i",
+      "key": "from",
+      "name": "From",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "dhej39fl7j",
+      "key": "to",
+      "name": "To",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "6cxqp2c5awl",
+      "key": "noOfLeaves",
+      "name": "No. of Leaves",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "s6fjki6zenk",
+      "key": "leavesTaken",
+      "name": "Leaves Taken",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "bd78vsd0fxj",
+      "key": "leavesBalance",
+      "name": "Leaves Balance",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "2l7cqx6qsfd",
+      "key": "reason",
+      "name": "Reason",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "tiq6ycol1xc",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "dsmh0q685uh",
+            "key": "PENDING",
+            "value": "Pending"
+          },
+          {
+            "$key": "5mfj7cws5hf",
+            "key": "APPROVED",
+            "value": "Approved"
+          },
+          {
+            "$key": "hhno8edivf",
+            "key": "REJECTED",
+            "value": "Rejected"
+          },
+          {
+            "$key": "9i05zasjzrw",
+            "key": "WITHDRAW",
+            "value": "Withdraw"
+          },
+          {
+            "$key": "dc1ecsm7ppr",
+            "value": "Cancel",
+            "key": "CANCEL"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "r0yq8kmr0kq",
+      "key": "document",
+      "name": "Document",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6sepzmaxvm",
+      "key": "userId",
+      "name": "User Id",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T09:56:44.292Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:07.288Z"
+}

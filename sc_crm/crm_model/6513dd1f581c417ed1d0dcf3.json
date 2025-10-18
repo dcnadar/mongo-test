@@ -1,0 +1,41 @@
+{
+  "_id": "6513dd1f581c417ed1d0dcf3",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description"
+    },
+    {
+      "dataType": "STRING",
+      "key": "bgImage",
+      "name": "BG Image"
+    },
+    {
+      "name": "Enable Button",
+      "key": "enableButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "name": "Button Text",
+      "key": "buttonText",
+      "dataType": "STRING"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid Foodio Grid Top Service Section",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:51.576Z"
+}

@@ -1,0 +1,92 @@
+{
+  "_id": "67ada09f61e8f2055c2ae871",
+  "gridTitle": "Eduempower LeaveType",
+  "gridType": "table",
+  "crmModelId": "67ad9f0f61e8f2055c2ae86f",
+  "columns": [
+    {
+      "$key": "ypraer7m22q",
+      "key": "name",
+      "name": "Name ",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "bdku49utcuw",
+      "key": "code",
+      "name": "Code ",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "n8fyy91p48g",
+      "key": "leaveType",
+      "name": "Type",
+      "type": "tag",
+      "sort": true
+    },
+    {
+      "$key": "2rp0k7nnddb",
+      "key": "duration",
+      "name": "Duration",
+      "type": "tag",
+      "sort": true
+    },
+    {
+      "$key": "263opjsz8pj",
+      "key": "maxLeaveAllowed",
+      "name": "Max Leave Allowed",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "zlldpvizs9p",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true
+    },
+    {
+      "$key": "t72z9gpf6e",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "gbnlazoebrw",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/school-setup/leave-settings/leave-type/edit?id=:_id _id",
+          "gridTitle": "Edit Leave Type"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "yu8ac95ir9i",
+      "value": "Add Leave Type",
+      "gridTitle": "Add Leave Type",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/school-setup/leave-settings/leave-type/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "gb6izeadhy4",
+        "propertyKey": "entityType",
+        "operator": "EQUALS",
+        "EQUALS": "MASTER_SETUP"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T07:34:55.445Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

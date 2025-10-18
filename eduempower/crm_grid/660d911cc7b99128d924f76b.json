@@ -1,0 +1,115 @@
+{
+  "_id": "660d911cc7b99128d924f76b",
+  "gridTitle": "Eduempower LibraryMembership",
+  "gridType": "table",
+  "crmModelId": "660af302c7b99128d924f6df",
+  "columns": [
+    {
+      "$key": "g8indqkqol",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "q7szxqw6svm",
+      "key": "userType",
+      "name": "User Type",
+      "type": "tag",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "qn9uec273cb",
+      "key": "classes",
+      "name": "Class",
+      "type": "card",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "6m2uugip97h",
+      "key": "departments",
+      "name": "Department Id",
+      "type": "card",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "d1j63115a1",
+      "key": "designation",
+      "name": "Designation Id",
+      "type": "card",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "cp9liiz39t",
+      "key": "dailyBookLimit",
+      "name": "Daily Book Limit",
+      "type": "text",
+      "sort": true,
+      "width": 175
+    },
+    {
+      "$key": "9t8d24x7d9e",
+      "key": "monthlyBookLimit",
+      "name": "Monthly Book Limit",
+      "type": "text",
+      "sort": true,
+      "width": 175
+    },
+    {
+      "$key": "zosv49lpsfi",
+      "key": "maxIssueCount",
+      "name": "Max Issue Count",
+      "type": "text",
+      "sort": true,
+      "width": 175
+    },
+    {
+      "$key": "tvnoiw5qnz",
+      "key": "reIssueCount",
+      "name": "ReIssue Count",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "36je93oa57t",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 100,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "xs3wc7t4ag",
+          "gridTitle": "Edit Membership Rules",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/schoolsetup/membership-rules/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "mrbw02k08w",
+      "gridTitle": "Add Membership Rules",
+      "apiUrl": "/admin/schoolsetup/membership-rules/add",
+      "gridType": "popupForm",
+      "value": "Add Membership Rules"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T17:25:48.207Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:00.004Z"
+}

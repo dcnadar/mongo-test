@@ -1,0 +1,164 @@
+{
+  "_id": "66d1b1dbf477b55766069c55",
+  "gridTitle": "Shiprocket PackageShipment",
+  "gridType": "table",
+  "crmModelId": "66d1ae7df477b55766069c49",
+  "columns": [
+    {
+      "$key": "ye1d87g10a",
+      "key": "customerId",
+      "name": "Customer Id",
+      "type": "card",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "uv3yiqyp5l9",
+      "key": "orderIds",
+      "name": "Order Ids",
+      "type": "card",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "vc7oy6lpvv",
+      "key": "shiprocketResponse.order_id",
+      "name": "Shiprocket Order Id",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "8jag584oag",
+      "key": "transactionId",
+      "name": "Transaction Id",
+      "type": "card",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "0zj33i664i",
+      "key": "shipmentId",
+      "name": "Shipment Id",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "9bt2jqp2l7t",
+      "key": "shipmentType",
+      "name": "Shipment Type",
+      "type": "text",
+      "sort": false,
+      "width": 100
+    },
+    {
+      "$key": "lxvphz2wum8",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "width": 100,
+      "sort": false
+    },
+    {
+      "$key": "e5uyo8vg9b6",
+      "key": "totalMrp",
+      "name": "Total Mrp",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "pc7zl2jk5q",
+      "key": "totalDiscount",
+      "name": "Total Discount",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "ecmhb27otye",
+      "key": "totalPrice",
+      "name": "Total Price",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "mv0njlhhpok",
+      "name": "Final Total",
+      "type": "text",
+      "width": 150,
+      "sort": false,
+      "key": "finalTotal"
+    },
+    {
+      "$key": "xzchzl5rf5b",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 300,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "eseljfcx0h",
+          "gridTitle": "Edit Shipment",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/order/shipment/edit?id=:_id _id",
+          "showCondition": "return false;",
+          "apiType": "GET"
+        },
+        {
+          "$key": "1ftv0p7qu4v",
+          "gridTitle": "Ready to Ship",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/order/shipment/ready-to-ship?id=:_id _id",
+          "value": "Ready to Ship",
+          "showCondition": "return this.status ==='PENDING';"
+        },
+        {
+          "$key": "pdc4watrmz",
+          "gridTitle": "Download Invoice",
+          "value": "Download Invoice",
+          "gridType": "download",
+          "showGridComment": false,
+          "apiUrl": "/api/shipment/invoice/download?shipmentId=:_id _id",
+          "apiType": "GET",
+          "responseType": "pdf",
+          "gridMsg": "Are you sure to Download?",
+          "showCondition": "return this.status==='DELIVERED';"
+        },
+        {
+          "$key": "rltwq492dyc",
+          "gridTitle": "Go to Shiprocket",
+          "value": "Go to Shiprocket",
+          "showCondition": "return this.status !=='PENDING';",
+          "apiType": "GET",
+          "gridType": "slug",
+          "showGridComment": false,
+          "apiUrl": "https://app.shiprocket.in/seller/orders/details/:shiprocketResponse.order_id shiprocketResponse.order_id",
+          "slugTarget": "_blank"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "2j2dsgcm3sp",
+      "gridTitle": "Add Shipment",
+      "value": "Add Shipment",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/order/shipment/add",
+      "showCondition": "return false;"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-30T11:49:47.311Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

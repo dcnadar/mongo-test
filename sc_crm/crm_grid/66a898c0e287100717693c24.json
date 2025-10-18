@@ -1,0 +1,153 @@
+{
+  "_id": "66a898c0e287100717693c24",
+  "gridTitle": "Product Variant Create",
+  "gridType": "form",
+  "crmModelId": "64a5d14d099de82bca61ca99",
+  "rows": [
+    {
+      "$key": "r45tj7j6utc",
+      "fields": [
+        {
+          "$key": "f5s12bbo2ke",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "dogbjpuox9",
+          "id": "mrp",
+          "title": "MRP",
+          "type": "number",
+          "min": 0,
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "srenxjq0ty",
+          "id": "price",
+          "title": "Price",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "y6pvetnt6k",
+          "id": "basicDetails",
+          "title": "Basic Details",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "he6tk4uaz9f",
+          "id": "advancedDetails",
+          "title": "Advanced Details",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "2foc93jyksk",
+          "id": "sku",
+          "title": "SKU",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "cqjsjlgtdwu",
+          "id": "hsn",
+          "title": "HSN",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "o": true
+        },
+        {
+          "$key": "bvy9irz03j6",
+          "id": "available",
+          "title": "Available",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "oi3swgz8z1",
+          "id": "onHand",
+          "title": "On Hand",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "ulwad9pr5fp",
+          "id": "brand",
+          "title": "Brand",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "rctad5eopwj",
+          "id": "category",
+          "title": "Category",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "x9kgxzta1k",
+          "id": "product",
+          "title": "Product",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "8m338tds5ed",
+          "id": "basicDetails.media",
+          "title": "Media",
+          "type": "upload",
+          "multiple": true,
+          "span": 8,
+          "add": false,
+          "delete": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          }
+        },
+        {
+          "$key": "dm3vkzp2m1a",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "wdtf984mefa",
+          "id": "path",
+          "title": "Path",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-30T07:39:44.507Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false
+}

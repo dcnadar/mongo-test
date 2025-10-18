@@ -1,0 +1,43 @@
+{
+  "_id": "6718fb425f22ec7ba0264958",
+  "gridTitle": "Eduempower News Attachments",
+  "gridType": "form",
+  "crmModelId": "6718fa885f22ec7ba0264957",
+  "rows": [
+    {
+      "$key": "wbrha2j0cwp",
+      "fields": [
+        {
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": true,
+          "span": 8,
+          "add": true,
+          "delete": true,
+          "$key": "8xn92jw308s"
+        },
+        {
+          "$key": "nfwj9epr3g",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "haa1zbhfke",
+          "id": "index",
+          "title": "Index",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T13:33:54.756Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:02.347Z"
+}

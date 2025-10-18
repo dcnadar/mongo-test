@@ -1,0 +1,13 @@
+{
+  "_id": "661e379de8eed80abc95348d",
+  "name": "Add Blog Content ",
+  "path": "[OLD]/admin/website/blog/content/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "661e3193e8eed80abc953486",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-16T08:32:29.239Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": []
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "66fd1e2bbfa9a724cf2a5b82",
+  "name": "Ready to Return",
+  "path": "/admin/order/return/request/accept",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66fd1baebfa9a724cf2a5b81",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-10-02T10:19:23.183Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": []
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "668237cc3108ad7b7d063ec4",
+  "name": "NativeGrid GlobalFeatureSection",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "gdj6mfumvb",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gcgu3blx8nk",
+      "key": "descriptions",
+      "name": "Descriptions",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "g5adrwsuwvo",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wgfpskrmp2a",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6682353a3108ad7b7d063ec1"
+    },
+    {
+      "$key": "hbgpa0sk27k",
+      "key": "header",
+      "name": "Header",
+      "dataType": "INNER_MODEL",
+      "modelId": "66822d5a3108ad7b7d063ec0"
+    },
+    {
+      "$key": "16nya5f2nby",
+      "key": "quote",
+      "name": "Quote",
+      "dataType": "INNER_MODEL",
+      "modelId": "6682366d3108ad7b7d063ec2"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T04:59:56.597Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

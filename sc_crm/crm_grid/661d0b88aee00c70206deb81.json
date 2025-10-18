@@ -1,0 +1,64 @@
+{
+  "_id": "661d0b88aee00c70206deb81",
+  "gridTitle": "Blog Category",
+  "gridType": "table",
+  "crmModelId": "661ccdc6aee00c70206deb65",
+  "columns": [
+    {
+      "$key": "kem7qjx2bsn",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "rbdz0f7ks2",
+      "key": "slug",
+      "name": "Slug",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "tzvxm64gcpk",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "wofojz3ai5",
+          "value": "Edit",
+          "apiUrl": "/admin/blog/category/update?id=:_id _id",
+          "gridType": "popupForm",
+          "gridTitle": "Update Categories"
+        },
+        {
+          "$key": "0cdnrunlzd7l",
+          "value": "Delete",
+          "type": "icon",
+          "gridMsg": "Are you sure want to delete?",
+          "gridType": "confirm",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.2.actions.1.icon/2024/3/15/upload_19qylq12xnf-1713182021950.png",
+          "apiUrl": "/admin/blog/category/delete"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "o8us8cl5ka8",
+      "value": "Add Blog Categories",
+      "apiUrl": "/admin/blog/category/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T11:12:08.810Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/website/blog/all"
+}

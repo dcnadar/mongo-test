@@ -1,0 +1,62 @@
+{
+  "_id": "6791cee79b99392f025cdf75",
+  "gridTitle": "Eduempower IssuedBooks(OLD)",
+  "gridType": "form",
+  "crmModelId": "662533b2990ac402ed0d3ecd",
+  "rows": [
+    {
+      "$key": "6zo4qrs8b3x",
+      "fields": [
+        {
+          "id": "bookName",
+          "title": "Book Name",
+          "$key": "nnaytteyq48",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "hx63veq46i9",
+          "id": "availbleBooks",
+          "title": "Availble Books",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "cldhtpwa7fh",
+          "id": "issuedDate",
+          "title": "Issued Date",
+          "span": 8,
+          "type": "date"
+        },
+        {
+          "$key": "u6q4mbg7n9q",
+          "id": "bookReturnDate",
+          "title": "Book Return Date",
+          "span": 8,
+          "type": "date"
+        },
+        {
+          "$key": "y9qnamkh0t",
+          "id": "comment",
+          "title": "Commentv",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "srfuatcl4if",
+          "id": "status",
+          "title": "Status",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-23T05:08:55.881Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:03.931Z"
+}

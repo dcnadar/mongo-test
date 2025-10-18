@@ -1,0 +1,25 @@
+{
+  "_id": "65255c6f696fa159e5101545",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "thumb",
+      "name": "Thumbnail"
+    },
+    {
+      "dataType": "STRING",
+      "key": "fullName",
+      "name": "Full Name"
+    },
+    {
+      "dataType": "STRING",
+      "key": "designation",
+      "name": "Designation"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Foodel OwnerMessage Owner Inner Model",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:51.876Z"
+}

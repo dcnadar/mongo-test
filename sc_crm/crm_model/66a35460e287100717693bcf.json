@@ -1,0 +1,135 @@
+{
+  "_id": "66a35460e287100717693bcf",
+  "name": "customer Address",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "customer_address",
+  "properties": [
+    {
+      "$key": "dm6vzzr0v4s",
+      "key": "pincode",
+      "name": "Pincode",
+      "dataType": "STRING",
+      "searchable": {
+        "value": false,
+        "description": true
+      }
+    },
+    {
+      "$key": "bgigavczkxk",
+      "key": "state",
+      "name": "State",
+      "dataType": "STRING",
+      "searchable": {
+        "description": false,
+        "value": true
+      }
+    },
+    {
+      "$key": "r955coqmmu",
+      "key": "addressLine1",
+      "name": "AddressLine1",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6eini3k4ju5",
+      "key": "addressLine2",
+      "name": "AddressLine2",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9egqha9dek",
+      "key": "locality",
+      "name": "Locality",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5m0vrf8ns4d",
+      "key": "district",
+      "name": "District",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "k7rue2cl9e",
+      "key": "addressType",
+      "name": "Address Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "un4lo5a7ad",
+            "key": "home",
+            "value": "Home"
+          },
+          {
+            "$key": "lr6rtlembac",
+            "key": "office",
+            "value": "Office"
+          },
+          {
+            "$key": "96rypgrwl6",
+            "key": "other",
+            "value": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "rv24hhlfrb",
+      "key": "country",
+      "name": "country",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "en6otu7eo2i",
+      "key": "openOnSaturday",
+      "name": "Open On Saturday",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "6nd56rdchng",
+      "key": "openOnSunday",
+      "name": "Open On Sunday",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "d6xuurw8hr5",
+      "key": "default",
+      "name": "Default",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "3emv54rxisi",
+      "key": "customerId",
+      "name": "Customer Id",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6"
+    },
+    {
+      "$key": "mbg2ced9zo",
+      "key": "firstName",
+      "name": "First Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dpwhsnzslt",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8tma873h5xh",
+      "key": "lastName",
+      "name": "Last Name",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T07:46:40.901Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

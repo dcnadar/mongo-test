@@ -1,0 +1,65 @@
+{
+  "_id": "668bf777531ed762273ebbfe",
+  "gridTitle": "productDynamicContent",
+  "gridType": "form",
+  "crmModelId": "668bf0a4531ed762273ebbfd",
+  "rows": [
+    {
+      "$key": "9acn29427q5",
+      "fields": [
+        {
+          "$key": "llu8dloxvq",
+          "id": "sortBy",
+          "title": "Sort By",
+          "type": "list",
+          "multiple": false
+        },
+        {
+          "$key": "f4ahs9sv6it",
+          "id": "showPagination",
+          "title": "Show Pagination",
+          "type": "bool"
+        },
+        {
+          "$key": "3j7ojvnekwv",
+          "id": "totalCardsToShow",
+          "title": "Total Cards to show",
+          "type": "number",
+          "showCondition": "return !this.showPagination;"
+        },
+        {
+          "$key": "709xzm86u2",
+          "id": "cardPerSection",
+          "title": "Card Per Section",
+          "type": "number",
+          "showCondition": "return this.showPagination;"
+        },
+        {
+          "$key": "xcu2xo3gv1o",
+          "id": "filters",
+          "title": "Filters",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 10,
+          "o": true
+        },
+        {
+          "$key": "b2eqwd0ej2f",
+          "id": "showSideFilter",
+          "title": "ShowSideFilter",
+          "type": "bool",
+          "span": 8,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T14:28:07.541Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "upsertDoc": false
+}

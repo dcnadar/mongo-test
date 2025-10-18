@@ -1,0 +1,13 @@
+{
+  "_id": "66124c20a10af254b4b437ee",
+  "name": "All Class Incharge",
+  "path": "/admin/schoolsetup/class-incharge/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660d8dbbc7b99128d924f765",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T07:32:48.894Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:49.942Z"
+}

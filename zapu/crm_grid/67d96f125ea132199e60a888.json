@@ -1,0 +1,60 @@
+{
+  "_id": "67d96f125ea132199e60a888",
+  "gridTitle": "Theme Settings",
+  "gridType": "form",
+  "crmModelId": "67d96e225ea132199e60a887",
+  "rows": [
+    {
+      "$key": "uzuokanzxb",
+      "fields": [
+        {
+          "id": "themePrimaryColor",
+          "title": "Theme Primary Color",
+          "type": "text",
+          "o": false,
+          "span": 8,
+          "$key": "3d5uvpd94ss"
+        },
+        {
+          "$key": "unhhdte3mo",
+          "id": "themeSecondaryColor",
+          "title": "Theme Secondary Color",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "66vul2ikbex",
+          "id": "backgroundColor",
+          "title": "Background color",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "96zx2b20ud",
+          "id": "textColor",
+          "title": "Text color",
+          "type": "text"
+        },
+        {
+          "$key": "k3xf0b18ov",
+          "id": "icon",
+          "title": "Icon",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "0cs5evhvw6nc",
+          "id": "logo",
+          "title": "Logo",
+          "type": "text",
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": true,
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-03-18T13:03:14.304Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

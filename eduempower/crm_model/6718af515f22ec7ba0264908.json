@@ -1,0 +1,62 @@
+{
+  "_id": "6718af515f22ec7ba0264908",
+  "name": "Eduempower Attachments",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "6dwv41zn247",
+      "key": "source",
+      "name": "Source",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "hwfog52henn",
+            "key": "FILE",
+            "value": "File"
+          },
+          {
+            "$key": "e0k9rtoz2xm",
+            "key": "YOUTUBE",
+            "value": "Youtube"
+          },
+          {
+            "$key": "rsx9g5ls1fe",
+            "key": "LINK",
+            "value": "Link"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "o4g4n8wqy9g",
+      "key": "attachment",
+      "name": "Attachment",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y7eg3hlr17",
+      "key": "link",
+      "name": "Link",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "k9lg0znu4c",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "g8laiym2s9c",
+      "name": "Index",
+      "key": "index",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T08:09:53.876Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:07.188Z"
+}

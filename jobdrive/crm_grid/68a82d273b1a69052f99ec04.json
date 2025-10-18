@@ -1,0 +1,75 @@
+{
+  "_id": "68a82d273b1a69052f99ec04",
+  "gridTitle": "Settings Notification Preferences",
+  "gridType": "form",
+  "crmModelId": "689f18d04e2ed283d94615be",
+  "rows": [
+    {
+      "$key": "md909ilo0ri",
+      "fields": [
+        {
+          "id": "settingsNotification.emailNotifications",
+          "title": "Email Notifications",
+          "span": 12,
+          "type": "bool",
+          "$key": "i3e7lwid1ws"
+        },
+        {
+          "$key": "drwb0gadpej",
+          "id": "settingsNotification.pushNotifications",
+          "title": "Push Notifications",
+          "type": "bool",
+          "span": 24
+        },
+        {
+          "$key": "drqdzre0cfc",
+          "id": "settingsNotification.pacementUpdates",
+          "title": "Pacement Updates",
+          "type": "bool",
+          "span": 24
+        },
+        {
+          "$key": "rxtheh2yyvn",
+          "id": "settingsNotification.trainingReminders",
+          "title": "Training Reminders",
+          "type": "bool",
+          "span": 24
+        },
+        {
+          "$key": "dcttzl78prb",
+          "id": "settingsNotification.assessmentResults",
+          "title": "Assessment Results",
+          "type": "bool",
+          "span": 24
+        },
+        {
+          "$key": "jukwnwmywo",
+          "id": "settingsNotification.companyUpdates",
+          "title": "Company Updates",
+          "type": "bool",
+          "span": 24
+        },
+        {
+          "$key": "r2tsvesnnd",
+          "id": "settingsNotification.weeklyDigest",
+          "title": "Weekly Digest",
+          "type": "bool",
+          "span": 24
+        },
+        {
+          "$key": "048ebvtf1olk",
+          "id": "settingsNotification.marketingEmails",
+          "title": "Marketing Emails",
+          "type": "bool",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T11:27:16.576Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:53.357Z"
+}

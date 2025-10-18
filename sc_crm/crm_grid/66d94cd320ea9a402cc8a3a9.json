@@ -1,0 +1,37 @@
+{
+  "_id": "66d94cd320ea9a402cc8a3a9",
+  "gridTitle": "NativeGrid ButtonInfo\t",
+  "gridType": "form",
+  "crmModelId": "66d94be020ea9a402cc8a3a8",
+  "rows": [
+    {
+      "$key": "xn7puyngioa",
+      "fields": [
+        {
+          "$key": "6sckl8sg6xp",
+          "id": "svg",
+          "title": "Svg",
+          "type": "text",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "217f9fbr8c2",
+          "id": "buttonAction",
+          "title": "ButtonAction",
+          "span": 16,
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-05T06:16:51.881Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

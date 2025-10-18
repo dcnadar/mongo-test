@@ -1,0 +1,138 @@
+{
+  "_id": "670e56765f22ec7ba0264802",
+  "gridTitle": "Transaction",
+  "gridType": "table",
+  "crmModelId": "670e1bcb5f22ec7ba0264801",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "gjwv9fse0yn",
+      "key": "transactionId",
+      "name": "Transaction Id",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "slkjdiq2nw",
+      "key": "paymentGateway",
+      "name": "Payment Gateway",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "re3638g63ij",
+      "key": "pgTransactionId",
+      "name": "Pg Transaction Id",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "386qux6d51s",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "ybfu3p4wlec",
+      "key": "packageId",
+      "name": "Package Id",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "al6bphgok4k",
+      "key": "plan",
+      "name": "Plan",
+      "type": "actions",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "kfrzjjepxg9",
+      "key": "totalPrice",
+      "name": "Total Price",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "qvnr4uv2r0q",
+      "key": "phonepePayAPIResponse",
+      "name": "Phonepe Pay API Response",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "lxdmlk7pmrj",
+      "key": "phonepePayAPIData",
+      "name": "Phonepe Pay API Data",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "su6dprrial",
+      "key": "razorpayCreateOrderResponse",
+      "name": "Razorpay Create Order Response",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "bp6knq7ehdj",
+      "key": "cashfreeCreateOrderResponse",
+      "name": "Cashfree Create Order Response",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "oemico1hie",
+      "key": "razorpayWebhookResponse",
+      "name": "Razorpay Webhook Response",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "502idw29b9",
+      "key": "cashfreeWebhookResponse",
+      "name": "Cashfree Webhook Response",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "bwytsyw9xg5",
+      "key": "phonepeWebhookResponse",
+      "name": "Phonepe Webhook Response",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-15T11:48:06.602Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:51.997Z"
+}

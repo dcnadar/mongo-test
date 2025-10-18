@@ -1,0 +1,132 @@
+{
+  "_id": "648563687d5f915dc103d28f",
+  "name": "Product",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Product Name",
+      "unique": true,
+      "searchable": {
+        "value": true
+      },
+      "$key": "nz2904gdngc"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "stockControl",
+      "name": "Stock Control",
+      "$key": "v7wengme3rg"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "useProductVariant",
+      "name": "Use Product Variant",
+      "$key": "sfrwdcv8sq"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "category",
+      "name": "Category",
+      "modelId": "648b5dfa568ed162c961ede3",
+      "$key": "p8tgryt3bzs"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "brand",
+      "name": "Brand",
+      "modelId": "64a4b38d1952437b761aac1c",
+      "$key": "xvz3s2aakcn"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "basicDetails",
+      "name": "Basic Details",
+      "modelId": "654b2a7bf9b217759444504e",
+      "$key": "ux9n7q1eir"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "advancedDetails",
+      "name": "Advanced Details",
+      "modelId": "655465b0d0f8a32b238adad8",
+      "$key": "6q7amz5t69q"
+    },
+    {
+      "dataType": "LIST_OF",
+      "key": "variantOptionValues",
+      "name": "Variant Option Values",
+      "listType": "INNER_MODEL",
+      "modelId": "64a5cc25099de82bca61ca98",
+      "$key": "be6swwh2wfa"
+    },
+    {
+      "$key": "52x51ue3el2",
+      "key": "mrp",
+      "name": "MRP",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "ko64r7tv12n",
+      "key": "price",
+      "name": "Price",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "riy9mbpfeu",
+      "key": "productVariantTable",
+      "name": "Product Variant Table",
+      "dataType": "LIST_OF",
+      "modelId": "665a974d7a29a87a0def3d7f",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "sh6tcvf9rr",
+      "key": "available",
+      "name": "Available",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "zlw5wsz2ox",
+      "key": "onHand",
+      "name": "ON Hand",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "epysca2dx6c",
+      "key": "sku",
+      "name": "SKU",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6eiegvft2jr",
+      "key": "productSeo",
+      "name": "Product Seo",
+      "dataType": "INNER_MODEL",
+      "modelId": "66a1f9cbcba7cf7aed264a03"
+    },
+    {
+      "$key": "266q6lbbtxt",
+      "key": "deliverableProduct",
+      "name": "Deliverable Product",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "ma5w6joa929",
+      "key": "hsn",
+      "name": "HSN",
+      "dataType": "LONG"
+    }
+  ],
+  "collectionName": "product",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "menuTargets": {
+    "title": "name",
+    "thumb": "thumb"
+  },
+  "created": "2024-01-27T07:48:50.300Z",
+  "cardDataTargets": {}
+}

@@ -1,0 +1,57 @@
+{
+  "_id": "68ad5f2123737c0ed9ef89e4",
+  "gridTitle": "Training Trainer",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "ubs27bw7ot",
+      "fields": [
+        {
+          "id": "userId",
+          "title": "User",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "h6qw42d6rii"
+        },
+        {
+          "$key": "nyagzot0ii8",
+          "id": "verification",
+          "title": "Verification",
+          "type": "text",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "7g3ou8jrvpv",
+          "id": "ratingAvg",
+          "title": "Rating Avg",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "8cvc74wgkfm",
+          "id": "ratingCount",
+          "title": "Rating Count",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "am5cvgh3nlv",
+          "id": "trainingId",
+          "title": "Training",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T07:15:45.212Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "crmModelId": "68ad56e323737c0ed9ef89e2",
+  "updated": "2025-09-05T11:02:54.074Z"
+}

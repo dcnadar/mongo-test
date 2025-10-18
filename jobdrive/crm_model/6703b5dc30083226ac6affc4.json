@@ -1,0 +1,336 @@
+{
+  "_id": "6703b5dc30083226ac6affc4",
+  "accountId": "6703b44b30083226ac6affc0",
+  "name": "User",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "firstName",
+      "name": "First Name",
+      "searchable": {
+        "value": true
+      },
+      "$key": "z7zdglheloi"
+    },
+    {
+      "$key": "vj92vaee727",
+      "key": "lastName",
+      "name": "Last Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "email",
+      "name": "Email",
+      "searchable": {
+        "value": false,
+        "description": true
+      },
+      "$key": "e5q6pw7gow6",
+      "unique": true
+    },
+    {
+      "dataType": "STRING",
+      "key": "userName",
+      "name": "User Name",
+      "searchable": {
+        "primary": true
+      },
+      "$key": "662tjnshbz4",
+      "unique": true
+    },
+    {
+      "dataType": "STRING",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "searchable": {
+        "value": false
+      },
+      "$key": "akw0mes1nn"
+    },
+    {
+      "dataType": "STRING",
+      "key": "callingCode",
+      "name": "Calling Code",
+      "$key": "rgv21eskv5q",
+      "data": {
+        "options": [
+          {
+            "$key": "xqvdxf7ui0i",
+            "key": "+91",
+            "value": "+91 (India)"
+          }
+        ]
+      }
+    },
+    {
+      "dataType": "DATE",
+      "key": "birthDate",
+      "name": "BirthDate",
+      "searchable": {
+        "thumb": false
+      },
+      "$key": "hddu225tbh"
+    },
+    {
+      "$key": "fain6gadnoo",
+      "key": "gender",
+      "name": "Gender",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "62u7gq5xbny",
+            "key": "MALE",
+            "value": "Male"
+          },
+          {
+            "$key": "empgs3chzk9",
+            "key": "FEMALE",
+            "value": "Female"
+          },
+          {
+            "$key": "wvw19blrmuo",
+            "key": "OTHERS",
+            "value": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "gdncwow5tbc",
+      "key": "userType",
+      "name": "UserType",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "vuhx5jfgyb9",
+            "key": "STAFF",
+            "value": "Staff"
+          },
+          {
+            "$key": "h0l2b7fh9og",
+            "key": "STUDENT",
+            "value": "Student"
+          },
+          {
+            "$key": "8zov9ca3soo",
+            "key": "TRAINER",
+            "value": "Trainer"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "3legrmp80jh",
+      "key": "logo",
+      "name": "Thumb",
+      "dataType": "STRING",
+      "searchable": {
+        "thumb": false
+      }
+    },
+    {
+      "$key": "ef0e0wk4k4j",
+      "key": "admin",
+      "name": "Is Admin",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "mo57k0vwucf",
+      "key": "graduationyear",
+      "name": "Graduation Year",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kki2k6bwce",
+      "key": "address",
+      "name": "Address",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qgkoakq65kr",
+      "key": "academicinformation",
+      "name": "Academic Information",
+      "dataType": "INNER_MODEL",
+      "modelId": "6899c5347af5145812897af8"
+    },
+    {
+      "$key": "t76kqvf74wq",
+      "key": "skills",
+      "name": "Skills",
+      "dataType": "INNER_MODEL",
+      "modelId": "6899c3217af5145812897af6"
+    },
+    {
+      "$key": "bvpkofsa35f",
+      "key": "linkedinprofile",
+      "name": "Linkedin Profile",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "83dd1ij7awq",
+      "key": "githubprofile",
+      "name": "Github Profile",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jdhwgc2vliq",
+      "key": "bio",
+      "name": "Bio",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "d85jhs7ogt",
+      "key": "password",
+      "name": "Password",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "aso8va8kax",
+      "key": "studentEducation",
+      "name": "Student Education",
+      "dataType": "LIST_OF",
+      "modelId": "68a8303b929889208088b242",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "k656agf5jq",
+      "key": "studentExperience",
+      "name": "Student Experience",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "68ac2943e1a84e7a30bfdbd5"
+    },
+    {
+      "$key": "gzxsjrh3ttb",
+      "key": "slug",
+      "name": "Slug",
+      "dataType": "STRING",
+      "unique": true
+    },
+    {
+      "$key": "9fv3dm1ykr",
+      "key": "headline",
+      "name": "Headline",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fp9pxql34v",
+      "key": "yearsExperience",
+      "name": "Years Experience",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "esvb5y9ko5n",
+      "key": "expertise",
+      "name": "Expertise",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "d0n1w8omxxm",
+      "key": "topics",
+      "name": "Topics",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "w68hzmzl1c",
+      "key": "languages",
+      "name": "Languages",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "6i6k87og8ie",
+      "key": "timeZone",
+      "name": "TimeZone",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "74lc9gmx95p",
+      "key": "preferredModes",
+      "name": "Preferred Modes",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "6woc4rzli1s",
+      "key": "travelWilling",
+      "name": "Travel Willing",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "s2z3bnhuvsd",
+      "key": "baseLocation",
+      "name": "Base Location",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "aj5sksblky",
+      "key": "remoteOnly",
+      "name": "Remote Only",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "h6j94fq6all",
+      "key": "verification",
+      "name": "Verification",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rmbrts0fgvb",
+      "key": "ratingAvg",
+      "name": "Rating Avg",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "qfhjtjqd02",
+      "key": "ratingCount",
+      "name": "Rating Count",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "xv0o6p9dcg8",
+      "key": "avatarUrl",
+      "name": "Avatar Url",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rq858vpr6q",
+      "key": "coverImageUrl",
+      "name": "Cover Image Url",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gq22aoh7l2",
+      "key": "isActive",
+      "name": "is Active",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "collectionName": "user",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "created": "2024-10-07T07:48:51.178Z",
+  "cardDataTargets": {
+    "title": "firstName",
+    "subtitles": [
+      "email"
+    ],
+    "thumb": "logo"
+  },
+  "menuTargets": {
+    "thumb": "logo",
+    "title": "firstName",
+    "description": "email"
+  },
+  "updated": "2025-09-05T11:02:54.354Z"
+}

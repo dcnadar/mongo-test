@@ -1,0 +1,201 @@
+{
+  "_id": "6662ec3707b1a041b15e0b90",
+  "gridTitle": "Farm Status",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "gm1bsowztl7",
+      "span": 24,
+      "fields": [
+        {
+          "id": "month",
+          "$key": "k5sdvhsm379",
+          "title": "Month",
+          "type": "list",
+          "span": 6,
+          "multiple": false
+        },
+        {
+          "$key": "g616dtgs0bl",
+          "id": "year",
+          "title": "Year",
+          "type": "list",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "x4bk00wrao9",
+          "id": "noOfBirds",
+          "title": "Number Of Birds (Capacity)",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "ekenw6zoo07",
+          "id": "noOfDeadBirds",
+          "title": "Number Of Dead Birds",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "xq2epil9e8",
+          "id": "oldChicksProcured",
+          "title": "Number Of Day Old Chicks Procured ",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "zow6y64yw3g",
+          "id": "mortalityRate",
+          "title": "Mortality Rate (Every 7 Days)",
+          "type": "text",
+          "span": 6,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "kg6ol9ywo7",
+          "id": "avgWgtOfBirds",
+          "title": "Average Weight Of Birds(Per Batch) (Last One Year)",
+          "type": "number",
+          "span": 6,
+          "meta": {
+            "addonAfter": "KG"
+          }
+        },
+        {
+          "$key": "kcmivcny35d",
+          "id": "farmerId",
+          "title": "Farmer Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ],
+      "label": "Farm Status"
+    },
+    {
+      "$key": "ljkprc1qckb",
+      "label": "Farm Condition (Housing)",
+      "span": 24,
+      "fields": [
+        {
+          "id": "farmCondition",
+          "title": "Farm Condition",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "6v31gfrfi47"
+        }
+      ]
+    },
+    {
+      "$key": "wvfe0wr0afs",
+      "label": "Inputs",
+      "span": 24,
+      "fields": [
+        {
+          "id": "inputs",
+          "title": "Inputs",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "7sb4dbywxav"
+        }
+      ]
+    },
+    {
+      "$key": "2hqj1m2l8ui",
+      "label": "Outputs",
+      "span": 24,
+      "fields": [
+        {
+          "id": "outputs",
+          "title": "Outputs",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "w34uvdeboyf"
+        }
+      ]
+    },
+    {
+      "$key": "bpp5hi5gmiv",
+      "label": "Cost Incurred",
+      "span": 24,
+      "fields": [
+        {
+          "id": "costIncurred",
+          "title": "Cost Incurred",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "nji5pmpeu8p"
+        }
+      ]
+    },
+    {
+      "$key": "3j4yjyj6tqd",
+      "label": "Gross Income",
+      "span": 24,
+      "fields": [
+        {
+          "id": "grossIncome",
+          "title": "Gross Income",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "ydph4vporm"
+        }
+      ]
+    },
+    {
+      "$key": "x2eo9zepv6c",
+      "label": "Profit / Net Income",
+      "span": 24,
+      "fields": [
+        {
+          "title": "Profit / Net Income",
+          "id": "profitNetIncome",
+          "span": 24,
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "$key": "iyiat48tazr"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T11:17:11.389Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "crmModelId": "6662ed0207b1a041b15e0b91",
+  "backUrl": "/admin/farmer/history/all",
+  "gridParams": [
+    {
+      "key": "farmerId",
+      "required": true
+    }
+  ]
+}

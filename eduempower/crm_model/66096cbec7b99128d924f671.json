@@ -1,0 +1,104 @@
+{
+  "_id": "66096cbec7b99128d924f671",
+  "name": "Eduempower TeacherMapping",
+  "modelType": "COLLECTION",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_teacher_mapping",
+  "properties": [
+    {
+      "$key": "kh799wp6du",
+      "key": "classId",
+      "name": "Class Id",
+      "dataType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4"
+    },
+    {
+      "$key": "fjd93w9mb1m",
+      "key": "sectionId",
+      "name": "Section Id",
+      "dataType": "REFERENCE",
+      "modelId": "660698f6eea36066ca04cbce"
+    },
+    {
+      "$key": "mn3jj4denek",
+      "key": "isPrimary",
+      "name": "Is Primary",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "yia5h8b78hh",
+      "key": "classSubject",
+      "name": "Class Subject",
+      "dataType": "REFERENCE",
+      "modelId": "66096978c7b99128d924f66f"
+    },
+    {
+      "$key": "jsl96l0uvra",
+      "key": "priority",
+      "name": "Priority",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ggtlu3uh5z",
+            "key": "HIGH",
+            "value": "High"
+          },
+          {
+            "$key": "5en2hhztxue",
+            "key": "MEDIUM",
+            "value": "Medium"
+          },
+          {
+            "$key": "ct4ynxr8stj",
+            "key": "LOW",
+            "value": "Low"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "jxf4nww98o",
+      "key": "teacherType",
+      "name": "Teacher Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "nuvpm7cvb2",
+            "key": "SUBJECT_TEACHER",
+            "value": "Subject Teacher"
+          },
+          {
+            "$key": "88egc6rjgvq",
+            "key": "CLASS_TEACHER",
+            "value": "Class Teacher"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "x95kdafkkm",
+      "key": "userId",
+      "name": "Teacher",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "mowofm4q4c",
+      "name": "School Subject",
+      "dataType": "REFERENCE",
+      "modelId": "66096853c7b99128d924f66e",
+      "key": "schoolSubject"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T14:01:34.622Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.835Z"
+}

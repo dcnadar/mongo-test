@@ -1,0 +1,60 @@
+{
+  "_id": "6624c324c9fe887cdf0ebd37",
+  "gridTitle": "LifesecretEnquiry",
+  "gridType": "table",
+  "crmModelId": "6612fbdba10af254b4b43838",
+  "columns": [
+    {
+      "$key": "g1p6j8jxm0k",
+      "key": "customerName",
+      "name": "Name",
+      "type": "name",
+      "sort": true
+    },
+    {
+      "$key": "hs361wo4xoj",
+      "key": "customerAddress",
+      "name": "Customer Address",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "tdzw2r6edmp",
+      "key": "customerContact",
+      "name": "Mobile",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "w1lwq0rhmi",
+      "key": "service",
+      "name": "Service",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "q68k03knc",
+      "key": "message",
+      "name": "Remark",
+      "type": "text",
+      "sort": true
+    }
+  ],
+  "actions": [
+    {
+      "$key": "pl6bu7a9zwq",
+      "gridTitle": "Add Enquiry",
+      "value": "Add Enquiry",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/enquiry/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-21T07:41:24.125Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

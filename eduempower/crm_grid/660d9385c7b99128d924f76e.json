@@ -1,0 +1,99 @@
+{
+  "_id": "660d9385c7b99128d924f76e",
+  "gridTitle": "Eduempower Branch",
+  "gridType": "table",
+  "crmModelId": "6606750ceea36066ca04cbca",
+  "columns": [
+    {
+      "$key": "v97rfb9sw6",
+      "key": "name",
+      "name": "Branch Name",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "beep08877ir",
+      "key": "branchCode",
+      "name": "Branch Code",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "wu4d0qfl5of",
+      "key": "board",
+      "name": "Board",
+      "type": "card",
+      "sort": true,
+      "width": 200
+    },
+    {
+      "$key": "n7li0lvw5y",
+      "key": "nextVisitorId",
+      "name": "Next Visitor Id",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "v0cy5q9dll9",
+      "key": "challanNo",
+      "name": "Challan No",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "7xbh5qbyppg",
+      "key": "primaryEmail",
+      "name": "Primary Email",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "2320vwd59j6",
+      "key": "primaryContact",
+      "name": "Primary Contact",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "ozrbmt9tqk9",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 100,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "rezxtccyq7",
+          "gridTitle": "Edit Branch",
+          "value": "Edit",
+          "apiUrl": "/admin/account-settings/branch/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "hb9cjlkjamc",
+      "gridTitle": "Add Branch",
+      "value": "Add Branch",
+      "apiUrl": "/admin/account-settings/branch/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T17:36:05.020Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:00.113Z"
+}

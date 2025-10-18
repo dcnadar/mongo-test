@@ -1,0 +1,12 @@
+{
+  "_id": "661ce03aaee00c70206deb6e",
+  "name": "All  FAQ",
+  "path": "/admin/website/faq/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "661cdfefaee00c70206deb6c",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T08:07:22.867Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

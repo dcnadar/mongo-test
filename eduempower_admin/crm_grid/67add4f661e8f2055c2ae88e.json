@@ -1,0 +1,52 @@
+{
+  "_id": "67add4f661e8f2055c2ae88e",
+  "gridTitle": "Eduempower FeeCategory",
+  "gridType": "form",
+  "crmModelId": "67add38461e8f2055c2ae88c",
+  "rows": [
+    {
+      "$key": "3tawvlv4gbb",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "$key": "ullvsi25eu9",
+          "span": 12
+        },
+        {
+          "$key": "9pu5rlio05d",
+          "id": "code",
+          "title": "Code",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "xyq58jbhfeg",
+          "id": "classTypes",
+          "title": "Class Type",
+          "type": "list",
+          "multiple": true,
+          "span": 12,
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "946v5yby2pp",
+          "id": "entityType",
+          "title": "Entity Type",
+          "type": "text",
+          "span": 12,
+          "value": "MASTER_SETUP",
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T11:18:14.141Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

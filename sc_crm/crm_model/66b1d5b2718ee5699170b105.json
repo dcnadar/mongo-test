@@ -1,0 +1,79 @@
+{
+  "_id": "66b1d5b2718ee5699170b105",
+  "name": "ReactGrid GlobalPricing1 sections",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "wf1wd54nf0e",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9nc40x5j7id",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xit9hq5llor",
+      "key": "points",
+      "name": "Points",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "lrjlkekyyfd",
+      "key": "buttonText",
+      "name": "Button Text",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xu8sg10tgor",
+      "key": "enableButton",
+      "name": "Enable Button",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "ohofj0djvrc",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "dataType": "INNER_MODEL",
+      "listType": "STRING",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "277qnjw4klx",
+      "key": "currencySymbol",
+      "name": "Currency Symbol",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8gx8u6qhauf",
+      "key": "price",
+      "name": "Price",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ricfb1jw4mg",
+      "key": "pointHeading",
+      "name": "Point Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ngznzu98a0b",
+      "key": "cardHeading",
+      "name": "Card Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bnne99tfa75",
+      "key": "cardDescription",
+      "name": "Card Description",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-06T07:50:10.850Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

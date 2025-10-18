@@ -1,0 +1,91 @@
+{
+  "_id": "665c1bc47a29a87a0def3d87",
+  "gridTitle": "Variant Option",
+  "gridType": "form",
+  "crmModelId": "665c1a407a29a87a0def3d85",
+  "rows": [
+    {
+      "$key": "8jz6hclw31b",
+      "fields": [
+        {
+          "$key": "jekhhfk6djk",
+          "id": "optionName",
+          "title": "Option Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "45vjfnv80dv",
+          "id": "displayName",
+          "title": "Display Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "vv3h8r6tgvd",
+          "id": "valueType",
+          "title": "Value Type",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "4fvmv9hzd6z",
+          "id": "values",
+          "title": "Values",
+          "type": "input_table",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 20,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false,
+            "crmFormId": "665c1b087a29a87a0def3d86"
+          },
+          "showCondition": "return this.valueType === 'generic';"
+        },
+        {
+          "$key": "kcohmeuq0vo",
+          "id": "colorValues",
+          "title": "Color Values",
+          "type": "input_table",
+          "add": true,
+          "delete": true,
+          "o": false,
+          "span": 24,
+          "min": 1,
+          "max": 20,
+          "meta": {
+            "crmFormId": "66bf00b8901b1b6d68f936c5"
+          },
+          "showCondition": "return this.valueType === 'color';"
+        },
+        {
+          "$key": "2bbzy18ytyb",
+          "id": "imageValues",
+          "title": "Image Values",
+          "type": "input_table",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 20,
+          "meta": {
+            "crmFormId": "66bf0118901b1b6d68f936c6"
+          },
+          "showCondition": "return this.valueType === 'image';"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-02T07:14:12.903Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/product/variant-option/all",
+  "upsertDoc": false
+}

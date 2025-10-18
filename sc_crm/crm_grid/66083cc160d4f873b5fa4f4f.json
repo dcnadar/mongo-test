@@ -1,0 +1,107 @@
+{
+  "_id": "66083cc160d4f873b5fa4f4f",
+  "gridTitle": "ReactGrid GlobalCrmApp",
+  "gridType": "form",
+  "crmModelId": "66083ad060d4f873b5fa4f4e",
+  "rows": [
+    {
+      "$key": "2k2mf463fc3",
+      "fields": [
+        {
+          "$key": "btoq4j2mx5s",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "o": true,
+          "onChangeCondition": []
+        },
+        {
+          "$key": "ll7y02o778",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8,
+          "o": false
+        },
+        {
+          "$key": "hw7l2yi2o3f",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "xnb0xjykhpa",
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 8
+        },
+        {
+          "$key": "xmb93241yjg",
+          "id": "formUrl",
+          "title": "FormUrl",
+          "type": "text",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "c3n4y9oavkv",
+          "id": "height",
+          "title": "Height",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "f161l8mzz18",
+          "id": "buttons",
+          "title": "Buttons",
+          "type": "form_array",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 2
+        },
+        {
+          "$key": "4vvrz9ea2tg",
+          "id": "saveButtonText",
+          "title": "SaveButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ol5uejpxc1",
+          "id": "clearButtonText",
+          "title": "ClearButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "yg1o0zp6c8a",
+          "id": "successMessage",
+          "title": "SuccessMessage",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "hg62y74xyer",
+          "id": "errorMessage",
+          "type": "text",
+          "title": "ErrorMessage",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-30T16:24:33.223Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

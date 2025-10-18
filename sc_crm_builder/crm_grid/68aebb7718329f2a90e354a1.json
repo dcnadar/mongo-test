@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "68aebb7718329f2a90e354a1"
+  },
+  "gridTitle": "Entity Menu",
+  "gridType": "menu",
+  "menuItems": [
+    {
+      "$key": "jdsz3tggsbs",
+      "key": "entity",
+      "slug": "/admin/entity/collection",
+      "value": "Entity",
+      "icon": "<svg fill=\"currentColor\" width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"><path d=\"M19 10H5c-1.103 0-2 .897-2 2v8c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-8c0-1.103-.897-2-2-2zM5 20v-8h14l.002 8H5zM5 6h14v2H5zm2-4h10v2H7z\"></path></g></svg>"
+    },
+    {
+      "$key": "nvytj3d0gy",
+      "key": "object",
+      "slug": "/admin/entity/object",
+      "value": "Object",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 1024 1024\" class=\"icon\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#000000\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"><path d=\"M924.086857 282.843429l-362.057143 210.724571v415.378286s227.108571-137.728 238.738286-144.384c11.190857-6.436571 26.331429 0.731429 28.891429 17.554285 0.146286 0.731429 1.462857 4.973714 1.462857 5.705143 1.536 18.212571-0.731429 26.770286-12.580572 33.718857l-273.993143 162.742858c-6.948571 3.510857-16.091429 5.485714-30.72-1.755429-7.168-3.218286-424.301714-255.268571-424.301714-255.268571a24.649143 24.649143 0 0 1-11.702857-20.772572V251.611429c0-2.486857-2.413714-25.526857 13.385143-35.913143L517.558857 2.633143a24.137143 24.137143 0 0 1 21.796572 0l426.276571 213.138286c9.508571 4.827429 17.481143 14.628571 16.749714 23.844571a29.622857 29.622857 0 0 1 0.512 5.412571v437.028572c0 16.164571-13.165714 29.257143-29.330285 29.257143h-0.073143a29.403429 29.403429 0 0 1-29.403429-29.330286V282.843429zM495.908571 903.972571V493.714286L141.604571 290.230857v397.677714L495.908571 904.045714zM191.195429 236.251429l337.188571 191.122285 337.042286-191.122285L528.310857 67.876571 191.195429 236.251429z\" fill=\"currentColor\"></path></g></svg>"
+    },
+    {
+      "$key": "c1d7eixc54",
+      "key": "base",
+      "slug": "/admin/entity/base",
+      "value": "Base",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path d=\"M21 5C21 6.65685 16.9706 8 12 8C7.02944 8 3 6.65685 3 5M21 5C21 3.34315 16.9706 2 12 2C7.02944 2 3 3.34315 3 5M21 5V19C21 20.66 17 22 12 22C7 22 3 20.66 3 19V5M21 12C21 13.66 17 15 12 15C7 15 3 13.66 3 12\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> </g></svg>"
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1756281719432"
+    }
+  },
+  "createdBy": "68adb9f43e8ef56770f82104",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151757"
+    }
+  },
+  "breadcrumb": []
+}

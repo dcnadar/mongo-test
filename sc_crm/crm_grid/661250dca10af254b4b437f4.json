@@ -1,0 +1,111 @@
+{
+  "_id": "661250dca10af254b4b437f4",
+  "gridTitle": "Invoice",
+  "gridType": "form",
+  "crmModelId": "6612465aa10af254b4b437e4",
+  "rows": [
+    {
+      "$key": "hp3j9qt80o",
+      "fields": [
+        {
+          "id": "logo",
+          "title": "Logo",
+          "type": "text",
+          "$key": "e82ms3bxn3e",
+          "span": 8
+        },
+        {
+          "$key": "raltawi1sd",
+          "id": "form",
+          "title": "Form",
+          "type": "form_array",
+          "add": false,
+          "delete": false,
+          "span": 24
+        },
+        {
+          "$key": "5k8pqanfmoa",
+          "title": "To",
+          "id": "to",
+          "type": "form_array",
+          "add": false,
+          "delete": false,
+          "span": 24
+        },
+        {
+          "$key": "a6tsgs4vuku",
+          "id": "number",
+          "title": "Number",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "8ktk27qk29w",
+          "id": "date",
+          "title": "Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "huc9a3fxxk9",
+          "id": "terms",
+          "title": "Terms",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "tmrqbpz6aw",
+          "id": "item",
+          "title": "Items",
+          "type": "form_array",
+          "add": false,
+          "delete": false,
+          "span": 24
+        },
+        {
+          "$key": "9o9yo8eqbvs",
+          "id": "subTotal",
+          "title": "SubTotal",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "v26k8k6yn4",
+          "id": "tax (0%)",
+          "title": "Tax (0%)",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "gzqohxcebo",
+          "id": "total",
+          "title": "Total",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "shj9ye45rwb",
+          "id": "balance Due",
+          "title": "Balance Due",
+          "type": "number"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T07:53:00.823Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

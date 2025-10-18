@@ -1,0 +1,75 @@
+{
+  "_id": "689c6fdf61be2ca02fc40902",
+  "gridTitle": "trainingBasicInformation",
+  "gridType": "form",
+  "crmModelId": "689c3212e8e746ac85de5597",
+  "rows": [
+    {
+      "$key": "isfqtx5d0d",
+      "fields": [
+        {
+          "id": "traningtitle",
+          "title": "Traning Title",
+          "type": "text",
+          "span": 8,
+          "$key": "reiwf6cn6op"
+        },
+        {
+          "$key": "gg5jpao0u0s",
+          "id": "category",
+          "title": "Category",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "2h717kkoyyn",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "lt7t4p8vln",
+          "id": "trainingtype",
+          "title": "Training Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "kg0q102ikn",
+          "id": "duration",
+          "title": "Duration",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "b9wxe6k6exh",
+          "id": "maxparticipants",
+          "title": "Max Participants",
+          "type": "number",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T10:58:39.166Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.359Z"
+}

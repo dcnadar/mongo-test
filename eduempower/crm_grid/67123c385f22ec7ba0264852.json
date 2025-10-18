@@ -1,0 +1,69 @@
+{
+  "_id": "67123c385f22ec7ba0264852",
+  "gridTitle": "Academic Info",
+  "gridType": "form",
+  "crmModelId": "67123a4e5f22ec7ba0264851",
+  "rows": [
+    {
+      "$key": "2ycjwxcgvit",
+      "fields": [
+        {
+          "$key": "d5wclrxerbh",
+          "id": "education",
+          "title": "Education",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "s12i2q84f1",
+          "id": "school",
+          "title": "School",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "5ogf19t3eof",
+          "id": "cgpa",
+          "title": "CGPA % Obtained",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "bqxya1pelkh",
+          "id": "from",
+          "title": "From",
+          "type": "date",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "axhz5zzhy0b",
+          "id": "to",
+          "title": "To",
+          "type": "date",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "7kardgjjjl7",
+          "id": "staffId",
+          "title": "Staff",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T10:45:12.803Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "updated": "2025-09-08T10:51:01.407Z"
+}

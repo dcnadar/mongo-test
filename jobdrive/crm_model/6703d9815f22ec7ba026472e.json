@@ -1,0 +1,130 @@
+{
+  "_id": "6703d9815f22ec7ba026472e",
+  "name": "Package Category",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "package_category",
+  "properties": [
+    {
+      "$key": "tjkm1lec8jr",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      },
+      "unique": true
+    },
+    {
+      "$key": "h0aga1m72mb",
+      "key": "icon",
+      "name": "Icon",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "2l5p3v0kzrt",
+      "key": "singleImage",
+      "name": "SingleImagw",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2jfggtj07sh",
+      "key": "singleWebcam",
+      "name": "singleWebcam",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qvgetvkcvoj",
+      "key": "singleGallery",
+      "name": "singleGallery",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nmy2nmwy9r",
+      "key": "singleWebcamGallery",
+      "name": "singleWebcamGallery",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "glmg8m1fe44",
+      "key": "multi",
+      "name": "multi",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "xy5ti72l0l",
+      "key": "multiWebcam",
+      "name": "multiWebcam",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "8qyb4c8oz3y",
+      "key": "multiGallery",
+      "name": "multiGallery",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "yyv1yitdf99",
+      "key": "multiWebcamGallery",
+      "name": "multiWebcamGallery",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "ffcqt5kkfwb",
+      "key": "sv2",
+      "name": "sv2",
+      "dataType": "INNER_MODEL",
+      "modelId": "67b806ded102ac67ee6a50e9"
+    },
+    {
+      "$key": "d5ckdksfsis",
+      "key": "sv2m",
+      "name": "sv2m",
+      "dataType": "INNER_MODEL",
+      "modelId": "67b806ded102ac67ee6a50e9"
+    },
+    {
+      "$key": "1gj0xg9u2yl",
+      "key": "sv2mv",
+      "name": "sv2mv",
+      "dataType": "INNER_MODEL",
+      "modelId": "67b806ded102ac67ee6a50e9"
+    },
+    {
+      "$key": "1sj6m0ukewc",
+      "key": "sv2mp",
+      "name": "sv2mp",
+      "dataType": "INNER_MODEL",
+      "modelId": "67b806ded102ac67ee6a50e9"
+    },
+    {
+      "$key": "vifwi3taq8f",
+      "key": "sv2me",
+      "name": "sv2me",
+      "dataType": "INNER_MODEL",
+      "modelId": "67b806ded102ac67ee6a50e9"
+    },
+    {
+      "$key": "65drjjhxsr",
+      "key": "sv2md",
+      "name": "sv2md",
+      "dataType": "INNER_MODEL",
+      "modelId": "67b806ded102ac67ee6a50e9"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-07T12:52:17.454Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:54.472Z"
+}

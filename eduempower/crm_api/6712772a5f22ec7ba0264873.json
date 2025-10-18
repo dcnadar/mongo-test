@@ -1,0 +1,16 @@
+{
+  "_id": "6712772a5f22ec7ba0264873",
+  "name": "All Staff Documents",
+  "path": "/admin/staff/documents/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67126c0b5f22ec7ba0264866",
+  "innerGridType": "table",
+  "innerSourceId": "67191719e8dc0479c46f1d48",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T14:56:42.762Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:52.265Z"
+}

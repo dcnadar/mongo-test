@@ -1,0 +1,45 @@
+{
+  "_id": "65f6c9b852bbad30f7463f04",
+  "gridTitle": "ReactGrid GlobalNewsLetterSection1 Section",
+  "gridType": "form",
+  "crmModelId": "65f6c8ac52bbad30f7463f02",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "svg",
+          "title": "Svg",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 16
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-17T10:45:12.535Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

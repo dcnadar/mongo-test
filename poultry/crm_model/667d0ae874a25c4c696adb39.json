@@ -1,0 +1,32 @@
+{
+  "_id": "667d0ae874a25c4c696adb39",
+  "name": "Batch Close",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "yldegh88l37",
+      "key": "batchInput",
+      "name": "Batch Input",
+      "dataType": "INNER_MODEL",
+      "modelId": "667d09db74a25c4c696adb38"
+    },
+    {
+      "$key": "4428h08kyut",
+      "key": "batchOutput",
+      "name": "Batch Output",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "667d05d174a25c4c696adb36"
+    },
+    {
+      "$key": "r0w0zundhp",
+      "key": "farmerId",
+      "name": "Farmer Id",
+      "dataType": "REFERENCE",
+      "modelId": "6662aede07b1a041b15e0b58"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-27T06:47:04.169Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

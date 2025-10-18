@@ -1,0 +1,14 @@
+{
+  "_id": "66766cb361dc8d328bfa9adc",
+  "category": "ecommerce_category",
+  "categoryName": "Ecommerce Category",
+  "name": [
+    "Fashion",
+    "Beauty",
+    "Electronics",
+    "Fitness"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-22T06:18:27.665Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

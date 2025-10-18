@@ -1,0 +1,32 @@
+{
+  "_id": "67c40008f238c33fa9e18b72",
+  "name": "Staff export sample",
+  "path": "/admin/staff/export/sample",
+  "apiType": "GET",
+  "action": "DOWNLOAD_FILE",
+  "gridType": "form",
+  "downloadFileType": "EXCEL",
+  "getAllRecords": false,
+  "recordsLimit": 1,
+  "sourceId": "660cd365c7b99128d924f720",
+  "fetchDocWithoutId": false,
+  "gridParams": [
+    {
+      "key": "_workLocation",
+      "required": true,
+      "serverValue": "filter_value",
+      "value": "_workLocation"
+    },
+    {
+      "key": "userType",
+      "required": true,
+      "serverValue": "fixed_value",
+      "value": "STAFF"
+    }
+  ],
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-02T06:51:52.106Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:57.834Z"
+}

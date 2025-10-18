@@ -1,0 +1,120 @@
+{
+  "_id": "660fb94cc7b99128d924f778",
+  "gridTitle": "Eduempower LeaveType",
+  "gridType": "table",
+  "crmModelId": "66081d3c60d4f873b5fa4f49",
+  "columns": [
+    {
+      "$key": "971d7jd64cg",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true,
+      "width": 200
+    },
+    {
+      "$key": "rtp6c396d9q",
+      "key": "code",
+      "name": "Code",
+      "type": "text",
+      "sort": true,
+      "width": 200
+    },
+    {
+      "$key": "qwcpbd73jh",
+      "key": "leaveType",
+      "name": "Type",
+      "type": "tag",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "6aduzb12rvs",
+      "key": "duration",
+      "name": "Duration",
+      "type": "tag",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "wpu60zjzsrp",
+      "key": "maxLeaveAllowed",
+      "name": "Max Leave Allowed",
+      "sort": true,
+      "width": 200,
+      "type": "text"
+    },
+    {
+      "$key": "c888g5m0uc",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "4kk8gt6j4ev",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "vywqx87vemb",
+          "gridTitle": "Edit Leave Type",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/schoolsetup/leave-settings/leave-type/edit?id=:_id _id"
+        },
+        {
+          "$key": "r0l1gq0vz1q",
+          "gridTitle": "Activate Leave type",
+          "value": "Activate",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "showCondition": "return this.status==='INACTIVE';",
+          "gridMsg": "Are your sure?",
+          "apiUrl": "/api/io/schoolsetup/leave-setting/leave-type/changeStatus?id=:_id&status=ACTIVE _id"
+        },
+        {
+          "$key": "f51w6xz612",
+          "gridTitle": "Deactivate Leave type",
+          "value": "Deactivate",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "showCondition": "return this.status==='ACTIVE';",
+          "apiUrl": "/api/io/schoolsetup/leave-setting/leave-type/changeStatus?id=:_id&status=INACTIVE _id"
+        },
+        {
+          "$key": "le33sacriof",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "apiUrl": "/admin/schoolsetup/leave-settings/leave-type/delete?id=:_id _id",
+          "value": "Delete",
+          "gridMsg": "Are you sure?",
+          "gridTitle": "Delete Leave type",
+          "showCondition": "return this.leaveType === 'OTHER_LEAVE';"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "o3ioga0mmdf",
+      "gridTitle": "Add Leave Type",
+      "value": "Add Leave Type",
+      "apiUrl": "/admin/schoolsetup/leave-settings/leave-type/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-05T08:41:48.216Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:00.149Z"
+}

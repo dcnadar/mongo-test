@@ -1,0 +1,36 @@
+{
+  "_id": "67617d4175ed7057fba21a83",
+  "gridTitle": "Assign asset to staff form",
+  "gridType": "form",
+  "crmModelId": "67617b9575ed7057fba21a82",
+  "rows": [
+    {
+      "$key": "pop7fwdlos",
+      "fields": [
+        {
+          "id": "assetId",
+          "title": "Asset Id",
+          "span": 12,
+          "type": "list",
+          "multiple": false,
+          "$key": "bs6fd0x5fuu"
+        },
+        {
+          "$key": "fl2lcsbgpm",
+          "id": "staffId",
+          "title": "Currently Assigned To",
+          "type": "text",
+          "multiple": false,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-17T13:31:45.935Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:03.458Z"
+}

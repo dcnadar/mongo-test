@@ -1,0 +1,24 @@
+{
+  "_id": "661b5a28aee00c70206deb5b",
+  "name": "User UnsubscribedEmail",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ehx4lbq8kxk",
+      "key": "reason",
+      "name": "Reason",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fdbn07f6xb",
+      "key": "promotional",
+      "name": "Promotional",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-14T04:23:04.674Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,44 @@
+{
+  "_id": {
+    "$oid": "66e09070ba37421a9151b83c"
+  },
+  "name": "Permission Condition",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "vhe4kksfz6i",
+      "key": "conditionType",
+      "name": "Condition Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "n0o2hg249x",
+            "key": "set_param_value",
+            "value": "Set Param Value"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "s5v9c9o83",
+      "key": "setParamValues",
+      "name": "Set Param Values",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66e08eafba37421a9151b83b"
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1725993072147"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070153416"
+    }
+  }
+}

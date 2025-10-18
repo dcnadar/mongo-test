@@ -1,0 +1,45 @@
+{
+  "_id": "66ab502ce287100717693d30",
+  "name": "WebsiteGlobalThemeFontSettings",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "tm0ew2g4sdr",
+      "key": "fontType",
+      "name": "Font Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "vlegsantcvo",
+            "key": "fontPack",
+            "value": "Font Pack"
+          },
+          {
+            "$key": "c0l0wsrd7ph",
+            "key": "custom",
+            "value": "Custom"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ostrb46s9un",
+      "key": "fontPackName",
+      "name": "Font Pack Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "98wx22xi95",
+      "key": "customSettings",
+      "name": "Custom Settings",
+      "dataType": "INNER_MODEL",
+      "modelId": "66ab4f0ee287100717693d2e"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T09:06:52.863Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

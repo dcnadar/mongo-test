@@ -1,0 +1,47 @@
+{
+  "_id": "6664488d07b1a041b15e0b9f",
+  "name": "Gram Panchayat",
+  "modelType": "COLLECTION",
+  "collectionName": "poultry_gram_panchayat",
+  "properties": [
+    {
+      "$key": "vycrkxjhx6q",
+      "key": "stateId",
+      "name": "State",
+      "dataType": "REFERENCE",
+      "modelId": "6664474607b1a041b15e0b9e"
+    },
+    {
+      "$key": "48kir2mhsfu",
+      "key": "districtId",
+      "name": "District",
+      "dataType": "REFERENCE",
+      "modelId": "6662abef07b1a041b15e0b54"
+    },
+    {
+      "$key": "m9gplmare6q",
+      "key": "blockId",
+      "name": "Block",
+      "dataType": "REFERENCE",
+      "modelId": "6662ac4007b1a041b15e0b55"
+    },
+    {
+      "$key": "axzdgf8zwkj",
+      "key": "gramPanchayatName",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true,
+        "primary": true
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "gramPanchayatName"
+  },
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T12:03:25.578Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "baseModelId": "6662a0e707b1a041b15e0b51"
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Add Student",
+    "action": "CRM_GRID",
+    "gridType": "form",
+    "apiType": "GET",
+    "status": "ACTIVE",
+    "accountId": "65d0d41b0d1f40b74ff1bd92",
+    "sourceId": "65ca41bab06d763b61648eb4",
+    "path": "/admin/students/add",
+    "created": "2024-02-12T16:05:14.905Z",
+    "_id": "65ca41bab06d763b61648eb5"
+}

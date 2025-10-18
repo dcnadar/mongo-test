@@ -1,0 +1,12 @@
+{
+  "_id": "67d1b5465ea132199e60a768",
+  "name": "Admin read only",
+  "permissions": [
+    "67d1b4685ea132199e60a765",
+    "67d1b5035ea132199e60a766",
+    "67d1b5285ea132199e60a767"
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2025-03-12T16:24:38.521Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

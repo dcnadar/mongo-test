@@ -1,0 +1,41 @@
+{
+  "_id": "65d1c1d58d99a73c7f3f81d1",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Thumb",
+          "id": "thumb",
+          "type": "upload",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Subtitle",
+          "id": "subtitle",
+          "type": "text",
+          "span": 8,
+          "o": false
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65d1b9952a35a061866919e8",
+  "gridTitle": "ReactGrid GlobalCommon ContentSection Quote User",
+  "created": "2024-02-18T08:37:41.886Z",
+  "fetchDocWithoutId": false
+}

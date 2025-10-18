@@ -1,0 +1,86 @@
+{
+  "_id": {
+    "$oid": "6624e2bfa91f692d1c9b503b"
+  },
+  "name": "Ecom Account",
+  "modelType": "COLLECTION",
+  "collectionName": "ecom_account",
+  "properties": [
+    {
+      "$key": "5h0m9ae5fqp",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "vyb4rmidiz",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING",
+      "searchable": {
+        "thumb": true
+      }
+    },
+    {
+      "$key": "w5v6mwha27n",
+      "key": "subDomain",
+      "name": "Sub Domain",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "a0tie5g86an",
+      "key": "domain",
+      "name": "Domain",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "ijc7v6n03uo",
+      "key": "entityMongoDBCredential",
+      "name": "Entity Mongo DB Credential",
+      "dataType": "INNER_MODEL",
+      "modelId": "68bbfd84ca4fa9290c0f6ae2"
+    },
+    {
+      "$key": "yvd6iq4iffi",
+      "key": "favicon",
+      "name": "Favicon",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    },
+    {
+      "$key": "syxdsh4871",
+      "key": "loginImages",
+      "name": "Login Images",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name",
+    "thumb": "logo",
+    "subtitles": [
+      "domain"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1713693375098"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070153301"
+    }
+  }
+}

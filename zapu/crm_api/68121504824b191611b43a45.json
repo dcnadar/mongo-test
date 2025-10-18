@@ -1,0 +1,22 @@
+{
+  "_id": "68121504824b191611b43a45",
+  "name": "Delete Customer Address",
+  "path": "/admin/customer/address/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "67ff8b639221c8190c63e869",
+  "ecomApiMappings": [],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-04-30T12:18:12.726Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true
+    },
+    {
+      "key": "customerId",
+      "required": true
+    }
+  ]
+}

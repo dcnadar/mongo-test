@@ -1,0 +1,34 @@
+{
+  "_id": "67ab2f248eb1a51b7f845b06",
+  "name": "ReactGrid GlobalBrand3 images [OLD]",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "x28rbixzijn",
+      "key": "row1",
+      "name": "Row1",
+      "dataType": "LIST_OF",
+      "listType": "ReactGrid GlobalBrand3 images row1",
+      "modelId": "67ab313a8eb1a51b7f845b08"
+    },
+    {
+      "$key": "eb0lepeuqyh",
+      "key": "row2",
+      "name": "Row2",
+      "dataType": "LIST_OF",
+      "listType": "ReactGrid GlobalBrand3 images row2",
+      "modelId": "67ab315d8eb1a51b7f845b09"
+    },
+    {
+      "$key": "rxy6a444c1r",
+      "key": "row3",
+      "name": "Row3",
+      "dataType": "LIST_OF",
+      "listType": "ReactGrid GlobalBrand3 images row3",
+      "modelId": "67ab317a8eb1a51b7f845b0b"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-11T11:06:12.827Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

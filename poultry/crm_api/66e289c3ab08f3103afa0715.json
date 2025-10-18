@@ -1,0 +1,13 @@
+{
+  "_id": "66e289c3ab08f3103afa0715",
+  "name": "Update Customer",
+  "path": "/admin/user/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66e279c7ab08f3103afa070e",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-12T06:27:15.470Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

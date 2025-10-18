@@ -1,0 +1,39 @@
+{
+  "_id": "673c936850a2593e955f0b11",
+  "name": "Transaction",
+  "modelType": "COLLECTION",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_transaction",
+  "properties": [
+    {
+      "$key": "8ugwjqokil6",
+      "key": "type",
+      "name": "Type",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3bd1rye33iu",
+      "key": "subType",
+      "dataType": "STRING",
+      "name": "Subtype"
+    },
+    {
+      "$key": "ydj43uf8lfk",
+      "key": "transactionType",
+      "name": "Transaction Type",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "b3djiizmkvn",
+      "key": "amount",
+      "name": "Amount",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-19T13:32:24.284Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:07.874Z"
+}

@@ -1,0 +1,53 @@
+{
+  "_id": "667d0cee74a25c4c696adb3a",
+  "gridTitle": "Batch Close Main",
+  "gridType": "form",
+  "crmModelId": "667cfc6a74a25c4c696adb31",
+  "rows": [
+    {
+      "$key": "cp6heg4qkue",
+      "fields": [
+        {
+          "id": "batchClose.batchInput",
+          "title": "Batch Input",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "jybutswn6cn"
+        },
+        {
+          "$key": "j0jwv7pmw5l",
+          "id": "batchClose.batchOutput",
+          "title": "Batch Output",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1
+        },
+        {
+          "$key": "87monr08a25",
+          "id": "farmerId",
+          "title": "Farmer Id",
+          "type": "list",
+          "multiple": false,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-27T06:55:42.411Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "farmerId",
+      "required": true
+    }
+  ]
+}

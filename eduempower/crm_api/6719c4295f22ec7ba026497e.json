@@ -1,0 +1,14 @@
+{
+  "_id": "6719c4295f22ec7ba026497e",
+  "name": "Eduempower News",
+  "path": "/admin/circulars&news/news/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "6718ff2c5f22ec7ba026495c",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T03:51:05.028Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:54.701Z"
+}

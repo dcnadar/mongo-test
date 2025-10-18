@@ -1,0 +1,84 @@
+{
+  "_id": "668249823108ad7b7d063ec9",
+  "gridTitle": "NativeGrid GlobalFeatureSection",
+  "gridType": "form",
+  "crmModelId": "668237cc3108ad7b7d063ec4",
+  "rows": [
+    {
+      "$key": "q5c6rop7h2",
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8,
+          "$key": "1c4grlz1b84"
+        },
+        {
+          "$key": "83bbcnnw6ur",
+          "id": "descriptions",
+          "title": "Descriptions",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "yit19exidbm",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "rjvsa2zb6ra",
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 10
+        },
+        {
+          "$key": "yw3v1i2bu8g",
+          "id": "header",
+          "title": "Header",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "ycdm34r090t",
+          "id": "quote",
+          "title": "Quote",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T06:15:30.303Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

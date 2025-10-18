@@ -1,0 +1,31 @@
+{
+  "_id": "6628e612dd50c90abe7a7db1",
+  "gridTitle": "ReactGrid GlobalCommon FAQ",
+  "gridType": "form",
+  "crmModelId": "6628e3cfdd50c90abe7a7db0",
+  "rows": [
+    {
+      "$key": "rckgayqdyac",
+      "fields": [
+        {
+          "id": "question",
+          "title": "Question",
+          "type": "text",
+          "span": 8,
+          "$key": "v9qzcmmqrw"
+        },
+        {
+          "$key": "i5atpafj33",
+          "id": "answer",
+          "title": "Answer",
+          "type": "text",
+          "span": 16
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-24T10:59:30.300Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "6684d4e73108ad7b7d063f3f",
+  "gridTitle": "NativeGrid GlobalFashionHoulSaleCard4",
+  "gridType": "form",
+  "crmModelId": "6684d4373108ad7b7d063f3e",
+  "rows": [
+    {
+      "$key": "rllxd12oih",
+      "fields": [
+        {
+          "id": "thumb",
+          "title": "Thumb",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "$key": "e54taz9lyj"
+        },
+        {
+          "$key": "bmbtdx1lxf",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "yawe5ebpxqm",
+          "id": "discount",
+          "title": "Discount",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "30d9tpdvpe7",
+          "id": "button",
+          "title": "Button",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T04:34:47.380Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

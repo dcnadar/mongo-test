@@ -1,0 +1,33 @@
+{
+  "_id": "65f434a8eb86b8460a61f618",
+  "name": "ReactGrid GlobalFeatureSection5 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "listType": "INNER_MODEL",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "key": "descriptions",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "key": "svg",
+      "name": "SVG Code",
+      "dataType": "STRING"
+    },
+    {
+      "key": "button",
+      "name": "Button",
+      "dataType": "INNER_MODEL",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    }
+  ],
+  "cardDataTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-15T11:44:40.449Z"
+}

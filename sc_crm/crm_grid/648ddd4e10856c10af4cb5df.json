@@ -1,0 +1,72 @@
+{
+  "_id": "648ddd4e10856c10af4cb5df",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Parent",
+          "id": "parentId",
+          "type": "list",
+          "span": 12,
+          "o": true,
+          "showCondition": "return false;",
+          "$key": "2001ij3qk5d"
+        },
+        {
+          "index": 1,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 24,
+          "o": false,
+          "$key": "8he05wdmbh6"
+        },
+        {
+          "index": 2,
+          "title": "Logo",
+          "id": "logo",
+          "type": "upload",
+          "span": 24,
+          "o": true,
+          "$key": "04o69n91eqmc",
+          "meta": {
+            "allowGallery": true
+          }
+        },
+        {
+          "index": 3,
+          "title": "Path",
+          "id": "path",
+          "type": "text",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "addonBefore": "/c/"
+          },
+          "$key": "51btoe1xwxr"
+        }
+      ],
+      "$key": "c6uy7onlxi",
+      "description": "#### Category\n\n* Enter a concise and descriptive name (e.g., \"Electronics\").\n* **Avoid**\n   special characters to ensure consistency and proper system recognition.\n\n#### Logo\n\n* Upload a high-quality image file (JPG, PNG, WebP).\n* Recommended: Minimum resolution of 800x800 px with a clear background.\n\n#### Path\n\n* Enter a simple, URL-friendly path (e.g.,\n  `electronics`\n  ).\n* **Avoid**\n   spaces, special characters, and uppercase letters.",
+      "showDescription": true,
+      "descriptionSpan": 12
+    }
+  ],
+  "edit": true,
+  "crmModelId": "648b5dfa568ed162c961ede3",
+  "gridTitle": "Product Category Form",
+  "backUrl": "/admin/product/category",
+  "gridParams": [
+    {
+      "key": "parentId",
+      "required": false
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

@@ -1,0 +1,80 @@
+{
+  "_id": "67adc59f61e8f2055c2ae87e",
+  "name": "Eduempower LeavePlan",
+  "modelType": "COLLECTION",
+  "baseModelId": "67371c6002f79267ffc56592",
+  "collectionName": "eduempower_leave_plan",
+  "properties": [
+    {
+      "$key": "ya8pa1ag0y",
+      "key": "planName",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "hms6f05hu",
+      "key": "leaveType",
+      "name": "Leave Type",
+      "dataType": "REFERENCE",
+      "modelId": "67ad9f0f61e8f2055c2ae86f"
+    },
+    {
+      "$key": "mn4l4r93kbs",
+      "key": "leavePlanDuration",
+      "name": "Leave Plan Duration",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "wcrlm96ifz",
+      "key": "effectiveFrom",
+      "name": "Effective From",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fwrsa1tcddv",
+      "key": "effectiveTo",
+      "name": "Effective To",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "flargmminvc",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "5j0sgrbxpct",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "egvm4ixjpgt",
+            "key": "INACTIVE",
+            "value": "InActive"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "8pmem2ihlv8",
+      "key": "entityType",
+      "name": "Entity Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "v6oocy4jczc",
+            "key": "MASTER_SETUP",
+            "value": "Master Setup"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T10:12:47.652Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

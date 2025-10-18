@@ -1,0 +1,42 @@
+{
+  "_id": "65b0e0d54720140d59822ed9",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-24T10:05:09.532Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Point Icon (SVG code)",
+          "id": "svg",
+          "type": "text",
+          "span": 6,
+          "o": false,
+          "hint": "Please enter SVG code for the button icon. You can copy SVG code from <a href='https://www.svgrepo.com/' target='_blank'>SvgRepo</a>"
+        },
+        {
+          "index": 1,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Description",
+          "id": "descriptions",
+          "type": "textarea",
+          "span": 12,
+          "o": false
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65f3f41aeb86b8460a61f610",
+  "gridTitle": "ReactGrid GlobalCommon FeatureSection Section",
+  "fetchDocWithoutId": false
+}

@@ -1,0 +1,78 @@
+{
+  "_id": "66098ba0c7b99128d924f677",
+  "gridTitle": "ReactGrid GlobalTestimonial5",
+  "gridType": "form",
+  "crmModelId": "66098a0ac7b99128d924f676",
+  "rows": [
+    {
+      "$key": "i51bm24r42",
+      "fields": [
+        {
+          "$key": "232rkwbrw3m",
+          "id": "rating",
+          "title": "Rating",
+          "type": "number",
+          "span": 24,
+          "min": 0,
+          "max": 5
+        },
+        {
+          "id": "button",
+          "title": "Button",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "$key": "wgq8bgtmdco",
+          "span": 24
+        },
+        {
+          "$key": "6rb9rudafxw",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "junuotd2ktq",
+          "id": "userThumb",
+          "title": "UserThumb",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "13c37feyi4ee",
+          "id": "userName",
+          "title": "UserName",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "84lzw4fz3o4",
+          "id": "designation",
+          "title": "Designation",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-31T16:13:20.902Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

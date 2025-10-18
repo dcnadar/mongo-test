@@ -1,0 +1,60 @@
+{
+  "_id": "65b53659f7815fa135bd04da",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "date",
+      "name": "Date",
+      "$key": "j4n7vgb0pa"
+    },
+    {
+      "dataType": "STRING",
+      "key": "tag",
+      "name": "Tag",
+      "$key": "iuq2nikn3f"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "modelId": "650d3713ac425a65d3141bcc",
+      "$key": "hzi7yteybdv"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image",
+      "$key": "45ly9mhtroq"
+    },
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title",
+      "$key": "7eiln54qdv"
+    },
+    {
+      "dataType": "STRING",
+      "key": "descriptions",
+      "name": "Descriptions",
+      "$key": "cvwosoxi1ot"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "user",
+      "name": "User",
+      "modelId": "65b53659f7815fa135bd04d9",
+      "$key": "a9jx0mydgl"
+    },
+    {
+      "$key": "lcxi9s1luu",
+      "key": "enableButton",
+      "name": "Enable Button",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalBlogCards Section",
+  "modelType": "INNER",
+  "created": "2024-01-27T16:59:05.645Z",
+  "modelStatus": "ACTIVE"
+}

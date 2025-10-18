@@ -1,0 +1,13 @@
+{
+  "_id": "67acad84570d4c4a2423d4c7",
+  "name": "Add School AcademicSession",
+  "path": "/admin/entity-setup/academic-session/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67af3e50ff270b0488bcfe24",
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-12T14:17:40.538Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

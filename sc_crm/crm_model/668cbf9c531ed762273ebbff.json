@@ -1,0 +1,132 @@
+{
+  "_id": "668cbf9c531ed762273ebbff",
+  "name": "Product Filter",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "em2r3vdtwxf",
+      "key": "propertyKey",
+      "name": "Property Key",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "hqpm2ga384f",
+            "key": "title",
+            "value": "Title"
+          },
+          {
+            "$key": "93ayq30womo",
+            "key": "priceRange",
+            "value": "Price Range"
+          },
+          {
+            "$key": "pcpj9nmi69h",
+            "key": "productCategory",
+            "value": "Product Category"
+          },
+          {
+            "$key": "8eqwbdtc0te",
+            "key": "brand",
+            "value": "Brand"
+          },
+          {
+            "$key": "1m3bthsmn9x",
+            "key": "ratings",
+            "value": "Ratings"
+          },
+          {
+            "$key": "lr7dkd47mh9",
+            "key": "discount",
+            "value": "Discount"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "p6s5mkbnzfd",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING",
+      "data": {
+        "tagCategory": "string-filter"
+      }
+    },
+    {
+      "$key": "hov5gg5jy4f",
+      "key": "category",
+      "name": "Category",
+      "dataType": "REFERENCE",
+      "modelId": "648b5dfa568ed162c961ede3"
+    },
+    {
+      "$key": "xwiybseqdw",
+      "key": "brand",
+      "name": "Brand",
+      "dataType": "REFERENCE",
+      "modelId": "64a4b38d1952437b761aac1c"
+    },
+    {
+      "$key": "tqu8cnfl3hp",
+      "key": "ratings",
+      "name": "Ratings",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "sgemk84xple",
+            "key": "4-stars-&-up",
+            "value": "4 Stars & Up"
+          },
+          {
+            "$key": "uewi4aw4u3b",
+            "key": "3-stars-&-up",
+            "value": "3 Stars & Up"
+          },
+          {
+            "$key": "glumrutps77",
+            "key": "2-stars-&-up",
+            "value": "2 Stars & Up"
+          },
+          {
+            "$key": "9cgfsjd0jmk",
+            "key": "1-stars-&-up",
+            "value": "1 Stars & Up"
+          },
+          {
+            "$key": "7rr8qb6q9ms",
+            "key": "no-stars",
+            "value": "No stars"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ntby3ft7jq",
+      "key": "discount",
+      "name": "Discount",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "9e8x3o676a",
+      "key": "value",
+      "name": "Value",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "az336mrz89d",
+      "key": "from",
+      "name": "From",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "lnfsnopfeib",
+      "key": "to",
+      "name": "To",
+      "dataType": "INTEGER"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-09T04:42:04.234Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

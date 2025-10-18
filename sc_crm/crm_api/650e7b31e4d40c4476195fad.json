@@ -1,0 +1,13 @@
+{
+  "_id": "650e7b31e4d40c4476195fad",
+  "name": "Website Header Main Menu",
+  "action": "CRM_GRID",
+  "sourceId": "650e0b20ac425a65d3141be0",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "gridType": "menu",
+  "path": "/admin/website/header/menu",
+  "innerGridType": "table",
+  "innerSourceId": "650e7a37b7a9b0077ae9860a",
+  "created": "2024-01-27T07:48:45.530Z"
+}

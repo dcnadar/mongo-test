@@ -1,0 +1,25 @@
+{
+  "_id": "65b6219359f0d2a7a20d69c7",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalTabSection1 Section",
+  "modelType": "INNER",
+  "created": "2024-01-28T09:42:43.648Z",
+  "modelStatus": "ACTIVE"
+}

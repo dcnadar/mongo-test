@@ -1,0 +1,11 @@
+{
+  "_id": "66117d68a10af254b4b4373b",
+  "name": "Website Footer Section",
+  "path": "/admin/website/footer/section/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "66113e5a23b39252de459b1b",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-06T16:50:48.778Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

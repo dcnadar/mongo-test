@@ -1,0 +1,49 @@
+{
+  "_id": "667cfc6a74a25c4c696adb31",
+  "name": "Batch",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "poultry_batch",
+  "properties": [
+    {
+      "$key": "81mi2t304kk",
+      "key": "farmerId",
+      "name": "Farmer Id",
+      "dataType": "REFERENCE",
+      "modelId": "6662aede07b1a041b15e0b58"
+    },
+    {
+      "$key": "wxl4h9xmxk",
+      "key": "batchInfo",
+      "name": "Batch Info",
+      "dataType": "INNER_MODEL",
+      "modelId": "667bf49074a25c4c696adb1c"
+    },
+    {
+      "$key": "s8nebu8rm2",
+      "key": "batchClose",
+      "name": "Batch Close",
+      "dataType": "INNER_MODEL",
+      "modelId": "667d0ae874a25c4c696adb39"
+    },
+    {
+      "$key": "jyn5437560p",
+      "key": "batchIndex",
+      "name": "Batch Index",
+      "dataType": "INNER_MODEL",
+      "modelId": "667e534e3108ad7b7d063e95"
+    },
+    {
+      "$key": "zhcmipj972",
+      "key": "dataCollectorUser",
+      "name": "Data Collector",
+      "dataType": "REFERENCE",
+      "modelId": "6662a17007b1a041b15e0b52"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-27T05:45:14.577Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

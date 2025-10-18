@@ -1,0 +1,15 @@
+{
+  "_id": "670d02e95f22ec7ba02647f2",
+  "name": "Edit User",
+  "path": "/admin/user/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "670d001b5f22ec7ba02647eb",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-14T11:39:21.472Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:48.656Z"
+}

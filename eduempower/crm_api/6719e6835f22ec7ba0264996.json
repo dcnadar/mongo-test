@@ -1,0 +1,16 @@
+{
+  "_id": "6719e6835f22ec7ba0264996",
+  "name": "Student History",
+  "path": "/admin/student/history",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67139c0d5f22ec7ba0264899",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T06:17:39.428Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "innerGridType": "table",
+  "innerSourceId": "6780ba9b571a4a3748516506",
+  "updated": "2025-09-08T10:50:54.768Z"
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "670cea5c5f22ec7ba02647e3",
+  "name": "All User",
+  "path": "/admin/user/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "670cc2df5f22ec7ba026479d",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-14T09:54:36.878Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:48.495Z"
+}

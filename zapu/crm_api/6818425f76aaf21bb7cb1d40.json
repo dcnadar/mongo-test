@@ -1,0 +1,22 @@
+{
+  "_id": "6818425f76aaf21bb7cb1d40",
+  "name": "Current customer address add",
+  "path": "/cuser/customer/address/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "67ff8d089221c8190c63e86a",
+  "fetchDocWithoutId": false,
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "ecomApiMappings": [],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-05-05T04:45:19.529Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

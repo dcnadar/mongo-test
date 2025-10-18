@@ -1,0 +1,13 @@
+{
+  "_id": "66120049a10af254b4b4376c",
+  "name": "Add Buildings",
+  "path": "/admin/schoolsetup/buildings/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cf2bdc7b99128d924f738",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T02:09:13.449Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:47.544Z"
+}

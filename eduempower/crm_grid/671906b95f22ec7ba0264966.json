@@ -1,0 +1,155 @@
+{
+  "_id": "671906b95f22ec7ba0264966",
+  "gridTitle": "Admission",
+  "gridType": "table",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "columns": [
+    {
+      "$key": "h4t7df7mhag",
+      "key": "enqNo",
+      "name": "Enquiry No.",
+      "type": "link",
+      "width": 200,
+      "sort": true,
+      "slug": "/admin/admission/update/details?id=:_id _id"
+    },
+    {
+      "$key": "ppk3ow8e0sd",
+      "key": "firstName",
+      "name": "Name",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "bayd0bou1sw",
+      "key": "enqDate",
+      "name": "Enquiry Date",
+      "type": "date",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "znespska06",
+      "name": "Session",
+      "type": "card",
+      "width": 200,
+      "sort": false,
+      "key": "academicDetails.academicSession"
+    },
+    {
+      "$key": "oxgy3devnx",
+      "key": "gender",
+      "name": "Gender",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "dllzca46sd9",
+      "key": "primaryContact.firstName",
+      "name": "Primary Contact Name",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "bwpggj02kv",
+      "key": "primaryContact.mobileNumber",
+      "name": "MOBILE NUMBER",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "2j2ejlo9khd",
+      "key": "primaryContact.email",
+      "name": "EMAIL",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "uxci435j47",
+      "key": "admissionStepStatus",
+      "name": "Status",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "jcnyz7j3jn",
+      "gridTitle": "New Enquiry",
+      "gridType": "popupForm",
+      "slug": "/admin/admission/manage/add",
+      "value": "New Enquiry"
+    }
+  ],
+  "border": false,
+  "customFilters": [
+    {
+      "$key": "ly8xxqhtky",
+      "fields": [
+        {
+          "$key": "t52rrr0dpmr",
+          "id": "academicDetails.admissionNo",
+          "title": "AdmissionNO",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "ch3ebkbaml5",
+          "id": "admissionStepStatus",
+          "title": "Status",
+          "type": "text",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "vk0dn06tv1l",
+          "id": "dateOfJoining",
+          "title": "Date Of Admission",
+          "type": "date",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "y91zy7cqeks",
+          "id": "academicDetails.academicSession",
+          "title": "AcademicSession",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "y1dl1jclrq",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EQUALS": "STUDENT"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "logo",
+    "firstName",
+    "middleName",
+    "lastName",
+    "admissionStep"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T14:22:49.336Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "backUrl": "/admin/admission/manage/all",
+  "updated": "2025-09-08T10:51:02.444Z"
+}

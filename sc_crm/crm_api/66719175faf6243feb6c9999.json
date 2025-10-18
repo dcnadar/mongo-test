@@ -1,0 +1,13 @@
+{
+  "_id": "66719175faf6243feb6c9999",
+  "name": "Add Screen Section Group",
+  "path": "/admin/mobileapp/settings/section-group/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66718a6efaf6243feb6c9991",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T13:53:57.751Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

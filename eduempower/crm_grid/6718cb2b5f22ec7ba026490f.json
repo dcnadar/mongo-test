@@ -1,0 +1,70 @@
+{
+  "_id": "6718cb2b5f22ec7ba026490f",
+  "gridTitle": "Eduempower front office",
+  "gridType": "form",
+  "crmModelId": "6718a48d5f22ec7ba0264905",
+  "rows": [
+    {
+      "$key": "qqkhqhfn1z",
+      "fields": [
+        {
+          "$key": "pouig66zw3r",
+          "id": "scheduleDate",
+          "title": "Schedule Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "86gl84vng9q",
+          "id": "scheduleStartTime",
+          "title": "Start Time",
+          "type": "time",
+          "span": 8
+        },
+        {
+          "$key": "c62v7s74rqc",
+          "id": "visitorForms",
+          "title": "Visitor Details",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0
+        },
+        {
+          "$key": "75wqrmhtql",
+          "id": "approvalRequired",
+          "o": true,
+          "title": "Approval Required",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "raiw8kmgkso",
+          "id": "approvalType",
+          "title": "Approval Type",
+          "type": "list",
+          "multiple": true,
+          "span": 8,
+          "add": false,
+          "delete": false,
+          "min": 0
+        },
+        {
+          "$key": "i6o6yr8e24i",
+          "id": "staffs",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "title": "Approvals"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:08:43.195Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-08T10:51:01.957Z"
+}

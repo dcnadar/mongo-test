@@ -1,0 +1,126 @@
+{
+  "_id": {
+    "$oid": "68d6a609a2635b176e34b790"
+  },
+  "name": "AccountUserAccess",
+  "baseModelId": "65e2c399226e7b80fe49ae3a",
+  "collectionName": "account_user_access",
+  "properties": [
+    {
+      "$key": "bzn02cp43o9",
+      "key": "environment",
+      "name": "Environment",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      },
+      "data": {
+        "options": [
+          {
+            "$key": "jqdx7mcygtc",
+            "key": "DEV",
+            "value": "Dev"
+          },
+          {
+            "$key": "u4hmuaioee",
+            "key": "QA",
+            "value": "Qa"
+          },
+          {
+            "$key": "0x86n410ha9h",
+            "key": "UAT",
+            "value": "Uat"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "1cbasho42tr",
+      "key": "firstName",
+      "name": "FirstName",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    },
+    {
+      "$key": "po5vmcg12t",
+      "key": "lastName",
+      "name": "LastName",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    },
+    {
+      "$key": "9rfxibv8duk",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    },
+    {
+      "$key": "23xlzpqoir9",
+      "key": "defaultPassword",
+      "name": "Default Password",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    },
+    {
+      "$key": "lsdg3rmzko",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      },
+      "data": {
+        "options": [
+          {
+            "$key": "4atwtudabia",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "jcor6g0mt6r",
+            "key": "INVITED",
+            "value": "Invited"
+          },
+          {
+            "$key": "mgr86svawz",
+            "key": "BANNED",
+            "value": "Banned"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "k2c074sf0sr",
+      "key": "lastLogin",
+      "name": "Last Login",
+      "dataType": "DATE",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "modelType": "COLLECTION",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758897673326"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231683994"
+    }
+  }
+}

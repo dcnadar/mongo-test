@@ -1,0 +1,78 @@
+{
+  "_id": "660cd920c7b99128d924f727",
+  "gridTitle": "Eduempower FeeType",
+  "gridType": "form",
+  "crmModelId": "6608f72b60d4f873b5fa4f6d",
+  "rows": [
+    {
+      "$key": "a5dywh9k19d",
+      "fields": [
+        {
+          "$key": "0epframkqu9n",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "wazru6qy54m",
+          "id": "code",
+          "title": "Code",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "2k5qohgknti",
+          "id": "color",
+          "title": "Color",
+          "type": "color",
+          "span": 8
+        },
+        {
+          "$key": "w4nkxp60vvq",
+          "title": "Fee Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "id": "type"
+        },
+        {
+          "$key": "09ej56tywp26",
+          "id": "classes",
+          "title": "Class",
+          "type": "checkbox_group",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 24
+        },
+        {
+          "$key": "lopn04rw3t",
+          "id": "discountEnabled",
+          "title": "Discount Enabled",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "nff34dmxbnl",
+          "id": "discountLogics",
+          "title": "DiscountLogics",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 100,
+          "showCondition": "return !!this.discountEnabled;",
+          "countTitle": "No of Discounts"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T04:20:48.583Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.378Z"
+}

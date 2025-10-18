@@ -1,0 +1,13 @@
+{
+  "_id": "66120053a10af254b4b4376d",
+  "name": "Add Buildings",
+  "path": "/admin/schoolsetup/buildings/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cf2bdc7b99128d924f738",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T02:09:23.266Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:47.580Z"
+}

@@ -1,0 +1,106 @@
+{
+  "_id": "6738eff415937f5e7bfb2e64",
+  "gridTitle": "Eduempower Account Admin",
+  "gridType": "form",
+  "crmModelId": "6738ee4815937f5e7bfb2e60",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 12,
+          "$key": "yhbj1tn11e"
+        },
+        {
+          "id": "lastName",
+          "title": "Last Name",
+          "type": "text",
+          "span": 12,
+          "$key": "y3fhqioebg"
+        },
+        {
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": 12,
+          "$key": "s230m9y0ysf",
+          "onChangeCondition": [
+            {
+              "$key": "10ddk7xseia",
+              "key": "userName",
+              "meta": {
+                "type": "function",
+                "apiType": "GET"
+              },
+              "value": "return this.email;"
+            }
+          ]
+        },
+        {
+          "id": "userName",
+          "title": "Unique User name",
+          "type": "text",
+          "span": 12,
+          "$key": "ptk6gt5he7"
+        },
+        {
+          "id": "callingCode",
+          "title": "Calling code",
+          "type": "list",
+          "multiple": false,
+          "span": 4,
+          "$key": "on5xro0chx",
+          "add": false,
+          "delete": false
+        },
+        {
+          "id": "mobileNumber",
+          "title": "Contact Number",
+          "type": "text",
+          "span": 8,
+          "$key": "1dad248xhs8"
+        },
+        {
+          "id": "birthDate",
+          "title": "Date of Birth",
+          "type": "date",
+          "span": 6,
+          "$key": "yohpf2ghzzl"
+        },
+        {
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "multiple": false,
+          "span": 6,
+          "$key": "03jodtfl6djh"
+        },
+        {
+          "$key": "uyxfwf58sb",
+          "id": "ecomAccountId",
+          "title": "Account",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        }
+      ],
+      "$key": "nsz76q7mt3d"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-03-17T08:22:26.227Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "backUrl": "/admin/account/all",
+  "upsertDoc": false,
+  "gridParams": [
+    {
+      "key": "ecomAccountId",
+      "required": true
+    }
+  ]
+}

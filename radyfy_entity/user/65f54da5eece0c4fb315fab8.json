@@ -1,0 +1,22 @@
+{
+  "_id": "65f54da5eece0c4fb315fab8",
+  "email": "roy88ms@gmail.com",
+  "mobileNumber": "9876543210",
+  "landlineNumber": "1234567",
+  "gender": "MALE",
+  "roleId": "admin",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "password": "ld14402V8Hf48JMh8xLE4HnMPE6YpplLnuECEb4h7GA=",
+  "callingCode": "+91",
+  "userName": "roy88ms@gmail.com",
+  "appId": "65e255c8efb82357eb86d51b",
+  "ecomAccountId": "65e2539fefb82357eb86d514",
+  "firstName": "Sourabh",
+  "lastName": "Roy",
+  "crmLastFilter": {
+    "accountId": "66066cd92ecf59ad3517dcdb"
+  },
+  "admin": true,
+  "userType": "STAFF"
+}

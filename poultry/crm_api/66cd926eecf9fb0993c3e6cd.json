@@ -1,0 +1,14 @@
+{
+  "_id": "66cd926eecf9fb0993c3e6cd",
+  "name": "Image gallary public",
+  "path": "/admin/public/gallery/image/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66cd886decf9fb0993c3e6c6",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-08-27T08:46:38.436Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

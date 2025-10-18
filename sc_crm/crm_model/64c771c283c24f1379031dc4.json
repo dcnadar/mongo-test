@@ -1,0 +1,59 @@
+{
+  "_id": "64c771c283c24f1379031dc4",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "App",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "App Name",
+      "$key": "w3zj4fd0mcc"
+    },
+    {
+      "dataType": "STRING",
+      "key": "basePath",
+      "name": "Base Path",
+      "$key": "n1w8iharu4k"
+    },
+    {
+      "dataType": "STRING",
+      "key": "appType",
+      "name": "App Type",
+      "$key": "gbsz921lffo"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "seo",
+      "name": "SEO",
+      "modelId": "65d4850de9f4dc1ab2f2a1a5",
+      "$key": "sjixl42v27"
+    },
+    {
+      "$key": "s5c7ip3lou",
+      "key": "robotTxt",
+      "name": "RobotTxt",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ngnb91klunn",
+      "key": "sitemapsXml",
+      "name": "SitemapsXml",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wje2k39663",
+      "key": "plugins",
+      "name": "Plugins",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "662b52c1dd50c90abe7a7dbd"
+    }
+  ],
+  "collectionName": "app",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "created": "2024-01-27T07:48:51.085Z",
+  "cardDataTargets": {},
+  "menuTargets": {}
+}

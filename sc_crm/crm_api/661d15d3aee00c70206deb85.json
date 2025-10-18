@@ -1,0 +1,11 @@
+{
+  "_id": "661d15d3aee00c70206deb85",
+  "name": "Blog Category",
+  "path": "/admin/blog/category/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "661ccdc6aee00c70206deb65",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T11:56:03.463Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

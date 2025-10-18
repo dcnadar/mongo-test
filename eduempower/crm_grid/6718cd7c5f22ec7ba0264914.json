@@ -1,0 +1,68 @@
+{
+  "_id": "6718cd7c5f22ec7ba0264914",
+  "gridTitle": "Eduempower Attachments",
+  "gridType": "form",
+  "crmModelId": "6718af515f22ec7ba0264908",
+  "rows": [
+    {
+      "$key": "7kmxqcd2oyx",
+      "fields": [
+        {
+          "id": "source",
+          "title": "Source",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "uf61rwjwon8"
+        },
+        {
+          "$key": "vuwdierhari",
+          "id": "attachment",
+          "title": "Attachment",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "jd5m4p7t81o",
+          "id": "link",
+          "title": "Link",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "okvqh35spv",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "45paw9f4uf3",
+          "id": "index",
+          "title": "Index",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:18:36.972Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:02.127Z"
+}

@@ -1,0 +1,11 @@
+{
+  "_id": "64aa6d72723fb912796f14a8",
+  "name": "Create Product Variant POST",
+  "action": "FORM_SAVE",
+  "sourceId": "64aacb63c31dec63ac723807",
+  "gridType": "form",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "POST",
+  "path": "/admin/product/variant/create",
+  "created": "2024-01-27T07:48:45.110Z"
+}

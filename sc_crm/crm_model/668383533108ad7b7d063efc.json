@@ -1,0 +1,28 @@
+{
+  "_id": "668383533108ad7b7d063efc",
+  "name": "NativeGrid Global FeaturedBrandCard1 section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "1q22vyebs04",
+      "key": "bgimg",
+      "name": "Bgimg",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "092ff8xvmpax",
+      "key": "img",
+      "name": "Img",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "z2m3sg0w4v9",
+      "key": "off",
+      "name": "Off",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T04:34:27.622Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "661cdfefaee00c70206deb6c",
+  "gridTitle": "FAQ",
+  "gridType": "table",
+  "crmModelId": "661cd493aee00c70206deb67",
+  "columns": [
+    {
+      "$key": "hufoad8ff1w",
+      "key": "question",
+      "name": "Question",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "9gsidwl718a",
+      "key": "answer",
+      "name": "Answer",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "odxi85mfbuc",
+      "key": "edit",
+      "name": "Edit",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "76uyk09ki8e",
+          "value": "Edit",
+          "apiUrl": "/admin/website/faq/update?id=:_id _id",
+          "gridType": "popupForm",
+          "gridTitle": "Update FAQ"
+        },
+        {
+          "$key": "8tu6m9oj0xd",
+          "value": "Delete",
+          "type": "icon",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure want to delete?",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.2.actions.1.icon/2024/3/22/upload_ksv55gb200p-1713781695374.png",
+          "apiUrl": "/admin/website/faq/delete"
+        }
+      ],
+      "sort": true
+    }
+  ],
+  "actions": [
+    {
+      "$key": "s8nzq9zo5td",
+      "value": "Add Faq",
+      "apiUrl": "/admin/website/faq/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T08:06:07.576Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": {
+    "$oid": "68d0f069f42bc3ef836dc7d2"
+  },
+  "gridTitle": "App Permission Entry form",
+  "gridType": "form",
+  "crmModelId": "68d0e93df42bc3ef836dc7ca",
+  "rows": [
+    {
+      "$key": "hcega0lrz3",
+      "fields": [
+        {
+          "$key": "juv3z6389g",
+          "id": "slug",
+          "title": "Slug",
+          "type": "text",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "updateType": "disabled",
+          "createType": "disabled"
+        },
+        {
+          "$key": "3jhbfndi35m",
+          "id": "read",
+          "title": "Read",
+          "type": "bool",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "onChangeCondition": []
+        },
+        {
+          "$key": "fydftpg7zn",
+          "id": "create",
+          "title": "Create",
+          "type": "bool",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "onChangeCondition": [],
+          "nullIds": []
+        },
+        {
+          "$key": "b6azaevwtbq",
+          "id": "update",
+          "title": "Update",
+          "type": "bool",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true
+        },
+        {
+          "$key": "r67e3ji9r2p",
+          "id": "delete",
+          "title": "Delete",
+          "type": "bool",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758523497297"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231678976"
+    }
+  }
+}

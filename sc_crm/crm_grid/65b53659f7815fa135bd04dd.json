@@ -1,0 +1,72 @@
+{
+  "_id": "65b53659f7815fa135bd04dd",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-27T16:59:05.818Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Thumbnail",
+          "id": "thumb",
+          "type": "upload",
+          "span": 6,
+          "o": true,
+          "hint": "User profile image",
+          "$key": "9pqm9xyua79"
+        },
+        {
+          "index": 1,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 8,
+          "o": true,
+          "hint": "Name of the user",
+          "$key": "4f3xdtlmewd"
+        },
+        {
+          "index": 2,
+          "title": "Designation",
+          "id": "description",
+          "type": "text",
+          "span": 10,
+          "o": true,
+          "hint": "User role or bio",
+          "$key": "gxldvy9e6rt"
+        },
+        {
+          "$key": "2kl2tcodr4l",
+          "id": "enableButton",
+          "title": "Enable Button",
+          "type": "bool",
+          "span": 4,
+          "o": true
+        },
+        {
+          "index": 3,
+          "title": "User Click Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 20,
+          "o": true,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c",
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "hint": "Define the action for the button. For example, you could set it to navigate to a user page, open a modal, etc.",
+          "$key": "6cwzj68sa25",
+          "showCondition": "return this.enableButton;"
+        }
+      ],
+      "$key": "u8lcnyaov3"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b53659f7815fa135bd04d9",
+  "gridTitle": "ReactGrid GlobalBlogCards User",
+  "fetchDocWithoutId": false
+}

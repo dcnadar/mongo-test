@@ -1,0 +1,14 @@
+{
+  "_id": "6733642302f79267ffc56572",
+  "key": "leave.leave-history",
+  "name": "Leave History",
+  "apisAccess": [
+    "6718e02c5f22ec7ba0264942",
+    "6718e0305f22ec7ba0264943"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T14:20:19.840Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.648Z"
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "676022c575ed7057fba21a7a",
+  "gridTitle": "SchoolAsset",
+  "gridType": "table",
+  "crmModelId": "6760148375ed7057fba21a77",
+  "columns": [
+    {
+      "$key": "a5ujks7vnvq",
+      "key": "name",
+      "name": "Asset Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "871o4y1kmw8",
+      "key": "description",
+      "name": "Description",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "tgxxqk9ji0q",
+      "key": "images",
+      "name": "Images",
+      "type": "thumb",
+      "sort": true
+    },
+    {
+      "$key": "o6euk1lnvue",
+      "key": "currentlyAssignedTo",
+      "name": "Currently Assigned To",
+      "sort": true,
+      "type": "card"
+    },
+    {
+      "$key": "8m77rek540n",
+      "key": "status",
+      "name": "Status",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "bfnez40r7x",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "dgfwdx3zeu",
+          "value": "Edit ",
+          "slug": "/admin/assets/edit?id=:_id _id"
+        },
+        {
+          "$key": "i56qbgnrkz",
+          "value": "Logs",
+          "gridType": "popupForm",
+          "gridTitle": "Logs View",
+          "slug": "/admin/assets/logs/all?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "xitnmilieo",
+      "value": "Add Assets",
+      "slug": "/admin/assets/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "currentlyAssignedTo",
+    "conditionStatus",
+    "ownershipStatus",
+    "usageStatus",
+    "maintenanceStatus"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-16T12:53:25.131Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [],
+  "updated": "2025-09-08T10:51:03.389Z"
+}

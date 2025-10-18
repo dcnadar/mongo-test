@@ -1,0 +1,15 @@
+{
+  "_id": "67add51c61e8f2055c2ae88f",
+  "name": "All Fee Category",
+  "path": "/admin/school-setup/fee-settings/fee-category/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67add0b161e8f2055c2ae88b",
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T11:18:52.958Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "innerGridType": "table",
+  "innerSourceId": "67add45a61e8f2055c2ae88d"
+}

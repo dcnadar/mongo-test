@@ -1,0 +1,20 @@
+{
+  "_id": "65d1b9922a35a061866919e5",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name"
+    },
+    {
+      "dataType": "STRING",
+      "key": "value",
+      "name": "Value"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalCommon ContentSection DataPoint",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-18T08:02:26.528Z"
+}

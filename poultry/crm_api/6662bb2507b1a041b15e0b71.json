@@ -1,0 +1,13 @@
+{
+  "_id": "6662bb2507b1a041b15e0b71",
+  "name": "Add District",
+  "path": "/admin/location/district/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6662af2307b1a041b15e0b59",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:47:49.581Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

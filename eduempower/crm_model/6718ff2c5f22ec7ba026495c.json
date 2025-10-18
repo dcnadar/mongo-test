@@ -1,0 +1,77 @@
+{
+  "_id": "6718ff2c5f22ec7ba026495c",
+  "name": "Eduempower News",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_news",
+  "properties": [
+    {
+      "$key": "bi9hnat4qhb",
+      "key": "newsSubject",
+      "name": "News Subject",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jnz9t1wv05",
+      "key": "targetUser",
+      "name": "Target User",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "e89z114axs",
+            "key": "STUDENTS",
+            "value": "Students"
+          },
+          {
+            "$key": "qimtw17lzm",
+            "key": "TEACHERS",
+            "value": "Teachers"
+          },
+          {
+            "$key": "v3qjr79ufk",
+            "key": "EVERYONE",
+            "value": "Everyone"
+          },
+          {
+            "$key": "6so8pk7jsr",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "m2f0h6lgog",
+      "key": "publishDate",
+      "name": "Publish Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "1e4g3a0s3tf",
+      "key": "closeDate",
+      "name": "Close Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "z6ncs77ksh",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "izl0i6hjm7",
+      "key": "attachment",
+      "name": "Attachment",
+      "dataType": "LIST_OF",
+      "modelId": "6718fa885f22ec7ba0264957",
+      "listType": "INNER_MODEL"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T13:50:36.610Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:07.393Z"
+}

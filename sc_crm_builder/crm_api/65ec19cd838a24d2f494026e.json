@@ -1,0 +1,22 @@
+{
+  "_id": {
+    "$oid": "65ec19cd838a24d2f494026e"
+  },
+  "name": "Add API",
+  "action": "CRM_GRID",
+  "sourceId": "65ec15d3b86f6b2271a11719",
+  "gridType": "form",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "apiType": "GET",
+  "path": "/admin/api/add",
+  "created": {
+    "$date": {
+      "$numberLong": "1709971917178"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070147872"
+    }
+  }
+}

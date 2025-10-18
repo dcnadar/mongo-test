@@ -1,0 +1,84 @@
+{
+  "_id": "676912907efd1c53bd16c158",
+  "name": "Visit History",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "visit_history",
+  "properties": [
+    {
+      "$key": "x9ixzg60f3f",
+      "key": "visitId",
+      "name": "Visit Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xk55caq2num",
+      "key": "updatedDate",
+      "name": "Updated Date",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jnkldw5m1h",
+      "key": "actionTakenBy",
+      "name": "Updated By",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2nfrebepivj",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "8n8519af8hp",
+            "key": "APPROVAL_PENDING",
+            "value": "Approval Pending"
+          },
+          {
+            "$key": "tbruig1bkf",
+            "key": "APPROVED",
+            "value": "Approved"
+          },
+          {
+            "$key": "yhx6kkp8jgs",
+            "key": "UPCOMING",
+            "value": "Upcoming"
+          },
+          {
+            "$key": "5pmg6ccp7n8",
+            "key": "ONGOING",
+            "value": "Ongoing"
+          },
+          {
+            "$key": "iywaa41alqe",
+            "key": "EXIT",
+            "value": "Exit"
+          },
+          {
+            "$key": "szw3czx29oe",
+            "key": "REJECTED",
+            "value": "Rejected"
+          },
+          {
+            "$key": "pqhlbmwq24e",
+            "key": "PENDING",
+            "value": "Pending"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "njslakjdr2i",
+      "key": "remark",
+      "name": "Remark",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-23T07:34:40.929Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.048Z"
+}

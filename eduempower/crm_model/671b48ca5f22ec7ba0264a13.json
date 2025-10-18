@@ -1,0 +1,39 @@
+{
+  "_id": "671b48ca5f22ec7ba0264a13",
+  "name": "Account Settings",
+  "modelType": "COLLECTION",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "collectionName": "account_settings",
+  "properties": [
+    {
+      "$key": "mh50sm6c02",
+      "key": "currentVisitNumber",
+      "name": "Current Visit Number",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "w7ahe9jcabs",
+      "key": "currentAdmissionEnquiryNo",
+      "name": "currentAdmissionEnquiryNo",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "s48nfi5hnun",
+      "key": "currentAdmissionNo",
+      "name": "currentAdmissionNo",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "36j0r2bo79r",
+      "key": "currentEmployeeNo",
+      "name": "Current Employee No",
+      "dataType": "LONG"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-25T07:29:14.815Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:07.599Z"
+}

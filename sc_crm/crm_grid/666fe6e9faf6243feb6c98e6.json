@@ -1,0 +1,98 @@
+{
+  "_id": "666fe6e9faf6243feb6c98e6",
+  "gridTitle": "App Screen Section",
+  "gridType": "form",
+  "crmModelId": "666fe475faf6243feb6c98de",
+  "rows": [
+    {
+      "$key": "6kfufmo6sop",
+      "fields": [
+        {
+          "id": "screenId",
+          "title": "Screen Id",
+          "type": "list",
+          "multiple": false,
+          "span": 24,
+          "add": false,
+          "delete": false,
+          "$key": "d2abzmedq09",
+          "o": true,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "qt6286ochb",
+          "id": "order",
+          "title": "Order",
+          "type": "number",
+          "span": 12
+        },
+        {
+          "$key": "sfl50dvxrv",
+          "id": "name",
+          "title": "Name",
+          "type": "text"
+        },
+        {
+          "$key": "2ctul5px30y",
+          "id": "meta.crmForm",
+          "title": "Crm Form Id",
+          "type": "text",
+          "span": 4,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "z3ks3v1eva",
+          "updateType": "none",
+          "createType": "none",
+          "id": "gridInfoId",
+          "title": "Grid Type",
+          "apiUrl": "/admin/mobileapp/screen/",
+          "type": "c_page_section_selection",
+          "span": 12,
+          "nullIds": [
+            "gridData"
+          ]
+        },
+        {
+          "$key": "7pg98vfx192",
+          "id": "gridData",
+          "title": "Grid Settings",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": true,
+            "crmFormIdField": "meta.crmForm"
+          },
+          "showCondition": "return !!this.gridInfoId;",
+          "span": 24
+        },
+        {
+          "$key": "34nfg9zum7o",
+          "id": "gridSettings",
+          "title": "Grid Styles",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false,
+            "crmFormId": "65c07f689c7b5168f8ea683d"
+          },
+          "span": 24,
+          "showCondition": "return !!this.gridInfoId;"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-17T07:34:01.239Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "screenId",
+      "required": true
+    }
+  ],
+  "backUrl": "/admin/mobileapp/app-screen-section"
+}

@@ -1,0 +1,122 @@
+{
+  "_id": "673135527a1bdc0b65d0bd27",
+  "gridTitle": "Admission Confirmation",
+  "gridType": "form",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "rows": [
+    {
+      "$key": "4uwelg11igw",
+      "fields": [
+        {
+          "$key": "3ibsevg9ax",
+          "id": "academicDetails.admissionNo",
+          "title": "Admission No.",
+          "type": "text",
+          "span": 8,
+          "disableCondition": "return this.academicDetails && this.academicDetails.autoGenerate;"
+        },
+        {
+          "$key": "w7rgks4wg4e",
+          "id": "academicDetails.autoGenerate",
+          "title": "Auto Generate",
+          "type": "bool",
+          "span": 16
+        },
+        {
+          "$key": "ql39oq8llk",
+          "id": "academicDetails.academicSession",
+          "title": "Academic Session",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe"
+        },
+        {
+          "$key": "x5s5crdsu6",
+          "id": "academicDetails.class",
+          "title": "Class",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "add": false,
+          "delete": false,
+          "updateType": "disabled_fe"
+        },
+        {
+          "$key": "rde1nehvd2",
+          "id": "academicDetails.section",
+          "title": "Section",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "none",
+          "createType": "none",
+          "meta": {
+            "queryParams": "classId=:academicDetails.class&_sessionId=:academicDetails.academicSession academicDetails.class academicDetails.academicSession"
+          }
+        },
+        {
+          "$key": "2rtx6sbmvum",
+          "id": "academicDetails.firstLanguage",
+          "title": "First Language",
+          "type": "text",
+          "span": 8,
+          "updateType": "none",
+          "createType": "none"
+        },
+        {
+          "$key": "sn70k5xshl",
+          "id": "academicDetails.secondLanguage",
+          "title": "Second Language",
+          "type": "text",
+          "span": 8,
+          "updateType": "none",
+          "createType": "none"
+        },
+        {
+          "$key": "c97oj6od4eq",
+          "id": "academicDetails.dateOfAdmission",
+          "title": "Date of Admission",
+          "type": "date",
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "f2cz8a6yoou",
+          "id": "dateOfJoining",
+          "title": "Date of Joining",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "v5eo73m8j9r",
+          "id": "admissionStep",
+          "title": "Admission Step",
+          "type": "text",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "scpngzzu5sp",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "backUrl": "/admin/admission/manage/all",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-10T22:36:02.102Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:03.122Z"
+}

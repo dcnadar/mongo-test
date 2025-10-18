@@ -1,0 +1,90 @@
+{
+  "_id": "662206337d57294ed27050f4",
+  "name": "ReactGrid GlobalPricing2 PricingSection",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "fvod4g321d",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wykusiihfs",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "o7z38dvx2z",
+      "key": "points",
+      "name": "Points",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "lpm6okucxpc",
+      "key": "primary",
+      "name": "Primary",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "5nsn4833zmk",
+      "key": "tag",
+      "name": "Tag",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lb3dpn7v4u",
+      "key": "priceMonthly",
+      "name": "Price Monthly",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2rpiojvmvzx",
+      "key": "monthlyPlanText",
+      "name": "MonthlyPlanText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "mjtrhyawo1q",
+      "key": "priceYearly",
+      "name": "PriceYearly",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vs0w48gcxo",
+      "key": "currencySymbol",
+      "name": "CurrencySymbol",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rqy7p4mhwrb",
+      "key": "yearlyPlanText",
+      "name": "YearlyPlanText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bmg3cj6qmks",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7bcj9s128ey",
+      "key": "enableButton",
+      "name": "Enable Button",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "owm9dpuezz",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-19T05:50:43.944Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

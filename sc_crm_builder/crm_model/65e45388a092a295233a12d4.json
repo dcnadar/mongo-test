@@ -1,0 +1,51 @@
+{
+  "_id": {
+    "$oid": "65e45388a092a295233a12d4"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Model Property Searchable",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "BOOLEAN",
+      "key": "thumbColor",
+      "name": "Thumb Color"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "thumbInitials",
+      "name": "Thumb Initials"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "thumb",
+      "name": "Thumb"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "description",
+      "name": "Description"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "value",
+      "name": "Value"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "primary",
+      "name": "Primary"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709462408961"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152251"
+    }
+  }
+}

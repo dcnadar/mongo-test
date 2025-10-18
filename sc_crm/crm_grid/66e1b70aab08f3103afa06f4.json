@@ -1,0 +1,65 @@
+{
+  "_id": "66e1b70aab08f3103afa06f4",
+  "gridTitle": "Product Cancel Policy",
+  "gridType": "table",
+  "crmModelId": "66e1b55bab08f3103afa06f1",
+  "columns": [
+    {
+      "$key": "knzryea9nr",
+      "key": "policyName",
+      "name": "Policy Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "r2dr0cb5naj",
+      "key": "cancellationWindowHours",
+      "name": "Cancellation Window Hours",
+      "type": "text",
+      "width": 300,
+      "sort": true
+    },
+    {
+      "$key": "ecz9d5sc1js",
+      "key": "cancellationRefundMethod",
+      "name": "Cancellation Refund Method",
+      "type": "text",
+      "width": 300,
+      "sort": false
+    },
+    {
+      "$key": "vifhqsj7sz",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "actions": [
+        {
+          "$key": "rve7ihwfig9",
+          "gridTitle": "Edit Cancel Policy",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/account/policy/cancel-policy/edit?id=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "8fhzdn21bfb",
+      "apiUrl": "/admin/account/policy/cancel-policy/add",
+      "gridType": "popupForm",
+      "gridTitle": "Add Cancel Policy",
+      "value": "Add Cancel Policy"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:28:10.391Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

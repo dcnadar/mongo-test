@@ -1,0 +1,15 @@
+{
+  "_id": "6744580f50a2593e955f0b13",
+  "name": "Delete Leave plan",
+  "path": "/admin/schoolsetup/leave-settings/leave-plan/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "66081f1e60d4f873b5fa4f4a",
+  "gridParams": [],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-25T10:57:19.490Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:56.369Z"
+}

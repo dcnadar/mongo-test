@@ -1,0 +1,64 @@
+{
+  "_id": "662522c5990ac402ed0d3ebd",
+  "name": "Eduempower BookDetails",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "4lc9549jvfg",
+      "key": "publicationYear",
+      "name": "PublicationYear",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "f5cw6318z5a",
+      "key": "author",
+      "name": "Author",
+      "dataType": "REFERENCE",
+      "modelId": "660af18ac7b99128d924f6dc"
+    },
+    {
+      "$key": "h2ure0x21ut",
+      "key": "publisher",
+      "name": "Publisher",
+      "dataType": "REFERENCE",
+      "modelId": "660af1bbc7b99128d924f6dd"
+    },
+    {
+      "$key": "ppbgw4u6y3",
+      "key": "bookType",
+      "name": "Book Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "wt2yuog1hhb",
+            "value": "Subject",
+            "key": "SUBJECT"
+          },
+          {
+            "$key": "sp90uhutru",
+            "value": "Additional",
+            "key": "ADDITIONAL"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "19iz6mgya9o",
+      "key": "noOfPage",
+      "name": "No Of Pages",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "mxncw7y62wp",
+      "key": "bookId",
+      "name": "Book Id",
+      "dataType": "STRING",
+      "unique": true
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T14:29:25.638Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.647Z"
+}

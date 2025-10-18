@@ -1,0 +1,47 @@
+{
+  "_id": "65c07f689c7b5168f8ea683c",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Website Page Section Settings (OLD)",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "styles",
+      "name": "Styles",
+      "$key": "jeviac55vm"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "fullWidth",
+      "name": "Full Width",
+      "$key": "qnudv44f9gl"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "noMarginTop",
+      "name": "No Margin Top",
+      "$key": "gs0ajyhexhk"
+    },
+    {
+      "dataType": "STRING",
+      "key": "backgroundImage",
+      "name": "Background Image",
+      "$key": "hincg1q4v09"
+    },
+    {
+      "dataType": "STRING",
+      "key": "overlay",
+      "name": "Overlay",
+      "$key": "mbw6zp3053f"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "themeColors",
+      "name": "Grid Theme Colors",
+      "modelId": "65c3217c87aef35653f833d9",
+      "$key": "1vu3jm34wvi"
+    }
+  ],
+  "created": "2024-02-05T06:25:44.815Z"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "65de2d61b5345e6e3d426c01",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 1,
+          "title": "SEO Settings",
+          "id": "seo",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "65d4850de9f4dc1ab2f2a1a7",
+            "defaultOpen": true,
+            "showCopyToClipboard": true
+          },
+          "$key": "wpqxxicix8n"
+        }
+      ],
+      "$key": "s4rryfuceom"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65128242551621212be4a5ac",
+  "gridTitle": "Website Page SEO",
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ],
+  "created": "2024-02-27T18:43:45.322Z",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

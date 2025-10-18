@@ -1,0 +1,41 @@
+{
+  "_id": "686b5d29eafb2047bf212bc0",
+  "name": "Eduempower Health Details",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "zf6umxasmrk",
+      "key": "height",
+      "name": "Height (CM)",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "wrgu8zs89j",
+      "key": "weight",
+      "name": "Weight (KG)",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "nafxx24cg2r",
+      "key": "visionL",
+      "name": "Vision (L)",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "905qudjl99k",
+      "key": "visionR",
+      "name": "vision (R)",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cc2s252f7p4",
+      "key": "dentalHygiene",
+      "name": "Dental Hygiene",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-07-07T05:37:45.002Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:08.765Z"
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "661625b3a039b45c27dfddd8",
+  "name": "All Designation",
+  "path": "/admin/account-settings/designation/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660d9176c7b99128d924f76c",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-10T05:37:55.544Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:50.655Z"
+}

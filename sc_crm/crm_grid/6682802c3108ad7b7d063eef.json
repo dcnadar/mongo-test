@@ -1,0 +1,60 @@
+{
+  "_id": "6682802c3108ad7b7d063eef",
+  "gridTitle": "NativeGrid GlobalOmgDealCard section",
+  "gridType": "form",
+  "crmModelId": "66827eb63108ad7b7d063eed",
+  "rows": [
+    {
+      "$key": "l6qiuc3xpjj",
+      "fields": [
+        {
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "$key": "28inz6tiuut"
+        },
+        {
+          "$key": "9gpc9kayeev",
+          "id": "icon",
+          "title": "Icon",
+          "type": "upload",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "1np3n0ivk06",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "4ecl9m18pbj",
+          "id": "mrp",
+          "title": "Mrp",
+          "type": "text"
+        },
+        {
+          "$key": "ojof32m6b4i",
+          "id": "price",
+          "title": "Price",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "238jedrcqmv",
+          "id": "currencySymbol",
+          "title": "CurrencySymbol",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T10:08:44.120Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

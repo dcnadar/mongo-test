@@ -1,0 +1,69 @@
+{
+  "_id": "6513e128581c417ed1d0dcf6",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 12,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Background Image",
+          "id": "bgImage",
+          "type": "upload",
+          "span": 12,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Description",
+          "id": "description",
+          "span": 24,
+          "type": "textarea",
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Enable Button",
+          "id": "enableButton",
+          "span": 8,
+          "type": "bool",
+          "o": false
+        },
+        {
+          "index": 3,
+          "title": "Button Text",
+          "id": "buttonText",
+          "type": "text",
+          "span": 16,
+          "o": false,
+          "showCondition": "return this.enableButton;"
+        },
+        {
+          "index": 2,
+          "title": "Button Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "showCondition": "return this.enableButton;"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "6513dd1f581c417ed1d0dcf3",
+  "gridTitle": "ReactGrid Foodio Top Services Section"
+}

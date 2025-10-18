@@ -1,0 +1,35 @@
+{
+  "_id": "66095e54c7b99128d924f666",
+  "name": "Eduempower FeeStructure Installment",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "lfac9uv45xo",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3svkmsfqrlu",
+      "key": "startDate",
+      "name": "Start Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "1f2x69ippvi",
+      "key": "endDate",
+      "name": "End Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "znj3k2z29kj",
+      "key": "amount",
+      "name": "Amount",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T13:00:04.056Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.494Z"
+}

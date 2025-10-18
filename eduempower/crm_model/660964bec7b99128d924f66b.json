@@ -1,0 +1,131 @@
+{
+  "_id": "660964bec7b99128d924f66b",
+  "name": "Eduempower FeeFine",
+  "modelType": "COLLECTION",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_fee_fine",
+  "properties": [
+    {
+      "$key": "y4fwde0ul7",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "j3oami2bi1o",
+      "key": "fineType",
+      "name": "Fine Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "k2gnv634x1m",
+            "key": "LATE_FINE",
+            "value": "Late Fine"
+          },
+          {
+            "$key": "fc74zkoglng",
+            "key": "CHEQUE_BOUNCE_FINE",
+            "value": "Cheque Bounce Fine"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "g88yf1gqkyp",
+      "key": "feeFavourLogic",
+      "name": "Fee Favour Logic",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "g22sb0ffcy",
+            "key": "FIXED_AMOUNT",
+            "value": "Fixed Amount"
+          },
+          {
+            "$key": "zc9rhrhu6n",
+            "key": "FIXED_PERCENTAGE",
+            "value": "Fixed Percentage"
+          },
+          {
+            "$key": "mbc6vqflg9",
+            "key": "DAY_WISE_AMOUNT",
+            "value": "Day Wise Amount"
+          },
+          {
+            "$key": "zf5aubust99",
+            "key": "SLAB_AMOUNT",
+            "value": "Slab Amount"
+          },
+          {
+            "$key": "kym6fj5eii",
+            "key": "SLAB_PERCENTAGE",
+            "value": "Slab Percentage"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "36mxcek79ff",
+      "key": "value",
+      "name": "Value",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "j2hou9nlqm",
+      "key": "feeSlabFavourLogics",
+      "name": "Fee Slab Favour Logics",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6609624dc7b99128d924f66a"
+    },
+    {
+      "$key": "9qqquujxyd7",
+      "key": "feeFineAssign",
+      "name": "Fee Fine Assign",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "0kssf2p01j4m",
+            "key": "FEE_TYPE",
+            "value": "Fee Types"
+          },
+          {
+            "$key": "lwbwa2uin7l",
+            "key": "CLASSES",
+            "value": "Classes"
+          }
+        ]
+      },
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "et9ufnr0v3",
+      "key": "feeTypes",
+      "name": "Fee Types",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "6608f72b60d4f873b5fa4f6d"
+    },
+    {
+      "$key": "zj6nl0psf0b",
+      "key": "classes",
+      "name": "Classes",
+      "dataType": "LIST_OF",
+      "modelId": "660ace73c7b99128d924f6c4",
+      "listType": "REFERENCE"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "feeFineAssign"
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T13:27:26.119Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.661Z"
+}

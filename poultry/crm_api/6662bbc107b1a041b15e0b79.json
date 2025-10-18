@@ -1,0 +1,13 @@
+{
+  "_id": "6662bbc107b1a041b15e0b79",
+  "name": "Add Producer Group",
+  "path": "/admin/groups/producer-group/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6662afa907b1a041b15e0b5b",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:50:25.778Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "660cdabec7b99128d924f72a",
+  "gridTitle": "Eduempower FeeStructure Installment",
+  "gridType": "form",
+  "crmModelId": "66095e54c7b99128d924f666",
+  "rows": [
+    {
+      "$key": "4evct40nmck",
+      "fields": [
+        {
+          "$key": "f1ggxffx62",
+          "id": "amount",
+          "title": "Amount",
+          "type": "number",
+          "span": 24,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "lkju7ij9mw",
+          "id": "startDate",
+          "title": "Start Date",
+          "type": "date",
+          "span": 24,
+          "updateType": "disabled",
+          "createType": "disabled_fe"
+        },
+        {
+          "$key": "9cv0ecsokf8",
+          "id": "endDate",
+          "title": "End Date",
+          "span": 24,
+          "type": "date",
+          "updateType": "disabled",
+          "createType": "disabled_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T04:27:42.431Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.479Z"
+}

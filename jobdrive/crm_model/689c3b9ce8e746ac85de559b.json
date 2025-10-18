@@ -1,0 +1,30 @@
+{
+  "_id": "689c3b9ce8e746ac85de559b",
+  "name": "trainingAdditionalFeatures",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "61hst1gvv1u",
+      "key": "completioncriteria",
+      "name": "Completion Criteria",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "k6a1l325vq",
+      "key": "certificatetemplate",
+      "name": "Certificate Template",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0ojbsmgoy23n",
+      "key": "enablequiz",
+      "name": "Enable quiz/assessment for this training",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T07:15:40.700Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.034Z"
+}

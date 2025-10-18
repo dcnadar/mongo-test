@@ -1,0 +1,58 @@
+{
+  "_id": "65128242551621212be4a5ac",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name",
+      "unique": true,
+      "searchable": {
+        "value": true
+      },
+      "$key": "43ld03fqzwa"
+    },
+    {
+      "dataType": "STRING",
+      "key": "path",
+      "name": "Path",
+      "unique": true,
+      "searchable": {
+        "primary": false,
+        "description": true
+      },
+      "$key": "z6g1q6n4pyp"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "seo",
+      "name": "SEO",
+      "modelId": "65d4850de9f4dc1ab2f2a1a5",
+      "$key": "d2f8s0edgif"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Website Page",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "menuTargets": {
+    "title": "name",
+    "description": "seo.description",
+    "thumb": "seo.image",
+    "details": [
+      {
+        "key": "Seo Title",
+        "value": "seo.title",
+        "$key": "u64hb1hweds"
+      },
+      {
+        "$key": "z1h5843hmdl",
+        "key": "Path",
+        "value": "path"
+      }
+    ]
+  },
+  "collectionName": "website_page",
+  "created": "2024-01-27T07:48:51.528Z",
+  "cardDataTargets": {}
+}

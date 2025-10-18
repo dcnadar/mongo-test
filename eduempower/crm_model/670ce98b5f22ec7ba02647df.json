@@ -1,0 +1,24 @@
+{
+  "_id": "670ce98b5f22ec7ba02647df",
+  "name": "Eduempower Change Password Temp",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "qvv5r7asq8p",
+      "key": "password",
+      "name": "Password",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gk62quyg047",
+      "key": "userId",
+      "name": "User",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-14T09:51:07.032Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.783Z"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "66b0832fe9cbf725297e4d92",
+  "gridTitle": "OrderReview Save",
+  "gridType": "form",
+  "crmModelId": "6684e3603108ad7b7d063f47",
+  "rows": [
+    {
+      "$key": "9w7h74g03p",
+      "fields": [
+        {
+          "$key": "m9x3otyshun",
+          "id": "orderReview.rating",
+          "title": "Rating",
+          "type": "number",
+          "min": 1,
+          "max": 5,
+          "span": 8
+        },
+        {
+          "$key": "f42p4opa4s4",
+          "id": "orderReview.message",
+          "title": "Message",
+          "type": "textarea",
+          "o": false,
+          "span": 24
+        },
+        {
+          "$key": "hut4273zo",
+          "id": "orderReview.images",
+          "title": "Images",
+          "type": "upload",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 24,
+          "min": 1,
+          "max": 5,
+          "meta": {
+            "uploadUISize": "sm"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-03T10:45:59.668Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "gridParams": []
+}

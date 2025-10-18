@@ -1,0 +1,28 @@
+{
+  "_id": "667bb29d74a25c4c696adafd",
+  "gridTitle": "Navigator",
+  "gridType": "form",
+  "crmModelId": "667bb23574a25c4c696adafc",
+  "rows": [
+    {
+      "$key": "oebqqnpgthn",
+      "fields": [
+        {
+          "id": "screens",
+          "title": "Screens",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 10,
+          "$key": "fqwvhd6rlc"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-26T06:18:05.393Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

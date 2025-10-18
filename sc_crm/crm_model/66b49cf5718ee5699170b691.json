@@ -1,0 +1,23 @@
+{
+  "_id": "66b49cf5718ee5699170b691",
+  "name": "ReactGrid GlobalPricing6 pointGroups",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "aiifix84xq",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "p3ii5fw8ngn",
+      "key": "points",
+      "name": "Points",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-08T10:24:53.632Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

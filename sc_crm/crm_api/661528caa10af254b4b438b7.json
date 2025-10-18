@@ -1,0 +1,12 @@
+{
+  "_id": "661528caa10af254b4b438b7",
+  "name": "Staff",
+  "path": "/admin/account/staff/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6615269aa10af254b4b438b1",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T11:38:50.289Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

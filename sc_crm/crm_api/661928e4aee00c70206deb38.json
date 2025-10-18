@@ -1,0 +1,13 @@
+{
+  "_id": "661928e4aee00c70206deb38",
+  "name": "Add Wishlist",
+  "path": "/admin/customer/wishlist/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "661903fbaee00c70206deb26",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T12:28:20.917Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": []
+}

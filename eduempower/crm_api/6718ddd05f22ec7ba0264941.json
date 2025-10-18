@@ -1,0 +1,15 @@
+{
+  "_id": "6718ddd05f22ec7ba0264941",
+  "name": "Edit Leave Request",
+  "path": "/admin/leave/leave-request/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660fe795c7b99128d924f782",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T11:28:16.805Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:54.070Z"
+}

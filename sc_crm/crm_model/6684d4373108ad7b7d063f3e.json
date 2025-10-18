@@ -1,0 +1,36 @@
+{
+  "_id": "6684d4373108ad7b7d063f3e",
+  "name": "NativeGrid GlobalFashionHoulSaleCard4",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "3vgy69lzv3r",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1rcoay3hig9",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9q7frrd9jmv",
+      "key": "discount",
+      "name": "Discount",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wepykeiwkj",
+      "key": "button",
+      "name": "Button",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T04:31:51.332Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

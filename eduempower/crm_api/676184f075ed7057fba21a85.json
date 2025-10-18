@@ -1,0 +1,17 @@
+{
+  "_id": "676184f075ed7057fba21a85",
+  "name": "Assets all",
+  "path": "/admin/staff/assets/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67126c0b5f22ec7ba0264866",
+  "innerGridType": "table",
+  "innerSourceId": "6761812775ed7057fba21a84",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-17T14:04:32.245Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [],
+  "updated": "2025-09-08T10:50:56.608Z"
+}

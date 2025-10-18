@@ -1,0 +1,13 @@
+{
+  "_id": "6662b9f207b1a041b15e0b6c",
+  "name": "All Producer Group",
+  "path": "/admin/groups/producer-group/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6662b1dc07b1a041b15e0b60",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:42:42.941Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "68d6126d50534a672a4cc5e3"
+  },
+  "name": "Branding",
+  "path": "/admin/settings/branding",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "68d54c3d50534a672a4cc5dc",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758859885732"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231673070"
+    }
+  }
+}

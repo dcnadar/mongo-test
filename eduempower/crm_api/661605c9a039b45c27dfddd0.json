@@ -1,0 +1,13 @@
+{
+  "_id": "661605c9a039b45c27dfddd0",
+  "name": "Edit Publisher",
+  "path": "/admin/schoolsetup/publisher/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cf5dbc7b99128d924f73f",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-10T03:21:45.320Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:50.588Z"
+}

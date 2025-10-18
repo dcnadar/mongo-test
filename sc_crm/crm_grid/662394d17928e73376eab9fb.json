@@ -1,0 +1,30 @@
+{
+  "_id": "662394d17928e73376eab9fb",
+  "gridTitle": "UserPasswordTemp",
+  "gridType": "form",
+  "crmModelId": "662394a07928e73376eab9fa",
+  "rows": [
+    {
+      "$key": "2ms546eaf8o",
+      "fields": [
+        {
+          "id": "password",
+          "title": "New Password",
+          "type": "password",
+          "span": 24,
+          "$key": "5o2l2sybo9d"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-20T10:11:29.730Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "gridParams": [
+    {
+      "key": "user",
+      "required": true
+    }
+  ]
+}

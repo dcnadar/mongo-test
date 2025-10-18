@@ -1,0 +1,29 @@
+{
+  "_id": "68a846f9fca26b7dd1cad8aa",
+  "gridTitle": "Settings Menu",
+  "gridType": "menu",
+  "crmModelId": "689f18d04e2ed283d94615be",
+  "menuItems": [
+    {
+      "$key": "536h7jp4xqf",
+      "key": "basicDetails",
+      "value": "Profile",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 1024 1024\" class=\"icon\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#000000\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"><path d=\"M320 89.6h640v76.8H320V89.6z m0 768h640v76.8H320v-76.8z m-256-768h128v76.8H64V89.6z m256 384h640v76.8H320V473.6z m-256 0h128v76.8H64V473.6z m0 384h128v76.8H64v-76.8z\" fill=\"#000000\"></path></g></svg>",
+      "slug": "/admin/settings/profile"
+    },
+    {
+      "$key": "cy8r9io4n9u",
+      "key": "changePassword",
+      "value": "Change Password",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#000000\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <g id=\"Layer_2\" data-name=\"Layer 2\"> <g id=\"invisible_box\" data-name=\"invisible box\"> <rect width=\"48\" height=\"48\" fill=\"none\"></rect> </g> <g id=\"Layer_7\" data-name=\"Layer 7\"> <g> <path d=\"M39,18H35V13A11,11,0,0,0,24,2H22A11,11,0,0,0,11,13v5H7a2,2,0,0,0-2,2V44a2,2,0,0,0,2,2H39a2,2,0,0,0,2-2V20A2,2,0,0,0,39,18ZM15,13a7,7,0,0,1,7-7h2a7,7,0,0,1,7,7v5H15ZM37,42H9V22H37Z\"></path> <circle cx=\"15\" cy=\"32\" r=\"3\"></circle> <circle cx=\"23\" cy=\"32\" r=\"3\"></circle> <circle cx=\"31\" cy=\"32\" r=\"3\"></circle> </g> </g> </g> </g></svg>",
+      "slug": "/admin/settings/changepassword"
+    }
+  ],
+  "thumb": "https://dtunuh7qfnt1m.cloudfront.net/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/65e8cdff97f0eca7ba094627/imageUpload/2025/7/22/file_rhlir943ejm-1755858665324.jpg",
+  "title": "Settings",
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-22T10:31:21.038Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/settings",
+  "updated": "2025-09-05T11:02:53.485Z"
+}

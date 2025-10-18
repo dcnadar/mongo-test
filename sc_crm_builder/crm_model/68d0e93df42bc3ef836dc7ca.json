@@ -1,0 +1,60 @@
+{
+  "_id": {
+    "$oid": "68d0e93df42bc3ef836dc7ca"
+  },
+  "name": "AppPermissionEntry",
+  "properties": [
+    {
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "$key": "qab90e3rza"
+    },
+    {
+      "$key": "6buli7pyklt",
+      "key": "slug",
+      "name": "Slug",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    },
+    {
+      "$key": "9f5i155er1k",
+      "key": "read",
+      "name": "Read",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "saxxutkr83",
+      "key": "create",
+      "name": "Create",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "ibjk2wvubd",
+      "key": "update",
+      "name": "Update",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "0z8pdhspp9xb",
+      "key": "delete",
+      "name": "Delete",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "modelType": "INNER",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758521661441"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231683779"
+    }
+  }
+}

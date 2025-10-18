@@ -1,0 +1,37 @@
+{
+  "_id": "660cf2bdc7b99128d924f738",
+  "gridTitle": "Eduempower SchoolBuilding",
+  "gridType": "form",
+  "crmModelId": "66098350c7b99128d924f674",
+  "rows": [
+    {
+      "$key": "7to9y1knpds",
+      "fields": [
+        {
+          "$key": "1821lpe4gau",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T06:10:05.247Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:58.886Z"
+}

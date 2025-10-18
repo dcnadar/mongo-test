@@ -1,0 +1,72 @@
+{
+  "_id": "6685048e3108ad7b7d063f5e",
+  "gridTitle": "NativeGrid GlobalCouponCards section",
+  "gridType": "form",
+  "crmModelId": "668502373108ad7b7d063f5b",
+  "rows": [
+    {
+      "$key": "bzyfza9ht97",
+      "fields": [
+        {
+          "$key": "0w0ggn6f9i4g",
+          "id": "image",
+          "title": "Image",
+          "span": 8,
+          "type": "upload",
+          "multiple": false
+        },
+        {
+          "$key": "tfkdag5xkmh",
+          "id": "code",
+          "title": "Code",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7fbawdnyp9j",
+          "id": "expiry",
+          "title": "Expiry",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "pm2fkdjgwqp",
+          "id": "minPurchase",
+          "title": "MinPurchase",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "qpuiedhunre",
+          "id": "minItems",
+          "title": "MinItems",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "45ojoujyh3o",
+          "id": "flatOff",
+          "title": "FlatOff",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T07:58:06.220Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

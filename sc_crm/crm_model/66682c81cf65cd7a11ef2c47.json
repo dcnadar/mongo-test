@@ -1,0 +1,43 @@
+{
+  "_id": "66682c81cf65cd7a11ef2c47",
+  "name": "ReactGrid GlobalContentSection2V2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "wj15x89l0a",
+      "key": "header",
+      "name": "Header",
+      "dataType": "INNER_MODEL",
+      "modelId": "65d1d9a79563a39f0decd552"
+    },
+    {
+      "$key": "peoadfp7yg",
+      "key": "mainQuote",
+      "name": "Main Quote",
+      "dataType": "INNER_MODEL",
+      "modelId": "65d1b9942a35a061866919e7"
+    },
+    {
+      "$key": "9p8x4fvxlbl",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "ANY"
+    },
+    {
+      "$key": "9ldxhbzczi",
+      "key": "allowComment",
+      "name": "AllowComment",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "2qdunpfy3wz",
+      "key": "commentData",
+      "name": "CommentData",
+      "dataType": "INNER_MODEL",
+      "modelId": "6683b6753108ad7b7d063f21"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-11T10:52:49.017Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

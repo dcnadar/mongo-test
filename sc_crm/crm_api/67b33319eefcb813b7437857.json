@@ -1,0 +1,15 @@
+{
+  "_id": "67b33319eefcb813b7437857",
+  "name": "ProductReview",
+  "path": "/admin/public/product/review",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "67b33240eefcb813b7437856",
+  "gridParams": [],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-17T13:01:13.734Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

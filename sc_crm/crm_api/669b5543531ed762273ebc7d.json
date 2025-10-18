@@ -1,0 +1,14 @@
+{
+  "_id": "669b5543531ed762273ebc7d",
+  "name": "all transaction",
+  "path": "/admin/order/transaction/add/all",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "668ce076531ed762273ebc02",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-20T06:12:19.401Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

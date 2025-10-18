@@ -1,0 +1,15 @@
+{
+  "_id": "666484e407b1a041b15e0bab",
+  "name": "Email Settings",
+  "path": "/admin/account/setting/email",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66657c9a07b1a041b15e0bd8",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-08T16:20:52.128Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "innerGridType": "form",
+  "innerSourceId": "666484cd07b1a041b15e0baa"
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "668299183108ad7b7d063ef5",
+  "gridTitle": "ReactGrid GlobalCategoryCard2",
+  "gridType": "form",
+  "crmModelId": "668290693108ad7b7d063ef3",
+  "rows": [
+    {
+      "$key": "trbsrl2r0n",
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "$key": "3vn9e98mpwy",
+          "span": 8
+        },
+        {
+          "$key": "xzlxxpmzus",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 16
+        },
+        {
+          "$key": "ql0kef4xvsf",
+          "id": "section",
+          "title": "Section",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 15
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T11:55:04.075Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "upsertDoc": false
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "660cd9afc7b99128d924f728",
+  "gridTitle": "Eduempower FeeSchedule Installment",
+  "gridType": "form",
+  "crmModelId": "66095c5ec7b99128d924f664",
+  "rows": [
+    {
+      "$key": "75u8uhrgxt",
+      "fields": [
+        {
+          "$key": "b3a5uw6jjap",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "il1ipuj1wrk",
+          "id": "startDate",
+          "title": "Start Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "efq1ipyz22t",
+          "id": "endDate",
+          "title": "End Date",
+          "type": "date",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T04:23:11.233Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:58.410Z"
+}

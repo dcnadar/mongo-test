@@ -1,0 +1,48 @@
+{
+  "_id": "66c524cfd443bf1476557a0f",
+  "name": "Common Address",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "2glf9vsjate",
+      "key": "addressLine1",
+      "name": "addressLine1",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "g9jwgmj6b5k",
+      "key": "addressLine2",
+      "name": "addressLine2",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "c0sz33xfot",
+      "key": "locality",
+      "name": "locality",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3nanqieimfv",
+      "key": "pincode",
+      "name": "pincode",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "t1sv9co3om",
+      "key": "district",
+      "name": "district",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "twx77keir7",
+      "key": "state",
+      "name": "state",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-08-20T23:20:47.527Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

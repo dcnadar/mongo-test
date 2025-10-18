@@ -1,0 +1,14 @@
+{
+  "_id": "67adc08b61e8f2055c2ae87b",
+  "name": "Edit leave Type",
+  "path": "/admin/school-setup/leave-settings/leave-type/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67adaa8b61e8f2055c2ae877",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T09:51:07.752Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

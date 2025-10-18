@@ -1,0 +1,93 @@
+{
+  "_id": "670d001b5f22ec7ba02647eb",
+  "gridTitle": "User",
+  "gridType": "form",
+  "crmModelId": "6703b5dc30083226ac6affc4",
+  "rows": [
+    {
+      "$key": "10kn60cknotg",
+      "fields": [
+        {
+          "$key": "5pw4htf0bnd",
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "v4gfxzqcocm",
+          "id": "lastName",
+          "title": "Last Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "uyby22rqpvo",
+          "id": "email",
+          "title": "Email",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "dmb8qil9ihp",
+          "id": "userName",
+          "title": "User Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "mmgtaokp41l",
+          "id": "mobileNumber",
+          "title": "Mobile Number",
+          "type": "text",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "b6er6ptbo0e",
+          "id": "callingCode",
+          "title": "Calling Code",
+          "type": "list",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "kv02dzgmgv",
+          "id": "birthDate",
+          "title": "Birth Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "vxdnsy7c5e8",
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "287z84jzb3d",
+          "id": "userType",
+          "title": "User Type",
+          "type": "list",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "akmu763k1hj",
+          "id": "admin",
+          "title": "Admin",
+          "type": "bool",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-14T11:27:23.427Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:51.955Z"
+}

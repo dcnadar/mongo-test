@@ -1,0 +1,25 @@
+{
+  "_id": "65b0e0d54720140d59822ed8",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "descriptions",
+      "name": "Descriptions"
+    },
+    {
+      "dataType": "STRING",
+      "key": "svg",
+      "name": "SVG"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalFeatureSection1 Section",
+  "modelType": "INNER",
+  "created": "2024-01-24T10:05:09.473Z",
+  "modelStatus": "ACTIVE"
+}

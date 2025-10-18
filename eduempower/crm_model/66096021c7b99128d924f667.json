@@ -1,0 +1,89 @@
+{
+  "_id": "66096021c7b99128d924f667",
+  "name": "Eduempower FeeStructure",
+  "modelType": "COLLECTION",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_fee_structure",
+  "properties": [
+    {
+      "$key": "0vlz85ovs01f",
+      "key": "classId",
+      "name": "Class Id",
+      "dataType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4"
+    },
+    {
+      "$key": "d3qwv2ak1x5",
+      "key": "categoryId",
+      "name": "Category Id",
+      "dataType": "REFERENCE",
+      "modelId": "6608f6c160d4f873b5fa4f6c"
+    },
+    {
+      "$key": "yaet3tc04cq",
+      "name": "Type Id",
+      "key": "typeId",
+      "dataType": "REFERENCE",
+      "modelId": "6608f72b60d4f873b5fa4f6d"
+    },
+    {
+      "$key": "e1velwak9q",
+      "key": "scheduleId",
+      "name": "Schedule Id",
+      "dataType": "REFERENCE",
+      "modelId": "66095db4c7b99128d924f665"
+    },
+    {
+      "$key": "t0uajqf0t3",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "l0rc7yqbj1k",
+      "key": "installments",
+      "name": "Installments",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66095e54c7b99128d924f666"
+    },
+    {
+      "$key": "a5wj2elacba",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "tqyrmtijuf",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "ly0np242hpb",
+            "key": "INACTIVE",
+            "value": "Inactive"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "3g0cf7hlnpa",
+      "key": "installmentCount",
+      "name": "Installment Count",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "8nuxjep1ffg",
+      "key": "amount",
+      "name": "Amount",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T13:07:45.407Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.527Z"
+}

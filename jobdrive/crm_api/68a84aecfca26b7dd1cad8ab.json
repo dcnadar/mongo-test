@@ -1,0 +1,16 @@
+{
+  "_id": "68a84aecfca26b7dd1cad8ab",
+  "name": "Change Password",
+  "path": "/admin/settings/changepassword",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "68a846f9fca26b7dd1cad8aa",
+  "innerGridType": "form",
+  "innerSourceId": "68a82cfb3b1a69052f99ec02",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-22T10:48:12.445Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:50.495Z"
+}

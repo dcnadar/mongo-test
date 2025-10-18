@@ -1,0 +1,44 @@
+{
+  "_id": "660cf556c7b99128d924f73c",
+  "gridTitle": "Eduempower Library",
+  "gridType": "form",
+  "crmModelId": "660af0dac7b99128d924f6da",
+  "rows": [
+    {
+      "$key": "yjboo9ul0g",
+      "fields": [
+        {
+          "$key": "9yos91hehmj",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "2v9it7qf",
+          "id": "initials",
+          "title": "Initials",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T06:21:10.708Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.017Z"
+}

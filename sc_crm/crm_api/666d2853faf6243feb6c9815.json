@@ -1,0 +1,13 @@
+{
+  "_id": "666d2853faf6243feb6c9815",
+  "name": "Add SVG Icon",
+  "path": "/admin/website/settings/icon/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "666d27c7faf6243feb6c9811",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-15T05:36:19.250Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

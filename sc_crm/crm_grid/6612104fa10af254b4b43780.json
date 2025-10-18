@@ -1,0 +1,43 @@
+{
+  "_id": "6612104fa10af254b4b43780",
+  "gridTitle": "ReactGrid GlobalHeader2 MainMenuItem SubMenuItem Colum\t",
+  "gridType": "form",
+  "crmModelId": "66120cc6a10af254b4b4377c",
+  "rows": [
+    {
+      "$key": "agqmglkrlw",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "xxh1e5rsb28"
+        },
+        {
+          "$key": "qdl2zxdvdf",
+          "id": "icon",
+          "title": "Icon",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "layx9ky48io",
+          "id": "items",
+          "title": "Items",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 20
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T03:17:35.039Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

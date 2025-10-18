@@ -1,0 +1,13 @@
+{
+  "_id": "661a7a1faee00c70206deb5a",
+  "name": "Edit Rooms",
+  "path": "/admin/schoolsetup/rooms/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cf50ac7b99128d924f73b",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-13T12:27:11.666Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:51.281Z"
+}

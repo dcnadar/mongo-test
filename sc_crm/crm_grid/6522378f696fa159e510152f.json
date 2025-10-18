@@ -1,0 +1,40 @@
+{
+  "_id": "6522378f696fa159e510152f",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2023-10-08T00:00:00.000Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Common Card",
+          "id": "commonCard",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "652235bb696fa159e510152c"
+          }
+        },
+        {
+          "index": 1,
+          "title": "Sections",
+          "id": "sections",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 10,
+          "add": true,
+          "delete": true,
+          "countTitle": "No Section Added"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "6522338b696fa159e5101528",
+  "gridTitle": "Foodio Home Crousal form"
+}

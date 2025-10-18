@@ -1,0 +1,105 @@
+{
+  "_id": "67384c7c5bfbb47aebef4658",
+  "gridTitle": "Eduempower Branch",
+  "gridType": "form",
+  "crmModelId": "673846135bfbb47aebef4654",
+  "rows": [
+    {
+      "$key": "g3gy51o4uld",
+      "fields": [
+        {
+          "$key": "5u2vu1rcswh",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "maca63aqddf",
+          "id": "branchCode",
+          "title": "Branch Code",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "9cviewc2axh",
+          "id": "board",
+          "title": "Board",
+          "type": "list",
+          "multiple": false,
+          "span": 24
+        },
+        {
+          "$key": "dkdaw3j5kvf",
+          "id": "primaryEmail",
+          "title": "Primary Email",
+          "type": "email",
+          "o": false,
+          "span": 12
+        },
+        {
+          "$key": "5vehcydjj7o",
+          "id": "primaryContact",
+          "title": "Primary Contact",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "x5rixgxo5zc",
+          "id": "secondaryEmail",
+          "title": "Secondary Email",
+          "type": "email",
+          "o": true,
+          "span": 12
+        },
+        {
+          "$key": "hbgj8wr8s7r",
+          "id": "secondaryContact",
+          "title": "Secondary Contact",
+          "type": "text",
+          "o": true,
+          "span": 12
+        },
+        {
+          "$key": "jpc6io4e24p",
+          "id": "website",
+          "title": "Website",
+          "type": "text",
+          "o": true,
+          "span": 12
+        },
+        {
+          "$key": "gg0u2k14u5",
+          "id": "mapLocation",
+          "title": "Map Location",
+          "type": "location",
+          "o": true,
+          "span": 12
+        },
+        {
+          "$key": "l19iu0uzit",
+          "id": "address",
+          "title": "Address",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "backUrl": "/admin/account/all",
+  "gridParams": [
+    {
+      "key": "ecomAccountId",
+      "required": true
+    }
+  ],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-16T07:40:44.814Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

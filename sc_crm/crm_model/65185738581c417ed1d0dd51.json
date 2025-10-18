@@ -1,0 +1,16 @@
+{
+  "_id": "65185738581c417ed1d0dd51",
+  "properties": [
+    {
+      "name": "Crm Form",
+      "key": "crmForm",
+      "dataType": "REFERENCE",
+      "modelId": "6511dc91f9686d32acb3e2cf"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Website Page Section Meta",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:51.668Z"
+}

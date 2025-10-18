@@ -1,0 +1,32 @@
+{
+  "_id": "66ab5265e287100717693d32",
+  "name": "WebsiteGlobalThemeButtonSettings",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "m2woba40ln",
+      "key": "primaryButton",
+      "name": "Primary Button",
+      "dataType": "INNER_MODEL",
+      "modelId": "66ab5146e287100717693d31"
+    },
+    {
+      "$key": "7ssqoleqxw2",
+      "key": "secondaryButton",
+      "name": "Secondary Button",
+      "dataType": "INNER_MODEL",
+      "modelId": "66ab5146e287100717693d31"
+    },
+    {
+      "$key": "ml1l2395hn8",
+      "key": "linkTextColor",
+      "name": "Link Text Color",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T09:16:21.101Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

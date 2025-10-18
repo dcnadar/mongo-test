@@ -1,0 +1,89 @@
+{
+  "_id": "6899c6557af5145812897af9",
+  "gridTitle": "Student",
+  "gridType": "form",
+  "crmModelId": "6703b5dc30083226ac6affc4",
+  "rows": [
+    {
+      "$key": "jevwmb36ol",
+      "fields": [
+        {
+          "id": "firstName",
+          "type": "text",
+          "span": 8,
+          "$key": "cbjnodvso1h",
+          "title": "First name"
+        },
+        {
+          "$key": "6vjqi460w8p",
+          "id": "lastName",
+          "title": "Last name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "wp940oc55e8",
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": 8
+        },
+        {
+          "$key": "ask7hirsriu",
+          "id": "mobileNumber",
+          "title": "Phone Number",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "s0udf2xkh9",
+          "id": "graduationyear",
+          "title": "Graduation Year",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ztb63ubbfnp",
+          "id": "address",
+          "title": "Address",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "jx3erwrzobp",
+          "id": "academicinformation",
+          "title": "Academic Information",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "zye6t068gdl",
+          "id": "userType",
+          "title": "Usertype",
+          "type": "text",
+          "createType": "hidden_fe",
+          "updateType": "hidden"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-11T10:30:44.999Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "userType",
+      "required": true,
+      "serverValue": "fixed_value",
+      "value": "STUDENT"
+    }
+  ],
+  "updated": "2025-09-05T11:02:52.037Z"
+}

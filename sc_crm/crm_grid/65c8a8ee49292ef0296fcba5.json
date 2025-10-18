@@ -1,0 +1,94 @@
+{
+    "gridType": "table",
+    "status": "ACTIVE",
+    "accountId": "65d0d41b0d1f40b74ff1bd92",
+    "crmModelId": "65c8a8ee49292ef0296fcba4",
+    "gridTitle": "NiralaFoundation Examinations",
+    "apiUrl": "/admin/exams",
+    "columns": [
+        {
+            "index": 0,
+            "name": "Name",
+            "key": "name",
+            "type": "text",
+            "sort": true
+        },
+        {
+            "index": 1,
+            "name": "Center Name",
+            "key": "centerName",
+            "type": "text",
+            "sort": true
+        },
+        {
+            "index": 2,
+            "name": "Registration Fee",
+            "key": "registrationFee",
+            "type": "text",
+            "sort": true,
+            "valueCondition": "return '<b>₹</b>' + this.registrationFee;"
+        },
+        {
+            "index": 3,
+            "name": "Registration Starts",
+            "key": "registrationStarts",
+            "type": "date",
+            "sort": true
+        },
+        {
+            "index": 4,
+            "name": "Last Date of Signup",
+            "key": "lastDateOfSignup",
+            "type": "date",
+            "sort": true
+        },
+        {
+            "index": 7,
+            "name": "Admit Card Release",
+            "key": "admitCardRelease",
+            "type": "date",
+            "sort": true
+        },
+        {
+            "index": 8,
+            "name": "Result Declaration",
+            "key": "resultDeclaration",
+            "type": "date",
+            "sort": true
+        },
+        {
+            "index": 9,
+            "name": "Status",
+            "key": "status",
+            "type": "tag",
+            "sort": true
+        },
+        {
+            "index": 3,
+            "name": "Edit",
+            "key": "edit",
+            "type": "actions",
+            "show": true,
+            "align": "right",
+            "sort": false,
+            "width": 100,
+            "actions": [
+                {
+                    "value": "Edit",
+                    "slug": "/admin/exams/update?id=:_id _id",
+                    "type": "icon_button",
+                    "icon": "https://cdn-icons-png.flaticon.com/512/10015/10015359.png"
+                }
+            ]
+        }
+    ],
+    "createButton": {
+        "value": "Add Examination",
+        "slug": "/admin/exams/create"
+    },
+    "search": {
+        "placeHolder": "Search by Examination name"
+    },
+    "created": "2024-01-27T07:48:47.166Z",
+    "_id": "65c8a8ee49292ef0296fcba5"
+}

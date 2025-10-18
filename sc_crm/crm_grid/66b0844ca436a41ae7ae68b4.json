@@ -1,0 +1,47 @@
+{
+  "_id": "66b0844ca436a41ae7ae68b4",
+  "gridTitle": "WebsitePageGridThemeSettings Spacing",
+  "gridType": "form",
+  "crmModelId": "66b06aa7a436a41ae7ae68ac",
+  "rows": [
+    {
+      "$key": "lx9x2eu14qe",
+      "fields": [
+        {
+          "$key": "iyql9qto0qk",
+          "id": "top",
+          "title": "Top",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "kytw65dhzfm",
+          "id": "bottom",
+          "title": "Botton",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "ci9a0alvvcv",
+          "id": "left",
+          "title": "Left",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "btc0hy5wpus",
+          "id": "right",
+          "title": "Right",
+          "o": false,
+          "span": 8,
+          "type": "number"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-05T07:50:36.636Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "upsertDoc": false
+}

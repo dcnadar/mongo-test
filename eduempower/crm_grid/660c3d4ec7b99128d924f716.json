@@ -1,0 +1,139 @@
+{
+  "_id": "660c3d4ec7b99128d924f716",
+  "gridTitle": "Eduempower Staff EmploymentDetails",
+  "gridType": "form",
+  "crmModelId": "660ae805c7b99128d924f6d9",
+  "rows": [
+    {
+      "$key": "oxnhxo37mj",
+      "fields": [
+        {
+          "$key": "j0el2bbf1oi",
+          "id": "signature",
+          "title": "Signature",
+          "type": "image",
+          "span": 8
+        },
+        {
+          "$key": "yrasucwd0p",
+          "id": "departmentId",
+          "title": "Department",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "designationId"
+          ]
+        },
+        {
+          "$key": "j2a2y8t1259",
+          "id": "designationId",
+          "title": "Designation",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "departmentId=:departmentId departmentId"
+          }
+        },
+        {
+          "id": "employeeId",
+          "title": "Employee Id",
+          "type": "text",
+          "updateType": "none",
+          "span": 4,
+          "$key": "jyfterxhbb",
+          "disableCondition": "return this.autoGenerate;"
+        },
+        {
+          "$key": "1i04z8x79vc",
+          "id": "autoGenerate",
+          "title": "Auto Generate Employee Id",
+          "type": "bool",
+          "span": 4,
+          "onChangeCondition": [
+            {
+              "$key": "f8dvbtujq6g",
+              "key": "employeeId",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/staff/next-employee-id"
+            }
+          ]
+        },
+        {
+          "$key": "k9g340pxiva",
+          "id": "attendanceCode",
+          "title": "Attendance Code",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "sqe26nh1nso",
+          "id": "staffType",
+          "title": "Staff Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "1wihe2pzpe8",
+          "id": "employmentNature",
+          "title": "Employment Nature",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "g7zt4vwxsop",
+          "id": "highestQualification",
+          "title": "Highest Qualification",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "ynysbi1xg2",
+          "id": "esiNumber",
+          "title": "ESI Number",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "nv7e8pi3l0m",
+          "id": "epfNumber",
+          "title": "EPF Number",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "x7n70bfrsx",
+          "id": "reportingTo",
+          "title": "ReportingTo",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "ema0o6simw",
+          "id": "mentor",
+          "title": "Mentor",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-02T17:15:58.487Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.111Z"
+}

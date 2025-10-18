@@ -1,0 +1,95 @@
+{
+  "_id": "6738f30d15937f5e7bfb2e70",
+  "gridTitle": "Eduempower Account Admin",
+  "gridType": "table",
+  "crmModelId": "6738ee4815937f5e7bfb2e60",
+  "columns": [
+    {
+      "index": 0,
+      "key": "firstName",
+      "type": "name",
+      "sort": true,
+      "name": "Full Name",
+      "$key": "7y9agrmcdgk"
+    },
+    {
+      "index": 1,
+      "key": "email",
+      "name": "Email",
+      "type": "text",
+      "sort": true,
+      "width": 200,
+      "$key": "3h43p0qsyk9"
+    },
+    {
+      "index": 2,
+      "key": "mobileNumber",
+      "name": "Contact Number",
+      "type": "text",
+      "valueCondition": "return '+91-' + this.mobileNumber",
+      "sort": false,
+      "$key": "9ni0tvvdoyd"
+    },
+    {
+      "index": 1,
+      "key": "actions",
+      "type": "actions",
+      "align": "left",
+      "actions": [
+        {
+          "value": "Edit",
+          "$key": "6qhvezkxwle",
+          "apiUrl": "/admin/account/users/edit?id=:_id _id",
+          "gridTitle": "Edit Admin",
+          "gridType": "popupForm"
+        },
+        {
+          "$key": "yirw1ik4r5",
+          "gridTitle": "Update Password",
+          "value": "Update Password",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/account/users/password/update?id=:_id _id"
+        }
+      ],
+      "sort": false,
+      "name": "Edit",
+      "width": 50,
+      "$key": "6kvuqkdy9fa"
+    }
+  ],
+  "actions": [
+    {
+      "value": "Add",
+      "$key": "ve3fxgf18a",
+      "apiUrl": "/admin/account/users/add",
+      "gridType": "popupForm",
+      "gridTitle": "Add Admin"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "qxb1zuvejzb",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EQUALS": "STAFF"
+      }
+    ]
+  },
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-18T06:28:01.585Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "fetchAdditionalKeys": [
+    "middelName",
+    "lastName"
+  ],
+  "gridParams": [
+    {
+      "key": "ecomAccountId",
+      "required": true
+    }
+  ]
+}

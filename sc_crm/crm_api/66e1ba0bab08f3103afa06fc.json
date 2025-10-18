@@ -1,0 +1,14 @@
+{
+  "_id": "66e1ba0bab08f3103afa06fc",
+  "name": "Edit Product Return Policy",
+  "path": "/admin/account/policy/return-policy/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66e1b146ab08f3103afa06f0",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:40:59.281Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

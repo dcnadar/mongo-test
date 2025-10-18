@@ -1,0 +1,99 @@
+{
+  "_id": "67b0397db4dd3169274b7b79",
+  "gridTitle": "Eduempower Class",
+  "gridType": "table",
+  "crmModelId": "67b0341db4dd3169274b7b76",
+  "columns": [
+    {
+      "$key": "c3ll10lhadp",
+      "key": "sequenceNo",
+      "name": "Sequence No",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "x9f02nx22v",
+      "key": "classType",
+      "name": "Class Type",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "4bzt5et2ods",
+      "key": "classNameInWord",
+      "name": "Class Name",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "dudilofocan",
+      "key": "capacity",
+      "name": "Setting Capacity",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "fjfyro3w6p6",
+      "key": "numberOfSections",
+      "name": "No. Of Sections",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "61y50g65kat",
+      "key": "noOfIncharge",
+      "name": "No. Of Incharge",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "e5awvzsqrit",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true
+    },
+    {
+      "$key": "2uf4l7b6mp3",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "g0v6quhh7al",
+          "gridTitle": "Class",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/school-setup/class/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "zc1e0cqf8o",
+      "gridTitle": "Add Class",
+      "gridType": "popupForm",
+      "value": "Add Class",
+      "apiUrl": "/admin/school-setup/class/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "kg18opn4jwg",
+        "propertyKey": "entityType",
+        "operator": "EQUALS",
+        "EQUALS": "MASTER_SETUP"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-15T06:51:41.530Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

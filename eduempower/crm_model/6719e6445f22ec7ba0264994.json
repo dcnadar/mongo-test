@@ -1,0 +1,164 @@
+{
+  "_id": "6719e6445f22ec7ba0264994",
+  "name": "Eduempower Alerts",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_alerts",
+  "properties": [
+    {
+      "$key": "x86sxywlym",
+      "key": "source",
+      "name": "Source",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "mlfjl47bqer",
+            "key": "IMAGE",
+            "value": "Image"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ah3j0py2oef",
+      "key": "banner",
+      "name": "Banner",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "14aovzig465d",
+      "key": "url",
+      "name": "Url",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "flhrktwtsmm",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5zugymgao3p",
+      "key": "type",
+      "name": "Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "vip5jsj2ede",
+            "key": "GENERAL",
+            "value": "General"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "7xrt40jg3zx",
+      "key": "targetUsers",
+      "name": "Target User",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "8fbehcscc85",
+            "key": "STUDENTS",
+            "value": "Students"
+          },
+          {
+            "$key": "6f41rufjudr",
+            "key": "TEACHERS",
+            "value": "Teachers"
+          },
+          {
+            "$key": "456vvw34vs1",
+            "key": "EVERYONE",
+            "value": "Everyone"
+          },
+          {
+            "$key": "qgjzhj7v6be",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "09ewqb87ydu",
+      "key": "alertFor",
+      "name": "Alert Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "p2ujxn2m97r",
+            "key": "CLASS_WISE",
+            "value": "Class Wise"
+          },
+          {
+            "$key": "yn0m6zpuu6",
+            "key": "STUDENT_WISE",
+            "value": "Student Wise"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "nuc9dfwk8yp",
+      "key": "classes",
+      "name": "Class",
+      "dataType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4"
+    },
+    {
+      "$key": "gfoal0m5dor",
+      "key": "studentId",
+      "name": "Student",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "g0nfabh5hkp",
+      "key": "publishDate",
+      "name": "Publish Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "yk1v9520nvm",
+      "key": "closeDate",
+      "name": "Close Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "t4kikzu9src",
+      "key": "platform",
+      "name": "Platform",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "nuaziv58gnq",
+            "key": "WEB",
+            "value": "Web"
+          },
+          {
+            "$key": "tau6momounf",
+            "key": "MOBILE",
+            "value": "Mobile"
+          },
+          {
+            "$key": "mdziwwssk2h",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T06:16:36.516Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:07.498Z"
+}

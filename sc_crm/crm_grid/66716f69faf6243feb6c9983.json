@@ -1,0 +1,73 @@
+{
+  "_id": "66716f69faf6243feb6c9983",
+  "gridTitle": "ReactGrid GlobalTrufalLogin",
+  "gridType": "form",
+  "crmModelId": "667163d1faf6243feb6c997d",
+  "rows": [
+    {
+      "$key": "lvg15mhu4ca",
+      "fields": [
+        {
+          "id": "logo",
+          "title": "Logo",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "$key": "uoi3r38deal",
+          "uploadUISize": "lg",
+          "meta": {
+            "uploadUISize": "lg"
+          }
+        },
+        {
+          "$key": "qm1ykdzgof",
+          "id": "basicInfoForm",
+          "title": "BasicInfoForm",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "p6ryvwbs1i",
+          "id": "loginWithotp",
+          "title": "LoginWithotp",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "7uney1xoyd7",
+          "id": "forgetPassword",
+          "title": "ForgetPassword",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "w69kosfhwbo",
+          "id": "otpForm",
+          "title": "OtpForm",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T11:28:41.274Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

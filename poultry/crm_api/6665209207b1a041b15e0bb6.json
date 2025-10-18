@@ -1,0 +1,13 @@
+{
+  "_id": "6665209207b1a041b15e0bb6",
+  "name": "All Gram Panchayat",
+  "path": "/admin/location/gram-panchayat/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6664538207b1a041b15e0ba7",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-09T03:25:06.489Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

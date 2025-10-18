@@ -1,0 +1,27 @@
+{
+  "_id": "689f09817805d23c977499c1",
+  "name": "Accounts",
+  "modelType": "COLLECTION",
+  "collectionName": "Account_temp",
+  "properties": [
+    {
+      "$key": "xerpr3wxmy",
+      "key": "Id",
+      "name": "ID",
+      "unique": true,
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "qulfkohlppd",
+      "key": "AccountName",
+      "name": "Name",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-08-15T10:18:41.632Z",
+  "createdBy": "688b3e0b049b509a8e8b88ce",
+  "updated": "2025-09-08T10:51:08.831Z"
+}

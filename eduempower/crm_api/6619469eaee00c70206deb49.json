@@ -1,0 +1,21 @@
+{
+  "_id": "6619469eaee00c70206deb49",
+  "name": "Edit Student",
+  "path": "/admin/student/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "661631de706ffe32cf5d96dd",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-12T14:35:10.752Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "ecomApiMappings": [],
+  "gridParams": [
+    {
+      "key": "studentId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ],
+  "updated": "2025-09-08T10:50:51.014Z"
+}

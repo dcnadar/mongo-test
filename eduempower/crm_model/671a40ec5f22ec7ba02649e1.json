@@ -1,0 +1,53 @@
+{
+  "_id": "671a40ec5f22ec7ba02649e1",
+  "name": "Import Table data",
+  "modelType": "COLLECTION",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "collectionName": "import_table_data",
+  "properties": [
+    {
+      "$key": "c7gn4c2jz6q",
+      "key": "templateName",
+      "name": "Template Name ",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "uwc270eg8c",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ruzboi63e5h",
+      "key": "templateType",
+      "name": "Template type",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gwztox0fwbt",
+      "key": "entityType",
+      "name": "Entity type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "00sii8jm88bq",
+            "key": "circular",
+            "value": "Circular"
+          },
+          {
+            "$key": "3lz1v1xnlza",
+            "key": "staff",
+            "value": "Staff"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T12:43:24.109Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:07.532Z"
+}

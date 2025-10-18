@@ -1,0 +1,67 @@
+{
+  "_id": {
+    "$oid": "68d0edd8f42bc3ef836dc7cd"
+  },
+  "gridTitle": "App Permission table",
+  "gridType": "table",
+  "crmModelId": "68d0e9c8f42bc3ef836dc7cb",
+  "columns": [
+    {
+      "$key": "chblow9ghhj",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "wxixg7vwoq",
+      "key": "key",
+      "name": "Key",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "juone3xcyel",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": false,
+      "actions": [
+        {
+          "$key": "hq7d2z8ygus",
+          "value": "Edit",
+          "gridTitle": "Edit Permission",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/app-permission/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "ggp4raib2mg",
+      "apiUrl": "/admin/app-permission/add",
+      "gridTitle": "Add Permission",
+      "value": "Add Permission",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758522840474"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231678893"
+    }
+  },
+  "breadcrumb": []
+}

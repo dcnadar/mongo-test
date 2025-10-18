@@ -1,0 +1,53 @@
+{
+  "_id": "6779367833897d49a1050d5a",
+  "gridTitle": "Staff All History",
+  "gridType": "table",
+  "crmModelId": "660fe465c7b99128d924f781",
+  "columns": [
+    {
+      "$key": "uqowgq7h6d",
+      "key": "when",
+      "name": "When",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "kaggwk8mhv",
+      "key": "doneBy",
+      "name": "Done By",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "7z3qcum7fr7",
+      "key": "details",
+      "name": "Details",
+      "sort": true,
+      "type": "changes"
+    },
+    {
+      "$key": "yltepmhgp6",
+      "key": "message",
+      "name": "Message",
+      "type": "text",
+      "sort": true
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-04T13:24:08.784Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true,
+      "documentKey": "userId"
+    }
+  ],
+  "updated": "2025-09-08T10:51:03.725Z"
+}

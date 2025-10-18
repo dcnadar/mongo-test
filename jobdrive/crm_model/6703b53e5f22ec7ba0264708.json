@@ -1,0 +1,34 @@
+{
+  "_id": "6703b53e5f22ec7ba0264708",
+  "name": "SO Account",
+  "modelType": "COLLECTION",
+  "collectionName": "ecom_account",
+  "properties": [
+    {
+      "$key": "webd0w9gkcb",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "unique": true,
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "xm2b2m8j3qr",
+      "key": "logo",
+      "name": "Logo",
+      "unique": false,
+      "dataType": "STRING",
+      "searchable": {
+        "thumb": true
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-07T10:17:34.686Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:54.272Z"
+}

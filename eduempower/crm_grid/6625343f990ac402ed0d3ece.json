@@ -1,0 +1,59 @@
+{
+  "_id": "6625343f990ac402ed0d3ece",
+  "gridTitle": "Eduempower IssuedBooks",
+  "gridType": "form",
+  "crmModelId": "662533b2990ac402ed0d3ecd",
+  "rows": [
+    {
+      "$key": "uzrcx93aoat",
+      "fields": [
+        {
+          "$key": "xc0szomkuw9",
+          "id": "bookId",
+          "title": "Book Name",
+          "type": "list",
+          "span": 12,
+          "multiple": false
+        },
+        {
+          "$key": "yjns8f47xa",
+          "id": "inventoryBookId",
+          "title": "Availble Books",
+          "type": "list",
+          "span": 12,
+          "multiple": false,
+          "meta": {
+            "queryParams": "bookId=:bookId bookId"
+          }
+        },
+        {
+          "$key": "ev7hkljszv",
+          "id": "track",
+          "title": "Track",
+          "type": "form_array",
+          "span": 24,
+          "add": true,
+          "delete": true,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "$key": "p5w00jrg0lb",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "span": 8,
+          "value": "ISSUED",
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T15:43:59.557Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:51:01.198Z"
+}

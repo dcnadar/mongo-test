@@ -1,0 +1,20 @@
+{
+  "_id": "65b53659f7815fa135bd04d8",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "heading",
+      "name": "Heading"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalBlogCards Header",
+  "modelType": "INNER",
+  "created": "2024-01-27T16:59:05.524Z",
+  "modelStatus": "ACTIVE"
+}

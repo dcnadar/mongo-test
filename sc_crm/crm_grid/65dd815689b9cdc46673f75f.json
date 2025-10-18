@@ -1,0 +1,30 @@
+{
+  "_id": "65dd815689b9cdc46673f75f",
+  "gridType": "menu",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "gridTitle": "Website Page Menu",
+  "menuItems": [
+    {
+      "key": "website-page-sections",
+      "slug": "/admin/website/page/section",
+      "value": "Sections"
+    },
+    {
+      "key": "website-page-seo",
+      "slug": "/admin/website/page/seo",
+      "value": "SEO"
+    }
+  ],
+  "thumb": "https://cdn-icons-png.flaticon.com/512/2210/2210197.png",
+  "slug": "/admin/website/page",
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ],
+  "crmModelId": "65128242551621212be4a5ac",
+  "created": "2024-02-27T06:29:42.092Z"
+}

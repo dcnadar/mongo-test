@@ -1,0 +1,93 @@
+{
+  "_id": "65fd6613cd007d13da9db2cc",
+  "gridTitle": "ReactGrid GlobalBlogCards4 Section",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "l3uxhjievx",
+      "fields": [
+        {
+          "$key": "bcfms89o5x",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "nz03hl0fmn",
+          "id": "tag",
+          "title": "Tag",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "poid8n5pojs",
+          "id": "date",
+          "title": "Date",
+          "type": "date",
+          "format": "MM/DD/YYYY",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "8j64wmbtqxs",
+          "id": "descriptions",
+          "title": "Description",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "2q1wzo24h2t",
+          "id": "enableButton",
+          "title": "Enable Section Click",
+          "type": "bool",
+          "o": true,
+          "span": 4
+        },
+        {
+          "$key": "8em9im38lq4",
+          "id": "buttonAction",
+          "title": "Click Action",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 20,
+          "o": false,
+          "showCondition": "return this.enableButton;"
+        },
+        {
+          "id": "user",
+          "title": "User",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "w0xakgaeaum",
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-22T11:05:55.630Z",
+  "createdBy": "65f1586feece0c4fb315fa82",
+  "crmModelId": "65fd5b2bcd007d13da9db2bf"
+}

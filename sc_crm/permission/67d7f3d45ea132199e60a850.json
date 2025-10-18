@@ -1,0 +1,12 @@
+{
+  "_id": "67d7f3d45ea132199e60a850",
+  "key": "editor",
+  "name": "Editor Api Access",
+  "apisAccess": [
+    "6619262eaee00c70206deb32",
+    "66192627aee00c70206deb31"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-17T10:05:08.887Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

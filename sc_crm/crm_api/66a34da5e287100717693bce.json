@@ -1,0 +1,13 @@
+{
+  "_id": "66a34da5e287100717693bce",
+  "name": "Order Settings",
+  "path": "/admin/account/setting/order",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66a34d7ee287100717693bcc",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T07:17:57.259Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

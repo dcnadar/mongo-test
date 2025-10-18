@@ -1,0 +1,61 @@
+{
+  "_id": "689f05a54e2ed283d94615b5",
+  "name": "placementDriveRequirements",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "kn3l9cm43",
+      "key": "isActive",
+      "name": "Is Active",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "x6x945awezf",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "j77xqgec0i",
+            "value": "Draft",
+            "key": "DRAFT"
+          },
+          {
+            "$key": "s51r0poio6b",
+            "value": "Open",
+            "key": "OPEN"
+          },
+          {
+            "$key": "dkjic9i5waa",
+            "value": "Closed",
+            "key": "CLOSED"
+          },
+          {
+            "$key": "0cd8m0xe9l7b",
+            "value": "Completed",
+            "key": "COMPLETED"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "2v6wpzj3gh9",
+      "key": "registeredStudents",
+      "name": "Registered Students",
+      "dataType": "INNER_MODEL",
+      "modelId": "689f04384e2ed283d94615b3"
+    },
+    {
+      "$key": "c5n8usbqsmt",
+      "key": "results",
+      "name": "Results",
+      "dataType": "INNER_MODEL",
+      "modelId": "689f04a24e2ed283d94615b4"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T10:02:13.182Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.617Z"
+}

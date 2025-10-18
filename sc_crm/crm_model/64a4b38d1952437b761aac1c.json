@@ -1,0 +1,46 @@
+{
+  "_id": "64a4b38d1952437b761aac1c",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Brand Name",
+      "unique": true,
+      "searchable": {
+        "value": true
+      },
+      "$key": "vadfppcr5p"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description",
+      "searchable": {
+        "description": false
+      },
+      "$key": "fwednftvvil"
+    },
+    {
+      "dataType": "STRING",
+      "key": "logo",
+      "name": "Brand Logo",
+      "searchable": {
+        "thumb": true
+      },
+      "$key": "ph09u46crla"
+    }
+  ],
+  "collectionName": "brand",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Brand",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "cardDataTargets": {
+    "title": "name",
+    "thumb": "logo",
+    "slug": "/admin/product/brand/update?id=:brand brand"
+  },
+  "created": "2024-01-27T07:48:50.447Z",
+  "menuTargets": {}
+}

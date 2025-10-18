@@ -1,0 +1,114 @@
+{
+  "_id": "671261ec5f22ec7ba026485b",
+  "gridTitle": "Work Experience",
+  "gridType": "table",
+  "crmModelId": "67124cce5f22ec7ba0264857",
+  "columns": [
+    {
+      "$key": "ccuoq2az1a5",
+      "key": "designationId",
+      "name": "Designation",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "nif1drjiy38",
+      "key": "departmentId",
+      "name": "Department",
+      "type": "card",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "b6p2kcxyypo",
+      "key": "natureOfEducation",
+      "name": "Nature Of Education",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "kdzoe0szzig",
+      "key": "organizationName",
+      "name": "Organization Name",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "o4owpp237o",
+      "key": "place",
+      "name": "Place",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "t5p9yxdo198",
+      "key": "from",
+      "name": "From",
+      "type": "date",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "g8nf7vr0ag8",
+      "key": "to",
+      "name": "To",
+      "type": "date",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "2ywn00vq07w",
+      "key": "currentlyWorking",
+      "name": "Currently Working",
+      "type": "html_view",
+      "sort": false,
+      "width": 150
+    },
+    {
+      "$key": "hsf1z2ckure",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 100,
+      "actions": [
+        {
+          "$key": "38yjzk0ewsg",
+          "gridTitle": "Edit Work Experience",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/staff/work-experience/edit?id=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "grpnjd5fznj",
+      "apiUrl": "/admin/staff/work-experience/add",
+      "gridTitle": "Add Work Experience",
+      "value": "Add Work Experience",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T13:26:04.941Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/staff/all",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true
+    }
+  ],
+  "updated": "2025-09-08T10:51:01.509Z"
+}

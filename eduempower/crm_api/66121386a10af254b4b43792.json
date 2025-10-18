@@ -1,0 +1,15 @@
+{
+  "_id": "66121386a10af254b4b43792",
+  "name": "All Membership Rules",
+  "path": "/admin/schoolsetup/membership-rules/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "661210eba10af254b4b43782",
+  "innerGridType": "table",
+  "innerSourceId": "660d911cc7b99128d924f76b",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T03:31:18.024Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:48.422Z"
+}

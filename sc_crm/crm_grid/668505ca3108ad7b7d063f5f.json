@@ -1,0 +1,39 @@
+{
+  "_id": "668505ca3108ad7b7d063f5f",
+  "gridTitle": "NativeGrid GlobalCouponCards",
+  "gridType": "form",
+  "crmModelId": "668502653108ad7b7d063f5c",
+  "rows": [
+    {
+      "$key": "ystlmw6823",
+      "fields": [
+        {
+          "id": "section",
+          "title": "Section",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 10
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T08:03:22.453Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

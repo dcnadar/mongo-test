@@ -1,0 +1,46 @@
+{
+  "_id": "668d15b6531ed762273ebc06",
+  "name": "OrderInvoice Biller",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "c9bca1hzabi",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2i5hfvm3f4b",
+      "key": "phoneNumber",
+      "name": "Phone Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2k4yin00wt",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8bneg8y3buq",
+      "key": "address",
+      "name": "Address",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "n2uz7alnxpn",
+      "key": "gstNo",
+      "name": "GST No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "twnnft0xu9p",
+      "key": "cinNo",
+      "name": "CIN No",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-09T10:49:26.752Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

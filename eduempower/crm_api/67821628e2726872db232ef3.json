@@ -1,0 +1,21 @@
+{
+  "_id": "67821628e2726872db232ef3",
+  "name": "Add Admission Documents\t",
+  "path": "/admin/admission/documents/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "671267805f22ec7ba026485e",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-11T06:56:40.792Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true,
+      "documentKey": "userId"
+    }
+  ],
+  "updated": "2025-09-08T10:50:57.144Z"
+}

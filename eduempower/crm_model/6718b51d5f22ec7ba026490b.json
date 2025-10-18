@@ -1,0 +1,319 @@
+{
+  "_id": "6718b51d5f22ec7ba026490b",
+  "name": "Eduempower Circulars",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_circulars",
+  "properties": [
+    {
+      "$key": "dxuwqsha5gw",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "zv639c4b3iq",
+      "key": "publishDate",
+      "name": "Publish Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "sqygw0pvvxq",
+      "name": "Publish Time",
+      "key": "publishTime",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yrc8vf6eaim",
+      "key": "noticeFor",
+      "name": "Notice For",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "n7shkwsuq7j",
+            "key": "STAFF",
+            "value": "Staff"
+          },
+          {
+            "$key": "pnf54odgafj",
+            "key": "STUDENT",
+            "value": "Student"
+          },
+          {
+            "$key": "f3qpaococ4b",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "dxn0xh3sts",
+      "key": "audienceType",
+      "name": "Audience Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "21qncq4dqhl",
+            "key": "CLASS_WISE",
+            "value": "Class Wise"
+          },
+          {
+            "$key": "d7f3dlhv66",
+            "key": "SECTION_WISE",
+            "value": "Section Wise"
+          },
+          {
+            "$key": "4b5lutwdb7a",
+            "key": "STUDENT_WISE",
+            "value": "Student Wise"
+          },
+          {
+            "$key": "9r2ysi99tbm",
+            "key": "ROUTE_WISE",
+            "value": "Route Wise"
+          },
+          {
+            "$key": "65id9x1oafg",
+            "key": "VEHICLE_WISE",
+            "value": "Vehicle Wise"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "mq2u91dfuyr",
+      "key": "classes",
+      "name": "Classes",
+      "dataType": "LIST_OF",
+      "modelId": "660ace73c7b99128d924f6c4",
+      "listType": "REFERENCE"
+    },
+    {
+      "$key": "dncltz5uv6t",
+      "key": "studentType",
+      "name": "Student Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "5g0esaqo37c",
+            "key": "SCHOLARSHIP",
+            "value": "Scholarship"
+          },
+          {
+            "$key": "2siqzierctx",
+            "key": "NON_SCHOLARSHIP",
+            "value": "Non Scholarship"
+          },
+          {
+            "$key": "399kfqz0tcy",
+            "key": "DAY_SCHOLAR",
+            "value": "Day scholar"
+          },
+          {
+            "$key": "t23zacoztxd",
+            "key": "HOSTELER",
+            "value": "Hosteler"
+          },
+          {
+            "$key": "pjgnw0pk2l",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "uhjyku9iqwd",
+      "key": "admissionType",
+      "name": "Old/New Admission",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "6y47ih4f0vs",
+            "key": "OLD",
+            "value": "Old Student"
+          },
+          {
+            "$key": "iefiv1sujp",
+            "key": "NEW",
+            "value": "New Student"
+          },
+          {
+            "$key": "3a66fm5iv1e",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "e5yzxnuwhzo",
+      "key": "stations",
+      "name": "Stations",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "vfwi1pz6rd",
+            "key": "GREEN",
+            "value": "green"
+          },
+          {
+            "$key": "7b6a339bmzg",
+            "value": "Red",
+            "key": "RED"
+          },
+          {
+            "$key": "j5slkj5wan",
+            "key": "YELLOW",
+            "value": "Yellow"
+          },
+          {
+            "$key": "x906yr35r7h",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "0vclp9mdymi",
+      "key": "houses",
+      "name": "Houses",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "k4ou4v82vp",
+            "key": "GREEN",
+            "value": "Green"
+          },
+          {
+            "$key": "y1c9vvq434",
+            "key": "RED",
+            "value": "Red"
+          },
+          {
+            "$key": "t770atk53nd",
+            "key": "YELLOW",
+            "value": "Yellow"
+          },
+          {
+            "$key": "gaml5fw4w1u",
+            "value": "All",
+            "key": "ALL"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "n3v0teqcq1",
+      "key": "departments",
+      "name": "Departments",
+      "dataType": "REFERENCE",
+      "modelId": "660817b960d4f873b5fa4f47"
+    },
+    {
+      "$key": "pktjoqdkg9g",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "znzef9n1y5m",
+      "key": "isPublic",
+      "name": "Public",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "t82bjds37t",
+      "key": "notificationType",
+      "name": "Send",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "pqni7w3656",
+            "key": "ONLY_SMS",
+            "value": "Only SMS"
+          },
+          {
+            "$key": "v7mfrecp1dm",
+            "key": "ONLY_NOTIFICATION",
+            "value": "Only Notification"
+          },
+          {
+            "$key": "63mwas4ltp9",
+            "key": "SMS_AND_NOTIFICATION",
+            "value": "SMS & Notification"
+          },
+          {
+            "$key": "2uph3vub8u5",
+            "key": "NONE",
+            "value": "None"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "3j3mjpmxtrp",
+      "name": "Staff Category",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ca2r3m0gas",
+            "key": "ALL_STAFF",
+            "value": "All Staff"
+          },
+          {
+            "$key": "czmay37ht6t",
+            "key": "TEACHING_STAFF",
+            "value": "Teaching Staff"
+          },
+          {
+            "$key": "4y7qqel12xu",
+            "key": "NON_TEACHING_STAFF",
+            "value": "Non Teaching Staff"
+          }
+        ]
+      },
+      "key": "staffCategory"
+    },
+    {
+      "$key": "mbmp4aqoj8",
+      "key": "attachments",
+      "name": "Attachments",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6718af515f22ec7ba0264908"
+    },
+    {
+      "$key": "n7hxau6fxij",
+      "key": "classSections",
+      "name": "Class & Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6718ac2d5f22ec7ba0264907"
+    },
+    {
+      "$key": "ttqji1o3mc",
+      "key": "admissionNo",
+      "name": "Enter Admission No. Comma Separated",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T08:34:37.495Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:07.221Z"
+}

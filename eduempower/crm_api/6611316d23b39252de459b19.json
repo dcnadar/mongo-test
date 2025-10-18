@@ -1,0 +1,13 @@
+{
+  "_id": "6611316d23b39252de459b19",
+  "name": "Edit Class",
+  "path": "/admin/schoolsetup/class-section/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660d1424c7b99128d924f744",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T11:26:37.014Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:45.236Z"
+}

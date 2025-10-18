@@ -1,0 +1,38 @@
+{
+  "_id": "6602e5b1eea36066ca04cbab",
+  "name": "ReactGrid GlobalFooter2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "l724iov3xx",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "hplrldsg61",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "z32b9rd16d",
+      "key": "section",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6602e626eea36066ca04cbac"
+    },
+    {
+      "$key": "g42bae46hcv",
+      "key": "iconLinks",
+      "name": "IconLinks",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6602e6beeea36066ca04cbad"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-26T15:11:45.832Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

@@ -1,0 +1,60 @@
+{
+  "_id": "6614ee4ba10af254b4b43894",
+  "gridTitle": "Branches",
+  "gridType": "table",
+  "crmModelId": "6614ecd6a10af254b4b43892",
+  "columns": [
+    {
+      "$key": "xjvk54r662p",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "e96eqiz521i",
+      "key": "address",
+      "name": "Address",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "2l1rpkb9gt4",
+      "key": "edit",
+      "name": "Edit",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "dr6um8glgmn",
+          "value": "Edit",
+          "slug": "/admin/account/branches/update?id=:_id _id"
+        },
+        {
+          "$key": "1pntwaj055e",
+          "value": "Delete",
+          "gridMsg": "Are you sure want to delete?",
+          "gridType": "confirm",
+          "type": "icon",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.2.actions.1.icon/2024/3/22/upload_g3s57us4ei-1713783544659.png",
+          "apiUrl": "/admin/account/branches/delete"
+        }
+      ],
+      "sort": true
+    }
+  ],
+  "actions": [
+    {
+      "$key": "wxcm2etecqr",
+      "slug": "/admin/account/branches/add",
+      "value": "Add Branches"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T07:29:15.922Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

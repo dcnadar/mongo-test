@@ -1,0 +1,46 @@
+{
+  "_id": "6618f1ceaee00c70206deb24",
+  "name": "Cart Items",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "cart_items",
+  "properties": [
+    {
+      "$key": "te9g42nokrl",
+      "key": "productVariantId",
+      "name": "Product Variant",
+      "dataType": "REFERENCE",
+      "modelId": "64a5d14d099de82bca61ca99"
+    },
+    {
+      "$key": "zk53fj3j23e",
+      "key": "quantity",
+      "name": "Quantity",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "yaq1ej76ix",
+      "key": "customerId",
+      "name": "Customer",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6"
+    },
+    {
+      "$key": "maxtgz97v9",
+      "key": "totalAmmount",
+      "name": "Total Ammount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "3eyal89f27i",
+      "key": "totalDiscount",
+      "name": "Total Discount",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T08:33:18.963Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

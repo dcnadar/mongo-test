@@ -1,0 +1,14 @@
+{
+  "_id": "66d5355df477b55766069fdb",
+  "name": "Dashboard",
+  "path": "/admin/dashboard",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "dashboard",
+  "sourceId": "668783e23eaa6c40dacfe527",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-02T03:47:41.442Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

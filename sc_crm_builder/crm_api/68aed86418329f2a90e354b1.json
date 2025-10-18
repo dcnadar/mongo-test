@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "68aed86418329f2a90e354b1"
+  },
+  "name": "Edit Object",
+  "path": "/admin/entity/object/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "68aecb9a18329f2a90e354a9",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1756289124814"
+    }
+  },
+  "createdBy": "68adb9f43e8ef56770f82104",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149564"
+    }
+  }
+}

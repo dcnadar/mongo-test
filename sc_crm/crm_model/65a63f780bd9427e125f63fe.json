@@ -1,0 +1,17 @@
+{
+  "_id": "65a63f780bd9427e125f63fe",
+  "properties": [
+    {
+      "dataType": "LIST_OF",
+      "key": "section",
+      "name": "Section",
+      "listType": "INNER_MODEL",
+      "modelId": "65a63ee13b27a4e28376faa4"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalImageSlider",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-16T08:34:00.741Z"
+}

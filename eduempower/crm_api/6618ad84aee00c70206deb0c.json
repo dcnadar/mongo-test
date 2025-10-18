@@ -1,0 +1,13 @@
+{
+  "_id": "6618ad84aee00c70206deb0c",
+  "name": "All Student",
+  "path": "/admin/student/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6618ad53aee00c70206deb0b",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-12T03:41:56.411Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:50.845Z"
+}

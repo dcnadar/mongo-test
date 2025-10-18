@@ -1,0 +1,75 @@
+{
+  "_id": "66113f8423b39252de459b1c",
+  "gridTitle": "Website Footer Section",
+  "gridType": "form",
+  "crmModelId": "66113e5a23b39252de459b1b",
+  "rows": [
+    {
+      "$key": "9b2gbwceucq",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name ",
+          "type": "text",
+          "o": false,
+          "span": 8,
+          "$key": "gph4ch0pp3l"
+        },
+        {
+          "$key": "eleaz6ul9d",
+          "id": "order",
+          "title": "Order",
+          "type": "number",
+          "span": 8,
+          "o": false
+        },
+        {
+          "$key": "k45sdi2d577",
+          "id": "gridInfo",
+          "title": "Grid Info",
+          "type": "c_page_section_selection",
+          "span": 8,
+          "apiUrl": "/admin/website/page/",
+          "o": false,
+          "meta": {
+            "searchAdditionalKeys": [
+              "crmForm",
+              "reactGrid"
+            ]
+          },
+          "nullIds": []
+        },
+        {
+          "$key": "4davmtp1p3r",
+          "id": "gridData",
+          "title": "Grid Data",
+          "showCondition": "return !!this.gridInfo;",
+          "type": "inner_form",
+          "span": 24,
+          "meta": {
+            "crmFormIdField": "gridInfo.meta.crmForm",
+            "showCopyToClipboard": true,
+            "defaultOpen": false
+          }
+        },
+        {
+          "$key": "kek7571t4m",
+          "showCondition": "return !!this.gridInfo;",
+          "id": "gridSettings",
+          "title": "Grid Setting",
+          "type": "inner_form",
+          "span": 24,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": true
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-06T12:26:44.562Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/website/footer/section/all"
+}

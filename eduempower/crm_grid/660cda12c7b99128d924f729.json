@@ -1,0 +1,45 @@
+{
+  "_id": "660cda12c7b99128d924f729",
+  "gridTitle": "Eduempower FeeSchedule",
+  "gridType": "form",
+  "crmModelId": "66095db4c7b99128d924f665",
+  "rows": [
+    {
+      "$key": "0ub3ib553ft",
+      "fields": [
+        {
+          "$key": "4nnmft0m4ta",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "0i41d9h8h9e",
+          "id": "classes",
+          "title": "Classes",
+          "type": "checkbox_group",
+          "span": 24
+        },
+        {
+          "$key": "g0uce6rcz1r",
+          "id": "installments",
+          "title": "Installments",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T04:24:50.982Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/schoolsetup/fee-settings/fee-schedule/all",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.444Z"
+}

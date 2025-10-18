@@ -1,0 +1,276 @@
+{
+  "_id": "64a7ccfae7d297735dc044c7",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "$key": "ceabwts04es",
+      "fields": [
+        {
+          "index": 0,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 24,
+          "o": false,
+          "hint": "Enter the product name. Example: 'Green Tea Extract'",
+          "$key": "x4uoazmo3wj"
+        },
+        {
+          "index": 2,
+          "title": "Category",
+          "id": "category",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "addApiUrl": "/admin/product/category/create",
+          "span": 12,
+          "hint": "Select a category from the tree structure. Example: 'Beverages > Tea'",
+          "$key": "ecnbsr32luu"
+        },
+        {
+          "$key": "oic3tw4929k",
+          "id": "brand",
+          "title": "Brand",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "o": true,
+          "addApiUrl": "/admin/product/brand/create",
+          "hint": "Select a brand from the tree structure. Example: 'Samsung > Smart Phones'"
+        },
+        {
+          "id": "basicDetails.media",
+          "title": "Media",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false,
+            "uploadUISize": "lg"
+          },
+          "span": 24,
+          "add": false,
+          "delete": false,
+          "$key": "jyjarcizp2q"
+        }
+      ],
+      "span": 24,
+      "description": "#### Name\n\n* Use a **unique, concise** name (e.g., \"Wireless Headphones\").\n* Avoid special characters.\n\n#### Category\n\n* Select the **best-matching category**.\n* Contact admin if missing.\n\n#### Brand\n\n* Choose from the list or **add if missing**.\n* Ensures proper recognition.\n\n#### Media\n\n* Upload **high-quality** images (JPG, PNG, WebP).\n* Recommended: **800x800 px+**, clear background.",
+      "showDescription": true,
+      "descriptionSpan": 12,
+      "tab": "basic"
+    },
+    {
+      "$key": "h3qumnodc7",
+      "fields": [
+        {
+          "id": "mrp",
+          "title": "MRP",
+          "type": "number",
+          "span": 24,
+          "min": 0,
+          "meta": {
+            "addonBefore": "₹"
+          },
+          "$key": "6t2ech5rm1a"
+        },
+        {
+          "$key": "r692m0cd8l",
+          "id": "price",
+          "title": "Price",
+          "type": "number",
+          "span": 24,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "ze89xa4pqjq",
+          "id": "useProductVariant",
+          "title": "Use Product Variant",
+          "type": "bool",
+          "span": 4,
+          "hint": "<p><span style=\"color: rgb(40,44,63);background-color: rgb(255,255,255);font-size: 14px;font-family: Poppins, sans-serif;\">Enable if this product has variants like size or color. Check for multiple variants.</span> </p>",
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        }
+      ],
+      "description": "#### MRP (Maximum Retail Price)\n\n* Use a numeric value (e.g., **199.99**).\n* **Do not** include currency symbols or special characters.\n\n#### Price (Selling Price)\n\n* Enter a numeric value (e.g., **149.99**).\n* **Avoid** currency symbols and unnecessary characters.",
+      "showDescription": true,
+      "descriptionSpan": 12,
+      "tab": "price"
+    },
+    {
+      "$key": "tnrjb62xg1m",
+      "fields": [
+        {
+          "$key": "ocl6wko3cm",
+          "id": "stockControl",
+          "title": "Stock Control",
+          "hint": "<p><span style=\"color: rgb(40,44,63);background-color: rgb(255,255,255);font-size: 14px;font-family: Poppins, sans-serif;\">Enable to manage stock levels for this product. Check to activate stock tracking.</span> </p>",
+          "type": "bool",
+          "span": 24,
+          "onChangeCondition": [
+            {
+              "$key": "i89cytlz8un",
+              "key": "$ROOT",
+              "meta": {
+                "type": "url",
+                "apiType": "POST"
+              },
+              "value": "/api/io/product/variant/info"
+            }
+          ],
+          "updateType": "hidden"
+        },
+        {
+          "id": "available",
+          "title": "Available",
+          "type": "number",
+          "span": 24,
+          "min": 0,
+          "showCondition": "return !this.useProductVariant && this.stockControl;",
+          "$key": "sjmvnwpl7wn"
+        },
+        {
+          "$key": "8ffb7anxih",
+          "id": "onHand",
+          "title": "On Hand",
+          "type": "number",
+          "span": 24,
+          "min": 0,
+          "showCondition": "return !this.useProductVariant && this.stockControl;"
+        },
+        {
+          "$key": "gd5oe44cl8l",
+          "id": "sku",
+          "title": "SKU",
+          "type": "text",
+          "span": 24,
+          "showCondition": "return !this.useProductVariant && this.stockControl;"
+        },
+        {
+          "$key": "awsmqnaa9qs",
+          "id": "hsn",
+          "title": "HSN",
+          "type": "number",
+          "o": true,
+          "span": 24,
+          "showCondition": "return !this.useProductVariant && this.stockControl;",
+          "min": 0
+        }
+      ],
+      "description": "#### Stock Control\n\n* Use the Stock Control toggle to manage **inventory** details for your **product**.\n* When Stock Control is **true** then the below **sub-item** will be **visible**.\n\n#### Available\n\n* Enter a numeric value (e.g., **50**).\n* **Do not** include text or special characters.\n\n#### ON Hand\n\n* Enter a numeric value (e.g., **50**).\n* **Avoid** text or special characters.\n\n#### SKU\n\n* Use a concise code (e.g., **WH-001-TM**).\n* **Avoid** spaces and special characters; hyphens or underscores are acceptable if needed.",
+      "showDescription": true,
+      "descriptionSpan": 12,
+      "tab": "stock"
+    },
+    {
+      "$key": "3v0rlzxailo",
+      "fields": [
+        {
+          "id": "variantOptionValues",
+          "title": "Variant Options",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "showCondition": "return !!this.useProductVariant && this.name && this.mrp && this.price;",
+          "hint": "<p><span style=\"color: rgb(40,44,63);background-color: rgb(255,255,255);font-size: 14px;font-family: Poppins, sans-serif;\">Define options for product variants, such as size and color. Example: Size - Small, Medium, Large.</span> </p>",
+          "updateType": "hidden",
+          "$key": "mqwf2tyci4s"
+        },
+        {
+          "$key": "3qqkk2yjkqd",
+          "id": "productVariantTable",
+          "title": "Product Variant",
+          "span": 24,
+          "type": "input_table",
+          "add": false,
+          "delete": true,
+          "min": 1,
+          "max": 20,
+          "showCondition": "return !!this.useProductVariant && this.name && this.mrp && this.price;"
+        }
+      ],
+      "showDescription": false,
+      "descriptionSpan": 12,
+      "description": "#### Variant Options"
+    },
+    {
+      "$key": "onxktog5ktk",
+      "fields": [
+        {
+          "id": "basicDetails",
+          "title": "Basic Details",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "crmFormId": "6551c8c3333ade58a3768963",
+            "labelCondition": "return this.useProductVariant ? 'Common Basic Details' : 'Basic Details'",
+            "hideCollapse": true
+          },
+          "span": 24,
+          "hint": "<p><span style=\"color: rgb(40,44,63);background-color: rgb(255,255,255);font-size: 14px;font-family: Poppins, sans-serif;\">Provide basic details of the product. Use 'Common Basic Details' if the product has variants.</span> </p>",
+          "updateType": "hidden",
+          "$key": "f2i6lcnynb5"
+        }
+      ],
+      "description": "#### Technical Points\n\n* These are key product specifications provided as name and value pairs (e.g., \"Battery Life: 8 hours\").\n* **Name Field**: Enter the technical parameter (e.g., **Weight**, **Screen Size**).\n* **Value Field**: Enter the corresponding specification detail (e.g., **1.5 kg**, **15 inches**).\n\n#### Small Description\n\n* Provide a concise summary in one to two short sentences.\n* Keep the language engaging and easy to understand.\n\n#### Long Description\n\n* Use a text area that supports multiple paragraphs.\n* Organize information into sections if needed (e.g., Features, Benefits, Usage, Care Instructions).",
+      "showDescription": true,
+      "descriptionSpan": 12,
+      "tab": "details"
+    },
+    {
+      "$key": "eaqkxnm3whs",
+      "fields": [
+        {
+          "$key": "llhx72jf2zl",
+          "id": "deliverableProduct",
+          "title": "Deliverable Product",
+          "type": "bool",
+          "span": 4
+        },
+        {
+          "$key": "lfa4evtymi",
+          "id": "advancedDetails",
+          "title": "Advanced Details",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "crmFormId": "65547e53d0f8a32b238adad9",
+            "hideCollapse": false
+          },
+          "span": 24,
+          "hint": "<p><span style=\"color: rgb(40,44,63);background-color: rgb(255,255,255);font-size: 14px;font-family: Poppins, sans-serif;\">Include additional details such as manufacturer, packer, etc. Example: 'Manufactured by XYZ Corp.'</span> </p>",
+          "updateType": "hidden",
+          "showCondition": "return this.deliverableProduct;",
+          "createType": "none"
+        }
+      ],
+      "description": "#### Deliverable Product\n\n* Deliverable Product determines whether your product is eligible for delivery.\n* When Deliverable Product is **true** then the below **sub-item** will be **visible**.\n\n#### Manufacturer\n\n* Enter the full official name (e.g., **ABC Electronics**).\n* Use text only—avoid extra characters or symbols.\n\n#### Packer\n\n* Provide the official name (e.g., **XYZ Packaging Solutions**).\n\n#### Importer\n\n* Enter the full name of the importer (e.g., **Global Imports Ltd**.).\n\n#### Supplier\n\n* Input the official supplier name (e.g., **Supplier Inc**.).\n\n#### Item Weight\n\n* Enter a numeric value (e.g., **250**).\n* Specify or adhere to a consistent unit (**grams**, **kilograms**, etc.) across products.\n\n#### Item Dimensions\n\n* Enter all measurements in centimeters (cm) without appending the unit in the value field.\n* **Length:** Numeric value (e.g., **30**).\n* **Width:** Numeric value (e.g., **20**).\n* **Height:** Numeric value (e.g., **10**).\n\n#### Generic Name\n\n* Enter a concise, descriptive name (e.g., **Wireless Earbuds**).\n\n#### Product Cancel Policy\n\n* Select the appropriate policy from the provided dropdown options.\n\n#### Product Return Policy\n\n* Choose the relevant option from the dropdown menu.",
+      "showDescription": true,
+      "descriptionSpan": 12,
+      "tab": "deliverable"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "648563687d5f915dc103d28f",
+  "gridTitle": "Product Form",
+  "backUrl": "/admin/product/all",
+  "gridParams": [
+    {
+      "key": "product",
+      "required": false,
+      "documentKey": "id"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

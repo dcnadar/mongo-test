@@ -1,0 +1,15 @@
+{
+  "_id": "66717617faf6243feb6c9988",
+  "name": "App Settings",
+  "path": "/admin/mobileapp/settings/section-info",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "667174effaf6243feb6c9987",
+  "innerGridType": "table",
+  "innerSourceId": "66717144faf6243feb6c9984",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T11:57:11.672Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

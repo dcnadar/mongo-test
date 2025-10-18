@@ -1,0 +1,82 @@
+{
+  "_id": "66717144faf6243feb6c9984",
+  "gridTitle": "App Screen Section Info",
+  "gridType": "table",
+  "crmModelId": "66716a76faf6243feb6c9980",
+  "columns": [
+    {
+      "$key": "qyxxaiyiaf",
+      "key": "reactGrid",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "bbwrf72anlm",
+      "key": "thumb",
+      "name": "Screenshort",
+      "type": "thumb",
+      "sort": true,
+      "width": 100
+    },
+    {
+      "$key": "rfgy8yiic4r",
+      "key": "designPrototype",
+      "name": "Design Prototype",
+      "type": "thumb",
+      "sort": true,
+      "width": 100
+    },
+    {
+      "$key": "bg6r9bdl4i8",
+      "key": "theme",
+      "name": "Theme",
+      "type": "tag",
+      "sort": true,
+      "width": 70
+    },
+    {
+      "$key": "75wrbifl5u",
+      "key": "crmForm",
+      "name": "Crm Form",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "5yrne1vnsp8",
+      "key": "sectionTypeId",
+      "name": "Group",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "ftg7g0lq8wc",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "dgh62nbxg1i",
+          "value": "Edit",
+          "slug": "/admin/mobileapp/settings/section-info/update?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "jjf2bg1bq5g",
+      "value": "Add Section Info",
+      "slug": "/admin/mobileapp/settings/section-info/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T11:36:36.348Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

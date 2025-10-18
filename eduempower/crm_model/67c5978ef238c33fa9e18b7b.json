@@ -1,0 +1,55 @@
+{
+  "_id": "67c5978ef238c33fa9e18b7b",
+  "name": "CashChallan",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "qrq7xfgmr4",
+      "key": "five",
+      "name": "5x",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "o35wfl88oo",
+      "key": "ten",
+      "name": "10x",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "6qitjqvaezp",
+      "key": "twenty",
+      "name": "20X",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "qceacjthsd",
+      "dataType": "DOUBLE",
+      "key": "fifty",
+      "name": "50x"
+    },
+    {
+      "$key": "g2ybniejc8f",
+      "key": "hundred",
+      "name": "100x",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "v7k8rc36c4k",
+      "key": "fiveHundred",
+      "name": "500x",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "d2x1qrz5yv4",
+      "key": "twoThousands",
+      "name": "2000x",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-03T11:50:38.201Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.520Z"
+}

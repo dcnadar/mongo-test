@@ -1,0 +1,90 @@
+{
+  "_id": "6618d5a8aee00c70206deb10",
+  "gridTitle": "Vendor",
+  "gridType": "form",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "rows": [
+    {
+      "$key": "8kuwmf50knt",
+      "fields": [
+        {
+          "$key": "qnjqhlhzo2",
+          "id": "logo",
+          "title": "Profile Pic",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "id": "firstName",
+          "title": "First Name ",
+          "type": "text",
+          "span": 8,
+          "$key": "lgau2gemcy"
+        },
+        {
+          "$key": "1282h1uvkw6h",
+          "id": "lastName",
+          "title": "Last Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7dgyzq9wnm3",
+          "id": "userName",
+          "title": "User Name",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "uoq16stgvw",
+          "id": "email",
+          "title": "Email",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "sm2ra2egyn",
+          "id": "callingCode",
+          "title": "Calling Code",
+          "type": "list",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "q770b0dx6c9",
+          "id": "mobileNumber",
+          "title": "Mobile Number",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "pjr103fvx8r",
+          "id": "address",
+          "title": "Address",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "s8ym6r64bbh",
+          "id": "userType",
+          "title": "User Type",
+          "type": "text",
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "VENDOR",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T06:33:12.750Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/account/vendor/all"
+}

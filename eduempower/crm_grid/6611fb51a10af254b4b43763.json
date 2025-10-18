@@ -1,0 +1,41 @@
+{
+  "_id": "6611fb51a10af254b4b43763",
+  "gridTitle": "Eduempower Building Setup Menu",
+  "gridType": "menu",
+  "menuItems": [
+    {
+      "$key": "8wks9y3ibf8",
+      "key": "buildings",
+      "slug": "/admin/schoolsetup/buildings/all",
+      "value": "Buildings",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path d=\"M3 21H21\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path d=\"M19 21V15V7C19 5.11438 19 4.17157 18.4142 3.58579C17.8284 3 16.8856 3 15 3H12H9C7.11438 3 6.17157 3 5.58579 3.58579C5 4.17157 5 5.11438 5 7V15V21\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"></path> <path d=\"M9 8L10 8\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path d=\"M9 12L10 12\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path d=\"M9 16L10 16\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path d=\"M14 8L15 8\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path d=\"M14 12L15 12\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path d=\"M14 16L15 16\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> </g></svg>"
+    },
+    {
+      "$key": "orepsl1kg27",
+      "key": "floor-details",
+      "slug": "/admin/schoolsetup/floor-details/all",
+      "value": "Floor Details",
+      "icon": "<svg version=\"1.1\" id=\"Icons\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 32 32\" xml:space=\"preserve\" width=\"64px\" height=\"64px\" fill=\"currentColor\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <style type=\"text/css\"> .st0{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st1{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;} .st2{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;} </style> <rect x=\"3\" y=\"3\" class=\"st0\" width=\"26\" height=\"26\"></rect> <rect x=\"18\" y=\"20\" class=\"st0\" width=\"11\" height=\"9\"></rect> <polyline class=\"st0\" points=\"14,3 29,3 29,15 20,15 \"></polyline> <line class=\"st0\" x1=\"14\" y1=\"15\" x2=\"14\" y2=\"3\"></line> <rect x=\"18\" y=\"23\" class=\"st0\" width=\"11\" height=\"6\"></rect> <rect x=\"18\" y=\"26\" class=\"st0\" width=\"11\" height=\"3\"></rect> <polyline class=\"st0\" points=\"11,29 11,20 7,20 \"></polyline> <polyline class=\"st0\" points=\"14,15 3,15 3,3 14,3 \"></polyline> </g></svg>"
+    },
+    {
+      "$key": "y220g96mho",
+      "key": "room-types",
+      "slug": "/admin/schoolsetup/room-types/all",
+      "value": "Room Types",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\">   <g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\">   </g>   <g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\">   </g>   <g id=\"SVGRepo_iconCarrier\">     <defs>       <style>         .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:1.91px;}       </style>     </defs>     <polygon class=\"cls-1\" points=\"15.82 2.85 8.18 1.94 1.5 2.85 1.5 20.2 8.18 19.29 15.82 20.2 22.5 19.29 22.5 1.94 15.82 2.85\">     </polygon>     <line class=\"cls-1\" x1=\"8.18\" y1=\"1.52\" x2=\"8.18\" y2=\"19.66\">     </line>     <line class=\"cls-1\" x1=\"15.82\" y1=\"2.48\" x2=\"15.82\" y2=\"20.61\">     </line>     <line class=\"cls-1\" x1=\"1.5\" y1=\"23.48\" x2=\"1.5\" y2=\"20.61\">     </line>     <line class=\"cls-1\" x1=\"8.18\" y1=\"22.52\" x2=\"8.18\" y2=\"19.66\">     </line>     <line class=\"cls-1\" x1=\"15.82\" y1=\"23.48\" x2=\"15.82\" y2=\"20.61\">     </line>     <line class=\"cls-1\" x1=\"22.5\" y1=\"22.52\" x2=\"22.5\" y2=\"19.66\">     </line>   </g> </svg>"
+    },
+    {
+      "$key": "q1zb1sg0ve",
+      "key": "rooms",
+      "slug": "/admin/schoolsetup/rooms/all",
+      "value": "Rooms",
+      "icon": "<svg fill=\"currentColor\" viewBox=\"0 0 24 24\" id=\"hotel-3\" data-name=\"Line Color\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon line-color\">   <g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\">   </g>   <g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\">   </g>   <g id=\"SVGRepo_iconCarrier\">     <rect id=\"secondary\" x=\"12\" y=\"15\" width=\"4\" height=\"6\" style=\"fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;\">     </rect>     <path id=\"primary\" d=\"M8,3,19.32,6.77a1,1,0,0,1,.68,1V21H8ZM4,21H8V9H5a1,1,0,0,0-1,1Zm17,0H3\"     style=\"fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;\">     </path>   </g> </svg>"
+    }
+  ],
+  "thumb": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/66066cd92ecf59ad3517dcdb/65e8cdff97f0eca7ba094627/thumb/2024/3/7/upload_sgh67oyqjk-1712454446678.avif",
+  "title": "Buildings Setup",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T01:48:01.648Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:00.652Z"
+}

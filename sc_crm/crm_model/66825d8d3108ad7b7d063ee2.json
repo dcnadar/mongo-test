@@ -1,0 +1,22 @@
+{
+  "_id": "66825d8d3108ad7b7d063ee2",
+  "name": "NativeGrid GlobalBlogCardsWithBgImage User",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "e8v5h0o9hoo",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "e7ipare3806",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T07:41:01.328Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

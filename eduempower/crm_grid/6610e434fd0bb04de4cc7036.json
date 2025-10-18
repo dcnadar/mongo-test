@@ -1,0 +1,28 @@
+{
+  "_id": "6610e434fd0bb04de4cc7036",
+  "gridTitle": "Eduempower Leave Setup Menu",
+  "gridType": "menu",
+  "menuItems": [
+    {
+      "$key": "8awqd19iuva",
+      "key": "leave-type",
+      "slug": "/admin/schoolsetup/leave-settings/leave-type/all",
+      "value": "Leave Types",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15.6666 8L17.75 10.5L15.6666 8Z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15.6666 13L17.75 10.5L15.6666 13Z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path> <path d=\"M16.5 10.5L10 10.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path> <line x1=\"4\" y1=\"3.5\" x2=\"13\" y2=\"3.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></line> <line x1=\"4\" y1=\"17.5\" x2=\"13\" y2=\"17.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></line> <path d=\"M13 3.5V7.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path> <path d=\"M13 13.5V17.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path> <path d=\"M4 3.5L4 17.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path> </g></svg>"
+    },
+    {
+      "$key": "ld9kvzn0vve",
+      "key": "leave-plan",
+      "slug": "/admin/schoolsetup/leave-settings/leave-plan/all",
+      "value": "Leave Plans",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" d=\"M18,4 L18,0 L18,4 Z M7,18 L5,18 L7,18 Z M19,18 L9,18 L19,18 Z M7,14 L5,14 L7,14 Z M19,14 L9,14 L19,14 Z M6,4 L6,0 L6,4 Z M1,9 L23,9 L1,9 Z M1,23 L23,23 L23,4 L1,4 L1,23 Z\"></path> </g></svg>"
+    }
+  ],
+  "thumb": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/66066cd92ecf59ad3517dcdb/65e8cdff97f0eca7ba094627/thumb/2024/3/6/upload_ws8ofp7e62k-1712382962629.png",
+  "title": "Leave Setup",
+  "description": "This leave setup is for the current academic session",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T05:57:08.045Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:00.550Z"
+}

@@ -1,0 +1,64 @@
+{
+  "_id": "66260abe990ac402ed0d3edf",
+  "gridTitle": "NewsLetterSubscriber",
+  "gridType": "table",
+  "crmModelId": "66260588990ac402ed0d3edb",
+  "columns": [
+    {
+      "$key": "2p7rydfnuk8",
+      "key": "email",
+      "name": "Email",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "kxre14x8ph",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true,
+      "width": 100
+    },
+    {
+      "$key": "o3ewcqkngom",
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "p9w051xf94i",
+          "value": "Delete",
+          "type": "icon",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.1.actions.0.icon/2024/3/22/upload_8ldpns0g9rp-1713769565041.png",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure want to delete?",
+          "apiUrl": "/admin/account/newsletter/delete?id=:_id _id"
+        },
+        {
+          "$key": "0o8xk7tykjd",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/account/newsletter/change-status?id=:_id&email=:email _id email",
+          "value": "Change Status",
+          "gridTitle": "Unsubscribe following email from Newsletter"
+        }
+      ],
+      "sort": true,
+      "key": "actions"
+    }
+  ],
+  "actions": [
+    {
+      "$key": "ewe4b680tz",
+      "value": "Add Email",
+      "apiUrl": "/admin/account/newsletter/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T06:59:10.780Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

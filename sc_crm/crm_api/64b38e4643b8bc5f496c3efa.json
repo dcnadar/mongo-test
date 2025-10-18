@@ -1,0 +1,13 @@
+{
+  "_id": "64b38e4643b8bc5f496c3efa",
+  "name": "Product Variants Pricing",
+  "action": "CRM_GRID",
+  "sourceId": "64a9d52ae7d297735dc044ea",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "gridType": "menu",
+  "path": "/admin/product/variant/pricing",
+  "innerGridType": "table",
+  "innerSourceId": "64b38c7d22d01c16ecc96046",
+  "created": "2024-01-27T07:48:45.335Z"
+}

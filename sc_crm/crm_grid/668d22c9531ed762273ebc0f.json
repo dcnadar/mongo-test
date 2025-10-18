@@ -1,0 +1,52 @@
+{
+  "_id": "668d22c9531ed762273ebc0f",
+  "gridTitle": "OrderInvoice Buyer",
+  "gridType": "form",
+  "crmModelId": "668d16a7531ed762273ebc07",
+  "rows": [
+    {
+      "$key": "gw22iat2bro",
+      "fields": [
+        {
+          "$key": "znocvbtfx1l",
+          "id": "name",
+          "title": "Name",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "3dfu7tj4k1e",
+          "id": "phoneNumber",
+          "title": "Phone Number",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "ujfsbzioeei",
+          "id": "email",
+          "title": "Email",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "7qb9nz72nvd",
+          "id": "address",
+          "title": "Address",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "xsrxdmhfa8h",
+          "id": "gstNo",
+          "title": "GST No",
+          "span": 8,
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-09T11:45:13.556Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

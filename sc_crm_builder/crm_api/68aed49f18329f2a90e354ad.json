@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "68aed49f18329f2a90e354ad"
+  },
+  "name": "Add Object",
+  "path": "/admin/entity/object/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "68aecb9a18329f2a90e354a9",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1756288159878"
+    }
+  },
+  "createdBy": "68adb9f43e8ef56770f82104",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149529"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "667d09db74a25c4c696adb38",
+  "name": "Batch Input",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "nme1g9tspfo",
+      "name": "Vaccination",
+      "key": "vaccination",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "uw69s85zdvf",
+            "key": "RD-1",
+            "value": "RD-1"
+          },
+          {
+            "$key": "k41ugtp9jll",
+            "key": "RD-2",
+            "value": "RD-2"
+          },
+          {
+            "$key": "12fg1cy9waf",
+            "key": "IBD",
+            "value": "IBD"
+          },
+          {
+            "$key": "5uxpggzazub",
+            "key": "NIL",
+            "value": "Nil"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "im8o7ekjckh",
+      "key": "feedConsumed",
+      "name": "Feed Consumed",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "zvccrjtmpee",
+      "key": "feedCost",
+      "name": "Feed Cost",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "ui808azb6eh",
+      "key": "mvCost",
+      "name": "Medicine, Vaccine cost",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "dqpwrqdcmb7",
+      "key": "aeoCost",
+      "name": "Admin, Electricioty & other misc. cost",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "u2v9bm4evab",
+      "key": "TCost",
+      "name": "Transportation cost",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-27T06:42:35.703Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,34 @@
+{
+  "_id": "662605ee990ac402ed0d3edc",
+  "gridTitle": "NewsLetterSubscriber",
+  "gridType": "form",
+  "crmModelId": "66260588990ac402ed0d3edb",
+  "rows": [
+    {
+      "$key": "a5eq5su89r8",
+      "fields": [
+        {
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": 17,
+          "$key": "wvcr85cp2ob"
+        },
+        {
+          "$key": "6tbdcr931zo",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T06:38:38.637Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/account/newsletter/all"
+}

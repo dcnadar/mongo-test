@@ -1,0 +1,35 @@
+{
+  "_id": "679c9bf9b81dbd448287fa4d",
+  "name": "Eduempower IssuedBook Track",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "oc6gkods4vs",
+      "key": "bookReturnDate",
+      "name": "Book Return Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "qeiz9g7v7d",
+      "key": "issuedDate",
+      "name": "Issued Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "lpqweu1rg2h",
+      "key": "comment",
+      "name": "Comment",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8o11c7ky7cq",
+      "key": "returnedOnDate",
+      "name": "Returned On Date",
+      "dataType": "DATE"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-31T09:46:33.004Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.245Z"
+}

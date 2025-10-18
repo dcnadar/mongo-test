@@ -1,0 +1,98 @@
+{
+  "_id": {
+    "$oid": "68d6a6cea2635b176e34b791"
+  },
+  "gridTitle": "Account User Access Form",
+  "gridType": "form",
+  "crmModelId": "68d6a609a2635b176e34b790",
+  "rows": [
+    {
+      "$key": "abjm250eueo",
+      "fields": [
+        {
+          "id": "environment",
+          "title": "Environment",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "updateType": "disabled",
+          "$key": "xlmha8ab89b"
+        },
+        {
+          "$key": "p0s8k4klnhs",
+          "id": "firstName",
+          "title": "FirstName",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "$key": "x3pgggu1pbs",
+          "id": "lastName",
+          "title": "LastName",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "$key": "kvy30djiosp",
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "$key": "v6wnnvgtuft",
+          "id": "defaultPassword",
+          "title": "Default Password",
+          "type": "password",
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "$key": "q13dk7mcliq",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "updateType": "disabled_fe",
+          "value": "INVITED",
+          "createType": "disabled_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758897870334"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231679720"
+    }
+  },
+  "breadcrumb": [],
+  "gridParams": [
+    {
+      "key": "accountId",
+      "serverValue": "filter_value",
+      "value": "accountId",
+      "required": false
+    }
+  ]
+}

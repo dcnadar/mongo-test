@@ -1,0 +1,74 @@
+{
+  "_id": "65d239b0197ecec46e8da820",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Header",
+          "id": "header",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "65d1da83b694f48ed9a50633"
+          },
+          "$key": "wqqyyllfapc"
+        },
+        {
+          "index": 1,
+          "title": "Main Image",
+          "id": "mainImage",
+          "type": "upload",
+          "span": 12,
+          "o": false,
+          "$key": "kttvotfbv8p"
+        },
+        {
+          "index": 2,
+          "title": "Main Image Overlay Color",
+          "id": "imageOverlay",
+          "type": "color",
+          "span": 12,
+          "o": false,
+          "$key": "elmwk3xzxwv"
+        },
+        {
+          "index": 3,
+          "title": "Main Quote",
+          "id": "mainQuote",
+          "type": "inner_form",
+          "span": 18,
+          "o": false,
+          "meta": {
+            "crmFormId": "65d1c1d48d99a73c7f3f81d0"
+          },
+          "$key": "9py2gwd32fa"
+        },
+        {
+          "index": 5,
+          "title": "Sections",
+          "id": "sections",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 20,
+          "countTitle": "No Section Added",
+          "add": true,
+          "delete": true,
+          "$key": "q01sf1d5ybk"
+        }
+      ],
+      "$key": "aipa4ohrrdn"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65d2384d57c32d1d7872653b",
+  "gridTitle": "ReactGrid GlobalContentSection4",
+  "created": "2024-02-18T17:09:04.970Z",
+  "fetchDocWithoutId": false
+}

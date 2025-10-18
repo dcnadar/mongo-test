@@ -1,0 +1,51 @@
+{
+  "_id": {
+    "$oid": "65e46e2562e81af0993f8515"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid Search Option",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "key",
+      "name": "Key"
+    },
+    {
+      "dataType": "STRING",
+      "key": "value",
+      "name": "Value"
+    },
+    {
+      "dataType": "STRING",
+      "key": "thumb",
+      "name": "Thumb"
+    },
+    {
+      "dataType": "STRING",
+      "key": "thumbInitials",
+      "name": "Thumb Initials"
+    },
+    {
+      "dataType": "STRING",
+      "key": "thumbColor",
+      "name": "Thumb Color"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709469221117"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152289"
+    }
+  }
+}

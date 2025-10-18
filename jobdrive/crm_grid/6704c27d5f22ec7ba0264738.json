@@ -1,0 +1,210 @@
+{
+  "_id": "6704c27d5f22ec7ba0264738",
+  "gridTitle": "Package Category",
+  "gridType": "form",
+  "crmModelId": "6703d9815f22ec7ba026472e",
+  "rows": [
+    {
+      "$key": "wqpvh2o6o6",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 16,
+          "$key": "02lz8mgrmgw"
+        },
+        {
+          "$key": "3o9yx3dnmsi",
+          "id": "icon",
+          "title": "Icon",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "2ly08esdevi",
+          "id": "singleImage",
+          "title": "SingleImage",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "5tnjqyh30o3",
+          "id": "singleWebcam",
+          "title": "singleWebcam",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": true,
+            "allowGallery": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "8q3tphsrvon",
+          "id": "singleGallery",
+          "title": "singleGallery",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": true
+          },
+          "span": 8
+        },
+        {
+          "$key": "4m60khhr9ah",
+          "id": "singleWebcamGallery",
+          "title": "singleWebcamGallery",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": true,
+            "allowGallery": true
+          },
+          "span": 8
+        },
+        {
+          "$key": "ezs1vne9vmo",
+          "id": "multi",
+          "title": "multi",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 7,
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "pebzu0gwy7r",
+          "id": "multiWebcam",
+          "title": "multiWebcam",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": true,
+            "allowGallery": false
+          },
+          "span": 8,
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "l2oi5n5tlh",
+          "id": "multiGallery",
+          "title": "multiGallery",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": true
+          },
+          "span": 8,
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "3u5muri571n",
+          "id": "multiWebcamGallery",
+          "title": "multiWebcamGallery",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": true,
+            "allowGallery": true
+          },
+          "span": 8,
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "ryr1tq7mktg",
+          "id": "sv2",
+          "title": "sv2",
+          "type": "upload_v2",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": true,
+            "allowGallery": false
+          }
+        },
+        {
+          "$key": "01a1roi9ulrt",
+          "id": "sv2m",
+          "title": "sv2m",
+          "type": "upload_v2",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": true,
+            "allowGallery": true
+          },
+          "span": 24
+        },
+        {
+          "$key": "gk66hsj2dtq",
+          "id": "sv2mv",
+          "title": "sv2mv",
+          "type": "upload_v2",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 24,
+          "fileAccept": "video/mp4,video/x-m4v,video/*"
+        },
+        {
+          "$key": "noi89l21xw",
+          "id": "sv2mp",
+          "title": "sv2mp",
+          "type": "upload_v2",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 24,
+          "fileAccept": "image/jpeg,image/gif,image/png,application/pdf,image/x-eps"
+        },
+        {
+          "$key": "2gi9kvdwjf6",
+          "id": "sv2me",
+          "title": "sv2me",
+          "type": "upload_v2",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "fileAccept": ".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
+        },
+        {
+          "$key": "6rcv8t1gso6",
+          "id": "sv2md",
+          "title": "sv2md",
+          "type": "upload_v2",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "fileAccept": ".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-08T05:26:21.859Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:51.746Z"
+}

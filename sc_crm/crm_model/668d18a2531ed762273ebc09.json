@@ -1,0 +1,74 @@
+{
+  "_id": "668d18a2531ed762273ebc09",
+  "name": "OrderInvoice",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "order_invoice",
+  "properties": [
+    {
+      "$key": "dt4p1pkkm99",
+      "key": "invoiceNo",
+      "name": "Invoice No",
+      "dataType": "STRING",
+      "unique": true
+    },
+    {
+      "$key": "d0h1om7vro9",
+      "key": "totalAmount",
+      "name": "Total Amount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "gbrz116134",
+      "key": "taxableAmount",
+      "name": "Taxable Amount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "wv7ohjqfua",
+      "key": "date",
+      "name": "Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "m8ac7e81bl",
+      "key": "taxAmount",
+      "name": "Total Tax Amount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "ibf533dda6",
+      "key": "gst",
+      "name": "Gst",
+      "dataType": "INNER_MODEL",
+      "modelId": "668d1568531ed762273ebc05"
+    },
+    {
+      "$key": "71ilepcig0l",
+      "key": "items",
+      "name": "Items",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "668e3199531ed762273ebc29"
+    },
+    {
+      "$key": "yiba6fsy3g",
+      "key": "billerDetail",
+      "name": "Biller Detail",
+      "dataType": "INNER_MODEL",
+      "modelId": "668d15b6531ed762273ebc06"
+    },
+    {
+      "$key": "scrmhv3kes7",
+      "key": "buyerDetail",
+      "name": "Buyer Detail",
+      "dataType": "INNER_MODEL",
+      "modelId": "668d16a7531ed762273ebc07"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-09T11:01:54.558Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

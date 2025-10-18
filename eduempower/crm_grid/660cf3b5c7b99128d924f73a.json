@@ -1,0 +1,62 @@
+{
+  "_id": "660cf3b5c7b99128d924f73a",
+  "gridTitle": "Eduempower SchoolRoomType",
+  "gridType": "form",
+  "crmModelId": "660a3913c7b99128d924f6a2",
+  "rows": [
+    {
+      "$key": "mor1uq09uh",
+      "fields": [
+        {
+          "$key": "cevy1ppt514",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "3h0dq13v1fk",
+          "id": "taggedTo",
+          "title": "Tagged To",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "5q1bye8ku9m",
+          "id": "parentRoomTypeId",
+          "title": "Parent Room Type Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true,
+          "createType": "hidden_fe",
+          "updateType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T06:14:13.140Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "parentRoomTypeId",
+      "required": false
+    }
+  ],
+  "updated": "2025-09-08T10:50:58.950Z"
+}

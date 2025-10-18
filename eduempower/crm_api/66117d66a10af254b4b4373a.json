@@ -1,0 +1,13 @@
+{
+  "_id": "66117d66a10af254b4b4373a",
+  "name": "Add Fee Structure",
+  "path": "/admin/schoolsetup/fee-settings/fee-structure/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cdcbac7b99128d924f72b",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T16:50:46.874Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:46.118Z"
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "66119206a10af254b4b4375e",
+  "name": "Edit Class Teacher",
+  "path": "/admin/schoolsetup/examinations/class-teacher/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cf21bc7b99128d924f736",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T18:18:46.105Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:47.105Z"
+}

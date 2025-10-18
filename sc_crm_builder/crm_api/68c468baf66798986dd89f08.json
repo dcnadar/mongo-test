@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "68c468baf66798986dd89f08"
+  },
+  "name": "Add New User",
+  "path": "/admin/user/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "68c4685bf66798986dd89f06",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757702330017"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377685749"
+    }
+  }
+}

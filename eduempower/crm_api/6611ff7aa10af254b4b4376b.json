@@ -1,0 +1,15 @@
+{
+  "_id": "6611ff7aa10af254b4b4376b",
+  "name": "All Floor Deatails",
+  "path": "/admin/schoolsetup/floor-details/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660fbb01c7b99128d924f779",
+  "innerGridType": "table",
+  "innerSourceId": "660fbb01c7b99128d924f779",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T02:05:46.536Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:47.511Z"
+}

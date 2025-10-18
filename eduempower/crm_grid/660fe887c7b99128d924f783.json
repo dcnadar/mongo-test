@@ -1,0 +1,67 @@
+{
+  "_id": "660fe887c7b99128d924f783",
+  "gridTitle": "Staff Transfer History",
+  "gridType": "table",
+  "crmModelId": "660fe465c7b99128d924f781",
+  "columns": [
+    {
+      "$key": "ns6iwy1r64q",
+      "key": "when",
+      "name": "When",
+      "type": "date",
+      "sort": false,
+      "width": 150
+    },
+    {
+      "$key": "37x6zeew8lh",
+      "key": "userId",
+      "name": "User",
+      "type": "card",
+      "sort": false,
+      "width": 150
+    },
+    {
+      "$key": "kxctmw4utt",
+      "key": "doneBy",
+      "name": "Done By",
+      "type": "card",
+      "sort": false,
+      "width": 150
+    },
+    {
+      "$key": "kx307ukkjv",
+      "name": "Details",
+      "sort": false,
+      "type": "changes",
+      "width": 200,
+      "key": "details"
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "e5gz5dea82t",
+        "operator": "EQUALS",
+        "EQUALS": "STAFF",
+        "propertyKey": "type"
+      },
+      {
+        "$key": "eurkyl2a1d4",
+        "propertyKey": "historyType",
+        "operator": "EQUALS",
+        "EQUALS": "TRANSFER"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-05T12:03:19.905Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/staff/all",
+  "gridParams": [],
+  "updated": "2025-09-08T10:51:00.411Z"
+}

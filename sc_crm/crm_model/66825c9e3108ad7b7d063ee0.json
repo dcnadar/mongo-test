@@ -1,0 +1,35 @@
+{
+  "_id": "66825c9e3108ad7b7d063ee0",
+  "name": "NativeGrid GlobalBlogCardsWithBgImage sections",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "xn6awa5t5bj",
+      "key": "data",
+      "name": "Date",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bc4vqasgku4",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fgm9l7uyygg",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lt34wwt0jvo",
+      "key": "user",
+      "name": "User",
+      "dataType": "INNER_MODEL",
+      "modelId": "66825d8d3108ad7b7d063ee2"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T07:37:02.136Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

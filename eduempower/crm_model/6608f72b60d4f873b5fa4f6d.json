@@ -1,0 +1,107 @@
+{
+  "_id": "6608f72b60d4f873b5fa4f6d",
+  "name": "Eduempower FeeType",
+  "modelType": "COLLECTION",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_fee_type",
+  "properties": [
+    {
+      "$key": "81v9zvp4l0v",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "7ny9vp6wbat",
+      "key": "code",
+      "name": "Code",
+      "dataType": "STRING",
+      "searchable": {
+        "description": false,
+        "thumb": false,
+        "thumbInitials": true
+      }
+    },
+    {
+      "$key": "ucr449thota",
+      "key": "color",
+      "name": "Color",
+      "dataType": "STRING",
+      "searchable": {
+        "thumbColor": true
+      }
+    },
+    {
+      "$key": "5w7dsthdrvn",
+      "key": "type",
+      "name": "Fee Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "vlh2uelipl",
+            "key": "MANDATORY",
+            "value": "Mandatory"
+          },
+          {
+            "$key": "5psfbr6vzal",
+            "key": "OPTIONAL",
+            "value": "Optional"
+          },
+          {
+            "$key": "egwyrv1sml9",
+            "key": "AD_HOC",
+            "value": "Ad Hoc"
+          },
+          {
+            "$key": "99as7efhtj",
+            "key": "NEW_ADMISSION",
+            "value": "New Admission"
+          }
+        ]
+      },
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "e8wina36nrn",
+      "key": "classes",
+      "name": "Classes",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "f62puex3exi",
+      "key": "discountEnabled",
+      "name": "Discount Enabled",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "7fb8s823mv",
+      "key": "discountLogics",
+      "name": "Discount Logics",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6608201960d4f873b5fa4f4b"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name",
+    "subtitles": [
+      "type"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T05:39:55.136Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.394Z"
+}

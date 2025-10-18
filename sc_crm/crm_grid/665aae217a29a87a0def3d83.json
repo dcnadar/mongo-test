@@ -1,0 +1,62 @@
+{
+  "_id": "665aae217a29a87a0def3d83",
+  "gridTitle": "Product Variant Table",
+  "gridType": "form",
+  "crmModelId": "665a974d7a29a87a0def3d7f",
+  "rows": [
+    {
+      "$key": "5ii1o1tsehq",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "$key": "fvn4olfy07",
+          "span": 24
+        },
+        {
+          "$key": "o3kc5y2h49",
+          "id": "mrp",
+          "title": "MRP",
+          "type": "number",
+          "span": 24
+        },
+        {
+          "$key": "v7ur9is6wpg",
+          "id": "price",
+          "title": "Price",
+          "type": "number",
+          "span": 24
+        },
+        {
+          "$key": "ix8q4vze1z",
+          "id": "available",
+          "title": "Available",
+          "type": "number",
+          "span": 175,
+          "disableCondition": "return !this.$root.stockControl;"
+        },
+        {
+          "$key": "ofnmpauccm9",
+          "id": "onHand",
+          "title": "On Hand",
+          "type": "number",
+          "span": 24,
+          "disableCondition": "return !this.$root.stockControl;"
+        },
+        {
+          "$key": "v6dii994ylb",
+          "id": "sku",
+          "title": "SKU",
+          "type": "text",
+          "span": 24,
+          "disableCondition": "return !this.$root.stockControl;"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-01T05:14:09.853Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

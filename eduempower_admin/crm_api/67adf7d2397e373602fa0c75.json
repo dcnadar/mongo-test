@@ -1,0 +1,14 @@
+{
+  "_id": "67adf7d2397e373602fa0c75",
+  "name": "edit Fee Schedule",
+  "path": "/admin/school-setup/fee-settings/fee-schedule/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "67adf65e397e373602fa0c6e",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T13:46:58.221Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

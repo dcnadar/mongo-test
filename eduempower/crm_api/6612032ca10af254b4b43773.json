@@ -1,0 +1,13 @@
+{
+  "_id": "6612032ca10af254b4b43773",
+  "name": "Add Room Types",
+  "path": "/admin/schoolsetup/room-types/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cf3b5c7b99128d924f73a",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T02:21:32.325Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:47.748Z"
+}

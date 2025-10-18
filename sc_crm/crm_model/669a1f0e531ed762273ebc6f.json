@@ -1,0 +1,78 @@
+{
+  "_id": "669a1f0e531ed762273ebc6f",
+  "name": "Product Variant Stock Add History",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "product_variant_stock_add_history",
+  "properties": [
+    {
+      "$key": "ybxongxnrn",
+      "key": "productVariantId",
+      "name": "Product Variant Id",
+      "dataType": "REFERENCE",
+      "modelId": "64a5d14d099de82bca61ca99"
+    },
+    {
+      "$key": "xco1dvg0p7s",
+      "key": "value",
+      "name": "Value",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "q9ry72a1r7",
+      "key": "date",
+      "name": "Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "eu4jlgsnyr",
+      "key": "message",
+      "name": "Message",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8jfj5lf5avw",
+      "key": "productId",
+      "name": "Product Id",
+      "dataType": "REFERENCE",
+      "modelId": "648563687d5f915dc103d28f"
+    },
+    {
+      "$key": "z3tbjx108x",
+      "key": "availableDate",
+      "name": "Available Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "1ljjzewsylc",
+      "key": "availableMessage",
+      "name": "Available Message",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "808soxxjm2x",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "526caz12eyg",
+            "key": "ON_HAND",
+            "value": "On Hand"
+          },
+          {
+            "$key": "ald1idz7w7e",
+            "key": "AVAILABLE",
+            "value": "Available"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-19T08:08:46.890Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

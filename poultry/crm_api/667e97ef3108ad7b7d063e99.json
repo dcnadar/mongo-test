@@ -1,0 +1,14 @@
+{
+  "_id": "667e97ef3108ad7b7d063e99",
+  "name": "Index Batch",
+  "path": "/admin/farmer/batch-index",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "667e88e33108ad7b7d063e97",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-28T11:01:03.452Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

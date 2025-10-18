@@ -1,0 +1,15 @@
+{
+  "_id": "6611fea5a10af254b4b43769",
+  "name": "All Room Types ",
+  "path": "/admin/schoolsetup/room-types/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660d8c04c7b99128d924f764",
+  "innerGridType": "table",
+  "innerSourceId": "660d8c04c7b99128d924f764",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T02:02:13.310Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:47.444Z"
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "66091cfcc7b99128d924f660",
+  "gridTitle": "ReactGrid GlobalLocalVideo",
+  "gridType": "form",
+  "crmModelId": "66091c88c7b99128d924f65f",
+  "rows": [
+    {
+      "$key": "lf5g4xl423",
+      "fields": [
+        {
+          "id": "videoUrl",
+          "title": "VideoUrl",
+          "span": 8,
+          "type": "text",
+          "$key": "aue2ygy3w9"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-31T08:21:16.621Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

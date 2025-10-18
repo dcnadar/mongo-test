@@ -1,0 +1,15 @@
+{
+  "_id": "672072825f22ec7ba0264aaf",
+  "name": "Front Offic Exit",
+  "path": "/admin/front-office/exit/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "672070575f22ec7ba0264aab",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-29T05:28:34.267Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-08T10:50:55.551Z"
+}

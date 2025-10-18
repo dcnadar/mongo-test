@@ -1,0 +1,14 @@
+{
+  "_id": "64aa6d72723fb912796f14aa",
+  "name": "Update Product Variant",
+  "action": "CRM_GRID",
+  "sourceId": "64a9d52ae7d297735dc044ea",
+  "gridType": "menu",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/product/variant/update",
+  "innerGridType": "form",
+  "innerSourceId": "66a899a5e287100717693c25",
+  "created": "2024-01-27T07:48:45.215Z",
+  "ecomApiMappings": []
+}

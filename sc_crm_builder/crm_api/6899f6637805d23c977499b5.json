@@ -1,0 +1,26 @@
+{
+  "_id": {
+    "$oid": "6899f6637805d23c977499b5"
+  },
+  "name": "Add Account",
+  "path": "/admin/account/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "6899f37b7805d23c977499b4",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1754920547297"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149196"
+    }
+  }
+}

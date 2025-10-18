@@ -1,0 +1,33 @@
+{
+  "_id": "6511dc91f9686d32acb3e2cf",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "gridTitle",
+      "name": "Grid Title",
+      "searchable": {
+        "value": true
+      },
+      "$key": "53dm9go9bn4"
+    },
+    {
+      "dataType": "STRING",
+      "key": "gridType",
+      "name": "Grid Type",
+      "$key": "p2m3r88zzp9"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Crm Grid",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "collectionName": "crm_grid",
+  "created": "2024-01-27T07:48:51.382Z",
+  "cardDataTargets": {
+    "title": "gridTitle",
+    "subtitles": [
+      "gridType"
+    ]
+  },
+  "menuTargets": {}
+}

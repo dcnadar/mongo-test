@@ -1,0 +1,13 @@
+{
+  "_id": "668bc9d2531ed762273ebbfa",
+  "name": "Product Setting",
+  "path": "/admin/account/setting/product",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "668bc98b531ed762273ebbf8",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T11:13:22.702Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

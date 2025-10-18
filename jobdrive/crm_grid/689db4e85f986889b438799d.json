@@ -1,0 +1,63 @@
+{
+  "_id": "689db4e85f986889b438799d",
+  "gridTitle": "Assessment",
+  "gridType": "table",
+  "crmModelId": "689d8dd64b0c9f85deb37d57",
+  "columns": [
+    {
+      "$key": "kz4529pnpll",
+      "type": "text",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "y50klh5rxx"
+        }
+      ],
+      "key": "assessmentBasicInformation",
+      "name": "Basic Information",
+      "valueCondition": "const assessmentData = this.assessmentBasicInformation || {};  let htmlString = `     <div style=\"width: 100%; max-width: 600px; margin: 0 auto; border-radius: 8px; overflow: hidden;\">         <div style=\"padding: 15px; font-size: 14px; color: #333;\">             <div style=\"margin-bottom: 10px;\">                 <strong>Assessment Title:</strong> ${assessmentData.assessmenttitle || \"N/A\"}             </div>             <div style=\"margin-bottom: 10px;\">                 <strong>Assessment Type:</strong> ${                     assessmentData.assessmenttype                         ? (                             {                                 \"APTITUDE\": \"Aptitude\",                                 \"TECHINICAL\": \"Technical\",                                 \"PERSONALITY\": \"Personality\",                                 \"CODING\": \"Coding\",                                 \"GROUP_DISCUSSION\": \"Group Discussion\",                                 \"INTERVIEW\": \"Interview\"                             }[assessmentData.assessmenttype] || assessmentData.assessmenttype                         )                         : \"N/A\"                 }             </div>             <div>                 <strong>Instructions (Optional):</strong> ${assessmentData.instructions || \"N/A\"}             </div>         </div>     </div> `;  return htmlString;"
+    },
+    {
+      "$key": "kcjem9ka8uf",
+      "type": "text",
+      "valueCondition": "const configData = this.assessmentConfiguration || {};  let htmlString = `     <div style=\"width: 100%; max-width: 600px; margin: 0 auto; padding: 15px; font-size: 14px; color: #333;\">         <div style=\"margin-bottom: 8px;\">             <strong>Duration:</strong> ${configData.duration || \"N/A\"} mins         </div>         <div style=\"margin-bottom: 8px;\">             <strong>Total Questions:</strong> ${configData.totalquestions || \"N/A\"}         </div>         <div style=\"margin-bottom: 8px;\">             <strong>Maximum Score:</strong> ${configData.maximumscore || \"N/A\"}         </div>         <div style=\"margin-bottom: 8px;\">             <strong>Passing Score:</strong> ${configData.passingscore || \"N/A\"}         </div>     </div> `;  return htmlString;",
+      "key": "assessmentConfiguration",
+      "name": "Assessment Configuration",
+      "sort": true
+    },
+    {
+      "$key": "ynr5y3k29r",
+      "key": "assessmentSchedule",
+      "type": "text",
+      "name": "Schedule",
+      "sort": true,
+      "valueCondition": "const scheduleData = this.assessmentSchedule || {};  function formatDate(dateStr) {     if (!dateStr) return \"N/A\";     const date = new Date(dateStr);     return date.toLocaleDateString(\"en-GB\", { day: \"2-digit\", month: \"2-digit\", year: \"numeric\" }); }  function formatTime(timeStr) {     if (!timeStr) return \"N/A\";     const [hour, minute] = timeStr.split(\":\");     const date = new Date();     date.setHours(hour, minute);     return date.toLocaleTimeString(\"en-GB\", { hour: \"2-digit\", minute: \"2-digit\" }); }  let htmlString = `     <div style=\"width: 100%; max-width: 600px; margin: 0 auto; padding: 15px; font-size: 14px; color: #333;\">         <div style=\"margin-bottom: 8px;\">             <strong>Date:</strong>              ${formatDate(scheduleData.startdate)} - ${formatDate(scheduleData.enddate)}         </div>         <div>             <strong>Time:</strong>              ${formatTime(scheduleData.starttime)} - ${formatTime(scheduleData.endtime)}         </div>     </div> `;  return htmlString;"
+    },
+    {
+      "$key": "qbipia288f",
+      "type": "text",
+      "key": "assessmentAssociation",
+      "name": "Association",
+      "sort": true,
+      "valueCondition": "const associationData = this.assessmentAssociation || {}; const associateOptions = {     \"NO_ASSOCIATION_STANDALONE\": \"No Association (Standalone)\",     \"PLACEMENT_DRIVE\": \"Placement Drive\",     \"TRAINING_PROGRAM\": \"Training Program\" };  let htmlString = `     <div style=\"width: 100%; max-width: 600px; margin: 0 auto; padding: 15px; font-size: 14px; color: #333;\">         <div style=\"margin-bottom: 8px;\">             <strong>Associate With:</strong>              ${associateOptions[associationData.associatewith] || \"N/A\"}         </div>     </div> `;  return htmlString;"
+    }
+  ],
+  "actions": [
+    {
+      "$key": "x8iotfnxmjq",
+      "gridTitle": "Add Assessment",
+      "value": "Add Assessment",
+      "apiUrl": "/admin/assessments/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T10:05:28.123Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.828Z"
+}

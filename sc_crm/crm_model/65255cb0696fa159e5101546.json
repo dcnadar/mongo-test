@@ -1,0 +1,31 @@
+{
+  "_id": "65255cb0696fa159e5101546",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "heading",
+      "name": "Heading"
+    },
+    {
+      "dataType": "STRING",
+      "key": "message",
+      "name": "Message"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "owner",
+      "name": "Owner",
+      "modelId": "65255c6f696fa159e5101545"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Foodio OwnerMessage Model",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:51.927Z"
+}

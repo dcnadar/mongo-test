@@ -1,0 +1,80 @@
+{
+  "_id": "66c03150901b1b6d68f936f2",
+  "gridTitle": "PaymentGatewaySetting",
+  "gridType": "form",
+  "crmModelId": "66c02ff8901b1b6d68f936ef",
+  "rows": [
+    {
+      "$key": "8ang8cfuz4w",
+      "fields": [
+        {
+          "id": "paymentGateway",
+          "title": "Payment Gateway",
+          "type": "list",
+          "multiple": false,
+          "$key": "mkksvs66c6r",
+          "span": 24
+        }
+      ],
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "label": "Payment Gateway Settings",
+      "span": 24,
+      "description": "#### Payment Gateway\n\n* The online service provider that facilitates secure processing of customer payments.\n* Choose from a drop-down list with the following options: **PhonePe**, **Razorpay**, or **Cashfree**.\n* If you require integration with a new **Payment Gateway** not listed, email us at [skpintu93@gmail.com](mailto:skpintu93@gmail.com) (this service will incur additional charges).\n* Follow the respective gateway’s documentation for guidance on generating these credentials."
+    },
+    {
+      "$key": "9tryiy0ayls",
+      "fields": [
+        {
+          "$key": "vwntgthtin9",
+          "id": "phonepeConfig",
+          "title": "Phonepe Config",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "hideCollapse": true
+          },
+          "span": 24,
+          "o": false,
+          "showCondition": "return this.paymentGateway === 'PHONEPE';"
+        },
+        {
+          "$key": "4qesrb0lekp",
+          "id": "razorpayConfig",
+          "title": "Razorpay Config",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "hideCollapse": true
+          },
+          "span": 24,
+          "o": false,
+          "showCondition": "return this.paymentGateway === 'RAZORPAY';"
+        },
+        {
+          "$key": "u7jzb8hyskl",
+          "id": "cashfreeConfig",
+          "title": "Cashfree Config",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "hideCollapse": true
+          },
+          "span": 24,
+          "showCondition": "return this.paymentGateway === 'CASHFREE';"
+        }
+      ],
+      "showDescription": false,
+      "descriptionSpan": 12,
+      "description": "#### Payment Gateway\n\n* The online service provider that facilitates secure processing of customer payments.\n* Choose from a drop-down list with the following options:\n  **PhonePe**\n  ,\n  **Razorpay**\n  , or\n  **Cashfree**\n  .\n* If you require integration with a new payment gateway not listed, email us at\n  [skpintu93@gmail.com](mailto:skpintu93@gmail.com)\n\n  (this service will incur additional charges).\n* Follow the respective gateway’s documentation for guidance on generating these credentials."
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-17T05:12:48.769Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

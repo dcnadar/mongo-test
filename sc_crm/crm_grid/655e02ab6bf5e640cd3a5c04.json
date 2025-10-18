@@ -1,0 +1,59 @@
+{
+  "_id": "655e02ab6bf5e640cd3a5c04",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 24,
+          "o": false,
+          "$key": "zr1ens4omge",
+          "onChangeCondition": [
+            {
+              "$key": "upwyv0lnx7d",
+              "key": "$ROOT",
+              "meta": {
+                "type": "url",
+                "apiType": "POST"
+              },
+              "value": "/api/io/product/variant/info"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "title": "Image",
+          "id": "value",
+          "type": "upload",
+          "span": 24,
+          "o": false,
+          "$key": "x2k5zpl2o8",
+          "onChangeCondition": [
+            {
+              "$key": "wk4114f1yf",
+              "key": "$ROOT",
+              "meta": {
+                "type": "url",
+                "apiType": "POST"
+              },
+              "value": "/api/io/product/variant/info"
+            }
+          ]
+        }
+      ],
+      "$key": "mrmmm5y2k1"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "655e0db76bf5e640cd3a5c08",
+  "gridTitle": "Product Variant Image Option Value",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

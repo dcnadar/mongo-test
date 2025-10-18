@@ -1,0 +1,15 @@
+{
+  "_id": "673651aa02f79267ffc5658f",
+  "name": "Edit Installments",
+  "path": "/admin/schoolsetup/fee-settings/fee-structure/classes/categories/configure/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cdcbac7b99128d924f72b",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-14T19:38:18.782Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:56.269Z"
+}

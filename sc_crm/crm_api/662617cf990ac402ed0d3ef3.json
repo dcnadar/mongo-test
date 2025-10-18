@@ -1,0 +1,13 @@
+{
+  "_id": "662617cf990ac402ed0d3ef3",
+  "name": "Website Page Sections for builder",
+  "path": "/admin/website/builder/page/section",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66261737990ac402ed0d3ef2",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T07:54:55.153Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,11 @@
+{
+  "_id": "64a7cdc2723fb912796f149e",
+  "name": "Product Table",
+  "action": "CRM_GRID",
+  "sourceId": "64a485ec1952437b761aac09",
+  "gridType": "table",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/product/all",
+  "created": "2024-01-27T07:48:44.587Z"
+}

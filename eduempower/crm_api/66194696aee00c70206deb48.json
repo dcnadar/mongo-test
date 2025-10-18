@@ -1,0 +1,23 @@
+{
+  "_id": "66194696aee00c70206deb48",
+  "name": "Edit Student",
+  "path": "/admin/student/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67139c0d5f22ec7ba0264899",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-12T14:35:02.624Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "ecomApiMappings": [],
+  "innerGridType": "form",
+  "innerSourceId": "661631de706ffe32cf5d96dd",
+  "gridParams": [
+    {
+      "required": true,
+      "documentKey": "id",
+      "key": "studentId"
+    }
+  ],
+  "updated": "2025-09-08T10:50:50.981Z"
+}

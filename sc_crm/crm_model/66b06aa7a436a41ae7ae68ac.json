@@ -1,0 +1,34 @@
+{
+  "_id": "66b06aa7a436a41ae7ae68ac",
+  "name": "WebsitePageGridThemeSettings Spacing",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "9bdwn7lrzgo",
+      "key": "top",
+      "name": "Top",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "zzv4egqa3r",
+      "key": "bottom",
+      "name": "Botton",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "uo0haybr7gi",
+      "key": "left",
+      "name": "Left",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "zl4zh8ratl",
+      "key": "right",
+      "name": "Right",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-05T06:01:11.221Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

@@ -1,0 +1,48 @@
+{
+  "_id": {
+    "$oid": "65eb1831aa00ec382f84ccf2"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Fields",
+          "id": "fields",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "10"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Fields (FormRow)"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e78602fb169c602da0bfc5",
+  "gridTitle": "Crm Grid TableFilter",
+  "created": {
+    "$date": {
+      "$numberLong": "1709905969812"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150689"
+    }
+  }
+}

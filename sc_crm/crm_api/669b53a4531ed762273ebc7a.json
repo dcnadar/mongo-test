@@ -1,0 +1,13 @@
+{
+  "_id": "669b53a4531ed762273ebc7a",
+  "name": "Add order Invoice",
+  "path": "/admin/order/order-invoice/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "668e37e3531ed762273ebc2c",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-20T06:05:24.442Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

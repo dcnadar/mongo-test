@@ -1,0 +1,75 @@
+{
+  "_id": "66e27548ab08f3103afa070b",
+  "gridTitle": "User",
+  "gridType": "table",
+  "crmModelId": "6662a17007b1a041b15e0b52",
+  "columns": [
+    {
+      "$key": "4v6n8yp1qif",
+      "key": "logo",
+      "name": "Profile Pic",
+      "type": "thumb",
+      "sort": true
+    },
+    {
+      "$key": "sctswnr1veq",
+      "key": "firstName",
+      "name": "FirstName",
+      "type": "name",
+      "sort": true
+    },
+    {
+      "$key": "ttphiob9a3d",
+      "key": "email",
+      "name": "Email",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "jj09xa8hzz",
+      "key": "mobileNumber",
+      "name": "MobileNumber",
+      "type": "text",
+      "valueCondition": "return '+91-' + this.mobileNumber;",
+      "sort": true
+    },
+    {
+      "$key": "m0z19h9fy4",
+      "key": "edit",
+      "name": "EDIT",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "gdrdxixfc39",
+          "value": "EDIT",
+          "apiUrl": "/admin/user/update?customerId=:_id _id",
+          "gridType": "popupForm",
+          "gridTitle": "Update Form"
+        },
+        {
+          "$key": "nelzqwxa8hm",
+          "gridTitle": "Update Password",
+          "value": "Change password",
+          "apiUrl": "/admin/password/update?user=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "z1e8054wg7",
+      "value": "Add User",
+      "slug": "/admin/user/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-12T04:59:52.300Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

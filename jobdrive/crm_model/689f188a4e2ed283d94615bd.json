@@ -1,0 +1,59 @@
+{
+  "_id": "689f188a4e2ed283d94615bd",
+  "name": "SettingsProfile",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "9klv6zvgnbp",
+      "key": "avatar",
+      "name": "Avatar",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lzzednc4j0m",
+      "name": "Full Name",
+      "key": "fullName",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8ws5vkybdd2",
+      "name": "Emall Address",
+      "key": "emailAddress",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "x6l2te5aqs",
+      "key": "phoneNumber",
+      "name": "Phone Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "h07xu1tz104",
+      "name": "Department",
+      "key": "department",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ctqzb42eue9",
+      "key": "designation",
+      "name": "Designation",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3p7n4axozte",
+      "name": "Location",
+      "key": "location",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "hpjyjsi0kgp",
+      "name": "Bio",
+      "key": "bio",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T11:22:50.605Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.656Z"
+}

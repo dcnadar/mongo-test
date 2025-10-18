@@ -1,0 +1,13 @@
+{
+  "_id": "66e27a29ab08f3103afa0710",
+  "name": "Add User",
+  "path": "/admin/user/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66e279c7ab08f3103afa070e",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-12T05:20:41.698Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

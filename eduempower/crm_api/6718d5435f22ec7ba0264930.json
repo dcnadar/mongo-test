@@ -1,0 +1,15 @@
+{
+  "_id": "6718d5435f22ec7ba0264930",
+  "name": "All Leave Report",
+  "path": "/admin/leave/leave-report/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6718d50d5f22ec7ba026492f",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:51:47.700Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:53.767Z"
+}

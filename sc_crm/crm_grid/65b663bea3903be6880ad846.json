@@ -1,0 +1,65 @@
+{
+  "_id": "65b663bea3903be6880ad846",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-28T14:25:02.968Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Heading Left Text",
+          "id": "headingLeftText",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Text to the left of the heading"
+        },
+        {
+          "index": 1,
+          "title": "Heading Primary Text",
+          "id": "headingPrimaryText",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "The main text of the heading"
+        },
+        {
+          "index": 2,
+          "title": "Heading Right Text",
+          "id": "headingRightText",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Text to the right of the heading"
+        },
+        {
+          "index": 3,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 24,
+          "o": false,
+          "hint": "Description of the section"
+        },
+        {
+          "index": 4,
+          "title": "Buttons",
+          "id": "buttons",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 2,
+          "add": true,
+          "delete": true,
+          "countTitle": "No Button Added"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b663bea3903be6880ad845",
+  "gridTitle": "ReactGrid GlobalHeroSection3"
+}

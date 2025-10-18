@@ -1,0 +1,58 @@
+{
+  "_id": "65b0b84d7dc93e26bd724a62",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Enabled Button",
+          "id": "enableButton",
+          "type": "bool",
+          "span": 6,
+          "o": false,
+          "hint": "Check this if you want to enable the button."
+        },
+        {
+          "index": 0,
+          "title": "Button Icon (svg code)",
+          "id": "icon",
+          "type": "text",
+          "span": 6,
+          "o": true,
+          "showCondition": "return this.enableButton;",
+          "hint": "Please enter SVG code for the button icon. You can copy SVG code from <a href='https://www.svgrepo.com/' target='_blank'>SvgRepo</a>"
+        },
+        {
+          "index": 0,
+          "title": "Button Text",
+          "id": "buttonText",
+          "type": "text",
+          "span": 12,
+          "o": true,
+          "showCondition": "return this.enableButton;",
+          "hint": "<p>Enter the text that will be displayed on the button. <br> <b>Example:</b> 'Click Me'.</p>"
+        },
+        {
+          "index": 7,
+          "title": "Button Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "showCondition": "return this.enableButton;",
+          "hint": "Define the action for the button. For example, you could set it to navigate to a different page, open a modal, etc."
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b0b2b014cae9d8eba5398a",
+  "gridTitle": "ReactGrid GlobalCommon Button",
+  "created": "2024-01-24T07:12:13.079Z"
+}

@@ -1,0 +1,89 @@
+{
+  "_id": {
+    "$oid": "68e4efc9e652bafef0b04b53"
+  },
+  "gridTitle": "Entity Index Table",
+  "gridType": "table",
+  "crmModelId": "68e4cc1ee652bafef0b04b4c",
+  "columns": [
+    {
+      "$key": "au810c3vzto",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "se64f5672uf",
+      "key": "fields",
+      "name": "Fields",
+      "type": "text",
+      "valueCondition": "const fieldsData = this.fields ||[];let htmlString = `<div style=\"width: 100%; max-width: 600px; margin: 0 auto; border-radius: 8px; overflow: hidden;\"><div style=\"padding: 15px; font-size: 14px; color: #333;\"><div style=\"margin-bottom: 10px;\"><strong>Fields:</strong>${fieldsData.length > 0? `<ul style=\"padding-left: 18px; margin-top: 5px; list-style-type: circle;\">${fieldsData.map((item, index) => `<li style=\"margin-bottom: 8px;\"><div><strong>Field ${index + 1}</strong></div><div><strong>Field Name:</strong> ${item.fieldName || \"N/A\"}</div><div><strong>Index Type:</strong> ${item.indexType || \"N/A\"}</div></li>`).join(\"\")}</ul>`: \"N/A\"}</div></div></div>`;return htmlString;",
+      "sort": false
+    },
+    {
+      "$key": "ye0z5athca",
+      "key": "options",
+      "name": "Options",
+      "type": "text",
+      "sort": false,
+      "valueCondition": "const optionsData = this.options || {}; let htmlString = ` <div style=\"width: 100%; max-width: 600px; margin: 0 auto; border-radius: 8px; overflow: hidden;\">   <div style=\"padding: 15px; font-size: 14px; color: #333;\">     <div style=\"margin-bottom: 10px;\">       <strong>Options:</strong>       <ul style=\"padding-left: 18px; margin-top: 5px; list-style-type: circle;\">         <li><strong>Unique:</strong> ${optionsData.unique ?? false}</li>         <li><strong>Sparse:</strong> ${optionsData.sparse ?? false}</li>       </ul>     </div>   </div> </div> `; return htmlString;"
+    },
+    {
+      "$key": "1ieo27ccc5a",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": false,
+      "actions": [
+        {
+          "$key": "2b9b177txe3",
+          "gridTitle": "Edit Index",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/entity/index/update?id=:_id _id",
+          "gridMsgParams": "Edit Index of Entity"
+        },
+        {
+          "$key": "6zwhg2m0324",
+          "gridTitle": "Delete Index",
+          "value": "Delete",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "apiUrl": "/api/admin/index/delete?id=:_id _id",
+          "apiType": "DELETE",
+          "gridMsgParams": "Delete Index of Entity"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "hjygnn9swra",
+      "gridTitle": "Add Index",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/entity/index/add",
+      "value": "Add Index"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "breadcrumb": [],
+  "gridParams": [
+    {
+      "key": "entityId",
+      "required": true,
+      "documentKey": "entity"
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1759834057360"
+    }
+  },
+  "createdBy": "68e09e923a6ade54590da550"
+}

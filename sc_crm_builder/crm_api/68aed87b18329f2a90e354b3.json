@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "68aed87b18329f2a90e354b3"
+  },
+  "name": "Edit Base",
+  "path": "/admin/entity/base/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "68aeca5018329f2a90e354a8",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1756289147848"
+    }
+  },
+  "createdBy": "68adb9f43e8ef56770f82104",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149639"
+    }
+  }
+}

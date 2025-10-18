@@ -1,0 +1,50 @@
+{
+  "_id": "65fd5843cd007d13da9db2bb",
+  "name": "ReactGrid GlobalBlogCards4",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "4zgaw6m6zzg",
+      "key": "header",
+      "name": "Header",
+      "dataType": "INNER_MODEL",
+      "modelId": "65b53659f7815fa135bd04d8"
+    },
+    {
+      "$key": "8hcd6hk6v34",
+      "key": "showDynamicContent",
+      "name": "Show Dynamic Content",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "s8z67ri7mlr",
+      "key": "dynamicContentFilter",
+      "name": "Dynamic Content Filter",
+      "dataType": "INNER_MODEL",
+      "modelId": "66222ca07d57294ed27050fa"
+    },
+    {
+      "$key": "7ckfafjh79o",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65fd5b2bcd007d13da9db2bf"
+    },
+    {
+      "$key": "x11zuveiyr",
+      "key": "showFilter",
+      "name": "ShowFilter",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "jl2c1dvh4u",
+      "key": "showSearch",
+      "name": "ShowSearch",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-22T10:06:59.022Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

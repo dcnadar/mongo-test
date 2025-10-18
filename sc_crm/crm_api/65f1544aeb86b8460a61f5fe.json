@@ -1,0 +1,11 @@
+{
+  "_id": "65f1544aeb86b8460a61f5fe",
+  "name": "Add Page Section Group",
+  "path": "/admin/website/settings/section-group/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "65f1533feb86b8460a61f5fa",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-13T07:22:50.043Z"
+}

@@ -1,0 +1,92 @@
+{
+  "_id": "669a2918531ed762273ebc70",
+  "gridTitle": "Product Variant Stock Add History",
+  "gridType": "table",
+  "crmModelId": "669a1f0e531ed762273ebc6f",
+  "columns": [
+    {
+      "$key": "10x0cpe1nnqk",
+      "key": "productVariantId",
+      "name": "Product Variant Id",
+      "type": "card",
+      "width": 300,
+      "sort": false
+    },
+    {
+      "$key": "pvhw1k228u",
+      "key": "value",
+      "name": "Value",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "h4l51gg561i",
+      "key": "date",
+      "name": "Date",
+      "type": "date",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "jkotpvgnie",
+      "key": "message",
+      "name": "Message",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "oq9zmg0h5tm",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "69bdfwcd2gx",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "c5piv1rumxn",
+          "gridTitle": "Move to Available",
+          "value": "Move to Available",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/product/variant/stock/available?id=:_id _id",
+          "showCondition": "return this.status === 'ON_HAND';"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "4y59lahpfjh",
+      "gridTitle": "Add Stock",
+      "gridType": "popupForm",
+      "value": "Add Stock",
+      "apiUrl": "/admin/product/variant/stock/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-19T08:51:36.124Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "gridParams": [
+    {
+      "key": "product",
+      "required": true,
+      "documentKey": "productId"
+    }
+  ],
+  "backUrl": "/admin/product/all",
+  "upsertDoc": false
+}

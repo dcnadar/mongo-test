@@ -1,0 +1,14 @@
+{
+  "_id": "68a3fdc24d1fc40c14a3c40b",
+  "name": "Edit Companioes",
+  "path": "/admin/companies/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "689acf39ab9ccd58e2fca6d5",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-19T04:29:54.688Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:50.135Z"
+}

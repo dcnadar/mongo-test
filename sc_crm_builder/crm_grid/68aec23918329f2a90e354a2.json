@@ -1,0 +1,102 @@
+{
+  "_id": {
+    "$oid": "68aec23918329f2a90e354a2"
+  },
+  "gridTitle": "Base Table",
+  "gridType": "table",
+  "crmModelId": "65e4e721d796c9ccbd1b408e",
+  "columns": [
+    {
+      "$key": "6ht4rf5dige",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "a3mdti2il9i",
+      "key": "fieldName",
+      "name": "Field Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "6wtmxqoru4v",
+      "key": "order",
+      "name": "Order",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "6w3ssjfr0mg",
+      "key": "modelId",
+      "name": "Entity Id",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "fb3k5yri0ni",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "4cyqic3p2jw",
+          "gridTitle": "Edit Base",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/entity/base/edit?id=:_id _id",
+          "type": "icon_button",
+          "value": "Edit",
+          "icon": "/default/default/65e8cdff97f0eca7ba094627/imageUpload/2025/8/16/file_yg2evazqb1h-1758002407435.png"
+        }
+      ],
+      "sort": false,
+      "align": "left",
+      "width": {
+        "$numberInt": "100"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "$key": "yghourjfnze",
+      "gridTitle": "Add Base",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/entity/base/add",
+      "value": "Add Base"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "ofe8605ea9",
+        "propertyKey": "modelType",
+        "operator": "EQUALS",
+        "EQUALS": "BASE"
+      }
+    ],
+    "defaultSort": {
+      "field": "order",
+      "order": "ascend"
+    }
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1756283449830"
+    }
+  },
+  "createdBy": "68adb9f43e8ef56770f82104",
+  "search": {
+    "placeHolder": "Search by name"
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151796"
+    }
+  }
+}

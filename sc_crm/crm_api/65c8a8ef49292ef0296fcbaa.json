@@ -1,0 +1,10 @@
+{
+    "name": "Update Examination POST",
+    "action": "FORM_SAVE",
+    "sourceId": "65c8a8ee49292ef0296fcba6",
+    "accountId": "65d0d41b0d1f40b74ff1bd92",
+    "apiType": "POST",
+    "path": "/admin/exams/update",
+    "created": "2024-02-11T11:01:03.090Z",
+    "_id": "65c8a8ef49292ef0296fcbaa"
+}

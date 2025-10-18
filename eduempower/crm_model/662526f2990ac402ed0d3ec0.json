@@ -1,0 +1,33 @@
+{
+  "_id": "662526f2990ac402ed0d3ec0",
+  "name": "Eduempower LibraryDetails",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ytlw783fhpg",
+      "key": "library",
+      "name": "Library",
+      "dataType": "REFERENCE",
+      "modelId": "660af0dac7b99128d924f6da"
+    },
+    {
+      "$key": "x29dhtv88n",
+      "key": "arrivalDate",
+      "name": "Arrival Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "hhl8kch8zcu",
+      "dataType": "REFERENCE",
+      "modelId": "660af14dc7b99128d924f6db",
+      "key": "shelves",
+      "name": "Shelves"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T14:47:14.109Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.715Z"
+}

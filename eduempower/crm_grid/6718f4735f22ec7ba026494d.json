@@ -1,0 +1,92 @@
+{
+  "_id": "6718f4735f22ec7ba026494d",
+  "gridTitle": "Eduempower Circulars",
+  "gridType": "table",
+  "crmModelId": "6718b51d5f22ec7ba026490b",
+  "columns": [
+    {
+      "$key": "0vfvaen2tgif",
+      "key": "title",
+      "name": "Title",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "dtqsb1spfu7",
+      "key": "publishDate",
+      "name": "Publish Date",
+      "sort": true,
+      "type": "date"
+    },
+    {
+      "$key": "cjqmkgwnykl",
+      "key": "publishTime",
+      "name": "Publish Time",
+      "type": "text",
+      "sort": true,
+      "valueCondition": "return new Date(this.publishTime).toLocaleTimeString('en-US', {   hour: '2-digit',   minute: '2-digit',   second: '2-digit',   hour12: true  });"
+    },
+    {
+      "$key": "yw6ocrgit6",
+      "key": "notificationType",
+      "name": "Notification Send",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "xdyqt0ycvj",
+      "key": "noticeFor",
+      "name": "Circular For",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "uar0ktngjd8",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "1i0up0zwwm6",
+          "value": "Edit",
+          "slug": "/admin/circulars&news/circulars/edit?id=:_id _id"
+        },
+        {
+          "$key": "bqrefxslxr",
+          "value": "Delete",
+          "type": "icon",
+          "gridMsg": "Are you sure want to delete?",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/66066cd92ecf59ad3517dcdb/65e8cdff97f0eca7ba094627/columns.5.actions.1.icon/2024/9/24/file_al6avuo8m4e-1729742143736.png",
+          "apiUrl": "/admin/circulars&news/circulars/delete?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "9287aodw7k7",
+      "fields": [
+        {
+          "$key": "qjzkcno7vn8",
+          "id": "publishDate",
+          "title": "Publish Date",
+          "type": "date_range_2",
+          "span": 8,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T13:04:51.725Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:02.281Z"
+}

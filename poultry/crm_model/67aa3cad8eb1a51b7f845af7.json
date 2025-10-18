@@ -1,0 +1,21 @@
+{
+  "_id": "67aa3cad8eb1a51b7f845af7",
+  "name": "Account Settings",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "account_settings",
+  "properties": [
+    {
+      "$key": "krfqxj8aofh",
+      "key": "primaryColor",
+      "name": "Primary color",
+      "unique": false,
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2025-02-10T17:51:41.917Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "66e2bffeab08f3103afa0730",
+  "name": "Role",
+  "modelType": "COLLECTION",
+  "collectionName": "role",
+  "properties": [
+    {
+      "$key": "rtmpqqyhb1",
+      "key": "name",
+      "name": "Name",
+      "searchable": {
+        "value": true
+      },
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-12T10:18:38.081Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

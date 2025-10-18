@@ -1,0 +1,13 @@
+{
+  "_id": "661220daa10af254b4b437c8",
+  "name": "Edit Branch",
+  "path": "/admin/account-settings/branch/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660d40d8c7b99128d924f74f",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T04:28:10.236Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:49.517Z"
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "64a5c279099de82bca61ca94",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name"
+    },
+    {
+      "dataType": "STRING",
+      "key": "value",
+      "name": "Value"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Product Key Point",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:50.794Z"
+}

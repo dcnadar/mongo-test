@@ -1,0 +1,57 @@
+{
+  "_id": "660d8fa5c7b99128d924f769",
+  "gridTitle": "Eduempower BookPublisher",
+  "gridType": "table",
+  "crmModelId": "660af1bbc7b99128d924f6dd",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "02xxdesm1ihb",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "f2cbww62cak",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "b6r9i0sug7o",
+          "gridTitle": "Edit Publisher",
+          "value": "Edit",
+          "apiUrl": "/admin/schoolsetup/publisher/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "lm9fbm1allr",
+      "gridTitle": "Add Publisher",
+      "gridType": "popupForm",
+      "value": "Add Publisher",
+      "apiUrl": "/admin/schoolsetup/publisher/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T17:19:33.470Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.937Z"
+}

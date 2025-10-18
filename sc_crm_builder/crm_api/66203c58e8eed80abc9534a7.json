@@ -1,0 +1,23 @@
+{
+  "_id": {
+    "$oid": "66203c58e8eed80abc9534a7"
+  },
+  "name": "Update Permissions",
+  "path": "/admin/permissions/update",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6620323de8eed80abc9534a1",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1713388632953"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070148393"
+    }
+  }
+}

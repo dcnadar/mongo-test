@@ -1,0 +1,40 @@
+{
+  "_id": "6608f6c160d4f873b5fa4f6c",
+  "name": "Eduempower FeeCategory",
+  "modelType": "COLLECTION",
+  "properties": [
+    {
+      "$key": "q5x0w23ouh",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "g4r525vdbap",
+      "key": "code",
+      "name": "Code",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xal3o2ui4il",
+      "key": "classes",
+      "name": "Classes",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T05:38:09.302Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_fee_category",
+  "updated": "2025-09-08T10:51:05.363Z"
+}

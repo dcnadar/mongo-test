@@ -1,0 +1,142 @@
+{
+  "_id": "661cdf3baee00c70206deb6b",
+  "gridTitle": "Blog",
+  "gridType": "table",
+  "crmModelId": "661cd412aee00c70206deb66",
+  "columns": [
+    {
+      "$key": "7flo7dju4bg",
+      "key": "title",
+      "name": "Title",
+      "type": "text",
+      "sort": true,
+      "width": 100
+    },
+    {
+      "$key": "v3cm7s21ev",
+      "key": "slug",
+      "name": "Slug",
+      "type": "text",
+      "sort": true,
+      "width": 100
+    },
+    {
+      "$key": "n7xs7ijnsg",
+      "key": "image",
+      "name": "Image ",
+      "type": "thumb",
+      "sort": true,
+      "width": 100
+    },
+    {
+      "$key": "xbf388vxran",
+      "key": "author",
+      "name": "Author",
+      "type": "card",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "q62c5hfoeqh",
+      "key": "date",
+      "name": "Date",
+      "type": "date",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "ydkdifzirxo",
+      "key": "category",
+      "name": "Category",
+      "type": "card",
+      "sort": false,
+      "width": 150
+    },
+    {
+      "$key": "ciqqopcm5xt",
+      "key": "tags",
+      "name": "Tags",
+      "sort": true,
+      "type": "tag",
+      "width": 100
+    },
+    {
+      "$key": "otgr7a7uvya",
+      "key": "shortDescription",
+      "name": "Short Description",
+      "type": "text",
+      "sort": true,
+      "width": 200
+    },
+    {
+      "$key": "axwk9x7m685",
+      "key": "edit",
+      "name": "Edit",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "dmux1ox7w2e",
+          "value": "View",
+          "slug": "/admin/website/blog/content/edit?blogId=:_id _id",
+          "gridTitle": "View Blog Content"
+        },
+        {
+          "$key": "k7emk1bu1ei",
+          "value": "Delete",
+          "type": "icon",
+          "gridMsg": "Are you sure want to delete?",
+          "gridType": "confirm",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.8.actions.2.icon/2024/3/22/upload_sny2ygugjxa-1713781200132.png",
+          "apiUrl": "/admin/website/blog/delete?id=:_id _id"
+        }
+      ],
+      "sort": true,
+      "width": 200
+    }
+  ],
+  "actions": [
+    {
+      "$key": "00a4ofxopcgnd",
+      "value": "Add Blog",
+      "gridType": "slug",
+      "gridTitle": "Add Blog",
+      "apiUrl": "/admin/website/blog/add"
+    },
+    {
+      "$key": "u7ijclu53x",
+      "value": "View Categories",
+      "slug": "/admin/blog/category/all"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "ehdihw5uf5",
+      "fields": [
+        {
+          "$key": "ediagcmtdc",
+          "id": "category",
+          "title": "Category",
+          "type": "list",
+          "multiple": true,
+          "o": true,
+          "span": 8,
+          "add": false,
+          "delete": false,
+          "min": 0,
+          "max": 10
+        }
+      ]
+    }
+  ],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T08:03:07.251Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/website/page",
+  "search": {
+    "placeHolder": "Search by titile"
+  }
+}

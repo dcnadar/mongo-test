@@ -1,0 +1,34 @@
+{
+  "_id": "66bf0118901b1b6d68f936c6",
+  "gridTitle": "Variant Option Image Value",
+  "gridType": "form",
+  "crmModelId": "665c195e7a29a87a0def3d84",
+  "rows": [
+    {
+      "$key": "cwjg1l887fu",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Image Name",
+          "type": "text",
+          "span": 12,
+          "$key": "22s9ttsi0dw"
+        },
+        {
+          "$key": "fh3233mz5yi",
+          "id": "value",
+          "title": "Image Value",
+          "type": "upload",
+          "span": 12,
+          "o": false,
+          "multiple": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-16T07:34:48.235Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,88 @@
+{
+  "_id": "65ba56f094c18c84cd7a0984",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-31T14:19:28.879Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Organisation Name Label",
+          "id": "organisationNameLabel",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "hint": "The legal name of your organisation."
+        },
+        {
+          "index": 1,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "hint": "Main heading for the section."
+        },
+        {
+          "index": 2,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 24,
+          "o": false,
+          "hint": "Short description or subtitle."
+        },
+        {
+          "index": 3,
+          "title": "First Name Label",
+          "id": "firstNamelabel",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Your first name."
+        },
+        {
+          "index": 4,
+          "title": "Last Name Label",
+          "id": "lastNamelabel",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Your last name."
+        },
+        {
+          "index": 5,
+          "title": "Email Address Label",
+          "id": "emailaddresslabel",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Your email address."
+        },
+        {
+          "index": 6,
+          "title": "Button Text",
+          "id": "buttonText",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "hint": "Text for the main action button."
+        },
+        {
+          "index": 7,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 12,
+          "o": false,
+          "hint": "Image associated with the signup's basic info form."
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65ba56f094c18c84cd7a0983",
+  "gridTitle": "ReactGrid GlobalTrufalSignup BasicInfo"
+}

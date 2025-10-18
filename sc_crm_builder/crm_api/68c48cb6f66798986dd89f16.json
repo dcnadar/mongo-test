@@ -1,0 +1,26 @@
+{
+  "_id": {
+    "$oid": "68c48cb6f66798986dd89f16"
+  },
+  "name": "Edit Account Access Details",
+  "path": "/admin/user-group/account-access/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68c40b87f66798986dd89ef1",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757711542173"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377686748"
+    }
+  }
+}

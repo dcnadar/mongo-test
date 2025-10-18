@@ -1,0 +1,13 @@
+{
+  "_id": "6616263ba039b45c27dfddda",
+  "name": "Add Designation",
+  "path": "/admin/account-settings/designation/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cd44ac7b99128d924f722",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-10T05:40:11.569Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:50.722Z"
+}

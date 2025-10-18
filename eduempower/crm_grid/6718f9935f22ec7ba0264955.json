@@ -1,0 +1,91 @@
+{
+  "_id": "6718f9935f22ec7ba0264955",
+  "gridTitle": "Eduempower Leave Transaction History",
+  "gridType": "table",
+  "crmModelId": "67457e6550a2593e955f0b14",
+  "columns": [
+    {
+      "$key": "9dbrsc4jdg",
+      "key": "userId",
+      "name": "User",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "t44wct2haee",
+      "key": "leaveType",
+      "name": "Leave Type",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "9ajuqfelo7s",
+      "key": "applyLeaveFrom",
+      "name": "From",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "vl8xhs6h4ym",
+      "key": "applyLeaveTo",
+      "name": "To",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "rcj9src4qf",
+      "key": "noOfLeaves",
+      "name": "No. of Leaves",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "z22ve0n1fmq",
+      "key": "leaveStatus",
+      "name": "Status",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "s6c8vohvvt",
+      "key": "actionTakenBy",
+      "name": "Updated By",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "sd91sb6rtsl",
+      "key": "updatedDate",
+      "name": "Updated Date",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "5lud9qd67ax",
+      "key": "remark",
+      "name": "Remark",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": []
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T13:26:43.154Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:02.314Z"
+}

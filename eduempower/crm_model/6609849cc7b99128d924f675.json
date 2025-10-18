@@ -1,0 +1,68 @@
+{
+  "_id": "6609849cc7b99128d924f675",
+  "name": "Eduempower SchoolFloor",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_school_floor",
+  "properties": [
+    {
+      "$key": "xqr4q3wdxvn",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "wqdau7e0d2s",
+      "key": "type",
+      "name": "Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "nj3ytl1ufcd",
+            "key": "CLASS",
+            "value": "Class"
+          },
+          {
+            "$key": "magrbg5r1va",
+            "key": "OTHER",
+            "value": "Other"
+          }
+        ]
+      },
+      "searchable": {
+        "description": false
+      }
+    },
+    {
+      "$key": "txuqp0zeb2i",
+      "key": "prefferedClassTypes",
+      "name": "Preffered Class Types",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "673883452989183eda4d14b0"
+    },
+    {
+      "$key": "kj2yvg8c72q",
+      "key": "sequence",
+      "name": "Sequence",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "bng8bh667ok",
+      "key": "buildingId",
+      "name": "Building Id",
+      "dataType": "REFERENCE",
+      "modelId": "66098350c7b99128d924f674"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T15:43:24.604Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.938Z"
+}

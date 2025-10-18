@@ -1,0 +1,29 @@
+{
+  "_id": "660fe2f7c7b99128d924f780",
+  "name": "Eduempower UserHistory Change",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "oagg9pypznp",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "v98kdvsa8ae",
+      "key": "oldValue",
+      "name": "Old Value",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "m6bd3vi2yub",
+      "key": "newValue",
+      "name": "New Value",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-05T11:39:35.090Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.480Z"
+}

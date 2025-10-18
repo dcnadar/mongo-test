@@ -1,0 +1,34 @@
+{
+  "_id": "66d8602b22d6741286d071d7",
+  "name": "Shiprocket Setting",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "1i3mmq3k50j",
+      "key": "shiprocketUserName",
+      "name": "Shiprocket User Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5ueguj3rm35",
+      "key": "shiprocketPassword",
+      "name": "Shiprocket Password",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4v0qg8c0rtx",
+      "key": "shiprocketChannelId",
+      "name": "Shiprocket Channel Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "f8jmvwdpz3c",
+      "key": "shiprocketWebhookToken",
+      "name": "Shiprocket Webhook Token",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-04T13:27:07.506Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

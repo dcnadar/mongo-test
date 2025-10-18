@@ -1,0 +1,19 @@
+{
+  "_id": "6738694a5bfbb47aebef4663",
+  "name": "Edit Branch",
+  "path": "/admin/account/branch/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67384c7c5bfbb47aebef4658",
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true
+    }
+  ],
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-16T09:43:38.816Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

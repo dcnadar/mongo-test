@@ -1,0 +1,22 @@
+{
+  "_id": "68c8f33ef66798986dd89f26",
+  "name": "Test 3",
+  "aId": "37827",
+  "status": "PENDING_APPROVAL",
+  "userDetails": {
+    "firstName": "Sundar",
+    "lastName": "Kumar",
+    "email": "sundarmgr666@gmail.com"
+  },
+  "companyDetails": {
+    "favicon": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/8/9/file_11toglxp71dj-1757416664845.png",
+    "loginImages": [
+      "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/8/9/file_11toglxp71dj-1757416664845.png"
+    ],
+    "subDomain": "test-3",
+    "logo": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/8/9/file_11toglxp71dj-1757416664845.png"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2025-09-16T05:18:54.729Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

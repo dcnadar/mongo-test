@@ -1,0 +1,83 @@
+{
+  "_id": "67adaa8b61e8f2055c2ae877",
+  "gridTitle": "Eduempower LeaveType\t",
+  "gridType": "form",
+  "crmModelId": "67ad9f0f61e8f2055c2ae86f",
+  "rows": [
+    {
+      "$key": "box42aox2t4",
+      "fields": [
+        {
+          "$key": "3ymcuy4htjd",
+          "id": "name",
+          "title": "Leave Type Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "hy4jmygjfsc",
+          "id": "code",
+          "title": "Code ",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "taf78oricjs",
+          "id": "leaveType",
+          "title": "TaggedTo",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "c63nemamqwm",
+          "id": "duration",
+          "title": "Duration",
+          "span": 8,
+          "type": "list",
+          "multiple": false
+        },
+        {
+          "$key": "tn3t6tj4mlb",
+          "id": "maxLeaveAllowed",
+          "title": "Max Leave Allowed",
+          "type": "number",
+          "span": 8,
+          "min": 1
+        },
+        {
+          "$key": "g5l8q7r1aot",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "INACTIVE"
+        },
+        {
+          "$key": "cdgn7d0egsf",
+          "id": "paidLeave",
+          "title": "Paid Leave",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "1hm6re7ah31",
+          "id": "entityType",
+          "title": "Entity Type",
+          "type": "text",
+          "span": 8,
+          "value": "MASTER_SETUP",
+          "updateType": "hidden",
+          "createType": "hidden"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T08:17:15.450Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

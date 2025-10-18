@@ -1,0 +1,20 @@
+{
+  "_id": "671a033d5f22ec7ba02649c6",
+  "name": "Student Discontinue",
+  "path": "/admin/student/discontinue/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "677fadf7571a4a3748516505",
+  "gridParams": [
+    {
+      "key": "studentId",
+      "required": true
+    }
+  ],
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T08:20:13.361Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:55.041Z"
+}

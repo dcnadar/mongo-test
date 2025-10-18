@@ -1,0 +1,17 @@
+{
+  "_id": "671270705f22ec7ba0264868",
+  "name": "All Academic Info",
+  "path": "/admin/staff/academic-info/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "67123cc75f22ec7ba0264853",
+  "innerGridType": "table",
+  "innerSourceId": "67123cc75f22ec7ba0264853",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T14:28:00.701Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:51.896Z"
+}

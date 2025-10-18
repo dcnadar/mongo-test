@@ -1,0 +1,45 @@
+{
+  "_id": "689c80a8c3e700b68242b0e7",
+  "gridTitle": "trainingTrainerInformation",
+  "gridType": "form",
+  "crmModelId": "689c3a09e8e746ac85de559a",
+  "rows": [
+    {
+      "$key": "ldvgactw22",
+      "fields": [
+        {
+          "id": "trainername",
+          "title": "Trainer Name",
+          "span": 12,
+          "type": "text",
+          "$key": "cllxo2iumkl"
+        },
+        {
+          "$key": "jy6xvrkvfa",
+          "id": "traineremail",
+          "title": "Trainer Email",
+          "type": "email",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T12:10:16.157Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.518Z"
+}

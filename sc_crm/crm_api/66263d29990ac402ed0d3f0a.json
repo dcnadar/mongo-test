@@ -1,0 +1,12 @@
+{
+  "_id": "66263d29990ac402ed0d3f0a",
+  "name": "Vendor",
+  "path": "/admin/account/vendor/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "6618d46eaee00c70206deb0f",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T10:34:17.000Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

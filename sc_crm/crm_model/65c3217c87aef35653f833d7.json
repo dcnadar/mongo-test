@@ -1,0 +1,30 @@
+{
+  "_id": "65c3217c87aef35653f833d7",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "GlobalThemeColors Set",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "bg",
+      "name": "Background Color"
+    },
+    {
+      "dataType": "STRING",
+      "key": "text",
+      "name": "Text Color"
+    },
+    {
+      "dataType": "STRING",
+      "key": "border",
+      "name": "Border Color"
+    },
+    {
+      "dataType": "STRING",
+      "key": "accent",
+      "name": "Accent Color"
+    }
+  ],
+  "created": "2024-02-07T06:21:48.110Z"
+}

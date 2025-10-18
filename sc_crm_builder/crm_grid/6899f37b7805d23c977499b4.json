@@ -1,0 +1,190 @@
+{
+  "_id": {
+    "$oid": "6899f37b7805d23c977499b4"
+  },
+  "gridTitle": "Account",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "i3nz7ucfrkc",
+      "fields": [
+        {
+          "$key": "xtrwb3tkzf",
+          "id": "name",
+          "title": "Account Name",
+          "type": "text",
+          "span": {
+            "$numberInt": "16"
+          },
+          "onChangeCondition": [
+            {
+              "$key": "wja28jhtpgs",
+              "key": "companyDetails.subDomain",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.name ? this.name.trim().toLowerCase().replaceAll(\" \", \"-\").replace(/-+/g, \"-\") : \"\";"
+            }
+          ]
+        },
+        {
+          "$key": "3l9jc3kiq4d",
+          "id": "aId",
+          "title": "Account ID",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "$key": "wi0qhmcshy",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "value": "PENDING_APPROVAL",
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "e7p8zrwk9si",
+          "id": "userDetails.email",
+          "title": "Admin Email ID",
+          "type": "email",
+          "span": {
+            "$numberInt": "24"
+          },
+          "placeholder": "info@example.com"
+        },
+        {
+          "$key": "j8lxfv94p1",
+          "id": "userDetails.firstName",
+          "title": "Admin First name",
+          "type": "text",
+          "o": false,
+          "span": {
+            "$numberInt": "12"
+          },
+          "placeholder": "John"
+        },
+        {
+          "$key": "tf7xyq3r4nq",
+          "id": "userDetails.lastName",
+          "title": "Admin Last name",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "placeholder": "Wick"
+        }
+      ],
+      "tab": "account"
+    },
+    {
+      "fields": [
+        {
+          "$key": "kt2snx3lcnc",
+          "id": "companyDetails.logo",
+          "title": "Upload Logo image",
+          "type": "upload",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "allowWebcam": false,
+            "allowGallery": false,
+            "uploadUISize": "md"
+          },
+          "span": {
+            "$numberInt": "12"
+          },
+          "multiple": false,
+          "fileAccept": "image/png, image/jpeg",
+          "hint": "Recommendaed file resolution 512x512 px"
+        },
+        {
+          "$key": "hp7iboo7z1q",
+          "id": "companyDetails.favicon",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false,
+            "uploadUISize": "sm"
+          },
+          "fileAccept": ".ico",
+          "title": "Upload Favicon image",
+          "span": {
+            "$numberInt": "12"
+          }
+        },
+        {
+          "$key": "qhvjyst87bg",
+          "id": "companyDetails.loginImages",
+          "title": "Upload Login page images",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": true,
+            "uploadUISize": "lg"
+          },
+          "add": true,
+          "delete": true,
+          "span": {
+            "$numberInt": "24"
+          },
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "10"
+          }
+        }
+      ],
+      "$key": "4b93ns7ssq5",
+      "tab": "media"
+    },
+    {
+      "fields": [
+        {
+          "$key": "mty6mg0bfl9",
+          "id": "companyDetails.subDomain",
+          "title": "Please enter your sub domain",
+          "type": "text",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "addonAfter": ".radyfy.com",
+            "addonBefore": "https://"
+          },
+          "span": {
+            "$numberInt": "24"
+          }
+        }
+      ],
+      "$key": "rexrcb2ywm8",
+      "tab": "domain"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1754919803399"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "crmModelId": "65e2c398226e7b80fe49ae39",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151683"
+    }
+  }
+}

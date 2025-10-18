@@ -1,0 +1,88 @@
+{
+  "_id": "6610fb3923b39252de459b01",
+  "gridTitle": "ReactGrid Global3dCards section",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "dla93ydhud4",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "sy4f65wj4fd"
+        },
+        {
+          "$key": "0sbdhipkgdc",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ij6av0t6s58",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "ite2gj1u6yn",
+          "id": "zoom",
+          "title": "Zoom",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "9j0o3yfltad",
+          "id": "leftButton",
+          "title": "LeftButton",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "add": true,
+          "delete": true,
+          "span": 23,
+          "min": 0,
+          "max": 2
+        },
+        {
+          "$key": "25p42fsrxsn",
+          "id": "rightButton",
+          "title": "RightButton",
+          "type": "inner_form",
+          "add": false,
+          "delete": false,
+          "span": 24,
+          "min": 0,
+          "max": 2,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-06T07:35:21.581Z",
+  "createdBy": "660837fd3afc795c92fa7f61",
+  "crmModelId": "6610f9f823b39252de459aff"
+}

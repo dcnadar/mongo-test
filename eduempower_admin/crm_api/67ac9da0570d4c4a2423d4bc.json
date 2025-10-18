@@ -1,0 +1,14 @@
+{
+  "_id": "67ac9da0570d4c4a2423d4bc",
+  "name": "Add Department",
+  "path": "/admin/entity-setup/departments/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "67ac87c1570d4c4a2423d4b3",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-12T13:09:52.825Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

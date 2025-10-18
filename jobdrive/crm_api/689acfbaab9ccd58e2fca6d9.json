@@ -1,0 +1,14 @@
+{
+  "_id": "689acfbaab9ccd58e2fca6d9",
+  "name": "Add Companies",
+  "path": "/admin/companies/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "689acf39ab9ccd58e2fca6d5",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-12T05:23:06.013Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:49.381Z"
+}

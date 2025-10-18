@@ -1,0 +1,62 @@
+{
+  "_id": "660d91d0c7b99128d924f76d",
+  "gridTitle": "Eduempower Department",
+  "gridType": "table",
+  "crmModelId": "660817b960d4f873b5fa4f47",
+  "columns": [
+    {
+      "$key": "b0xdimgj57r",
+      "key": "name",
+      "name": "Department Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "btkvg688r2e",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "fsj856c0sg",
+          "gridType": "expendedTable",
+          "value": "View Designation",
+          "apiUrl": "/admin/account-settings/designation/all?departmentId=:_id _id"
+        },
+        {
+          "$key": "x8nv509e98",
+          "value": "Add Designation",
+          "gridType": "expendedForm",
+          "apiUrl": "/admin/account-settings/designation/add?departmentId=:_id _id"
+        },
+        {
+          "$key": "pcjelq0mnsg",
+          "gridTitle": "Edit Departments",
+          "slug": "/admin/account-settings/department/edit?id=:_id _id",
+          "value": "Edit"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "3fzd6xwt26t",
+      "gridTitle": "Add Departments",
+      "value": "Add Department",
+      "apiUrl": "/admin/account-settings/department/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T17:28:48.135Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "updated": "2025-09-08T10:51:00.079Z"
+}

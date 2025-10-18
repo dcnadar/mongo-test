@@ -1,0 +1,12 @@
+{
+  "_id": "661ce123aee00c70206deb72",
+  "name": "Add Blog ",
+  "path": "/admin/website/blog/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "661cd8b2aee00c70206deb69",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T08:11:15.269Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

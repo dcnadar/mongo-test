@@ -1,0 +1,20 @@
+{
+  "_id": "6703b7f45f22ec7ba026470d",
+  "name": "SC Account Filter",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "qp19r2zcyaq",
+      "key": "_ecomAccountId",
+      "name": "Account",
+      "dataType": "REFERENCE",
+      "modelId": "6703b53e5f22ec7ba0264708"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-07T10:29:08.320Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:54.393Z"
+}

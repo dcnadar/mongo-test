@@ -1,0 +1,13 @@
+{
+  "_id": "66260b00990ac402ed0d3ee2",
+  "name": "NewsLetter",
+  "path": "/admin/account/newsletter/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66260abe990ac402ed0d3edf",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T07:00:16.398Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

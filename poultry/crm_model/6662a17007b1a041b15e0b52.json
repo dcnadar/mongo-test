@@ -1,0 +1,141 @@
+{
+  "_id": "6662a17007b1a041b15e0b52",
+  "name": "Poultry User",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "user",
+  "properties": [
+    {
+      "$key": "n5q9ntxpnd",
+      "key": "firstName",
+      "name": "First Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "key": "lastName",
+      "name": "Last Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      },
+      "$key": "rzacg1deipo"
+    },
+    {
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING",
+      "searchable": {
+        "value": false,
+        "primary": false,
+        "description": true
+      },
+      "unique": true,
+      "$key": "h6rq17x4ajj"
+    },
+    {
+      "key": "userName",
+      "name": "User Name",
+      "dataType": "STRING",
+      "unique": true,
+      "searchable": {
+        "primary": true
+      },
+      "$key": "8tii7yqot2a"
+    },
+    {
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "dataType": "STRING",
+      "$key": "yjjw9vy2hkd"
+    },
+    {
+      "key": "callingCode",
+      "name": "Calling Code",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "key": "+91",
+            "value": "+91 (India)",
+            "$key": "uld0aid5ba"
+          }
+        ]
+      },
+      "$key": "jtawiemv1me"
+    },
+    {
+      "key": "birthDate",
+      "name": "Date of Birth",
+      "dataType": "DATE",
+      "$key": "m9b6og5b6p"
+    },
+    {
+      "key": "gender",
+      "name": "Gender",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "key": "MALE",
+            "value": "Male",
+            "$key": "99m1b04fz3r"
+          },
+          {
+            "key": "FEMALE",
+            "value": "Female",
+            "$key": "wb3z8zu1myo"
+          },
+          {
+            "key": "OTHERS",
+            "value": "Others",
+            "$key": "frrja7n2pqt"
+          }
+        ]
+      },
+      "$key": "b81fgw6lz4b"
+    },
+    {
+      "$key": "oorps3gui6",
+      "key": "password",
+      "name": "Password",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "f9eopec8ob",
+      "key": "logo",
+      "name": "Profile Pic",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wd4yl7st8y",
+      "key": "admin",
+      "name": "Is Admin",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "4kf8qts31cb",
+      "key": "roleId",
+      "name": "Role",
+      "dataType": "REFERENCE",
+      "modelId": "66e2bffeab08f3103afa0730"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "firstName",
+    "thumb": "logo",
+    "subtitles": [
+      "email"
+    ]
+  },
+  "menuTargets": {
+    "title": "firstName",
+    "description": "email",
+    "thumb": "logo"
+  },
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T05:58:08.218Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

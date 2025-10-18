@@ -1,0 +1,57 @@
+{
+  "_id": "6612ff13a10af254b4b43839",
+  "gridTitle": "Enquiry",
+  "gridType": "form",
+  "crmModelId": "6612fbdba10af254b4b43838",
+  "rows": [
+    {
+      "$key": "qd0mizbeptp",
+      "fields": [
+        {
+          "id": "customerName",
+          "title": "Name",
+          "type": "text",
+          "span": 12,
+          "$key": "4iyp3uz5d1d"
+        },
+        {
+          "$key": "0wwx9qlyzaxn",
+          "id": "customerContact",
+          "title": "Contact Number",
+          "type": "text",
+          "span": 16
+        },
+        {
+          "$key": "unsgiuwkswp",
+          "id": "customerEmail",
+          "title": "Email",
+          "type": "email",
+          "span": 18
+        },
+        {
+          "$key": "cwysnmdaom",
+          "id": "message",
+          "title": "Message",
+          "type": "textarea",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T20:16:19.701Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

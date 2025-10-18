@@ -1,0 +1,54 @@
+{
+  "_id": "686b5838eafb2047bf212bba",
+  "name": "Eduempower Additional Contact",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "sbxiu48oiks",
+      "key": "phone",
+      "name": "Phone",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qnfwwwcj6t",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "f9i68upegq",
+      "key": "remarks",
+      "name": "Remarks",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kklhsyekor",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "r1munxrpa1",
+      "key": "mobile",
+      "name": "Mobile",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dm7onrsuk1u",
+      "key": "address",
+      "name": "Address",
+      "dataType": "INNER_MODEL",
+      "modelId": "660ac9ccc7b99128d924f6c1"
+    },
+    {
+      "$key": "fo6ifwgazvn",
+      "key": "residentialAddress",
+      "name": "Residential Address",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-07-07T05:16:40.382Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:08.700Z"
+}

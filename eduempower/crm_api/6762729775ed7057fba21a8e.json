@@ -1,0 +1,14 @@
+{
+  "_id": "6762729775ed7057fba21a8e",
+  "name": "SchoolAsset(OLD)",
+  "path": "/admin/staff/asset/return",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6760261375ed7057fba21a7b",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-18T06:58:31.830Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:56.748Z"
+}

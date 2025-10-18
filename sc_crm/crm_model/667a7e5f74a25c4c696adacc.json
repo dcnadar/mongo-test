@@ -1,0 +1,16 @@
+{
+  "_id": "667a7e5f74a25c4c696adacc",
+  "name": "NativeGrid GlobalCommonProductList2 Header",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "2tn0e8l76yv",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-25T08:22:55.674Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

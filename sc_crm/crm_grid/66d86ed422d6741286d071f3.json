@@ -1,0 +1,39 @@
+{
+  "_id": "66d86ed422d6741286d071f3",
+  "gridTitle": "Shiprocket Token",
+  "gridType": "form",
+  "crmModelId": "66d86ea822d6741286d071f2",
+  "rows": [
+    {
+      "$key": "yk7bvo5i2t",
+      "fields": [
+        {
+          "id": "token",
+          "title": "Token",
+          "type": "text",
+          "span": 8,
+          "$key": "gh30zt0e3sj"
+        },
+        {
+          "$key": "9ka5hs1o01f",
+          "id": "createdDate",
+          "title": "Created Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "z1ajw0mnv9",
+          "id": "expiredDate",
+          "title": "Expired Date",
+          "type": "date",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-04T14:29:40.407Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,78 @@
+{
+  "_id": {
+    "$oid": "68d14e3ef42bc3ef836dc7d6"
+  },
+  "gridTitle": "App Role Form",
+  "gridType": "form",
+  "crmModelId": "68d14de3f42bc3ef836dc7d5",
+  "rows": [
+    {
+      "$key": "6hb69lh5jl",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "$key": "woexmizmu4b",
+          "onChangeCondition": [
+            {
+              "$key": "oj17lsndsgn",
+              "key": "key",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.name ?this.name.trim().toLowerCase().replaceAll(\" \", \"_\").replace(/[^a-z_]/g, \"\").replace(/_+/g, \"_\") : \"\";"
+            }
+          ]
+        },
+        {
+          "$key": "dcvna0q87ju",
+          "id": "key",
+          "title": "Key",
+          "span": {
+            "$numberInt": "12"
+          },
+          "type": "text",
+          "validate": "return /^[A-Za-z_]+$/.test(this.key)    ? ''    : 'Invalid key';",
+          "hint": "Use only letters and underscores"
+        },
+        {
+          "$key": "dkyfhmwd62m",
+          "id": "permissions",
+          "title": "Permissions",
+          "type": "list",
+          "multiple": true,
+          "add": true,
+          "delete": true,
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "20"
+          },
+          "span": {
+            "$numberInt": "24"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758547518183"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231679049"
+    }
+  },
+  "breadcrumb": []
+}

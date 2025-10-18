@@ -1,0 +1,14 @@
+{
+  "_id": "6733354602f79267ffc56565",
+  "key": "admission.create",
+  "name": "Enquiry Create",
+  "apisAccess": [
+    "67190a545f22ec7ba026496e",
+    "67190a5e5f22ec7ba026496f"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T11:00:22.208Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.263Z"
+}

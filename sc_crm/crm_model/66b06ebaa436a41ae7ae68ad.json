@@ -1,0 +1,100 @@
+{
+  "_id": "66b06ebaa436a41ae7ae68ad",
+  "name": "WebsitePageGridThemeSettings",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ezyqthios64",
+      "key": "colorSetting",
+      "name": "Color Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66ab4b01e287100717693d2d"
+    },
+    {
+      "$key": "t1euzzam5qj",
+      "key": "fontSetting",
+      "name": "Font Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66ab502ce287100717693d30"
+    },
+    {
+      "$key": "49yozya405",
+      "key": "buttonSetting",
+      "name": "Button Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66ab5265e287100717693d32"
+    },
+    {
+      "$key": "2eq6x8wgjrg",
+      "key": "isBackground",
+      "name": "Is Background",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "2g5gh6i5l5r",
+      "key": "backgroundImage",
+      "name": "Background Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "z3nox4hnz3",
+      "key": "backgroundSvg",
+      "name": "Background Svg",
+      "dataType": "INNER_MODEL",
+      "modelId": "66b069e6a436a41ae7ae68ab"
+    },
+    {
+      "$key": "c35atbvwn7",
+      "key": "backgroundPosition",
+      "name": "Background Position",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2grqi8lf98n",
+      "key": "backgroundOverlayColor",
+      "name": "Background Overlay Color",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bbxdc125m5k",
+      "key": "outerSpacing",
+      "name": "Outer Spacing",
+      "dataType": "INNER_MODEL",
+      "modelId": "66b06aa7a436a41ae7ae68ac"
+    },
+    {
+      "$key": "5hm56nn05bm",
+      "key": "innerSpacing",
+      "name": "Inner Spacing",
+      "dataType": "INNER_MODEL",
+      "modelId": "66b06aa7a436a41ae7ae68ac"
+    },
+    {
+      "$key": "9d8g6qb24g",
+      "key": "minHeight",
+      "name": "Min Height",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9r2g6wivnm",
+      "key": "horizontalAlignment",
+      "name": "Horizontal Alignment",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ehl0otn8eyg",
+      "key": "verticalAlignment",
+      "name": "Vertical Alignment",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jja7ixsfik",
+      "key": "fullWidth",
+      "name": "Full Width",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-05T06:18:34.345Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

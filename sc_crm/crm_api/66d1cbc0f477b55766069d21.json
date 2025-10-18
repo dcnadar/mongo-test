@@ -1,0 +1,14 @@
+{
+  "_id": "66d1cbc0f477b55766069d21",
+  "name": "All Shipment",
+  "path": "/admin/order/shipment/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66d1b1dbf477b55766069c55",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-30T13:40:16.775Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

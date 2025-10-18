@@ -1,0 +1,15 @@
+{
+  "_id": "6684f8013108ad7b7d063f52",
+  "name": "All Comment Reaction",
+  "path": "/admin/website/blog/comment/reaction/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "668390263108ad7b7d063f10",
+  "innerGridType": "table",
+  "innerSourceId": "6684f7dd3108ad7b7d063f51",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T07:04:33.802Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

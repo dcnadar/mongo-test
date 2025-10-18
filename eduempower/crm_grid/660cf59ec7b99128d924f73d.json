@@ -1,0 +1,33 @@
+{
+  "_id": "660cf59ec7b99128d924f73d",
+  "gridTitle": "Eduempower LibraryShelves",
+  "gridType": "form",
+  "crmModelId": "660af14dc7b99128d924f6db",
+  "rows": [
+    {
+      "$key": "04nhgc6yguo4",
+      "fields": [
+        {
+          "$key": "dnsifopl9nk",
+          "id": "libraryId",
+          "title": "Library",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "7z8yo8rqhuf",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T06:22:22.510Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.052Z"
+}

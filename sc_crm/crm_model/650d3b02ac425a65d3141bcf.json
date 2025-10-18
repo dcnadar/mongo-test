@@ -1,0 +1,42 @@
+{
+  "_id": "650d3b02ac425a65d3141bcf",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "dataType": "INTEGER",
+      "key": "order",
+      "name": "Order"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "parentId",
+      "name": "Parent",
+      "modelId": "650d3b02ac425a65d3141bcf"
+    },
+    {
+      "name": "Enable Button",
+      "key": "enableButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Click Action",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Website Header Menu Item",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "website_header_menu_item",
+  "created": "2024-01-27T07:48:51.274Z"
+}

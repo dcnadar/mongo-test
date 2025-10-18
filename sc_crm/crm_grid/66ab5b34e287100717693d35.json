@@ -1,0 +1,59 @@
+{
+  "_id": "66ab5b34e287100717693d35",
+  "gridTitle": "WebsiteThemeSettings ColorSetting",
+  "gridType": "form",
+  "crmModelId": "661679a02742031ccaab99cf",
+  "rows": [
+    {
+      "$key": "2u3i91dz6zr",
+      "fields": [
+        {
+          "$key": "fi3m4tl9z8",
+          "id": "websiteThemeSettings.colorSetting.colors",
+          "title": "Colors",
+          "span": 8,
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "ztpq48qmbpt",
+          "id": "websiteThemeSettings.colorSetting.colorType",
+          "title": "Color Type",
+          "type": "radio",
+          "span": 8,
+          "multiple": false,
+          "meta": {
+            "horizontal": false
+          }
+        },
+        {
+          "$key": "ampd787jk8",
+          "id": "websiteThemeSettings.colorSetting.moodType",
+          "title": "Mood Type",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "o": true,
+          "showCondition": "return this.websiteThemeSettings && this.websiteThemeSettings.colorSetting && (this.websiteThemeSettings.colorSetting.colorType === 'mood');"
+        },
+        {
+          "$key": "jausvq7gtfb",
+          "id": "websiteThemeSettings.colorSetting.moodOptionType",
+          "title": "Mood Option Type",
+          "type": "text",
+          "o": true,
+          "span": 8,
+          "showCondition": "return this.websiteThemeSettings && this.websiteThemeSettings.colorSetting && (this.websiteThemeSettings.colorSetting.colorType === 'mood');"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T09:53:56.862Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "upsertDoc": true
+}

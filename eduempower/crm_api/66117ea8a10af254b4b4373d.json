@@ -1,0 +1,13 @@
+{
+  "_id": "66117ea8a10af254b4b4373d",
+  "name": "Edit Fee Structure",
+  "path": "/admin/schoolsetup/fee-settings/fee-structure/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cdcbac7b99128d924f72b",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T16:56:08.199Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:46.155Z"
+}

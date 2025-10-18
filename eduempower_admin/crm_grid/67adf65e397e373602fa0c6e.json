@@ -1,0 +1,56 @@
+{
+  "_id": "67adf65e397e373602fa0c6e",
+  "gridTitle": "Eduempower FeeSchedule",
+  "gridType": "form",
+  "crmModelId": "67adf4d9397e373602fa0c6c",
+  "rows": [
+    {
+      "$key": "5ici0r4mf14",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 12,
+          "$key": "9c6yqgo96db"
+        },
+        {
+          "$key": "scn8xychcsa",
+          "id": "classTypes",
+          "title": "Class Type",
+          "type": "list",
+          "multiple": true,
+          "span": 12,
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "n1lnzsyome",
+          "id": "installments",
+          "title": "Installments",
+          "span": 24,
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "$key": "a2h524kopjn",
+          "id": "entityType",
+          "title": "Entity Type",
+          "type": "text",
+          "span": 12,
+          "value": "MASTER_SETUP",
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T13:40:46.921Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

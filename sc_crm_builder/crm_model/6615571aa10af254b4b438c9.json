@@ -1,0 +1,82 @@
+{
+  "_id": {
+    "$oid": "6615571aa10af254b4b438c9"
+  },
+  "name": "Crm Grid TableMeta Filter",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "4udty1w120f",
+      "name": "Property Key",
+      "dataType": "STRING",
+      "key": "propertyKey"
+    },
+    {
+      "$key": "z8u00o8hywl",
+      "key": "operator",
+      "name": "Operator",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "rddd1nzw6ce",
+            "key": "EQUALS",
+            "value": "Equals"
+          },
+          {
+            "$key": "7bdgybaaq6o",
+            "key": "NOT_EQUALS",
+            "value": "Not equals"
+          },
+          {
+            "$key": "lz05d0iie9q",
+            "key": "EXISTS",
+            "value": "Exists"
+          },
+          {
+            "$key": "jusg48m0og",
+            "key": "IN",
+            "value": "In"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ad2ozexktbo",
+      "key": "EQUALS",
+      "name": "EQUALS Value",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qfhtl8meiki",
+      "key": "EXISTS",
+      "name": "EXISTS Value",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "tsnv2klmqg",
+      "key": "IN",
+      "name": "In",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "5orrixs5r1j",
+      "key": "NOT_EQUALS",
+      "name": "Not equals",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1712674586963"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070153145"
+    }
+  }
+}

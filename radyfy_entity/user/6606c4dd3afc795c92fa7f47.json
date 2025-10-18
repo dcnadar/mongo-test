@@ -1,0 +1,22 @@
+{
+  "_id": "6606c4dd3afc795c92fa7f47",
+  "email": "himanshu773962@gmail.com",
+  "mobileNumber": "",
+  "landlineNumber": "",
+  "gender": "MALE",
+  "roleId": "admin",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "password": "ld14402V8Hf48JMh8xLE4HnMPE6YpplLnuECEb4h7GA=",
+  "callingCode": "+91",
+  "userName": "himanshu773962@gmail.com",
+  "appId": "65e255c8efb82357eb86d51b",
+  "ecomAccountId": "65e2539fefb82357eb86d514",
+  "firstName": "Himanshu",
+  "lastName": "Kumar",
+  "crmLastFilter": {
+    "accountId": "6703b44b30083226ac6affc0"
+  },
+  "admin": true,
+  "userType": "STAFF"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Enrollments",
+    "action": "CRM_GRID",
+    "sourceId": "65ca41bab06d763b61648eb3",
+    "gridType": "table",
+    "accountId": "65d0d41b0d1f40b74ff1bd92",
+    "apiType": "GET",
+    "path": "/admin/students",
+    "created": "2024-02-12T16:05:15.107Z",
+    "_id": "65ca41bbb06d763b61648eb9"
+}

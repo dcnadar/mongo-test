@@ -1,0 +1,175 @@
+{
+  "_id": "6736d5c40932ea333aeea5de",
+  "gridTitle": "Eduempower Student FeeCollect",
+  "gridType": "table",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "columns": [
+    {
+      "$key": "r9f4sgyzmr",
+      "name": "Student",
+      "type": "card",
+      "sort": false,
+      "width": 200,
+      "key": "_id"
+    },
+    {
+      "$key": "uhxxpa40j38",
+      "key": "academicDetails.admissionNo",
+      "name": "Admission No",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "2l0y6inzyif",
+      "key": "academicDetails.academicSession",
+      "name": "Academic Session",
+      "type": "card",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "ocnkd42fvn8",
+      "name": "Admission Class",
+      "key": "academicDetails.class",
+      "type": "card",
+      "width": 50,
+      "sort": true
+    },
+    {
+      "$key": "cm8pqvu4p2",
+      "key": "academicDetails.section",
+      "name": "Section",
+      "type": "card",
+      "sort": false,
+      "width": 50
+    },
+    {
+      "$key": "i713ftkktds",
+      "name": "Roll No",
+      "key": "academicDetails.rollNo",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "i713ftkktds",
+      "name": "Fee Category",
+      "key": "academicDetails.feeCategory",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "cbgqwpwuhdn",
+      "key": "actions",
+      "name": "Actions",
+      "type": "options",
+      "width": 500,
+      "actions": [
+        {
+          "$key": "8f7u3t8rifg",
+          "gridTitle": "Collect Fee",
+          "value": "Collect Fee",
+          "slug": "/admin/fee/collect/student?id=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "jw5kmraij2p",
+      "gridType": "popupForm",
+      "value": "Add Student",
+      "gridTitle": "Add Student",
+      "slug": "/admin/student/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [
+    {
+      "$key": "0n8mcu2jyvz",
+      "fields": [
+        {
+          "$key": "z0nzmz9s4j",
+          "id": "academicDetails.admissionNo",
+          "title": "Admission No.",
+          "type": "text",
+          "span": 12,
+          "o": true
+        },
+        {
+          "$key": "27j4vpzflh5",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "o": true
+        },
+        {
+          "$key": "qh5w956addh",
+          "id": "dateOfJoining",
+          "title": "Date of admission",
+          "type": "date_range_2",
+          "span": 12,
+          "o": true
+        },
+        {
+          "$key": "ed9j12shkkr",
+          "id": "academicDetails.admissionSession",
+          "title": "Admission Session",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "o": true
+        },
+        {
+          "$key": "l339brm1itc",
+          "id": "academicDetails.admissionClass",
+          "title": "Admission Class",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "o": true
+        },
+        {
+          "$key": "dbe6c3cae94",
+          "id": "academicDetails.admissionSection",
+          "title": "Admission Section",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "2e74aip2gx3",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EXISTS": false,
+        "EQUALS": "STUDENT"
+      },
+      {
+        "$key": "hb57jn0hium",
+        "propertyKey": "academicDetails.academicSession",
+        "operator": "EXISTS",
+        "EXISTS": true
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "middleName",
+    "lastName",
+    "_id"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-15T03:41:07.065Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:03.290Z"
+}

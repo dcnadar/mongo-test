@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "65eaa0096ac40fb24f3db14d"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Group Name",
+          "id": "name",
+          "type": "text",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": false,
+          "hint": "Checkbox Group Name"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Hard Options",
+          "id": "options",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "18"
+          },
+          "o": false,
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "200"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Options"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e7bd37da2db33603c16987",
+  "gridTitle": "Crm Grid FormRow FormField CheckboxGroup",
+  "created": {
+    "$date": {
+      "$numberLong": "1709875209751"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150324"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "666d6d9dfaf6243feb6c9829",
+  "name": "Delete website icon",
+  "path": "/admin/website/settings/icon/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "666d2790faf6243feb6c9810",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-15T10:31:57.316Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

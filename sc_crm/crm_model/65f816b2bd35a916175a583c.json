@@ -1,0 +1,29 @@
+{
+  "_id": "65f816b2bd35a916175a583c",
+  "name": "ReactGrid GlobalHeaderSection2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65f81774bd35a916175a583d"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-18T10:25:54.728Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

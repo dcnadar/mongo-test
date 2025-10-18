@@ -1,0 +1,32 @@
+{
+  "_id": "668261ec3108ad7b7d063ee8",
+  "gridTitle": "NativeGrid GlobalBlogCardsWithBgImage User",
+  "gridType": "form",
+  "crmModelId": "66825d8d3108ad7b7d063ee2",
+  "rows": [
+    {
+      "$key": "s7fao6wtczm",
+      "fields": [
+        {
+          "id": "thumb",
+          "title": "Thumb",
+          "type": "upload",
+          "span": 8,
+          "multiple": false,
+          "$key": "lkww4nfy5d9"
+        },
+        {
+          "$key": "g5gnbfbvbp5",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T07:59:40.482Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

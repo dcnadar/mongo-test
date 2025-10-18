@@ -1,0 +1,150 @@
+{
+  "_id": "686b5b63eafb2047bf212bbd",
+  "gridTitle": "Eduempower Student Additional Details",
+  "gridType": "form",
+  "crmModelId": "686b5a75eafb2047bf212bbc",
+  "rows": [
+    {
+      "$key": "em2cern6w",
+      "fields": [
+        {
+          "$key": "zjixr60tq7g",
+          "id": "category",
+          "title": "Category",
+          "type": "list",
+          "multiple": false,
+          "o": true
+        },
+        {
+          "$key": "eydcf5834m4",
+          "id": "studentType",
+          "title": "Student Type",
+          "type": "list",
+          "multiple": false,
+          "o": true
+        },
+        {
+          "$key": "2a1j1re752r",
+          "id": "name",
+          "title": "Name (Regional Language)",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "9bdqporrn4j",
+          "id": "passportNumber",
+          "title": "Passport Number",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "nh53d0gqpyj",
+          "id": "voterCardNumber",
+          "title": "Voter Card Number",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "vmpnpl4x0o9",
+          "id": "prnNumber",
+          "title": "PRN Number",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "x0q00th1gpa",
+          "id": "scsNo",
+          "title": "SCS No",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "vmcqjeh21yh",
+          "id": "smartCardNo",
+          "title": "Smart Card No",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "rt30x8hzrw",
+          "id": "siblings",
+          "title": "Siblings",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "o": true
+        },
+        {
+          "$key": "74kt5iy1gm4",
+          "id": "universityRegNo",
+          "title": "University Reg No",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "x70ikq89apr",
+          "id": "universityRollNo",
+          "title": "University Roll No",
+          "type": "number",
+          "o": true
+        },
+        {
+          "$key": "lqkvpw1f88",
+          "id": "srNo",
+          "title": "SR No",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "rtk6wg1zhb",
+          "id": "uDisePen",
+          "title": "U-Dise Pen",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "xgxmkh542ed",
+          "id": "apaarId",
+          "title": "Apaar ID",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "hsp6ev80zm",
+          "id": "srDate",
+          "title": "SR Date",
+          "type": "date",
+          "o": true
+        },
+        {
+          "$key": "x1n7hjx16bc",
+          "id": "grNo",
+          "title": "GR No",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "o8qwf4hm4sg",
+          "id": "familyId",
+          "title": "Family ID",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "1ud8zx02g7l",
+          "id": "studentId",
+          "title": "Student ID",
+          "type": "text",
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-07-07T05:30:11.195Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:04.703Z"
+}

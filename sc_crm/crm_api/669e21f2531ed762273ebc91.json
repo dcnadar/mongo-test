@@ -1,0 +1,14 @@
+{
+  "_id": "669e21f2531ed762273ebc91",
+  "name": "Edit OrderInvoice",
+  "path": "/admin/order/invoice/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "668e37e3531ed762273ebc2c",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-22T09:10:10.022Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

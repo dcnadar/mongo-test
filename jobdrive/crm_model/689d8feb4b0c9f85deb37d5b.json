@@ -1,0 +1,49 @@
+{
+  "_id": "689d8feb4b0c9f85deb37d5b",
+  "name": "AssessmentConfiguration",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "4mlh904l1xt",
+      "key": "duration",
+      "name": "Duration",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "j77hjxjp1v",
+      "key": "totalquestions",
+      "name": "Total Questions",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "bdj00g9hn79",
+      "key": "maximumscore",
+      "name": "Maximum Score",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "bb8pzf69twf",
+      "key": "passingscore",
+      "name": "Passing Score",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "n8vhm2kbwlj",
+      "key": "assessmentoptions",
+      "name": "Assessment Options",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "p6wwpt48a7",
+      "name": "Status",
+      "key": "status",
+      "listType": "STRING",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T07:27:39.787Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.199Z"
+}

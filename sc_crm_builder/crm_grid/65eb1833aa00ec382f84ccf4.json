@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "65eb1833aa00ec382f84ccf4"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "defaultSort",
+          "id": "defaultSort",
+          "type": "inner_form",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "hint": "Default Sort of table data",
+          "$key": "22ohxe88t4y"
+        },
+        {
+          "$key": "i29sbi760wb",
+          "id": "defaultFilters",
+          "title": "Default Filters",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "100"
+          },
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true
+        }
+      ],
+      "$key": "3uuw1wq0vbs"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e8027c424719e028f2065b",
+  "gridTitle": "Crm Grid TableMeta",
+  "created": {
+    "$date": {
+      "$numberLong": "1709905971657"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150760"
+    }
+  }
+}

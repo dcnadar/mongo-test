@@ -1,0 +1,14 @@
+{
+  "_id": "6718dac15f22ec7ba0264935",
+  "name": "Eduempower Visit",
+  "path": "/admin/front-office/approvalPending/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "671b13f15f22ec7ba0264a05",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T11:15:13.032Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-08T10:50:53.834Z"
+}

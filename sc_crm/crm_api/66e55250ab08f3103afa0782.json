@@ -1,0 +1,13 @@
+{
+  "_id": "66e55250ab08f3103afa0782",
+  "name": "All Order Return",
+  "path": "/admin/order/return-request/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66e5517fab08f3103afa077f",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-14T09:07:28.498Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

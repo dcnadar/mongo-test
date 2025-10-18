@@ -1,0 +1,62 @@
+{
+  "_id": "67c598adf238c33fa9e18b7c",
+  "gridTitle": "Eduempower Collect Challan",
+  "gridType": "form",
+  "crmModelId": "67c596adf238c33fa9e18b7a",
+  "rows": [
+    {
+      "$key": "12r9zro4ucip",
+      "fields": [
+        {
+          "id": "paymentMode",
+          "title": "Payment Mode",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "hbhh134lsc6"
+        },
+        {
+          "$key": "nc98hqc6hpe",
+          "id": "chequeDDNo",
+          "title": "Cheque/DD No",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "8dgrmyetkij",
+          "id": "bank",
+          "title": "Bank",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "zevs6jp98c",
+          "id": "cashDetails",
+          "title": "Cash",
+          "type": "input_table",
+          "add": false,
+          "delete": false,
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-03T11:55:25.788Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:04.430Z"
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "68a9a8b27917e6968666f84e",
+  "name": "Student Full Details",
+  "path": "/admin/student/resume",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "68a85afe2e775374be67fb94",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-23T11:40:34.437Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:51.026Z"
+}

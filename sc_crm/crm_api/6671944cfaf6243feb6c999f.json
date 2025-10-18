@@ -1,0 +1,14 @@
+{
+  "_id": "6671944cfaf6243feb6c999f",
+  "name": "All Screen Section Groups",
+  "path": "/admin/mobileapp/settings/section-group",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66718d47faf6243feb6c9993",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T14:06:04.885Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

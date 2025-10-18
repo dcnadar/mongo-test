@@ -1,0 +1,13 @@
+{
+  "_id": "661259faa10af254b4b437fa",
+  "name": "Add Country",
+  "path": "/admin/entity-setup/country/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660c140ec7b99128d924f70c",
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-07T08:31:54.103Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "ecomApiMappings": []
+}

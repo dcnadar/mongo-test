@@ -1,0 +1,15 @@
+{
+  "_id": "67602d9e75ed7057fba21a7c",
+  "name": "SchoolAsset",
+  "path": "/admin/assets/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "676022c575ed7057fba21a7a",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-16T13:39:42.634Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:56.403Z"
+}

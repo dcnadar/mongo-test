@@ -1,0 +1,57 @@
+{
+  "_id": "660d8dbbc7b99128d924f765",
+  "gridTitle": "Eduempower ClassIncharge",
+  "gridType": "table",
+  "crmModelId": "66096e01c7b99128d924f672",
+  "columns": [
+    {
+      "$key": "qig9gx73nzh",
+      "key": "className",
+      "name": "Class",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "8411t8wr4pw",
+      "key": "staffName",
+      "name": "Incharge",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "babr9hpz6ns",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "zd5n14c36j9",
+          "gridTitle": "Edit Class Incharge",
+          "value": "Edit",
+          "apiUrl": "/admin/schoolsetup/class-incharge/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "exyug5ebjj5",
+      "gridTitle": "Add Class Incharge",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/schoolsetup/class-incharge/add",
+      "value": "Add Class Incharge"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T17:11:23.769Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.797Z"
+}

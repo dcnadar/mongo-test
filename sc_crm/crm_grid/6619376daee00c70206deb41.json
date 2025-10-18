@@ -1,0 +1,58 @@
+{
+  "_id": "6619376daee00c70206deb41",
+  "gridTitle": "ReactGrid GlobalTestimonial2",
+  "gridType": "form",
+  "crmModelId": "66193545aee00c70206deb40",
+  "rows": [
+    {
+      "$key": "nqy9i6dj1qq",
+      "fields": [
+        {
+          "id": "userThumb",
+          "title": "UserThumb",
+          "type": "upload",
+          "multiple": false,
+          "span": 24,
+          "$key": "0is0xzy1nxz7"
+        },
+        {
+          "$key": "qmby6jssuo",
+          "id": "description",
+          "title": "Description",
+          "type": "text",
+          "span": 16
+        },
+        {
+          "$key": "sxp1nkcem2b",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "q44j6aq8f4",
+          "id": "designation",
+          "title": "Designation",
+          "type": "text",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T13:30:21.681Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

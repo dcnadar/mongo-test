@@ -1,0 +1,85 @@
+{
+  "_id": "67b037adb4dd3169274b7b78",
+  "gridTitle": "Eduempower Class",
+  "gridType": "form",
+  "crmModelId": "67b0341db4dd3169274b7b76",
+  "rows": [
+    {
+      "$key": "wsafggkjm4r",
+      "fields": [
+        {
+          "id": "sequenceNo",
+          "title": "Sequence No",
+          "type": "number",
+          "span": 8,
+          "$key": "kyxrd0e9rhn"
+        },
+        {
+          "$key": "h4ttq5ulk7b",
+          "id": "classType",
+          "title": "Class Type",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "mj2xzcgemns",
+          "id": "classNameInWord",
+          "title": "Class Name in Words",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "drlctt9cpir",
+          "id": "capacity",
+          "title": "Capacity",
+          "type": "number",
+          "span": 8,
+          "min": 1,
+          "max": 0
+        },
+        {
+          "$key": "18pjhpf47w",
+          "id": "numberOfSections",
+          "title": "Number Of Sections",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "j0qvsdoi268",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "tj7zbheso2",
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "updateType": "hidden",
+          "createType": "none"
+        },
+        {
+          "$key": "1ut30pqvrt1",
+          "id": "entityType",
+          "title": "Entity Type",
+          "type": "text",
+          "value": "MASTER_SETUP",
+          "updateType": "hidden_fe",
+          "createType": "hidden"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-15T06:43:57.413Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

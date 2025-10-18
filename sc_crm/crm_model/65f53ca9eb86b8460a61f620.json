@@ -1,0 +1,51 @@
+{
+  "_id": "65f53ca9eb86b8460a61f620",
+  "name": "ReactGrid globalCTASection5",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING",
+      "$key": "f91hl071v6"
+    },
+    {
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING",
+      "$key": "djduwn42768"
+    },
+    {
+      "name": "BackgroundAccent",
+      "dataType": "STRING",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a",
+      "key": "backgroundAccent",
+      "$key": "9wiqsln79al"
+    },
+    {
+      "key": "buttons",
+      "name": "Buttons",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a",
+      "$key": "qnnk2q1p02n"
+    },
+    {
+      "$key": "0eoonspstxn",
+      "key": "messageUp",
+      "name": "Message Up",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6gh9qirgwh3",
+      "key": "messageDown",
+      "name": "Message Down",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-16T06:31:05.346Z"
+}

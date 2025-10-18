@@ -1,0 +1,23 @@
+{
+  "_id": "6682366d3108ad7b7d063ec2",
+  "name": "NativeGrid GlobalFeatureSection quote",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "24wbr33iwbk",
+      "key": "message",
+      "name": "Message",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "p03zzyerpcm",
+      "key": "user",
+      "name": "User",
+      "dataType": "INNER_MODEL",
+      "modelId": "668237173108ad7b7d063ec3"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T04:54:05.539Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

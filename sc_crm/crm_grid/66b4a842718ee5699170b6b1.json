@@ -1,0 +1,50 @@
+{
+  "_id": "66b4a842718ee5699170b6b1",
+  "gridTitle": "ReactGrid GlobalPricing4 footer",
+  "gridType": "form",
+  "crmModelId": "66b49146718ee5699170b68a",
+  "rows": [
+    {
+      "$key": "4p2p9inpx3h",
+      "fields": [
+        {
+          "$key": "jk1326izoc",
+          "id": "title",
+          "title": "Title",
+          "span": 24,
+          "type": "text"
+        },
+        {
+          "$key": "vqh80ullan",
+          "id": "description",
+          "title": "Description",
+          "span": 24,
+          "type": "text"
+        },
+        {
+          "$key": "a0dzempu0v",
+          "id": "buttonText",
+          "title": "Button Text",
+          "type": "text",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-08T11:13:06.430Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

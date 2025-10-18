@@ -1,0 +1,36 @@
+{
+  "_id": "689daefb4b0c9f85deb37d5f",
+  "name": "AssessmentAssociation",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "dxr5q09rkus",
+      "key": "associatewith",
+      "name": "Associate With",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "gl9nnwm9sp9",
+            "value": "No Association (Standalone)",
+            "key": "NO_ASSOCIATION_STANDALONE"
+          },
+          {
+            "$key": "4xgs1rxq5m",
+            "key": "PLACEMENT_DRIVE",
+            "value": "Placement Drive"
+          },
+          {
+            "$key": "05sr57m7oqr4",
+            "key": "TRAINING_PROGRAM",
+            "value": "Training Program"
+          }
+        ]
+      }
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T09:40:11.823Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.281Z"
+}

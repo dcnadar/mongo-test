@@ -1,0 +1,21 @@
+{
+  "_id": "6666e12f07b1a041b15e0be0",
+  "name": "App Settings",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "app_settings",
+  "properties": [
+    {
+      "$key": "3c1hnwzzgkw",
+      "key": "firebaseSettings",
+      "name": "Firebase Settings",
+      "dataType": "INNER_MODEL",
+      "modelId": "6666dd6907b1a041b15e0bdf"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-10T11:19:11.453Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

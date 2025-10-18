@@ -1,0 +1,109 @@
+{
+  "_id": "661679a02742031ccaab99cf",
+  "name": "Account Settings",
+  "modelType": "COLLECTION",
+  "collectionName": "account_settings",
+  "properties": [
+    {
+      "$key": "fg77b6q3fp",
+      "key": "name",
+      "name": "Account",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "quwcttuba5k",
+      "key": "logo",
+      "name": "Account Logo",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "d9vdffk8v3",
+      "key": "companyDetails",
+      "name": "Company Details",
+      "dataType": "INNER_MODEL",
+      "modelId": "66127baba10af254b4b4380a"
+    },
+    {
+      "$key": "njbm0ew0khn",
+      "key": "taxSettings",
+      "name": "Tax Settings",
+      "dataType": "INNER_MODEL",
+      "modelId": "66127dc2a10af254b4b4380b"
+    },
+    {
+      "$key": "hb688sntetg",
+      "key": "emailSettings",
+      "name": "Email Settings",
+      "dataType": "INNER_MODEL",
+      "modelId": "666441e707b1a041b15e0b9c"
+    },
+    {
+      "$key": "ww2pu3fzy9",
+      "key": "defaultCurrency",
+      "name": "Default Currency",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "6c4me9o2p5e",
+            "key": "INR",
+            "value": "Indian Rupee (INR)"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "i1ikg4d4ik",
+      "key": "paymentGatewaySettings",
+      "name": "Payment Gateway Settings",
+      "dataType": "INNER_MODEL",
+      "modelId": "66c02ff8901b1b6d68f936ef"
+    },
+    {
+      "$key": "79mhxxbaevu",
+      "key": "deliveryServiceProviderSetting",
+      "name": "Delivery Service Provider Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66d860ac22d6741286d071d8"
+    },
+    {
+      "$key": "bv8pb6lxw8m",
+      "key": "orderSetting",
+      "name": "Order Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66a34d26e287100717693bcb"
+    },
+    {
+      "$key": "98r1jk8fhr",
+      "key": "productSetting",
+      "name": "Product Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "668bc898531ed762273ebbf6"
+    },
+    {
+      "$key": "l0i8me4e0kq",
+      "key": "nyf_currentRollNo",
+      "name": "NYF Current Roll No",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "m907vy43vi",
+      "key": "websiteThemeSettings",
+      "name": "Website theme settings",
+      "dataType": "INNER_MODEL",
+      "modelId": "66ab53c3e287100717693d33"
+    },
+    {
+      "$key": "a3llrt3q9t8",
+      "key": "allowCODAtCheckout",
+      "name": "Allow COD at Checkout",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-10T11:36:00.820Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "baseModelId": "64822a187d5f915dc103d271"
+}

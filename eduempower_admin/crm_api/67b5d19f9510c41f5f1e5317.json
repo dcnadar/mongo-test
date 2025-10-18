@@ -1,0 +1,15 @@
+{
+  "_id": "67b5d19f9510c41f5f1e5317",
+  "name": "All Class Subject\t",
+  "path": "/admin/school-setup/examinations/class-subject/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67adfa21397e373602fa0c77",
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-19T12:42:07.706Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "innerGridType": "table",
+  "innerSourceId": "67b5c48e9510c41f5f1e5316"
+}

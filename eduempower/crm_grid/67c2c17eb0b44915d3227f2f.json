@@ -1,0 +1,102 @@
+{
+  "_id": "67c2c17eb0b44915d3227f2f",
+  "gridTitle": "Eduempower Fee Challan",
+  "gridType": "form",
+  "crmModelId": "67c2b9feb0b44915d3227f2d",
+  "rows": [
+    {
+      "$key": "o19m1j6rks",
+      "fields": [
+        {
+          "id": "userId",
+          "title": "Student",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "6jaqnwfqfz8",
+          "onChangeCondition": [
+            {
+              "$key": "1ge94pp2gw7",
+              "key": "challanDetails",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/fee/generate-challan/challan/details?userId=:userId&fromDate=:fromDate&toDate=:toDate&validityDate=:validityDate validityDate toDate fromDate userId"
+            }
+          ]
+        },
+        {
+          "$key": "976okxubjrm",
+          "id": "fromDate",
+          "title": "From Date",
+          "type": "date",
+          "span": 8,
+          "onChangeCondition": [
+            {
+              "$key": "cztsl15baqv",
+              "key": "challanDetails",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/fee/generate-challan/challan/details?userId=:userId&fromDate=:fromDate&toDate=:toDate&validityDate=:validityDate validityDate toDate fromDate userId"
+            }
+          ]
+        },
+        {
+          "$key": "94nhmk82jhu",
+          "id": "toDate",
+          "title": "To Date",
+          "type": "date",
+          "span": 8,
+          "onChangeCondition": [
+            {
+              "$key": "i0b63lvro1h",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/fee/generate-challan/challan/details?userId=:userId&fromDate=:fromDate&toDate=:toDate&validityDate=:validityDate validityDate toDate fromDate userId",
+              "key": "challanDetails"
+            }
+          ]
+        },
+        {
+          "$key": "y1bny4a8xm",
+          "id": "validityDate",
+          "title": "Validity Date",
+          "span": 8,
+          "type": "date",
+          "onChangeCondition": [
+            {
+              "$key": "fiuhjvymr7a",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/fee/generate-challan/challan/details?userId=:userId&fromDate=:fromDate&toDate=:toDate&validityDate=:validityDate validityDate toDate fromDate userId",
+              "key": "challanDetails"
+            }
+          ]
+        },
+        {
+          "$key": "fz7u39pvwcj",
+          "title": "Challan",
+          "id": "challanDetails",
+          "type": "input_table",
+          "add": false,
+          "delete": false,
+          "span": 24,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-01T08:12:46.467Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:04.268Z"
+}

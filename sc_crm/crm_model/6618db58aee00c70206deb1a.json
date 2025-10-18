@@ -1,0 +1,44 @@
+{
+  "_id": "6618db58aee00c70206deb1a",
+  "name": "Supplier",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "supplier",
+  "properties": [
+    {
+      "$key": "ainkpcm5wdv",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "iibaip0h6j",
+      "key": "contact",
+      "name": "Contact",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4ixmjpw07od",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "bfwrw2mzqta",
+      "key": "address",
+      "name": "Address",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T06:57:28.477Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

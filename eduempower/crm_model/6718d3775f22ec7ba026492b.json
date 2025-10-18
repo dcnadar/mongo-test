@@ -1,0 +1,55 @@
+{
+  "_id": "6718d3775f22ec7ba026492b",
+  "name": "Eduempower Leave Report (TEMP)",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "dhfo1okoje",
+      "key": "leaveType",
+      "name": "Leave Type",
+      "dataType": "REFERENCE",
+      "modelId": "66081d3c60d4f873b5fa4f49"
+    },
+    {
+      "$key": "exsox35b7",
+      "key": "carryForward",
+      "name": "Carry Forward (A)",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "9ulvfhvv5k",
+      "key": "accruedTillDate",
+      "name": "Accrued Till Date (B)",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "2xsl346sr5k",
+      "key": "total",
+      "name": "Total (A+B)",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "pyytunko87n",
+      "name": "Leave Taken",
+      "key": "leaveTaken",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "lsdtecvh4f",
+      "key": "leaveBalance",
+      "name": "Leave Balance",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "wsxu6w9077",
+      "key": "userId",
+      "name": "userId",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:44:07.999Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:07.327Z"
+}

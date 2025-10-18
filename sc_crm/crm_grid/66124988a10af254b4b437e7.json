@@ -1,0 +1,78 @@
+{
+  "_id": "66124988a10af254b4b437e7",
+  "gridTitle": "Invoice Form",
+  "gridType": "form",
+  "crmModelId": "66123e4aa10af254b4b437dc",
+  "rows": [
+    {
+      "$key": "l22y9azgxp",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name ",
+          "type": "text",
+          "span": 8,
+          "$key": "2cd1lwm3jiq"
+        },
+        {
+          "$key": "vq0rstukfs",
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": 8
+        },
+        {
+          "$key": "yejrra111y",
+          "id": "address",
+          "title": "Address",
+          "type": "textarea",
+          "span": 8
+        },
+        {
+          "$key": "dzypwjxhxyt",
+          "id": "phone",
+          "title": "Phone",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "ur3k70luez",
+          "id": "website ",
+          "title": "Website ",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "vfum0kdvkmk",
+          "id": "owner",
+          "title": "Owner",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "fitfocw6ng5",
+          "id": "business Number",
+          "title": "Business Number",
+          "type": "number",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T07:21:44.550Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

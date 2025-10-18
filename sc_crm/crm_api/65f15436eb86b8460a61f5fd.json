@@ -1,0 +1,11 @@
+{
+  "_id": "65f15436eb86b8460a61f5fd",
+  "name": "All Page Section Groups",
+  "path": "/admin/website/settings/section-group",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "65f153c0eb86b8460a61f5fb",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-13T07:22:30.535Z"
+}

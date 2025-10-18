@@ -1,0 +1,33 @@
+{
+  "_id": "679df687b81dbd448287fa56",
+  "gridTitle": "ReactGrid GlobalBanner3 Section [OLD]",
+  "gridType": "form",
+  "crmModelId": "679df61cb81dbd448287fa55",
+  "rows": [
+    {
+      "$key": "zgtnwmwthkj",
+      "fields": [
+        {
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 8,
+          "add": false,
+          "delete": false,
+          "min": 7,
+          "$key": "qs025jmykwj"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-01T10:25:11.701Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

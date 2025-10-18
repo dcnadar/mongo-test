@@ -1,0 +1,16 @@
+{
+  "_id": "66e285feab08f3103afa0712",
+  "name": "UserPasswordTemp",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "3lpq5xnczi8",
+      "key": "password",
+      "name": "password",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-12T06:11:10.722Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,105 @@
+{
+  "_id": {
+    "$oid": "65e5b5cf41f4f9dcaa63ac7e"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Thumb Color",
+          "id": "thumbColor",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Turn on to make the thumb color auto show in the grid's search results."
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Thumb Initials",
+          "id": "thumbInitials",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Turn on to make the thumb initials of the property searchable and auto show in the grid's search results."
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Thumb",
+          "id": "thumb",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Turn on to make the thumb auto show in the grid's search results."
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Description",
+          "id": "description",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Turn on to make the description of the property searchable and auto show in the grid's search results."
+        },
+        {
+          "index": {
+            "$numberInt": "4"
+          },
+          "title": "Value",
+          "id": "value",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Turn on to make the value of the property searchable and auto show in the grid's search results."
+        },
+        {
+          "index": {
+            "$numberInt": "5"
+          },
+          "title": "Primary",
+          "id": "primary",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Turn on to use the property as the primary property in the grid's search result's option key field or _id will be use as primary key."
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e45388a092a295233a12d4",
+  "gridTitle": "Crm Model Property Searchable",
+  "created": {
+    "$date": {
+      "$numberLong": "1709553103381"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150133"
+    }
+  }
+}

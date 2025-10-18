@@ -1,0 +1,14 @@
+{
+  "_id": "6733665b02f79267ffc56578",
+  "key": "student.transfer.history",
+  "name": "Student Transfer History",
+  "apisAccess": [
+    "671332665f22ec7ba0264881",
+    "6716123f5f22ec7ba02648c9"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T14:29:47.530Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.779Z"
+}

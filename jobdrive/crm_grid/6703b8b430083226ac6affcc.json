@@ -1,0 +1,38 @@
+{
+  "_id": "6703b8b430083226ac6affcc",
+  "gridTitle": "SO Account Filter",
+  "gridType": "account_filter",
+  "crmModelId": "6703b7f45f22ec7ba026470d",
+  "rows": [
+    {
+      "$key": "bfuq9e7rgxu",
+      "fields": [
+        {
+          "id": "_ecomAccountId",
+          "title": "Account",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "dsulfg6l2k5"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-07T13:52:03.568Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:51.669Z"
+}

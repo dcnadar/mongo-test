@@ -1,0 +1,111 @@
+{
+  "_id": "6718cd6f5f22ec7ba0264913",
+  "gridTitle": "Eduempower Apply Leave",
+  "gridType": "table",
+  "crmModelId": "660fe1f2c7b99128d924f77f",
+  "columns": [
+    {
+      "$key": "zouk3ia0gj9",
+      "key": "leaveType",
+      "name": "Leave Type",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "nvb8hqbb6ed",
+      "key": "leaveSession",
+      "name": "Leave Session",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "b1on4locor",
+      "key": "applyLeaveFrom",
+      "name": "From",
+      "type": "date",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "i46ge1o0ye",
+      "key": "applyLeaveTo",
+      "name": "To",
+      "type": "date",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "m1avnnnxgu",
+      "key": "noOfLeaves",
+      "name": "No. of Leaves",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "mectdj760c",
+      "key": "leaveStatus",
+      "name": "Status",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "ifkdp8xqk3t",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "x97u6lbxu6",
+          "gridTitle": "Edit Leave",
+          "value": "Edit",
+          "apiUrl": "/admin/leave/apply-leave/edit?id=:_id _id",
+          "gridType": "popupForm",
+          "showCondition": "return this.leaveStatus === 'PENDING';"
+        },
+        {
+          "$key": "1f3ngk9nkzy",
+          "gridTitle": "Cancel Leave",
+          "gridType": "confirm",
+          "showGridComment": true,
+          "gridMsg": "Are you sure?",
+          "apiUrl": "/api/io/admin/leave/apply-leave/cancel?id=:_id _id",
+          "value": "Cancel",
+          "showCondition": "return this.leaveStatus === 'PENDING';"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "k0i4thch4y",
+      "gridTitle": "Apply Leave",
+      "value": "Apply Leave",
+      "apiUrl": "/admin/leave/apply-leave/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": []
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:18:23.950Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "userId",
+      "required": true,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "updated": "2025-09-08T10:51:02.093Z"
+}

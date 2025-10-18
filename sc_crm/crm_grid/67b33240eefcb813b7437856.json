@@ -1,0 +1,41 @@
+{
+  "_id": "67b33240eefcb813b7437856",
+  "gridTitle": "ProductReview",
+  "gridType": "table",
+  "crmModelId": "6684e3603108ad7b7d063f47",
+  "columns": [
+    {
+      "$key": "qey0502oykr",
+      "key": "userId",
+      "name": "Customer",
+      "type": "card",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "9shdb4lyu87",
+        "propertyKey": "orderReview",
+        "operator": "EXISTS",
+        "EXISTS": true
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "orderReview"
+  ],
+  "gridParams": [
+    {
+      "key": "productVariantId",
+      "required": true
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-17T12:57:36.733Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "64ac83a5544a845fd74ffbb0",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 24,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Value",
+          "id": "value",
+          "type": "text",
+          "span": 24,
+          "o": false
+        }
+      ]
+    }
+  ],
+  "gridType": "form",
+  "edit": true,
+  "gridTitle": "Product Variant key Point",
+  "crmModelId": "64a5c279099de82bca61ca94"
+}

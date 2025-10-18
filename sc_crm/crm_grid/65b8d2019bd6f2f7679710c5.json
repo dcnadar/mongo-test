@@ -1,0 +1,30 @@
+{
+  "_id": "65b8d2019bd6f2f7679710c5",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-30T10:40:01.409Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "id": "images",
+          "title": "Images",
+          "min": 2,
+          "max": 2,
+          "type": "upload",
+          "span": 24,
+          "o": false,
+          "multiple": true,
+          "countTitle": "No Media Added",
+          "add": false,
+          "delete": false
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b8d2019bd6f2f7679710c4",
+  "gridTitle": "ReactGrid GlobalTwoImageGrid"
+}

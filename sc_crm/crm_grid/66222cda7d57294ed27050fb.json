@@ -1,0 +1,65 @@
+{
+  "_id": "66222cda7d57294ed27050fb",
+  "gridTitle": "BlogDynamicContent",
+  "gridType": "form",
+  "crmModelId": "66222ca07d57294ed27050fa",
+  "rows": [
+    {
+      "$key": "57oo9ij03vd",
+      "fields": [
+        {
+          "$key": "utkdj2pzfk8",
+          "id": "sortBy",
+          "title": "Sort By",
+          "type": "list",
+          "multiple": false,
+          "span": 0
+        },
+        {
+          "$key": "l7ph4frluho",
+          "id": "showPagination",
+          "title": "Show Pagination",
+          "type": "bool",
+          "span": 0
+        },
+        {
+          "id": "totalCardsToShow",
+          "title": "Total Cards to show",
+          "type": "number",
+          "o": false,
+          "min": 0,
+          "$key": "n5swdzl8avf",
+          "span": 0,
+          "showCondition": "return !this.showPagination;"
+        },
+        {
+          "$key": "gc7yhnvc3z",
+          "id": "cardPerSection",
+          "title": "Card Per Section",
+          "type": "number",
+          "span": 0,
+          "min": 0,
+          "max": 0,
+          "showCondition": "return this.showPagination;"
+        },
+        {
+          "$key": "4jy871mx8o",
+          "id": "filters",
+          "title": "Filters",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 10,
+          "countTitle": "No Filters Added",
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-19T08:35:38.532Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

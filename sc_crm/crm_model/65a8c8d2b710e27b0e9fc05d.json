@@ -1,0 +1,29 @@
+{
+  "_id": "65a8c8d2b710e27b0e9fc05d",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title",
+      "$key": "bgpiki5ggx"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description",
+      "$key": "6y9wbjy900o"
+    },
+    {
+      "dataType": "LIST_OF",
+      "key": "section",
+      "name": "Section",
+      "listType": "STRING",
+      "$key": "pb178xrznfe"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalCtaSection3 Content",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:52.631Z"
+}

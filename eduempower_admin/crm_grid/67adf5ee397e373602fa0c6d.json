@@ -1,0 +1,72 @@
+{
+  "_id": "67adf5ee397e373602fa0c6d",
+  "gridTitle": "Eduempower FeeSchedule",
+  "gridType": "table",
+  "crmModelId": "67adf4d9397e373602fa0c6c",
+  "columns": [
+    {
+      "$key": "hw6cc5vwq3h",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "urjbu8w38g",
+      "key": "classTypes",
+      "name": "Class Type",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "zr86vkr65r",
+      "key": "installments",
+      "name": "Installments",
+      "type": "text",
+      "sort": true,
+      "valueCondition": "const installments = this.installments || []; let htmlString = `     <div style=\"width: 100%; max-width: 600px; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; display: grid; grid-template-columns: repeat(2, 1fr);\"> `;  installments.forEach(({ name, startDate, endDate }) => {     htmlString += `         <div style=\"padding: 5px; border-bottom: 1px solid #ddd; text-align: center;\">             <div style=\"font-weight: bold; color: #555; font-size: 14px;\">${name}</div>             <div style=\"color: #777; font-size: 11px;\">                 <span>Start: ${new Date(startDate).toLocaleDateString()}</span><br>                 <span>End: ${new Date(endDate).toLocaleDateString()}</span>             </div>         </div>     `; });  htmlString += `</div>`; return htmlString;"
+    },
+    {
+      "$key": "63zs3r1f56r",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "gr34h4hyu8",
+          "gridTitle": "Edit Fee Schedule",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/school-setup/fee-settings/fee-schedule/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "wmwtxy6ntki",
+      "gridTitle": "Add Fee Schedule",
+      "value": "Add Fee Schedule",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/school-setup/fee-settings/fee-schedule/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "pzj2efxlg9",
+        "propertyKey": "entityType",
+        "operator": "EQUALS",
+        "EQUALS": "MASTER_SETUP"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T13:38:54.617Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "666451d407b1a041b15e0ba6",
+  "gridTitle": "State",
+  "gridType": "table",
+  "crmModelId": "6664474607b1a041b15e0b9e",
+  "columns": [
+    {
+      "$key": "cd2ktjxnadm",
+      "key": "stateName",
+      "name": "Name",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "1h5i02la6dk",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "pip3a1s7rf",
+          "gridTitle": "Edit State",
+          "value": "Edit",
+          "apiUrl": "/admin/location/state/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "a93ttxge49a",
+      "gridTitle": "Add State",
+      "value": "Add State",
+      "apiUrl": "/admin/location/state/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T12:43:00.127Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

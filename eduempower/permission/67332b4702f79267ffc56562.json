@@ -1,0 +1,14 @@
+{
+  "_id": "67332b4702f79267ffc56562",
+  "key": "staff.transfer.history",
+  "name": "Staff Transfer History",
+  "apisAccess": [
+    "671277ec5f22ec7ba026487b",
+    "671277df5f22ec7ba026487a"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T10:17:43.711Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.198Z"
+}

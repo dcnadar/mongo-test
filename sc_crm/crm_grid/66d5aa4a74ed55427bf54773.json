@@ -1,0 +1,68 @@
+{
+  "_id": "66d5aa4a74ed55427bf54773",
+  "gridTitle": "App Header Section\t",
+  "gridType": "form",
+  "crmModelId": "66d5a30874ed55427bf5476b",
+  "rows": [
+    {
+      "$key": "kywon39e5ol",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 12,
+          "$key": "guti4lzjds9"
+        },
+        {
+          "$key": "nevhetm3si9",
+          "id": "order",
+          "title": "Order",
+          "type": "number",
+          "span": 12
+        },
+        {
+          "$key": "5bvpd5lwc1i",
+          "id": "gridInfo",
+          "title": "Grid Info",
+          "apiUrl": "/admin/mobileapp/screen/",
+          "type": "c_page_section_selection",
+          "nullIds": [
+            "gridData"
+          ],
+          "span": 24
+        },
+        {
+          "$key": "awmhus6fouu",
+          "showCondition": "return !!this.gridInfo;",
+          "id": "gridData",
+          "title": "GridData",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": true,
+            "crmFormIdField": "gridInfo.meta.crmForm"
+          },
+          "span": 24
+        },
+        {
+          "$key": "nl5g4d7bi1",
+          "id": "gridSettings",
+          "title": "Grid Settings",
+          "showCondition": "return !!this.gridInfo;",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-02T12:06:34.383Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

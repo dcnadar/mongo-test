@@ -1,0 +1,114 @@
+{
+  "_id": {
+    "$oid": "68aec30818329f2a90e354a3"
+  },
+  "gridTitle": "Object Table",
+  "gridType": "table",
+  "crmModelId": "65e4e721d796c9ccbd1b408e",
+  "columns": [
+    {
+      "$key": "g584o8qz1st",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true,
+      "width": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "$key": "j09g4k951te",
+      "key": "properties",
+      "name": "Properties",
+      "type": "text",
+      "valueCondition": "return this.properties ? this.properties.map(p => p.key || 'NA').join('<br>') : 'NA';",
+      "sort": false,
+      "width": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "$key": "2lzb9ezdd8b",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": false,
+      "actions": [
+        {
+          "$key": "4eiie987tam",
+          "gridTitle": "Edit Object",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/entity/object/edit?id=:_id _id",
+          "type": "icon_button",
+          "icon": "/default/default/65e8cdff97f0eca7ba094627/imageUpload/2025/8/16/file_yg2evazqb1h-1758002407435.png"
+        }
+      ],
+      "align": "left",
+      "width": {
+        "$numberInt": "100"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "$key": "ieahkl7grpf",
+      "gridTitle": "Add Object",
+      "value": "Add Object",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/entity/object/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "3e107mkecb",
+      "fields": [
+        {
+          "$key": "0hl3i0lzwghk",
+          "id": "properties.modelId",
+          "title": "Property Model (inner or reference)",
+          "type": "list",
+          "multiple": true,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "add": true,
+          "delete": true,
+          "max": {
+            "$numberInt": "20"
+          }
+        }
+      ]
+    }
+  ],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "dfmqp28dsob",
+        "propertyKey": "modelType",
+        "operator": "EQUALS",
+        "EQUALS": "INNER"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1756283656456"
+    }
+  },
+  "createdBy": "68adb9f43e8ef56770f82104",
+  "search": {
+    "placeHolder": "Search by name"
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151832"
+    }
+  },
+  "breadcrumb": []
+}

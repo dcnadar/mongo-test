@@ -1,0 +1,24 @@
+{
+  "_id": "6684f3ab3108ad7b7d063f4e",
+  "name": "NativeGrid GlobalVideoDescription castlist",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "3jfkm6kgtaw",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "037sre7soxm8",
+      "key": "imageUri",
+      "name": "ImageUri",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T06:46:03.835Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

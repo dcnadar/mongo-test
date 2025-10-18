@@ -1,0 +1,33 @@
+{
+  "_id": "65ba56f194c18c84cd7a0989",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalTrufalSignup",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "logo",
+      "name": "Logo"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "basicInfoForm",
+      "name": "Basic Info Form",
+      "modelId": "65ba56f094c18c84cd7a0983"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "passwordForm",
+      "name": "Password Form",
+      "modelId": "65ba56f194c18c84cd7a0985"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "otpForm",
+      "name": "OTP Form",
+      "modelId": "65ba56f194c18c84cd7a0987"
+    }
+  ],
+  "created": "2024-01-31T14:19:29.480Z"
+}

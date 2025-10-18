@@ -1,0 +1,44 @@
+{
+  "_id": "660d4ad3c7b99128d924f752",
+  "name": "ReactGrid GlobalBanner2 section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "wbcydk40lab",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qrei78cvzwp",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "u7auulk713",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vowu0ejg4oj",
+      "key": "image",
+      "name": "Images",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "68qu4zs5wpe",
+      "key": "buttons",
+      "name": "Buttons",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-03T12:25:55.534Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

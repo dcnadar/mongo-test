@@ -1,0 +1,93 @@
+{
+  "_id": {
+    "$oid": "68d54c3d50534a672a4cc5dc"
+  },
+  "gridTitle": "Branding Form",
+  "gridType": "form",
+  "crmModelId": "65e2c398226e7b80fe49ae39",
+  "rows": [
+    {
+      "$key": "wh8jln8422o",
+      "fields": [
+        {
+          "id": "companyDetails.logo",
+          "title": "Upload Logo image",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false,
+            "uploadUISize": "md"
+          },
+          "span": {
+            "$numberInt": "12"
+          },
+          "fileAccept": "image/png, image/jpeg",
+          "hint": "Recommendaed file resolution 512x512 px",
+          "$key": "qtzqm2nseg9"
+        },
+        {
+          "$key": "l1zo2e01yh",
+          "id": "companyDetails.favicon",
+          "title": "Upload Favicon image",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false,
+            "uploadUISize": "sm"
+          },
+          "span": {
+            "$numberInt": "12"
+          },
+          "fileAccept": ".ico"
+        },
+        {
+          "$key": "8ftiho9i7v9",
+          "id": "companyDetails.loginImages",
+          "title": "Upload Login page images",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": true,
+            "uploadUISize": "lg"
+          },
+          "add": true,
+          "delete": true,
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "10"
+          },
+          "span": {
+            "$numberInt": "24"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758809149836"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "id",
+      "required": false,
+      "serverValue": "filter_value",
+      "value": "accountId"
+    }
+  ],
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231679412"
+    }
+  }
+}

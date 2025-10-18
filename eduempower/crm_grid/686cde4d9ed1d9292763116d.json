@@ -1,0 +1,33 @@
+{
+  "_id": "686cde4d9ed1d9292763116d",
+  "gridTitle": "Eduempower User Management",
+  "gridType": "form",
+  "crmModelId": "686cde449ed1d9292763116c",
+  "rows": [
+    {
+      "$key": "a3255iav2wh",
+      "fields": [
+        {
+          "id": "loginId",
+          "title": "Login ID",
+          "type": "text",
+          "$key": "c2wbn2usryc",
+          "o": true
+        },
+        {
+          "$key": "5oz0i4zpku",
+          "id": "password",
+          "title": "Password",
+          "type": "text",
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-07-08T09:01:01.729Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:04.769Z"
+}

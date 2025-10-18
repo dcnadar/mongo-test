@@ -1,0 +1,11 @@
+{
+  "_id": "64a6dfd1723fb912796f1497",
+  "name": "Product Variant Option Table",
+  "action": "CRM_GRID",
+  "sourceId": "64a6de34e7d297735dc044a9",
+  "gridType": "table",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/product/variant-option",
+  "created": "2024-01-27T07:48:44.224Z"
+}

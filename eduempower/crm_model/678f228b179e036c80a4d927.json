@@ -1,0 +1,43 @@
+{
+  "_id": "678f228b179e036c80a4d927",
+  "name": "Eduempower Inventory Book",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_inventory_book",
+  "properties": [
+    {
+      "$key": "tyluz0h9y9",
+      "key": "bookItemId",
+      "name": "Book Item Id",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "kc6a2vadzzq",
+      "key": "inventoryId",
+      "name": "Inventory Id",
+      "dataType": "REFERENCE",
+      "modelId": "6625200e990ac402ed0d3ebc"
+    },
+    {
+      "$key": "aghksjh47er",
+      "key": "bookId",
+      "name": "Book Id",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true,
+        "thumb": false
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "bookItemId"
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-21T04:28:59.165Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.180Z"
+}

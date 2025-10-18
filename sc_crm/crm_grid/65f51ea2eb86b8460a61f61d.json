@@ -1,0 +1,61 @@
+{
+  "_id": "65f51ea2eb86b8460a61f61d",
+  "gridTitle": "ReactGrid GlobalCTASection4",
+  "gridType": "form",
+  "crmModelId": "65f51cf8eb86b8460a61f61c",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 24,
+          "$key": "289dd98iq1z"
+        },
+        {
+          "id": "messageUp",
+          "title": "Upword Description",
+          "type": "text_editor",
+          "span": 24,
+          "$key": "yf873z4sn6",
+          "o": true
+        },
+        {
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 1,
+          "id": "buttons",
+          "title": "Buttons",
+          "$key": "i0fj1gzqbg"
+        },
+        {
+          "span": 24,
+          "title": "Downword Description",
+          "id": "messageDown",
+          "type": "text_editor",
+          "$key": "yvov0s7mx",
+          "o": true
+        }
+      ],
+      "$key": "0t9bm9lmay6e"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-16T04:22:58.831Z"
+}

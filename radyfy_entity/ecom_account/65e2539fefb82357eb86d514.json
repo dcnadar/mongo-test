@@ -1,0 +1,21 @@
+{
+  "_id": "65e2539fefb82357eb86d514",
+  "name": "Radyfy",
+  "status": "ACTIVE",
+  "domain": [
+    "super.trufal.in",
+    "admin.radyfy.com",
+    "superhost"
+  ],
+  "favicon": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/65e8cdff97f0eca7ba094627/imageUpload/2025/7/20/file_ljtwvckbc3-1755689047366.ico",
+  "logo": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/65e8cdff97f0eca7ba094627/imageUpload/2025/7/20/file_skhklda97fe-1755688945264.png",
+  "loginImages": [
+    "https://firebasestorage.googleapis.com/v0/b/entree-wth.appspot.com/o/WhatsApp%20Image%202020-10-02%20at%2010.54.28%20PM%20(1).jpeg?alt=media&token=3a793d2b-563a-49f8-8ab1-db24a3aac275",
+    "https://firebasestorage.googleapis.com/v0/b/entree-wth.appspot.com/o/WhatsApp%20Image%202020-10-02%20at%2010.54.28%20PM%20(1).jpeg?alt=media&token=3a793d2b-563a-49f8-8ab1-db24a3aac275"
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "subDomain": "super",
+  "theme": "global",
+  "created": "2025-09-06T09:46:29.642Z",
+  "updated": "2025-09-06T09:46:29.642Z"
+}

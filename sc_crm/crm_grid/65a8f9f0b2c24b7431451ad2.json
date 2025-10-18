@@ -1,0 +1,77 @@
+{
+  "_id": "65a8f9f0b2c24b7431451ad2",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-18T10:14:08.758Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 3,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 24,
+          "o": false
+        },
+        {
+          "index": 4,
+          "title": "Enable Button",
+          "id": "enableButton",
+          "type": "bool",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 5,
+          "title": "Button Text",
+          "id": "buttonText",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "showCondition": "return this.enableButton;"
+        },
+        {
+          "index": 6,
+          "title": "Button Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 10,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "showCondition": "return this.enableButton;"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65a8f9f0b2c24b7431451ad1",
+  "gridTitle": "ReactGrid GlobalCtaSection2"
+}

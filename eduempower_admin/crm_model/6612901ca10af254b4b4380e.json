@@ -1,0 +1,38 @@
+{
+  "_id": "6612901ca10af254b4b4380e",
+  "name": "Eduempower ExaminationBoard",
+  "modelType": "COLLECTION",
+  "properties": [
+    {
+      "$key": "98hrc0hx7as",
+      "key": "key",
+      "name": "Key",
+      "dataType": "STRING",
+      "searchable": {
+        "value": false,
+        "description": true
+      }
+    },
+    {
+      "$key": "4phzb1izcuf",
+      "key": "value",
+      "name": "Value",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "value",
+    "subtitles": [
+      "key"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-07T12:22:52.658Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "collectionName": "eduempower_examination_board",
+  "baseModelId": "67371c6002f79267ffc56592"
+}

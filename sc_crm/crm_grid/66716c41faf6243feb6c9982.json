@@ -1,0 +1,77 @@
+{
+  "_id": "66716c41faf6243feb6c9982",
+  "gridTitle": "App Screen Section Info",
+  "gridType": "form",
+  "crmModelId": "66716a76faf6243feb6c9980",
+  "rows": [
+    {
+      "$key": "vse43i6ixse",
+      "fields": [
+        {
+          "id": "reactGrid",
+          "title": "React Component Name",
+          "type": "text",
+          "span": 24,
+          "$key": "qae2rymh5wk"
+        },
+        {
+          "$key": "orkgncll9rm",
+          "id": "thumb",
+          "title": "Screenshot",
+          "type": "upload",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "47vqqk7jaoy",
+          "id": "designPrototype",
+          "title": "Design Prototype",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "jqc5rvhc59l",
+          "id": "theme",
+          "title": "Theme",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "s46ayjea7zo",
+          "id": "crmForm",
+          "title": "Crm Form",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "b0xhr618xj9",
+          "id": "sectionTypeId",
+          "title": "Section Group",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "meta": {
+            "queryParams": "?status=ACTIVE"
+          }
+        },
+        {
+          "$key": "fmqkm38ynoe",
+          "id": "sampleData",
+          "title": "Sample Data",
+          "type": "textarea",
+          "span": 24,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T11:15:13.113Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/mobileapp/settings/section-info"
+}

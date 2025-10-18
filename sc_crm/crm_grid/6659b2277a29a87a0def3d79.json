@@ -1,0 +1,48 @@
+{
+  "_id": "6659b2277a29a87a0def3d79",
+  "gridTitle": "NewsLetter Change status ",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "jhn6kpg0p5",
+      "fields": [
+        {
+          "id": "email",
+          "title": "Email",
+          "type": "text",
+          "span": 24,
+          "updateType": "disabled",
+          "createType": "disabled",
+          "$key": "1kp2x16r4ox"
+        },
+        {
+          "$key": "ld0ips7573",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "ln2an1gycjs",
+          "id": "unsubscribeReason",
+          "title": "Reason",
+          "type": "textarea",
+          "span": 24,
+          "hint": "<p></p>\n"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "gridParams": [
+    {
+      "key": "email",
+      "required": true
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-05-31T11:19:03.262Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "crmModelId": "66260588990ac402ed0d3edb"
+}

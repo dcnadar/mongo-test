@@ -1,0 +1,25 @@
+{
+  "_id": "64a5c1b8099de82bca61ca93",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name"
+    },
+    {
+      "dataType": "STRING",
+      "key": "value",
+      "name": "Value"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "addToHighlights",
+      "name": "Add To Highlights"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Product Specification",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:50.721Z"
+}

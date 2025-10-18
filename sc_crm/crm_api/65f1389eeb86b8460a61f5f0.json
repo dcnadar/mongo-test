@@ -1,0 +1,13 @@
+{
+  "_id": "65f1389eeb86b8460a61f5f0",
+  "name": "Website settings",
+  "path": "/admin/website/settings/section-info",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "65f137d2eb86b8460a61f5ee",
+  "innerGridType": "table",
+  "innerSourceId": "65f13893eb86b8460a61f5ef",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-13T05:24:46.508Z"
+}

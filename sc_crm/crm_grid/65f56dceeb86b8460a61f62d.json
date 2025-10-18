@@ -1,0 +1,38 @@
+{
+  "_id": "65f56dceeb86b8460a61f62d",
+  "gridTitle": "ReactGrid GlobalStatsSection1 Section",
+  "gridType": "form",
+  "crmModelId": "65f56ce3eb86b8460a61f62c",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "key",
+          "title": "Key",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "title": "value",
+          "id": "value",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-16T10:00:46.931Z"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "686d09269ed1d9292763116e",
+  "gridTitle": "User attendance",
+  "gridType": "table",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "cpchy87c3t8",
+      "key": "dateOfJoining",
+      "name": "DOJ",
+      "type": "date",
+      "sort": false
+    },
+    {
+      "$key": "4at019a6oq",
+      "key": "dateOfLeaving",
+      "name": "DOL",
+      "type": "date",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-07-08T12:03:50.410Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:04.802Z"
+}

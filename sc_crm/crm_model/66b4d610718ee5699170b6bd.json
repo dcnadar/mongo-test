@@ -1,0 +1,65 @@
+{
+  "_id": "66b4d610718ee5699170b6bd",
+  "name": "Order return",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "wqrmmg0zk5",
+      "key": "returnReason",
+      "name": "Reason",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lbckncl2pa",
+      "key": "returnAdditionalComment",
+      "name": "Additional Comment",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "l3qjimvk2qb",
+      "key": "returnDate",
+      "name": "Return date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "8wexv44sl28",
+      "key": "returnRequestDate",
+      "name": "Return Request Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "91f3ljftq86",
+      "key": "shipmentData",
+      "name": "Shipment Data",
+      "dataType": "INNER_MODEL",
+      "modelId": "66fd5616bfa9a724cf2a5b8b"
+    },
+    {
+      "$key": "vn1quub3g6j",
+      "key": "pickupScheduledDate",
+      "name": "Pickup Scheduled Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "xehwe2ir93",
+      "key": "returnRejectMessage",
+      "name": "Return Reject Message",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dz0pyvyoi97",
+      "key": "returnRejectDate",
+      "name": " Return Reject Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "x8rkf9174b9",
+      "key": "returnlAcceptDate",
+      "name": "Return Accept Date",
+      "dataType": "DATE"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-08T14:28:32.017Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,48 @@
+{
+  "_id": {
+    "$oid": "65e4e721d796c9ccbd1b408f"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Model MenuTargets",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "thumb",
+      "name": "Thumb"
+    },
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description"
+    },
+    {
+      "dataType": "STRING",
+      "key": "slug",
+      "name": "Slug"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "details",
+      "name": "Details (Search Options)",
+      "modelId": "65e46e2562e81af0993f8515"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709500193844"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152472"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "_id": "64b38c7d22d01c16ecc96046",
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "columns": [
+    {
+      "index": 0,
+      "name": "Thumb",
+      "key": "thumb",
+      "type": "thumb",
+      "sort": false
+    },
+    {
+      "index": 1,
+      "name": "Name",
+      "key": "name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "index": 2,
+      "name": "MRP",
+      "key": "mrp",
+      "type": "input",
+      "sort": false
+    },
+    {
+      "index": 3,
+      "name": "Price",
+      "key": "price",
+      "type": "input",
+      "sort": false
+    }
+  ],
+  "crmModelId": "64a5d14d099de82bca61ca99",
+  "gridTitle": "All Variant Pricing",
+  "apiType": "POST",
+  "apiUrl": "/admin/product/variant/pricing",
+  "backUrl": "/admin/product/all",
+  "gridParams": [
+    {
+      "key": "product",
+      "required": true
+    }
+  ],
+  "selectable": {
+    "apiType": "POST",
+    "selectKey": "_id",
+    "updateApi": "/admin/product/variant/pricing/update",
+    "checkbox": false,
+    "crmFormId": "64b43f1322d01c16ecc96061"
+  },
+  "created": "2024-01-27T07:48:47.854Z"
+}

@@ -1,0 +1,132 @@
+{
+  "_id": {
+    "$oid": "68c4285cf66798986dd89ef2"
+  },
+  "gridTitle": "User Details Table",
+  "gridType": "table",
+  "crmModelId": "65f6e30d52bbad30f7463f22",
+  "columns": [
+    {
+      "$key": "imcq9k0554",
+      "key": "firstName",
+      "name": "First Name",
+      "type": "text",
+      "sort": false,
+      "width": {
+        "$numberInt": "8"
+      }
+    },
+    {
+      "$key": "oi7i9czomh",
+      "key": "middleName",
+      "name": "Middle Name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "h4kuhupiiar",
+      "key": "lastName",
+      "name": "Last Name",
+      "type": "text",
+      "sort": false,
+      "width": {
+        "$numberInt": "9"
+      }
+    },
+    {
+      "$key": "eu7f6hc7qgc",
+      "key": "email",
+      "name": "Email",
+      "type": "text",
+      "sort": false,
+      "width": {
+        "$numberInt": "12"
+      }
+    },
+    {
+      "$key": "94248dtxhp",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "sort": false,
+      "type": "text",
+      "width": {
+        "$numberInt": "8"
+      }
+    },
+    {
+      "$key": "xzrzlarfvj",
+      "key": "appRoleId",
+      "name": "Role",
+      "sort": false,
+      "type": "card"
+    },
+    {
+      "$key": "ebkf8m5fek7",
+      "key": "userGroupId",
+      "name": "User Group",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "xkf91aogm3o",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "c2ftsekn12",
+      "type": "actions",
+      "key": "action",
+      "name": "Action",
+      "actions": [
+        {
+          "$key": "j09uzreg1g",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/user/edit?id=:_id _id",
+          "gridMsg": "Edit User Details",
+          "gridTitle": "Edit user",
+          "showCondition": "return this.isEditable;",
+          "type": "icon",
+          "icon": "/default/default/65e8cdff97f0eca7ba094627/imageUpload/2025/8/16/file_yg2evazqb1h-1758002407435.png"
+        }
+      ],
+      "sort": false,
+      "width": {
+        "$numberInt": "8"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "$key": "1rjswwlars9",
+      "value": "Add User",
+      "apiUrl": "/admin/user/add",
+      "gridType": "popupForm",
+      "type": "icon_button",
+      "icon": "/default/default/65e8cdff97f0eca7ba094627/imageUpload/2025/8/16/file_yg2evazqb1h-1758002407435.png"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "isEditable"
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757685852453"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "gridParams": [],
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377691962"
+    }
+  },
+  "breadcrumb": []
+}

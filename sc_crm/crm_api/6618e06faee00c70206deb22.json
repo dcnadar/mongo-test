@@ -1,0 +1,13 @@
+{
+  "_id": "6618e06faee00c70206deb22",
+  "name": "Update Supplier",
+  "path": "/admin/account/supplier/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6618dbb0aee00c70206deb1b",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T07:19:11.431Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": []
+}

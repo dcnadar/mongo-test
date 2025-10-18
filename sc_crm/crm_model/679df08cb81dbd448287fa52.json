@@ -1,0 +1,48 @@
+{
+  "_id": "679df08cb81dbd448287fa52",
+  "name": "ReactGrid GlobalBanner3",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "f13tci4sqmk",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "o3t3bnmt6ub",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "640re7kw4o3",
+      "key": "enableButton",
+      "name": "Enable Button",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "wxxe6qk900n",
+      "key": "buttonText",
+      "name": "Button Text",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4bj1ike51fx",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "osid13x98w",
+      "key": "images",
+      "name": "Images",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-01T09:59:40.793Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

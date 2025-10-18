@@ -1,0 +1,26 @@
+{
+  "_id": "661cd493aee00c70206deb67",
+  "name": "FAQ",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "faq",
+  "properties": [
+    {
+      "$key": "6mtmm1lfg4",
+      "key": "question",
+      "name": "Question",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "g55wmp3wdh",
+      "key": "answer",
+      "name": "Answer",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T07:17:39.848Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

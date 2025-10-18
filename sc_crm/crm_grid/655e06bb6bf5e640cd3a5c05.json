@@ -1,0 +1,65 @@
+{
+  "_id": "655e06bb6bf5e640cd3a5c05",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 24,
+          "o": false,
+          "$key": "23puoeghlki",
+          "onChangeCondition": [
+            {
+              "$key": "ofx1s7b2dxn",
+              "key": "value",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.name;"
+            },
+            {
+              "$key": "cn1beiw8k3",
+              "key": "$ROOT",
+              "meta": {
+                "type": "url",
+                "apiType": "POST"
+              },
+              "value": "/api/io/product/variant/info"
+            }
+          ]
+        },
+        {
+          "$key": "ay73p0402sc",
+          "id": "value",
+          "title": "Value",
+          "type": "text",
+          "span": 24,
+          "onChangeCondition": [
+            {
+              "$key": "a7fy05nrly7",
+              "value": "/api/io/product/variant/info",
+              "meta": {
+                "type": "url",
+                "apiType": "POST"
+              },
+              "key": "$ROOT"
+            }
+          ]
+        }
+      ],
+      "$key": "4r2uxu68dur"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "655dfedf6bf5e640cd3a5c00",
+  "gridTitle": "Product Variant Generic Option Value",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

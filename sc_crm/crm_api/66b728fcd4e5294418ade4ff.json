@@ -1,0 +1,20 @@
+{
+  "_id": "66b728fcd4e5294418ade4ff",
+  "name": "Add current user cart",
+  "path": "/cuser/cart_items/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6619064baee00c70206deb28",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-10T08:46:52.009Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

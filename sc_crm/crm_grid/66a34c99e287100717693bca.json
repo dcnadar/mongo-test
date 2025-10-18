@@ -1,0 +1,42 @@
+{
+  "_id": "66a34c99e287100717693bca",
+  "gridTitle": "Transaction Number Setting",
+  "gridType": "form",
+  "crmModelId": "66a34bbce287100717693bc8",
+  "rows": [
+    {
+      "$key": "ptpbmzgo6se",
+      "fields": [
+        {
+          "id": "transactionNoPrefix",
+          "title": "Transaction Number prefix",
+          "type": "text",
+          "o": true,
+          "span": 24,
+          "$key": "zt1w4tups69"
+        },
+        {
+          "$key": "l0ihr9kho9b",
+          "id": "transactionCurrentNo",
+          "title": "Transaction Current Number ",
+          "type": "number",
+          "o": true,
+          "span": 24
+        },
+        {
+          "$key": "5u9jmmuaw1m",
+          "id": "transactionNoPostfix",
+          "title": "Transaction Number postfix",
+          "type": "text",
+          "o": true,
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T07:13:29.312Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "upsertDoc": false
+}

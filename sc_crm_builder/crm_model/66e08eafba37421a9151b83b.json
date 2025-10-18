@@ -1,0 +1,45 @@
+{
+  "_id": {
+    "$oid": "66e08eafba37421a9151b83b"
+  },
+  "name": "Permission Condition SetParamValue",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "hw3jc6g9z7",
+      "key": "serverValue",
+      "name": "Server Value",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "z46ibdgt1we",
+            "key": "current_user_id",
+            "value": "Current User Id"
+          }
+        ]
+      },
+      "searchable": {
+        "description": false
+      }
+    },
+    {
+      "$key": "38nxamjrkk6",
+      "key": "modelFieldKey",
+      "name": "Model Field Key",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1725992623298"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070153377"
+    }
+  }
+}

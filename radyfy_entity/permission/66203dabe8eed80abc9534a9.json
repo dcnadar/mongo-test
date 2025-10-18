@@ -1,0 +1,16 @@
+{
+  "_id": "66203dabe8eed80abc9534a9",
+  "name": "PermissionFullAccess",
+  "apisAccess": [
+    "66203c0be8eed80abc9534a3",
+    "66203c15e8eed80abc9534a4",
+    "66203c2ce8eed80abc9534a5",
+    "66203c30e8eed80abc9534a6",
+    "66203c5ee8eed80abc9534a8",
+    "66203c58e8eed80abc9534a7"
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2024-04-17T21:22:51.810Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:33.660Z"
+}

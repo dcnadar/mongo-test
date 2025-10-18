@@ -1,0 +1,66 @@
+{
+  "_id": "66d59bc174ed55427bf54766",
+  "gridTitle": "NativeGrid GlobalHeader2",
+  "gridType": "form",
+  "crmModelId": "66d59b2374ed55427bf54765",
+  "rows": [
+    {
+      "$key": "0k9mfuojiyta",
+      "fields": [
+        {
+          "id": "leftIcons",
+          "title": "Left Icons",
+          "type": "form_array",
+          "span": 24,
+          "$key": "c6nxbhv49y7",
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 5
+        },
+        {
+          "$key": "svu7ots73n",
+          "id": "useSvgLogo",
+          "title": "UseSvgLogo",
+          "span": 8,
+          "type": "bool"
+        },
+        {
+          "$key": "hdip465xiad",
+          "id": "logoSvg",
+          "title": "LogoSvg",
+          "type": "text",
+          "span": 16,
+          "showCondition": "return this.useSvgLogo "
+        },
+        {
+          "$key": "s3ibyyvwu2",
+          "id": "logoImage",
+          "title": "Logo Image",
+          "type": "upload",
+          "multiple": false,
+          "add": false,
+          "delete": false,
+          "span": 8,
+          "showCondition": "return !this.useSvgLogo;"
+        },
+        {
+          "$key": "fo51xoutyzq",
+          "id": "rightIcons",
+          "title": "RightIcons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 5,
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-02T11:04:33.498Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

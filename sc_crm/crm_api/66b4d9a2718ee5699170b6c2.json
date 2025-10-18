@@ -1,0 +1,21 @@
+{
+  "_id": "66b4d9a2718ee5699170b6c2",
+  "name": "Cancel Order",
+  "path": "/cuser/order/cancel/request",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66b4d785718ee5699170b6c0",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-08T14:43:46.831Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true,
+      "serverValue": "current_user_id",
+      "documentKey": "userId"
+    }
+  ]
+}

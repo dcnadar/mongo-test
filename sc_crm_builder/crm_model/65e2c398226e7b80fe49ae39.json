@@ -1,0 +1,139 @@
+{
+  "_id": {
+    "$oid": "65e2c398226e7b80fe49ae39"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Account",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Account Name",
+      "searchable": {
+        "value": true
+      },
+      "$key": "s90e4qmsk7"
+    },
+    {
+      "$key": "c8x7hh10cfk",
+      "key": "aId",
+      "dataType": "STRING",
+      "unique": true,
+      "name": "Account ID"
+    },
+    {
+      "$key": "am2yl9kwkq9",
+      "key": "userDetails",
+      "name": "User Details",
+      "dataType": "INNER_MODEL",
+      "modelId": "689af75e98c740841b6b485e"
+    },
+    {
+      "$key": "ksiio8jgy3f",
+      "key": "companyDetails",
+      "name": "Company Details",
+      "dataType": "INNER_MODEL",
+      "modelId": "6899f1537805d23c977499b2"
+    },
+    {
+      "$key": "xs6lwwybu0n",
+      "key": "dbCredentials",
+      "name": "DB Credentials",
+      "dataType": "INNER_MODEL",
+      "listType": "STRING",
+      "modelId": "68bbfbe4ca4fa9290c0f6ae1"
+    },
+    {
+      "$key": "n112robkb59",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "lilv6odnwl",
+            "value": "Pending Approval",
+            "key": "PENDING_APPROVAL"
+          },
+          {
+            "$key": "cxr0f2wxpmo",
+            "key": "SETUP_IN_PROGRESS",
+            "value": "Setup in progress"
+          },
+          {
+            "$key": "9nsrhifiytq",
+            "value": "Under Development",
+            "key": "UNDER_DEVELOPMENT"
+          },
+          {
+            "$key": "g5ixkip78d",
+            "value": "Under Review & Acceptance",
+            "key": "UNDER_REVIEW_AND_ACCEPTANCE"
+          },
+          {
+            "$key": "dttgjh3fnq",
+            "value": "Live",
+            "key": "LIVE"
+          },
+          {
+            "$key": "iuuw0uqfl4s",
+            "value": "Under Maintenance",
+            "key": "UNDER_MAINTENANCE"
+          },
+          {
+            "$key": "w7yzrjoeccm",
+            "value": "Subscription Expired",
+            "key": "SUBSCRIPTION_EXPIRED"
+          },
+          {
+            "$key": "9ikxzj3qxc8",
+            "value": "Inactive",
+            "key": "INACTIVE"
+          },
+          {
+            "$key": "0ln9kgbvglk",
+            "value": "Deleted",
+            "key": "DELETED"
+          }
+        ]
+      },
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "lhszb5ts0ik",
+      "key": "version",
+      "name": "Version",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4owuzpps23r",
+      "key": "setupTasks",
+      "name": "Setup Tasks",
+      "dataType": "INNER_MODEL",
+      "modelId": "68cd719df42bc3ef836dc7b8"
+    },
+    {
+      "$key": "a31hw6u4p67",
+      "key": "setupStartTime",
+      "name": "Setup Start Time",
+      "dataType": "DATE"
+    }
+  ],
+  "collectionName": "account",
+  "created": {
+    "$date": {
+      "$numberLong": "1709360024541"
+    }
+  },
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151982"
+    }
+  }
+}

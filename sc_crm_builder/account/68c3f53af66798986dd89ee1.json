@@ -1,0 +1,58 @@
+{
+  "_id": "68c3f53af66798986dd89ee1",
+  "name": "Microsoft",
+  "aId": "98767",
+  "status": "UNDER_DEVELOPMENT",
+  "userDetails": {
+    "firstName": "Pintu",
+    "lastName": "Kumar",
+    "email": "skpintu93@gmail.com"
+  },
+  "companyDetails": {
+    "favicon": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/8/9/file_11toglxp71dj-1757416664845.png",
+    "loginImages": [
+      "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/8/9/file_11toglxp71dj-1757416664845.png"
+    ],
+    "subDomain": "microsoft",
+    "logo": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/8/9/file_11toglxp71dj-1757416664845.png"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2025-09-12T10:26:02.633Z",
+  "createdBy": "688b3e0b049b509a8e8b88ce",
+  "dbCredentials": {
+    "dev": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "microsoft-dev"
+      }
+    },
+    "qa": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "microsoft-qa"
+      }
+    },
+    "uat": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "microsoft-uat"
+      }
+    },
+    "prod": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "microsoft"
+      }
+    }
+  },
+  "setupStartTime": "2025-09-20T06:03:18.123Z",
+  "setupTasks": {
+    "metaDataProvision": true,
+    "entityDataProvision": true,
+    "lastAccessDate": "2025-09-25T06:26:44.307Z",
+    "cetificateIssue": true,
+    "certificateAssignedtoALB": true,
+    "notifyByEmail": true
+  },
+  "version": "1.0.1"
+}

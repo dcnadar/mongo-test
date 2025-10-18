@@ -1,0 +1,27 @@
+{
+  "_id": "65a8bb1947785106e0351c09",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "heading",
+      "name": "Heading"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description"
+    },
+    {
+      "dataType": "LIST_OF",
+      "key": "section",
+      "name": "Section",
+      "listType": "INNER_MODEL",
+      "modelId": "65a8b27bd8bd093af73f96e8"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalHeroSection5",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-18T05:46:01.262Z"
+}

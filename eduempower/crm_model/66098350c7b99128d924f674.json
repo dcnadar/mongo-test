@@ -1,0 +1,32 @@
+{
+  "_id": "66098350c7b99128d924f674",
+  "name": "Eduempower SchoolBuilding",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_school_building",
+  "properties": [
+    {
+      "$key": "hlll85uyf98",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ljg6uhmwmd9",
+      "key": "noOfFloors",
+      "name": "No Of Floors",
+      "dataType": "INTEGER",
+      "searchable": {
+        "value": true
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T15:37:52.330Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.903Z"
+}

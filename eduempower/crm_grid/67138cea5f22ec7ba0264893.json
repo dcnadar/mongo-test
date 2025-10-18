@@ -1,0 +1,89 @@
+{
+  "_id": "67138cea5f22ec7ba0264893",
+  "gridTitle": "Previous School",
+  "gridType": "table",
+  "crmModelId": "67138b495f22ec7ba0264891",
+  "columns": [
+    {
+      "$key": "8pd1aein4w6",
+      "key": "school",
+      "name": "School",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "7ctf677fa54",
+      "key": "uDiseNo",
+      "name": "U-Dise No",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "iuuoajfectd",
+      "key": "obtained",
+      "name": "% Obtained",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "9mbz8sch2v",
+      "key": "from",
+      "name": "From",
+      "type": "date",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "1saabvgyycd",
+      "key": "to",
+      "name": "To",
+      "type": "date",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "zq2qx3qndrn",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "rdwl5lk0wl9",
+          "gridTitle": "Edit Previous School",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/student/previous-school/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "3qdjnff5v85",
+      "gridTitle": "Add Previous School",
+      "value": "Add Previous School",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/student/previous-school/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T10:41:46.041Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "studentId",
+      "required": true
+    }
+  ],
+  "backUrl": "/admin/student/all",
+  "updated": "2025-09-08T10:51:01.714Z"
+}

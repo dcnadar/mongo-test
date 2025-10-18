@@ -1,0 +1,67 @@
+{
+  "_id": "689d8e104b0c9f85deb37d58",
+  "gridTitle": "Assessment",
+  "gridType": "form",
+  "crmModelId": "689d8dd64b0c9f85deb37d57",
+  "rows": [
+    {
+      "$key": "o21bmc80nv",
+      "fields": [
+        {
+          "id": "AssessmentBasicInformation",
+          "title": "Basic Information",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "zh3gv9hj4a9"
+        },
+        {
+          "$key": "0yk4con3zde",
+          "id": "AssessmentConfiguration",
+          "title": "Assessment Configuration",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "u339bk7w2dd",
+          "id": "AssessmentSchedule",
+          "title": "Schedule\t",
+          "span": 24,
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "p1s2cyh4zx",
+          "id": "AssessmentAssociation",
+          "title": "Associate With",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T07:19:44.871Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.655Z"
+}

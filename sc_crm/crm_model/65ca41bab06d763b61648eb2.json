@@ -1,0 +1,64 @@
+{
+    "properties": [
+        {
+            "dataType": "REFERENCE",
+            "key": "exam",
+            "name": "Exam id",
+            "modelId": "65c8a8ee49292ef0296fcba4"
+        },
+        {
+            "dataType": "STRING",
+            "key": "photoUrl",
+            "name": "Photo URL"
+        },
+        {
+            "dataType": "STRING",
+            "key": "name",
+            "name": "Student Name",
+            "searchable": {
+                "value": true
+              }
+        },
+        {
+            "dataType": "STRING",
+            "key": "fatherName",
+            "name": "Father's Name"
+        },
+        {
+            "dataType": "STRING",
+            "key": "class",
+            "name": "Class"
+        },
+        {
+            "dataType": "STRING",
+            "key": "schoolName",
+            "name": "School Name",
+            "searchable": {
+                "value": true
+              }
+        },
+        {
+            "dataType": "STRING",
+            "key": "mobileNo",
+            "name": "Mobile No"
+        },
+        {
+            "dataType": "STRING",
+            "key": "address",
+            "name": "Address"
+        },
+        {
+            "dataType": "STRING",
+            "key": "emailId",
+            "name": "Email ID"
+        }
+    ],
+    "accountId": "65d0d41b0d1f40b74ff1bd92",
+    "collectionName": "niralafoundation_student",
+    "baseModelId": "64822a187d5f915dc103d271",
+    "modelType": "COLLECTION",
+    "modelStatus": "ACTIVE",
+    "name": "NiralaFoundation Student",
+    "created": "2024-02-12T16:05:14.744Z",
+    "_id": "65ca41bab06d763b61648eb2"
+}

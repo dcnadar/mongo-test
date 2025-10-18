@@ -1,0 +1,42 @@
+{
+  "_id": "660961edc7b99128d924f669",
+  "name": "Eduempower FeeFine Setting",
+  "modelType": "COLLECTION",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_fee_fine_setting",
+  "properties": [
+    {
+      "$key": "v7si6uaayik",
+      "key": "feeFineAssign",
+      "name": "Fee Fine Assign",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "nllv5zkzhvg",
+            "key": "FEE_TYPE",
+            "value": "Fee Types"
+          },
+          {
+            "$key": "btjjv4e3smk",
+            "key": "CLASSES",
+            "value": "Classes"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "kbcjpl6vr5l",
+      "key": "refuseTimeFrames",
+      "name": "Refuse Time Frames",
+      "dataType": "REFERENCE",
+      "modelId": "6609607cc7b99128d924f668"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T13:15:25.546Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.594Z"
+}

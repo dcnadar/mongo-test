@@ -1,0 +1,106 @@
+{
+  "_id": "67c9bc788662d46110c0613a",
+  "gridTitle": "ReactGrid GlobalBanner5",
+  "gridType": "form",
+  "crmModelId": "67c9ba5b8662d46110c06139",
+  "rows": [
+    {
+      "$key": "22kew7h3prg",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "5gyl4pmd19k"
+        },
+        {
+          "$key": "bkh501bzkza",
+          "id": "description",
+          "title": "Description",
+          "type": "text_editor",
+          "span": 16
+        },
+        {
+          "$key": "jatgbb9minq",
+          "id": "enableButton",
+          "title": "Enable Button",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "hblm1uhp35o",
+          "id": "buttonText",
+          "title": "Button Text",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "be1fyeogs0g",
+          "id": "buttonAction",
+          "title": "Button Action",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "g9b944aoa2s",
+          "id": "images1",
+          "title": "Images1",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 16
+        },
+        {
+          "$key": "kls1dk5oye9",
+          "id": "images2",
+          "title": "Images2",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 16
+        },
+        {
+          "$key": "kqi70pj5mq",
+          "id": "images3",
+          "title": "Images3",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 16
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-06T15:17:12.752Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

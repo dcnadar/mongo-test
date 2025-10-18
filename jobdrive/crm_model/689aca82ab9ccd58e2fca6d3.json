@@ -1,0 +1,135 @@
+{
+  "_id": "689aca82ab9ccd58e2fca6d3",
+  "name": "Companies",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "companies",
+  "properties": [
+    {
+      "$key": "32leh5fkz0e",
+      "key": "companylogo",
+      "name": "Company Logo",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "r5qv9wc30a",
+      "key": "companyname",
+      "name": "Company Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "0nwehxkg4qu",
+      "key": "industry",
+      "name": "Industry",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ig6ytr3m2z9",
+            "key": "TECHNOLOGY",
+            "value": "Technology"
+          },
+          {
+            "$key": "daxhsf072hs",
+            "key": "FINANCE",
+            "value": "Finance"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "90iyo9utm8i",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qocmnaod7gl",
+      "key": "website",
+      "name": "Website",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ca4hluyz07r",
+      "key": "foundedyear",
+      "name": "Founded Year",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jleidtp2bk",
+      "key": "employeecount",
+      "name": "Employee Count",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "kc0xa67o6j",
+            "key": "1-10",
+            "value": "1-10"
+          },
+          {
+            "$key": "duh7j8u3sp",
+            "key": "11-50",
+            "value": "11-50"
+          },
+          {
+            "$key": "4rueyea9829",
+            "key": "51-200",
+            "value": "51-200"
+          },
+          {
+            "$key": "e4s9qidbxf",
+            "key": "200-500",
+            "value": "200-500"
+          },
+          {
+            "$key": "mw3kznyweyr",
+            "key": "501-1000",
+            "value": "501-1000"
+          },
+          {
+            "$key": "n46ahn9ai4",
+            "key": "1001-5000",
+            "value": "10001-5000"
+          },
+          {
+            "$key": "snk6me3vfzp",
+            "key": "5001-10000",
+            "value": "5001-10000"
+          },
+          {
+            "$key": "zvcfwqubsj",
+            "key": "10000+",
+            "value": "10000+"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "a6dvyv3eoaj",
+      "key": "contactDetails",
+      "name": "ContactDetails",
+      "dataType": "INNER_MODEL",
+      "modelId": "689b3a3d64a1039a6ec1ef84"
+    },
+    {
+      "$key": "se4xcgxs5u",
+      "key": "socialMedia",
+      "name": "SocialMedia",
+      "dataType": "INNER_MODEL",
+      "modelId": "689c1e0910339025b4c41caf"
+    }
+  ],
+  "cardDataTargets": {
+    "thumb": "companylogo",
+    "title": "companyname"
+  },
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-12T05:00:50.916Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:54.750Z"
+}

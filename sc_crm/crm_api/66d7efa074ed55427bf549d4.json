@@ -1,0 +1,13 @@
+{
+  "_id": "66d7efa074ed55427bf549d4",
+  "name": "app Header Section",
+  "path": "/admin/mobileapp/header/section/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "66d5a30874ed55427bf5476b",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-04T05:26:56.891Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

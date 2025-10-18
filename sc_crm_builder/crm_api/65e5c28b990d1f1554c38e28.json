@@ -1,0 +1,22 @@
+{
+  "_id": {
+    "$oid": "65e5c28b990d1f1554c38e28"
+  },
+  "name": "Add Entity",
+  "action": "FORM_SAVE",
+  "sourceId": "65e5b5d141f4f9dcaa63ac80",
+  "gridType": "form",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "apiType": "POST",
+  "path": "/admin/entity/add",
+  "created": {
+    "$date": {
+      "$numberLong": "1709556363542"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070147499"
+    }
+  }
+}

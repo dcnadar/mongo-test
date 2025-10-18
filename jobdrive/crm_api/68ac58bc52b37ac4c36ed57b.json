@@ -1,0 +1,16 @@
+{
+  "_id": "68ac58bc52b37ac4c36ed57b",
+  "name": "Add Traning",
+  "path": "/admin/training/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "689c6e8261be2ca02fc40901",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-25T12:36:12.039Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:51.350Z"
+}

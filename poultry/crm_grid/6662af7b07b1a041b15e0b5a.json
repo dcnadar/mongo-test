@@ -1,0 +1,47 @@
+{
+  "_id": "6662af7b07b1a041b15e0b5a",
+  "gridTitle": "Block",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "p7m6ichaue",
+      "fields": [
+        {
+          "$key": "7hzfwxycskf",
+          "id": "stateId",
+          "title": "State",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "districtId"
+          ]
+        },
+        {
+          "$key": "976969pg27",
+          "id": "districtId",
+          "title": "District",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "stateId=:stateId stateId"
+          }
+        },
+        {
+          "id": "blockName",
+          "title": "Name",
+          "type": "text",
+          "span": 8,
+          "$key": "aqt5pg72gvn"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T06:58:03.704Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "crmModelId": "6662ac4007b1a041b15e0b55",
+  "backUrl": "/admin/setup/block/all"
+}

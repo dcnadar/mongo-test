@@ -1,0 +1,76 @@
+{
+  "_id": "689b3a3d64a1039a6ec1ef84",
+  "name": "companyContactDetails",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "pi5rxn0cftm",
+      "key": "emailaddress",
+      "name": "Email Address",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "da8vieyuos",
+      "key": "phonenumber",
+      "name": "Phone Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vdfm5ze14y8",
+      "key": "address",
+      "name": "Address",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ed50appvjf",
+      "key": "country",
+      "name": "Country",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "a8pjqq5mpf9",
+            "key": "INDIA",
+            "value": "India"
+          },
+          {
+            "$key": "fs30np6jhv5",
+            "key": "UNITED-STATES",
+            "value": "United States"
+          },
+          {
+            "$key": "qhi0nuk0p5g",
+            "key": "UNITED-KINGDOMS",
+            "value": "United Kingdoms"
+          },
+          {
+            "$key": "7kuz8quispt",
+            "key": "CANADA",
+            "value": "Canada"
+          },
+          {
+            "$key": "4k8be6cxpfr",
+            "key": "AUSTRALIA",
+            "value": "Austrlia"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "vyxny3tq34",
+      "key": "state",
+      "name": "State",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lpx888n3dmp",
+      "key": "city",
+      "name": "City",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-12T12:57:33.346Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:54.790Z"
+}

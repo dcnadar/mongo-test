@@ -1,0 +1,42 @@
+{
+  "_id": "65a8c8d2b710e27b0e9fc05e",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "imageUrl",
+      "name": "Image URL",
+      "$key": "5x28ojcu9fa"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "content",
+      "name": "Content",
+      "modelId": "65a8c8d2b710e27b0e9fc05d",
+      "$key": "jtihnyg58kj"
+    },
+    {
+      "name": "Enable Button",
+      "key": "enableButton",
+      "dataType": "BOOLEAN",
+      "$key": "8bxtyc54i63"
+    },
+    {
+      "dataType": "STRING",
+      "key": "buttonText",
+      "name": "Button Text",
+      "$key": "pzlae48ykac"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "modelId": "650d3713ac425a65d3141bcc",
+      "$key": "oyffhxjkh6"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalCtaSection3",
+  "modelType": "INNER",
+  "created": "2024-01-18T06:44:34.255Z",
+  "modelStatus": "ACTIVE"
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "6899c3647af5145812897af7",
+  "name": "Branch",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "branch",
+  "properties": [
+    {
+      "$key": "ncj5j4nrjhf",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-11T10:18:12.781Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:54.671Z"
+}

@@ -1,0 +1,80 @@
+{
+  "_id": "660a8ae7c7b99128d924f6ae",
+  "gridTitle": "ReactGrid GlobalTeamSections4 Section",
+  "gridType": "form",
+  "crmModelId": "660a880dc7b99128d924f6ac",
+  "rows": [
+    {
+      "$key": "znn28l2wj6",
+      "fields": [
+        {
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "$key": "m070l5m6tqp"
+        },
+        {
+          "$key": "rkvqgcmjhws",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "zl4qjs7nzx",
+          "id": "enableButton",
+          "title": "Enable Button",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "ssozh2rfq1c",
+          "id": "buttonAction",
+          "title": "Click Action",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "8kazmwftjne",
+          "id": "description",
+          "title": "Descriptions",
+          "type": "textarea",
+          "span": 8
+        },
+        {
+          "$key": "l5jlg37tvbm",
+          "id": "buttons",
+          "title": "buttons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 2,
+          "max": 20
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-01T10:22:31.914Z",
+  "createdBy": "660a41ecdeefcc0a51709289"
+}

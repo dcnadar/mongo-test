@@ -1,0 +1,11 @@
+{
+  "_id": "6522395b696fa159e5101533",
+  "name": "Home Crousal",
+  "reactGrid": "FoodioHomeCarousel",
+  "thumb": "/static/themes/foodio/grids/thumbs/home_crousel.png",
+  "theme": "foodio",
+  "crmForm": "6522378f696fa159e510152f",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "status": "ACTIVE",
+  "created": "2024-01-27T07:48:53.227Z"
+}

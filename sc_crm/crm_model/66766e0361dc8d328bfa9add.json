@@ -1,0 +1,27 @@
+{
+  "_id": "66766e0361dc8d328bfa9add",
+  "name": "Website Section Sample Data",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ipo07jwpm4h",
+      "key": "ecom_category",
+      "name": "Ecom Category",
+      "dataType": "STRING",
+      "data": {
+        "tagCategory": "ecommerce_category"
+      }
+    },
+    {
+      "$key": "shk456b3mrm",
+      "key": "data",
+      "name": "Data",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-22T06:24:03.265Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

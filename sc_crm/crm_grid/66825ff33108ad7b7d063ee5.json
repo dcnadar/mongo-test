@@ -1,0 +1,50 @@
+{
+  "_id": "66825ff33108ad7b7d063ee5",
+  "gridTitle": "NativeGrid GlobalBlogCardsWithBgImage sections",
+  "gridType": "form",
+  "crmModelId": "66825c9e3108ad7b7d063ee0",
+  "rows": [
+    {
+      "$key": "bo8z72xvot",
+      "fields": [
+        {
+          "id": "data",
+          "title": "Date",
+          "type": "text",
+          "span": 8,
+          "$key": "ewmi2llrbrc"
+        },
+        {
+          "$key": "otl1b3i2c6c",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "wayh8m5fr",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "11je64c32a8h",
+          "id": "user",
+          "title": "User",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 23
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T07:51:15.670Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

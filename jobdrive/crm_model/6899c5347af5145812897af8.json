@@ -1,0 +1,55 @@
+{
+  "_id": "6899c5347af5145812897af8",
+  "name": "Academic Information",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "50p0zrnbzoe",
+      "key": "branch",
+      "name": "Branch",
+      "dataType": "REFERENCE",
+      "modelId": "6899c3647af5145812897af7"
+    },
+    {
+      "$key": "jopgikdhrx",
+      "key": "semester",
+      "name": "Semester",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "g32n0nss6xu",
+      "key": "cgpa",
+      "name": "CGPA",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yz3hnpns4cb",
+      "key": "placementstatus",
+      "name": "Placement Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ya9z2lvq7x",
+            "key": "NOT_PLACE",
+            "value": "Not Placed"
+          },
+          {
+            "$key": "0e32zw2hzz",
+            "key": "IN_PROCESS",
+            "value": "In Process"
+          },
+          {
+            "$key": "o52ktfhinw",
+            "key": "PLACED",
+            "value": "Placed"
+          }
+        ]
+      }
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-11T10:25:56.886Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:54.712Z"
+}

@@ -1,0 +1,97 @@
+{
+  "_id": "667e534e3108ad7b7d063e95",
+  "name": "Batch Index",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "vo07cpnbvg8",
+      "key": "farmSize",
+      "name": "Farm Size",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "g2tduzgrhk7",
+      "key": "noStuntedBird",
+      "name": "Number of Stunted Bird",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "s5o6s8g1lz",
+      "key": "ageSold",
+      "name": "Age at Sold (Days)",
+      "dataType": "DOUBLE",
+      "listType": "DOUBLE"
+    },
+    {
+      "$key": "yzp6l9jwt1d",
+      "key": "mortality",
+      "name": "Mortality",
+      "dataType": "OBJECT",
+      "listType": "INNER_MODEL",
+      "modelId": "667e98e23108ad7b7d063e9a"
+    },
+    {
+      "$key": "9atw4cfi6a",
+      "key": "costRearing",
+      "name": "Cost of Rearing",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "rdlrs3iuq1b",
+      "key": "avgBodyWgt",
+      "name": "Average Body Weight",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "464vs38xrkj",
+      "key": "livability",
+      "name": "Livability",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "th439ro4bos",
+      "key": "fcr",
+      "name": "FCR",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "6dqxt04wmg5",
+      "key": "ei",
+      "name": "EI",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "hhf250crf0o",
+      "key": "grossIncome",
+      "name": "Gross Income",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "c674qdi2blo",
+      "key": "netIncome",
+      "name": "Net Income (P/L)",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "56j4jjwcjq4",
+      "key": "noOfSoldBird",
+      "name": "noOfSoldBird",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "1f1aozxi1iy",
+      "key": "incomeFromAgedBird",
+      "name": "Income from aged bird",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "qq0j14wzh8",
+      "key": "inputCost",
+      "name": "Input Cost",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-28T06:08:14.508Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

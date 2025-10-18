@@ -1,0 +1,58 @@
+{
+  "_id": "6608201960d4f873b5fa4f4b",
+  "name": "Eduempower DiscountLogic",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "t3rmidkexwh",
+      "key": "amount",
+      "name": "Amount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "2fh5yakbad6",
+      "key": "percentage",
+      "name": "Percentage",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "lujmdwdfy5o",
+      "key": "approvalType",
+      "name": "Approval Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "x7irycblme",
+            "key": "INDIVIDUAL",
+            "value": "Individual"
+          },
+          {
+            "$key": "vq8daziroqo",
+            "key": "LEVEL",
+            "value": "Level"
+          },
+          {
+            "$key": "t774bf8cnys",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "c3lyprfjp1t",
+      "key": "staffs",
+      "name": "Staffs",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-30T14:22:17.918Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.329Z"
+}

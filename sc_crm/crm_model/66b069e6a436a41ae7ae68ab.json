@@ -1,0 +1,35 @@
+{
+  "_id": "66b069e6a436a41ae7ae68ab",
+  "name": "WebsitePageGridThemeSettings BackgroundSvg",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "d96cbqfjlu9",
+      "key": "name",
+      "name": "Component name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "o8fbtevefjb",
+      "key": "blur",
+      "name": "Blur",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "rjqrhy5ceae",
+      "key": "scale",
+      "name": "Scale",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "1cz8vgjk55q",
+      "key": "colors",
+      "name": "Colors",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-05T05:57:58.209Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

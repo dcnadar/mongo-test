@@ -1,0 +1,40 @@
+{
+  "_id": "67ad9ff761e8f2055c2ae870",
+  "name": "ReactGrid GlobalLocation1",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "2c6zzn9eubn",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "89j0z734xct",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "r6iux441ld",
+      "key": "latitude",
+      "name": "Latitude",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "a0ybk9yvema",
+      "key": "longitude",
+      "name": "Longitude",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "zoxuqau3ec",
+      "key": "address",
+      "name": "Address",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-13T07:32:07.753Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

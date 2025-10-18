@@ -1,0 +1,26 @@
+{
+  "_id": "65f3f41aeb86b8460a61f610",
+  "name": "ReactGrid GlobalCommon FeatureSection Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "key": "descriptions",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "key": "svg",
+      "name": "SVG Code",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-15T07:09:14.689Z"
+}

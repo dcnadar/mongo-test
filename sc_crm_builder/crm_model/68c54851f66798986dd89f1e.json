@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "68c54851f66798986dd89f1e"
+  },
+  "name": "Version",
+  "baseModelId": "65e2c399226e7b80fe49ae3a",
+  "collectionName": "version",
+  "properties": [
+    {
+      "$key": "vqxhcfkwzpr",
+      "key": "version",
+      "name": "Version",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jagzubnmvnm",
+      "key": "currentStage",
+      "name": "Current Stage",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "yrpfkv7f8na",
+            "key": "DEV",
+            "value": "Dev"
+          },
+          {
+            "$key": "j3jrls4k0iq",
+            "key": "QA",
+            "value": "Qa"
+          },
+          {
+            "$key": "uthhi15r9is",
+            "key": "UAT",
+            "value": "Uat"
+          },
+          {
+            "$key": "c2ztuo654e",
+            "key": "PROD",
+            "value": "Prod"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "modelType": "COLLECTION",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757759569430"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377696404"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "66fdb335bfa9a724cf2a5b8f",
+  "gridTitle": "Website Builder Page Section Form",
+  "gridType": "form",
+  "crmModelId": "6511ee6df9686d32acb3e2d3",
+  "rows": [
+    {
+      "$key": "wh1dl3tywi",
+      "fields": [
+        {
+          "id": "meta.crmForm",
+          "title": "Crm Form Id",
+          "type": "text",
+          "span": 4,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "$key": "zn3dflk0ic"
+        },
+        {
+          "$key": "bvg0nm8u5ks",
+          "id": "gridData",
+          "title": "Edit Content",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "crmFormIdField": "meta.crmForm",
+            "hideCollapse": true
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true
+    },
+    {
+      "key": "id",
+      "required": true
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-10-02T20:55:17.924Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

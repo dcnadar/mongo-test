@@ -1,0 +1,53 @@
+{
+  "_id": "68ad4c5b077fdcc858b135c2",
+  "gridTitle": "Student Projects",
+  "gridType": "form",
+  "crmModelId": "68ad4bdd077fdcc858b135c1",
+  "rows": [
+    {
+      "$key": "ilhvpj3kghb",
+      "fields": [
+        {
+          "id": "projectTitle",
+          "title": "Project Title",
+          "type": "text",
+          "$key": "8ypp0i264v",
+          "span": 8
+        },
+        {
+          "$key": "s66xfb43urd",
+          "title": "Links (GitHub, demos, portfolio)",
+          "id": "links",
+          "type": "url",
+          "o": true,
+          "span": 8
+        },
+        {
+          "$key": "ay5jlmvygv",
+          "title": "Technologies / Tools Used",
+          "id": "technologies",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "9gdgscysuop",
+          "title": "Description",
+          "id": "description",
+          "type": "text_editor",
+          "span": 24,
+          "textEditorElements": [
+            "bullet_point",
+            "number_list",
+            "bold_italic_underline"
+          ]
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T05:55:39.231Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:53.937Z"
+}

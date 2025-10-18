@@ -1,0 +1,67 @@
+{
+  "_id": "6790fc7a9b99392f025cdf72",
+  "gridTitle": "ReactGrid GlobalContactUsForm",
+  "gridType": "form",
+  "crmModelId": "6790fb2f9b99392f025cdf71",
+  "rows": [
+    {
+      "$key": "ihwvno7gxwq",
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8,
+          "$key": "aldcaxzc21t"
+        },
+        {
+          "$key": "xlumqn869vo",
+          "id": "nameLabel",
+          "title": "NameLabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "0ua6j1qwi01e",
+          "id": "mobileLabel",
+          "title": "MobileLabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7h0vc8ydotw",
+          "id": "emailLabel",
+          "title": "EmailLabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "eeitqssd2ub",
+          "id": "messageLabel",
+          "title": "MessageLabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "fbxma2apaxi",
+          "id": "saveButtonLabel",
+          "title": "SaveButtonLabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "spyfn59v9rq",
+          "id": "description",
+          "title": "Description",
+          "type": "text_editor",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-01-22T14:11:06.070Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

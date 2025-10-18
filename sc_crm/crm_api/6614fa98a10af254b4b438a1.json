@@ -1,0 +1,13 @@
+{
+  "_id": "6614fa98a10af254b4b438a1",
+  "name": "Tax Settings",
+  "path": "/admin/account/settings/tax",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66163542a039b45c27dfdde4",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T08:21:44.749Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": []
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "67ac9bed570d4c4a2423d4b9",
+  "gridTitle": "Eduempower Designation",
+  "gridType": "table",
+  "crmModelId": "67ac9a4b570d4c4a2423d4b7",
+  "columns": [
+    {
+      "$key": "mbjsppo1k19",
+      "key": "name",
+      "name": "Designation Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "e4q1tp4eehu",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "47b7yginud4",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/school-setup/designation/edit?id=:_id&departmentId=:departmentId _id departmentId"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "t8onyj45v6",
+        "propertyKey": "entityType",
+        "operator": "EQUALS",
+        "EQUALS": "MASTER_SETUP"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-12T13:02:37.739Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "departmentId",
+      "required": true
+    }
+  ]
+}

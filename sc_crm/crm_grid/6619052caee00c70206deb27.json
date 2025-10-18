@@ -1,0 +1,61 @@
+{
+  "_id": "6619052caee00c70206deb27",
+  "gridTitle": "Wishlist",
+  "gridType": "table",
+  "crmModelId": "6618f331aee00c70206deb25",
+  "columns": [
+    {
+      "$key": "4pn2v4zj37b",
+      "key": "productVariantId",
+      "name": "Product Variant",
+      "sort": false,
+      "type": "card",
+      "width": 200
+    },
+    {
+      "$key": "x8zxwua81mn",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "d67p9hei8lc",
+          "gridTitle": "delete",
+          "gridType": "confirm",
+          "value": "Delete",
+          "type": "icon",
+          "apiUrl": "/admin/customer/wishlist/delete?id=:_id _id",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.1.actions.1.icon/2024/6/29/upload_4v319td1l7a-1722261597515.png",
+          "gridMsg": "Are you sure want to delete?",
+          "showGridComment": false
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "05pry9xd5peb",
+      "gridTitle": "Add Wishlist",
+      "value": "Add Wishlist",
+      "apiUrl": "/admin/customer/wishlist/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T09:55:56.816Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/customer/all",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true
+    }
+  ]
+}

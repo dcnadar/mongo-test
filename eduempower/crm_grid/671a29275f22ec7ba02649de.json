@@ -1,0 +1,82 @@
+{
+  "_id": "671a29275f22ec7ba02649de",
+  "gridTitle": "Eduempower Transfer History",
+  "gridType": "form",
+  "crmModelId": "660fe465c7b99128d924f781",
+  "rows": [
+    {
+      "$key": "jgpoq90dz7l",
+      "fields": [
+        {
+          "$key": "fby0ojudi8o",
+          "id": "when",
+          "title": "When",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "yle9wlz5qqn",
+          "id": "userId",
+          "title": "User",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "zyn30cbp8cg",
+          "id": "doneBy",
+          "title": "Done By",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "8wjil1baw96",
+          "id": "type",
+          "title": "Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "o": false
+        },
+        {
+          "$key": "2g9n9ipg27i",
+          "id": "details",
+          "title": "Details",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "3axvymeqcun",
+          "id": "historyType",
+          "title": "History Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "lcsy05txmdr",
+          "id": "message",
+          "title": "Message",
+          "span": 8,
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T11:01:59.484Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:02.615Z"
+}

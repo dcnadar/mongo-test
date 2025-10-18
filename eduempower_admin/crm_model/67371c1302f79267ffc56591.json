@@ -1,0 +1,32 @@
+{
+  "_id": "67371c1302f79267ffc56591",
+  "name": "Account",
+  "modelType": "COLLECTION",
+  "collectionName": "account",
+  "properties": [
+    {
+      "$key": "515mvzddhuc",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "15vajpsk5az",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {
+    "title": "name"
+  },
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-15T10:01:55.102Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

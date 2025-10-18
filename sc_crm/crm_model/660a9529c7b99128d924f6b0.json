@@ -1,0 +1,74 @@
+{
+  "_id": "660a9529c7b99128d924f6b0",
+  "name": "ReactGrid GlobalCrmApp2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "n7sdozqtwgq",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "c9ufs1bidrf",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ah4wm4lgg9s",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "56mblktrnsd",
+      "key": "formUrl",
+      "name": "FormUrl",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "uno1ksioe3f",
+      "key": "height",
+      "name": "Height",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lmep4k9o0dm",
+      "key": "buttons",
+      "name": "Buttons",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    },
+    {
+      "$key": "gpekn8ptuim",
+      "key": "saveButtonText",
+      "name": "SaveButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "seibbem9rd",
+      "key": "clearButtonText",
+      "name": "ClearButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yso2e0u6mw",
+      "key": "successMessage",
+      "name": "SuccessMessage",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "c56ilqeakpj",
+      "key": "errorMessage",
+      "name": "ErrorMessage",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-01T11:06:17.579Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

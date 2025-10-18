@@ -1,0 +1,20 @@
+{
+  "_id": "6741935c50a2593e955f0b12",
+  "name": "Delete Leave type",
+  "path": "/admin/schoolsetup/leave-settings/leave-type/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "66081d3c60d4f873b5fa4f49",
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-23T08:33:32.978Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:56.336Z"
+}

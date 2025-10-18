@@ -1,0 +1,16 @@
+{
+  "_id": "667a6c6f74a25c4c696adac8",
+  "name": "NativeGrid GlobalCommonProductList2 User",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "6l6om8cs319",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-25T07:06:23.373Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

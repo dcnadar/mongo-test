@@ -1,0 +1,40 @@
+{
+  "_id": "668384e73108ad7b7d063efe",
+  "gridTitle": "NativeGrid Global FeaturedBrandCard1 section",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "9w1t05ufzsk",
+      "fields": [
+        {
+          "id": "bgimg",
+          "title": "Bgimg",
+          "type": "upload",
+          "span": 12,
+          "$key": "a98lladg0o6",
+          "multiple": false
+        },
+        {
+          "$key": "hszuxaxfqed",
+          "id": "img",
+          "title": "Img",
+          "span": 12,
+          "type": "upload",
+          "multiple": false
+        },
+        {
+          "$key": "6564vl6w1ak",
+          "id": "off",
+          "title": "Off",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T04:41:11.309Z",
+  "createdBy": "660837fd3afc795c92fa7f61",
+  "crmModelId": "668383533108ad7b7d063efc"
+}

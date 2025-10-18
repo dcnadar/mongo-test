@@ -1,0 +1,86 @@
+{
+  "_id": "66222ca07d57294ed27050fa",
+  "name": "BlogDynamicContent",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "mu521xjeuuj",
+      "key": "sortBy",
+      "name": "SortBy",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "rzqxykvnf5",
+            "key": "newest-date-first",
+            "value": "Newest Date First"
+          },
+          {
+            "$key": "lpkgph4obya",
+            "value": "Oldest Date First",
+            "key": "oldest-date-first"
+          },
+          {
+            "$key": "5z5izltrmgp",
+            "value": "Title Accending",
+            "key": "title-accending"
+          },
+          {
+            "$key": "0jp2cmujiahp",
+            "key": "title-decending",
+            "value": "Title Decending"
+          },
+          {
+            "$key": "0ggowopd1vaf",
+            "key": "most-viewed-first",
+            "value": "Most Viewed First"
+          },
+          {
+            "$key": "b7y0gq6sj2r",
+            "key": "least-viewed-first",
+            "value": "Least Viewed First"
+          },
+          {
+            "$key": "g563yldkm78",
+            "key": "most-commented-first",
+            "value": "Most Commented First"
+          },
+          {
+            "$key": "3tie8eo2qys",
+            "key": "least-commented-first",
+            "value": "Least Commented First"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "mit4hbhlvvf",
+      "key": "totalCardsToShow",
+      "name": "Total Cards to show",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "tq2gc8hzsin",
+      "key": "showPagination",
+      "name": "Show Pagination",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "8a8zqfxg1km",
+      "key": "cardPerSection",
+      "name": "Card Per Section",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "ydptlmg9swa",
+      "key": "filters",
+      "name": "Filters",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6624f67c990ac402ed0d3eb8"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-19T08:34:40.523Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

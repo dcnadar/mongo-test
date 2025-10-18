@@ -1,0 +1,121 @@
+{
+  "_id": "6624b1a9c9fe887cdf0ebd2d",
+  "gridTitle": "LifesecretEnquiry",
+  "gridType": "form",
+  "crmModelId": "6612fbdba10af254b4b43838",
+  "rows": [
+    {
+      "$key": "1glaom03jdy",
+      "fields": [
+        {
+          "id": "customerName",
+          "title": "Name",
+          "type": "text",
+          "o": false,
+          "span": 16,
+          "$key": "d3hgyc40xo"
+        },
+        {
+          "$key": "h3g418ssr2c",
+          "id": "customerAddress",
+          "title": "Address",
+          "span": 16,
+          "type": "textarea"
+        },
+        {
+          "$key": "6mt84oaav4x",
+          "id": "customerContact",
+          "title": "Mobile",
+          "type": "text",
+          "span": 16
+        },
+        {
+          "$key": "jqht4u2qtr",
+          "id": "service",
+          "title": "Service",
+          "type": "list",
+          "span": 16,
+          "multiple": false,
+          "options": [
+            {
+              "$key": "nv9ugp1zzqj",
+              "key": "GST Registration",
+              "value": "GST Registration"
+            },
+            {
+              "$key": "puc9kbje5c",
+              "key": "Company Registration",
+              "value": "Company Registration"
+            },
+            {
+              "$key": "l2y3275qns",
+              "key": "Trademark Registration",
+              "value": "Trademark Registration"
+            },
+            {
+              "$key": "yvqtsg373zm",
+              "key": "FSSAI License",
+              "value": "FSSAI License"
+            },
+            {
+              "$key": "o3cjrbq0pp",
+              "key": "PAN Card",
+              "value": "PAN Card"
+            },
+            {
+              "$key": "q1x02mtsmj",
+              "key": "UDYAM Registration",
+              "value": "UDYAM Registration"
+            },
+            {
+              "$key": "getmbz3may",
+              "key": " Income Tax Return (ITR)",
+              "value": "Income Tax Return (ITR)"
+            },
+            {
+              "$key": "4qu7l91wqmu",
+              "key": "GST Return",
+              "value": "GST Return"
+            },
+            {
+              "$key": "bymiu339xl",
+              "key": "Insurance",
+              "value": "Insurance"
+            },
+            {
+              "$key": "m4rnwnz9ww",
+              "key": "Mutual Fund SIP",
+              "value": "Mutual Fund SIP"
+            },
+            {
+              "$key": "hxatqufcx7c",
+              "value": "BILLING SOFTWARE",
+              "key": "BILLING SOFTWARE"
+            },
+            {
+              "$key": "s0zbk7m1qwg",
+              "value": "BUSINESS LOAN",
+              "key": "BUSINESS LOAN"
+            },
+            {
+              "$key": "ib1l602bhhg",
+              "key": "MSME Mitra",
+              "value": "MSME Mitra"
+            }
+          ]
+        },
+        {
+          "$key": "immdl4do7f9",
+          "id": "message",
+          "title": "Remark",
+          "type": "text",
+          "span": 16
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-21T06:26:49.668Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

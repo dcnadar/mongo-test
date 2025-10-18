@@ -1,0 +1,104 @@
+{
+  "_id": "671cbf3e5f22ec7ba0264a47",
+  "gridTitle": "Student Attendance",
+  "gridType": "table",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "columns": [
+    {
+      "$key": "dcij65ud6vb",
+      "key": "firstName",
+      "name": "Name",
+      "type": "name",
+      "sort": false
+    },
+    {
+      "$key": "6pqs0l6midl",
+      "key": "academicDetails.class",
+      "name": "Class",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "nk1pgcp9il",
+      "key": "academicDetails.section",
+      "name": "Section",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "17i57hahwiu",
+      "key": "academicDetails.rollNo",
+      "name": "Roll no",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "cnun51wq1l9",
+      "key": "inTime",
+      "name": "Swipe In Time",
+      "type": "tag",
+      "sort": false
+    },
+    {
+      "$key": "1csiqbtu7cp",
+      "name": "Swipe Out Time",
+      "key": "outTime",
+      "type": "tag",
+      "sort": false
+    },
+    {
+      "$key": "nhytd5fq44",
+      "key": "type",
+      "name": "Attendance Status",
+      "type": "mark",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "76esko3on5h",
+      "fields": [
+        {
+          "$key": "wen6fh03jrc",
+          "id": "academicDetails.class",
+          "title": "Class",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": 8,
+          "apiUrl": "/api/io/class-section/class-teacher/class/search",
+          "nullIds": [
+            "academicDetails.section"
+          ]
+        },
+        {
+          "$key": "jq06s6yp3le",
+          "id": "academicDetails.section",
+          "title": "Section",
+          "type": "list",
+          "multiple": true,
+          "o": true,
+          "span": 8,
+          "add": false,
+          "delete": false,
+          "apiUrl": "/api/io/class-section/class-teacher/section/search?class=:academicDetails.class academicDetails.class",
+          "showCondition": "return !!this.academicDetails?.class;"
+        }
+      ]
+    }
+  ],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "lastName",
+    "middleName",
+    "dateOfJoining",
+    "dateOfLeaving"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-26T10:06:54.814Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:02.752Z"
+}

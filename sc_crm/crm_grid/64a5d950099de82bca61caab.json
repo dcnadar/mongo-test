@@ -1,0 +1,79 @@
+{
+  "_id": "64a5d950099de82bca61caab",
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "crmModelId": "64a4b38d1952437b761aac1c",
+  "gridTitle": "All Brand",
+  "apiUrl": "/admin/product/brand/all",
+  "columns": [
+    {
+      "$key": "v1ult09rl5d",
+      "key": "logo",
+      "name": "Logo",
+      "type": "thumb",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "index": 0,
+      "name": "Name",
+      "key": "name",
+      "type": "text",
+      "sort": true,
+      "$key": "nu45h9zwxu"
+    },
+    {
+      "index": 1,
+      "name": "Description",
+      "key": "description",
+      "type": "mdx_view",
+      "sort": true,
+      "$key": "s6qu9nz2z5p"
+    },
+    {
+      "index": 3,
+      "name": "Edit",
+      "key": "edit",
+      "type": "actions",
+      "show": true,
+      "align": "right",
+      "sort": false,
+      "width": 100,
+      "actions": [
+        {
+          "value": "Edit",
+          "slug": "/admin/product/brand/update?id=:_id _id",
+          "type": "icon_button",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10015/10015359.png",
+          "$key": "lw7dz9vmkcb"
+        },
+        {
+          "gridTitle": "Delete Brand",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure to delete ':name'?",
+          "gridMsgParams": "name",
+          "apiUrl": "/admin/product/brand/delete?id=:_id _id",
+          "type": "icon",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10347/10347120.png",
+          "$key": "k8alkmejqoa"
+        }
+      ],
+      "$key": "e8m7idf2brt"
+    }
+  ],
+  "createButton": {
+    "value": "Add Brand",
+    "slug": "/admin/product/brand/create"
+  },
+  "search": {
+    "placeHolder": "Search by Brand title"
+  },
+  "created": "2024-01-27T07:48:47.166Z",
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "fetchAdditionalKeys": [],
+  "leftOpenFilters": [],
+  "tableMeta": {}
+}

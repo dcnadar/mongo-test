@@ -1,0 +1,36 @@
+{
+  "_id": "66d2a8fef477b55766069e3d",
+  "gridTitle": "ReactGrid GlobalHeader4 category",
+  "gridType": "form",
+  "crmModelId": "66d29f08f477b55766069e15",
+  "rows": [
+    {
+      "$key": "hmus9dbk3y",
+      "fields": [
+        {
+          "$key": "v0q4u59abnb",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "wr29qr7po4o",
+          "id": "categoryMenu",
+          "title": "CategoryMenu",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 10
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-31T05:24:14.911Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

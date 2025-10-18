@@ -1,0 +1,13 @@
+{
+  "_id": "6611805aa10af254b4b43741",
+  "name": "Add Fee Fine",
+  "path": "/admin/schoolsetup/fee-settings/fee-fine/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660ceef3c7b99128d924f731",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T17:03:22.324Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:46.277Z"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "660cd81fc7b99128d924f726",
+  "gridTitle": "Eduempower FeeCategory",
+  "gridType": "form",
+  "crmModelId": "6608f6c160d4f873b5fa4f6c",
+  "rows": [
+    {
+      "$key": "c5v310tzwc",
+      "fields": [
+        {
+          "$key": "odad8n6a3ma",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 16
+        },
+        {
+          "$key": "fi7m4bbk1nu",
+          "id": "code",
+          "title": "Code",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "07mem7oaaizt",
+          "id": "classes",
+          "title": "Class",
+          "type": "checkbox_group",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 24,
+          "checkboxGroups": []
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T04:16:31.422Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/schoolsetup/fee-settings/fee-type/all",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.345Z"
+}

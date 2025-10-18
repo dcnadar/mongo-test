@@ -1,0 +1,12 @@
+{
+  "_id": "6761d32175ed7057fba21a89",
+  "category": "USER_TYPE",
+  "categoryName": "USER TYPE",
+  "name": [
+    "CUSTOMER",
+    "STAFF"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-12-17T19:38:09.282Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

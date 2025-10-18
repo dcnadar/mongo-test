@@ -1,0 +1,13 @@
+{
+  "_id": "6666e57a07b1a041b15e0be6",
+  "name": "Firebase Settings",
+  "path": "/admin/mobileapp/firebasesettings",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6666e7e207b1a041b15e0be8",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-10T11:37:30.636Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "65d1b9942a35a061866919e7",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "message",
+      "name": "Message"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "user",
+      "name": "User",
+      "modelId": "65d1b9952a35a061866919e8"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalCommon ContentSection Quote",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-18T08:02:28.502Z"
+}

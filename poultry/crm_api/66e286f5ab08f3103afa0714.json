@@ -1,0 +1,13 @@
+{
+  "_id": "66e286f5ab08f3103afa0714",
+  "name": "Password",
+  "path": "/admin/password/update",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66e2a36bab08f3103afa0723",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-12T06:15:17.623Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

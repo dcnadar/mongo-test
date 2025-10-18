@@ -1,0 +1,17 @@
+{
+  "_id": "668bc898531ed762273ebbf6",
+  "name": "Product Setting",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "daw4fbkiz09",
+      "key": "skuSetting",
+      "name": "SKU Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "668bc84e531ed762273ebbf5"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T11:08:08.513Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

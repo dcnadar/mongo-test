@@ -1,0 +1,40 @@
+{
+  "_id": "668d1568531ed762273ebc05",
+  "name": "OrderInvoice GST",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "xtochzeryhe",
+      "key": "percent",
+      "name": "Percent",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "94a2malq0qc",
+      "key": "igst",
+      "name": "IGST",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "2pzmduxovfd",
+      "key": "cgst",
+      "name": "CGST",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "n9cdd0zd6a9",
+      "key": "sgst",
+      "name": "SGST",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "nch3k47dy7k",
+      "key": "utgst",
+      "name": "UTGST",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-09T10:48:08.511Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

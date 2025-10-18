@@ -1,0 +1,56 @@
+{
+  "_id": "672f03287a1bdc0b65d0bd0b",
+  "name": "User admission followups",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "a3bohf6y0t",
+      "key": "nextFollowUp",
+      "name": "Next Follow-Up Date",
+      "unique": false,
+      "dataType": "DATE"
+    },
+    {
+      "$key": "xjcg3damomm",
+      "key": "remark",
+      "name": "Follow-Up Remark",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wrtkfftm8rm",
+      "key": "followUpStatus",
+      "name": "Follow-Up Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "hulrt420h1r",
+            "key": "IN_PROGRESS",
+            "value": "In Progress"
+          },
+          {
+            "$key": "rtajhd3gfnm",
+            "key": "PENDING",
+            "value": "Pending"
+          },
+          {
+            "$key": "j1h5mletfmo",
+            "key": "INTERESTED",
+            "value": "Interested"
+          },
+          {
+            "$key": "asfpzzzqjet",
+            "key": "NOT_INTERESTED",
+            "value": "Not Interested"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-09T06:37:28.200Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:07.632Z"
+}

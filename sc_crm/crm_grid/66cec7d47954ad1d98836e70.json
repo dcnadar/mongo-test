@@ -1,0 +1,90 @@
+{
+  "_id": "66cec7d47954ad1d98836e70",
+  "gridTitle": "ReactGrid GlobalHeader3",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "0u2d8gqsp3v",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "$key": "613a2lhdxct"
+        },
+        {
+          "$key": "khh55e7qfu",
+          "id": "section1",
+          "title": "Section1",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 6
+        },
+        {
+          "$key": "vl1j9vcm6qn",
+          "id": "mainMenu",
+          "title": "MainMenu",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 8
+        },
+        {
+          "$key": "pd29b67v3rg",
+          "id": "section2",
+          "title": "Section2",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 6
+        },
+        {
+          "$key": "c7x4kikiue",
+          "id": "login",
+          "title": "Login",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "eary6tfw1zb",
+          "id": "reset",
+          "title": "Reset",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "sa0wfyp82mi",
+          "id": "logo",
+          "title": "Logo",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 23
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-28T06:46:44.308Z",
+  "createdBy": "65f1586feece0c4fb315fa82",
+  "crmModelId": "66cec9907954ad1d98836e7d"
+}

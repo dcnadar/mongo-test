@@ -1,0 +1,10 @@
+{
+  "_id": "67d7f3e55ea132199e60a851",
+  "name": "Editor",
+  "permissions": [
+    "67d7f3d45ea132199e60a850"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-17T10:05:25.962Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

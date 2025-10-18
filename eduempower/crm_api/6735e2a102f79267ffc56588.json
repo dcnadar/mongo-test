@@ -1,0 +1,26 @@
+{
+  "_id": "6735e2a102f79267ffc56588",
+  "name": "Fee Structure Configure",
+  "path": "/admin/schoolsetup/fee-settings/fee-structure/classes/categories/configure",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66114d8423b39252de459b20",
+  "innerGridType": "table",
+  "innerSourceId": "6735e24e02f79267ffc56587",
+  "gridParams": [
+    {
+      "key": "classId",
+      "required": true
+    },
+    {
+      "key": "categoryId",
+      "required": true
+    }
+  ],
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-14T11:44:33.019Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:56.105Z"
+}

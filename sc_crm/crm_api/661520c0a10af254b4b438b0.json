@@ -1,0 +1,12 @@
+{
+  "_id": "661520c0a10af254b4b438b0",
+  "name": "Update Customer",
+  "path": "/admin/account/customer/update",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66151ae7a10af254b4b438a9",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T11:04:32.938Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,73 @@
+{
+  "_id": "660bd01fc7b99128d924f6ff",
+  "gridTitle": "Eduempower Entity",
+  "gridType": "form",
+  "crmModelId": "660bcdc3c7b99128d924f6fe",
+  "rows": [
+    {
+      "$key": "x9dbgjuace",
+      "fields": [
+        {
+          "id": "type",
+          "title": "Entity Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "gr8kxowy22k",
+          "onChangeCondition": [
+            {
+              "$key": "gu7n9trbg4m",
+              "meta": {
+                "type": "function"
+              },
+              "value": "if(this.type === 'COUNTRY'){     return '660c140ec7b99128d924f70c';   } else if(this.type === 'STATE'){     return '660c2fb3c7b99128d924f711';   } else if(this.type === 'CLASS_TYPE'){     return '660c3032c7b99128d924f712'   } else if(this.type === 'EXAMINATION_BOARD'){     return '660c3032c7b99128d924f712'   }   return '';",
+              "key": "entityDataModelId"
+            }
+          ],
+          "nullIds": [
+            "data"
+          ]
+        },
+        {
+          "$key": "5sh8399r0an",
+          "id": "data",
+          "title": "Entity Data",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false,
+            "crmFormIdField": "entityDataModelId"
+          },
+          "span": 24
+        },
+        {
+          "$key": "mrzorqggqd",
+          "id": "entityDataModelId",
+          "title": "entityDataModelId",
+          "type": "text",
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-02T09:30:07.632Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "backUrl": "/admin/schoolsetup/entity-setup/all",
+  "updated": "2025-09-08T10:50:58.011Z"
+}

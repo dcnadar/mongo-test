@@ -1,0 +1,13 @@
+{
+  "_id": "66d52698f477b55766069fd5",
+  "name": "Add Publication",
+  "path": "/admin/gallery/publication/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66d52575f477b55766069fd2",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-02T02:44:40.317Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

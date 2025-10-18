@@ -1,0 +1,14 @@
+{
+  "_id": "67adf6c4397e373602fa0c6f",
+  "name": "All Fee Schedule",
+  "path": "/admin/school-setup/fee-settings/fee-schedule/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "67adf5ee397e373602fa0c6d",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T13:42:27.920Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

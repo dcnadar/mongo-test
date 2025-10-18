@@ -1,0 +1,54 @@
+{
+  "_id": "66824d6f3108ad7b7d063ed3",
+  "gridTitle": "NativeGrid GlobalFeaturedBrandCardScrollView Section",
+  "gridType": "form",
+  "crmModelId": "66824aee3108ad7b7d063ecc",
+  "rows": [
+    {
+      "$key": "eb50e3sgu1",
+      "fields": [
+        {
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 24,
+          "$key": "l7tzer9dmpp"
+        },
+        {
+          "$key": "gl45lk3j5mn",
+          "id": "icon",
+          "title": "Icon",
+          "span": 8,
+          "type": "upload",
+          "multiple": false
+        },
+        {
+          "$key": "islowcm9iur",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "3x864l1ifrf",
+          "id": "price",
+          "title": "Price",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "436anu0ylxq",
+          "id": "curency",
+          "title": "Curency",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T06:32:15.563Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

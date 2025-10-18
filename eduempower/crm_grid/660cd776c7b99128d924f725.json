@@ -1,0 +1,52 @@
+{
+  "_id": "660cd776c7b99128d924f725",
+  "gridTitle": "Eduempower DiscountLogic",
+  "gridType": "form",
+  "crmModelId": "6608201960d4f873b5fa4f4b",
+  "rows": [
+    {
+      "$key": "fxe58yjvazu",
+      "fields": [
+        {
+          "$key": "4nh7vu4amhy",
+          "id": "amount",
+          "title": "Amount",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "hvdr9uctq3",
+          "id": "percentage",
+          "title": "Percentage",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "x4kkv9oxtgc",
+          "id": "approvalType",
+          "title": "ApprovalType",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "04wpqmod9ikl",
+          "id": "staffs",
+          "title": "Staffs",
+          "type": "card",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 24,
+          "min": 1
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T04:13:42.259Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.312Z"
+}

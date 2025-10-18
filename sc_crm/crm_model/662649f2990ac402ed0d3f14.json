@@ -1,0 +1,31 @@
+{
+  "_id": "662649f2990ac402ed0d3f14",
+  "name": "ReactGrid GlobalSwiperJSCrousal ",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "4vpgkv7nd6i",
+      "key": "autoSlideTime",
+      "name": " AutoSlideTime",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "118659w9k2gj",
+      "key": "autoSlide",
+      "name": "AutoSlide",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "you3ifw8hpl",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66264896990ac402ed0d3f13"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T11:28:50.803Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "compoundUniqueFields": []
+}

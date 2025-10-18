@@ -1,0 +1,60 @@
+{
+  "_id": "660fef0ec7b99128d924f786",
+  "gridTitle": "Eduempower ApplyLeaves (OLD)",
+  "gridType": "table",
+  "crmModelId": "660fe1f2c7b99128d924f77f",
+  "columns": [
+    {
+      "$key": "xbpuywd7f7i",
+      "key": "leaveType",
+      "name": "Leave Type",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "a8w7vn2t8y",
+      "key": "from",
+      "name": "From",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "xnjytmblos",
+      "key": "to",
+      "name": "To",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "39xoxf5cqq",
+      "key": "leaveSession",
+      "name": "Leave Session",
+      "type": "tag",
+      "sort": true
+    },
+    {
+      "$key": "elp65jybyp7",
+      "key": "noOfLeaves",
+      "name": "No Of Leaves",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "hjxapn205n5",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-05T12:31:10.216Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:00.514Z"
+}

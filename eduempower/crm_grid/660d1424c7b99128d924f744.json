@@ -1,0 +1,82 @@
+{
+  "_id": "660d1424c7b99128d924f744",
+  "gridTitle": "Eduempower Class",
+  "gridType": "form",
+  "crmModelId": "660ace73c7b99128d924f6c4",
+  "rows": [
+    {
+      "$key": "pydz1zhqlx",
+      "fields": [
+        {
+          "$key": "yza3qsvbd",
+          "id": "sequenceNo",
+          "title": "Sequence No",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "o": false,
+          "updateType": "none",
+          "createType": "none"
+        },
+        {
+          "id": "classType",
+          "title": "Class Type",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "$key": "zd310flo74s"
+        },
+        {
+          "$key": "ybf2rcftr2c",
+          "id": "classNameInWord",
+          "title": "Class Name in Words",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "x7n6ew5alwd",
+          "id": "capacity",
+          "title": "Capacity",
+          "type": "number",
+          "span": 8,
+          "min": 1,
+          "max": 0
+        },
+        {
+          "$key": "bwmcczi930w",
+          "id": "numberOfSections",
+          "title": "Number Of Sections",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "s61pz0hacvn",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "03iz7513itg6",
+          "id": "sections",
+          "title": "Sections",
+          "type": "input_table",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "updateType": "hidden",
+          "createType": "none"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T08:32:36.395Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "backUrl": "/admin/schoolsetup/class-section/all",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:59.222Z"
+}

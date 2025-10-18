@@ -1,0 +1,45 @@
+{
+  "_id": "67ae0136397e373602fa0c92",
+  "gridTitle": "Eduempower SchoolSubject Fee",
+  "gridType": "form",
+  "crmModelId": "67ae00b9397e373602fa0c8d",
+  "rows": [
+    {
+      "$key": "sggwg2p0qrs",
+      "fields": [
+        {
+          "id": "subjectFee",
+          "title": "Subject Fee",
+          "type": "number",
+          "span": 8,
+          "$key": "6ivv9to4cn"
+        },
+        {
+          "$key": "r6g7sdj86x",
+          "id": "scheduleId",
+          "title": "Schedule Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T14:27:02.117Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "6609607cc7b99128d924f668",
+  "name": "Eduempower FeeFine Setting FineRefuseTimeFrame",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "moidfj4d2or",
+      "key": "from",
+      "name": "From",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "klbi3e20akq",
+      "key": "to",
+      "name": "To",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "6a792icdkx",
+      "key": "maxAmount",
+      "name": "Max Amount",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T13:09:16.710Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.560Z"
+}

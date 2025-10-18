@@ -1,0 +1,28 @@
+{
+  "_id": "66a34bbce287100717693bc8",
+  "name": "Transaction Number Setting\t",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "e6nsomb6c8",
+      "key": "transactionNoPrefix",
+      "name": "transactionNoPrefix",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8f1ewnp0g5r",
+      "key": "transactionCurrentNo",
+      "name": "transactionCurrentNo",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "nkfp6dtn0vf",
+      "key": "transactionNoPostfix",
+      "name": "transactionNoPostfix",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T07:09:48.217Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

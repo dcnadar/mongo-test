@@ -1,0 +1,58 @@
+{
+  "_id": "6526bb4d696fa159e510155c",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "heading",
+      "name": "Heading"
+    },
+    {
+      "dataType": "LIST_OF",
+      "key": "highlights",
+      "name": "Highlights",
+      "listType": "STRING"
+    },
+    {
+      "dataType": "STRING",
+      "key": "floatingImageUp",
+      "name": "Floating Image Up"
+    },
+    {
+      "dataType": "STRING",
+      "key": "floatingImageDown",
+      "name": "Floating Image Down"
+    },
+    {
+      "dataType": "STRING",
+      "key": "mainImage",
+      "name": "Main Image"
+    },
+    {
+      "dataType": "STRING",
+      "key": "stillImageUp",
+      "name": "Still Image Up"
+    },
+    {
+      "dataType": "STRING",
+      "key": "stillImageDown",
+      "name": "Still Image Down"
+    },
+    {
+      "dataType": "LIST_OF",
+      "key": "buttons",
+      "name": "Buttons",
+      "listType": "INNER_MODEL",
+      "modelId": "6526ba2f696fa159e510155b"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid FoodioAppBanner",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:52.022Z"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "66e1b573ab08f3103afa06f2",
+  "gridTitle": "Product Cancel Policy",
+  "gridType": "form",
+  "crmModelId": "66e1b55bab08f3103afa06f1",
+  "rows": [
+    {
+      "$key": "41t9cfjwu8",
+      "fields": [
+        {
+          "$key": "sy7d88ibpil",
+          "id": "policyName",
+          "title": "Policy Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "gubvj4w197i",
+          "id": "cancellationRefundMethod",
+          "title": "Cancellation Refund Method",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "8pwfg8co03e",
+          "id": "cancellationWindowHours",
+          "title": "Cancellation Window Hours",
+          "type": "number",
+          "min": 0,
+          "span": 12,
+          "meta": {
+            "addonAfter": "hours"
+          }
+        },
+        {
+          "$key": "96x1e4znqs",
+          "id": "allowOrderModification",
+          "title": "Allow Order Modification",
+          "type": "bool",
+          "span": 12
+        },
+        {
+          "$key": "qryt6e76sh",
+          "id": "notifyCustomerUponCancellation",
+          "title": "Notify Customer upon Cancellation",
+          "type": "bool",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:21:23.610Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

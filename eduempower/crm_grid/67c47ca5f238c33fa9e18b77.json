@@ -1,0 +1,35 @@
+{
+  "_id": "67c47ca5f238c33fa9e18b77",
+  "gridTitle": "File Upload",
+  "gridType": "form",
+  "crmModelId": "67c2da61b0b44915d3227f3f",
+  "rows": [
+    {
+      "$key": "y6htoop6ou",
+      "showDescription": false,
+      "fields": [
+        {
+          "id": "file",
+          "title": "Staff data",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "o": false,
+          "span": 8,
+          "fileAccept": ".xls,.xlsx",
+          "$key": "g0b25guj8yr"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-02T15:43:33.102Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "postUrl": "/api/io/admin/staff/bulk-import",
+  "updated": "2025-09-08T10:51:04.398Z"
+}

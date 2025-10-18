@@ -1,0 +1,14 @@
+{
+  "_id": "66126164a10af254b4b43804",
+  "name": "Add Sections",
+  "path": "/admin/schoolsetup/section/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660c35d8c7b99128d924f713",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T09:03:32.453Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "ecomApiMappings": [],
+  "updated": "2025-09-08T10:50:50.214Z"
+}

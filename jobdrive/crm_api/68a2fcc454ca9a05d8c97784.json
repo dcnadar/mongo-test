@@ -1,0 +1,14 @@
+{
+  "_id": "68a2fcc454ca9a05d8c97784",
+  "name": "Interview",
+  "path": "/admin/interview/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "68a2e43e54ca9a05d8c97781",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-18T10:13:24.535Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:50.048Z"
+}

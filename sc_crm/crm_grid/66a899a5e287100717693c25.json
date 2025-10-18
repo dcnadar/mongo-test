@@ -1,0 +1,180 @@
+{
+  "_id": "66a899a5e287100717693c25",
+  "gridTitle": "Product Variant Update",
+  "gridType": "form",
+  "crmModelId": "64a5d14d099de82bca61ca99",
+  "rows": [
+    {
+      "$key": "ecnoa4is1ri",
+      "fields": [
+        {
+          "$key": "6o4jlmurmun",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "xg8cichr70l",
+          "id": "path",
+          "title": "Path",
+          "type": "text",
+          "o": false,
+          "span": 12
+        },
+        {
+          "$key": "sgrs8q1fiz",
+          "id": "brand",
+          "title": "Brand",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "updateType": "none"
+        },
+        {
+          "$key": "zstnqjaml0r",
+          "id": "category",
+          "title": "Category",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "gseghl6irzg",
+          "id": "basicDetails.media",
+          "title": "Media",
+          "type": "upload",
+          "multiple": true,
+          "span": 24,
+          "add": false,
+          "delete": false,
+          "meta": {
+            "uploadUISize": "lg",
+            "allowWebcam": false,
+            "allowGallery": false
+          }
+        },
+        {
+          "$key": "2dibebalhii",
+          "id": "mrp",
+          "title": "MRP",
+          "type": "number",
+          "span": 12,
+          "min": 0,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "4kj50iknjub",
+          "id": "price",
+          "title": "Price",
+          "type": "number",
+          "min": 0,
+          "span": 12,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "8df5mbif1hv",
+          "id": "sku",
+          "title": "SKU",
+          "type": "text",
+          "span": 12,
+          "updateType": "disabled"
+        },
+        {
+          "$key": "6ubprk0nqk5",
+          "id": "hsn",
+          "title": "HSN",
+          "type": "number",
+          "span": 12,
+          "min": 0,
+          "o": true,
+          "updateType": "disabled"
+        },
+        {
+          "$key": "wvctxlrfg4l",
+          "id": "available",
+          "title": "Available",
+          "type": "number",
+          "span": 12,
+          "updateType": "disabled"
+        },
+        {
+          "$key": "djnsk9u72lf",
+          "id": "onHand",
+          "title": "On Hand",
+          "type": "number",
+          "updateType": "disabled",
+          "span": 12
+        },
+        {
+          "$key": "1vsb49atup",
+          "id": "basicDetails.technicalPoints",
+          "title": "Technical Points",
+          "type": "input_table",
+          "add": true,
+          "delete": true,
+          "o": true,
+          "span": 24,
+          "min": 1,
+          "max": 200,
+          "hint": "<p><span style=\"color: rgb(40,44,63);background-color: rgb(255,255,255);font-size: 14px;font-family: sans-serif;\"><strong>Key Technical Points</strong> of the product.<br>Example: 'Waterproof up to 50m', 'Battery life: 10 hours'</span></p>\n",
+          "countTitle": "No Technical Points Added"
+        },
+        {
+          "$key": "mqb2r8dalp",
+          "id": "basicDetails.smallDescription",
+          "title": "Small Description",
+          "hint": "<p><span style=\"color: rgb(40,44,63);background-color: rgb(255,255,255);font-size: 14px;font-family: sans-serif;\"><strong>Brief Product Description.</strong> Summarize key features.<br>Example: 'Compact and lightweight design, perfect for travel.'</span></p>\n",
+          "type": "text_editor",
+          "span": 24
+        },
+        {
+          "$key": "t5iu1hge43f",
+          "id": "basicDetails.longDescription",
+          "title": "Long Description",
+          "type": "text_editor",
+          "o": true,
+          "span": 24,
+          "hint": "#### **Detailed Product Description.**\n\nInclude specifications, benefits, and more.\n\n*Example:* 'This camera features a 24.2MP APS-C sensor, capable of capturing high-quality images in various lighting conditions. Its compact form factor makes it an ideal travel companion.'"
+        },
+        {
+          "$key": "0cfo73xlq92",
+          "id": "advancedDetails",
+          "title": "Advanced Details",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false,
+            "hideCollapse": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "yw9kglggn5q",
+          "id": "product",
+          "title": "Product",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-30T07:43:33.442Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "product",
+      "required": true
+    }
+  ],
+  "upsertDoc": false,
+  "backUrl": "/admin/product/all"
+}

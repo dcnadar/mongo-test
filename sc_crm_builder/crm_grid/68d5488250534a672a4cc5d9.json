@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "68d5488250534a672a4cc5d9"
+  },
+  "gridTitle": "Branding Table",
+  "gridType": "table",
+  "crmModelId": "65e2c398226e7b80fe49ae39",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "3fmimkgxi3q",
+      "key": "companyDetails.logo",
+      "name": "Upload Logo image",
+      "type": "thumb",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758808194541"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231679271"
+    }
+  }
+}

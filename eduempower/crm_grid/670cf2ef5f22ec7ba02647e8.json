@@ -1,0 +1,85 @@
+{
+  "_id": "670cf2ef5f22ec7ba02647e8",
+  "gridTitle": "Staff Discontinue",
+  "gridType": "form",
+  "crmModelId": "670ceaf05f22ec7ba02647e4",
+  "rows": [
+    {
+      "$key": "6q9xmx4ybb9",
+      "fields": [
+        {
+          "$key": "92h0tu2bjxb",
+          "id": "staffId",
+          "title": "User",
+          "type": "list",
+          "multiple": false,
+          "span": 24,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe"
+        },
+        {
+          "$key": "56rvmjicevh",
+          "id": "type",
+          "title": "Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "tov75k4opk9",
+          "id": "from",
+          "title": "From",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "21ng7shpq27",
+          "id": "till",
+          "title": "Till",
+          "type": "date",
+          "span": 8,
+          "showCondition": "return this.type === 'TEMPORARILY'"
+        },
+        {
+          "$key": "t61rkacxun",
+          "id": "remark",
+          "title": "Remark",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "9d74shr32k8",
+          "id": "document",
+          "title": "Document",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "ojqzy5cowz",
+          "id": "userMessage",
+          "title": "User Message",
+          "type": "text",
+          "span": 16
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-14T10:31:11.334Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true
+    }
+  ],
+  "postUrl": "/api/io/admin/staff/discontinue",
+  "updated": "2025-09-08T10:51:01.338Z"
+}

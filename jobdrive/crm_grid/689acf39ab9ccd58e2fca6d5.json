@@ -1,0 +1,166 @@
+{
+  "_id": "689acf39ab9ccd58e2fca6d5",
+  "gridTitle": "Companies",
+  "gridType": "form",
+  "crmModelId": "689aca82ab9ccd58e2fca6d3",
+  "rows": [
+    {
+      "$key": "hrmxqpakebq",
+      "fields": [
+        {
+          "id": "companylogo",
+          "title": "Company Logo",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 8,
+          "$key": "wnqxfhnwcd",
+          "o": false,
+          "fileAccept": "image/png, image/jpeg"
+        },
+        {
+          "$key": "jdy20flt2o8",
+          "id": "companyname",
+          "title": "Company Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "m6vzsot5ab",
+          "id": "industry",
+          "title": "Industry",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "dejiv35rpab",
+          "id": "description",
+          "title": "Description",
+          "type": "text_editor",
+          "span": 16
+        },
+        {
+          "$key": "um3c35utgh",
+          "id": "website",
+          "title": "Website",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "lh52hjgb2f",
+          "id": "foundedyear",
+          "title": "Founded Year",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "k9xeqfc5n0b",
+          "id": "employeecount",
+          "title": "Employee Count",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ],
+      "label": "Company Information",
+      "tab": "Basicinformation"
+    },
+    {
+      "$key": "4bhbomm9vuf",
+      "label": "Contact Information",
+      "tab": "contactdetails",
+      "fields": [
+        {
+          "id": "contactDetails.emailaddress",
+          "title": "Email Address",
+          "type": "text",
+          "span": 12,
+          "$key": "nnech1p1npd"
+        },
+        {
+          "$key": "74xgy0rop0n",
+          "id": "contactDetails.phonenumber",
+          "title": "Phone Number",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "3lhbcj2fmhz",
+          "id": "contactDetails.address",
+          "title": "Address",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "qduu52hddp",
+          "id": "contactDetails.country",
+          "title": "Country",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "wh21qynu02",
+          "id": "contactDetails.state",
+          "title": "State",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "f97utu1jmi",
+          "id": "contactDetails.city",
+          "title": "City",
+          "type": "text",
+          "span": 6
+        }
+      ],
+      "showDescription": false,
+      "descriptionSpan": 12
+    },
+    {
+      "$key": "bdb3jq8bbh",
+      "tab": "socialmedia",
+      "label": "Social Media",
+      "fields": [
+        {
+          "id": "socialMedia.linkedein",
+          "title": "Linkedin",
+          "type": "text",
+          "span": 24,
+          "$key": "r6wy2r9sas",
+          "o": true
+        },
+        {
+          "$key": "xganztmv9wr",
+          "id": "socialMedia.twitter",
+          "title": "Twitter",
+          "type": "text",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "oyambcy3wi",
+          "id": "socialMedia.facebook",
+          "title": "Facebook",
+          "span": 24,
+          "type": "text",
+          "o": true
+        }
+      ],
+      "showDescription": false,
+      "description": "Add your company's social media profiles (optional)",
+      "descriptionSpan": 2
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-12T05:20:57.627Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/companioes/all",
+  "updated": "2025-09-05T11:02:52.279Z"
+}

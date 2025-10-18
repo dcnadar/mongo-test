@@ -1,0 +1,39 @@
+{
+  "_id": "680632f39221c8190c63e87c",
+  "gridTitle": "Customer",
+  "gridType": "table",
+  "crmModelId": "67d96cdc6d85b3208a75ea71",
+  "columns": [
+    {
+      "$key": "w6rqcakvp0k",
+      "key": "firstName",
+      "name": "First Name",
+      "sort": false,
+      "type": "text"
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "9wxxitrf0mt",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EQUALS": "CUSTOMER"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "lastName",
+    "mobileNumber",
+    "gender",
+    "birthDate",
+    "email"
+  ],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-04-21T11:58:43.210Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

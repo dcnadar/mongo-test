@@ -1,0 +1,14 @@
+{
+  "_id": "67d6e26f5ea132199e60a7d6",
+  "name": "Export admissions",
+  "path": "/admin/nyf/admissions/export",
+  "apiType": "GET",
+  "action": "DOWNLOAD_FILE",
+  "downloadFileType": "EXCEL",
+  "getAllRecords": true,
+  "sourceId": "67d916cc6d85b3208a75ea57",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-16T14:38:39.986Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

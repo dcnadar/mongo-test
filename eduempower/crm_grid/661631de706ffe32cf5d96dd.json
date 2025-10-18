@@ -1,0 +1,320 @@
+{
+  "_id": "661631de706ffe32cf5d96dd",
+  "gridTitle": "Eduempower Student",
+  "gridType": "form",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "rows": [
+    {
+      "$key": "cz9tbq58zn6",
+      "fields": [
+        {
+          "$key": "xll59rw91rl",
+          "id": "logo",
+          "title": "Logo",
+          "type": "upload",
+          "span": 6,
+          "multiple": false
+        },
+        {
+          "$key": "ej749zim13",
+          "id": "userType",
+          "title": "User Type",
+          "type": "text",
+          "multiple": false,
+          "span": 6,
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "STUDENT"
+        },
+        {
+          "$key": "25rwhk1grrs",
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "idgdernm11r",
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "cwcv1y1wt9g",
+          "id": "middleName",
+          "title": "Middle Name",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "h3ufl0myaya",
+          "id": "lastName",
+          "title": "Last Name",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "xdxck4a1bt",
+          "id": "birthDate",
+          "title": "Birth Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "u6a96uousm",
+          "id": "bloodGroup",
+          "title": "Blood Group",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "drzdc5006rc",
+          "id": "nationality",
+          "title": "Nationality",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "rag4ww1aco",
+          "id": "religion",
+          "title": "Religion",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "rjawslg3taq",
+          "id": "motherTongue",
+          "title": "Mother Tongue",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "crgioqap2nk",
+          "id": "dateOfJoining",
+          "title": "Date of Joining",
+          "type": "date",
+          "span": 8,
+          "o": false
+        },
+        {
+          "$key": "e6tlgfo05xs",
+          "id": "academicDetails",
+          "title": "Academic Details",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "ezu34ze8ogb",
+          "id": "presentAddress",
+          "title": "Present Address",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true,
+          "updateType": "none"
+        },
+        {
+          "$key": "8x14khfshbi",
+          "id": "permanentSameAsPresent",
+          "title": "Parmanent address is same as present address",
+          "type": "bool",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "k1hqwd1ljh",
+          "id": "permanentAddress",
+          "title": "Permanent Address",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true,
+          "showCondition": "return !this.permanentSameAsPresent;"
+        },
+        {
+          "$key": "34hvbpx5olf",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "ACTIVE"
+        },
+        {
+          "$key": "aeyhixm3q5s",
+          "id": "fatherContact",
+          "title": "Father Contact",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "smjfx5yzgl",
+          "id": "motherContact",
+          "title": "Mother Contact",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "43rmlibv83f",
+          "id": "grandMotherContact",
+          "title": "Grand Mother Contact",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "scx7xl29wu",
+          "id": "grandFatherContact",
+          "title": "Grand Father Contact",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "9rx2ih2sjcf",
+          "id": "guardianContact",
+          "title": "Guardian Contact",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 20,
+          "o": true
+        },
+        {
+          "$key": "6rjalnmyg1c",
+          "id": "additionalContact",
+          "title": "Additional Contact",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "6i5hylok57o",
+          "id": "studentAdditionalDetails",
+          "title": "Student Additional Details",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "z1vo8wemrld",
+          "id": "healthDetails",
+          "title": "Health Details",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "oiezwrirrr8",
+          "id": "onlyOneChild",
+          "title": "Only One Child",
+          "type": "bool",
+          "o": true
+        },
+        {
+          "$key": "1jh117bqm9p",
+          "id": "minority",
+          "title": "Minority",
+          "type": "bool",
+          "o": true
+        },
+        {
+          "$key": "n3o3vud9e2m",
+          "id": "physicalDisability",
+          "title": "Physical Disability",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "7otrgyov35c",
+          "id": "adharNo",
+          "title": "Adhar No",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "2tt9ii7xgnt",
+          "id": "caste",
+          "title": "Caste",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "6ipqzu2oako",
+          "id": "userManagement",
+          "title": "User Management",
+          "o": true,
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T03:56:21.209Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/student/all",
+  "gridParams": [],
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:51:00.823Z"
+}

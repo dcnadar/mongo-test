@@ -1,0 +1,13 @@
+{
+  "_id": "66d5a55874ed55427bf5476d",
+  "name": "App Header Section",
+  "path": "/admin/mobileapp/header/section/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66d5a43c74ed55427bf5476c",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-02T11:45:28.904Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

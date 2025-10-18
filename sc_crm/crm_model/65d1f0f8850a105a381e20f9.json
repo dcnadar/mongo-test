@@ -1,0 +1,28 @@
+{
+  "_id": "65d1f0f8850a105a381e20f9",
+  "properties": [
+    {
+      "dataType": "INNER_MODEL",
+      "key": "header",
+      "name": "Header",
+      "modelId": "65d1d9a79563a39f0decd552"
+    },
+    {
+      "dataType": "STRING",
+      "key": "mainImage",
+      "name": "Main Image"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "sections",
+      "name": "Sections",
+      "modelId": "65d1b9912a35a061866919e4"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalContentSection1",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-18T11:58:48.876Z"
+}

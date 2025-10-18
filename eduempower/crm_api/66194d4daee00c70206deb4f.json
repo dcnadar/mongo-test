@@ -1,0 +1,23 @@
+{
+  "_id": "66194d4daee00c70206deb4f",
+  "name": "Edit Staff",
+  "path": "/admin/staff/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67126c0b5f22ec7ba0264866",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-12T15:03:41.445Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "ecomApiMappings": [],
+  "innerGridType": "form",
+  "innerSourceId": "660cd365c7b99128d924f720",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ],
+  "updated": "2025-09-08T10:50:51.181Z"
+}

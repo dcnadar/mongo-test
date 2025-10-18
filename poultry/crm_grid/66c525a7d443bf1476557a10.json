@@ -1,0 +1,74 @@
+{
+  "_id": "66c525a7d443bf1476557a10",
+  "gridTitle": "Common Address",
+  "gridType": "form",
+  "crmModelId": "66c524cfd443bf1476557a0f",
+  "rows": [
+    {
+      "$key": "dbtr1k4yigd",
+      "fields": [
+        {
+          "id": "addressLine1",
+          "title": "Address Line 1",
+          "type": "text",
+          "span": 12,
+          "$key": "do7oh1703de"
+        },
+        {
+          "$key": "7y42bqhmb0f",
+          "id": "addressLine2",
+          "title": "Address Line 2",
+          "type": "text",
+          "o": true,
+          "span": 12
+        },
+        {
+          "$key": "nmpw4nsypt",
+          "id": "locality",
+          "title": "Locality",
+          "type": "text",
+          "o": true,
+          "span": 6
+        },
+        {
+          "$key": "avfqzls5aa8",
+          "id": "pincode",
+          "title": "Pincode",
+          "span": 6,
+          "type": "text"
+        },
+        {
+          "$key": "21gnmumu2gb",
+          "id": "district",
+          "title": "District",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "6f7eb4m9adl",
+          "id": "state",
+          "title": "State",
+          "type": "text",
+          "span": 6
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-08-20T23:24:23.891Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

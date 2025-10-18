@@ -1,0 +1,82 @@
+{
+  "_id": {
+    "$oid": "662148567d57294ed27050dd"
+  },
+  "gridTitle": "Role",
+  "gridType": "table",
+  "crmModelId": "662145817d57294ed27050dc",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "z9b9dwvjxls",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true,
+      "width": {
+        "$numberInt": "200"
+      }
+    },
+    {
+      "$key": "40gqxyrj9us",
+      "key": "permissions",
+      "name": "Permissions",
+      "type": "card",
+      "width": {
+        "$numberInt": "600"
+      },
+      "sort": false
+    },
+    {
+      "$key": "ri4ujcg2n",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "width": {
+        "$numberInt": "100"
+      },
+      "actions": [
+        {
+          "$key": "j49sqif93zj",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/roles/update?id=:_id _id",
+          "gridTitle": "Update Role"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "2hb5tazi63t",
+      "gridTitle": "Add Role",
+      "apiUrl": "/admin/roles/create",
+      "value": "Add Role",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1713457238142"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151316"
+    }
+  }
+}

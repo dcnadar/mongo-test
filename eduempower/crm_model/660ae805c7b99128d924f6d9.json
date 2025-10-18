@@ -1,0 +1,183 @@
+{
+  "_id": "660ae805c7b99128d924f6d9",
+  "name": "Eduempower Staff EmploymentDetails",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "gz0d8wa83b6",
+      "key": "employeeId",
+      "name": "Employee Id",
+      "dataType": "STRING",
+      "searchable": {
+        "value": false
+      },
+      "unique": true
+    },
+    {
+      "$key": "mib0ioi2qyh",
+      "key": "autoGenerate",
+      "name": "Auto Generate",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "jsoz8b5w59k",
+      "key": "staffType",
+      "name": "Staff Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "k5n6tl5tuq",
+            "key": "NON_TEACHING",
+            "value": "Non Teaching"
+          },
+          {
+            "$key": "fomedcvohv",
+            "key": "TEACHING",
+            "value": "Teaching"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "rdq4ne1qbol",
+      "key": "highestQualification",
+      "name": "Highest Qualification",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "h6mnzmdmngg",
+            "key": "PHD",
+            "value": "Phd Doctorate"
+          },
+          {
+            "$key": "hv5i74zuskp",
+            "key": "PG",
+            "value": "PG"
+          },
+          {
+            "$key": "144tgt8amfw",
+            "key": "UG",
+            "value": "UG"
+          },
+          {
+            "$key": "zafbeulhf9m",
+            "value": "XII or Equivalent",
+            "key": "XII"
+          },
+          {
+            "$key": "mocmt0rdwok",
+            "key": "X",
+            "value": "X"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "t3akcxgy3wg",
+      "key": "departmentId",
+      "name": "Department Id",
+      "dataType": "REFERENCE",
+      "modelId": "660817b960d4f873b5fa4f47",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "pzxttwj7b77",
+      "key": "designationId",
+      "name": "Designation Id",
+      "dataType": "REFERENCE",
+      "modelId": "660818ea60d4f873b5fa4f48",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "1v224xeqftr",
+      "key": "employmentNature",
+      "name": "Employment Nature",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "o4a9zgt7hoi",
+            "key": "PERMANENT",
+            "value": "Permanent"
+          },
+          {
+            "$key": "rilwyhzv3t",
+            "key": "TEMPORARY",
+            "value": "Temporary"
+          },
+          {
+            "$key": "llorcutygv8",
+            "key": "PROBATION",
+            "value": "Probation"
+          },
+          {
+            "$key": "fuur9mt0ct",
+            "key": "INTERN",
+            "value": "Intern"
+          },
+          {
+            "$key": "5k398meuc1r",
+            "key": "OFF_ROLL",
+            "value": "Off Roll"
+          },
+          {
+            "$key": "nformqmv608",
+            "key": "OTHERS",
+            "value": "Others"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "a84mrbsrprp",
+      "key": "attendanceCode",
+      "name": "Attendance Code",
+      "dataType": "STRING",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "0b9l4h28bqzf",
+      "key": "esiNumber",
+      "name": "Esi Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "os9o1t3ion8",
+      "key": "epfNumber",
+      "name": "Epf Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8lj961kvagl",
+      "key": "signature",
+      "name": "Signature",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yo0zz2thky",
+      "key": "reportingTo",
+      "name": "Reporting To",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "usu4mqag46g",
+      "key": "mentor",
+      "name": "Mentor",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-01T16:59:49.076Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.145Z"
+}

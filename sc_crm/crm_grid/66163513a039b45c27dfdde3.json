@@ -1,0 +1,49 @@
+{
+  "_id": "66163513a039b45c27dfdde3",
+  "gridTitle": "Account Company Details",
+  "gridType": "form",
+  "crmModelId": "661679a02742031ccaab99cf",
+  "rows": [
+    {
+      "$key": "2fn9wh9e2kq",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 24,
+          "$key": "gjy6u3kb9cm"
+        },
+        {
+          "$key": "hlc8w0zpvr4",
+          "id": "logo",
+          "title": "Logo",
+          "type": "upload",
+          "multiple": false,
+          "o": true,
+          "span": 24
+        },
+        {
+          "$key": "8f49ujigb2b",
+          "id": "companyDetails",
+          "title": "Details",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "hideCollapse": true
+          },
+          "span": 24
+        }
+      ],
+      "description": "#### Name\n\n* Enter text using standard characters (e.g., **Acme Corporation**).\n* **Avoid:** Special characters or unnecessary punctuation.\n\n#### Logo\n\n* Upload a high-quality image file (JPG, PNG, or WebP).\n* **Recommended:** Minimum resolution of 800x800 px with a clear or transparent background.\n\n#### Primary Email\n\n* Enter a valid email address (e.g., [info@acme.com](mailto:info@acme.com)).\n\n#### Primary Contact\n\n* Enter a numeric value including the country code if necessary (e.g., **+1234567890**).\n\n#### Secondary Email\n\n* Enter a valid email address (e.g., [support@acme.com](mailto:support@acme.com)).\n\n#### Secondary Contact\n\n* Enter a numeric value similar to the primary contact (e.g., **+0987654321**).\n\n#### Address\n\n* Fill out each column of the address\n\n#### Social Media Links\n\n* Enter full URLs (e.g., [https://www.facebook.com/AcmeCorp).](https://www.facebook.com/AcmeCorp\\).)\n* You can add multiple links separated by as individual entries.",
+      "showDescription": true,
+      "descriptionSpan": 12
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-10T06:43:31.322Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "upsertDoc": false
+}

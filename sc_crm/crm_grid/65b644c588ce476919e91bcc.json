@@ -1,0 +1,61 @@
+{
+  "_id": "65b644c588ce476919e91bcc",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-28T12:12:53.494Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "SVG",
+          "id": "svg",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "hint": "SVG markup for the section's icon."
+        },
+        {
+          "index": 1,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "hint": "Title of the section."
+        },
+        {
+          "index": 2,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "hint": "Heading for the section."
+        },
+        {
+          "index": 3,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 12,
+          "o": false,
+          "hint": "Description for the section."
+        },
+        {
+          "index": 4,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 12,
+          "o": false,
+          "hint": "URL for the section image."
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b644c588ce476919e91bca",
+  "gridTitle": "ReactGrid GlobalTabSection2 Section"
+}

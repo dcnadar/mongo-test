@@ -1,0 +1,31 @@
+{
+  "_id": "660af14dc7b99128d924f6db",
+  "name": "Eduempower LibraryShelves",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_library_shelves",
+  "properties": [
+    {
+      "$key": "s8g97qowc0j",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "tzrqz883shn",
+      "key": "libraryId",
+      "name": "Library",
+      "dataType": "REFERENCE",
+      "modelId": "660af0dac7b99128d924f6da"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-01T17:39:25.947Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.217Z"
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "661260c3a10af254b4b43800",
+  "gridTitle": "Eduempower Section",
+  "gridType": "table",
+  "crmModelId": "6710fa555f22ec7ba026482b",
+  "columns": [
+    {
+      "$key": "j7oiugdvvo",
+      "key": "sectionName",
+      "name": "Section Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "kbzp6pykora",
+      "key": "sectionSeatingCapacity",
+      "name": "Seat Capacity",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "q8hwxxrzt4c",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "z0bjlfqqlhe",
+          "gridTitle": "Edit Sections",
+          "value": "Edit",
+          "apiUrl": "/admin/schoolsetup/section/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "4i42ctytclv",
+      "gridTitle": "Add Sections",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/schoolsetup/section/add?classId=:_id _id",
+      "value": "Add Sections"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T09:00:51.344Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "classId",
+      "required": true
+    }
+  ],
+  "updated": "2025-09-08T10:51:00.788Z"
+}

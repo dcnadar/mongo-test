@@ -1,0 +1,12 @@
+{
+  "_id": "661cfa07aee00c70206deb78",
+  "name": "Update FAQ",
+  "path": "/admin/website/faq/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "661cd989aee00c70206deb6a",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T09:57:27.233Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

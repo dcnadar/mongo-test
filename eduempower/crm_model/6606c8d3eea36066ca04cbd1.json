@@ -1,0 +1,193 @@
+{
+  "_id": "6606c8d3eea36066ca04cbd1",
+  "name": "Eduempower Student AcademicDetails",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "clmq62rfim",
+      "key": "admissionNo",
+      "name": "Admission No",
+      "dataType": "STRING",
+      "searchable": {
+        "value": false
+      },
+      "unique": true
+    },
+    {
+      "$key": "iezx6qmgh2k",
+      "key": "autoGenerate",
+      "name": "Auto Generate",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "gginmxj8lk",
+      "key": "academicSession",
+      "name": "Admission Session",
+      "dataType": "REFERENCE",
+      "modelId": "66067807eea36066ca04cbcc",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "6h5pefhvmtn",
+      "key": "class",
+      "name": "Class",
+      "dataType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "lw4t1irs5n",
+      "key": "section",
+      "name": "Section",
+      "dataType": "REFERENCE",
+      "modelId": "6710fa555f22ec7ba026482b",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "5gbyhzbn7pq",
+      "key": "rollNo",
+      "name": "Roll No",
+      "dataType": "LONG",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "yxnj02e49em",
+      "key": "firstLanguage",
+      "name": "First Language",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "aaimiidw3dk",
+      "key": "secondLanguage",
+      "name": "Second Language",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lebw8ptyov",
+      "key": "dateOfAdmission",
+      "name": "Date Of Admission",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "kb8hboh3w5",
+      "key": "attendanceCode",
+      "name": "Attendance Code",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xvf2yz4zy1",
+      "key": "feeCategory",
+      "name": "Fee Category",
+      "dataType": "REFERENCE",
+      "modelId": "6608f6c160d4f873b5fa4f6c"
+    },
+    {
+      "$key": "ieevl655ue",
+      "key": "registrationNo",
+      "name": "Registration No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "z5bhafuy1t",
+      "key": "tempAdmNo",
+      "name": "Temp Adm No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5q9xdu8cm8l",
+      "name": "Withdrawal Adm No",
+      "key": "withdrawalAdmNo",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3dbnpjb1r3n",
+      "key": "reAdmissionDate",
+      "name": "Re-Admission Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "mrqw2430ui",
+      "key": "registrationDate",
+      "name": "Registration Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "pyfb351xoxh",
+      "key": "boardRollNo",
+      "name": "Board Roll No",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "h97pxahln4w",
+      "key": "boardRegNo",
+      "name": "Board Reg No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jqxc1i70tjb",
+      "key": "oldStudent",
+      "name": "Old Student",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "rzx5jn0wmz",
+      "key": "attending",
+      "name": "Attending",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "a0b01uvmudi",
+            "key": "REGULAR",
+            "value": "Regular"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "go4u2y0ypl",
+      "key": "house",
+      "name": "House",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xgssrg98jbl",
+      "key": "promotedOn",
+      "name": "Promoted On",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "pw89ozppmzh",
+      "key": "promotedBy",
+      "name": "Promoted By",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "37p668fbr9g",
+      "key": "reportingTo",
+      "name": "Reporting To",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "8wcforjsy9u",
+      "key": "admissionBy",
+      "name": "Admission By",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-29T13:57:39.125Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.120Z"
+}

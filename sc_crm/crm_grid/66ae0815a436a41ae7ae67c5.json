@@ -1,0 +1,84 @@
+{
+  "_id": "66ae0815a436a41ae7ae67c5",
+  "gridTitle": "OrderReview",
+  "gridType": "table",
+  "crmModelId": "6684e3603108ad7b7d063f47",
+  "columns": [
+    {
+      "$key": "3v4gknjqiez",
+      "key": "productVariantId",
+      "name": "Product variant",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "klp6qtxixr",
+      "key": "userId",
+      "name": "Customer",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "zwfookskrcl",
+      "key": "orderId",
+      "name": "Order",
+      "type": "tag",
+      "sort": false
+    },
+    {
+      "$key": "tjp6l87t5r",
+      "key": "orderReview.rating",
+      "name": "Rating",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "et2ugx4ykrf",
+      "key": "orderReview.message",
+      "name": "Message",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "pwpz6s21am",
+      "key": "orderReview.images",
+      "name": "Images",
+      "type": "thumb",
+      "sort": false
+    },
+    {
+      "$key": "bs8aetdcoi",
+      "key": "Actions",
+      "name": "Actions",
+      "type": "actions",
+      "align": "right",
+      "actions": [
+        {
+          "$key": "7g6z00ppptp",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/order/review/save?id=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "p2gy4r2c0l",
+        "propertyKey": "orderReview",
+        "operator": "EXISTS",
+        "EXISTS": true
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-03T10:36:05.357Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

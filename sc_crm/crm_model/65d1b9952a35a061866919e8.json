@@ -1,0 +1,25 @@
+{
+  "_id": "65d1b9952a35a061866919e8",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "thumb",
+      "name": "Thumb"
+    },
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "subtitle",
+      "name": "Subtitle"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalCommon ContentSection Quote User",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-18T08:02:29.691Z"
+}

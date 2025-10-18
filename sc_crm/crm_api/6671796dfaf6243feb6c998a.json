@@ -1,0 +1,13 @@
+{
+  "_id": "6671796dfaf6243feb6c998a",
+  "name": "App Screen Section Info",
+  "path": "/admin/mobileapp/settings/section-info/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66716c41faf6243feb6c9982",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T12:11:25.971Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

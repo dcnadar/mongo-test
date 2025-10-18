@@ -1,0 +1,30 @@
+{
+  "_id": "68ad5b74077fdcc858b135c5",
+  "name": "Student Certificate",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "klhi7rx9bx",
+      "key": "title",
+      "name": "Certifiacation Title",
+      "dataType": "STRING",
+      "unique": false
+    },
+    {
+      "$key": "j8b1jmb13ok",
+      "name": "Issuing Organization",
+      "key": "organizationName",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "h83gachb8o5",
+      "key": "issue_date",
+      "name": "Date of Completion",
+      "dataType": "DATE"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T07:00:04.501Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:56.089Z"
+}

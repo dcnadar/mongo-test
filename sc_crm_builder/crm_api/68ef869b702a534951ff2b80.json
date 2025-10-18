@@ -1,0 +1,20 @@
+{
+  "_id": {
+    "$oid": "68ef869b702a534951ff2b80"
+  },
+  "name": "Edit Index",
+  "path": "/admin/entity/index/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68e4d665e652bafef0b04b50",
+  "fetchDocWithoutId": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1760528027470"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518"
+}

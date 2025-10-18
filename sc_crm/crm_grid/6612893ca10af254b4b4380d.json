@@ -1,0 +1,153 @@
+{
+  "_id": "6612893ca10af254b4b4380d",
+  "gridTitle": "Account Tax Settings inner",
+  "gridType": "form",
+  "crmModelId": "66127dc2a10af254b4b4380b",
+  "rows": [
+    {
+      "$key": "clp623q3z5s",
+      "fields": [
+        {
+          "id": "enableTax",
+          "title": "Enable Tax",
+          "type": "bool",
+          "span": 24,
+          "o": true,
+          "$key": "rxhvbub6hci"
+        }
+      ],
+      "label": "TAX",
+      "showDescription": true,
+      "span": 0,
+      "descriptionSpan": 16,
+      "description": "#### Enable Tax\n\n* This toggle determines whether tax calculations should be applied to product prices during checkout.\n* Enable tax only if your business operates in regions where tax collection is mandatory.\n* **Note:** When **Enable Tax** is true, additional tax-related fields become visible."
+    },
+    {
+      "$key": "wl5bj9xh82h",
+      "fields": [
+        {
+          "$key": "e9gc4m1rsj",
+          "id": "taxLabel",
+          "title": "Tax Label",
+          "type": "text",
+          "span": 24,
+          "showCondition": "return this.enableTax;"
+        },
+        {
+          "$key": "tkrniojn97j",
+          "id": "taxPercent",
+          "title": "Tax Percent",
+          "type": "number",
+          "span": 24,
+          "showCondition": "return this.enableTax;",
+          "min": 0,
+          "meta": {
+            "addonAfter": "%"
+          }
+        }
+      ],
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "description": "#### Tax Label\n\n* A descriptive label identifying the type of tax applied (e.g., \" **GST**\", \"**VAT**\").\n* Keep the label short, clear, and easily understandable, Use Plain text (e.g., \"**GST**\").\n\n#### Tax Percent\n\n* The percentage rate at which tax is calculated on the product's price.\n* Numeric field that accepts whole or decimal numbers (e.g., **5**, **12.5**).",
+      "showCondition": "return this.enableTax;"
+    },
+    {
+      "$key": "dh59nu5behi",
+      "fields": [
+        {
+          "id": "addGstNumberInvoice",
+          "title": "Add Gst Number Invoice",
+          "showCondition": "return this.enableTax;",
+          "span": 24,
+          "type": "bool",
+          "$key": "cxd1e0got46"
+        }
+      ],
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "description": "#### Add Gst Number Invoice\n\n* A toggle that determines whether GST details should be included on the invoice.\n* Enable this option if your region mandates GST invoicing.\n* Only activate if you have verified GST details to display.\n* **Note:** When **Add Gst Number Invoice** is on, **Gst Number** and **Gst State** field become visible."
+    },
+    {
+      "$key": "d185u8nu3jm",
+      "fields": [
+        {
+          "id": "gstNumber",
+          "title": "Gst Number",
+          "showCondition": "return this.enableTax && this.addGstNumberInvoice;",
+          "span": 24,
+          "type": "text",
+          "$key": "msat50y4umn"
+        },
+        {
+          "$key": "x2vw1s9odjd",
+          "id": "gstState",
+          "title": "Gst State",
+          "showCondition": "return this.enableTax && this.addGstNumberInvoice;",
+          "type": "text",
+          "span": 24
+        }
+      ],
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "description": "#### Gst Number\n\n* The registered GST identification number used for tax filing and invoicing.\n* Text field accepting alphanumeric characters.\n\n#### Gst State\n\n* The state where the GST registration is applicable.\n* Enter plain text as State (e.g., **Bihar, Delhi)**"
+    },
+    {
+      "$key": "7xthv1p7rz2",
+      "fields": [
+        {
+          "id": "includeTaxInProductPrice",
+          "title": "Include Tax in Product price",
+          "showCondition": "return this.enableTax;",
+          "type": "bool",
+          "span": 24,
+          "$key": "fh17x7zxyda"
+        }
+      ],
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "description": "#### Include Tax in Product Price\n\n* Determines whether the tax is already included in the displayed product price or added on top at checkout.\n* **If true:**\n  * The tax is calculated backward from the product price, meaning the displayed price already includes tax.\n* **If false:**\n  * Tax is calculated on top of the base product price."
+    },
+    {
+      "$key": "a64tbm2tcwi",
+      "label": "EXTRA CHARGES",
+      "fields": [
+        {
+          "id": "enableExtraCharges",
+          "title": "Enable Extra Charges",
+          "type": "bool",
+          "o": true,
+          "span": 24,
+          "$key": "b5escoyfps"
+        }
+      ],
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "description": "#### Enable Extra Charges\n\n* This toggle enables additional charge configurations (such as service fees) that can be applied to orders.\n* Activate extra charges only when additional fees are applicable.\n* **Enable Extra Charges** is true, the inner \"**Charges**\" box with its corresponding options is displayed."
+    },
+    {
+      "$key": "zmcy5yco5t",
+      "fields": [
+        {
+          "id": "extraCharges",
+          "title": "Charges",
+          "showCondition": "return this.enableExtraCharges;",
+          "type": "form_array",
+          "add": false,
+          "delete": false,
+          "span": 24,
+          "min": 1,
+          "max": 1,
+          "$key": "yfvyghi748"
+        }
+      ],
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "description": "#### Display Name\n\n* The name of the extra charge (e.g., \"**Service Fee**\", \"**Handling Charge**\").\n* Use a clear, descriptive name that reflects the nature of the charge (e.g., **Service Fee**).\n\n#### Logic\n\n* Defines the calculation method for the extra charge.\n* Choose from drop-down list; currently, only the **FIXED_PERCENTAGE** option is available.\n* Select **FIXED_PERCENTAGE** to calculate the charge as a fixed percentage of the taxable amount.\n\n#### Fixed Percentage\n\n* The percentage value used to calculate the extra charge based on the taxable amount.\n* Use clear and consider whether decimals are required (eg., **3**, **4.5**).\n\n#### Apply Tax\n\n* A toggle to decide whether tax should also be applied to the extra charge.\n* Enable this option if the extra charge is subject to tax under local regulations."
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T11:53:32.270Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "upsertDoc": false
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "66d29bedf477b55766069de9",
+  "name": "ReactGrid GlobalHeader4 subMenu",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "82ndxlod6rh",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nr6xqsqc6xq",
+      "key": "items",
+      "name": "Items",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66d29daaf477b55766069e07"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-31T04:28:29.416Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

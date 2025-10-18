@@ -1,0 +1,17 @@
+{
+  "_id": "65b91b639fd5786746ae453d",
+  "properties": [
+    {
+      "dataType": "LIST_OF",
+      "key": "sections",
+      "name": "Sections",
+      "listType": "INNER_MODEL",
+      "modelId": "65b91b639fd5786746ae453c"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalImageWithTextCard",
+  "modelType": "INNER",
+  "created": "2024-01-30T15:53:07.408Z",
+  "modelStatus": "ACTIVE"
+}

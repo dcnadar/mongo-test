@@ -1,0 +1,14 @@
+{
+  "_id": "66ed1ca0f4484c4c8e3fde97",
+  "name": "Current user profile pic update",
+  "path": "/cuser/profile/pic",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66ed1c14d5507f395e7dbe34",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-20T06:56:32.680Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

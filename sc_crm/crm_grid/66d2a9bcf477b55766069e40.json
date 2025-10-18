@@ -1,0 +1,62 @@
+{
+  "_id": "66d2a9bcf477b55766069e40",
+  "gridTitle": "ReactGrid GlobalHeader4 categoryMenu",
+  "gridType": "form",
+  "crmModelId": "66d29fb9f477b55766069e19",
+  "rows": [
+    {
+      "$key": "52wuutdhipp",
+      "fields": [
+        {
+          "$key": "idhzwgj3mea",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "tf3uyp019hb",
+          "id": "icon",
+          "title": "Icon",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "x8n60nf5rvh",
+          "id": "buttonAction",
+          "title": "Enable Click",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "6mqesugdzri",
+          "id": "enableButton",
+          "title": "EnableButton",
+          "type": "bool",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-31T05:27:24.423Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

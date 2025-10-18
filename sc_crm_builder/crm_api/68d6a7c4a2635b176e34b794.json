@@ -1,0 +1,26 @@
+{
+  "_id": {
+    "$oid": "68d6a7c4a2635b176e34b794"
+  },
+  "name": "User Access",
+  "path": "/admin/settings/user-access/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68d6a6cea2635b176e34b791",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758898116922"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231673283"
+    }
+  }
+}

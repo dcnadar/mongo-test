@@ -1,0 +1,57 @@
+{
+  "_id": "660d8f38c7b99128d924f767",
+  "gridTitle": "Eduempower LibraryShelves",
+  "gridType": "table",
+  "crmModelId": "660af14dc7b99128d924f6db",
+  "columns": [
+    {
+      "$key": "klbs4949k7",
+      "key": "libraryId",
+      "name": "Library",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "7e6y1yjgmqh",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "wedamzwtd68",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "c0hrnkz1lci",
+          "gridTitle": "Edit Shelves",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/schoolsetup/shelves/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "b7f2dzqr2l",
+      "gridTitle": "Add Shelves",
+      "value": "Add Shelves",
+      "apiUrl": "/admin/schoolsetup/shelves/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T17:17:44.279Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.868Z"
+}

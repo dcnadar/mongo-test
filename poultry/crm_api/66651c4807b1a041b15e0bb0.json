@@ -1,0 +1,13 @@
+{
+  "_id": "66651c4807b1a041b15e0bb0",
+  "name": "Add State",
+  "path": "/admin/location/state/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66644c2607b1a041b15e0ba2",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-09T03:06:48.909Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

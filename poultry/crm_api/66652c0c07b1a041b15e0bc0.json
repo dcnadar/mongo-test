@@ -1,0 +1,13 @@
+{
+  "_id": "66652c0c07b1a041b15e0bc0",
+  "name": "Add Village",
+  "path": "/admin/location/village/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66644df807b1a041b15e0ba4",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-09T04:14:04.673Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

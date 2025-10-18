@@ -1,0 +1,71 @@
+{
+  "_id": "661e3193e8eed80abc953486",
+  "gridTitle": "Blog Content ",
+  "gridType": "form",
+  "crmModelId": "661e3052e8eed80abc953485",
+  "rows": [
+    {
+      "$key": "9yidjf4n4ti",
+      "fields": [
+        {
+          "$key": "b3exoftjrnk",
+          "id": "gridInfo",
+          "title": "Grid Info",
+          "type": "c_page_section_selection",
+          "span": 24,
+          "apiUrl": "/admin/website/page/",
+          "nullIds": [
+            "gridData"
+          ]
+        },
+        {
+          "$key": "dj8g8ychh0k",
+          "id": "gridData",
+          "title": "Grid Data",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": true,
+            "crmFormIdField": "gridInfo.meta.crmForm"
+          },
+          "span": 24,
+          "showCondition": "return !!this.gridInfo;"
+        },
+        {
+          "$key": "vae1buken",
+          "id": "gridSettings",
+          "title": "Grid Setting",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "showCondition": "return !!this.gridInfo;"
+        },
+        {
+          "$key": "mjagons1zsf",
+          "id": "blogId",
+          "title": "Blog Id",
+          "span": 8,
+          "type": "text",
+          "showCondition": "return !!this.gridInfo;",
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-16T08:06:43.341Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/website/blog/all",
+  "gridParams": [
+    {
+      "key": "blogId",
+      "required": true
+    }
+  ],
+  "upsertDoc": false
+}

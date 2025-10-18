@@ -1,0 +1,88 @@
+{
+  "_id": "6666e38207b1a041b15e0be1",
+  "gridTitle": "Firebase Settings",
+  "gridType": "form",
+  "crmModelId": "6666dd6907b1a041b15e0bdf",
+  "rows": [
+    {
+      "$key": "b68d65ayvkb",
+      "fields": [
+        {
+          "id": "apiKey",
+          "title": "Api Key",
+          "type": "text",
+          "span": 12,
+          "$key": "u6i59u0wz"
+        },
+        {
+          "$key": "osbcqlk8d4",
+          "id": "authDomain",
+          "title": "Auth Domain",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "covkej6zfft",
+          "id": "projectId",
+          "title": "Project Id",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "novwnqd6m98",
+          "id": "storageBucket",
+          "title": "Storage Bucket",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "2w5bn3yoo8x",
+          "id": "messagingSenderId",
+          "title": "Messaging Sender Id",
+          "span": 12,
+          "type": "text"
+        },
+        {
+          "$key": "uv0l6kgzzb9",
+          "id": "appId",
+          "title": "app Id",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "5gqxk9x0od2",
+          "id": "measurementId",
+          "title": "Measurement Id",
+          "type": "text",
+          "o": true,
+          "span": 12
+        },
+        {
+          "$key": "q4jgo3jjtt",
+          "id": "clientEmail",
+          "title": "Client Email",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "qrqowd3e8k",
+          "id": "databaseURL",
+          "title": "Database URL",
+          "span": 24,
+          "type": "text"
+        },
+        {
+          "$key": "pslxz560xg",
+          "id": "privateKey",
+          "title": "Private Key",
+          "type": "textarea",
+          "span": 23
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-10T11:29:06.310Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

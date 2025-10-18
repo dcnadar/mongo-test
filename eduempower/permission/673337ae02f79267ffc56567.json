@@ -1,0 +1,14 @@
+{
+  "_id": "673337ae02f79267ffc56567",
+  "key": "admission.update",
+  "name": "Enquiry Update ",
+  "apisAccess": [
+    "6730fd907a1bdc0b65d0bd21",
+    "6730fd967a1bdc0b65d0bd22"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T11:10:38.961Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.320Z"
+}

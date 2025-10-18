@@ -1,0 +1,15 @@
+{
+  "_id": "6614fa9fa10af254b4b438a2",
+  "name": "Tax Settings",
+  "path": "/admin/account/settings/tax",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66657c9a07b1a041b15e0bd8",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T08:21:51.286Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": [],
+  "innerGridType": "form",
+  "innerSourceId": "66163542a039b45c27dfdde4"
+}

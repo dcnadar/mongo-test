@@ -1,0 +1,89 @@
+{
+  "_id": "64a5b2c2099de82bca61ca91",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "pincode",
+      "name": "Pincode",
+      "$key": "2voac79a6j"
+    },
+    {
+      "dataType": "STRING",
+      "key": "state",
+      "name": "State",
+      "$key": "qieh9uhtj6b"
+    },
+    {
+      "dataType": "STRING",
+      "key": "addressLine1",
+      "name": "Address Line 1",
+      "$key": "o9a8b2wrl5m"
+    },
+    {
+      "dataType": "STRING",
+      "key": "addressLine2",
+      "name": "Address Line 1",
+      "$key": "kexwsb8kfh"
+    },
+    {
+      "dataType": "STRING",
+      "key": "locality",
+      "name": "Locality",
+      "$key": "1y9ajapbwho"
+    },
+    {
+      "dataType": "STRING",
+      "key": "district",
+      "name": "District",
+      "$key": "nfqzdm7ygy"
+    },
+    {
+      "dataType": "STRING",
+      "key": "addressType",
+      "name": "Address Type",
+      "$key": "adfimqqjewk",
+      "data": {
+        "options": [
+          {
+            "$key": "smjnjg43byi",
+            "key": "home ",
+            "value": "Home"
+          },
+          {
+            "$key": "2e06cwpo17c",
+            "key": "office",
+            "value": "Office"
+          },
+          {
+            "$key": "cfaglwmtvv",
+            "key": "other",
+            "value": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "redy268opz",
+      "key": "country",
+      "name": "Country",
+      "dataType": "STRING"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "openOnSaturday",
+      "name": "Open On Saturday",
+      "$key": "flejpz3tdss"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "openOnSunday",
+      "name": "Open On Sunday",
+      "$key": "jh2h3vdqpu"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Common Address",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:50.591Z"
+}

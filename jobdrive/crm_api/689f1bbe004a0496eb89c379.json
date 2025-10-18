@@ -1,0 +1,14 @@
+{
+  "_id": "689f1bbe004a0496eb89c379",
+  "name": "Settings",
+  "path": "/admin/settings/profile",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "689f19944e2ed283d94615bf",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T11:36:30.454Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:49.970Z"
+}

@@ -1,0 +1,109 @@
+{
+  "_id": "66e1b55bab08f3103afa06f1",
+  "name": "Product Cancel Policy",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "product_cancel_policy",
+  "properties": [
+    {
+      "$key": "fruhc1ni4am",
+      "key": "policyName",
+      "name": "Policy Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      },
+      "unique": true
+    },
+    {
+      "$key": "1whvasplj33",
+      "key": "cancellationWindowHours",
+      "name": "Cancellation Window Hours",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "ie2rt9tu76",
+      "key": "cancellationFeePolicy",
+      "name": "Cancellation Fee Policy",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "yn6swbf36tt",
+            "key": "NO_FEE",
+            "value": "No Fee"
+          },
+          {
+            "$key": "ld1bptjg2o",
+            "key": "FIXED_FEE",
+            "value": "Fixed Fee"
+          },
+          {
+            "$key": "0h50xi4j19aq",
+            "key": "PERCENTAGE_OF_ORDER",
+            "value": "Percentage of Order"
+          }
+        ]
+      },
+      "searchable": {
+        "value": false,
+        "description": true
+      }
+    },
+    {
+      "$key": "63ufhd4jw5",
+      "key": "cancellationFixedFee",
+      "name": "Cancellation Fixed Fee",
+      "dataType": "INTEGER",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "3qde5lcgjy7",
+      "key": "cancellationPercentOfOrderFee",
+      "name": "Cancellation Percent of Order Fee",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "d31tmsmcosi",
+      "key": "allowOrderModification",
+      "name": "Allow Order Modification",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "zr8a4j25j8",
+      "key": "cancellationRefundMethod",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ie95uqe1yc",
+            "key": "RETURN_TO_ORIGINAL_SOURCE",
+            "value": "Return to Original Source"
+          },
+          {
+            "$key": "pw5fcde2r9j",
+            "key": "ASK_CUSTOMER",
+            "value": "Ask Customer"
+          }
+        ]
+      },
+      "name": "Cancellation Refund Method",
+      "searchable": {
+        "description": false
+      }
+    },
+    {
+      "$key": "bv3haix0ctt",
+      "key": "notifyCustomerUponCancellation",
+      "name": "Notify Customer upon Cancellation",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:20:59.600Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

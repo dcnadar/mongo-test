@@ -1,0 +1,20 @@
+{
+  "_id": "671273d95f22ec7ba026486b",
+  "name": "Edit Academic Info",
+  "path": "/admin/staff/academic-info/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67123c385f22ec7ba0264852",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T14:42:33.370Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true
+    }
+  ],
+  "updated": "2025-09-08T10:50:51.997Z"
+}

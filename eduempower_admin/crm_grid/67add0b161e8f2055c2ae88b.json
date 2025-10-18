@@ -1,0 +1,33 @@
+{
+  "_id": "67add0b161e8f2055c2ae88b",
+  "gridTitle": "Euempower Fee Setup Menu",
+  "gridType": "menu",
+  "menuItems": [
+    {
+      "$key": "ydev51vdcxm",
+      "key": "fee-category",
+      "value": "Fee Category",
+      "icon": "<svg fill=\"currentColor\" width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"><path d=\"M10 3H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM9 9H5V5h4v4zm11 4h-6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm-1 6h-4v-4h4v4zM17 3c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4zm0 6c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2zM7 13c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4zm0 6c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2z\"></path></g></svg>",
+      "slug": "/admin/school-setup/fee-settings/fee-category/all"
+    },
+    {
+      "$key": "hz5anmif66o",
+      "key": "fee-type",
+      "value": "Fee Type",
+      "slug": "/admin/school-setup/fee-settings/fee-type/all",
+      "icon": "<svg fill=\"currentColor\" height=\"64px\" width=\"64px\" version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 512 512\" xml:space=\"preserve\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <g> <g> <path d=\"M478.964,113.487H157.505c-18.216,0-33.036,14.821-33.036,33.036v11.94H33.036C14.819,158.463,0,173.282,0,191.499 v173.978c0,18.216,14.819,33.036,33.036,33.036h321.458c18.216,0,33.036-14.82,33.036-33.036v-11.94h91.433 c18.216,0,33.036-14.819,33.036-33.036V146.523C512,128.307,497.181,113.487,478.964,113.487z M367.133,365.477 c0,6.969-5.67,12.638-12.638,12.638H33.036c-6.968,0-12.638-5.67-12.638-12.638V191.499c0-6.968,5.67-12.638,12.638-12.638 h321.458c6.969,0,12.638,5.67,12.638,12.638V365.477z M491.602,320.501c0,6.968-5.67,12.638-12.638,12.638h-91.433v-28.762 h104.071V320.501z M491.602,283.979H387.531v-29.808h104.071V283.979z M491.602,233.772H387.531v-42.274 c0-18.216-14.82-33.036-33.036-33.036H144.867v-11.939c0-6.969,5.67-12.638,12.638-12.638h321.458 c6.968,0,12.638,5.67,12.638,12.638V233.772z\"></path> </g> </g> <g> <g> <path d=\"M93.683,333.139H52.561c-5.633,0-10.199,4.566-10.199,10.199c0,5.633,4.566,10.199,10.199,10.199h41.121 c5.633,0,10.199-4.566,10.199-10.199C103.881,337.705,99.315,333.139,93.683,333.139z\"></path> </g> </g> <g> <g> <path d=\"M170.248,333.139h-41.122c-5.633,0-10.199,4.566-10.199,10.199c0,5.633,4.566,10.199,10.199,10.199h41.122 c5.633,0,10.199-4.566,10.199-10.199C180.447,337.705,175.881,333.139,170.248,333.139z\"></path> </g> </g> <g> <g> <path d=\"M247.204,333.139h-41.121c-5.633,0-10.199,4.566-10.199,10.199c0,5.633,4.566,10.199,10.199,10.199h41.121 c5.633,0,10.199-4.566,10.199-10.199C257.403,337.705,252.837,333.139,247.204,333.139z\"></path> </g> </g> <g> <g> <path d=\"M332.878,333.139h-1.518c-5.633,0-10.199,4.566-10.199,10.199c0,5.633,4.566,10.199,10.199,10.199h1.518 c5.633,0,10.199-4.566,10.199-10.199C343.077,337.705,338.511,333.139,332.878,333.139z\"></path> </g> </g> <g> <g> <path d=\"M301.001,333.139h-18.352c-5.633,0-10.199,4.566-10.199,10.199c0,5.633,4.566,10.199,10.199,10.199h18.352 c5.633,0,10.199-4.566,10.199-10.199C311.2,337.705,306.634,333.139,301.001,333.139z\"></path> </g> </g> <g> <g> <path d=\"M84.201,199.256h-19.35c-12.977,0-23.536,10.558-23.536,23.536v19.35c0,12.977,10.558,23.536,23.536,23.536h19.35 c12.977,0,23.536-10.558,23.536-23.536v-19.35C107.736,209.813,97.178,199.256,84.201,199.256z M87.338,242.141 c0,1.73-1.407,3.137-3.137,3.137h-19.35c-1.73,0-3.137-1.408-3.137-3.137v-19.35c0-1.73,1.408-3.137,3.137-3.137h19.35 c1.73,0,3.137,1.408,3.137,3.137V242.141z\"></path> </g> </g> </g></svg>"
+    },
+    {
+      "$key": "1a8ejxrq3la",
+      "key": "fee-schedule",
+      "value": "Fee Schedule",
+      "slug": "/admin/school-setup/fee-settings/fee-schedule/all",
+      "icon": "<svg fill=\"currentColor\" height=\"64px\" width=\"64px\" version=\"1.1\" id=\"XMLID_98_\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 24 24\" xml:space=\"preserve\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <g id=\"schedule-clone\"> <g> <path d=\"M24,24H6v-4H0V2h4V0h2v2h6V0h2v2h4v4h6V24z M8,22h14V12h-4v8H8V22z M2,18h14V4H2v2h14v2H2V18z M18,10h4V8h-4V10z M14,16H8 v-2h6V16z M6,16H4v-2h2V16z M14,12H8v-2h6V12z M6,12H4v-2h2V12z\"></path> </g> </g> </g></svg>"
+    }
+  ],
+  "thumb": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/65e8cdff97f0eca7ba094627/thumb/2025/1/13/file_xr8odqz22z-1739444389942.png",
+  "title": "Fee Setup",
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T11:00:01.062Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

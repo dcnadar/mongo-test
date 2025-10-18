@@ -1,0 +1,102 @@
+{
+  "_id": "650e7a37b7a9b0077ae9860a",
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "columns": [
+    {
+      "index": 1,
+      "name": "Name",
+      "key": "name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "index": 2,
+      "name": "Sub Menus",
+      "key": "meta.subMenusCount",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "index": 2,
+      "name": "Navigate to",
+      "key": "clickAction.navigateTo",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "index": 2,
+      "name": "Created On",
+      "key": "created",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "index": 3,
+      "name": "",
+      "key": "edit",
+      "type": "options",
+      "show": true,
+      "align": "right",
+      "sort": false,
+      "width": 50,
+      "actions": [
+        {
+          "value": "View SubMenu",
+          "gridType": "expendedTable",
+          "apiUrl": "/admin/website/header/menu?parentId=:_id _id",
+          "apiType": "POST",
+          "type": "icon_button",
+          "showCondition": "return !this.parentId;",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10848/10848461.png"
+        },
+        {
+          "value": "Add SubMenu Item",
+          "gridType": "expendedForm",
+          "apiUrl": "/admin/website/header/menu/add?parentId=:_id _id",
+          "type": "icon_button",
+          "showCondition": "return !this.parentId;",
+          "icon": "https://cdn-icons-png.flaticon.com/512/9542/9542525.png"
+        },
+        {
+          "value": "Edit",
+          "gridType": "popupForm",
+          "gridTitle": "Edit Menu Item",
+          "apiUrl": "/admin/website/header/menu/update?id=:_id&parentId=:parentId _id parentId",
+          "type": "icon_button",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10015/10015359.png"
+        },
+        {
+          "gridTitle": "Delete Menu Item",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure to delete ':name'?",
+          "gridMsgParams": "name",
+          "apiUrl": "/admin/website/header/menu/delete?id=:_id _id",
+          "type": "icon",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10347/10347120.png"
+        }
+      ]
+    }
+  ],
+  "crmModelId": "650d3b02ac425a65d3141bcf",
+  "gridTitle": "Website Header MainMenu",
+  "apiType": "POST",
+  "createButton": {
+    "gridType": "popupForm",
+    "gridTitle": "Add Menu Item",
+    "value": "Add Menu Item",
+    "apiUrl": "/admin/website/header/menu/add"
+  },
+  "apiUrl": "/admin/website/header/menu",
+  "search": {
+    "placeHolder": "Search by Name"
+  },
+  "gridParams": [
+    {
+      "key": "parentId",
+      "required": false
+    }
+  ],
+  "created": "2024-01-27T07:48:48.002Z"
+}

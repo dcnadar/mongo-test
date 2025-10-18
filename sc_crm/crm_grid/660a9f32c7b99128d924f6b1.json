@@ -1,0 +1,93 @@
+{
+  "_id": "660a9f32c7b99128d924f6b1",
+  "gridTitle": "ReactGrid  GlobalCrmApp2",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "394wmaynssy",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "wu5qzg0tnil",
+          "o": true
+        },
+        {
+          "$key": "ufga28eljk",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "bvkcnc4hum",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "weijeekeshl",
+          "id": "formUrl",
+          "title": "FormUrl",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "dox4l3kvp9",
+          "id": "height",
+          "title": "Height",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "9klse0i6qrj",
+          "id": "buttons",
+          "title": "Buttons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 2
+        },
+        {
+          "$key": "kpm0ln5qke",
+          "id": "saveButtonText",
+          "title": "SaveButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "y2mxeu0e0v",
+          "id": "clearButtonText",
+          "title": "ClearButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "m80j2f3mmf",
+          "id": "successMessage",
+          "title": "SuccessMessage",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "yoc57fho8k",
+          "id": "errorMessage",
+          "title": "ErrorMessage",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-01T11:49:06.637Z",
+  "createdBy": "660837fd3afc795c92fa7f61",
+  "crmModelId": "660a9529c7b99128d924f6b0"
+}

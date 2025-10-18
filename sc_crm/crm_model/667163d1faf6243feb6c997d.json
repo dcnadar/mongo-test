@@ -1,0 +1,45 @@
+{
+  "_id": "667163d1faf6243feb6c997d",
+  "name": "ReactGrid GlobalTrufalLogin",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "4htolsqy7j5",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "w3btzvyzstq",
+      "key": "basicInfoForm",
+      "name": "BasicInfoForm",
+      "dataType": "INNER_MODEL",
+      "modelId": "66715d90faf6243feb6c9977"
+    },
+    {
+      "$key": "0l9h2wwz3dcj",
+      "key": "loginWithotp",
+      "name": "LoginWithotp",
+      "dataType": "INNER_MODEL",
+      "modelId": "66715eaefaf6243feb6c9979"
+    },
+    {
+      "$key": "53yu2b2vg1i",
+      "key": "forgetPassword",
+      "name": "ForgetPassword",
+      "dataType": "INNER_MODEL",
+      "modelId": "66715feffaf6243feb6c997a"
+    },
+    {
+      "$key": "aw7sed54ksr",
+      "key": "otpForm",
+      "name": "OtpForm",
+      "dataType": "INNER_MODEL",
+      "modelId": "667160b4faf6243feb6c997b"
+    }
+  ],
+  "compoundUniqueFields": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T10:39:13.583Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

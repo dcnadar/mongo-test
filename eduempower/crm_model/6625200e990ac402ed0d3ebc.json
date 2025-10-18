@@ -1,0 +1,79 @@
+{
+  "_id": "6625200e990ac402ed0d3ebc",
+  "name": "Eduempower Inventory",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_inventory",
+  "properties": [
+    {
+      "$key": "oxyfjtjdqk8",
+      "key": "isbn",
+      "name": "ISBN",
+      "dataType": "STRING",
+      "unique": false,
+      "searchable": {
+        "value": false,
+        "description": true
+      }
+    },
+    {
+      "$key": "qu7phnra1vs",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "7bj499j49z",
+      "key": "subTitle",
+      "name": "Sub Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ua7m2dq8zd",
+      "key": "edition",
+      "name": "Edition",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "pbs51msf6gc",
+      "key": "bookImage",
+      "name": "Book Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "zrsamdrvl6q",
+      "key": "bookDetail",
+      "name": "Book Detail",
+      "dataType": "INNER_MODEL",
+      "modelId": "662522c5990ac402ed0d3ebd"
+    },
+    {
+      "$key": "fzk2ylq3kp9",
+      "key": "vendorDetail",
+      "name": "Vendor Detail",
+      "dataType": "INNER_MODEL",
+      "modelId": "66252613990ac402ed0d3ebf"
+    },
+    {
+      "$key": "wqvkxurlcg",
+      "key": "libraryDetails",
+      "name": "Library Details",
+      "dataType": "INNER_MODEL",
+      "modelId": "662526f2990ac402ed0d3ec0"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name",
+    "subtitles": [
+      "isbn"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T14:17:50.820Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.614Z"
+}

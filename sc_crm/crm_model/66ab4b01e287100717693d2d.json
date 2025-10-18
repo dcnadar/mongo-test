@@ -1,0 +1,154 @@
+{
+  "_id": "66ab4b01e287100717693d2d",
+  "name": "WebsiteGlobalThemeColorSettings",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "dlek21slvkk",
+      "key": "colors",
+      "name": "colors",
+      "dataType": "INNER_MODEL",
+      "modelId": "65c3217c87aef35653f833d9"
+    },
+    {
+      "$key": "b2h7rrk4yt",
+      "key": "colorType",
+      "name": "Color Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "qlrj77huztj",
+            "key": "mood",
+            "value": "Mood"
+          },
+          {
+            "$key": "0m1io4hts84",
+            "key": "custom",
+            "value": "Custom"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "z5hx6kvazer",
+      "key": "moodType",
+      "name": "Mood Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "q11m3sl5x49",
+            "value": "Auto",
+            "key": "auto"
+          },
+          {
+            "$key": "jl2uh5ab51k",
+            "key": "light",
+            "value": "Light"
+          },
+          {
+            "$key": "djm7mliya5",
+            "key": "dark",
+            "value": "Dark"
+          },
+          {
+            "$key": "mrmmbz0et6s",
+            "key": "restro",
+            "value": "Restro"
+          },
+          {
+            "$key": "s77j60xjpma",
+            "key": "pastel",
+            "value": "Pastel"
+          },
+          {
+            "$key": "oaj5a68dm",
+            "key": "cool",
+            "value": "Cool"
+          },
+          {
+            "$key": "z5si60zzq5j",
+            "key": "warm",
+            "value": "Warm"
+          },
+          {
+            "$key": "m96inzaeebn",
+            "key": "nature",
+            "value": "Nature"
+          },
+          {
+            "$key": "0lg0tlmi0xm",
+            "key": "energetic",
+            "value": "Energetic"
+          },
+          {
+            "$key": "pc5cy7cfktg",
+            "key": "retro",
+            "value": "Retro"
+          },
+          {
+            "$key": "qazj8vkh40i",
+            "key": "minimalist",
+            "value": "Minimalist"
+          },
+          {
+            "$key": "gehq1ahgzxv",
+            "key": "bohemian",
+            "value": "Bohemian"
+          },
+          {
+            "$key": "jhh10m60i79",
+            "key": "industrial",
+            "value": "Industrial"
+          },
+          {
+            "$key": "j26ki9r6fzg",
+            "key": "nautical",
+            "value": "Nautical"
+          },
+          {
+            "$key": "79ehcj68w47",
+            "key": "zen",
+            "value": "Zen"
+          },
+          {
+            "$key": "23al13j3lq9j",
+            "key": "glam",
+            "value": "Glam"
+          },
+          {
+            "$key": "rvatbw5e6ej",
+            "key": "scandinavian",
+            "value": "Scandinavian"
+          },
+          {
+            "$key": "25vtefjbgvw",
+            "key": "tropical",
+            "value": "Tropical"
+          },
+          {
+            "$key": "en1qbs2aq3b",
+            "key": "vintage",
+            "value": "Vintage"
+          },
+          {
+            "$key": "rtb25zjpr7",
+            "key": "happy",
+            "value": "Happy"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ezufd2piyfp",
+      "key": "moodOptionType",
+      "name": "moodOptionType",
+      "unique": false,
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T08:44:49.284Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

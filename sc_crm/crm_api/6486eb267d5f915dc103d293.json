@@ -1,0 +1,11 @@
+{
+  "_id": "6486eb267d5f915dc103d293",
+  "name": "Product Category Table POST",
+  "action": "CRM_GRID",
+  "sourceId": "64883b927d5f915dc103d298",
+  "gridType": "table",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "POST",
+  "path": "/admin/product/category",
+  "created": "2024-01-27T07:48:43.476Z"
+}

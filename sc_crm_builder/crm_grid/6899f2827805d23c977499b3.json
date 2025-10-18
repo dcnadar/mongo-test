@@ -1,0 +1,95 @@
+{
+  "_id": {
+    "$oid": "6899f2827805d23c977499b3"
+  },
+  "gridTitle": "Company Details",
+  "gridType": "form",
+  "crmModelId": "6899f1537805d23c977499b2",
+  "rows": [
+    {
+      "$key": "2tvlbe7d02b",
+      "fields": [
+        {
+          "$key": "jkx7rawq16",
+          "id": "subDomain",
+          "title": "Sub Domain",
+          "type": "text",
+          "multiple": false,
+          "span": {
+            "$numberInt": "12"
+          }
+        },
+        {
+          "$key": "xocwoeiorfe",
+          "id": "logo",
+          "title": "Logo",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": {
+            "$numberInt": "12"
+          }
+        },
+        {
+          "$key": "s5dwc3v8nks",
+          "id": "favicon",
+          "title": "Favicon",
+          "type": "upload",
+          "span": {
+            "$numberInt": "12"
+          },
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          }
+        },
+        {
+          "$key": "mfw68x489gr",
+          "id": "loginImages",
+          "title": "Login Images",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "add": false,
+          "delete": false,
+          "span": {
+            "$numberInt": "12"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1754919554224"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151648"
+    }
+  }
+}

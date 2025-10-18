@@ -1,0 +1,14 @@
+{
+  "_id": "6780cc0b571a4a3748516508",
+  "name": "Webpage builder",
+  "path": "/admin/website/page/section/builder",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "iframe",
+  "sourceId": "6780bdaf571a4a3748516507",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-01-10T07:28:11.019Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

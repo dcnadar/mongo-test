@@ -1,0 +1,14 @@
+{
+  "_id": "64ee5b21b2962e3d9eb26b1e",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "category": "productVariantOption",
+  "created": "2023-08-29T20:54:56.822Z",
+  "name": [
+    "Size",
+    "Color",
+    "Storage",
+    "Length",
+    "Image"
+  ],
+  "categoryName": "Product Variant Options"
+}

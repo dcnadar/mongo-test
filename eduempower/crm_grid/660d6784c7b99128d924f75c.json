@@ -1,0 +1,65 @@
+{
+  "_id": "660d6784c7b99128d924f75c",
+  "gridTitle": "Eduempower FeeSchedule",
+  "gridType": "table",
+  "columns": [
+    {
+      "$key": "tkjta5r0nj",
+      "key": "name",
+      "name": "Fee Schedule Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "kfv13yosamp",
+      "key": "classes",
+      "name": "Classes",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "p0ehcozgqw",
+      "key": "installments",
+      "name": "Installments",
+      "type": "text",
+      "sort": false,
+      "valueCondition": "const installments = this.installments || []; let htmlString = `     <div style=\"width: 100%; max-width: 600px; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; display: grid; grid-template-columns: repeat(2, 1fr);\"> `;  installments.forEach(({ name, startDate, endDate }) => {     htmlString += `         <div style=\"padding: 5px; border-bottom: 1px solid #ddd; text-align: center;\">             <div style=\"font-weight: bold; color: #555; font-size: 14px;\">${name}</div>             <div style=\"color: #777; font-size: 11px;\">                 <span>Start: ${new Date(startDate).toLocaleDateString()}</span><br>                 <span>End: ${new Date(endDate).toLocaleDateString()}</span>             </div>         </div>     `; });  htmlString += `</div>`; return htmlString;"
+    },
+    {
+      "$key": "52t39vyur7q",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 100,
+      "actions": [
+        {
+          "$key": "rr56m0fzsaq",
+          "gridTitle": "Edit Fee Schedule",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/schoolsetup/fee-settings/fee-schedule/edit?id=:_id _id",
+          "value": "Edit"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "gxbpp7qo23u",
+      "gridTitle": "Add Fee Schedule",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/schoolsetup/fee-settings/fee-schedule/add",
+      "value": "Add Fee Schedule"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T14:28:20.537Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "crmModelId": "66095db4c7b99128d924f665",
+  "updated": "2025-09-08T10:50:59.529Z"
+}

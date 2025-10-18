@@ -1,0 +1,18 @@
+{
+  "_id": "66e83fe999c5a61793d1b825",
+  "name": "ReactGrid GlobalHeaders Setting",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ral7sc600um",
+      "key": "rightButtons",
+      "name": "RightButtons",
+      "dataType": "LIST_OF",
+      "modelId": "66e8424c99c5a61793d1b826",
+      "listType": "INNER_MODEL"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-16T14:25:45.763Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "689db42b5f986889b438799c",
+  "gridTitle": "AssessmentAssociation",
+  "gridType": "form",
+  "crmModelId": "689daefb4b0c9f85deb37d5f",
+  "rows": [
+    {
+      "$key": "3046tzcez39",
+      "fields": [
+        {
+          "id": "associatewith",
+          "title": "Associate with",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "$key": "12vw8e4h9ngl"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T10:02:19.567Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.789Z"
+}

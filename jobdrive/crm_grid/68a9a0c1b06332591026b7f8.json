@@ -1,0 +1,101 @@
+{
+  "_id": "68a9a0c1b06332591026b7f8",
+  "gridTitle": "Staff",
+  "gridType": "table",
+  "crmModelId": "6703b5dc30083226ac6affc4",
+  "columns": [
+    {
+      "$key": "66q1kzex3v",
+      "key": "logo",
+      "name": "Avatar",
+      "type": "thumb",
+      "sort": true
+    },
+    {
+      "$key": "t4v6pkalo",
+      "key": "firstName",
+      "name": "First Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "t0wzf0j3d1",
+      "key": "lastName",
+      "name": "Last Nmae",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "4rasti6gpxv",
+      "key": "userName",
+      "name": "userName",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "90dtwctm5y7",
+      "key": "email",
+      "name": "Email",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "0uzfjdgwuzo9",
+      "key": "userType",
+      "name": "User Type",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "2rw6pgu9omk",
+      "key": "mobileNumber",
+      "name": "Phone Number",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "cqxworjs1j6",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "me0nuht7yi",
+          "gridTitle": "Edit Staff",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/staff/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "kb7tnoditj8",
+      "gridTitle": "Add Staff",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/staff/add",
+      "value": "Add Staff"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "jeqqjs9iaar",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EQUALS": "STAFF"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-23T11:06:41.407Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [],
+  "updated": "2025-09-05T11:02:53.688Z"
+}

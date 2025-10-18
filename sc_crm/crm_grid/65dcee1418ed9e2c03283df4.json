@@ -1,0 +1,48 @@
+{
+  "_id": "65dcee1418ed9e2c03283df4",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 1,
+          "title": "SEO Settings",
+          "id": "seo",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "65d4850de9f4dc1ab2f2a1a7",
+            "defaultOpen": true
+          },
+          "$key": "d05s51o484t"
+        },
+        {
+          "$key": "zh9t95d57fl",
+          "id": "robotTxt",
+          "title": "RobotTxt",
+          "type": "textarea",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "h8xxnin0f6t",
+          "id": "sitemapsXml",
+          "title": "SitemapsXml",
+          "span": 24,
+          "type": "textarea",
+          "o": true
+        }
+      ],
+      "$key": "ol7gxgkvddf"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "64c771c283c24f1379031dc4",
+  "fetchDocWithoutId": true,
+  "gridTitle": "Subscriber WebApp SEO",
+  "created": "2024-02-26T20:01:24.044Z",
+  "gridParams": []
+}

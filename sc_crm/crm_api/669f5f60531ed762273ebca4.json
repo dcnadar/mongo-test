@@ -1,0 +1,13 @@
+{
+  "_id": "669f5f60531ed762273ebca4",
+  "name": "Add Stock",
+  "path": "/admin/product/variant/stock/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "669a2a89531ed762273ebc71",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-23T07:44:32.076Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

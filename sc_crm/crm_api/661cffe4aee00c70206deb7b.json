@@ -1,0 +1,12 @@
+{
+  "_id": "661cffe4aee00c70206deb7b",
+  "name": "Blog Category",
+  "path": "/admin/blog/category/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "661d0b88aee00c70206deb81",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T10:22:28.792Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

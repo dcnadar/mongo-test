@@ -1,0 +1,18 @@
+{
+  "_id": "660911b8c7b99128d924f65d",
+  "name": "ReactGrid GlobalYoutubeVideo",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ptgh8vl0i8i",
+      "key": "videoUrl",
+      "name": "VideoUrl",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-31T07:33:12.846Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

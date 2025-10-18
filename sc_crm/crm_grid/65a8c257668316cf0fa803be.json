@@ -1,0 +1,47 @@
+{
+  "_id": "65a8c257668316cf0fa803be",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Main heading of the feature"
+        },
+        {
+          "index": 1,
+          "title": "Description",
+          "id": "description",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Description of the feature"
+        },
+        {
+          "index": 2,
+          "title": "Section",
+          "id": "section",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 2,
+          "max": 5,
+          "add": true,
+          "delete": true,
+          "countTitle": "No Section Added"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65a8bb1947785106e0351c09",
+  "gridTitle": "ReactGrid GlobalHeroSection5",
+  "created": "2024-01-18T06:16:55.626Z"
+}

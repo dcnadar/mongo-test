@@ -1,0 +1,107 @@
+{
+  "_id": "6614e26fa10af254b4b4388c",
+  "gridTitle": "Company Details",
+  "gridType": "form",
+  "crmModelId": "66127baba10af254b4b4380a",
+  "rows": [
+    {
+      "$key": "49bwgzfs6tt",
+      "fields": [
+        {
+          "$key": "ttjbg79zca",
+          "id": "primaryEmail",
+          "title": "Primary Email",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "7msys4o8k97",
+          "id": "primaryContact",
+          "title": "Primary contact",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "j7xenr0xkre",
+          "id": "secondaryEmail",
+          "title": "Secondary email",
+          "type": "text",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "2xtnx78u9b8",
+          "id": "secondaryContact",
+          "title": "Secondary contact",
+          "type": "text",
+          "o": true,
+          "span": 24
+        },
+        {
+          "$key": "xjth8vh2x19",
+          "id": "address",
+          "title": "Address",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "o": true,
+          "span": 24
+        }
+      ],
+      "label": "Details"
+    },
+    {
+      "$key": "n2035jm2t1p",
+      "fields": [
+        {
+          "id": "facebook",
+          "title": "Facebook",
+          "type": "text",
+          "span": 24,
+          "$key": "xn044ns6lw",
+          "o": true
+        },
+        {
+          "$key": "qcrtftyula",
+          "id": "instagram",
+          "title": "Instagram",
+          "type": "text",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "fp62j4jgqko",
+          "id": "linkedin",
+          "title": "Linkdein",
+          "type": "text",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "u3raftv0d7b",
+          "id": "twitter",
+          "title": "Twitter",
+          "type": "text",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "3nzp0itr13b",
+          "id": "youtube",
+          "title": "Youtube",
+          "type": "text",
+          "span": 24,
+          "o": true
+        }
+      ],
+      "label": "Social Media Links"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T06:38:39.024Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "upsertDoc": false
+}

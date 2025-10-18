@@ -1,0 +1,10 @@
+{
+  "_id": "65133d92e0926040430aa1f4",
+  "name": "Website Page Section Delete",
+  "action": "ENTITY_DELETE",
+  "modelId": "6511ee6df9686d32acb3e2d3",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/website/page/section/delete",
+  "created": "2024-01-27T07:48:46.788Z"
+}

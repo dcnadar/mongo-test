@@ -1,0 +1,87 @@
+{
+  "_id": "660b93f9c7b99128d924f6ef",
+  "gridTitle": "ReactGrid GlobalTeamSections6 Section",
+  "gridType": "form",
+  "crmModelId": "660b9105c7b99128d924f6ed",
+  "rows": [
+    {
+      "$key": "2ga9bgvv63p",
+      "fields": [
+        {
+          "id": "image",
+          "title": "Image",
+          "span": 8,
+          "type": "upload",
+          "multiple": false,
+          "$key": "ozr61kbcacm"
+        },
+        {
+          "$key": "qa3a8ht4r2c",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "c7s03l81g",
+          "id": "enableButton",
+          "title": "Enable Click",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "vt80xboq3z",
+          "id": "buttonAction",
+          "title": "Click Action",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "pwlgfdqhf9",
+          "id": "subtitle",
+          "title": "Subtitle",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "w8gp7e943n",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 16
+        },
+        {
+          "$key": "p8mqpl7cn8p",
+          "id": "buttons",
+          "title": "Buttons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 10
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-02T05:13:29.261Z",
+  "createdBy": "660a41ecdeefcc0a51709289"
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "6719002a5f22ec7ba026495e",
+  "gridTitle": "Eduempower News",
+  "gridType": "form",
+  "crmModelId": "6718ff2c5f22ec7ba026495c",
+  "rows": [
+    {
+      "$key": "m7uat3ajre",
+      "fields": [
+        {
+          "id": "newsSubject",
+          "title": "News Subject",
+          "type": "text",
+          "span": 8,
+          "$key": "cfz7ogf91xk"
+        },
+        {
+          "$key": "oqydteet5gq",
+          "id": "targetUser",
+          "title": "Target User",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "n29kpswp5d",
+          "id": "publishDate",
+          "title": "Publish Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "3tpjlp3btjy",
+          "id": "closeDate",
+          "title": "Close Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "e7nasl8rjo",
+          "id": "description",
+          "title": "Description",
+          "type": "text_editor",
+          "span": 16
+        },
+        {
+          "$key": "26on3l7ft2u",
+          "id": "attachment",
+          "title": "Attachment",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T13:54:50.210Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/circulars&news/news/all",
+  "updated": "2025-09-08T10:51:02.378Z"
+}

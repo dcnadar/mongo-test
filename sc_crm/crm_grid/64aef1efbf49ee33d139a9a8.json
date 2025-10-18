@@ -1,0 +1,43 @@
+{
+  "_id": "64aef1efbf49ee33d139a9a8",
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "columns": [
+    {
+      "index": 0,
+      "name": "Name",
+      "key": "name",
+      "type": "text",
+      "sort": false,
+      "width": 0,
+      "$key": "oz4fdy1d6yb"
+    },
+    {
+      "index": 1,
+      "name": "Value",
+      "key": "value",
+      "type": "text",
+      "sort": false,
+      "$key": "yxlmd2cu6ia"
+    },
+    {
+      "index": 1,
+      "name": "Add to Highlights",
+      "key": "addToHighlights",
+      "type": "text",
+      "sort": false,
+      "width": 100,
+      "$key": "0okd62mit6e"
+    }
+  ],
+  "crmModelId": "64a5c1b8099de82bca61ca93",
+  "gridTitle": "Specifications",
+  "created": "2024-01-27T07:48:47.746Z",
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "fetchAdditionalKeys": [],
+  "leftOpenFilters": [],
+  "tableMeta": {}
+}

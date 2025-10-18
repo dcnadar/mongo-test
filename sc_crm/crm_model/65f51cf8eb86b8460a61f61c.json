@@ -1,0 +1,33 @@
+{
+  "_id": "65f51cf8eb86b8460a61f61c",
+  "name": "ReactGrid globalCTASection4",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "name": "Buttons",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a",
+      "key": "buttons"
+    },
+    {
+      "key": "messageUp",
+      "name": "Message Up",
+      "dataType": "STRING"
+    },
+    {
+      "key": "messageDown",
+      "name": "Message Down",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-16T04:15:52.076Z"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "6602f9eaeea36066ca04cbb8",
+  "name": "ReactGrid GlobalFooter3",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ake9a6jeyna",
+      "key": "buttons",
+      "name": "Buttons",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    },
+    {
+      "$key": "2a0sq785e6j",
+      "key": "iconLinks",
+      "name": "IconLinks",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6602e6beeea36066ca04cbad"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-26T16:38:02.925Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

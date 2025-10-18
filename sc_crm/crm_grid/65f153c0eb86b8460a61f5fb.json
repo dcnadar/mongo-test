@@ -1,0 +1,52 @@
+{
+  "_id": "65f153c0eb86b8460a61f5fb",
+  "gridTitle": "Website Page Section Type",
+  "gridType": "table",
+  "crmModelId": "65a431d12d653b284338a316",
+  "columns": [
+    {
+      "index": 0,
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true,
+      "$key": "m14tzij4mcs"
+    },
+    {
+      "$key": "kvulwx209r",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true
+    },
+    {
+      "index": 1,
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "actions": [
+        {
+          "value": "Edit",
+          "slug": "/admin/website/settings/section-group/edit?id=:_id _id",
+          "$key": "tp4wzniad4b"
+        }
+      ],
+      "sort": false,
+      "$key": "x4a8q2nkx2g"
+    }
+  ],
+  "actions": [
+    {
+      "value": "Add Group",
+      "slug": "/admin/website/settings/section-group/add",
+      "$key": "8mgg281ofvu"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-13T07:20:32.935Z",
+  "fetchAdditionalKeys": []
+}

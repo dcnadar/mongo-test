@@ -1,0 +1,59 @@
+{
+  "_id": "668d1e31531ed762273ebc0d",
+  "gridTitle": "OrderInvoice Biller",
+  "gridType": "form",
+  "crmModelId": "668d15b6531ed762273ebc06",
+  "rows": [
+    {
+      "$key": "4hylice4574",
+      "fields": [
+        {
+          "$key": "z8hke7ms3y",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "8bqwnhnqy4",
+          "id": "phoneNumber",
+          "title": "Phone Number",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "b8z6fwhendv",
+          "id": "email",
+          "title": "Email",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "tw1cqaee4l",
+          "id": "address",
+          "title": "Address",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ub07ssiqw9r",
+          "id": "gstNo",
+          "title": "GST No",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "dm16l2boid",
+          "id": "cinNo",
+          "title": "CIN No",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-09T11:25:37.281Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "66082f4d60d4f873b5fa4f4c",
+  "name": "ReactGrid GlobalTestimonial4 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "xtaq1c3qbi",
+      "key": "svg",
+      "name": "Svg",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "f1guu03dqck",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "749aplvnjho",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4c4fnxt1tp8",
+      "key": "userName",
+      "name": "UserName",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qnoiwnudrck",
+      "key": "designation",
+      "name": "Designation",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-30T15:27:09.929Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

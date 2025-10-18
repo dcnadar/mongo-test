@@ -1,0 +1,15 @@
+{
+  "_id": "67d975605ea132199e60a88a",
+  "name": "Get theme settings",
+  "path": "/cuser/theme/settings",
+  "apiType": "GET",
+  "action": "ENTITY_GET",
+  "gridType": "form",
+  "getAllRecords": false,
+  "modelId": "67d96e225ea132199e60a887",
+  "fetchDocWithoutId": true,
+  "ecomApiMappings": [],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-03-18T13:30:08.581Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

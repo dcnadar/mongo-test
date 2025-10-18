@@ -1,0 +1,29 @@
+{
+  "_id": "65d30cf9903c36d0d03fd831",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Images",
+          "id": "images",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 10,
+          "add": true,
+          "delete": true,
+          "countTitle": "No Image Added"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65d30b9b7d9157c0f06a3c39",
+  "gridTitle": "ReactGrid GlobalFullImages",
+  "created": "2024-02-19T08:10:33.186Z"
+}

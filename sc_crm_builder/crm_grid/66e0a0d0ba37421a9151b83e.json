@@ -1,0 +1,59 @@
+{
+  "_id": {
+    "$oid": "66e0a0d0ba37421a9151b83e"
+  },
+  "gridTitle": "Permission Condition",
+  "gridType": "form",
+  "crmModelId": "66e09070ba37421a9151b83c",
+  "rows": [
+    {
+      "$key": "ugxh4g4yuld",
+      "fields": [
+        {
+          "id": "conditionType",
+          "title": "Condition Type",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "$key": "taj0hojwvtf"
+        },
+        {
+          "$key": "iajmhmcod7",
+          "id": "setParamValues",
+          "title": "Set Param Values",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": {
+            "$numberInt": "16"
+          },
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "10"
+          },
+          "updateType": "none",
+          "createType": "none",
+          "showCondition": "return this.conditionType === 'set_param_value';"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1725997264650"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151537"
+    }
+  }
+}

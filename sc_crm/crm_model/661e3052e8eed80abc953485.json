@@ -1,0 +1,40 @@
+{
+  "_id": "661e3052e8eed80abc953485",
+  "name": "Blog Content ",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "blog_content ",
+  "properties": [
+    {
+      "$key": "j8of0zdyor",
+      "key": "gridInfo",
+      "name": "Grid Info",
+      "dataType": "INNER_MODEL",
+      "modelId": "65a94e69004f4d43a5f06c9e"
+    },
+    {
+      "$key": "lj4db32v7q",
+      "key": "gridData",
+      "name": "Grid Data",
+      "dataType": "INNER_MODEL"
+    },
+    {
+      "$key": "e1dumh6p8wi",
+      "key": "gridSettings",
+      "name": "Grid Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "65c07f689c7b5168f8ea683c"
+    },
+    {
+      "$key": "ibpb9lip8f",
+      "key": "blogId",
+      "name": "Blog Id",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-16T08:01:22.902Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

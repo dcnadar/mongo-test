@@ -1,0 +1,12 @@
+{
+  "_id": "6618daa8aee00c70206deb18",
+  "name": "Update Vendor",
+  "path": "/admin/account/vendor/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6618d5a8aee00c70206deb10",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T06:54:32.233Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,184 @@
+{
+  "_id": "67b85d93d102ac67ee6a50fa",
+  "gridTitle": "ReactGrid GlobalCustomerSignUp",
+  "gridType": "form",
+  "crmModelId": "67b85b78d102ac67ee6a50f9",
+  "rows": [
+    {
+      "$key": "0ghn4zrnk8z",
+      "fields": [
+        {
+          "$key": "9q3qh9jr37q",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "krkyy31r6sj",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "n0gln1yhu7n",
+          "id": "firstNameLabel",
+          "title": "FirstName Label",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "d0zwtns6z85",
+          "id": "firstNamePlaceholder",
+          "title": "FirstName Placeholder",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "sfotcp6q3t",
+          "id": "lastNameLabel",
+          "title": "LastName Label",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "z1d9184e8ra",
+          "id": "lastNamePlaceholder",
+          "title": "LastNamePlaceholder",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "fhqr84b3ih",
+          "id": "emailLabel",
+          "title": "Email Label",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "zm2ij57fdx",
+          "id": "emailPlaceholder",
+          "title": "Email Placeholder",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "1y5f587rnbi",
+          "id": "mobileNumberLabel",
+          "title": "MobileNumber Label",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "46siquoyh2r",
+          "id": "mobileNumberPlaceholder",
+          "title": "MobileNumber Placeholder",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "7hm369sshbn",
+          "id": "birthDateLabel",
+          "title": "BirthDate Label",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "5ppww9245pu",
+          "id": "genderLabel",
+          "type": "text",
+          "span": 8,
+          "title": "Gender Label"
+        },
+        {
+          "$key": "bk3nycywqga",
+          "id": "maleValueText",
+          "title": "Male Value Text",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "prwcpzro8re",
+          "id": "femaleValueText",
+          "title": "Female Value Text",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "nw4e7pm1q7h",
+          "id": "otherValueText",
+          "title": "Other Value Text",
+          "type": "text"
+        },
+        {
+          "$key": "03klis8cr8p6",
+          "id": "passwordLabel",
+          "title": "Password Label",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "42xixx59twp",
+          "id": "passwordPlaceholder",
+          "title": "Password Placeholder",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "j1nfve1gv2e",
+          "id": "confirmPasswordLabel",
+          "title": "ConfirmPassword Label",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "256eicdaew5",
+          "id": "confirmPasswordPlaceholder",
+          "title": "ConfirmPassword Placeholder",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "5o2p3a1u5xy",
+          "id": "signUpButtonText",
+          "title": "SignUp ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "iowl5f4fixk",
+          "id": "otherSignUpText",
+          "title": "Other SignUpText",
+          "type": "text"
+        },
+        {
+          "$key": "m8xqdlwsjn",
+          "id": "googleButtonText",
+          "title": "GoogleButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "e79b8v4q7qd",
+          "id": "signInMessage",
+          "title": "SignInMessage",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "qn516c2bzfr",
+          "id": "signInButtonText",
+          "title": "SignIn ButtonText",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-21T11:03:47.320Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

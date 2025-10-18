@@ -1,0 +1,114 @@
+{
+  "_id": "661cd8b2aee00c70206deb69",
+  "gridTitle": "Blog",
+  "gridType": "form",
+  "crmModelId": "661cd412aee00c70206deb66",
+  "rows": [
+    {
+      "$key": "f5ih4qgem9v",
+      "fields": [
+        {
+          "$key": "3z5q4zu56h8",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 24,
+          "onChangeCondition": [
+            {
+              "$key": "bzk7k72wyia",
+              "key": "slug",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return  this.title ? this.title.toLowerCase() : '';"
+            }
+          ]
+        },
+        {
+          "$key": "3z92dfhbp0p",
+          "id": "slug",
+          "title": "Slug",
+          "type": "text",
+          "span": 24,
+          "meta": {
+            "addonBefore": "/"
+          },
+          "onChangeCondition": []
+        },
+        {
+          "$key": "8m7ogipczx5",
+          "id": "image",
+          "title": "Image ",
+          "type": "upload",
+          "multiple": false,
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "5qw9xxyiap2",
+          "id": "author",
+          "title": "Author",
+          "type": "list",
+          "multiple": false,
+          "span": 24,
+          "meta": {
+            "searchAdditionalKeys": []
+          }
+        },
+        {
+          "$key": "0iz860u9ngrb",
+          "id": "date",
+          "title": "Date",
+          "type": "date",
+          "span": 24
+        },
+        {
+          "$key": "vch1sx4xab",
+          "id": "category",
+          "title": "Category",
+          "type": "list",
+          "multiple": false,
+          "span": 24
+        },
+        {
+          "$key": "nlle12b503",
+          "id": "tags",
+          "title": "Tags",
+          "type": "strings",
+          "span": 24
+        },
+        {
+          "$key": "h135niivqbs",
+          "id": "shortDescription",
+          "title": "Short Description",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "2lz1lzpjvms",
+          "id": "content",
+          "title": "Content",
+          "type": "text_editor",
+          "span": 24,
+          "updateType": "hidden"
+        }
+      ],
+      "description": "#### Title\n\n* Enter text using standard characters.\n* Enter a concise text string (e.g., \"How to Optimize Your Workflow\").\n\n#### Slug\n\n* Enter lowercase text with hyphens in place of spaces (e.g., \"optimize-workflow\").\n* **Avoid:**\n   Spaces, special characters, or uppercase letters.\n\n#### Image\n\n* Upload a high-quality image file in JPG, PNG, or WebP format.\n* **Recommended:**\n   Minimum resolution of 800x800 px with a clear, uncluttered background.\n\n#### Author\n\n* Select the author from a provided drop down list.\n\n#### Date\n\n* Use a date format (e.g., MM-DD-MM-YYYY).\n\n#### Category\n\n* Select an option from a predefined dropdown list.\n\n#### Tags\n\n* Enter individual tag names as text.\n* **Process:**\n   Type a tag name and press \"Enter\" to add it (e.g., type \"innovation\" and press Enter, then type \"tech\" and press Enter).\n\n#### Short Description\n\n* Enter a concise text description (one or two sentences).\n\n#### Content\n\n* Enter rich text using a text editor that supports formatting options (e.g., headings, lists, bold text).\n* Use paragraphs and bullet points for readability.",
+      "showDescription": true,
+      "descriptionSpan": 12
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T07:35:14.123Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "admin/website/blog/all",
+  "gridParams": [
+    {
+      "key": "blogId",
+      "documentKey": "id",
+      "required": false
+    }
+  ],
+  "upsertDoc": false
+}

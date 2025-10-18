@@ -1,0 +1,13 @@
+{
+  "_id": "67b5d5d09510c41f5f1e531b",
+  "name": "Add Class Subject",
+  "path": "/admin/school-setup/examinations/class-subject/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "67b5c0c99510c41f5f1e5314",
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-19T13:00:00.793Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

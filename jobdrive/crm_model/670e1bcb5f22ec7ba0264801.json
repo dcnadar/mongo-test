@@ -1,0 +1,100 @@
+{
+  "_id": "670e1bcb5f22ec7ba0264801",
+  "name": "Transaction",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "transaction",
+  "properties": [
+    {
+      "$key": "aui9o2aq2ap",
+      "key": "transactionId",
+      "name": "Transaction Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "r24zsaxy9i",
+      "key": " paymentGateway",
+      "name": " Payment Gateway",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "zn8jfjsm9n",
+      "key": "pgTransactionId",
+      "name": "PG Transaction Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0hfpxpmm1lme",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "mxcb3ji26rn",
+      "key": "packageId",
+      "name": "Package Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "a8wotpd6lju",
+      "name": "plan",
+      "key": "plan",
+      "dataType": "INNER_MODEL",
+      "modelId": "6703c98c5f22ec7ba0264721"
+    },
+    {
+      "$key": "gk67kd9sidf",
+      "key": "totalPrice",
+      "name": "Total Price",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lk28x5h3apg",
+      "name": "Phonepe Pay API Response",
+      "key": "phonepePayAPIResponse",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "x7xyy14mxjg",
+      "key": "phonepePayAPIData",
+      "name": "Phonepe Pay API Data",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "w0835o0d02j",
+      "key": "razorpayCreateOrderResponse",
+      "name": "Razorpay Create Order Response",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kewfjrzectp",
+      "key": "cashfreeCreateOrderResponse",
+      "name": "Cashfree Create Order Response",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "pk47bebtoa",
+      "key": "razorpayWebhookResponse",
+      "name": "Razorpay Webhook Response",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "c55bhb87pip",
+      "key": "cashfreeWebhookResponse",
+      "name": "Cashfree Webhook Response",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ooa8mvr0am",
+      "key": "phonepeWebhookResponse",
+      "name": "Phonepe Webhook Response",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-15T07:37:47.860Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:54.548Z"
+}

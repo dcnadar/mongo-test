@@ -1,0 +1,35 @@
+{
+  "_id": "662b6200dd50c90abe7a7dca",
+  "gridTitle": "ReactGrid GlobalFAQ2",
+  "gridType": "form",
+  "crmModelId": "662b619add50c90abe7a7dc9",
+  "rows": [
+    {
+      "$key": "nyztfpdg6gh",
+      "fields": [
+        {
+          "type": "text",
+          "span": 8,
+          "$key": "b222mpkcvts",
+          "id": "heading",
+          "title": "Heading"
+        },
+        {
+          "$key": "1numpbplbvo",
+          "id": "questionAnswers",
+          "title": "QuestionAnswers",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 10
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-26T08:12:48.448Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

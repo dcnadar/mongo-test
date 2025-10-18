@@ -1,0 +1,115 @@
+{
+  "_id": "671901895f22ec7ba0264960",
+  "gridTitle": "Eduempower News",
+  "gridType": "table",
+  "crmModelId": "6718ff2c5f22ec7ba026495c",
+  "columns": [
+    {
+      "$key": "njr5th4r2vp",
+      "key": "newsSubject",
+      "name": "News Subject",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "cfj54con5e9",
+      "key": "targetUser",
+      "name": "Target User",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "s1v5zrkcyok",
+      "key": "publishDate",
+      "name": "Publish Date",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "3iv2qsnfb8z",
+      "key": "closeDate",
+      "name": "Close Date",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "4fsnbv1iqm3",
+      "key": "description",
+      "name": "Description",
+      "type": "html_view",
+      "sort": true
+    },
+    {
+      "$key": "rxpb7qkisvq",
+      "key": "attachment",
+      "name": "Attachment",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "ib89skbtvg",
+          "value": "Edit",
+          "slug": "/admin/circulars&news/news/edit?id=:_id _id"
+        },
+        {
+          "$key": "3k7uonyxm1v",
+          "value": "Delete",
+          "gridMsg": "Are you sure want to delete?",
+          "type": "icon",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "gridTitle": "Delete",
+          "apiUrl": "/admin/circulars&news/news/delete?id=:_id _id",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/66066cd92ecf59ad3517dcdb/65e8cdff97f0eca7ba094627/columns.5.actions.1.icon/2024/9/24/file_yniwqamjnkp-1729741935456.png"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "1kgymx1xqjp",
+      "value": "Add News",
+      "slug": "/admin/circulars&news/news/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "2xkngyxhjp",
+      "fields": [
+        {
+          "$key": "ghm6j5fkvu",
+          "id": "targetUser",
+          "title": "Target User",
+          "type": "list",
+          "multiple": false,
+          "span": 7,
+          "o": true
+        },
+        {
+          "$key": "4pbvlc9waab",
+          "id": "publishDate",
+          "title": "Publish Date",
+          "type": "date",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "d5kedia4gz",
+          "id": "closeDate",
+          "title": "Close Date",
+          "type": "date",
+          "span": 8,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T14:00:41.624Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:02.411Z"
+}

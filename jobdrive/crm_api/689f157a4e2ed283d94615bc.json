@@ -1,0 +1,17 @@
+{
+  "_id": "689f157a4e2ed283d94615bc",
+  "name": "Edit PlacementDrive\t",
+  "path": "/admin/placement-drive/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "68a2fc2454ca9a05d8c97782",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T11:09:46.892Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "innerGridType": "form",
+  "innerSourceId": "689dcfd25f986889b43879a5",
+  "gridParams": [],
+  "updated": "2025-09-05T11:02:49.884Z"
+}

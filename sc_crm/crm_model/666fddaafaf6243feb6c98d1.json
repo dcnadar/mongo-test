@@ -1,0 +1,44 @@
+{
+  "_id": "666fddaafaf6243feb6c98d1",
+  "name": "App Screen",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "app_screen",
+  "properties": [
+    {
+      "$key": "o8jf4wlbo8",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "description": false,
+        "value": true
+      }
+    },
+    {
+      "$key": "50tp9rl5pzh",
+      "key": "path",
+      "name": "Path",
+      "dataType": "STRING",
+      "unique": true,
+      "searchable": {
+        "description": true
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {
+    "details": [
+      {
+        "$key": "srpyi07rysb",
+        "key": "Path",
+        "value": "path"
+      }
+    ],
+    "title": "name"
+  },
+  "compoundUniqueFields": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-17T06:54:34.763Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

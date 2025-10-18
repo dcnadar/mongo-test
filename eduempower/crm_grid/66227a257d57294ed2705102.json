@@ -1,0 +1,82 @@
+{
+  "_id": "66227a257d57294ed2705102",
+  "gridTitle": "Eduempower User BankingDetails",
+  "gridType": "form",
+  "crmModelId": "6622770b7d57294ed2705101",
+  "rows": [
+    {
+      "$key": "6726p5qppb9",
+      "fields": [
+        {
+          "$key": "tjf0qqebo5f",
+          "id": "aadharNumber",
+          "title": "Aadhar Number",
+          "type": "number",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "r72wyp9sneg",
+          "id": "panNumber",
+          "title": "Pan Number",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "jw0f4uhoh1k",
+          "id": "bankName",
+          "title": "Bank Name",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "6dtfmrhljhr",
+          "id": "bankBranchAddress",
+          "title": "Bank Branch Address",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "lf6h81nm3d",
+          "id": "accountHolderName",
+          "title": "Account Holder Name",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "ve4d6eoh0zd",
+          "id": "bankAccountNumber",
+          "title": "Bank Account Number",
+          "type": "number",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "h5168ml832i",
+          "id": "backIFSCCode",
+          "title": "Back IFSC Code",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "vme0rk1dhpa",
+          "id": "uan",
+          "title": "Uan",
+          "type": "text",
+          "span": 8,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-19T14:05:25.167Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:00.998Z"
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "667bb23574a25c4c696adafc",
+  "name": "Navigator",
+  "modelType": "COLLECTION",
+  "collectionName": "navigator",
+  "properties": [
+    {
+      "$key": "zrscfdzavi",
+      "key": "screens",
+      "name": "Screens",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "667ba7f374a25c4c696adaf3"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-26T06:16:21.231Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "baseModelId": "64822a187d5f915dc103d271"
+}

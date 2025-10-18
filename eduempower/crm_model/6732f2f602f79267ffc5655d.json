@@ -1,0 +1,22 @@
+{
+  "_id": "6732f2f602f79267ffc5655d",
+  "name": "role",
+  "modelType": "COLLECTION",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "collectionName": "role",
+  "properties": [
+    {
+      "$key": "qjw2c609yj",
+      "key": "name",
+      "name": "Name",
+      "unique": true,
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T06:17:26.200Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:07.699Z"
+}

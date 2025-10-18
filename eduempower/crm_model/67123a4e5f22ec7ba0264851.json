@@ -1,0 +1,81 @@
+{
+  "_id": "67123a4e5f22ec7ba0264851",
+  "name": "Eduempower Academic Info",
+  "modelType": "COLLECTION",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "collectionName": "eduempower_academic_info",
+  "properties": [
+    {
+      "$key": "x16wngzce9d",
+      "key": "education",
+      "name": "Education",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "69a5kffiflo",
+            "key": "PHD_DOCTORATE",
+            "value": "Phd Dectorate"
+          },
+          {
+            "$key": "qi6h1p36zp",
+            "key": "PG",
+            "value": "PG"
+          },
+          {
+            "$key": "1urd3wkfulb",
+            "key": "UG",
+            "value": "UG"
+          },
+          {
+            "$key": "pgp25wn92ac",
+            "key": "XII_OR_EQUIVALENT",
+            "value": "XII or Equivalent"
+          },
+          {
+            "$key": "gexycw8hrv",
+            "key": "X",
+            "value": "X"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ivst50souvo",
+      "key": "school",
+      "name": "University / School",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lui8qpcyzy",
+      "key": "cgpa",
+      "name": "CGPA % Obtained",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "cp1bbhe0fva",
+      "key": "from",
+      "name": "From",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "h5kc219534",
+      "key": "to",
+      "name": "To",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "lciqilmxrcm",
+      "key": "staffId",
+      "name": "Staff",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T10:37:02.606Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.888Z"
+}

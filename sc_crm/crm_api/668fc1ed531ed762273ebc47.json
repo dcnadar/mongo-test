@@ -1,0 +1,13 @@
+{
+  "_id": "668fc1ed531ed762273ebc47",
+  "name": "All Blog table",
+  "path": "/admin/public/website/blog/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "661cdf3baee00c70206deb6b",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-11T11:28:45.492Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

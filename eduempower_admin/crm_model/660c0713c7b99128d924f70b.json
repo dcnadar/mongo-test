@@ -1,0 +1,37 @@
+{
+  "_id": "660c0713c7b99128d924f70b",
+  "name": "Eduempower ClassType",
+  "modelType": "COLLECTION",
+  "properties": [
+    {
+      "$key": "bpawxvixen7",
+      "key": "key",
+      "name": "Key",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "caqhrj2ll4p",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "subtitles": [
+      "key"
+    ],
+    "title": "name"
+  },
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-02T13:24:35.225Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "collectionName": "eduempower_class_type",
+  "baseModelId": "67371c6002f79267ffc56592"
+}

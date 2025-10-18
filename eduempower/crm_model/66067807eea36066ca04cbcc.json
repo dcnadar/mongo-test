@@ -1,0 +1,94 @@
+{
+  "_id": "66067807eea36066ca04cbcc",
+  "name": "Eduempower AcademicSession",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_academic_session",
+  "properties": [
+    {
+      "$key": "bp2o9lp41ft",
+      "key": "session",
+      "name": "Session Name",
+      "unique": true,
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "01k31gba7hm6",
+      "key": "from",
+      "name": "From Date",
+      "unique": false,
+      "dataType": "DATE",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "lgyj0k3juhf",
+      "key": "to",
+      "name": "To Date",
+      "dataType": "DATE",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "bipwd40pjpr",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "s7o2u072nml",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "l0kh3vfd8i",
+            "key": "INACTIVE",
+            "value": "Inactive"
+          },
+          {
+            "$key": "m2ftt0kawem",
+            "key": "PLANNED",
+            "value": "Planned"
+          },
+          {
+            "$key": "lf4jho7al4f",
+            "key": "COMPLETED",
+            "value": "Completed"
+          },
+          {
+            "$key": "c9kc42pvbsk",
+            "key": "ARCHIVED",
+            "value": "Archived"
+          }
+        ]
+      },
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "rxim72kgdi",
+      "key": "copyFromCurrent",
+      "name": "Copy From Current",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "session",
+    "subtitles": [
+      "status"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-29T08:12:55.468Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:05.013Z"
+}

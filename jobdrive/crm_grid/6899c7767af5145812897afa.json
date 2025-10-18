@@ -1,0 +1,90 @@
+{
+  "_id": "6899c7767af5145812897afa",
+  "gridTitle": "Student",
+  "gridType": "table",
+  "crmModelId": "6703b5dc30083226ac6affc4",
+  "columns": [
+    {
+      "$key": "o0ezq23pgy",
+      "key": "firstName",
+      "name": "Full Name",
+      "type": "name",
+      "sort": true
+    },
+    {
+      "$key": "ch9y9kssfe",
+      "key": "email",
+      "name": "Email",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "3hfvcdnql64",
+      "key": "mobileNumber",
+      "name": "Phone Number",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "sgo8auwtm",
+      "key": "graduationyear",
+      "name": "Graduation Year",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "gx23vi9rqqd",
+      "key": "actions",
+      "name": "Actions",
+      "type": "options",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "eaf7i3xx3ak",
+          "gridTitle": "Profile",
+          "value": "Profile",
+          "gridType": "slug",
+          "apiUrl": "/admin/student/profile?id=:_id _id",
+          "slugTarget": "_self"
+        },
+        {
+          "$key": "dh721uuticu",
+          "gridTitle": "Resume",
+          "gridType": "slug",
+          "apiUrl": "/admin/student/resume?id=:_id _id",
+          "slugTarget": "_self",
+          "value": "Resume"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "90k1uw6y00v",
+      "gridTitle": "Add Student",
+      "gridType": "popupForm",
+      "value": "Add Student",
+      "apiUrl": "/admin/student/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "in84s6dq6iq",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EQUALS": "STUDENT"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "lastName"
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-11T10:35:34.540Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.075Z"
+}

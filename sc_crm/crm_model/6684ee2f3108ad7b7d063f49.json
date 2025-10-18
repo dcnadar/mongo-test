@@ -1,0 +1,31 @@
+{
+  "_id": "6684ee2f3108ad7b7d063f49",
+  "name": "NativeGrid GlobalImageReview ",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "rdqquzfkze",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING",
+      "listType": "STRING"
+    },
+    {
+      "$key": "34ec2gg0i27",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0u23i0sodo6c",
+      "key": "imageSection",
+      "name": "ImageSection",
+      "dataType": "LIST_OF",
+      "listType": "STRING",
+      "modelId": "6684edb43108ad7b7d063f48"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T06:22:39.680Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

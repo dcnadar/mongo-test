@@ -1,0 +1,226 @@
+{
+  "_id": {
+    "$oid": "65f6e30d52bbad30f7463f22"
+  },
+  "name": "User",
+  "modelType": "COLLECTION",
+  "collectionName": "user",
+  "properties": [
+    {
+      "key": "firstName",
+      "name": "First Name",
+      "dataType": "STRING",
+      "$key": "z3l0mq4q6x",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "eprf75u237",
+      "key": "middleName",
+      "name": "Middle Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "eprf75ut1z7",
+      "key": "lastName",
+      "name": "Last Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING",
+      "$key": "d02yni5bei",
+      "unique": true,
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "b8eh0595s0u",
+      "key": "userName",
+      "name": "Username",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vooz50gqc8",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fxmudg9cc1",
+      "key": "callingCode",
+      "name": "Calling Code",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "vy8h0lhedg",
+            "value": "+91 (India)",
+            "key": "+91"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "zu51rpb5l9m",
+      "key": "birthDate",
+      "name": "Birth Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "onlyzgcujwp",
+      "key": "gender",
+      "name": "Gender",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "usn6kjki51q",
+            "key": "MALE",
+            "value": "Male"
+          },
+          {
+            "$key": "bvhwq6o92fn",
+            "key": "FEMALE",
+            "value": "Female"
+          },
+          {
+            "$key": "eap4baza1fm",
+            "key": "OTHERS",
+            "value": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "d9fg3398t3b",
+      "key": "userType",
+      "name": "User Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "k4qbpjffkah",
+            "key": "STAFF",
+            "value": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "xt50y5dadl",
+      "key": "logo",
+      "name": "Thumb",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "32e08pqhr65",
+      "key": "admin",
+      "name": "Is Admin",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "6ed423qtc3x",
+      "key": "password",
+      "name": "Password",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "tb027u8ril8",
+      "key": "ecomAccountId",
+      "name": "Ecom Account",
+      "dataType": "REFERENCE",
+      "modelId": "6624e2bfa91f692d1c9b503b"
+    },
+    {
+      "$key": "7hz62t6m66w",
+      "key": "roleId",
+      "name": "Role",
+      "dataType": "REFERENCE",
+      "modelId": "662145817d57294ed27050dc"
+    },
+    {
+      "$key": "zlyvj2xrp1n",
+      "key": "userGroupId",
+      "name": "UserGroup",
+      "dataType": "REFERENCE",
+      "modelId": "68c2e4ca70618d003613a976"
+    },
+    {
+      "$key": "qekk60mucf",
+      "key": "isFirstLogin",
+      "name": "Is FirstLogin",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "pe2uh52nngi",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "7w49h6evdb6",
+            "key": "INVITED ",
+            "value": "Invited"
+          },
+          {
+            "$key": "affs7a02l8o",
+            "key": "ACTIVE",
+            "value": "Active",
+            "thumbColor": "green"
+          },
+          {
+            "$key": "bk72atn1aes",
+            "key": "BANNED",
+            "value": "Banned",
+            "thumbColor": "red"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "41mnr51kco9",
+      "key": "appRoleId",
+      "name": "App Role",
+      "dataType": "REFERENCE",
+      "$meta": {
+        "fetchModelType": "COLLECTION"
+      },
+      "modelId": "68d14de3f42bc3ef836dc7d5"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "firstName",
+    "subtitles": [
+      "email"
+    ]
+  },
+  "menuTargets": {
+    "title": "firstName",
+    "description": "email",
+    "thumb": "logo"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1710678797080"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070153104"
+    }
+  },
+  "isOrgScopeApplicable": true
+}

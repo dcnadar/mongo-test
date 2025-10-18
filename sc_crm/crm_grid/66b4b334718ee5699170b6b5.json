@@ -1,0 +1,38 @@
+{
+  "_id": "66b4b334718ee5699170b6b5",
+  "gridTitle": "ReactGrid GlobalPricing6 header",
+  "gridType": "form",
+  "crmModelId": "66b49b22718ee5699170b68f",
+  "rows": [
+    {
+      "$key": "lp51h6totv",
+      "fields": [
+        {
+          "$key": "dldqlrwrvo",
+          "id": "title",
+          "title": "Title",
+          "span": 24,
+          "type": "text"
+        },
+        {
+          "$key": "grurebs88ha",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "vequpg7zug",
+          "id": "description",
+          "title": "Description",
+          "type": "text",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-08T11:59:48.532Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

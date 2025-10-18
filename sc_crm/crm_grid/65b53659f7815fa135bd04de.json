@@ -1,0 +1,98 @@
+{
+  "_id": "65b53659f7815fa135bd04de",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-27T16:59:05.865Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Date",
+          "id": "date",
+          "type": "date",
+          "span": 8,
+          "o": true,
+          "format": "MM/DD/YYYY",
+          "hint": "Date of the blog post",
+          "$key": "5dlolajzya7"
+        },
+        {
+          "index": 1,
+          "title": "Tag",
+          "id": "tag",
+          "type": "strings",
+          "span": 8,
+          "o": true,
+          "hint": "Category or tag of the blog post",
+          "$key": "wd3lh2lil3m"
+        },
+        {
+          "index": 3,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Title of the blog post",
+          "$key": "v5y80d5f83"
+        },
+        {
+          "index": 4,
+          "title": "Description",
+          "id": "descriptions",
+          "type": "textarea",
+          "span": 24,
+          "o": false,
+          "hint": "Summary or excerpt of the blog post",
+          "$key": "p5abl9hnef"
+        },
+        {
+          "$key": "bsvg7kljl6s",
+          "id": "enableButton",
+          "title": "Enable Click",
+          "type": "bool",
+          "o": true,
+          "span": 4
+        },
+        {
+          "index": 3,
+          "title": "Section Click Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 20,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c",
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "hint": "Define the action for the button. For example, you could set it to navigate to a blog page, open a modal, etc.",
+          "$key": "yun32aw4rb",
+          "showCondition": "return this.enableButton;"
+        },
+        {
+          "index": 5,
+          "title": "User",
+          "id": "user",
+          "type": "inner_form",
+          "span": 24,
+          "o": true,
+          "meta": {
+            "crmFormId": "65b53659f7815fa135bd04dd",
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "hint": "Details about the author or related user",
+          "$key": "68m7ess9cf6"
+        }
+      ],
+      "$key": "ylaqbnqsn9k"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b53659f7815fa135bd04da",
+  "gridTitle": "ReactGrid GlobalBlogCards Section",
+  "fetchDocWithoutId": false
+}

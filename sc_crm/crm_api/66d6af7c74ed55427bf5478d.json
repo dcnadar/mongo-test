@@ -1,0 +1,25 @@
+{
+  "_id": "66d6af7c74ed55427bf5478d",
+  "name": "Edit current user address",
+  "path": "/cuser/address/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66a3585de287100717693bd0",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true,
+      "serverValue": "current_user_id"
+    },
+    {
+      "key": "id",
+      "required": true
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-03T06:41:00.525Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

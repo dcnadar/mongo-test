@@ -1,0 +1,29 @@
+{
+  "_id": "66d29daaf477b55766069e07",
+  "name": "ReactGrid GlobalHeader4 items",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "9miovasrsj",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "oqmxryb0kte",
+      "key": "buttonAction",
+      "name": "ButtonAction",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "llm8jl721h8",
+      "key": "enableButton",
+      "name": "EnableButton",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-31T04:35:54.507Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

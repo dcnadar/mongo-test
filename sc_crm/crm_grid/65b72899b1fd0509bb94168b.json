@@ -1,0 +1,96 @@
+{
+  "_id": "65b72899b1fd0509bb94168b",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-29T04:24:57.691Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 10,
+          "o": false,
+          "hint": "Title of the Section"
+        },
+        {
+          "index": 1,
+          "title": "Title Button Enable",
+          "id": "titleButtonEnabled",
+          "type": "bool",
+          "span": 6,
+          "o": false,
+          "hint": "Enable Button in Title"
+        },
+        {
+          "index": 2,
+          "title": "Title Buttton Text",
+          "id": "titleButtonText",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Text for the button with title",
+          "showCondition": "return this.titleButtonEnabled;"
+        },
+        {
+          "index": 3,
+          "title": "Button Action",
+          "id": "titleButtonAction",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "showCondition": "return this.titleButtonEnabled;"
+        },
+        {
+          "index": 4,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 16,
+          "o": false,
+          "hint": "Heading of the section"
+        },
+        {
+          "index": 5,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 8,
+          "o": false,
+          "hint": "Main Image of the section"
+        },
+        {
+          "index": 6,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 24,
+          "o": false,
+          "hint": "Description of the section"
+        },
+        {
+          "index": 7,
+          "title": "Buttons",
+          "id": "buttons",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 2,
+          "add": true,
+          "delete": true,
+          "countTitle": "No Button Added"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b72899b1fd0509bb94168a",
+  "gridTitle": "ReactGrid GlobalHeroSection2"
+}

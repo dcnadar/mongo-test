@@ -1,0 +1,62 @@
+{
+  "_id": "6662afa907b1a041b15e0b5b",
+  "gridTitle": "Producer Group",
+  "gridType": "form",
+  "crmModelId": "6662ac9c07b1a041b15e0b56",
+  "rows": [
+    {
+      "$key": "ajpq3xkwbd9",
+      "fields": [
+        {
+          "$key": "a6macsjeaeq",
+          "id": "blockId",
+          "title": "Block",
+          "type": "list",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "id": "pgName",
+          "title": "Name",
+          "type": "text",
+          "span": 8,
+          "$key": "zu2n3w61vn"
+        },
+        {
+          "$key": "ek6jxuqw2da",
+          "id": "inceptionDate",
+          "title": "Inception Data",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "a2sjm8nwrz4",
+          "id": "bankAccountNo",
+          "title": "Bank Account No",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "4pqeonczvor",
+          "id": "accountType",
+          "title": "Account Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "7fr34bffbjl",
+          "id": "ifscCode",
+          "title": "IFSC Code",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T06:58:49.774Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/setup/producer-group/all"
+}

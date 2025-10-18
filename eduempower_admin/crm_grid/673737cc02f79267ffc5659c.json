@@ -1,0 +1,89 @@
+{
+  "_id": "673737cc02f79267ffc5659c",
+  "gridTitle": "Account",
+  "gridType": "form",
+  "crmModelId": "67371f8502f79267ffc56594",
+  "rows": [
+    {
+      "$key": "hnm40ggnicm",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 10,
+          "$key": "as9aqxs561f"
+        },
+        {
+          "$key": "jb5mw6xxww",
+          "id": "domain",
+          "title": "Domains",
+          "type": "strings",
+          "span": 14,
+          "min": 1,
+          "max": 10
+        },
+        {
+          "$key": "mpe7pnetfi",
+          "id": "logo",
+          "title": "Logo",
+          "type": "upload",
+          "multiple": false,
+          "o": false,
+          "span": 8,
+          "fileAccept": "image/*",
+          "meta": {
+            "allowGallery": true
+          }
+        },
+        {
+          "$key": "q4xt2vpqza",
+          "id": "favicon",
+          "title": "Favicon",
+          "type": "upload",
+          "multiple": false
+        },
+        {
+          "$key": "vcfahj87iao",
+          "id": "loginImages",
+          "title": "Login Images",
+          "type": "upload",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 24,
+          "min": 0,
+          "o": true,
+          "max": 10,
+          "meta": {
+            "allowGallery": true
+          }
+        },
+        {
+          "$key": "xpzvn70jngn",
+          "id": "branch",
+          "title": "Branch",
+          "type": "inner_form",
+          "multiple": false,
+          "span": 24,
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 10,
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "updateType": "hidden"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-15T12:00:12.586Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "backUrl": "/admin/account/all"
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "6762af8175ed7057fba21a8f",
+  "gridTitle": "SchoolAssetLogs",
+  "gridType": "form",
+  "crmModelId": "6760148375ed7057fba21a77",
+  "rows": [
+    {
+      "$key": "bax4bki975r",
+      "fields": [
+        {
+          "id": "logs",
+          "title": "Logs",
+          "type": "form_array",
+          "add": false,
+          "delete": false,
+          "span": 24,
+          "$key": "ti0pvle5l7d",
+          "min": 0,
+          "max": 0,
+          "multiple": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-18T11:18:25.847Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:03.525Z"
+}

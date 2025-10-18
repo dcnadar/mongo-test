@@ -1,0 +1,14 @@
+{
+  "_id": "689acfb3ab9ccd58e2fca6d8",
+  "name": "Add Companies",
+  "path": "/admin/companies/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "689acf39ab9ccd58e2fca6d5",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-12T05:22:59.855Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:49.342Z"
+}

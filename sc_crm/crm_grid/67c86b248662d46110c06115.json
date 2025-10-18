@@ -1,0 +1,102 @@
+{
+  "_id": "67c86b248662d46110c06115",
+  "gridTitle": "ReactGrid GlobalBanner4",
+  "gridType": "form",
+  "crmModelId": "67c869418662d46110c06114",
+  "rows": [
+    {
+      "$key": "t3ueq7uorvi",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "3c0v7lpp5t"
+        },
+        {
+          "$key": "gr6jtv8rfsr",
+          "id": "description",
+          "title": "Description",
+          "type": "text_editor",
+          "span": 16
+        },
+        {
+          "$key": "abrn3co68oc",
+          "id": "enableButton",
+          "title": "Enable Button",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "l7vetckv4wd",
+          "id": "buttonText",
+          "title": "Button Text",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "nlo6degrmeo",
+          "id": "buttonAction",
+          "title": "Button Action",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "uslllswsmp",
+          "id": "images1",
+          "title": "Images1",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 24,
+          "add": true,
+          "delete": true,
+          "min": 5,
+          "max": 20
+        },
+        {
+          "$key": "scg619tmfl",
+          "id": "images2",
+          "title": "Images2",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 4,
+          "max": 20
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-05T15:17:56.576Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

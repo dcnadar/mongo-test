@@ -1,0 +1,42 @@
+{
+  "_id": "6710fa555f22ec7ba026482b",
+  "name": "Eduempower Section",
+  "modelType": "COLLECTION",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_section",
+  "properties": [
+    {
+      "$key": "kipip5tz9mm",
+      "name": "Class",
+      "key": "classId",
+      "dataType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4"
+    },
+    {
+      "$key": "6tkif34j6vs",
+      "key": "sectionName",
+      "name": "Section Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "ffa68d2390q",
+      "key": "sectionSeatingCapacity",
+      "name": "Section Seating Capacity",
+      "dataType": "INTEGER",
+      "searchable": {
+        "description": false
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "sectionName"
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-17T11:51:49.306Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.854Z"
+}

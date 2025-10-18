@@ -1,0 +1,46 @@
+{
+  "_id": "66ab5d0fe287100717693d36",
+  "gridTitle": "WebsiteGlobalThemeCustomFontSettings",
+  "gridType": "form",
+  "crmModelId": "66ab4f0ee287100717693d2e",
+  "rows": [
+    {
+      "$key": "upqn2twidxg",
+      "fields": [
+        {
+          "id": "headingFontName",
+          "title": "Heading Font Name",
+          "$key": "741jfk1kvcc",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "cx4qjk01n64",
+          "id": "headingFontStyle",
+          "title": "Heading Font Style",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "kehodnuucld",
+          "id": "bodyFontName",
+          "title": "Body Font Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "kalq03l53m",
+          "id": "bodyFontStyle",
+          "title": "Body Font Style",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T10:01:51.124Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "upsertDoc": false
+}

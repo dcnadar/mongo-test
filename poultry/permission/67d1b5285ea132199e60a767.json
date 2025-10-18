@@ -1,0 +1,12 @@
+{
+  "_id": "67d1b5285ea132199e60a767",
+  "key": "farmer__read_only",
+  "name": "Farmer read only",
+  "apisAccess": [
+    "6662b94907b1a041b15e0b6a",
+    "6662b94f07b1a041b15e0b6b"
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2025-03-12T16:24:08.983Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,89 @@
+{
+  "_id": "66863ed03108ad7b7d063f82",
+  "gridTitle": "NativeGrid GlobalPriceing1 sections",
+  "gridType": "form",
+  "crmModelId": "66863cd03108ad7b7d063f7f",
+  "rows": [
+    {
+      "$key": "tjpa6yflf39",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "eluf3o798wc"
+        },
+        {
+          "$key": "4u10akn1p1t",
+          "id": "descriptions",
+          "title": "Descriptions",
+          "span": 12,
+          "type": "text"
+        },
+        {
+          "$key": "vq4hmcpd66m",
+          "id": "points",
+          "title": "Points",
+          "type": "strings",
+          "span": 12,
+          "min": 1,
+          "max": 10
+        },
+        {
+          "$key": "s7cqp9bo0ho",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "qe9dugu9u89",
+          "id": "currencySymbol",
+          "title": "CurrencySymbol",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "hqaebeo6nyf",
+          "id": "price",
+          "title": "Price",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "6xdhn7ex71b",
+          "id": "pointHeading",
+          "title": "PointHeading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7tnl8nsghpk",
+          "id": "cardHeading",
+          "title": "CardHeading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "rswkd7hvq8g",
+          "id": "cardDescription",
+          "title": "CardDescription",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "zqxqcmaizv",
+          "id": "primary",
+          "title": "Primary",
+          "type": "bool",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-04T06:18:56.489Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

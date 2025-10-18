@@ -1,0 +1,16 @@
+{
+  "_id": "68ac5a2d52b37ac4c36ed57d",
+  "name": "Edit Training",
+  "path": "/admin/training/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "68ac15d37be295936f39ddd5",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-25T12:42:21.835Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "innerGridType": "form",
+  "innerSourceId": "689c6e8261be2ca02fc40901",
+  "updated": "2025-09-05T11:02:51.391Z"
+}

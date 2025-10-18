@@ -1,0 +1,20 @@
+{
+  "_id": "66066c21eea36066ca04cbc3",
+  "name": "The Doon Valley School",
+  "status": "ACTIVE",
+  "domain": [
+    "schoolhost",
+    "eep-doonvalley.trufal.in"
+  ],
+  "subDomain": "eduempower",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-29T07:22:09.906Z",
+  "_class": "com.doonvalley.model.EcomAccount",
+  "logo": "https://d2tuusk7gpjafs.cloudfront.net/66066cd92ecf59ad3517dcdb/66066c21eea36066ca04cbc3/6718b44e5f22ec7ba026490a/logo/2024/10/9/file_ka4hi275gp-1731189389685.jpeg",
+  "favicon": "/api/public/downloadFile/67371ac55e032502464b63a0/66066cd92ecf59ad3517dcdb/673737cc02f79267ffc5659c/favicon/2024/10/15/file_517xc73gjzp-1731690269294.jpeg",
+  "loginImages": [
+    "https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg",
+    "https://images.pexels.com/photos/357271/pexels-photo-357271.jpeg"
+  ],
+  "updated": "2025-09-08T10:51:08.960Z"
+}

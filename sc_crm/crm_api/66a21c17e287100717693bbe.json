@@ -1,0 +1,15 @@
+{
+  "_id": "66a21c17e287100717693bbe",
+  "name": "Product Seo",
+  "path": "/admin/product/seo",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "64a9d52ae7d297735dc044ea",
+  "innerGridType": "form",
+  "innerSourceId": "66a1fb38cba7cf7aed264a04",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-25T09:34:15.070Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

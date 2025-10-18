@@ -1,0 +1,15 @@
+{
+  "_id": "671277345f22ec7ba0264874",
+  "name": "All Staff Documents",
+  "path": "/admin/staff/documents/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "67191719e8dc0479c46f1d48",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T14:56:52.384Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "updated": "2025-09-08T10:50:52.299Z"
+}

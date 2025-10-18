@@ -1,0 +1,15 @@
+{
+  "_id": "668bc9c5531ed762273ebbf9",
+  "name": "Product Setting",
+  "path": "/admin/account/setting/product",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66657c9a07b1a041b15e0bd8",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T11:13:09.061Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "innerGridType": "form",
+  "innerSourceId": "668bc98b531ed762273ebbf8"
+}

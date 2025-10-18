@@ -1,0 +1,49 @@
+{
+  "_id": "6780d843571a4a374851650c",
+  "gridTitle": "ReactGrid CommonProductList",
+  "gridType": "form",
+  "crmModelId": "6780d357571a4a374851650a",
+  "rows": [
+    {
+      "$key": "nvvy6p9vgqo",
+      "fields": [
+        {
+          "$key": "wz5mbmuepm7",
+          "id": "showDynamicContent",
+          "title": "ShowDynamicContent",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "id": "section",
+          "title": "Section",
+          "type": "form_array",
+          "add": false,
+          "delete": false,
+          "span": 24,
+          "min": 1,
+          "max": 20,
+          "$key": "0h8nwt0kwrg6",
+          "showCondition": "return !this.showDynamicContent;"
+        },
+        {
+          "$key": "xu9d481viyq",
+          "id": "dynamicContentFilter",
+          "title": "DynamicContentFilter",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "showCondition": "return this.showDynamicContent;"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-01-10T08:20:19.711Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

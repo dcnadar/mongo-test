@@ -1,0 +1,13 @@
+{
+  "_id": "66121f62a10af254b4b437c4",
+  "name": "All Branch",
+  "path": "/admin/account-settings/branch/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660d9385c7b99128d924f76e",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T04:21:54.926Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:49.374Z"
+}

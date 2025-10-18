@@ -1,0 +1,37 @@
+{
+  "_id": {
+    "$oid": "65e7bd3ada2db33603c1698b"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid FormRow FormField OnChangeCondition",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "key",
+      "name": "Key"
+    },
+    {
+      "dataType": "STRING",
+      "key": "value",
+      "name": "Value"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "meta",
+      "name": "Meta for type",
+      "modelId": "65e7bd3bda2db33603c1698c"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709686074391"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152829"
+    }
+  }
+}

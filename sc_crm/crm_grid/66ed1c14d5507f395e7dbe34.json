@@ -1,0 +1,35 @@
+{
+  "_id": "66ed1c14d5507f395e7dbe34",
+  "gridTitle": "Customer profile pic update",
+  "gridType": "form",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "rows": [
+    {
+      "$key": "9g3klu9hc2i",
+      "fields": [
+        {
+          "$key": "d6rsuizyghm",
+          "id": "logo",
+          "title": "Profile pic",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T10:39:35.297Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/customer/all",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "documentKey": "id",
+      "required": false,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "upsertDoc": false
+}

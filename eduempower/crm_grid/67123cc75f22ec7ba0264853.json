@@ -1,0 +1,90 @@
+{
+  "_id": "67123cc75f22ec7ba0264853",
+  "gridTitle": "Academic Info",
+  "gridType": "table",
+  "crmModelId": "67123a4e5f22ec7ba0264851",
+  "columns": [
+    {
+      "$key": "41kyg949srs",
+      "key": "education",
+      "name": "Education",
+      "type": "tag",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "yiegia34ati",
+      "key": "school",
+      "name": "University / School",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "z5bayht85ag",
+      "key": "cgpa",
+      "name": "CGPA % Obtained",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "623jty3ncx",
+      "key": "to",
+      "name": "To",
+      "type": "date",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "ane2xlw1iy",
+      "key": "from",
+      "name": "From",
+      "type": "date",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "vg4yhpmfk3l",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "actions": [
+        {
+          "$key": "eeu0zsshjwv",
+          "gridTitle": "Edit Academic Info",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/staff/academic-info/edit?id=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "9ufdr7qyj9l",
+      "gridTitle": "Add Academic Info",
+      "value": "Add Academic Info",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/staff/academic-info/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T10:47:35.482Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true
+    }
+  ],
+  "backUrl": "/admin/staff/all",
+  "updated": "2025-09-08T10:51:01.440Z"
+}

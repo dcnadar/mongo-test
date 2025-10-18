@@ -1,0 +1,85 @@
+{
+  "_id": "666fe2b4faf6243feb6c98d7",
+  "gridTitle": "App Screen",
+  "gridType": "table",
+  "crmModelId": "666fddaafaf6243feb6c98d1",
+  "columns": [
+    {
+      "$key": "bnwdeyzyuxd",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "9o318u56qll",
+      "key": "path",
+      "name": "Path",
+      "type": "text",
+      "valueCondition": "return this.path === '$ROOT' ? '/' : ('/' + this.path);",
+      "sort": true
+    },
+    {
+      "$key": "rnmvqnoxyn",
+      "key": "created",
+      "name": "Created On",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "6jqhg3qzav3",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "fecupy74o4",
+          "value": "View Sections",
+          "slug": "/admin/mobileapp/app-screen-section?screenId=:_id _id",
+          "type": "icon_button"
+        },
+        {
+          "$key": "l6ee2b707f",
+          "value": "Edit",
+          "apiUrl": "/admin/mobileapp/app-screen/update?id=:_id _id",
+          "type": "icon_button",
+          "gridTitle": "Edit Screen",
+          "gridType": "popupForm",
+          "showCondition": "return this.path !== '$ROOT' ? true : false;"
+        },
+        {
+          "$key": "wo3ib3uzn1r",
+          "gridTitle": "Delete Page",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure to delete ':name'?",
+          "apiUrl": "/admin/mobileapp/app-screen/delete?id=:_id _id",
+          "type": "icon",
+          "showCondition": "return this.path !== '$ROOT' ? true : false;",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.2.actions.2.icon/2024/5/17/upload_af2a45s785-1718632302589.png"
+        }
+      ],
+      "align": "right"
+    }
+  ],
+  "actions": [
+    {
+      "$key": "3urgmgba193",
+      "value": "Add Screen",
+      "apiUrl": "/admin/mobileapp/app-screen/add",
+      "gridType": "popupForm",
+      "gridTitle": "Edit App"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-17T07:16:04.035Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "search": {
+    "placeHolder": "Search by Name"
+  }
+}

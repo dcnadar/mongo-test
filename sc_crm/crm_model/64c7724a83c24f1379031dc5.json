@@ -1,0 +1,12 @@
+{
+  "_id": "64c7724a83c24f1379031dc5",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Ecom Account App Base",
+  "modelType": "BASE",
+  "modelStatus": "ACTIVE",
+  "fieldName": "appId",
+  "dataType": "REFERENCE",
+  "order": 2,
+  "modelId": "64c771c283c24f1379031dc4",
+  "created": "2024-01-27T07:48:51.131Z"
+}

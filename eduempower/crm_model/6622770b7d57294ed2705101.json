@@ -1,0 +1,62 @@
+{
+  "_id": "6622770b7d57294ed2705101",
+  "name": "Eduempower User BankingDetails",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "dmra0xqo5fq",
+      "key": "aadharNumber",
+      "name": "Aadhar Number",
+      "dataType": "LONG",
+      "unique": false
+    },
+    {
+      "$key": "v24dht5b02d",
+      "key": "panNumber",
+      "name": "Pan Number",
+      "dataType": "STRING",
+      "unique": false
+    },
+    {
+      "$key": "6dph30la1hn",
+      "key": "bankName",
+      "name": "Bank Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "iw8360zrcid",
+      "key": "bankBranchAddress",
+      "name": "Bank Branch Address",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "moq72af3qk",
+      "key": "accountHolderName",
+      "name": "Account Holder Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2qw5ff6eo1f",
+      "key": "bankAccountNumber",
+      "name": "Bank Account Number",
+      "unique": false,
+      "dataType": "LONG"
+    },
+    {
+      "$key": "rlmqey07ui",
+      "key": "backIFSCCode",
+      "name": "Back IFSC Code",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3yx5dux3ax4",
+      "key": "uan",
+      "name": "uan",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-19T13:52:11.171Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.581Z"
+}

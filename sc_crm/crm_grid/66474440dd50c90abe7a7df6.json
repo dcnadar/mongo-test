@@ -1,0 +1,89 @@
+{
+  "_id": "66474440dd50c90abe7a7df6",
+  "gridTitle": "ReactGrid CommonProductList6 Section",
+  "gridType": "form",
+  "crmModelId": "6647426add50c90abe7a7df4",
+  "rows": [
+    {
+      "$key": "it1ab9lz4q",
+      "fields": [
+        {
+          "id": "images",
+          "title": "Images",
+          "type": "upload",
+          "multiple": true,
+          "span": 24,
+          "$key": "tx6u00ol99",
+          "add": true,
+          "delete": true,
+          "min": 1,
+          "max": 100
+        },
+        {
+          "$key": "cxu34byqzrv",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ts72eh4cslf",
+          "id": "mrp",
+          "title": "Mrp",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "dg6q5jso6ff",
+          "id": "currencySymbol",
+          "title": "CurrencySymbol",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "r32c4xdirop",
+          "id": "price",
+          "title": "Price",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "lr6vl3ih4br",
+          "id": "enableButton",
+          "title": "Enable Product Button",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "y40q7m8rnl",
+          "id": "buttonAction",
+          "title": "Product Button Action",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "h9x9kplbwat",
+          "id": "addWishlistText",
+          "title": "AddWishlistText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "9s57g8roqbd",
+          "id": "removeWishlistText",
+          "title": "removeWishlistText",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-05-17T11:49:20.451Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "671395785f22ec7ba0264898",
+  "name": "Student Change Password",
+  "path": "/admin/student/password/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "676be0c533897d49a1050c93",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T11:18:16.163Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "studentId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ],
+  "updated": "2025-09-08T10:50:52.704Z"
+}

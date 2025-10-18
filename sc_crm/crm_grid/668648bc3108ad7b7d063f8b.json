@@ -1,0 +1,60 @@
+{
+  "_id": "668648bc3108ad7b7d063f8b",
+  "gridTitle": "NativeGrid GlobalBlogSection1",
+  "gridType": "form",
+  "crmModelId": "668640b03108ad7b7d063f86",
+  "rows": [
+    {
+      "$key": "gqxhesia1q",
+      "fields": [
+        {
+          "id": "header",
+          "title": "Header",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "l81ms1n002n"
+        },
+        {
+          "$key": "w4wkhwacxv",
+          "id": "showDynamicContent",
+          "title": "Show Dynamic Content",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "862qkf4qbe",
+          "id": "dynamicContentFilter",
+          "title": "Dynamic Content Filters",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "showCondition": "return this.showDynamicContent;"
+        },
+        {
+          "$key": "mun716zhnre",
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 6,
+          "validate": "return this.sections.length > 1 ? \"max 1 allowed\" : \"\";",
+          "showCondition": "return !this.showDynamicContent;"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-04T07:01:16.404Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

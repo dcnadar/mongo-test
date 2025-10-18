@@ -1,0 +1,10 @@
+{
+  "_id": "64a67566731eb5d1c0f7a4ac",
+  "name": "Delete Brand",
+  "action": "ENTITY_DELETE",
+  "modelId": "64a4b38d1952437b761aac1c",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/product/brand/delete",
+  "created": "2024-01-27T07:48:44.168Z"
+}

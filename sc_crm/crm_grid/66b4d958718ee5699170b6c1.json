@@ -1,0 +1,61 @@
+{
+  "_id": "66b4d958718ee5699170b6c1",
+  "gridTitle": "Return Order form",
+  "gridType": "form",
+  "crmModelId": "6684e3603108ad7b7d063f47",
+  "rows": [
+    {
+      "$key": "3dkyef3qt9s",
+      "fields": [
+        {
+          "id": "returnData.returnReason",
+          "title": "Reason",
+          "type": "text",
+          "span": 8,
+          "$key": "pa485lsqh4l"
+        },
+        {
+          "$key": "4rjayroz5bh",
+          "id": "returnData.returnAdditionalComment",
+          "o": true,
+          "span": 8,
+          "title": "Additional Comment",
+          "type": "text"
+        },
+        {
+          "$key": "rdzccf6c26",
+          "id": "returnData.returnRequestDate",
+          "title": "Reqest Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "driqb3tec97",
+          "id": "returnData.pickupScheduledDate",
+          "title": "Pickup Scheduled Date",
+          "type": "date",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "ngeugezzh9k",
+          "id": "status",
+          "type": "text",
+          "title": "Status",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-08T14:42:32.450Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "upsertDoc": false
+}

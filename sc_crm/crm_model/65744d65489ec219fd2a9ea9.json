@@ -1,0 +1,33 @@
+{
+  "_id": "65744d65489ec219fd2a9ea9",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "option",
+      "name": "Option Name",
+      "data": {
+        "tagCategory": "productVariantOption"
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "displayName",
+      "name": "Display Name"
+    },
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name"
+    },
+    {
+      "dataType": "STRING",
+      "key": "value",
+      "name": "Value"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Product Variant Option Value",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:52.345Z"
+}

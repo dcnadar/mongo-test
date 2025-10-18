@@ -1,0 +1,15 @@
+{
+  "_id": "6806331a9221c8190c63e87d",
+  "name": "Customer Table",
+  "path": "/admin/customer/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "getAllRecords": false,
+  "sourceId": "680632f39221c8190c63e87c",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-04-21T11:59:22.718Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

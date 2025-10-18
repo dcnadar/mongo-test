@@ -1,0 +1,14 @@
+{
+  "_id": "66ed1c91f4484c4c8e3fde96",
+  "name": "Current user profile details update",
+  "path": "/cuser/profile/details",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66ed1bdbd5507f395e7dbe32",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-20T06:56:17.126Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

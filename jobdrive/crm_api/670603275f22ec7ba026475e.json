@@ -1,0 +1,14 @@
+{
+  "_id": "670603275f22ec7ba026475e",
+  "name": "Edit Package",
+  "path": "/admin/package/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6704d8525f22ec7ba026473a",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-09T04:14:31.035Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:48.409Z"
+}

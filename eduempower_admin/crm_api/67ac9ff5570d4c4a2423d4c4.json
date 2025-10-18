@@ -1,0 +1,13 @@
+{
+  "_id": "67ac9ff5570d4c4a2423d4c4",
+  "name": "All Designation",
+  "path": "/admin/school-setup/designation/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "67ac9bed570d4c4a2423d4b9",
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-12T13:19:49.760Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "67befecc91597b1039f21171",
+  "name": "FileObject",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "p5qzznr4tp",
+      "key": "path",
+      "name": "Path",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xm1s71azl1",
+      "key": "size",
+      "name": "Size",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "jyinn2rgsd",
+      "key": "type",
+      "name": "File Type",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4lqiba3u5df",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-02-26T11:45:16.415Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.281Z"
+}

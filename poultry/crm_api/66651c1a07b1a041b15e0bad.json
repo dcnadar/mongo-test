@@ -1,0 +1,13 @@
+{
+  "_id": "66651c1a07b1a041b15e0bad",
+  "name": "All State",
+  "path": "/admin/location/state/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "666451d407b1a041b15e0ba6",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-09T03:06:02.141Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

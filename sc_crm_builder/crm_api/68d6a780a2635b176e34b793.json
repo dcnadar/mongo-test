@@ -1,0 +1,28 @@
+{
+  "_id": {
+    "$oid": "68d6a780a2635b176e34b793"
+  },
+  "name": "user Access",
+  "path": "/admin/settings/user-access",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "getAllRecords": false,
+  "sourceId": "68d549d750534a672a4cc5da",
+  "innerGridType": "table",
+  "innerSourceId": "68d6a735a2635b176e34b792",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758898048915"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231673214"
+    }
+  }
+}

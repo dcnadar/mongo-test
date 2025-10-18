@@ -1,0 +1,80 @@
+{
+  "_id": "66083ad060d4f873b5fa4f4e",
+  "name": "ReactGrid GlobalCrmApp",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "dwfkoiltd5v",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "k03p5fzdjb",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "83iywebucmv",
+      "name": "Description",
+      "key": "description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "r6llxv4h3n9",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fiqbfi37pkv",
+      "key": "formUrl",
+      "name": "FormUrl",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jgkyl20nfx9",
+      "key": "height",
+      "name": "height",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6kssireb6jn",
+      "key": "buttons",
+      "name": "Buttons",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    },
+    {
+      "$key": "wo55msbgzi",
+      "key": "saveButtonText",
+      "name": "SaveButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4bconh9zgrk",
+      "key": "clearButtonText",
+      "name": "ClearButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vhllju8iehp",
+      "key": "successMessage",
+      "name": "SuccessMessage",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rtujwelnapr",
+      "key": "errorMessage",
+      "name": "ErrorMessage",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-30T16:16:16.690Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

@@ -1,0 +1,77 @@
+{
+  "_id": "6511ee6df9686d32acb3e2d3",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name",
+      "$key": "gx9qyjqvnlb",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "dataType": "INTEGER",
+      "key": "order",
+      "name": "Order",
+      "$key": "bw6negkvakv"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "pageId",
+      "name": "Page",
+      "modelId": "65128242551621212be4a5ac",
+      "$key": "qj8jlz518jn"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "sectionTypeId",
+      "name": "Section Type",
+      "modelId": "65a431d12d653b284338a316",
+      "$key": "jaz7qu3unp8"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "meta",
+      "name": "Meta",
+      "modelId": "65185738581c417ed1d0dd51",
+      "$key": "5vp3nz0mkx7"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "gridInfoId",
+      "name": "Page Section Info",
+      "modelId": "65a94e69004f4d43a5f06c9e",
+      "$key": "1vntn002brg"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "gridData",
+      "name": "GridData",
+      "$key": "5y5g1j3o0aa"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "gridSettings",
+      "name": "Grid Settings",
+      "modelId": "65c07f689c7b5168f8ea683c",
+      "$key": "bk9nrgk764u"
+    },
+    {
+      "$key": "zjvt34y6awa",
+      "key": "styleSettings",
+      "name": "Style Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66b06ebaa436a41ae7ae68ad"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Website Page Section",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "website_page_section",
+  "created": "2024-01-27T07:48:51.479Z",
+  "cardDataTargets": {},
+  "menuTargets": {}
+}

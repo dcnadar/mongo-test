@@ -1,0 +1,105 @@
+{
+  "_id": "6618dc0caee00c70206deb1c",
+  "gridTitle": "Supplier",
+  "gridType": "table",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "columns": [
+    {
+      "$key": "cr9i7gjcbie",
+      "key": "logo",
+      "name": "Profile Pic",
+      "type": "thumb",
+      "sort": false,
+      "width": 100
+    },
+    {
+      "$key": "oq11qflry5e",
+      "key": "firstName",
+      "name": "Full Name",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "kro45stac3f",
+      "name": "User Name",
+      "type": "text",
+      "sort": true,
+      "key": "userName",
+      "width": 150
+    },
+    {
+      "$key": "ifow33mqtke",
+      "key": "email",
+      "name": "Email",
+      "sort": true,
+      "type": "text",
+      "width": 150
+    },
+    {
+      "$key": "56nv6z93ta4",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "t9ntfk9t3ml",
+      "key": "edit",
+      "name": "EDIT",
+      "type": "actions",
+      "sort": false,
+      "actions": [
+        {
+          "$key": "xlo7n18aw2m",
+          "value": "EDIT",
+          "slug": "/admin/account/supplier/update?id=:_id _id"
+        },
+        {
+          "$key": "nelbbzbnrd",
+          "apiUrl": "/admin/account/staff/password/update?user=:_id _id",
+          "gridTitle": "Update Password",
+          "value": "Change Password",
+          "gridType": "popupForm"
+        },
+        {
+          "$key": "wi1jze8eemj",
+          "value": "Delete",
+          "gridMsg": "Are you sure want to delete?",
+          "type": "icon",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.4.actions.1.icon/2024/3/22/upload_18kqyrnmoch-1713782122277.png",
+          "apiUrl": "/admin/account/supplier/delete",
+          "gridType": "confirm"
+        }
+      ],
+      "width": 200
+    }
+  ],
+  "actions": [
+    {
+      "$key": "pbml25rdzqp",
+      "value": "Add Supplier",
+      "slug": "/admin/account/supplier/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "g432pfu447p",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EQUALS": "SUPPLIER"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "lastName"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T07:00:28.587Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

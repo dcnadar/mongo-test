@@ -1,0 +1,15 @@
+{
+  "_id": "682337c79762cb256a8b64d6",
+  "name": "Add staff",
+  "path": "/admin/staff/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "6823378c9762cb256a8b64d3",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-05-13T12:15:03.916Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

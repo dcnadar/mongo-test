@@ -1,0 +1,14 @@
+{
+  "_id": "67333aa602f79267ffc5656a",
+  "key": "setting.department.update",
+  "name": " Department Update",
+  "apisAccess": [
+    "6612a04fa10af254b4b43822",
+    "6612a056a10af254b4b43823"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T11:23:18.690Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.418Z"
+}

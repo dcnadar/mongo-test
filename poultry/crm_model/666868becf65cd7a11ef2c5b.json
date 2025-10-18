@@ -1,0 +1,29 @@
+{
+  "_id": "666868becf65cd7a11ef2c5b",
+  "name": "Profit Net Income",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "daqkacb5naj",
+      "key": "totalCostOfRearing",
+      "name": "Total Cost Of Rearing",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "jlhsoy25k8p",
+      "key": "netIncome",
+      "name": "Net Income ",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "oaet1ojawl",
+      "key": "totalIncome",
+      "name": "Total Income",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T15:09:50.775Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "compoundUniqueFields": []
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "671cf21a5f22ec7ba0264a5b",
+  "name": "FrontOfficeOngoing",
+  "path": "/admin/front-office/ongoing/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "671cf1565f22ec7ba0264a58",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-26T13:43:54.082Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:55.346Z"
+}

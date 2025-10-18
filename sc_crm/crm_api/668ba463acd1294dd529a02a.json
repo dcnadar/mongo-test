@@ -1,0 +1,14 @@
+{
+  "_id": "668ba463acd1294dd529a02a",
+  "name": "Add Order",
+  "path": "/admin/order/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "668b7d233eaa6c40dacfe533",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T08:33:39.692Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

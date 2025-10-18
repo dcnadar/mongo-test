@@ -1,0 +1,103 @@
+{
+  "_id": "668e37e3531ed762273ebc2c",
+  "gridTitle": "OrderInvoice",
+  "gridType": "form",
+  "crmModelId": "668d18a2531ed762273ebc09",
+  "rows": [
+    {
+      "$key": "rcoetnql0to",
+      "fields": [
+        {
+          "$key": "y2gjbsuk8yl",
+          "id": "invoiceNo",
+          "title": "Invoice No",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "p5vnsckmop8",
+          "id": "totalAmount",
+          "title": "Total Amount",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "4cnese0xzfp",
+          "id": "taxableAmount",
+          "title": "Taxable Amount",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "qxnfkb08ub",
+          "id": "date",
+          "title": "Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "80rm0vrozvj",
+          "id": "taxAmount",
+          "title": "Tax",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "dg7th0nil3",
+          "id": "gst",
+          "title": "Gst",
+          "span": 24,
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "hs1i5m9wdj",
+          "id": "items",
+          "title": "Items",
+          "span": 24,
+          "type": "form_array",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "add": true,
+          "delete": true,
+          "min": 1,
+          "max": 0
+        },
+        {
+          "$key": "ukg9a3dkm7",
+          "id": "billerDetail",
+          "title": "Biller Detail",
+          "span": 24,
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "g6ftjht2t09",
+          "id": "buyerDetail",
+          "title": "Buyer Detail",
+          "span": 24,
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-10T07:27:31.933Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

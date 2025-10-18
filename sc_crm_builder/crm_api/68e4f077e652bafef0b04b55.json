@@ -1,0 +1,32 @@
+{
+  "_id": {
+    "$oid": "68e4f077e652bafef0b04b55"
+  },
+  "name": "Details Index",
+  "path": "/admin/entity/details",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "65e5b5d141f4f9dcaa63ac80",
+  "fetchDocWithoutId": false,
+  "gridParams": [
+    {
+      "key": "entityId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1759834231718"
+    }
+  },
+  "createdBy": "68e09e923a6ade54590da550",
+  "updated": {
+    "$date": {
+      "$numberLong": "1760538696399"
+    }
+  }
+}

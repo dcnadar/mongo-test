@@ -1,0 +1,23 @@
+{
+  "_id": "661a00d5aee00c70206deb54",
+  "name": "Eduempower Incharge",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "unawj1elpon",
+      "name": "Staff Logo",
+      "dataType": "STRING",
+      "key": "logo"
+    },
+    {
+      "$key": "q82sv6s2gfl",
+      "key": "name",
+      "name": "Staff Name",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-13T03:49:41.840Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.548Z"
+}

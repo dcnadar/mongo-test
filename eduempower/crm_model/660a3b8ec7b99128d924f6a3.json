@@ -1,0 +1,74 @@
+{
+  "_id": "660a3b8ec7b99128d924f6a3",
+  "name": "Eduempower SchoolRoom",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_school_room",
+  "properties": [
+    {
+      "$key": "4cvkotkjhc2",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9w63ax4ubap",
+      "key": "builderId",
+      "name": "Builder Id",
+      "dataType": "REFERENCE",
+      "modelId": "66098350c7b99128d924f674"
+    },
+    {
+      "$key": "5f1p05ogae9",
+      "key": "floorId",
+      "name": "Floor Id",
+      "dataType": "REFERENCE",
+      "modelId": "6609849cc7b99128d924f675"
+    },
+    {
+      "$key": "rds8vjmb90k",
+      "key": "roomType",
+      "name": "Room Type",
+      "dataType": "REFERENCE",
+      "modelId": "660a3913c7b99128d924f6a2"
+    },
+    {
+      "$key": "eyqbznexzhh",
+      "key": "roomSubType",
+      "name": "Room Sub Type",
+      "dataType": "REFERENCE",
+      "modelId": "660a3913c7b99128d924f6a2"
+    },
+    {
+      "$key": "9h0xvdm4rz4",
+      "key": "classSectionId",
+      "name": "Class Section Id",
+      "dataType": "REFERENCE",
+      "modelId": "660698f6eea36066ca04cbce"
+    },
+    {
+      "$key": "581p2zwvwcr",
+      "key": "capacity",
+      "name": "Capacity",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "yxvilg1xc7",
+      "key": "roomAreaSize",
+      "name": "Room Area Size",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nv97ouen6og",
+      "key": "furnitureType",
+      "name": "Furniture Type",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-01T04:43:58.225Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.010Z"
+}

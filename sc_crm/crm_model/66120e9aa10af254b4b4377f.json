@@ -1,0 +1,63 @@
+{
+  "_id": "66120e9aa10af254b4b4377f",
+  "name": "ReactGrid GlobalHeader2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "fk54n16j6qo",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING",
+      "data": {
+        "options": []
+      }
+    },
+    {
+      "$key": "mtmszxxc0v",
+      "key": "svg",
+      "name": "Svg",
+      "dataType": "STRING",
+      "data": {
+        "options": []
+      }
+    },
+    {
+      "$key": "iffpmjoqwk",
+      "key": "mainMenu",
+      "name": "MainMenu",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66120d95a10af254b4b4377e"
+    },
+    {
+      "$key": "vcq9zf5wxk",
+      "key": "rightButtons",
+      "name": "RightButtons",
+      "unique": false,
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    },
+    {
+      "$key": "nh4f3wg6jen",
+      "key": "useSvg",
+      "name": "Use SVG",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "trd48kfsny",
+      "key": "isTransparent",
+      "name": "isTransparent",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "awo6m11dvhk",
+      "key": "isSticky",
+      "name": "isSticky",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T03:10:18.447Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

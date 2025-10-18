@@ -1,0 +1,28 @@
+{
+  "_id": "66822d5a3108ad7b7d063ec0",
+  "name": "NativeGrid GlobalFeatureSection Header",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "2r0gkni32eb",
+      "name": "Heading",
+      "key": "heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "km3wvbp6snr",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yksjn269bl",
+      "key": "description",
+      "name": "Descriptions",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T04:15:22.664Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

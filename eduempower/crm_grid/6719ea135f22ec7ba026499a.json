@@ -1,0 +1,118 @@
+{
+  "_id": "6719ea135f22ec7ba026499a",
+  "gridTitle": "Eduempower Alerts",
+  "gridType": "form",
+  "crmModelId": "6719e6445f22ec7ba0264994",
+  "rows": [
+    {
+      "$key": "i0cyl68wz3",
+      "fields": [
+        {
+          "id": "source",
+          "title": "Source",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "d8orfkzi9wk"
+        },
+        {
+          "$key": "xv49eznzz6",
+          "id": "banner",
+          "title": "Banner",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "s8g298dq9wj",
+          "title": "Url",
+          "id": "url",
+          "type": "url",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "4wdapazgv4k",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "fywq5b2vcv9",
+          "id": "type",
+          "title": "Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "e8xtv3qrk2",
+          "id": "targetUsers",
+          "title": "Target User",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "zaeyt9ji1j",
+          "id": "alertFor",
+          "title": "Alert Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "w1slp8glrds",
+          "id": "classes",
+          "title": "Class",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "showCondition": "return this .alertFor==='CLASS_WISE'"
+        },
+        {
+          "$key": "n2iblbeb4ml",
+          "id": "studentId",
+          "title": "Student",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "showCondition": "return this .alertFor==='STUDENT_WISE'",
+          "o": true
+        },
+        {
+          "$key": "zzg8ygotsg",
+          "id": "publishDate",
+          "title": "Publish Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "nu0o4n0ctx8",
+          "id": "closeDate",
+          "title": "Close Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "du5zm839c7d",
+          "id": "platform",
+          "title": "Platform",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T06:32:51.689Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/circulars&news/alerts/all",
+  "updated": "2025-09-08T10:51:02.514Z"
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "67c40c90f238c33fa9e18b74",
+  "name": "Staff Import",
+  "path": "/admin/staff/import",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "getAllRecords": false,
+  "sourceId": "67c40023f238c33fa9e18b73",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-02T07:45:20.016Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:57.867Z"
+}

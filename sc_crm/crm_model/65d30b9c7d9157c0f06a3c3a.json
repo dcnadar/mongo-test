@@ -1,0 +1,31 @@
+{
+  "_id": "65d30b9c7d9157c0f06a3c3a",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "mobileImage",
+      "name": "Mobile Image URL"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image URL"
+    },
+    {
+      "name": "Enable Button",
+      "key": "enableButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalFullImages Section",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-19T08:04:44.028Z"
+}

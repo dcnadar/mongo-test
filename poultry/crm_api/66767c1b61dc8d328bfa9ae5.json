@@ -1,0 +1,15 @@
+{
+  "_id": "66767c1b61dc8d328bfa9ae5",
+  "name": "All Roof Type",
+  "path": "/admin/farmer/roof-type/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "6662fdd407b1a041b15e0b96",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-22T07:24:11.607Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "innerGridType": "table",
+  "innerSourceId": "66767c1361dc8d328bfa9ae4"
+}

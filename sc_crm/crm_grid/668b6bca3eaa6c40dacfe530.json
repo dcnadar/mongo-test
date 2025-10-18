@@ -1,0 +1,24 @@
+{
+  "_id": "668b6bca3eaa6c40dacfe530",
+  "gridTitle": "NativeGrid GlobalSelectAddress",
+  "gridType": "form",
+  "crmModelId": "668b6b923eaa6c40dacfe52f",
+  "rows": [
+    {
+      "$key": "xmxp72e8uql",
+      "fields": [
+        {
+          "id": "headerTitle",
+          "title": "HeaderTitle",
+          "type": "text",
+          "span": 24,
+          "$key": "h6zwxdtdo1v"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T04:32:10.461Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

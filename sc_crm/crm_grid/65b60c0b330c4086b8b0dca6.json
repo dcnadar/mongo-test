@@ -1,0 +1,81 @@
+{
+  "_id": "65b60c0b330c4086b8b0dca6",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Header",
+          "id": "header",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "65b53659f7815fa135bd04dc"
+          },
+          "hint": "Header details including heading and description",
+          "$key": "owg9767vp9"
+        },
+        {
+          "$key": "ll4hn8uqrnc",
+          "id": "showDynamicContent",
+          "title": "Show Dynamic Content",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "knzv2dabdoo",
+          "id": "dynamicContentFilter",
+          "title": "Dynamic Content Filters",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "showCondition": "return this.showDynamicContent;"
+        },
+        {
+          "index": 1,
+          "title": "Sections",
+          "id": "sections",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 10,
+          "countTitle": "No Section Added",
+          "add": true,
+          "delete": true,
+          "hint": "Collection of sections with blog cards",
+          "$key": "4gi4q2hpls",
+          "showCondition": "return !this.showDynamicContent;"
+        },
+        {
+          "$key": "axdge3v84h",
+          "id": "showFilter",
+          "title": "ShowFilter",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "qgykalt1meg",
+          "id": "showSearch",
+          "title": "ShowSearch",
+          "type": "bool",
+          "span": 8
+        }
+      ],
+      "$key": "zqawosiat1"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b60b0255f8ecfdc9199cbe",
+  "gridTitle": "ReactGrid GlobalBlogCards1",
+  "created": "2024-01-28T08:10:51.010Z",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

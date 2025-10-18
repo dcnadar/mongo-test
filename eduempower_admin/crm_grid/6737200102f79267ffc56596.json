@@ -1,0 +1,26 @@
+{
+  "_id": "6737200102f79267ffc56596",
+  "gridTitle": "Account Selection",
+  "gridType": "account_filter",
+  "crmModelId": "67371ca902f79267ffc56593",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "accountId",
+          "index": 0,
+          "o": false,
+          "span": 8,
+          "title": "Account",
+          "type": "list",
+          "$key": "kdbw9bbdcsp",
+          "showCondition": "return false;"
+        }
+      ],
+      "$key": "rcbw4k5h3m8"
+    }
+  ],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-15T10:18:41.680Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

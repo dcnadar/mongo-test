@@ -1,0 +1,20 @@
+{
+  "_id": "6713b9525f22ec7ba026489d",
+  "name": "Add Previous School",
+  "path": "/admin/student/previous-school/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "67138bfd5f22ec7ba0264892",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T13:51:14.783Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "studentId",
+      "required": true
+    }
+  ],
+  "updated": "2025-09-08T10:50:52.801Z"
+}

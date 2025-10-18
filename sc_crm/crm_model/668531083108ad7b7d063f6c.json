@@ -1,0 +1,34 @@
+{
+  "_id": "668531083108ad7b7d063f6c",
+  "name": "NativeGrid GlobalCategoryWithOverlay section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "q5jqx2tac4e",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ao61gzsgu4",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "zl6w5yskp7",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1put5uehoee",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T11:07:52.465Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

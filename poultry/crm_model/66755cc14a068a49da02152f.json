@@ -1,0 +1,218 @@
+{
+  "_id": "66755cc14a068a49da02152f",
+  "name": "Farmer Farm Status",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "i2n4gtzve5d",
+      "key": "farmDimension",
+      "name": "Farm Dimension",
+      "dataType": "LIST_OF",
+      "listType": "DOUBLE"
+    },
+    {
+      "$key": "icbrcd3wdgm",
+      "key": "directionOfPoultryShed",
+      "name": "Direction of Poultry Shed",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "afuf8kwgqzh",
+            "key": "EAST-WEST",
+            "value": "East-West"
+          },
+          {
+            "$key": "e5ugdgzdx9r",
+            "key": "NORTH-SOUTH",
+            "value": "North-South"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "bkgv0ykrxnb",
+      "key": "crossVentilation",
+      "name": "Cross Ventilation",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "2bdc9lidmrt",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "1rql9yvhalz",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "2k8f67nvavi",
+      "key": "typeOfConstruction",
+      "name": "Type of Construction",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "uy9xip6pn2",
+            "value": "Temporary",
+            "key": "TEMPORARY"
+          },
+          {
+            "$key": "g1m7ugz1nhs",
+            "value": "Permanent",
+            "key": "PERMANENT"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "3pj6uxvsmlc",
+      "key": "separateBroodingSpace",
+      "name": "Separate Brooding Space",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "zosgvpc5rp",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "kf5a0bfiyu",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "zyismsvo4sm",
+      "key": "whetherRodentProof",
+      "name": "Whether Rodent Proof",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "o1k9z14fit8",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "a46r8nr2jw9",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "eckaz97c74s",
+      "key": "maintainFootBath",
+      "name": "Maintain Foot Bath",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ldmsaacvzpg",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "kpdhe82gi5",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "pbqnyb03oe",
+      "key": "roofType",
+      "name": "Roof Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "wyt2ysxg68h",
+            "key": "ASBESTOS",
+            "value": "Asbestos"
+          },
+          {
+            "$key": "8wzbubrtkej",
+            "key": "GC_SHEET",
+            "value": "GC Sheet"
+          },
+          {
+            "$key": "k64n2nr1b4s",
+            "key": "BAMBOO_THATCHED",
+            "value": "Bamboo Thatched"
+          },
+          {
+            "$key": "d1di30mju7r",
+            "key": "ANY_OTHER",
+            "value": "Any Other"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "pxnou5ms5ff",
+      "key": "customRoofType",
+      "name": "Custom Roof Type",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y1u22baa4f",
+      "key": "floorType",
+      "name": "Floor Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "6qs6yovazn7",
+            "key": "KACCHA",
+            "value": "Kaccha"
+          },
+          {
+            "$key": "fw4q2twt72d",
+            "key": "PAKKA",
+            "value": "Pakka"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "qalihfz6gzp",
+      "key": "sideWall",
+      "name": "Side Wall",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "gkkwvfd66qt",
+            "key": "PAKKA",
+            "value": "Pakka"
+          },
+          {
+            "$key": "ka2x3h5zym",
+            "value": "Temporary",
+            "key": "TEMPORARY"
+          },
+          {
+            "$key": "jv8jbnbmy4",
+            "key": "MIXED",
+            "value": "Mixed"
+          }
+        ]
+      }
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-21T10:58:09.684Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

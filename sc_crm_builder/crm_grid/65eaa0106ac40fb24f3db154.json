@@ -1,0 +1,83 @@
+{
+  "_id": {
+    "$oid": "65eaa0106ac40fb24f3db154"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Field Name",
+          "id": "key",
+          "type": "text",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": false,
+          "hint": "Field name of form row",
+          "$key": "wr8yegdmi2m"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Type",
+          "id": "meta.type",
+          "type": "list",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": false,
+          "hint": "Type of form row",
+          "$key": "cmi0i2l6p6"
+        },
+        {
+          "$key": "1zs12n8fv4s",
+          "id": "meta.apiType",
+          "title": "API Type",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "4"
+          },
+          "showCondition": "return this.meta && this.meta.type === 'url';"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Function or API URL",
+          "id": "value",
+          "type": "text",
+          "span": {
+            "$numberInt": "10"
+          },
+          "o": false,
+          "hint": "<p>Define a function that return a value<br><br><em>OR</em><br><br>Set POST API that accept form data in post body</p>\n",
+          "$key": "yvj53q7lutb"
+        }
+      ],
+      "$key": "3ozoqrt0cmx"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e7bd3ada2db33603c1698b",
+  "gridTitle": "Crm Grid FormRow FormField OnChangeCondition",
+  "created": {
+    "$date": {
+      "$numberLong": "1709875216568"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150581"
+    }
+  }
+}

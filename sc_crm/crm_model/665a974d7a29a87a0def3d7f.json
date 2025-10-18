@@ -1,0 +1,46 @@
+{
+  "_id": "665a974d7a29a87a0def3d7f",
+  "name": "Product Variant Table",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "544q3h677zh",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9otyjzr6vf8",
+      "key": "mrp",
+      "name": "MRP",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "5w2zv5jp70t",
+      "key": "price",
+      "name": "Price",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "qzkpcdfsvu",
+      "key": "available",
+      "name": "Available",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "dcxb509pg7j",
+      "key": "onHand",
+      "name": "On Hand",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "tuqe0canasg",
+      "key": "sku",
+      "name": "SKU",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-01T03:36:45.703Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

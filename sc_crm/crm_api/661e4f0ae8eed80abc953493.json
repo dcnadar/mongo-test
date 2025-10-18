@@ -1,0 +1,12 @@
+{
+  "_id": "661e4f0ae8eed80abc953493",
+  "name": "Blog Content ",
+  "path": "[OLD]/admin/website/blog/content/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "661e3052e8eed80abc953485",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-16T10:12:26.884Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": []
+}

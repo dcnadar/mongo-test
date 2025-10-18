@@ -1,0 +1,76 @@
+{
+  "_id": "667d07e974a25c4c696adb37",
+  "gridTitle": "Batch Input",
+  "gridType": "form",
+  "crmModelId": "667d09db74a25c4c696adb38",
+  "rows": [
+    {
+      "$key": "mx21wb82cso",
+      "fields": [
+        {
+          "$key": "dfm83dnp1a4",
+          "id": "vaccination",
+          "title": "Vaccination",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "wufji7yndu8",
+          "id": "feedConsumed",
+          "title": "Feed Consumed",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonAfter": "KG"
+          }
+        },
+        {
+          "$key": "tfxc1b3trx",
+          "id": "feedCost",
+          "title": "Feed Cost",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "laur7tmwup",
+          "id": "mvCost",
+          "title": "Medicine, Vaccine cost",
+          "span": 8,
+          "type": "number",
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "y029wgj05fa",
+          "id": "aeoCost",
+          "title": "Admin, Electricioty & other misc. cost",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "xtdl0jg4f6",
+          "id": "TCost",
+          "title": "Transportation cost",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        }
+      ],
+      "span": 0
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-27T06:34:17.088Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

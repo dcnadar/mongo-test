@@ -1,0 +1,33 @@
+{
+  "_id": "6662abef07b1a041b15e0b54",
+  "name": "District",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "poultry_district",
+  "properties": [
+    {
+      "$key": "hhf8emwb4pj",
+      "key": "stateId",
+      "name": "State",
+      "dataType": "REFERENCE",
+      "modelId": "6664474607b1a041b15e0b9e"
+    },
+    {
+      "$key": "8aarlpl7snx",
+      "key": "districtName",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true,
+        "primary": true
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "districtName"
+  },
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T06:42:55.192Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

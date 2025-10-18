@@ -1,0 +1,24 @@
+{
+  "_id": "65d4850de9f4dc1ab2f2a1a6",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-02-20T10:55:09.131Z",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Schema Object",
+          "id": "schema",
+          "type": "textarea",
+          "span": 24,
+          "o": false
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65d4850ce9f4dc1ab2f2a1a4",
+  "gridTitle": "Website CommonSEO Schema"
+}

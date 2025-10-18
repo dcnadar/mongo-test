@@ -1,0 +1,97 @@
+{
+    "gridType": "table",
+    "status": "ACTIVE",
+    "accountId": "65d0d41b0d1f40b74ff1bd92",
+    "crmModelId": "65ca41bab06d763b61648eb2",
+    "gridTitle": "NiralaFoundation Student",
+    "apiUrl": "/admin/students",
+    "columns": [
+        {
+            "index": 0,
+            "name": "Exam",
+            "key": "exam",
+            "type": "card",
+            "sort": false
+        },
+        {
+            "index": 0,
+            "name": "Photo",
+            "key": "photoUrl",
+            "type": "thumb",
+            "sort": false
+        },
+        {
+            "index": 1,
+            "name": "Name",
+            "key": "name",
+            "type": "text",
+            "sort": true
+        },
+        {
+            "index": 2,
+            "name": "Father's Name",
+            "key": "fatherName",
+            "type": "text",
+            "sort": true
+        },
+        {
+            "index": 3,
+            "name": "Class",
+            "key": "class",
+            "type": "text",
+            "sort": true
+        },
+        {
+            "index": 4,
+            "name": "School Name",
+            "key": "schoolName",
+            "type": "text",
+            "sort": true
+        },
+        {
+            "index": 5,
+            "name": "Mobile No",
+            "key": "mobileNo",
+            "type": "text",
+            "sort": true
+        },
+        {
+            "index": 6,
+            "name": "Email ID",
+            "key": "emailId",
+            "type": "text",
+            "sort": true
+        },
+        {
+            "index": 7,
+            "name": "Edit",
+            "key": "edit",
+            "type": "actions",
+            "show": true,
+            "align": "right",
+            "sort": false,
+            "width": 100,
+            "actions": [
+                {
+                    "value": "Print Admit Card",
+                    "type": "anchor"
+                },
+                {
+                    "value": "Edit",
+                    "slug": "/admin/students/update?id=:_id _id",
+                    "type": "icon_button",
+                    "icon": "https://cdn-icons-png.flaticon.com/512/10015/10015359.png"
+                }
+            ]
+        }
+    ],
+    "createButton": {
+        "value": "Add Student",
+        "slug": "/admin/students/add"
+    },
+    "search": {
+        "placeHolder": "Search by Student name or School"
+    },
+    "created": "2024-02-12T16:05:14.810Z",
+    "_id": "65ca41bab06d763b61648eb3"
+}

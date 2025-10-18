@@ -1,0 +1,18 @@
+{
+  "_id": "68a84bb0fca26b7dd1cad8ae",
+  "name": "Display Preferences",
+  "path": "/admin/settings/displaypreferences",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "getAllRecords": false,
+  "sourceId": "68a846f9fca26b7dd1cad8aa",
+  "innerGridType": "form",
+  "innerSourceId": "68a82d4a3b1a69052f99ec05",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-22T10:51:28.784Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:50.580Z"
+}

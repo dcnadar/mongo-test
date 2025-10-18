@@ -1,0 +1,47 @@
+{
+  "_id": "66ab601be287100717693d54",
+  "gridTitle": "WebsiteThemeSettings ButtonSettings",
+  "gridType": "form",
+  "crmModelId": "661679a02742031ccaab99cf",
+  "rows": [
+    {
+      "$key": "hku6vf8jag8",
+      "fields": [
+        {
+          "$key": "5dx98394c0l",
+          "id": "websiteThemeSettings.buttonSetting.primaryButton",
+          "title": "Primary Button",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "ewjpuqstumi",
+          "id": "websiteThemeSettings.buttonSetting.secondaryButton",
+          "title": "Secondary Button",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "jiq98rt0t3c",
+          "id": "websiteThemeSettings.buttonSetting.linkTextColor",
+          "title": "Link Text Color",
+          "type": "color",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T10:14:51.281Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "upsertDoc": true
+}

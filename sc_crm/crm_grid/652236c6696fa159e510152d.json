@@ -1,0 +1,85 @@
+{
+  "_id": "652236c6696fa159e510152d",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2023-10-08T00:00:00.000Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Background Image",
+          "id": "bgImage",
+          "type": "upload",
+          "span": 12,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 12,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 12,
+          "o": true
+        },
+        {
+          "index": 3,
+          "title": "Video Link",
+          "id": "videoLink",
+          "type": "text",
+          "span": 12,
+          "o": true
+        },
+        {
+          "index": 4,
+          "title": "Description",
+          "id": "description",
+          "type": "text",
+          "span": 12,
+          "o": false
+        },
+        {
+          "index": 5,
+          "title": "Enable Button",
+          "id": "enableButton",
+          "type": "bool",
+          "span": 12,
+          "o": false
+        },
+        {
+          "index": 6,
+          "title": "Button Text",
+          "id": "buttonText",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "showCondition": "return this.enableButton;"
+        },
+        {
+          "index": 7,
+          "title": "Button Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 12,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "showCondition": "return this.enableButton;"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "652232e2696fa159e5101527",
+  "gridTitle": "ReactGrid Foodio Home Crousal Section Form"
+}

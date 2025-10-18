@@ -1,0 +1,35 @@
+{
+  "_id": "68ad4bdd077fdcc858b135c1",
+  "name": "Student Projects",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "c6rbzeol1l4",
+      "key": "projectTitle",
+      "name": "Project Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "f1iewqnwwzg",
+      "key": "links",
+      "name": "Links (GitHub, demos, portfolio)",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0svauelopnhf",
+      "key": "technologies",
+      "name": "Technologies / Tools Used",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "zgvtz18hxs",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T05:53:33.060Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:55.974Z"
+}

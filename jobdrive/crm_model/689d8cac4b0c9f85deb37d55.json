@@ -1,0 +1,69 @@
+{
+  "_id": "689d8cac4b0c9f85deb37d55",
+  "name": "AssessmentBasicInformation",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "roewm5xzmnb",
+      "key": "assessmenttitle",
+      "name": "Assessment Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yjgb3xu9yli",
+      "key": "assessmenttype",
+      "name": "Assessment Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "c5im4zgzryq",
+            "key": "APTITUDE",
+            "value": "Aptitude"
+          },
+          {
+            "$key": "idzhy9lp1u9",
+            "value": "Technical",
+            "key": "TECHINICAL"
+          },
+          {
+            "$key": "x243vfvjh4",
+            "value": "Personality",
+            "key": "PERSONALITY"
+          },
+          {
+            "$key": "ceo2chps1wv",
+            "value": "Coding",
+            "key": "CODING"
+          },
+          {
+            "$key": "se52dyx8j2",
+            "value": "Group Discussion",
+            "key": "GROUP_DISCUSSION"
+          },
+          {
+            "$key": "j7jxvtccrbf",
+            "value": "Interview",
+            "key": "INTERVIEW"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "09mbwer99y0j",
+      "key": "description",
+      "name": "description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dclln1f0p0s",
+      "name": "instructions (Ontional)",
+      "key": "instructions",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T07:13:48.788Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.116Z"
+}

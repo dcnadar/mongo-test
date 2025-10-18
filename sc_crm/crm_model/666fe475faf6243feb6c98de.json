@@ -1,0 +1,68 @@
+{
+  "_id": "666fe475faf6243feb6c98de",
+  "name": "App Screen Section",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "app_screen_section",
+  "properties": [
+    {
+      "$key": "xp0g00hw2za",
+      "key": "screenId",
+      "name": "Screen Id",
+      "dataType": "REFERENCE",
+      "modelId": "666fddaafaf6243feb6c98d1"
+    },
+    {
+      "$key": "h9a12h1rh5v",
+      "key": "order",
+      "name": "Order",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "2b9gt8cybwz",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "eyzvmvia7l",
+      "key": "sectionTypeId",
+      "name": "Section Type",
+      "dataType": "REFERENCE",
+      "modelId": "66718a1cfaf6243feb6c9990"
+    },
+    {
+      "$key": "cthdoc2b0b6",
+      "key": "meta",
+      "name": "Meta",
+      "dataType": "INNER_MODEL",
+      "modelId": "65185738581c417ed1d0dd51"
+    },
+    {
+      "$key": "eiy6oe2hpd5",
+      "key": "gridInfoId",
+      "name": "Page Section Info",
+      "dataType": "INNER_MODEL",
+      "modelId": "65a94e69004f4d43a5f06c9e"
+    },
+    {
+      "$key": "swa4lhuni9q",
+      "key": "gridData",
+      "name": "GridData",
+      "dataType": "INNER_MODEL"
+    },
+    {
+      "$key": "6o18rp9h5u8",
+      "key": "gridSettings",
+      "name": "Grid Settings",
+      "dataType": "INNER_MODEL",
+      "modelId": "65c07f689c7b5168f8ea683c"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "compoundUniqueFields": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-17T07:23:33.503Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

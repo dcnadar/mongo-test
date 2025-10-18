@@ -1,0 +1,39 @@
+{
+  "_id": "66864b583108ad7b7d063f8e",
+  "gridTitle": "NativeGrid GlobalBlogSection1 user",
+  "gridType": "form",
+  "crmModelId": "6686483f3108ad7b7d063f8a",
+  "rows": [
+    {
+      "$key": "dbqkptoiw9q",
+      "fields": [
+        {
+          "id": "thumb",
+          "title": "Thumb",
+          "type": "upload",
+          "span": 8,
+          "$key": "z8kbrufjh4p",
+          "multiple": false
+        },
+        {
+          "$key": "35h7ardt6t",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "vu52lu6w6qr",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 17
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-04T07:12:24.539Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

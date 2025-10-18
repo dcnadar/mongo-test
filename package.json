@@ -1,0 +1,32 @@
+{
+  "name": "sc-crm-mongo-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "import": "node save_all_json_to_mongo.js",
+    "import:eduempower": "FOLDER_NAME=eduempower node save_all_json_to_mongo.js",
+    "import:sc_crm": "FOLDER_NAME=sc_crm node save_all_json_to_mongo.js",
+    "import:radyfy": "FOLDER_NAME=radyfy_entity node save_all_json_to_mongo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlayTechServices/sc-crm-mongo-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlayTechServices/sc-crm-mongo-data/issues"
+  },
+  "homepage": "https://github.com/PlayTechServices/sc-crm-mongo-data#readme",
+  "dependencies": {
+    "@mongodb-js/zstd": "^1.2.2",
+    "aws-sdk": "^2.1692.0",
+    "bson": "^6.8.0",
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.3.0",
+    "simple-git": "^3.22.0"
+  }
+}

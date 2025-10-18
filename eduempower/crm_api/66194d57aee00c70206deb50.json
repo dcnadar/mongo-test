@@ -1,0 +1,21 @@
+{
+  "_id": "66194d57aee00c70206deb50",
+  "name": "Edit Staff",
+  "path": "/admin/staff/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cd365c7b99128d924f720",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-12T15:03:51.966Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "ecomApiMappings": [],
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ],
+  "updated": "2025-09-08T10:50:51.215Z"
+}

@@ -1,0 +1,17 @@
+{
+  "_id": "67d7f3495ea132199e60a84c",
+  "key": " shop_manager",
+  "name": "Shop Manager Api Access",
+  "apisAccess": [
+    "64a7cdc2723fb912796f149e",
+    "64a7cdc2723fb912796f149f",
+    "668bc9d2531ed762273ebbfa",
+    "668bc9c5531ed762273ebbf9",
+    "64a7cdc2723fb912796f14a4",
+    "64a7cdc2723fb912796f14a0",
+    "64a7cdc2723fb912796f14a1"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-17T10:02:49.140Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

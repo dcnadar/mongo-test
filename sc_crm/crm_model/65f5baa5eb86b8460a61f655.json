@@ -1,0 +1,27 @@
+{
+  "_id": "65f5baa5eb86b8460a61f655",
+  "name": "ReactGrid GlobalStatsSection3 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "dateTime",
+      "name": "DateTime",
+      "dataType": "STRING",
+      "$key": "stq26q74umo"
+    },
+    {
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING",
+      "$key": "rrlilqzft7"
+    },
+    {
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING",
+      "$key": "tn1vb7n0reo"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-16T15:28:37.116Z"
+}

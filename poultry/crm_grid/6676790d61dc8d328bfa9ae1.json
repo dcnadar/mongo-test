@@ -1,0 +1,59 @@
+{
+  "_id": "6676790d61dc8d328bfa9ae1",
+  "gridTitle": "Roof Type",
+  "gridType": "form",
+  "crmModelId": "6676789261dc8d328bfa9ae0",
+  "rows": [
+    {
+      "$key": "ozvc1ei7d6m",
+      "fields": [
+        {
+          "$key": "xq9kk99ygsi",
+          "id": "date",
+          "title": "Year",
+          "type": "date",
+          "span": 12,
+          "meta": {
+            "datePickerType": "year"
+          }
+        },
+        {
+          "$key": "g556ex3soo7",
+          "id": "roofType",
+          "title": "Roof Type",
+          "type": "list",
+          "span": 12,
+          "multiple": false
+        },
+        {
+          "$key": "zes2zj158k8",
+          "id": "customRoofType",
+          "title": "Custom Roof Type",
+          "type": "text",
+          "span": 12,
+          "showCondition": "return this.roofType === 'ANY_OTHER';"
+        },
+        {
+          "$key": "vytnqmeik4",
+          "title": "Farmer Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "id": "farmerId"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-22T07:11:09.093Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "farmerId",
+      "required": true
+    }
+  ]
+}

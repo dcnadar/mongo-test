@@ -1,0 +1,27 @@
+{
+  "_id": {
+    "$oid": "68e4f0b4e652bafef0b04b56"
+  },
+  "name": "Details Index",
+  "path": "/admin/entity/details",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "getAllRecords": false,
+  "sourceId": "68e4d56de652bafef0b04b4f",
+  "innerGridType": "form",
+  "innerSourceId": "65e5b5d141f4f9dcaa63ac80",
+  "fetchDocWithoutId": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1759834292864"
+    }
+  },
+  "createdBy": "68e09e923a6ade54590da550",
+  "updated": {
+    "$date": {
+      "$numberLong": "1760538696448"
+    }
+  }
+}

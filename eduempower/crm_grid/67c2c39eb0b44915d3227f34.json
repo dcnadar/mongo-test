@@ -1,0 +1,82 @@
+{
+  "_id": "67c2c39eb0b44915d3227f34",
+  "gridTitle": "Eduempower Fee Challan",
+  "gridType": "table",
+  "crmModelId": "67c2b9feb0b44915d3227f2d",
+  "columns": [
+    {
+      "$key": "e1k09lrgd2q",
+      "key": "userId",
+      "name": "Student",
+      "sort": true,
+      "type": "card"
+    },
+    {
+      "$key": "9mhmlug4rk6",
+      "key": "fromDate",
+      "name": "From Date",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "m5uzsuqrl3h",
+      "key": "toDate",
+      "name": "To Date",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "ug0moir3c9e",
+      "key": "validityDate",
+      "name": "Validity Date",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "vmw3h8xi1ac",
+      "key": "challanDetails",
+      "name": "Challan No.",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "6p6jw6rz7zx",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "4ozo7orf0yr",
+          "gridTitle": "Download",
+          "value": "Download",
+          "submitType": "download"
+        },
+        {
+          "$key": "ddqrfwuav5r",
+          "gridTitle": "Collect Challan",
+          "value": "Collect Challan",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "mh33myu2z6e",
+      "value": "Generate Challan",
+      "gridTitle": "Generate Challan",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/fee/generateFeeChallan/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-01T08:21:50.955Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:04.300Z"
+}

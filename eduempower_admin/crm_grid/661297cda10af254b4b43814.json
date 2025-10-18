@@ -1,0 +1,56 @@
+{
+  "_id": "661297cda10af254b4b43814",
+  "gridTitle": "Eduempower ExaminationBoard",
+  "gridType": "table",
+  "crmModelId": "6612901ca10af254b4b4380e",
+  "columns": [
+    {
+      "$key": "gkhv9ayvayf",
+      "key": "key",
+      "name": "Key",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "idfx7p6n2h8",
+      "key": "value",
+      "name": "Value",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "h84w4wvr9c7",
+      "width": 200,
+      "sort": false,
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "dmyvqvfrwaj",
+          "gridTitle": "Edit Examination Board",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/entity-setup/examination-board/edit?id=:_id _id",
+          "value": "Edit"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "fraa9qg9zq",
+      "gridTitle": "Add Examination Board",
+      "value": "Add Examination Board",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/entity-setup/examination-board/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-07T12:55:41.335Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

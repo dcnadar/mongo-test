@@ -1,0 +1,15 @@
+{
+  "_id": "679b2e60b81dbd448287fa18",
+  "name": "Re Issue",
+  "path": "/admin/library/re-issue",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "679b2ca4b81dbd448287fa13",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-30T07:46:40.086Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:57.243Z"
+}

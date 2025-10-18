@@ -1,0 +1,13 @@
+{
+  "_id": "6612174da10af254b4b437a1",
+  "name": "Edit Shelves",
+  "path": "/admin/schoolsetup/shelves/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cf59ec7b99128d924f73d",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T03:47:25.779Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:48.663Z"
+}

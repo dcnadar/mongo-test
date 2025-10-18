@@ -1,0 +1,11 @@
+{
+  "_id": "65255f61696fa159e510154b",
+  "name": "Owner Message",
+  "reactGrid": "FoodioOwnerMessage",
+  "thumb": "/static/themes/foodio/grids/thumbs/owner-message.png",
+  "theme": "foodio",
+  "crmForm": "65255e78696fa159e5101548",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "status": "ACTIVE",
+  "created": "2024-01-27T07:48:53.276Z"
+}

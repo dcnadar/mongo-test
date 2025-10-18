@@ -1,0 +1,15 @@
+{
+  "_id": "679b34ddb81dbd448287fa2f",
+  "name": "OverDue Book",
+  "path": "/admin/library/overdue/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "679b3332b81dbd448287fa29",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-30T08:14:21.902Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:57.339Z"
+}

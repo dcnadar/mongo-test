@@ -1,0 +1,35 @@
+{
+  "_id": "668bc98b531ed762273ebbf8",
+  "gridTitle": "Product Setting",
+  "gridType": "form",
+  "crmModelId": "661679a02742031ccaab99cf",
+  "rows": [
+    {
+      "$key": "q4qp6e42ke9",
+      "fields": [
+        {
+          "id": "productSetting.skuSetting",
+          "title": "SKU Setting",
+          "type": "inner_form",
+          "span": 24,
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "hideCollapse": true
+          },
+          "$key": "dgq1dsadg5n"
+        }
+      ],
+      "span": 24,
+      "label": "Product Setting",
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "description": "#### SKU Number Prefix\n\n* A text string placed at the beginning of your Stock Keeping Unit (SKU) to help create a unique identifier for each product.\n* Enter a concise text string (e.g., **SKU** or **PROD**).\n* Use alphanumeric characters along with hyphens or underscores if needed.\n\n#### SKU Current Number\n\n* The sequential numeric value that represents the current count of products, forming part of the SKU.\n* Enter a numeric value (e.g., **5**, **12**, **1000**).\n* Use only digits; **avoid** use zero **(0)** starting of the SKU Current Number. (e.g., **0005**, **0012**)\n\n#### SKU Number Postfix\n\n* A text string appended to the SKU, used for additional categorization or differentiation.\n* Enter a short text string (e.g., **A** or **US**)\n* Keep the text simple and avoid spaces or unsupported special characters."
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T11:12:11.415Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false
+}

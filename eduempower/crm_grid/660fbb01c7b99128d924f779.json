@@ -1,0 +1,85 @@
+{
+  "_id": "660fbb01c7b99128d924f779",
+  "gridTitle": "Eduempower SchoolFloor",
+  "gridType": "table",
+  "crmModelId": "6609849cc7b99128d924f675",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "88l6ryl93k3",
+      "key": "name",
+      "name": "Floor Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "p1f5og74b1a",
+      "key": "floorType",
+      "name": "Floor Type",
+      "type": "tag",
+      "sort": true
+    },
+    {
+      "$key": "19yphkshi5jj",
+      "key": "preferredClasses",
+      "name": "Preferred Classes",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "10n3pgmpcs8n",
+      "key": "sequence",
+      "name": "Sequence",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "oyn6bomo5bt",
+      "key": "buildingId",
+      "name": "Building Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "u5togzlz3wl",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "wiuwutqre0c",
+          "gridTitle": "Edit Floor Details",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/schoolsetup/floor-details/edit?id=:_id _id"
+        }
+      ],
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "cn2ien44uys",
+      "apiUrl": "/admin/schoolsetup/floor-details/add",
+      "gridTitle": "Add Floor Deatails",
+      "value": "Add Floor Deatails",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-05T08:49:05.876Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:00.183Z"
+}

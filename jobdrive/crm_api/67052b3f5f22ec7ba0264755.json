@@ -1,0 +1,15 @@
+{
+  "_id": "67052b3f5f22ec7ba0264755",
+  "name": "Edit package Category",
+  "path": "/admin/package/category/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6704c27d5f22ec7ba0264738",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-08T12:53:19.872Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:48.287Z"
+}

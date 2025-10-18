@@ -1,0 +1,31 @@
+{
+  "_id": "647dbb584c329b142537625c",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Ecom Account",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Account",
+      "searchable": {
+        "value": true
+      },
+      "$key": "1pdkfc6o898"
+    },
+    {
+      "dataType": "STRING",
+      "key": "logo",
+      "name": "Account Logo",
+      "searchable": {
+        "thumb": true
+      },
+      "$key": "1b4aagb5yem"
+    }
+  ],
+  "collectionName": "ecom_account",
+  "created": "2024-01-27T07:48:49.859Z",
+  "cardDataTargets": {},
+  "menuTargets": {}
+}

@@ -1,0 +1,132 @@
+{
+  "_id": "6718dd345f22ec7ba026493a",
+  "gridTitle": "Eduempower Leave Request",
+  "gridType": "table",
+  "crmModelId": "660fe1f2c7b99128d924f77f",
+  "columns": [
+    {
+      "$key": "fv0s0aex5j",
+      "key": "userId",
+      "name": "User",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "gaqsqt5e134",
+      "key": "leaveType",
+      "name": "Leave Type",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "o236imiqocd",
+      "key": "leaveSession",
+      "name": "Leave Session",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "dbz03dtzxtj",
+      "key": "applyLeaveFrom",
+      "name": "From",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "qt30cke6v2",
+      "key": "applyLeaveTo",
+      "name": "To",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "5oq50dbglll",
+      "key": "noOfLeaves",
+      "name": "No. of Leaves",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "4g5h7ff1lxd",
+      "key": "leaveStatus",
+      "name": "Status",
+      "type": "tag",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "iojyjc60t8l",
+      "key": "actions",
+      "name": "Action",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "ui0vdg1abjk",
+          "gridTitle": "Edit Leave Request",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/leave/leave-request/edit?id=:_id _id",
+          "showCondition": "return false;"
+        },
+        {
+          "$key": "l7iq75slcp",
+          "gridTitle": "Approve Leave",
+          "gridType": "confirm",
+          "showGridComment": true,
+          "gridMsg": "Are you sure?",
+          "apiUrl": "/api/io/admin/leave/apply-leave/update/leave-approve?id=:_id _id",
+          "value": "Approve",
+          "showCondition": "return this.leaveStatus === 'PENDING';"
+        },
+        {
+          "$key": "2r3mw3l82nq",
+          "gridMsg": "Are you sure?",
+          "gridTitle": "Withdraw Leave",
+          "gridType": "confirm",
+          "showGridComment": true,
+          "apiUrl": "/api/io/admin/leave/apply-leave/update/leave-withdraw?id=:_id _id",
+          "value": "Withdraw",
+          "showCondition": "return this.leaveStatus === 'APPROVED';",
+          "apiType": "GET"
+        },
+        {
+          "$key": "6dbfbx0feby",
+          "gridMsg": "Are you sure?",
+          "gridTitle": "Reject Leave",
+          "value": "Reject",
+          "gridType": "confirm",
+          "showGridComment": true,
+          "apiUrl": "/api/io/admin/leave/apply-leave/update/leave-reject?id=:_id _id",
+          "showCondition": "return this.leaveStatus === 'PENDING';"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "eu48z6ti115",
+      "gridTitle": "Add Leave Request",
+      "value": "Add Leave Request",
+      "apiUrl": "/admin/leave/leave-request/add",
+      "gridType": "popupForm",
+      "showCondition": "return false;"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T11:25:40.467Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:02.242Z"
+}

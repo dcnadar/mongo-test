@@ -1,0 +1,39 @@
+{
+  "_id": "66125340a10af254b4b437f6",
+  "gridTitle": "Eduempower Entity",
+  "gridType": "table",
+  "crmModelId": "660bcdc3c7b99128d924f6fe",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "uxf1sygcwyc",
+      "key": "type",
+      "name": "Type",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "2ho72pe0nuh",
+      "name": "Data Name",
+      "key": "dataName",
+      "type": "text",
+      "sort": true
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T08:03:12.561Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:00.756Z"
+}

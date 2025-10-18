@@ -1,0 +1,15 @@
+{
+  "_id": "671f496f5f22ec7ba0264a6e",
+  "name": "Eduempower Visit",
+  "path": "/admin/front-office/approvalPending/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "671a60405f22ec7ba02649ff",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-28T08:21:03.625Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:55.410Z"
+}

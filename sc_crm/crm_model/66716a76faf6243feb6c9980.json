@@ -1,0 +1,76 @@
+{
+  "_id": "66716a76faf6243feb6c9980",
+  "name": "App Screen Section Info",
+  "modelType": "COLLECTION",
+  "collectionName": "app_screen_section_info",
+  "properties": [
+    {
+      "$key": "o8cdy97gu6",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "zebraaotuno",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING",
+      "searchable": {
+        "thumb": true
+      }
+    },
+    {
+      "$key": "bh3ffrrb3ed",
+      "key": "designPrototype",
+      "name": "Design Prototype",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fzat3r0oqkm",
+      "key": "theme",
+      "name": "Theme",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "zep0l0ia3r9",
+            "key": "global",
+            "value": "Global"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "mf4qygeurm",
+      "key": "reactGrid",
+      "name": "React Component Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nrd9rrvpe8e",
+      "key": "crmForm",
+      "name": "Crm Form",
+      "dataType": "REFERENCE",
+      "modelId": "6511dc91f9686d32acb3e2cf"
+    },
+    {
+      "$key": "e6wcuz7dulu",
+      "key": "sectionTypeId",
+      "name": "Section Type",
+      "dataType": "REFERENCE",
+      "modelId": "66718a1cfaf6243feb6c9990"
+    },
+    {
+      "$key": "vwod38u4q3k",
+      "key": "sampleData",
+      "name": "Sample Data",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "compoundUniqueFields": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T11:07:34.923Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

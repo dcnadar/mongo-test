@@ -1,0 +1,51 @@
+{
+  "_id": "64a6708c099de82bca61caad",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Logo",
+          "id": "logo",
+          "type": "upload",
+          "span": 24,
+          "o": true,
+          "$key": "nn5k3n0xbt"
+        },
+        {
+          "index": 1,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 24,
+          "o": false,
+          "$key": "yg3ytk3k81p"
+        },
+        {
+          "index": 2,
+          "title": "Description",
+          "id": "description",
+          "type": "text_editor",
+          "span": 24,
+          "o": true,
+          "$key": "bf38b8w5zbv"
+        }
+      ],
+      "$key": "f30837bo0z6",
+      "description": "#### Logo\n\n* Upload a high-quality image file (supported formats: **JPG**, **PNG**, **WebP**).\n* **Recommended:** Minimum resolution of 800x800 px with a transparent or clear background.\n\n#### Name\n\n* Enter a concise, clear text value (e.g., **Acme Corp**).\n* **Avoid:** Special characters or unnecessary punctuation.\n\n#### Description\n\n* Enter text (plain text or formatted text if allowed) that provides context about the brand.\n* **Optional:** Include bullet points for clarity if multiple aspects need highlighting.",
+      "showDescription": true,
+      "descriptionSpan": 12,
+      "span": 24
+    }
+  ],
+  "edit": true,
+  "crmModelId": "64a4b38d1952437b761aac1c",
+  "gridTitle": "Brand Form",
+  "backUrl": "/admin/product/brand",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

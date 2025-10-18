@@ -1,0 +1,81 @@
+{
+  "_id": "665c1a407a29a87a0def3d85",
+  "name": "Variant Option",
+  "modelType": "COLLECTION",
+  "collectionName": "variant-option",
+  "properties": [
+    {
+      "$key": "zn5nf6kh2e9",
+      "key": "optionName",
+      "name": "Option Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "yobislrzym",
+      "key": "displayName",
+      "name": "Display Name",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "g2fy1tetqq",
+      "key": "valueType",
+      "name": "Value Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "74yhwdrtx8p",
+            "key": "color",
+            "value": "Color"
+          },
+          {
+            "$key": "8agx6eg1d0k",
+            "key": "image",
+            "value": "Image"
+          },
+          {
+            "$key": "3cbziop8m8v",
+            "key": "generic",
+            "value": "Generic"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "r4ikk57qae",
+      "key": "values",
+      "name": "Options",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "665c195e7a29a87a0def3d84"
+    },
+    {
+      "$key": "ntxxs697mb",
+      "key": "colorValues",
+      "name": "Color Values",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "665c195e7a29a87a0def3d84"
+    },
+    {
+      "$key": "m8v9h6wnmas",
+      "key": "imageValues",
+      "name": "Image Values",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "665c195e7a29a87a0def3d84"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-02T07:07:44.851Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "baseModelId": "64822a187d5f915dc103d271"
+}

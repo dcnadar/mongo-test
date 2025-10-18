@@ -1,0 +1,32 @@
+{
+  "_id": "665c1b087a29a87a0def3d86",
+  "gridTitle": "Variant Option Generic Value",
+  "gridType": "form",
+  "crmModelId": "665c195e7a29a87a0def3d84",
+  "rows": [
+    {
+      "$key": "8m49v9akwa9",
+      "fields": [
+        {
+          "$key": "cl2zt6944vd",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "01uk66ck0vd2",
+          "id": "value",
+          "title": "Value",
+          "type": "text",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-02T07:11:04.834Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false
+}

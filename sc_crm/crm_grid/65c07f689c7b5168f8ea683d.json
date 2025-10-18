@@ -1,0 +1,82 @@
+{
+  "_id": "65c07f689c7b5168f8ea683d",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-02-05T06:25:44.891Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Styles",
+          "id": "styles",
+          "type": "textarea",
+          "span": 16,
+          "o": true,
+          "hint": "Enter CSS styles for the page section.",
+          "$key": "885vfiykzyb"
+        },
+        {
+          "index": 1,
+          "title": "Full Width",
+          "id": "fullWidth",
+          "type": "bool",
+          "span": 4,
+          "o": true,
+          "hint": "Check to make the page section full width.",
+          "$key": "hjuyb15adrb"
+        },
+        {
+          "index": 2,
+          "title": "No Margin top",
+          "id": "noMarginTop",
+          "type": "bool",
+          "span": 4,
+          "o": true,
+          "hint": "Check to remove the top margin from the page section.",
+          "$key": "5by9uy23uld"
+        },
+        {
+          "index": 3,
+          "title": "Background Image",
+          "id": "backgroundImage",
+          "type": "upload",
+          "span": 8,
+          "o": true,
+          "hint": "Upload a background image for the page section.",
+          "$key": "6zkjeqp8vvu"
+        },
+        {
+          "index": 4,
+          "title": "Background Image Overlay Color",
+          "id": "overlay",
+          "type": "color",
+          "span": 8,
+          "o": true,
+          "hint": "Select a color to overlay the background image.",
+          "showCondition": "return this.backgroundImage;",
+          "$key": "madgyljz9gm"
+        },
+        {
+          "index": 5,
+          "title": "Grid Theme Colors",
+          "id": "themeColors",
+          "type": "inner_form",
+          "span": 24,
+          "o": true,
+          "meta": {
+            "crmFormId": "65c3217c87aef35653f833da"
+          },
+          "$key": "qvlzeaqve7"
+        }
+      ],
+      "$key": "c5nzfx6zild"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65c07f689c7b5168f8ea683c",
+  "gridTitle": "Website Page Section Settings (OLD)",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

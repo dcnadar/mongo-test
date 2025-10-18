@@ -1,0 +1,57 @@
+{
+  "_id": "660bcdc3c7b99128d924f6fe",
+  "name": "Eduempower Entity",
+  "modelType": "COLLECTION",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "collectionName": "eduempower_entity",
+  "properties": [
+    {
+      "$key": "ri3alphoci",
+      "key": "type",
+      "name": "Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "yngtataewg",
+            "key": "COUNTRY",
+            "value": "Country"
+          },
+          {
+            "$key": "iv34dpkdbj9",
+            "key": "STATE",
+            "value": "State"
+          },
+          {
+            "$key": "msvf22d5x6c",
+            "key": "EXAMINATION_BOARD",
+            "value": "Examination Board"
+          },
+          {
+            "$key": "t21alqgexkq",
+            "key": "CLASS_TYPE",
+            "value": "Class Type"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "8uvps52wldt",
+      "key": "data",
+      "name": "Data",
+      "dataType": "INNER_MODEL"
+    },
+    {
+      "$key": "idglamwyth8",
+      "key": "entityDataModelId",
+      "name": "EntityDataModelId",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-02T09:20:03.880Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:06.381Z"
+}

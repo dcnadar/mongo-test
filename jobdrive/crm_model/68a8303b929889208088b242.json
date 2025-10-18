@@ -1,0 +1,58 @@
+{
+  "_id": "68a8303b929889208088b242",
+  "name": "Student Education",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "l4ziw1gewkk",
+      "key": "level",
+      "name": "Education level",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "538ndlcuaxj",
+      "key": "institutionName",
+      "name": "Institute",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dvetrmt10eo",
+      "key": "boardorUniversity",
+      "name": "Board/University",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8lpn7mr8cv7",
+      "key": "start_date",
+      "name": "Start Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "gbd8t128mwc",
+      "key": "end_date",
+      "name": "End Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "tefzvkpjrj",
+      "key": "marks",
+      "name": "Percentage/CGPA/GPA",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "cfobs0sh1ft",
+      "key": "additional",
+      "name": "Additional Info",
+      "dataType": "STRING",
+      "data": {
+        "options": []
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-22T08:54:19.181Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:55.894Z"
+}

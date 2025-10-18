@@ -1,0 +1,74 @@
+{
+  "_id": "6664538207b1a041b15e0ba7",
+  "gridTitle": "Gram Panchayat",
+  "gridType": "table",
+  "crmModelId": "6664488d07b1a041b15e0b9f",
+  "columns": [
+    {
+      "$key": "kom1t4ernck",
+      "key": "gramPanchayatName",
+      "name": "Name",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "o11lfw8lqr",
+      "key": "blockId",
+      "name": "Block",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "tvj84h6yyek",
+      "key": "districtId",
+      "name": "District",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "kra0wiwai9m",
+      "key": "stateId",
+      "name": "State",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "07m1vh92kne4",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "zlvzqi1p72f",
+          "gridTitle": "Edit GP/VC",
+          "value": "Edit",
+          "apiUrl": "/admin/location/gram-panchayat/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "66ro5gnx9j",
+      "gridTitle": "Add GP/VC",
+      "apiUrl": "/admin/location/gram-panchayat/add",
+      "gridType": "popupForm",
+      "value": "Add GP/VC"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T12:50:10.725Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

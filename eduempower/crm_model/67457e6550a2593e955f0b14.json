@@ -1,0 +1,80 @@
+{
+  "_id": "67457e6550a2593e955f0b14",
+  "name": "Eduempower Leave Transaction History",
+  "modelType": "COLLECTION",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_leave_transaction_history",
+  "properties": [
+    {
+      "$key": "z1w95d2zyad",
+      "key": "leaveType",
+      "name": "Leave type",
+      "dataType": "REFERENCE",
+      "modelId": "66081d3c60d4f873b5fa4f49"
+    },
+    {
+      "$key": "e99ssgus7vr",
+      "key": "applyLeaveFrom",
+      "name": "From",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7vfug31rem9",
+      "key": "applyLeaveTo",
+      "name": "To",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "v2cmu4am1g",
+      "key": "noOfLeaves",
+      "name": "No. of Leaves",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "lnoerkm9w2",
+      "key": "leaveStatus",
+      "name": "Status",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "zc3fltix7zk",
+      "key": "actionTakenBy",
+      "name": "Updated by",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "8c5ht8c1mr3",
+      "key": "updatedDate",
+      "name": "Updated date",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "m7bggjlyqz",
+      "key": "remark",
+      "name": "Remark",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "hcum4urg7hd",
+      "key": "userId",
+      "name": "User",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "to5x0992nmb",
+      "key": "leaveId",
+      "name": "Leave",
+      "dataType": "REFERENCE",
+      "modelId": "660fe1f2c7b99128d924f77f"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-26T07:53:09.984Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:07.915Z"
+}

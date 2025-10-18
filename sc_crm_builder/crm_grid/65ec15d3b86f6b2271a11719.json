@@ -1,0 +1,201 @@
+{
+  "_id": {
+    "$oid": "65ec15d3b86f6b2271a11719"
+  },
+  "gridTitle": "Crm API ",
+  "gridType": "form",
+  "rows": [
+    {
+      "fields": [
+        {
+          "o": false,
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "hint": "<p />",
+          "span": {
+            "$numberInt": "8"
+          },
+          "$key": "le0vnlbjn7"
+        },
+        {
+          "id": "path",
+          "title": "Path",
+          "type": "text",
+          "span": {
+            "$numberInt": "18"
+          },
+          "o": false,
+          "$key": "u7w4w9inhcs"
+        },
+        {
+          "id": "apiType",
+          "title": "API Type",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "$key": "u1yn98d5q18"
+        },
+        {
+          "id": "action",
+          "title": "Action to perform",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "$key": "fp2yhc66wx4"
+        },
+        {
+          "id": "gridType",
+          "title": "For Grid type",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": false,
+          "showCondition": "return this.action === 'CRM_GRID' || this.action === 'FORM_SAVE';",
+          "$key": "2c68kkxag69",
+          "value": "form"
+        },
+        {
+          "$key": "1gbdpvzqtwr",
+          "id": "downloadFileType",
+          "title": "Download File Type",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.action === 'DOWNLOAD_FILE';"
+        },
+        {
+          "$key": "y54w7tfbp9k",
+          "id": "getAllRecords",
+          "title": "Get all Records",
+          "type": "bool",
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.action === 'DOWNLOAD_FILE' && this.downloadFileType === 'EXCEL';"
+        },
+        {
+          "$key": "v0kz2boo8x",
+          "id": "recordsLimit",
+          "title": "Records limit",
+          "type": "number",
+          "span": {
+            "$numberInt": "8"
+          },
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "1000"
+          },
+          "showCondition": "return this.action === 'DOWNLOAD_FILE' && this.downloadFileType === 'EXCEL' && !this.getAllRecords;"
+        },
+        {
+          "id": "sourceId",
+          "title": "Select grid",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "meta": {
+            "queryParams": "?gridType=:gridType gridType"
+          },
+          "showCondition": "return this.action === 'CRM_GRID' || this.action === 'FORM_VALUES_OPTIONS' || this.action === 'FORM_SAVE' || this.action === 'DOWNLOAD_FILE'  || this.action === 'FORM_FIELDS';",
+          "$key": "gefiuxgvpma"
+        },
+        {
+          "id": "modelId",
+          "title": "Select model",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "meta": {
+            "queryParams": "?modelType=COLLECTION"
+          },
+          "showCondition": "return this.action === 'ENTITY_DELETE' || this.action === 'ENTITY_GET';",
+          "$key": "3l2nd9ny7x7"
+        },
+        {
+          "id": "innerGridType",
+          "title": "Inner Grid type",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.action === 'CRM_GRID' && this.gridType === 'menu';",
+          "o": false,
+          "$key": "i1r056aydp"
+        },
+        {
+          "showCondition": "return this.action === 'CRM_GRID' && this.gridType === 'menu';",
+          "id": "innerSourceId",
+          "title": "Select Inner grid",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "meta": {
+            "queryParams": "?gridType=:innerGridType innerGridType"
+          },
+          "$key": "r2zg8dwy1ec"
+        },
+        {
+          "$key": "h28xza5u8js",
+          "id": "fetchDocWithoutId",
+          "title": "Fetch Document Without ID",
+          "type": "bool",
+          "o": true,
+          "span": {
+            "$numberInt": "12"
+          },
+          "showCondition": "return this.action === 'ENTITY_GET';"
+        },
+        {
+          "$key": "lpsoi6ppb0b",
+          "id": "gridParams",
+          "title": "API Params",
+          "type": "input_table",
+          "add": true,
+          "delete": true,
+          "span": {
+            "$numberInt": "24"
+          },
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "20"
+          },
+          "o": true
+        }
+      ],
+      "$key": "nu0griqgby"
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1709970899490"
+    }
+  },
+  "crmModelId": "65e782c5da2444a1d00dfeb2",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150832"
+    }
+  },
+  "breadcrumb": []
+}

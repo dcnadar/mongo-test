@@ -1,0 +1,82 @@
+{
+  "_id": "666453f707b1a041b15e0ba8",
+  "gridTitle": "Village",
+  "gridType": "table",
+  "crmModelId": "6664494307b1a041b15e0ba0",
+  "columns": [
+    {
+      "$key": "vz8vq2t4gkl",
+      "key": "villageName",
+      "name": "Name",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "txzo9o2fa1",
+      "key": "gramPanchayatId",
+      "name": "GP/VC",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "1j3zekkydltj",
+      "key": "blockId",
+      "name": "Block",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "ahqr2nrvxpv",
+      "key": "districtId",
+      "name": "District",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "jyz3b22joc",
+      "key": "stateId",
+      "name": "State",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "fzzm05fz9hc",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "zt1cwfcwnmn",
+          "gridTitle": "Edit Village",
+          "value": "Edit",
+          "apiUrl": "/admin/location/village/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "x7tx70hckl",
+      "gridTitle": "Add Village",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/location/village/add",
+      "value": "Add Village"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T12:52:07.576Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

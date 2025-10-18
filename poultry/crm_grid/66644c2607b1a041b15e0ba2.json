@@ -1,0 +1,25 @@
+{
+  "_id": "66644c2607b1a041b15e0ba2",
+  "gridTitle": "State",
+  "gridType": "form",
+  "crmModelId": "6664474607b1a041b15e0b9e",
+  "rows": [
+    {
+      "$key": "dwag8a9ld2q",
+      "fields": [
+        {
+          "id": "stateName",
+          "title": "Name",
+          "type": "text",
+          "span": 12,
+          "$key": "yzz1dte40ub"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T12:18:46.840Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/location/state/all"
+}

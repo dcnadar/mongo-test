@@ -1,0 +1,42 @@
+{
+  "_id": "6716120c5f22ec7ba02648c7",
+  "gridTitle": "Staff Transfer(OLD)",
+  "gridType": "table",
+  "crmModelId": "6716002d5f22ec7ba02648be",
+  "columns": [
+    {
+      "$key": "mjidnb9a9kb",
+      "key": "staff",
+      "name": "Staff",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "3lpxwthos4u",
+      "key": "branch",
+      "name": "Branch",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "ldvbjnbqqgk",
+      "gridTitle": "Add Staff Transfer",
+      "value": "Add Transfer",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/staff/transfer/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-21T08:34:20.466Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:01.886Z"
+}

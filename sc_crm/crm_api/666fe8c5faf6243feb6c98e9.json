@@ -1,0 +1,13 @@
+{
+  "_id": "666fe8c5faf6243feb6c98e9",
+  "name": "App Screen",
+  "path": "/admin/mobileapp/app-screen/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "666fe2b4faf6243feb6c98d7",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-17T07:41:57.597Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

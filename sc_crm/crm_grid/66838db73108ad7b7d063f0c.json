@@ -1,0 +1,60 @@
+{
+  "_id": "66838db73108ad7b7d063f0c",
+  "gridTitle": "Blog Reaction",
+  "gridType": "form",
+  "crmModelId": "66838bdb3108ad7b7d063f07",
+  "rows": [
+    {
+      "$key": "5tflp667mqq",
+      "fields": [
+        {
+          "$key": "qe3baaya34l",
+          "id": "blogId",
+          "title": "Blog Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "x83jjuqtr1",
+          "id": "userId",
+          "title": "User",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "uinhpb01nus",
+          "id": "type",
+          "title": "Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "qcv93ikmv5",
+          "id": "sourceType",
+          "title": "Source Type",
+          "type": "text",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "value": "BLOG"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T05:18:47.452Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "blogId",
+      "required": true
+    }
+  ]
+}

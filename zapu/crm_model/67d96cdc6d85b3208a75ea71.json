@@ -1,0 +1,189 @@
+{
+  "_id": "67d96cdc6d85b3208a75ea71",
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "name": "User",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "firstName",
+      "name": "First Name",
+      "searchable": {
+        "value": true
+      },
+      "$key": "z7zdglheloi"
+    },
+    {
+      "$key": "vj92vaee727",
+      "key": "lastName",
+      "name": "Last Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "email",
+      "name": "Email",
+      "searchable": {
+        "value": false,
+        "description": true
+      },
+      "$key": "e5q6pw7gow6",
+      "unique": true
+    },
+    {
+      "dataType": "STRING",
+      "key": "userName",
+      "name": "User Name",
+      "searchable": {
+        "primary": true
+      },
+      "$key": "662tjnshbz4",
+      "unique": true
+    },
+    {
+      "dataType": "STRING",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "searchable": {
+        "value": false
+      },
+      "$key": "akw0mes1nn"
+    },
+    {
+      "dataType": "STRING",
+      "key": "callingCode",
+      "name": "Calling Code",
+      "$key": "rgv21eskv5q",
+      "data": {
+        "options": [
+          {
+            "$key": "xqvdxf7ui0i",
+            "key": "+91",
+            "value": "+91 (India)"
+          }
+        ]
+      }
+    },
+    {
+      "dataType": "DATE",
+      "key": "birthDate",
+      "name": "BirthDate",
+      "searchable": {
+        "thumb": false
+      },
+      "$key": "hddu225tbh"
+    },
+    {
+      "$key": "fain6gadnoo",
+      "key": "gender",
+      "name": "Gender",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "62u7gq5xbny",
+            "key": "MALE",
+            "value": "Male"
+          },
+          {
+            "$key": "empgs3chzk9",
+            "key": "FEMALE",
+            "value": "Female"
+          },
+          {
+            "$key": "wvw19blrmuo",
+            "key": "OTHERS",
+            "value": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "gdncwow5tbc",
+      "key": "userType",
+      "name": "UserType",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "vuhx5jfgyb9",
+            "key": "STAFF",
+            "value": "Staff"
+          },
+          {
+            "$key": "nnx246cph1j",
+            "key": "CUSTOMER",
+            "value": "Customer"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "3legrmp80jh",
+      "key": "logo",
+      "name": "Thumb",
+      "dataType": "STRING",
+      "searchable": {
+        "thumb": false
+      }
+    },
+    {
+      "$key": "ef0e0wk4k4j",
+      "key": "admin",
+      "name": "Is Admin",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "3sxvlqe5ntc",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "5lg327gbnju",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "sto0z4eotl",
+            "key": "BANNED",
+            "value": "Banner"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "2bzc5pa0hpy",
+      "key": "webhookData",
+      "name": "Webhook Data",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "1vf13gajwjg",
+      "key": "wordpressCustomerId",
+      "name": "Wordpress customer id",
+      "dataType": "LONG"
+    }
+  ],
+  "collectionName": "user",
+  "baseModelId": "67d96c6c5ea132199e60a886",
+  "created": "2024-10-07T07:48:51.178Z",
+  "cardDataTargets": {
+    "title": "firstName",
+    "subtitles": [
+      "email",
+      "mobileNumber"
+    ],
+    "thumb": "logo"
+  },
+  "menuTargets": {
+    "thumb": "logo",
+    "title": "firstName",
+    "description": "email"
+  }
+}

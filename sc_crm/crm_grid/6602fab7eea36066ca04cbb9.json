@@ -1,0 +1,51 @@
+{
+  "_id": "6602fab7eea36066ca04cbb9",
+  "gridTitle": "ReactGrid GlobalFooter3",
+  "gridType": "form",
+  "crmModelId": "6602f9eaeea36066ca04cbb8",
+  "rows": [
+    {
+      "$key": "yp62bhw71wf",
+      "fields": [
+        {
+          "$key": "4sh6xlowd6",
+          "id": "iconLinks",
+          "title": "IconLinks",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 20
+        },
+        {
+          "$key": "6jp8fd6aqyx",
+          "id": "buttons",
+          "title": "Buttons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 10
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-26T16:41:27.438Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

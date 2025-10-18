@@ -1,0 +1,30 @@
+{
+  "_id": "66120cc6a10af254b4b4377c",
+  "name": "ReactGrid Header2 MainMenuItem SubMenuItem Colum",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "5ga6ko8z2ve",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "zb65qnlfwy9",
+      "dataType": "STRING",
+      "name": "Icon",
+      "key": "icon"
+    },
+    {
+      "$key": "ejgghxjdvhu",
+      "key": "items",
+      "name": "Items",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a",
+      "dataType": "LIST_OF"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T03:02:30.816Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

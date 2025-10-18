@@ -1,0 +1,75 @@
+{
+  "_id": "6517ad7d581c417ed1d0dd4c",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Navigate to",
+          "id": "navigateTo",
+          "type": "radio",
+          "meta": {
+            "horizontal": true
+          },
+          "span": 24,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Product",
+          "id": "product",
+          "type": "list",
+          "multiple": false,
+          "span": 24,
+          "meta": {
+            "modelUniqueKey": "path"
+          },
+          "showCondition": "return this.navigateTo === 'product';",
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Category",
+          "id": "category",
+          "type": "list",
+          "multiple": false,
+          "span": 24,
+          "meta": {
+            "modelUniqueKey": "path"
+          },
+          "showCondition": "return this.navigateTo === 'category';",
+          "o": false
+        },
+        {
+          "index": 3,
+          "title": "Page",
+          "id": "page",
+          "type": "list",
+          "multiple": false,
+          "span": 24,
+          "meta": {
+            "modelUniqueKey": "path"
+          },
+          "showCondition": "return this.navigateTo === 'page';",
+          "o": false
+        },
+        {
+          "index": 4,
+          "title": "External Link",
+          "id": "externalLink",
+          "type": "text",
+          "span": 24,
+          "showCondition": "return this.navigateTo === 'externalLink';",
+          "o": false
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "650d3713ac425a65d3141bcc",
+  "gridTitle": "Button Action Form"
+}

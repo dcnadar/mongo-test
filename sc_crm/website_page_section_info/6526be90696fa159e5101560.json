@@ -1,0 +1,11 @@
+{
+  "_id": "6526be90696fa159e5101560",
+  "name": "App Banner",
+  "reactGrid": "FoodioAppBanner",
+  "thumb": "/static/themes/foodio/grids/thumbs/app_banner.png",
+  "theme": "foodio",
+  "crmForm": "6526bd74696fa159e510155f",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "status": "ACTIVE",
+  "created": "2024-01-27T07:48:53.326Z"
+}

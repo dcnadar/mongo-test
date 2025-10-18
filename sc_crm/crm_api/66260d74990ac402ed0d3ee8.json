@@ -1,0 +1,12 @@
+{
+  "_id": "66260d74990ac402ed0d3ee8",
+  "name": "NewsLetter",
+  "path": "/admin/account/newsletter/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "66260588990ac402ed0d3edb",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T07:10:44.823Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

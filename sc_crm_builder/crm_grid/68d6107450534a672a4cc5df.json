@@ -1,0 +1,87 @@
+{
+  "_id": {
+    "$oid": "68d6107450534a672a4cc5df"
+  },
+  "gridTitle": "Account Setting Form",
+  "gridType": "form",
+  "crmModelId": "65e2c398226e7b80fe49ae39",
+  "rows": [
+    {
+      "$key": "1l423q4tdju",
+      "fields": [
+        {
+          "id": "aId",
+          "title": "Account ID",
+          "type": "text",
+          "span": {
+            "$numberInt": "16"
+          },
+          "updateType": "disabled",
+          "createType": "none",
+          "$key": "x7fflsjoqq"
+        },
+        {
+          "$key": "1qfgqmin707",
+          "id": "name",
+          "title": "Account Name",
+          "type": "text",
+          "span": {
+            "$numberInt": "16"
+          }
+        },
+        {
+          "$key": "8ndlmmy10mj",
+          "id": "userDetails.firstName",
+          "title": "Admin First name",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          }
+        },
+        {
+          "$key": "w0j0n5ao85",
+          "id": "userDetails.lastName",
+          "title": "Admin Last name",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          }
+        },
+        {
+          "$key": "tymg5p9pxcj",
+          "id": "userDetails.email",
+          "title": "Admin Email ID",
+          "type": "email",
+          "span": {
+            "$numberInt": "16"
+          }
+        }
+      ],
+      "span": {
+        "$numberInt": "12"
+      }
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758859380871"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "id",
+      "serverValue": "filter_value",
+      "value": "accountId",
+      "required": false
+    }
+  ],
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231679491"
+    }
+  }
+}

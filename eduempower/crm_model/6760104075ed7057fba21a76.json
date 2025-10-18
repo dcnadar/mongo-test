@@ -1,0 +1,30 @@
+{
+  "_id": "6760104075ed7057fba21a76",
+  "name": "SchoolAsset Log ",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "o5uf986ac6l",
+      "key": "date",
+      "name": "Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "9uwkvaj7yyk",
+      "key": "message",
+      "name": "Message",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wv1dhf6uxn",
+      "key": "staffId",
+      "name": "StaffId",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-16T11:34:24.236Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:07.949Z"
+}

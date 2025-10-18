@@ -1,0 +1,231 @@
+{
+  "_id": "66d1ae7df477b55766069c49",
+  "name": "PackageShipment",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "package_shipment",
+  "properties": [
+    {
+      "$key": "sjdug9nuvfh",
+      "key": "orderIds",
+      "name": "Order Ids",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "6684e3603108ad7b7d063f47"
+    },
+    {
+      "$key": "jyufs1rhowr",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "5qzr3mkjuk",
+            "key": "PENDING",
+            "value": "Pending"
+          },
+          {
+            "$key": "fh9eo2nzkow",
+            "key": "NEW",
+            "value": "New"
+          },
+          {
+            "$key": "ts73ryyxvsh",
+            "key": "READY_TO_SHIP",
+            "value": "Ready to Ship"
+          },
+          {
+            "$key": "y3ier0l6ito",
+            "key": "PICKUP_IN_TRANSIT",
+            "value": "Pickup in Transit"
+          },
+          {
+            "$key": "ni8oa2cskf",
+            "key": "DELIVERED",
+            "value": "Delivered"
+          },
+          {
+            "$key": "wvir9l55wt",
+            "key": "ORDER_PLACED",
+            "value": "Order Placed"
+          },
+          {
+            "$key": "w8qmt6oap0k",
+            "key": "SHIPPED",
+            "value": "Shipped"
+          },
+          {
+            "$key": "6zs1vpdcpwq",
+            "key": "OUT_FOR_DELIVERY",
+            "value": "Out For Delivery"
+          },
+          {
+            "$key": "vtrctyvb68",
+            "key": "PICKUP_SCHEDULED",
+            "value": "Pickup Scheduled"
+          },
+          {
+            "$key": "saznwpacfz",
+            "key": "OUT_FOR_PICKUP",
+            "value": "Out For Pickup"
+          },
+          {
+            "$key": "vm0t8lwnxy",
+            "key": "PICKED_UP",
+            "value": "Picked Up"
+          },
+          {
+            "$key": "qg428werk6c",
+            "key": "CANCELLED",
+            "value": "Cancelled"
+          },
+          {
+            "$key": "owgkeijjt7m",
+            "key": "REACHED_AT_DESTINATION",
+            "value": "Reached at Destination"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "reql1qis7q",
+      "key": "shipmentId",
+      "name": "Shipment Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5vpycx1a2a2",
+      "key": "customerId",
+      "name": "Customer Id",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6"
+    },
+    {
+      "$key": "n6u1afox4eo",
+      "key": "address",
+      "name": "Address Id",
+      "dataType": "INNER_MODEL",
+      "modelId": "66a35460e287100717693bcf"
+    },
+    {
+      "$key": "b2r0mcz6zub",
+      "key": "transactionId",
+      "name": "Transaction Id",
+      "dataType": "REFERENCE",
+      "modelId": "668cdde4531ed762273ebc01"
+    },
+    {
+      "$key": "64ww9h8ud83",
+      "key": "deliveryPartner",
+      "name": "Delivery Partner",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "32shjfssnbx",
+            "key": "SHIPROCKET",
+            "value": "Shiprocket"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "8hmom8u7lk",
+      "key": "shiprocketOrderId",
+      "name": "Shiprocket Order Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8uyrvg78itl",
+      "key": "shiprocketShipmentId",
+      "name": "Shiprocket Shipment Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "iih1wjxymg",
+      "key": "weight",
+      "name": "Weight",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "ithocp5b05",
+      "key": "length",
+      "name": "Length",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "ehqapcxcp5j",
+      "key": "breadth",
+      "name": "Breadth",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "c01bcn1lmyv",
+      "key": "height",
+      "name": "Height",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "lnhjva91d2a",
+      "key": "totalPrice",
+      "name": "Total Price",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "8p1wybv0bg5",
+      "key": "totalMrp",
+      "name": "Total Mrp",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "ylsa2be8of",
+      "key": "totalDiscount",
+      "name": "Total Discount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "7k0ekbiaoix",
+      "key": "shipmentType",
+      "name": "ShipmentType",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "uke4afkezyd",
+            "key": "ORDER",
+            "value": "Order"
+          },
+          {
+            "$key": "th9440uodg",
+            "key": "RETURN",
+            "value": "Return"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "31ebgezk0mq",
+      "key": "finalTotal",
+      "name": "Final Total",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "md85lpxbngj",
+      "key": "shiprocketResponse",
+      "name": "Shiprocket Response",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "tws268pnqnj",
+      "key": "shiprocketWebhookResponse",
+      "name": "Shiprocket Webhook Response",
+      "dataType": "OBJECT"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-30T11:35:25.570Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

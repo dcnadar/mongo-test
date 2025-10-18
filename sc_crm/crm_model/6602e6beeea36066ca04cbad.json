@@ -1,0 +1,32 @@
+{
+  "_id": "6602e6beeea36066ca04cbad",
+  "name": "ReactGrid GlobalFooter2 iconLinks",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "an30fh9hoon",
+      "key": "svg",
+      "name": "Svg Code",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "frb1zrxe2b",
+      "key": "enableButton",
+      "name": "Enable Click",
+      "dataType": "BOOLEAN",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "86jo3n069zd",
+      "key": "buttonAction",
+      "name": "Click Action",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-26T15:16:14.295Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

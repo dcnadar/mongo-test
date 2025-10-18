@@ -1,0 +1,20 @@
+{
+  "_id": "660d47e8c7b99128d924f751",
+  "name": "ReactGrid GlobalBanner2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "uy0jtajuhuf",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "660d4ad3c7b99128d924f752"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-03T12:13:28.014Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

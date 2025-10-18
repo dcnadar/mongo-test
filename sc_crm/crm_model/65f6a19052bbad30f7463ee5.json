@@ -1,0 +1,29 @@
+{
+  "_id": "65f6a19052bbad30f7463ee5",
+  "name": "ReactGrid GlobalStatsSection4",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65f6a32d52bbad30f7463ee7"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-17T07:53:52.338Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

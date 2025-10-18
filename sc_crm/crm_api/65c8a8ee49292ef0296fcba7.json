@@ -1,0 +1,11 @@
+{
+    "name": "Create Examination",
+    "action": "CRM_GRID",
+    "sourceId": "65c8a8ee49292ef0296fcba6",
+    "gridType": "form",
+    "accountId": "65d0d41b0d1f40b74ff1bd92",
+    "apiType": "GET",
+    "path": "/admin/exams/create",
+    "created": "2024-02-11T11:01:02.926Z",
+    "_id": "65c8a8ee49292ef0296fcba7"
+}

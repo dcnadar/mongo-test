@@ -1,0 +1,80 @@
+{
+  "_id": "661661c92742031ccaab99c0",
+  "gridTitle": "Website Header Section",
+  "gridType": "table",
+  "crmModelId": "66164bdf2742031ccaab99ba",
+  "columns": [
+    {
+      "$key": "3ztbbs90vgc",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "ubxqkzzaokm",
+      "key": "order",
+      "name": "Order",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "2fglm5avju8",
+      "key": "gridInfo.thumb",
+      "name": "Grid Sample Thumb",
+      "type": "thumb",
+      "sort": true
+    },
+    {
+      "$key": "e07oco94s8s",
+      "key": "created",
+      "name": "Created",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "r0xxbf7iubl",
+      "key": "actions",
+      "name": "actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "n4jt5iwys",
+          "value": "EDIT",
+          "slug": "/admin/website/header/section/edit/update?id=:_id _id"
+        },
+        {
+          "$key": "b7j4slxvdpv",
+          "apiUrl": "/admin/website/header/section/delete",
+          "value": "Delete",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure want to delete?",
+          "type": "icon",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.4.actions.1.icon/2024/3/10/upload_129ve174c5v-1712751450520.png"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "w26fy999b7",
+      "value": "Add Header",
+      "slug": "/admin/website/header/section/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultSort": {
+      "field": "order",
+      "order": "ascend"
+    }
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-10T09:54:17.140Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "upsertDoc": false
+}

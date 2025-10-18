@@ -1,0 +1,36 @@
+{
+  "_id": "6609186cc7b99128d924f65e",
+  "gridTitle": "ReactGrid GlobalYoutubeVideo",
+  "gridType": "form",
+  "crmModelId": "660911b8c7b99128d924f65d",
+  "rows": [
+    {
+      "$key": "n931btl3ycl",
+      "fields": [
+        {
+          "title": "VideoUrl",
+          "id": "videoUrl",
+          "type": "text",
+          "$key": "d2btclja54w",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-31T08:01:48.492Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

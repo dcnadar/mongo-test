@@ -1,0 +1,75 @@
+{
+  "_id": "67d060b78662d46110c0619a",
+  "name": "Farmer data",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "poultry_farmer_data",
+  "properties": [
+    {
+      "$key": "uh113g5126d",
+      "key": "uniqueId",
+      "name": "Unique Id",
+      "dataType": "STRING",
+      "searchable": {
+        "primary": false,
+        "description": true
+      }
+    },
+    {
+      "$key": "zbdolfl8xj",
+      "key": "farmerName",
+      "name": "Farmer name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "80nqd1d1ewb",
+      "key": "villageId",
+      "name": "Village",
+      "dataType": "REFERENCE",
+      "modelId": "6664494307b1a041b15e0ba0"
+    },
+    {
+      "$key": "fpyy8c39aga",
+      "key": "gramPanchayatId",
+      "name": "Gram Panchayat",
+      "dataType": "REFERENCE",
+      "modelId": "6664488d07b1a041b15e0b9f"
+    },
+    {
+      "$key": "6wy1rsxm58y",
+      "key": "districtId",
+      "name": "District",
+      "dataType": "REFERENCE",
+      "modelId": "6662abef07b1a041b15e0b54"
+    },
+    {
+      "$key": "a13j8wtszf9",
+      "key": "blockId",
+      "name": "Block",
+      "dataType": "REFERENCE",
+      "modelId": "6662ac4007b1a041b15e0b55"
+    },
+    {
+      "$key": "ei6fhvycrkf",
+      "key": "shgId",
+      "name": "SHG",
+      "dataType": "REFERENCE",
+      "modelId": "6662acf307b1a041b15e0b57"
+    },
+    {
+      "$key": "dfnrpz8xvg",
+      "key": "stateId",
+      "name": "State",
+      "dataType": "REFERENCE",
+      "modelId": "6664474607b1a041b15e0b9e"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2025-03-11T16:11:35.655Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

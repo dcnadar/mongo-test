@@ -1,0 +1,12 @@
+{
+  "_id": "66713ee5faf6243feb6c9969",
+  "name": "App Screen Section",
+  "path": "/admin/mobileapp/app-screen-section/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "666fe475faf6243feb6c98de",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T08:01:41.950Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

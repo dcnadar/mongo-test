@@ -1,0 +1,59 @@
+{
+  "_id": "689f2c224b4ca5d6487cadfe",
+  "name": "SettingsNotification",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "e4ltdm479vw",
+      "key": "emailNotifications",
+      "name": "Email Notifications",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "0je1aq6j1jv7",
+      "name": "Push Notifications",
+      "key": "pushNotifications",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "7muy185ay5m",
+      "key": "pacementUpdates",
+      "name": "Pacement Updates",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "w8wohtj9vh",
+      "name": "Training Reminders",
+      "key": "trainingReminders",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "4args5fs5h3",
+      "key": "assessmentResults",
+      "name": "Assessment Results",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "pfclgd9o7pi",
+      "name": "Company Updates",
+      "key": "companyUpdates",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "dlk3rd0e2kf",
+      "name": "Weekly Digest",
+      "key": "weeklyDigest",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "idh7khk64w",
+      "name": "Marketing Emails",
+      "key": "marketingEmails",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T12:46:26.536Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.815Z"
+}

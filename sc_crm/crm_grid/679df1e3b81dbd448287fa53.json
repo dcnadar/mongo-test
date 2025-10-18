@@ -1,0 +1,74 @@
+{
+  "_id": "679df1e3b81dbd448287fa53",
+  "gridTitle": "ReactGrid GlobalBanner3",
+  "gridType": "form",
+  "crmModelId": "679df08cb81dbd448287fa52",
+  "rows": [
+    {
+      "$key": "ofz5bz7x3x",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "rmxf28r0q8o"
+        },
+        {
+          "$key": "oqk2pa77k3e",
+          "id": "description",
+          "title": "Description",
+          "type": "text_editor",
+          "span": 15
+        },
+        {
+          "$key": "vqmy9jbs3f",
+          "id": "enableButton",
+          "title": "Enable Button",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "15oshsxpxnt",
+          "id": "buttonText",
+          "title": "Button Text",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7i81c1z6bvx",
+          "id": "buttonAction",
+          "title": "Button Action",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 9
+        },
+        {
+          "$key": "wsoueuc44dm",
+          "id": "images",
+          "title": "Images",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 24,
+          "min": 5,
+          "add": true,
+          "delete": true,
+          "max": 20
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-01T10:05:23.702Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

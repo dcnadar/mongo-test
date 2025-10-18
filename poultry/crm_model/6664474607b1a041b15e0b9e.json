@@ -1,0 +1,28 @@
+{
+  "_id": "6664474607b1a041b15e0b9e",
+  "name": "State",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "poultry_state",
+  "properties": [
+    {
+      "$key": "ympe94yfjp",
+      "key": "stateName",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true,
+        "primary": true
+      },
+      "unique": true
+    }
+  ],
+  "cardDataTargets": {
+    "title": "stateName"
+  },
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T11:57:58.322Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "compoundUniqueFields": []
+}

@@ -1,0 +1,62 @@
+{
+  "_id": "671611615f22ec7ba02648c4",
+  "gridTitle": "Staff Transfer",
+  "gridType": "form",
+  "crmModelId": "6716002d5f22ec7ba02648be",
+  "rows": [
+    {
+      "$key": "t0c5xm74yuo",
+      "fields": [
+        {
+          "$key": "dedkl29h7n",
+          "id": "staff",
+          "title": "Select Staff",
+          "span": 24,
+          "type": "list",
+          "multiple": false,
+          "nullIds": [],
+          "onChangeCondition": [
+            {
+              "$key": "adu78yf0vyp",
+              "key": "branch",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/staff/branch?staffId=:staff staff"
+            }
+          ],
+          "meta": {
+            "queryParams": "userType=STAFF"
+          }
+        },
+        {
+          "$key": "lwprq0c0cq8",
+          "id": "branch",
+          "title": "Select Branch",
+          "type": "list",
+          "multiple": false,
+          "span": 24,
+          "updateType": "disabled",
+          "createType": "disabled"
+        },
+        {
+          "$key": "gfc3b616po4",
+          "id": "transferto",
+          "title": "Transfer To",
+          "type": "list",
+          "multiple": false,
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-21T08:31:29.182Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "postUrl": "/api/io/admin/staff/transfer",
+  "gridParams": [],
+  "updated": "2025-09-08T10:51:01.853Z"
+}

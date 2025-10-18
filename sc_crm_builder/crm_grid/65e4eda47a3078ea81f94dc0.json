@@ -1,0 +1,168 @@
+{
+  "_id": {
+    "$oid": "65e4eda47a3078ea81f94dc0"
+  },
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "crmModelId": "65e4e721d796c9ccbd1b408e",
+  "gridTitle": "Entity Table",
+  "apiUrl": "/admin/model/all",
+  "columns": [
+    {
+      "index": {
+        "$numberInt": "0"
+      },
+      "name": "Name",
+      "key": "name",
+      "type": "text",
+      "sort": true,
+      "$key": "zzbzltqlp"
+    },
+    {
+      "index": {
+        "$numberInt": "1"
+      },
+      "name": "Collection Name",
+      "key": "collectionName",
+      "type": "tag",
+      "sort": true,
+      "$key": "10jh52v0af7"
+    },
+    {
+      "index": {
+        "$numberInt": "4"
+      },
+      "key": "properties",
+      "name": "Properties",
+      "type": "text",
+      "valueCondition": "return this.properties ? this.properties.map(p => p.key || 'NA').join('<br>') : 'NA';",
+      "sort": false,
+      "$key": "6zbrm1tb95"
+    },
+    {
+      "index": {
+        "$numberInt": "3"
+      },
+      "name": "Edit",
+      "key": "edit",
+      "type": "actions",
+      "show": true,
+      "align": "left",
+      "sort": false,
+      "width": {
+        "$numberInt": "100"
+      },
+      "actions": [
+        {
+          "value": "Edit",
+          "type": "icon_button",
+          "icon": "/default/default/65e8cdff97f0eca7ba094627/imageUpload/2025/8/16/file_yg2evazqb1h-1758002407435.png",
+          "$key": "cstp8thxlic",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/entity/edit?entityId=:_id _id",
+          "gridTitle": "Edit Entity",
+          "showCondition": "return this.collectionName!='user' && this.collectionName!='reset_password_request'"
+        },
+        {
+          "$key": "wgg6zj44x4l",
+          "gridTitle": "Delete Entity",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "gridMsg": "Confirm delete entiry ':name'?",
+          "apiUrl": "/admin/entity?id=:_id _id",
+          "gridMsgParams": "name",
+          "type": "svg",
+          "svg": "<svg width=\"24px\" height=\"24px\" viewBox=\"0 -0.5 21 21\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"#ff0000\" stroke=\"#ff0000\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <title>delete [#ff0000]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> <g id=\"Dribbble-Light-Preview\" transform=\"translate(-179.000000, -360.000000)\" fill=\"#ff0000\"> <g id=\"icons\" transform=\"translate(56.000000, 160.000000)\"> <path d=\"M130.35,216 L132.45,216 L132.45,208 L130.35,208 L130.35,216 Z M134.55,216 L136.65,216 L136.65,208 L134.55,208 L134.55,216 Z M128.25,218 L138.75,218 L138.75,206 L128.25,206 L128.25,218 Z M130.35,204 L136.65,204 L136.65,202 L130.35,202 L130.35,204 Z M138.75,204 L138.75,200 L128.25,200 L128.25,204 L123,204 L123,206 L126.15,206 L126.15,220 L140.85,220 L140.85,206 L144,206 L144,204 L138.75,204 Z\" id=\"delete-[#ff0000]\"> </path> </g> </g> </g> </g></svg>",
+          "apiType": "DELETE",
+          "showCondition": "return this.collectionName!='user' && this.collectionName!='reset_password_request'"
+        },
+        {
+          "$key": "04b3yfp9mjy",
+          "gridTitle": "Details",
+          "gridType": "slug",
+          "slugTarget": "_self",
+          "value": "Details",
+          "apiUrl": "/admin/entity/details?entityId=:_id _id"
+        }
+      ],
+      "$key": "gw4r4jcw63i"
+    }
+  ],
+  "search": {
+    "placeHolder": "Search by name & collection name"
+  },
+  "created": {
+    "$date": {
+      "$numberLong": "1709501860608"
+    }
+  },
+  "actions": [
+    {
+      "$key": "iv35gb36ci9",
+      "gridTitle": "Add Entity",
+      "value": "Add Entity",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/entity/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "wv6nmbiipx",
+      "fields": [
+        {
+          "$key": "del9g6mefth",
+          "id": "baseModelId",
+          "title": "Base Model",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "meta": {
+            "queryParams": "modelType=BASE"
+          }
+        },
+        {
+          "$key": "r85u7y10m7",
+          "id": "properties.modelId",
+          "title": "Property Model (inner or reference)",
+          "type": "list",
+          "multiple": true,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "add": true,
+          "delete": true,
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "20"
+          }
+        }
+      ]
+    }
+  ],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "n3tn0j7302b",
+        "propertyKey": "modelType",
+        "operator": "EQUALS",
+        "EQUALS": "COLLECTION"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149949"
+    }
+  },
+  "breadcrumb": []
+}

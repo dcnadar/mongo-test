@@ -1,0 +1,68 @@
+{
+  "_id": "67ac88f4570d4c4a2423d4b4",
+  "gridTitle": "Eduempower Department",
+  "gridType": "table",
+  "crmModelId": "67ac8746570d4c4a2423d4b2",
+  "columns": [
+    {
+      "$key": "vatfhjuw8q",
+      "key": "name",
+      "name": "Department Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "nybe7giirak",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "v68fc0j6y1",
+          "value": "View Designation",
+          "gridType": "expendedTable",
+          "apiUrl": "/admin/school-setup/designation/all?departmentId=:_id _id"
+        },
+        {
+          "$key": "j4uqptmp0ql",
+          "value": "Add Designation",
+          "gridType": "expendedForm",
+          "apiUrl": "/admin/entity-setup/designation/add?departmentId=:_id _id"
+        },
+        {
+          "$key": "v9xeb5gciai",
+          "value": "Edit",
+          "gridTitle": "Edit Departments",
+          "slug": "/admin/school-setup/departments/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "a31ban69bo",
+      "value": "Add Department",
+      "gridTitle": "Add Departments",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/entity-setup/departments/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "zwgr3gj0hns",
+        "propertyKey": "entityType",
+        "operator": "EQUALS",
+        "EQUALS": "MASTER_SETUP"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-12T11:41:40.748Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

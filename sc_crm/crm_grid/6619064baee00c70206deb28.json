@@ -1,0 +1,49 @@
+{
+  "_id": "6619064baee00c70206deb28",
+  "gridTitle": "Cart Items",
+  "gridType": "form",
+  "crmModelId": "6618f1ceaee00c70206deb24",
+  "rows": [
+    {
+      "$key": "5xq5hiufuu4",
+      "fields": [
+        {
+          "id": "productVariantId",
+          "title": "Product Variant",
+          "span": 8,
+          "$key": "cne8qwmwv1c",
+          "type": "list",
+          "multiple": false
+        },
+        {
+          "$key": "c9hfcicmae",
+          "id": "quantity",
+          "title": "Quantity",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "9z4o10f9gq7",
+          "id": "customerId",
+          "title": "Customer",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T10:00:43.134Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true
+    }
+  ],
+  "upsertDoc": false
+}

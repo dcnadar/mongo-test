@@ -1,0 +1,61 @@
+{
+  "_id": "65ba56f194c18c84cd7a098a",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-31T14:19:29.632Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Logo",
+          "id": "logo",
+          "type": "upload",
+          "span": 12,
+          "o": false,
+          "hint": "Upload your organization's logo."
+        },
+        {
+          "index": 1,
+          "title": "Basic Info Form",
+          "id": "basicInfoForm",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "65ba56f094c18c84cd7a0984"
+          },
+          "hint": "Fill in the basic information form."
+        },
+        {
+          "index": 2,
+          "title": "Password Form",
+          "id": "passwordForm",
+          "type": "inner_form",
+          "span": 12,
+          "o": false,
+          "meta": {
+            "crmFormId": "65ba56f194c18c84cd7a0986"
+          },
+          "hint": "Set your password."
+        },
+        {
+          "index": 3,
+          "title": "OTP Form",
+          "id": "otpForm",
+          "type": "inner_form",
+          "span": 12,
+          "o": false,
+          "meta": {
+            "crmFormId": "65ba56f194c18c84cd7a0988"
+          },
+          "hint": "Verify OTP for account security."
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65ba56f194c18c84cd7a0989",
+  "gridTitle": "ReactGrid GlobalTrufalSignup"
+}

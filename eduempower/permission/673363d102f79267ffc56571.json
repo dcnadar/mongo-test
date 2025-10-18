@@ -1,0 +1,14 @@
+{
+  "_id": "673363d102f79267ffc56571",
+  "key": "leave.leave-report",
+  "name": "Leave Report ",
+  "apisAccess": [
+    "6718d5435f22ec7ba0264930",
+    "6718d5475f22ec7ba0264931"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T14:18:57.286Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.613Z"
+}

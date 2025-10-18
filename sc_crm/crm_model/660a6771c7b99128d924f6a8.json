@@ -1,0 +1,44 @@
+{
+  "_id": "660a6771c7b99128d924f6a8",
+  "name": "ReactGrid GlobalTeamSections3 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "dp4f482roes",
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name"
+    },
+    {
+      "$key": "ety5eexry55",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1vvjtk7ah6vi",
+      "key": "enableButton",
+      "name": "Enable Button",
+      "dataType": "BOOLEAN",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "zi8bcfw8xqn",
+      "key": "buttonAction",
+      "name": "ButtonAction",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "it7mzp1c35b",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-01T07:51:13.617Z",
+  "createdBy": "660a41ecdeefcc0a51709289"
+}

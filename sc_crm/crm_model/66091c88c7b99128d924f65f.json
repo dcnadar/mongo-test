@@ -1,0 +1,18 @@
+{
+  "_id": "66091c88c7b99128d924f65f",
+  "name": "ReactGrid GlobalLocalVideo",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "gqvn78p4w4r",
+      "key": "videoUrl",
+      "name": "VideoUrl",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-31T08:19:20.284Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "67c4949bf238c33fa9e18b78",
+  "name": "Bulk import staff",
+  "path": "/admin/staff/import/init",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "67c47ca5f238c33fa9e18b77",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-02T17:25:47.006Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:57.937Z"
+}

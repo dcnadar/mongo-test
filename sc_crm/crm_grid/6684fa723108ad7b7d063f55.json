@@ -1,0 +1,73 @@
+{
+  "_id": "6684fa723108ad7b7d063f55",
+  "gridTitle": "Add Comment Reaction",
+  "gridType": "form",
+  "crmModelId": "66838bdb3108ad7b7d063f07",
+  "rows": [
+    {
+      "$key": "kxpfe7jkb3a",
+      "fields": [
+        {
+          "$key": "bne004hblei",
+          "id": "type",
+          "title": "Type",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "id": "blogId",
+          "title": "Blog",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "r39hn63zrz9",
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "jjm62cnxg6f",
+          "id": "commentId",
+          "title": "Comment",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "56idf8hjl5g",
+          "id": "sourceType",
+          "title": "Source Type",
+          "type": "text",
+          "value": "COMMENT",
+          "span": 9,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "0bhahpentcf",
+          "id": "userId",
+          "title": "User",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "gridParams": [
+    {
+      "key": "blogId",
+      "required": true
+    },
+    {
+      "key": "commentId",
+      "required": true
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T07:14:58.451Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

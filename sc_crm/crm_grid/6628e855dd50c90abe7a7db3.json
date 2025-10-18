@@ -1,0 +1,44 @@
+{
+  "_id": "6628e855dd50c90abe7a7db3",
+  "gridTitle": "ReactGrid GlobalFAQ4",
+  "gridType": "form",
+  "crmModelId": "6628e800dd50c90abe7a7db2",
+  "rows": [
+    {
+      "$key": "jmcaccaehfi",
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8,
+          "$key": "1740tt9pqjg"
+        },
+        {
+          "$key": "jf43aschip9",
+          "id": "description",
+          "title": "Upword Description",
+          "type": "text_editor",
+          "span": 24,
+          "o": true,
+          "hint": "<p></p>\n"
+        },
+        {
+          "$key": "10wb4zblo93b",
+          "id": "questionAnswers",
+          "title": "QuestionAnswers",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 10
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-24T11:09:09.111Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

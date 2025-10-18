@@ -1,0 +1,14 @@
+{
+  "_id": "6719097c5f22ec7ba026496c",
+  "name": "Manage Admissions",
+  "path": "/admin/admission/manage/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "671906b95f22ec7ba0264966",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T14:34:36.423Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:50:54.568Z"
+}

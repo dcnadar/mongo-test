@@ -1,0 +1,179 @@
+{
+  "_id": "6618ad53aee00c70206deb0b",
+  "gridTitle": "Eduempower Student",
+  "gridType": "table",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "columns": [
+    {
+      "$key": "r9f4sgyzmr",
+      "name": "Student",
+      "type": "card",
+      "sort": false,
+      "width": 200,
+      "key": "_id"
+    },
+    {
+      "$key": "uhxxpa40j38",
+      "key": "academicDetails.admissionNo",
+      "name": "Admission No",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "2l0y6inzyif",
+      "key": "academicDetails.academicSession",
+      "name": "Academic Session",
+      "type": "card",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "ocnkd42fvn8",
+      "name": "Class",
+      "key": "academicDetails.class",
+      "type": "card",
+      "width": 50,
+      "sort": true
+    },
+    {
+      "$key": "cm8pqvu4p2",
+      "key": "academicDetails.section",
+      "name": "Section",
+      "type": "card",
+      "sort": false,
+      "width": 50
+    },
+    {
+      "$key": "i713ftkktds",
+      "name": "Roll No",
+      "key": "academicDetails.rollNo",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "nffmh5wtyd",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "width": 0,
+      "sort": true
+    },
+    {
+      "$key": "cbgqwpwuhdn",
+      "key": "actions",
+      "name": "Actions",
+      "type": "options",
+      "width": 50,
+      "actions": [
+        {
+          "$key": "xo457leyis",
+          "gridType": "popupForm",
+          "slug": "/admin/student/edit?studentId=:_id _id",
+          "gridTitle": "Student Info",
+          "value": "View Details"
+        },
+        {
+          "$key": "7xj5tt89j6r",
+          "gridTitle": "Documents",
+          "value": "Documents",
+          "gridType": "expendedTable",
+          "apiUrl": "/admin/student/documents/all?studentId=:_id _id"
+        },
+        {
+          "$key": "udwerjscgbk",
+          "gridTitle": "Discontinue",
+          "value": "Discontinue",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/student/discontinue/edit?studentId=:_id _id",
+          "showCondition": "return this.status === \"ACTIVE\""
+        },
+        {
+          "$key": "rswaukq1iwa",
+          "gridTitle": "Change Password",
+          "value": "Change Password",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/student/password/edit?studentId=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "jw5kmraij2p",
+      "gridType": "popupForm",
+      "value": "Add Student",
+      "gridTitle": "Add Student",
+      "slug": "/admin/student/add"
+    },
+    {
+      "$key": "wb7awroyj9",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/student/bulk/add",
+      "gridTitle": "Bulk Upload Pics",
+      "value": "Add Bulk Upload Pics"
+    }
+  ],
+  "border": false,
+  "customFilters": [
+    {
+      "$key": "0n8mcu2jyvz",
+      "fields": [
+        {
+          "$key": "z0nzmz9s4j",
+          "id": "academicDetails.admissionNo",
+          "title": "Admission No.",
+          "type": "text",
+          "span": 12,
+          "o": true
+        },
+        {
+          "$key": "27j4vpzflh5",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "o": true
+        },
+        {
+          "$key": "qh5w956addh",
+          "id": "dateOfJoining",
+          "title": "Date of admission",
+          "type": "date_range_2",
+          "span": 12,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "2e74aip2gx3",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EXISTS": false,
+        "EQUALS": "STUDENT"
+      },
+      {
+        "$key": "hb57jn0hium",
+        "operator": "EXISTS",
+        "EXISTS": true,
+        "propertyKey": "dateOfJoining"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "middleName",
+    "lastName",
+    "_id"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-12T03:41:07.065Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:00.859Z"
+}

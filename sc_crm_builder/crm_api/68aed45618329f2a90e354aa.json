@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "68aed45618329f2a90e354aa"
+  },
+  "name": "Add Base",
+  "path": "/admin/entity/base/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "68aeca5018329f2a90e354a8",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1756288086557"
+    }
+  },
+  "createdBy": "68adb9f43e8ef56770f82104",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149416"
+    }
+  }
+}

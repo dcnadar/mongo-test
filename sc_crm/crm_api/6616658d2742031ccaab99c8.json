@@ -1,0 +1,12 @@
+{
+  "_id": "6616658d2742031ccaab99c8",
+  "name": "Update Website Header Section",
+  "path": "/admin/website/header/section/edit/update",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6616605a2742031ccaab99bd",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-10T10:10:21.211Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

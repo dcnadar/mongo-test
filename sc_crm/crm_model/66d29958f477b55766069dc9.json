@@ -1,0 +1,76 @@
+{
+  "_id": "66d29958f477b55766069dc9",
+  "name": "ReactGrid GlobalHeader4",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "9i2gyxqkfpf",
+      "key": "phoneNumber",
+      "name": "PhoneNumber",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "i0xdah4smz",
+      "key": "emailId",
+      "name": "EmailId",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4r7z20usi6l",
+      "key": "mainMenu",
+      "name": "MainMenu",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66d29aadf477b55766069de2"
+    },
+    {
+      "$key": "x9cbozc31gd",
+      "key": "category",
+      "name": "Category",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66d29f08f477b55766069e15"
+    },
+    {
+      "$key": "4pozfad6lhr",
+      "key": "loginData",
+      "name": "LoginData",
+      "dataType": "INNER_MODEL",
+      "modelId": "66d9407120ea9a402cc8a3a4"
+    },
+    {
+      "$key": "d5oo7qn99wo",
+      "key": "hearderTopMassage",
+      "name": "HearderTopMassage",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3uhgi9tsid6",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2clo7dso6w",
+      "key": "useSvg",
+      "name": "UseSvg",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "yv97n1n406e",
+      "key": "svg",
+      "name": "Svg",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yd3b5a13go",
+      "key": "socialLinks",
+      "name": "SocialLinks",
+      "dataType": "INNER_MODEL",
+      "modelId": "66e8138c99c5a61793d1b81e"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-31T04:17:28.603Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

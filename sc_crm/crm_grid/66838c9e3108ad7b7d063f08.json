@@ -1,0 +1,48 @@
+{
+  "_id": "66838c9e3108ad7b7d063f08",
+  "gridTitle": "Blog Comment",
+  "gridType": "form",
+  "crmModelId": "66838a623108ad7b7d063f06",
+  "rows": [
+    {
+      "$key": "v2alhcp30v",
+      "fields": [
+        {
+          "$key": "4ybtwwtz6lp",
+          "id": "blogId",
+          "title": "Blog Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "xjz1z15vjbb",
+          "id": "userId",
+          "title": "User",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "1v2qbcnkr6x",
+          "id": "comment",
+          "title": "Comment",
+          "type": "textarea",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T05:14:06.678Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "blogId",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "_id": {
+    "$oid": "68e4c8bbe652bafef0b04b4a"
+  },
+  "name": "Index Option",
+  "properties": [
+    {
+      "key": "unique",
+      "$key": "hpdg7lurwj",
+      "name": "Unique",
+      "dataType": "BOOLEAN",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    },
+    {
+      "$key": "1u9t6f86s8s",
+      "key": "sparse",
+      "name": "Sparse",
+      "dataType": "BOOLEAN",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    }
+  ],
+  "modelType": "INNER",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1759824059427"
+    }
+  },
+  "createdBy": "68e09e923a6ade54590da550",
+  "updated": {
+    "$date": {
+      "$numberLong": "1760538704472"
+    }
+  }
+}

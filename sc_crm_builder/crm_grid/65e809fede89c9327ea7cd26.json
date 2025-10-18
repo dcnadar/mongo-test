@@ -1,0 +1,128 @@
+{
+  "_id": {
+    "$oid": "65e809fede89c9327ea7cd26"
+  },
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "crmModelId": "65e782c6da2444a1d00dfeb3",
+  "gridTitle": "Crm Grid",
+  "columns": [
+    {
+      "index": {
+        "$numberInt": "0"
+      },
+      "name": "Name",
+      "key": "gridTitle",
+      "type": "text",
+      "sort": true,
+      "$key": "gv4qne2hwx"
+    },
+    {
+      "index": {
+        "$numberInt": "1"
+      },
+      "name": "Grid Type",
+      "key": "gridType",
+      "type": "tag",
+      "sort": true,
+      "$key": "ij8l30bsc8"
+    },
+    {
+      "index": {
+        "$numberInt": "2"
+      },
+      "name": "Model",
+      "key": "crmModelId",
+      "type": "card",
+      "sort": false,
+      "$key": "na9j6gd1cpq"
+    },
+    {
+      "index": {
+        "$numberInt": "3"
+      },
+      "name": "Edit",
+      "key": "edit",
+      "type": "actions",
+      "show": true,
+      "align": "right",
+      "sort": false,
+      "width": {
+        "$numberInt": "100"
+      },
+      "actions": [
+        {
+          "value": "Edit",
+          "slug": "/admin/grid/update?id=:_id _id",
+          "type": "icon_button",
+          "icon": "/default/default/65e8cdff97f0eca7ba094627/imageUpload/2025/8/16/file_yg2evazqb1h-1758002407435.png",
+          "$key": "8e0y1yqhc6"
+        }
+      ],
+      "$key": "4ztw2fngpwj"
+    }
+  ],
+  "createButton": {
+    "value": "Add Grid",
+    "slug": "/admin/grid/add"
+  },
+  "search": {
+    "placeHolder": "Search by name & grid type"
+  },
+  "created": {
+    "$date": {
+      "$numberLong": "1709705726822"
+    }
+  },
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "2k1x7ly4nad",
+      "fields": [
+        {
+          "$key": "8i2cc4ogp7r",
+          "id": "crmModelId",
+          "title": "Model",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "$key": "qpkenovx6hj",
+          "id": "gridType",
+          "title": "Grid Type",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true
+        },
+        {
+          "$key": "2jgg618ound",
+          "id": "rows.fields.type",
+          "title": "Form Field type",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "6"
+          }
+        }
+      ]
+    }
+  ],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150251"
+    }
+  }
+}

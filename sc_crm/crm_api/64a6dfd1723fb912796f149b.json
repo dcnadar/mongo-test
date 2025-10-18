@@ -1,0 +1,11 @@
+{
+  "_id": "64a6dfd1723fb912796f149b",
+  "name": "Update Product Variant Option POST",
+  "action": "FORM_SAVE",
+  "sourceId": "64a6dc1fe7d297735dc044a7",
+  "gridType": "form",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "POST",
+  "path": "/admin/product/variant-option/update",
+  "created": "2024-01-27T07:48:44.437Z"
+}

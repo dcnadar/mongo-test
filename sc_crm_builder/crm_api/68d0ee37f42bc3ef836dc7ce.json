@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "68d0ee37f42bc3ef836dc7ce"
+  },
+  "name": "All Permission",
+  "path": "/admin/app-permission",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "68d0edd8f42bc3ef836dc7cd",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758522935507"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231671949"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "65d2355b27331eaa8f6d3108",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Header",
+          "id": "header",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "65d1da83b694f48ed9a50633"
+          }
+        },
+        {
+          "index": 1,
+          "title": "Sections",
+          "id": "sections",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 20,
+          "countTitle": "No Section Added",
+          "add": true,
+          "delete": true
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65d234ff8ea7227c3c65d4cb",
+  "gridTitle": "ReactGrid GlobalContentSection3",
+  "created": "2024-02-18T16:50:35.046Z"
+}

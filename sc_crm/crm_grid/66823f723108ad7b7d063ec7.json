@@ -1,0 +1,35 @@
+{
+  "_id": "66823f723108ad7b7d063ec7",
+  "gridTitle": "NativeGrid GlobalFeatureSection quote",
+  "gridType": "form",
+  "crmModelId": "6682366d3108ad7b7d063ec2",
+  "rows": [
+    {
+      "$key": "kgams1aevj",
+      "fields": [
+        {
+          "id": "message",
+          "title": "message",
+          "type": "text",
+          "span": 8,
+          "$key": "t0vszfw30r"
+        },
+        {
+          "$key": "ao4l8kitom",
+          "id": "user",
+          "title": "User",
+          "span": 24,
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T05:32:34.266Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

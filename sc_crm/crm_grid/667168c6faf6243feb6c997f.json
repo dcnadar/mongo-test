@@ -1,0 +1,95 @@
+{
+  "_id": "667168c6faf6243feb6c997f",
+  "gridTitle": "ReactGrid GlobalTrufalLogin ForgetPassword",
+  "gridType": "form",
+  "crmModelId": "66715feffaf6243feb6c997a",
+  "rows": [
+    {
+      "$key": "92fe7dbpz1v",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "1y5cq9zidkf"
+        },
+        {
+          "$key": "5h8whr4a5li",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "qyetzonltda",
+          "id": "headingLeftText",
+          "title": "HeadingLeftText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "pn0jarhe3",
+          "id": "forgetText",
+          "title": "ForgetText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "mz4ushe8udk",
+          "id": "singUpOtpText",
+          "title": "SingUpOtpText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ov3d8f468qm",
+          "id": "headingLinkText",
+          "title": "HeadingLinkText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "nbjqh5fgns",
+          "id": "headingRightText",
+          "title": "HeadingRightText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "v83wm7qdt9d",
+          "id": "emailaddresslabel",
+          "title": "Emailaddresslabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "9t71je1784v",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "kg9d5njg0p",
+          "id": "sucessMessage",
+          "title": "SucessMessage",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ygdbk983oj",
+          "id": "errorMessage",
+          "title": "ErrorMessage",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T11:00:22.222Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "66236ef67d57294ed2705108",
+  "name": "Role",
+  "modelType": "COLLECTION",
+  "collectionName": "role",
+  "properties": [
+    {
+      "$key": "epyq9jewasr",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-20T07:29:58.029Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

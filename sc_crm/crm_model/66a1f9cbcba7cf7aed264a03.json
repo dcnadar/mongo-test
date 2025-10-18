@@ -1,0 +1,35 @@
+{
+  "_id": "66a1f9cbcba7cf7aed264a03",
+  "name": "Product Seo",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "djv1xy7b9yv",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nxrgqenfuzj",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "od8pkitvpk9",
+      "key": "keywords",
+      "name": "Keywords",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "jyijdr2n3ra",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-25T07:07:55.307Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

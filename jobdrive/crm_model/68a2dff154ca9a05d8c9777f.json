@@ -1,0 +1,168 @@
+{
+  "_id": "68a2dff154ca9a05d8c9777f",
+  "name": "Interview",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "interview",
+  "properties": [
+    {
+      "$key": "nv6oxxvx2o8",
+      "key": "studentId",
+      "name": "Student",
+      "dataType": "REFERENCE",
+      "modelId": "6703b5dc30083226ac6affc4"
+    },
+    {
+      "$key": "3aboebf0oqw",
+      "key": "placementDrive",
+      "dataType": "REFERENCE",
+      "modelId": "689dc7635f986889b43879a3",
+      "name": "Placement Drive"
+    },
+    {
+      "$key": "wst6ajdpmqa",
+      "key": "interviewDateAndTime",
+      "name": "Interview Date And Time",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "mdti3ypxmzl",
+      "key": "interviewStatus",
+      "name": "Interview Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "9ebvvvbge27",
+            "value": "Scheduled",
+            "key": "SCHEDULED"
+          },
+          {
+            "$key": "9fuwpdpii4",
+            "value": "Ongoing",
+            "key": "ONGOING"
+          },
+          {
+            "$key": "k7wux6q2axn",
+            "value": "Completed",
+            "key": "COMPLETED"
+          },
+          {
+            "$key": "zq47zs3qf6f",
+            "value": "Cancelled",
+            "key": "CANCELLED"
+          },
+          {
+            "$key": "wrv6yoytr1s",
+            "value": "Rescheduled",
+            "key": "RESCHEDULED"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "4sao3b5ak46",
+      "key": "studentSelectionStatus",
+      "name": "Student Selection Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "tgvz3zuookr",
+            "value": "Pending",
+            "key": "PENDING"
+          },
+          {
+            "$key": "s8yjxh2ltqn",
+            "value": "Selected",
+            "key": "SELECTED"
+          },
+          {
+            "$key": "3rwinmxzgda",
+            "value": "Rejected",
+            "key": "REJECTED"
+          },
+          {
+            "$key": "syr5ncekf4",
+            "value": "On Hold",
+            "key": "ON_HOLD"
+          },
+          {
+            "$key": "514wanndim9",
+            "key": "SHORTLISTED",
+            "value": "Shortlisted"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "2wfkfcuaf57",
+      "key": "interviewerName",
+      "name": "Interviewer",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cbtjfeaf1mr",
+      "key": "interviewerEmail",
+      "name": "Interviewer email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4o93j5k17ft",
+      "key": "feedback",
+      "name": "Feedback",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "astany2gzag",
+      "key": "score",
+      "name": "Score",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "169t9qik0wf",
+      "key": "location",
+      "name": "Location",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jjyiblz6xme",
+      "key": "roundName",
+      "name": "Round name",
+      "dataType": "STRING",
+      "data": {
+        "options": []
+      }
+    },
+    {
+      "$key": "srmaahoma4",
+      "key": "ongoingDate",
+      "name": "Ongoing Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "q1wottcrwtb",
+      "key": "completedDate",
+      "name": "Completed Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "sb2wke7fks",
+      "key": "cancelledDate",
+      "name": "Cancelled Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "huyr6v43zpl",
+      "key": "comment",
+      "name": "Comment",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-18T08:10:25.793Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.854Z"
+}

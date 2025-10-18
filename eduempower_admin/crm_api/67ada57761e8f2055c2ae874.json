@@ -1,0 +1,15 @@
+{
+  "_id": "67ada57761e8f2055c2ae874",
+  "name": "All Leave Types",
+  "path": "/admin/school-setup/leave-settings/leave-type/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67ad7aa4570d4c4a2423d4d0",
+  "innerGridType": "table",
+  "innerSourceId": "67ada09f61e8f2055c2ae871",
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T07:55:35.052Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

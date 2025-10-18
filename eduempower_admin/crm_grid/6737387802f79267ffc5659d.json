@@ -1,0 +1,64 @@
+{
+  "_id": "6737387802f79267ffc5659d",
+  "gridTitle": "Account",
+  "gridType": "table",
+  "crmModelId": "67371f8502f79267ffc56594",
+  "columns": [
+    {
+      "$key": "gl6g94ln3ov",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "sw50z2h9if",
+      "key": "logo",
+      "name": "Logo",
+      "type": "thumb",
+      "sort": false
+    },
+    {
+      "$key": "ab0wbr9iuo",
+      "key": "domain",
+      "name": "Domains",
+      "type": "tag",
+      "sort": false
+    },
+    {
+      "$key": "al857ltzitv",
+      "key": "Actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "actions": [
+        {
+          "$key": "gmz0vpprwqb",
+          "gridTitle": "View",
+          "value": "View",
+          "slug": "/admin/account/details?ecomAccountId=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "pykhyb32qvn",
+      "gridTitle": "Add Account",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/account/add",
+      "value": "Add"
+    }
+  ],
+  "border": true,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-15T12:03:04.481Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "search": {
+    "placeHolder": "Search Visit Domain"
+  }
+}

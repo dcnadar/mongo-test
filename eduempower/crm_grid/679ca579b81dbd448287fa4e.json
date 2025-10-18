@@ -1,0 +1,52 @@
+{
+  "_id": "679ca579b81dbd448287fa4e",
+  "gridTitle": "Eduempower IssuedBook Track\t",
+  "gridType": "form",
+  "crmModelId": "679c9bf9b81dbd448287fa4d",
+  "rows": [
+    {
+      "$key": "payd6ndf5h9",
+      "fields": [
+        {
+          "id": "issuedDate",
+          "title": "Issued Date",
+          "type": "date_time",
+          "span": 8,
+          "$key": "x1qk69pk9j9",
+          "updateType": "disabled",
+          "createType": "disabled_fe"
+        },
+        {
+          "$key": "lh9amla4up",
+          "id": "bookReturnDate",
+          "title": "Book Return Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "pq7whspqibq",
+          "id": "returnedOnDate",
+          "title": "Returned On Date",
+          "type": "date",
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "o": true
+        },
+        {
+          "$key": "ukxg9m8xsm",
+          "id": "comment",
+          "title": "Comment",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-31T10:27:05.716Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:04.062Z"
+}

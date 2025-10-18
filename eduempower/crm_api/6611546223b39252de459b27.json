@@ -1,0 +1,15 @@
+{
+  "_id": "6611546223b39252de459b27",
+  "name": "All Fee Structure",
+  "path": "/admin/schoolsetup/fee-settings/fee-structure/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660d6877c7b99128d924f75d",
+  "innerGridType": "table",
+  "innerSourceId": "660d6877c7b99128d924f75d",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T13:55:46.308Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:45.545Z"
+}

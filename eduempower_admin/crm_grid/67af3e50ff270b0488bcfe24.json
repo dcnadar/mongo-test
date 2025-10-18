@@ -1,0 +1,51 @@
+{
+  "_id": "67af3e50ff270b0488bcfe24",
+  "gridTitle": "Eduempower School AcademicSession",
+  "gridType": "form",
+  "crmModelId": "673855455bfbb47aebef465b",
+  "rows": [
+    {
+      "$key": "l6rvdd6kvo9",
+      "fields": [
+        {
+          "id": "session",
+          "title": "Session Name",
+          "type": "text",
+          "span": 12,
+          "$key": "ilxef8orjt"
+        },
+        {
+          "$key": "y4rj41xvc7i",
+          "id": "from",
+          "title": "From Date",
+          "type": "date",
+          "span": 12
+        },
+        {
+          "$key": "uyl2yu6uwt",
+          "title": "To Date",
+          "id": "to",
+          "type": "date",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "dkdohq4exzo",
+          "id": "entityType",
+          "title": "Entity Type",
+          "type": "text",
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden",
+          "value": "MASTER_SETUP"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-14T13:00:00.575Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/account/all"
+}

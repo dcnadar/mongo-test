@@ -1,0 +1,13 @@
+{
+  "_id": "666531c907b1a041b15e0bc6",
+  "name": "Add Farmer Producer Organization",
+  "path": "/admin/groups/farmer-producer-organization/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66644ef507b1a041b15e0ba5",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-09T04:38:33.882Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

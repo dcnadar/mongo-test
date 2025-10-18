@@ -1,0 +1,98 @@
+{
+  "_id": "668cc300531ed762273ebc00",
+  "gridTitle": "Product Filter",
+  "gridType": "form",
+  "crmModelId": "668cbf9c531ed762273ebbff",
+  "rows": [
+    {
+      "$key": "w3mgiz2tc2s",
+      "fields": [
+        {
+          "id": "propertyKey",
+          "title": "Property Key",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "xwi2r62mha"
+        },
+        {
+          "$key": "sn8ijtmfc",
+          "id": "title",
+          "title": "Title",
+          "type": "tag",
+          "multiple": false,
+          "showCondition": "return this.propertyKey === 'title';"
+        },
+        {
+          "$key": "3g7sjijcm3t",
+          "id": "category",
+          "title": "Category",
+          "span": 8,
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "showCondition": "return this.propertyKey === 'productCategory';"
+        },
+        {
+          "$key": "rlst15bn1b",
+          "id": "brand",
+          "title": "Brand",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "showCondition": "return this.propertyKey === 'brand';"
+        },
+        {
+          "$key": "43wmke3dnfq",
+          "id": "ratings",
+          "title": "Ratings",
+          "type": "radio",
+          "multiple": false,
+          "showCondition": "return this.propertyKey === 'ratings';",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "qfta33zbaa",
+          "id": "discount",
+          "title": "Discount",
+          "type": "number",
+          "span": 8,
+          "showCondition": "return this.propertyKey === 'discount';"
+        },
+        {
+          "$key": "1wzsk2miwqd",
+          "id": "value",
+          "title": "Value",
+          "type": "text",
+          "span": 8,
+          "showCondition": "return this.propertyKey === 'title'"
+        },
+        {
+          "$key": "rbg33oh4kwd",
+          "id": "from",
+          "title": "From",
+          "span": 8,
+          "type": "number",
+          "showCondition": "return this.propertyKey === 'priceRange'"
+        },
+        {
+          "$key": "hl7jxe91bp",
+          "id": "to",
+          "title": "To",
+          "type": "number",
+          "span": 8,
+          "showCondition": "return this.propertyKey === 'priceRange'"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-09T04:56:32.530Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

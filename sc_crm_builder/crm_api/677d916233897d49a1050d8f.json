@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "677d916233897d49a1050d8f"
+  },
+  "name": "All App Menu",
+  "path": "(OLD)/admin/app-menu/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "65e38baed9f66a4608444838",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1736282466207"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149154"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_id": "6513e5cf581c417ed1d0dcf7",
+  "name": "Top Services",
+  "reactGrid": "FoodioTopServices",
+  "thumb": "/static/themes/foodio/grids/thumbs/top-services.png",
+  "theme": "foodio",
+  "crmForm": "6513dfc9581c417ed1d0dcf5",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "status": "ACTIVE",
+  "created": "2024-01-27T07:48:53.131Z"
+}

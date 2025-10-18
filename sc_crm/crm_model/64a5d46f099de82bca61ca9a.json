@@ -1,0 +1,40 @@
+{
+  "_id": "64a5d46f099de82bca61ca9a",
+  "properties": [
+    {
+      "dataType": "REFERENCE",
+      "key": "productVariant",
+      "name": "Product Variant",
+      "modelId": "64a5d14d099de82bca61ca99",
+      "searchable": {
+        "value": true,
+        "primary": true
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "countryCode",
+      "data": {
+        "tagCategory": "countryCode"
+      },
+      "name": "Country Code"
+    },
+    {
+      "dataType": "DOUBLE",
+      "key": "price",
+      "name": "Price"
+    },
+    {
+      "dataType": "DOUBLE",
+      "key": "mrp",
+      "name": "MRP"
+    }
+  ],
+  "collectionName": "product_variant_pricing",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Product Variant Pricing",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:51.040Z"
+}

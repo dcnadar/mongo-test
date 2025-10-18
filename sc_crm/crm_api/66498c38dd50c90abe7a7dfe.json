@@ -1,0 +1,13 @@
+{
+  "_id": "66498c38dd50c90abe7a7dfe",
+  "name": "Android FCM Token",
+  "path": "/admin/public/fcm/token/android",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66498c0bdd50c90abe7a7dfd",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-05-19T05:20:56.298Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

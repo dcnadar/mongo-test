@@ -1,0 +1,105 @@
+{
+  "_id": "673846135bfbb47aebef4654",
+  "name": "Eduempower Branch",
+  "modelType": "COLLECTION",
+  "baseModelId": "67371fca02f79267ffc56595",
+  "collectionName": "eduempower_branch",
+  "properties": [
+    {
+      "$key": "xe1oll6i2d",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "mca04os8q3",
+      "key": "branchCode",
+      "name": "Branch Code",
+      "dataType": "STRING",
+      "searchable": {
+        "thumbInitials": true
+      }
+    },
+    {
+      "$key": "4djutp4rcdj",
+      "key": "primaryEmail",
+      "name": "Primary Email",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "7ajyq0in6r3",
+      "key": "primaryContact",
+      "name": "Primary Contact",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "62fzwumfelo",
+      "key": "secondaryEmail",
+      "name": "Secondary Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9f3aj2sgdtu",
+      "key": "secondaryContact",
+      "name": "Secondary Contact",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "b6or1shlonb",
+      "key": "address",
+      "name": "Address",
+      "dataType": "INNER_MODEL",
+      "modelId": "673846495bfbb47aebef4655",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "oa0nb6n716c",
+      "key": "website",
+      "name": "Website",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "snh31tn79sa",
+      "key": "mapLocation",
+      "name": "Map Location",
+      "dataType": "INNER_MODEL",
+      "modelId": "67384bc05bfbb47aebef4657"
+    },
+    {
+      "$key": "9mxxvyrxwmg",
+      "key": "board",
+      "name": "Board",
+      "dataType": "REFERENCE",
+      "modelId": "6612901ca10af254b4b4380e"
+    },
+    {
+      "$key": "xbhe81u6xuo",
+      "key": "ecomAccountId",
+      "name": "Account",
+      "dataType": "REFERENCE",
+      "modelId": "67371f8502f79267ffc56594"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name",
+    "subtitles": [
+      "primaryEmail",
+      "primaryContact"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-16T07:13:23.504Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

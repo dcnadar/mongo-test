@@ -1,0 +1,13 @@
+{
+  "_id": "668279d63108ad7b7d063eeb",
+  "category": "string-filter",
+  "categoryName": "String Filter",
+  "name": [
+    "Contains",
+    "Not_Equals",
+    "Equals"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T09:41:42.151Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

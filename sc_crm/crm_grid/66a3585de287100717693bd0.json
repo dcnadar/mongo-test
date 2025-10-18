@@ -1,0 +1,132 @@
+{
+  "_id": "66a3585de287100717693bd0",
+  "gridTitle": "customer address",
+  "gridType": "form",
+  "crmModelId": "66a35460e287100717693bcf",
+  "rows": [
+    {
+      "$key": "5l1wmv4n4q9",
+      "fields": [
+        {
+          "$key": "8lzb00ad1xj",
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "lxmqjb70hft",
+          "id": "lastName",
+          "title": "Last Name",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "70k4jvgb747",
+          "id": "mobileNumber",
+          "title": "Mobile Number",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "0xiehxvbwjg",
+          "id": "pincode",
+          "title": "Pin Code",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "fhuzn5bs07f",
+          "id": "state",
+          "title": "State",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "eib77vnmuz",
+          "id": "addressLine1",
+          "title": "Address Line1",
+          "type": "text",
+          "span": 7
+        },
+        {
+          "$key": "ra1ni0k15w",
+          "id": "addressLine2",
+          "title": "Address Line2",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7l78lf18vu6",
+          "id": "locality",
+          "title": "Locality",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "c0w7ne4ds7",
+          "id": "district",
+          "title": "District",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "th8vpn5foi",
+          "id": "addressType",
+          "title": "Address Type",
+          "type": "list",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "9td5j8whfen",
+          "id": "country",
+          "title": "Country",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "5245vibkduo",
+          "id": "openOnSaturday",
+          "title": "Open On Saturday",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "4twi4y3pd",
+          "id": "openOnSunday",
+          "title": "Open On Sunday",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "avvzzo58o98",
+          "id": "default",
+          "title": "Default",
+          "type": "bool"
+        },
+        {
+          "$key": "douoaazrvkj",
+          "id": "customerId",
+          "title": "Customer Id",
+          "type": "text",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T08:03:41.293Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true
+    }
+  ],
+  "upsertDoc": false
+}

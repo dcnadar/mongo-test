@@ -1,0 +1,148 @@
+{
+  "_id": "667bf49074a25c4c696adb1c",
+  "name": "Batch Info",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "69dq20er4n4",
+      "key": "batchPlacement",
+      "name": "Batch Placement",
+      "dataType": "DATE",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "2sbilgqrfk",
+      "key": "nOOfDocPlaced",
+      "name": "Number of DOC Placed",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "oz2xq34lh8s",
+      "key": "nOOfFeeder",
+      "name": "Number of Feeder",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "ptknsuy3m2o",
+      "key": "nOOfFeederBird",
+      "name": "Number of Feeder / 100 Bird",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "zcogwreiz4",
+      "key": "nOOfDrinker",
+      "name": "Number of Drinker",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "59n0om6vzip",
+      "key": "nOOfDrinkerBird",
+      "name": "Number of Drinker / 100 Bird",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "6ysy70equqx",
+      "key": "sparyingDisinfectant",
+      "name": "Sparying Disinfectant",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ep1qt8flolw",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "tje8uh6xsk",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "7f6ak8ll923",
+      "key": "whiteWash",
+      "name": "White Wash",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "fp8i6s787wi",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "vlzxbemh1ro",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "zg6h0tvrngq",
+      "key": "wipingOfFloor",
+      "name": "Wiping of Floor",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ciyzysh8aut",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "vo1garalz09",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ze604j8vrrj",
+      "key": "fumigation",
+      "name": "Fumigation",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ys5pkho3qg",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "3te723r45ps",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "d3xudx9qrg",
+      "key": "litter",
+      "name": "Litter",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "3q52y7dij84",
+      "key": "doc",
+      "name": "DOC",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "7ni9a1qffih",
+      "key": "farmerId",
+      "name": "Farmer Id",
+      "dataType": "REFERENCE",
+      "modelId": "6662aede07b1a041b15e0b58"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-26T10:59:28.819Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

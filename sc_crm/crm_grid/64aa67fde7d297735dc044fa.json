@@ -1,0 +1,149 @@
+{
+  "_id": "64aa67fde7d297735dc044fa",
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "columns": [
+    {
+      "$key": "ghtohki8bw",
+      "key": "basicDetails.media",
+      "name": "Thumb",
+      "type": "thumb",
+      "sort": false,
+      "width": 150
+    },
+    {
+      "index": 1,
+      "name": "Name",
+      "key": "name",
+      "type": "text",
+      "sort": false,
+      "$key": "vufdmkvxqe",
+      "width": 150
+    },
+    {
+      "$key": "9oydjh0akaq",
+      "key": "path",
+      "name": "Path",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "index": 2,
+      "name": "Created On",
+      "key": "created",
+      "type": "date",
+      "sort": true,
+      "$key": "vhbu3yiw9a",
+      "width": 150
+    },
+    {
+      "$key": "9qr5v7tvmil",
+      "key": "mrp",
+      "name": "MRP",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "zq6x2a5ztyo",
+      "key": "price",
+      "name": "Price",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "hgzy6ifrz1",
+      "key": "available",
+      "name": "Available",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "3w9z60j2ukq",
+      "key": "onHand",
+      "name": "On Hand",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "dhy8rtjsxyo",
+      "key": "sku",
+      "name": "SKU",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "62uhumt93gk",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "index": 3,
+      "name": "Edit",
+      "key": "edit",
+      "type": "actions",
+      "show": true,
+      "align": "right",
+      "sort": false,
+      "width": 200,
+      "actions": [
+        {
+          "value": "Edit",
+          "slug": "/admin/product/variant/update?id=:_id _id",
+          "type": "icon_button",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10015/10015359.png",
+          "$key": "w39ha69g8la"
+        },
+        {
+          "$key": "29094a7wfdu",
+          "value": "Publish",
+          "gridType": "confirm",
+          "apiUrl": "/api/io/crm/admin/product/variant/status?id=:_id&status=PUBLISHED _id",
+          "gridMsg": "Are you sure you want to Publish ':name'?",
+          "showCondition": "return this.status==='DRAFT';",
+          "gridMsgParams": "name"
+        },
+        {
+          "$key": "2sricc29dz6",
+          "value": "Unpublish",
+          "gridType": "confirm",
+          "apiUrl": "/api/io/crm/admin/product/variant/status?id=:_id&status=UNPUBLISHED _id ",
+          "gridMsg": "Are you sure you want to Unpublish ':name'?",
+          "showCondition": "return this.status==='PUBLISHED';",
+          "gridMsgParams": "name"
+        }
+      ],
+      "$key": "sfy5btjuus"
+    }
+  ],
+  "crmModelId": "64a5d14d099de82bca61ca99",
+  "gridTitle": "All Product Variant",
+  "apiType": "POST",
+  "apiUrl": "/admin/product/variant",
+  "search": {
+    "placeHolder": "Search by Name"
+  },
+  "backUrl": "/admin/product/all",
+  "gridParams": [
+    {
+      "key": "product",
+      "required": true
+    }
+  ],
+  "created": "2024-01-27T07:48:47.448Z",
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "fetchAdditionalKeys": [],
+  "leftOpenFilters": [],
+  "tableMeta": {}
+}

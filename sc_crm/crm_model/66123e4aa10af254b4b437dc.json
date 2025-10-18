@@ -1,0 +1,54 @@
+{
+  "_id": "66123e4aa10af254b4b437dc",
+  "name": "Invoice Form",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "txzrvzqymh9",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ootalfdsif9",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "pd5h549ych9",
+      "key": "address",
+      "name": "Address",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8joos7nuxo4",
+      "key": "phone",
+      "name": "Phone",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "g4f0lvcmffb",
+      "key": "website ",
+      "name": "Website",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "m5d8at5a5c",
+      "key": "owner",
+      "name": "Owner",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "otb6hejz8e",
+      "key": "business Number",
+      "name": "Business Number",
+      "dataType": "INTEGER"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T06:33:46.551Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

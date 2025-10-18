@@ -1,0 +1,18 @@
+{
+  "_id": "66120d1fa10af254b4b4377d",
+  "name": "ReactGrid GlobalHeader2 MainMenuItem SubMenuItem",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "vdsz8t1ker",
+      "key": "column",
+      "name": "Column",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66120cc6a10af254b4b4377c"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T03:03:59.421Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

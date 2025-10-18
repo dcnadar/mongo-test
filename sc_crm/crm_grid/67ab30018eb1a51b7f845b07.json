@@ -1,0 +1,66 @@
+{
+  "_id": "67ab30018eb1a51b7f845b07",
+  "gridTitle": "ReactGrid GlobalBrand3 images [OLD]",
+  "gridType": "form",
+  "crmModelId": "67ab2f248eb1a51b7f845b06",
+  "rows": [
+    {
+      "$key": "86b3bspeb5f",
+      "fields": [
+        {
+          "id": "row1",
+          "title": "Row1",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 16,
+          "add": true,
+          "delete": true,
+          "min": 2,
+          "max": 5,
+          "$key": "w0j5xngx3bg"
+        },
+        {
+          "$key": "vhydwqkgy4",
+          "id": "row2",
+          "title": "Row2",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 16,
+          "add": true,
+          "delete": true,
+          "min": 2,
+          "max": 6
+        },
+        {
+          "$key": "37678ynnrkj",
+          "id": "row3",
+          "title": "row3",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 16,
+          "add": true,
+          "delete": true,
+          "min": 2,
+          "max": 6
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-11T11:09:53.220Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

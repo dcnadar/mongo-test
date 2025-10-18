@@ -1,0 +1,26 @@
+{
+  "_id": "660698f6eea36066ca04cbce",
+  "name": "Eduempower Class Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "2y0dmn7tkrx",
+      "name": "Section Name",
+      "key": "sectionName",
+      "dataType": "STRING",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "5xp7brodu9f",
+      "name": "Section Seating Capacity",
+      "key": "sectionSeatingCapacity",
+      "dataType": "INTEGER"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-29T10:33:26.108Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.086Z"
+}

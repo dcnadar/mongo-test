@@ -1,0 +1,31 @@
+{
+  "_id": "66ab53c3e287100717693d33",
+  "name": "WebsiteThemeSettings",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "zrockm963gj",
+      "key": "colorSetting",
+      "name": "Color Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66ab4b01e287100717693d2d"
+    },
+    {
+      "$key": "ul0x9u48x3",
+      "key": "fontSetting",
+      "name": "Font Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66ab502ce287100717693d30"
+    },
+    {
+      "$key": "em49w5r52qg",
+      "key": "buttonSetting",
+      "name": "Button Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66ab5265e287100717693d32"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T09:22:11.263Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

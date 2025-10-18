@@ -1,0 +1,35 @@
+{
+  "_id": "66d86402866821250a6994a1",
+  "gridTitle": "App Header Section Public",
+  "gridType": "table",
+  "crmModelId": "66d5a30874ed55427bf5476b",
+  "upsertDoc": false,
+  "columns": [
+    {
+      "$key": "5ly70epwe74",
+      "key": "name ",
+      "name": "Name ",
+      "type": "text",
+      "sort": true
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultSort": {
+      "field": "order",
+      "order": "ascend"
+    }
+  },
+  "fetchAdditionalKeys": [
+    "order",
+    "gridInfo",
+    "gridData",
+    "gridSettings"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-02T11:40:44.572Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

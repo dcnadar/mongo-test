@@ -1,0 +1,61 @@
+{
+  "_id": "671267805f22ec7ba026485e",
+  "gridTitle": "Documents",
+  "gridType": "form",
+  "crmModelId": "671266f85f22ec7ba026485d",
+  "rows": [
+    {
+      "$key": "w40luyouo4",
+      "fields": [
+        {
+          "$key": "ewzj65munj",
+          "id": "type",
+          "title": "Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "ed1wux8khat",
+          "id": "documentName",
+          "title": "Document Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7496u3r9lwr",
+          "id": "document",
+          "title": "Document",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "y177iv9jp9t",
+          "id": "expiry",
+          "title": "Expiry",
+          "type": "date",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "1gq2rrpbtsc",
+          "id": "userId",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "title": "User"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T13:49:52.489Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "updated": "2025-09-08T10:51:01.545Z"
+}

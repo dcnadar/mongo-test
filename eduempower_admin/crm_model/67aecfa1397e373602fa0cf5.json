@@ -1,0 +1,53 @@
+{
+  "_id": "67aecfa1397e373602fa0cf5",
+  "name": "Account Inner Branch",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "h73eyzqxch",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cessxa0pz3n",
+      "key": "branchCode",
+      "name": "Branch Code",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1kpl4lruy2x",
+      "key": "board",
+      "name": "Board",
+      "dataType": "REFERENCE",
+      "modelId": "6612901ca10af254b4b4380e"
+    },
+    {
+      "$key": "vbzliv1kw2n",
+      "key": "primaryEmail",
+      "name": "Primary Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ac0yivg0th5",
+      "key": "primaryContact",
+      "name": "Primary Contact",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4tc6ik114mk",
+      "key": "secondaryEmail",
+      "name": "Secondary Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fsvjypj4qb",
+      "key": "secondaryContact",
+      "name": "Secondary Contact",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-14T05:07:45.908Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

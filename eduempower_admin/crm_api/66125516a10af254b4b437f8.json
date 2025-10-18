@@ -1,0 +1,13 @@
+{
+  "_id": "66125516a10af254b4b437f8",
+  "name": "All Country",
+  "path": "/admin/entity-setup/country/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66129691a10af254b4b43811",
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-07T08:11:02.365Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "ecomApiMappings": []
+}

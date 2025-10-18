@@ -1,0 +1,14 @@
+{
+  "_id": "6703b44b30083226ac6affc0",
+  "status": "ACTIVE",
+  "name": "Switch Online",
+  "created": "2024-10-07T07:25:13.313Z",
+  "dbCredentials": {
+    "dev": {
+      "mongoDBMeta": {
+        "URI": "mongodb+srv://admin:DdirreiDf9tKb2Yx@radyfy-dev.kvyhz5m.mongodb.net/?retryWrites=true&w=majority&appName=radyfy-dev",
+        "dbName": "jobdrive-dev-meta"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "6899cf76b9287b1fc79cc88d",
+  "gridTitle": "Branch",
+  "gridType": "table",
+  "crmModelId": "6899c3647af5145812897af7",
+  "columns": [
+    {
+      "$key": "r4nne6heajh",
+      "key": "name",
+      "name": "Name",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "apxjeox5inm",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "vtd4dk0tf1",
+          "gridTitle": "Edit Branch",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/branch/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "t06aqanurp",
+      "gridTitle": "Add Branch",
+      "value": "Add Branch",
+      "apiUrl": "/admin/branch/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-11T11:09:42.209Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.192Z"
+}

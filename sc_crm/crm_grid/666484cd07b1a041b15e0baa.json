@@ -1,0 +1,30 @@
+{
+  "_id": "666484cd07b1a041b15e0baa",
+  "gridTitle": "Account Email Settings",
+  "gridType": "form",
+  "crmModelId": "661679a02742031ccaab99cf",
+  "rows": [
+    {
+      "$key": "y73zphemt9p",
+      "fields": [
+        {
+          "id": "emailSettings",
+          "title": "Email Settings",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "hideCollapse": true
+          },
+          "span": 24,
+          "$key": "g1yaul6zgiu"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-08T16:20:29.473Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "upsertDoc": false
+}

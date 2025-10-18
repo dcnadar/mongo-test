@@ -1,0 +1,15 @@
+{
+  "_id": "66852ef83108ad7b7d063f67",
+  "name": "Payment Settings",
+  "path": "/admin/account/settings/payment",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66657c9a07b1a041b15e0bd8",
+  "innerGridType": "form",
+  "innerSourceId": "66852eb23108ad7b7d063f66",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T10:59:04.573Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

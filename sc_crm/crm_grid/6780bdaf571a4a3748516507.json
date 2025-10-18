@@ -1,0 +1,33 @@
+{
+  "_id": "6780bdaf571a4a3748516507",
+  "gridTitle": "Website page builder",
+  "gridType": "iframe",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "backUrl": "/admin/website/page",
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true
+    }
+  ],
+  "iframeSrc": "/website/builder",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-01-10T06:26:55.095Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

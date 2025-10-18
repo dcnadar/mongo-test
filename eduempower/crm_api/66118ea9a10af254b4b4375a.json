@@ -1,0 +1,13 @@
+{
+  "_id": "66118ea9a10af254b4b4375a",
+  "name": "Edit Class Subject ",
+  "path": "/admin/schoolsetup/examinations/class-subject/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cf128c7b99128d924f735",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T18:04:25.959Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:46.963Z"
+}

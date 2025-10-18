@@ -1,0 +1,51 @@
+{
+  "_id": "660a3913c7b99128d924f6a2",
+  "name": "Eduempower SchoolRoomType",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_school_room_type",
+  "properties": [
+    {
+      "$key": "b1bn2co5hgm",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "ozw13so5xz",
+      "key": "taggedTo",
+      "name": "Tagged To",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "45n3otrjg85",
+            "key": "CLASS",
+            "value": "Class"
+          },
+          {
+            "$key": "d0osxe4jpkf",
+            "key": "OTHER",
+            "value": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "eu16q8pwht9",
+      "key": "parentRoomTypeId",
+      "name": "Parent Room Type Id",
+      "dataType": "REFERENCE",
+      "modelId": "660a3913c7b99128d924f6a2"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-01T04:33:23.159Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.972Z"
+}

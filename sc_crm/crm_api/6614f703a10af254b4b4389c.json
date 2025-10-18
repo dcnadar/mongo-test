@@ -1,0 +1,12 @@
+{
+  "_id": "6614f703a10af254b4b4389c",
+  "name": "Update Branches",
+  "path": "/admin/account/branches/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6614ee06a10af254b4b43893",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T08:06:27.437Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

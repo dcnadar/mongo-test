@@ -1,0 +1,13 @@
+{
+  "_id": "67dbcd4d4ab8726fa4642966",
+  "name": "Create order from woocommerce",
+  "path": "/cuser/woocommerce/order/save",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67dbcc634ab8726fa4642965",
+  "ecomApiMappings": [],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-03-20T08:09:49.497Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

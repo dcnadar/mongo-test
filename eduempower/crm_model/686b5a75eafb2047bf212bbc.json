@@ -1,0 +1,164 @@
+{
+  "_id": "686b5a75eafb2047bf212bbc",
+  "name": "Eduempower Student Additional Details",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "8s9a2q4phko",
+      "key": "category",
+      "name": "Category",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "5ms9z4bttm6",
+            "key": "GENERAL",
+            "value": "GENERAL"
+          },
+          {
+            "$key": "xya8pmybkvi",
+            "key": "OBC",
+            "value": "OBC"
+          },
+          {
+            "$key": "vp9agb8xqj",
+            "key": "EBC",
+            "value": "EBC"
+          },
+          {
+            "$key": "d9skx83d1r8",
+            "key": "SC",
+            "value": "SC"
+          },
+          {
+            "$key": "9fylq7fgdot",
+            "key": "ST",
+            "value": "ST"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "6jsz6mtv5st",
+      "key": "studentType",
+      "name": "Student Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "l074mccqz8o",
+            "key": "NON_SCHOLARSHIP",
+            "value": "Non Scholarship"
+          },
+          {
+            "$key": "sxbgqk33if",
+            "key": "SCHOLARSHIP",
+            "value": "Scholarship"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "347ez9vw416",
+      "key": "name",
+      "name": "Name (Regional Language)",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "22n0lp3hs4j",
+      "key": "passportNumber",
+      "name": "Passport Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "u5cuy3wz6r",
+      "key": "voterCardNumber",
+      "name": "Voter Card Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cfssv1wfbxu",
+      "key": "prnNumber",
+      "name": "PRN Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "o5opedb1kjq",
+      "key": "scsNo",
+      "name": "SCS No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0fyr2a4flkd",
+      "key": "smartCardNo",
+      "name": "Smart Card No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yoaqjopbl2t",
+      "key": "siblings",
+      "name": "Siblings",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "mdhwwh2apdg",
+      "key": "universityRegNo",
+      "name": "University Reg No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "tgg9u57opta",
+      "key": "universityRollNo",
+      "name": "University Roll No",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "0o1y0obqfotg",
+      "key": "srNo",
+      "name": "SR No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ct7s310v3ru",
+      "key": "uDisePen",
+      "name": "U-Dise Pen",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "o4j0qrhvwa",
+      "key": "apaarId",
+      "name": "Apaar ID",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "obdlfpvkz8i",
+      "key": "srDate",
+      "name": "SR Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "oix00shgw4q",
+      "key": "grNo",
+      "name": "GR No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "n5kuzt7ahhd",
+      "key": "familyId",
+      "name": "Family ID",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3plnawoqzrf",
+      "key": "studentId",
+      "name": "Student ID",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-07-07T05:26:13.903Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:08.732Z"
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "6647426add50c90abe7a7df4",
+  "name": "ReactGrid CommonProductList6 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ms16sj5s95s",
+      "key": "images",
+      "name": "Images",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "s2kzgmbdkjp",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3bjb3zh5wnb",
+      "key": "mrp",
+      "name": "Mrp",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ieqk09dixpq",
+      "dataType": "STRING",
+      "key": "currencySymbol",
+      "name": "CurrencySymbol"
+    },
+    {
+      "$key": "ka8yfgntzzg",
+      "key": "price",
+      "dataType": "STRING",
+      "name": "Price"
+    },
+    {
+      "$key": "y260q737ar",
+      "key": "enableButton",
+      "name": "Enable Button",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "4metrin4wzy",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "1ngb418ixe7",
+      "key": "removeWishlistText",
+      "name": "RemoveWishlistText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "l802gspg9h",
+      "key": "addWishlistText",
+      "name": "AddWishlistText",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-05-17T11:41:30.430Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

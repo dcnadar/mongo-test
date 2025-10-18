@@ -1,0 +1,13 @@
+{
+  "_id": "669b61d2531ed762273ebc7f",
+  "name": "Delete Roof Type",
+  "path": "/admin/farmer/roof-type/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "6676789261dc8d328bfa9ae0",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-07-20T07:05:54.135Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

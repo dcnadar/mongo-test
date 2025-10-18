@@ -1,0 +1,53 @@
+{
+  "_id": "6662acf307b1a041b15e0b57",
+  "name": "Self Help Group",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "poultry_self_help_group",
+  "properties": [
+    {
+      "$key": "2uxn32boxfj",
+      "key": "shgName",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true,
+        "primary": true
+      },
+      "data": {
+        "options": []
+      }
+    },
+    {
+      "$key": "3b45zb98poz",
+      "key": "shgCode",
+      "name": "SHG code",
+      "dataType": "STRING",
+      "unique": true,
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "fgbuhz7ifsv",
+      "key": "dateOfEstablishment",
+      "name": "Date of Establishment",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "f8gcuxrm07",
+      "key": "villageId",
+      "name": "Village Id",
+      "dataType": "REFERENCE",
+      "modelId": "6664494307b1a041b15e0ba0"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "shgName"
+  },
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T06:47:15.446Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "compoundUniqueFields": []
+}

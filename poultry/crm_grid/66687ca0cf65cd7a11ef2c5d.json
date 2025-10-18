@@ -1,0 +1,78 @@
+{
+  "_id": "66687ca0cf65cd7a11ef2c5d",
+  "gridTitle": "Inputs",
+  "gridType": "form",
+  "crmModelId": "666830c2cf65cd7a11ef2c4c",
+  "rows": [
+    {
+      "$key": "ecefjlcag1t",
+      "fields": [
+        {
+          "$key": "rfhtzwb717",
+          "id": "noOfChicksPerBatch",
+          "title": "No. Of Chicks Per Batch",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "ccqaacghyq",
+          "id": "medicine",
+          "title": "Medicine",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "k2yp9izxshi",
+          "id": "vaccine",
+          "title": "Vaccine",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "rlwc8kg1r6",
+          "id": "quantityOfLitter ",
+          "title": "Quantity Of Litter (In Bag)",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "aok72wlozgh",
+          "id": "quantityOfFeedConsumption ",
+          "title": "Quantity Of Feed Consumption ",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "u51dy6hb91f",
+          "id": "transport",
+          "title": "Transport",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "osi2xgs8p7o",
+          "id": "adminElectricityCosts",
+          "title": "Admin, Eectricity & Other Misc. Costs",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T16:34:40.793Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

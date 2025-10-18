@@ -1,0 +1,53 @@
+{
+  "_id": "6676bcdb61dc8d328bfa9b13",
+  "gridTitle": "NativeGrid GlobalThemeProductList4 Section",
+  "gridType": "form",
+  "crmModelId": "6676b94461dc8d328bfa9b0f",
+  "rows": [
+    {
+      "$key": "16rbqmhtgkm",
+      "fields": [
+        {
+          "$key": "q72iw6clzs",
+          "title": "Brand",
+          "type": "text",
+          "span": 24,
+          "id": "brand"
+        },
+        {
+          "$key": "pmpt9338boc",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "vi6xtkuqxd",
+          "id": "price",
+          "title": "Price",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "mnjkxkfwx7h",
+          "id": "currencycode",
+          "title": "CurrencyCode",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "07xtl8mxsaqc",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 16
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-22T12:00:27.474Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

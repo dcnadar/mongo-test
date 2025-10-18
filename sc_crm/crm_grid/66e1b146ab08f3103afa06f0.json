@@ -1,0 +1,81 @@
+{
+  "_id": "66e1b146ab08f3103afa06f0",
+  "gridTitle": "Product Return Policy",
+  "gridType": "form",
+  "crmModelId": "66e1b132ab08f3103afa06ef",
+  "rows": [
+    {
+      "$key": "u0xtifazph",
+      "fields": [
+        {
+          "$key": "4kd6xsji97k",
+          "id": "policyName",
+          "title": "Policy Name ",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "wudaymb0sd",
+          "id": "eligibleReturnConditions",
+          "title": "Eligible Return Conditions",
+          "type": "list",
+          "multiple": true,
+          "span": 12,
+          "add": false,
+          "delete": false,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "$key": "x7alnhna2d9",
+          "id": "refundMethod",
+          "title": "Refund Method",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "hp1nsnmxozw",
+          "id": "returnWindowDays",
+          "title": "Return Window Days",
+          "type": "number",
+          "span": 12,
+          "min": 0,
+          "meta": {
+            "addonAfter": "days"
+          }
+        },
+        {
+          "$key": "66zrs1nnwr",
+          "id": "refundProcessingDays",
+          "title": "Refund Processing Days",
+          "type": "number",
+          "min": 0,
+          "span": 12,
+          "meta": {
+            "addonAfter": "days"
+          }
+        },
+        {
+          "$key": "bjsop7lz1et",
+          "id": "allowExchanges",
+          "title": "Allow Exchanges",
+          "type": "bool",
+          "span": 12
+        },
+        {
+          "$key": "68mc0f6g6vu",
+          "id": "requiresProofOfPurchase",
+          "title": "Requires Proof of Purchase",
+          "type": "bool",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:03:34.582Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

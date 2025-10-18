@@ -1,0 +1,170 @@
+{
+  "_id": "673856365bfbb47aebef465c",
+  "gridTitle": "Eduempower AcademicSession",
+  "gridType": "form",
+  "crmModelId": "673855455bfbb47aebef465b",
+  "rows": [
+    {
+      "$key": "db5dygtpwsv",
+      "fields": [
+        {
+          "id": "session",
+          "title": "Session Name",
+          "type": "text",
+          "span": 13,
+          "$key": "qbx2mqqg2gk"
+        },
+        {
+          "$key": "9vh0aj6qg8v",
+          "id": "from",
+          "title": "From Date",
+          "type": "date",
+          "span": 12
+        },
+        {
+          "$key": "bo9tzbj8bqt",
+          "id": "to",
+          "title": "To Date",
+          "type": "date",
+          "span": 12
+        },
+        {
+          "$key": "i6b4mid6n1",
+          "id": "_workLocation",
+          "title": "Branch",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "meta": {
+            "queryParams": "ecomAccountId=:ecomAccountId ecomAccountId"
+          }
+        },
+        {
+          "$key": "azx45066frm",
+          "id": "ecomAccountId",
+          "title": "Account",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "2ysdjfzfeph",
+          "id": "copyFromCurrent",
+          "title": "Copy From Current",
+          "span": 12,
+          "type": "checkbox_group",
+          "checkboxGroups": [
+            {
+              "$key": "sg3559dhtts",
+              "name": "Class Setup",
+              "options": [
+                {
+                  "key": "eduempower_class",
+                  "value": "Class",
+                  "$key": "xcujvhdx24"
+                },
+                {
+                  "$key": "nf2k6klgvvo",
+                  "key": "eduempower_class_section",
+                  "value": "Section"
+                },
+                {
+                  "$key": "jed5vpenjnk",
+                  "key": "eduempower_class_incharge",
+                  "value": "Class Incharge"
+                }
+              ]
+            },
+            {
+              "$key": "alk8vksthmw",
+              "name": "Leave Setup",
+              "options": [
+                {
+                  "key": "eduempower_leave_type",
+                  "value": "Leave Type",
+                  "$key": "z4loa37prqe"
+                },
+                {
+                  "$key": "hdqnguh543l",
+                  "key": "eduempower_leave_plan",
+                  "value": "Leave Plan"
+                }
+              ]
+            },
+            {
+              "$key": "wm0lhhfmx68",
+              "name": "Fee Setup",
+              "options": [
+                {
+                  "key": "eduempower_fee_type",
+                  "value": "Fee Type",
+                  "$key": "otr2160j2zh"
+                },
+                {
+                  "$key": "oqa5jp4zjy",
+                  "key": "eduempower-fee-category",
+                  "value": "Fee Category"
+                },
+                {
+                  "$key": "t7b9qpo9xv",
+                  "key": "eduempower_fee_schedule",
+                  "value": "Fee Schedule"
+                },
+                {
+                  "$key": "shyha0d446s",
+                  "key": "eduempower_fee_structure",
+                  "value": "Fee Structure"
+                },
+                {
+                  "$key": "o1y8gov4xz9",
+                  "key": "eduempower_fee_fine",
+                  "value": "Fee Fine"
+                },
+                {
+                  "$key": "puuvuh861h",
+                  "key": "eduempower_fee_concession",
+                  "value": "Fee Concession"
+                }
+              ]
+            },
+            {
+              "$key": "nb65jot7ya",
+              "name": "Examination Setup",
+              "options": [
+                {
+                  "key": "eduempower_class_subject",
+                  "value": "Class Subject",
+                  "$key": "oak0wzn05cg"
+                },
+                {
+                  "$key": "r0b956dt32",
+                  "key": "eduempower_teacher_mapping",
+                  "value": "Class Teacher"
+                },
+                {
+                  "$key": "tgngu1x0zhn",
+                  "key": "eduempower_teacher_mapping",
+                  "value": "Subject Teacher"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "gridParams": [
+    {
+      "key": "ecomAccountId",
+      "required": true
+    }
+  ],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-16T08:22:14.804Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "backUrl": "/admin/account/all"
+}

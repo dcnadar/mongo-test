@@ -1,0 +1,57 @@
+{
+  "_id": "660d8fe0c7b99128d924f76a",
+  "gridTitle": "Eduempower Vendor",
+  "gridType": "table",
+  "crmModelId": "660af1dfc7b99128d924f6de",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "wquw0r8n1u",
+      "key": "name",
+      "name": "Vendor Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "u46vsx03y9e",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "ku7pfbyhd4q",
+          "gridTitle": "Edit Vendor",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/schoolsetup/vendor/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "4fc0bc1v72d",
+      "gridTitle": "Add Vendor",
+      "value": "Add Vendor",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/schoolsetup/vendor/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T17:20:32.987Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.971Z"
+}

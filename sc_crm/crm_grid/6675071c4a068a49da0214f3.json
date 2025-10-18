@@ -1,0 +1,49 @@
+{
+  "_id": "6675071c4a068a49da0214f3",
+  "gridTitle": "NativeGrid GlobalCommonProductList5",
+  "gridType": "form",
+  "crmModelId": "66713912faf6243feb6c9967",
+  "rows": [
+    {
+      "$key": "0rbjc3f1427",
+      "fields": [
+        {
+          "$key": "c07b5luc1e6",
+          "id": "showDynamicContent",
+          "title": "Show Dynamic Content",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "emelgst0vs",
+          "id": "dynamicContentFilter",
+          "title": "Dynamic Content Filters",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "showCondition": "return this.showDynamicContent;"
+        },
+        {
+          "id": "section",
+          "title": "Section",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "o": false,
+          "span": 24,
+          "min": 1,
+          "max": 10,
+          "$key": "2jclq9i5out",
+          "showCondition": "return !this.showDynamicContent;"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-21T04:52:44.229Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

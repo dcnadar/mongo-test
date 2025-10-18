@@ -1,0 +1,25 @@
+{
+  "_id": "66629fa607b1a041b15e0b50",
+  "name": "Poultry Account",
+  "modelType": "COLLECTION",
+  "collectionName": "ecom_account",
+  "properties": [
+    {
+      "$key": "77h5sa1sttl",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3g3qd790mkq",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T05:50:30.136Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

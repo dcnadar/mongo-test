@@ -1,0 +1,14 @@
+{
+  "_id": "66cd88a9ecf9fb0993c3e6c9",
+  "name": "All Images",
+  "path": "/admin/gallery/image/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66cd87bfecf9fb0993c3e6c5",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-08-27T08:04:57.019Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

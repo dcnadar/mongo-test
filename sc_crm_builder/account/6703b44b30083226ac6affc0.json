@@ -1,0 +1,43 @@
+{
+  "_id": "6703b44b30083226ac6affc0",
+  "status": "LIVE",
+  "name": "JobDrive",
+  "created": "2024-03-01T20:44:41.249Z",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "createdBy": "65e25492efb82357eb86d518",
+  "dbCredentials": {
+    "dev": {
+      "mongoDBEntity": {
+        "URI": "mongodb+srv://jobdrive_admin_dev:yi9WyBX07KIy4A17@radyfy-dev.kvyhz5m.mongodb.net/?retryWrites=true&w=majority&appName=radyfy-dev",
+        "useDefaultCluster": false,
+        "dbName": "jobdrive_dev"
+      }
+    },
+    "qa": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "jobdrive-qa"
+      }
+    },
+    "uat": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "jobdrive-uat"
+      }
+    },
+    "prod": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "jobdrive"
+      }
+    }
+  },
+  "companyDetails": {
+    "favicon": "/default/default/6899f37b7805d23c977499b4/imageUpload/2025/8/25/file_xou5vxlqk8f-1758784089901.jpeg",
+    "loginImages": [
+      "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/6899f37b7805d23c977499b4/imageUpload/2025/8/9/file_11toglxp71dj-1757416664845.png"
+    ],
+    "logo": "/default/default/6899f37b7805d23c977499b4/imageUpload/2025/8/25/file_xou5vxlqk8f-1758784089901.jpeg"
+  },
+  "aId": "2"
+}

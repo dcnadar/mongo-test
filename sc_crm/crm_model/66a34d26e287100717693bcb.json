@@ -1,0 +1,31 @@
+{
+  "_id": "66a34d26e287100717693bcb",
+  "name": "Order Settings",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "5wkn7obocr",
+      "key": "orderNumberSetting",
+      "name": "Order Number Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66a34b77e287100717693bc7"
+    },
+    {
+      "$key": "sgod2icqk2",
+      "key": "transactionNumberSetting",
+      "name": "transactionNumberSetting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66a34bbce287100717693bc8"
+    },
+    {
+      "$key": "yiirsljrlzf",
+      "key": "shipmentNumberSetting",
+      "name": "Shipment Number Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66d2cf60f477b55766069ea3"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T07:15:50.527Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

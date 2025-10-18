@@ -1,0 +1,136 @@
+{
+  "_id": {
+    "$oid": "66202a76e8eed80abc95349d"
+  },
+  "gridTitle": "Account",
+  "gridType": "table",
+  "columns": [
+    {
+      "$key": "xolcu9chm7q",
+      "key": "aId",
+      "name": "Account ID",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "8o4u0f6jkzu",
+      "key": "name",
+      "name": "Account Name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "p1d5xkzkb4",
+      "type": "name",
+      "sort": true,
+      "key": "userDetails.firstName",
+      "handleKey": "userDetails",
+      "name": "User"
+    },
+    {
+      "$key": "oldb74zgs58",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "sort": false,
+      "valueCondition": "function getStatusColor(status) {     switch (status) {         case \"LIVE\":             return \"#28a745\";         case \"UNDER_DEVELOPMENT\":             return \"#ffc107\";         case \"PENDING_APPROVAL\":             return \"#dc3545\";         case \"SETUP_IN_PROGRESS\":             return \"#17a2b8\";         case \"UNDER_REVIEW_AND_ACCEPTANCE\":             return \"#6f42c1\";         case \"UNDER_MAINTENANCE\":             return \"#fd7e14\";         case \"SUBSCRIPTION_EXPIRED\":             return \"#e83e8c\";         case \"INACTIVE\":             return \"#6c757d\";         case \"DELETED\":             return \"#000000\";         default:             return \"#333\";     } }  function toTitleCaseWithSpaces(str) {     return str         .toLowerCase()         .split('_')         .map(word => word.charAt(0).toUpperCase() + word.slice(1))         .join(' '); }  const statusColor = getStatusColor(this.status); const statusText = toTitleCaseWithSpaces(this.status || \"N/A\");  let htmlString = `   <div style=\"font-size:12px; color:#333; line-height:1.6;\">       <span style=\"background-color:${statusColor}; color:#fff; font-weight:bold; padding:2px 6px; border-radius:4px;\">${statusText}       </span>   </div> `;  return htmlString;"
+    },
+    {
+      "$key": "8pu6tgtfpvs",
+      "key": "version",
+      "name": "Version",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "di6b2cd3dzl",
+      "key": "actions",
+      "name": "Actions",
+      "type": "options",
+      "sort": false,
+      "width": {
+        "$numberInt": "50"
+      },
+      "actions": [
+        {
+          "$key": "ivo3lpn3h8s",
+          "gridTitle": "Account DB Credientials",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/account/db/credentials?id=:_id _id",
+          "value": "DB connections",
+          "showCondition": "return false;"
+        },
+        {
+          "$key": "4kq9gozhoe",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "value": "Approve",
+          "gridTitle": "Approve",
+          "apiUrl": "/api/admin/account/approve?accountId=:_id _id",
+          "gridMsg": "Are you sure want to approve this account?`",
+          "showCondition": "return this.status === 'PENDING_APPROVAL';"
+        },
+        {
+          "$key": "evgn3n1ywn",
+          "gridTitle": "Review & Acceptance",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "value": "Review & Acceptance",
+          "gridMsg": "Are you sure want to review & acceptance this account?`",
+          "apiUrl": "/api/admin/account/review-acceptance?accountId=:_id _id",
+          "showCondition": "return this.status === 'UNDER_DEVELOPMENT';"
+        },
+        {
+          "$key": "utb9cd27ya9",
+          "gridType": "confirm",
+          "showGridComment": false,
+          "value": "Complete the setup",
+          "apiUrl": "/api/admin/account/setup-tasks?accountId=:_id _id",
+          "gridMsg": "Geneate Certificate.",
+          "gridTitle": "Complete Setup (Certificate)",
+          "showCondition": "return this.status==='SETUP_IN_PROGRESS' && this.setupStartTime != null && (Date.now() - new Date(this.setupStartTime).getTime() > 10 * 60 * 1000);"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "77bwedh8h2j",
+      "gridTitle": "Add Account",
+      "gridType": "popupForm",
+      "value": "Add Account",
+      "apiUrl": "/admin/account/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": []
+  },
+  "fetchAdditionalKeys": [
+    "userDetails.lastName",
+    "userDetails.email",
+    "companyDetails.subDomain",
+    "companyDetails.logo",
+    "created",
+    "companyDetails.favicon",
+    "companyDetails.loginImages",
+    "id",
+    "status",
+    "setupStartTime"
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1713384054483"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "crmModelId": "65e2c398226e7b80fe49ae39",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150954"
+    }
+  }
+}

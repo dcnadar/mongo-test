@@ -1,0 +1,59 @@
+{
+  "_id": "655e00a86bf5e640cd3a5c02",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Color Name",
+          "id": "name",
+          "type": "text",
+          "span": 24,
+          "o": false,
+          "$key": "xfem6qto7v",
+          "onChangeCondition": [
+            {
+              "$key": "9pmch4vljhk",
+              "meta": {
+                "type": "url",
+                "apiType": "POST"
+              },
+              "value": "/api/io/product/variant/info",
+              "key": "$ROOT"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "title": "Color Code",
+          "id": "value",
+          "type": "color",
+          "span": 24,
+          "o": false,
+          "$key": "pcz20jhjh1b",
+          "onChangeCondition": [
+            {
+              "$key": "7t0fw31h5hd",
+              "key": "$ROOT",
+              "meta": {
+                "type": "url",
+                "apiType": "POST"
+              },
+              "value": "/api/io/product/variant/info"
+            }
+          ]
+        }
+      ],
+      "$key": "ti8kt63cd4s"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "655e0d956bf5e640cd3a5c06",
+  "gridTitle": "Product Variant Color Option Value",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

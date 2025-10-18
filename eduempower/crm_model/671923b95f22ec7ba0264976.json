@@ -1,0 +1,84 @@
+{
+  "_id": "671923b95f22ec7ba0264976",
+  "name": "StudentContact",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "bhcdk7gwfym",
+      "key": "relation",
+      "name": "Relation",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "5kp3iq3poif",
+            "key": "FATHER",
+            "value": "Father"
+          },
+          {
+            "$key": "ftn89s7a7qf",
+            "key": "MOTHER",
+            "value": "Mother"
+          },
+          {
+            "$key": "af6k8jpvvmk",
+            "key": "LOCAL_GUARDIAN",
+            "value": "Local Guardian"
+          },
+          {
+            "$key": "r3g7u7k4g6",
+            "key": "LEGAL_GUARDIAN",
+            "value": "Legal Guardian"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ha3iw0z284",
+      "key": "salutation",
+      "name": "Salutation",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "m0e6kl6jrh",
+      "key": "firstName",
+      "name": "First Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "asfzlqn28x",
+      "key": "middleName",
+      "name": "Middle Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ubzrlqkki3e",
+      "key": "lastName",
+      "name": "Last Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "s9xkls6raia",
+      "key": "mobileNumber",
+      "name": "Mobile No.",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ohj4hwawvck",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1af10xhhqw2",
+      "key": "presentAddress",
+      "name": "PresentAddress",
+      "dataType": "INNER_MODEL",
+      "modelId": "660ac9ccc7b99128d924f6c1"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T16:26:33.913Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:07.465Z"
+}

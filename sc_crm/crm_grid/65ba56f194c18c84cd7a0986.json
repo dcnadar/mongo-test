@@ -1,0 +1,70 @@
+{
+  "_id": "65ba56f194c18c84cd7a0986",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-31T14:19:29.213Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "hint": "Main heading for the password setup."
+        },
+        {
+          "index": 1,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 12,
+          "o": false,
+          "hint": "Instructions for password criteria."
+        },
+        {
+          "index": 2,
+          "title": "Password Label",
+          "id": "passwordlabel",
+          "type": "password",
+          "span": 12,
+          "o": false,
+          "hint": "Enter your password."
+        },
+        {
+          "index": 3,
+          "title": "Confirm Password Label",
+          "id": "confirmPasswordLabel",
+          "type": "password",
+          "span": 12,
+          "o": false,
+          "hint": "Confirm your password."
+        },
+        {
+          "index": 4,
+          "title": "Button Text",
+          "id": "buttonText",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "hint": "Text for the submit button."
+        },
+        {
+          "index": 5,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 12,
+          "o": false,
+          "hint": "Image associated with the password setup form."
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65ba56f194c18c84cd7a0985",
+  "gridTitle": "ReactGrid GlobalTrufalSignup Password"
+}

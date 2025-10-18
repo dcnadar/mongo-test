@@ -1,0 +1,24 @@
+{
+  "_id": "66825e813108ad7b7d063ee3",
+  "name": "NativeGrid GlobalBlogCardsWithBgImage Header",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "rnazuwod33",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fd06dmtu21",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T07:45:05.618Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "68a56ea72eb764625c225051",
+  "name": "Reschedule",
+  "path": "/admin/interview/reschedule",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "68a5643b2eb764625c22504f",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-20T06:43:51.423Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:50.254Z"
+}

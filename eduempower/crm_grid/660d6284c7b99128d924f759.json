@@ -1,0 +1,111 @@
+{
+  "_id": "660d6284c7b99128d924f759",
+  "gridTitle": "Eduempower Class",
+  "gridType": "table",
+  "crmModelId": "660ace73c7b99128d924f6c4",
+  "columns": [
+    {
+      "$key": "rjvgdujuz5f",
+      "key": "sequenceNo",
+      "name": "Sequence No",
+      "type": "text",
+      "width": 100,
+      "sort": true
+    },
+    {
+      "$key": "ujig09llqoj",
+      "key": "classType",
+      "name": "Class Type",
+      "type": "card",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "a88q43yd91k",
+      "key": "classNameInWord",
+      "name": "Class Name",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "qiifvf6vtus",
+      "key": "capacity",
+      "name": "Setting Capacity",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "vka9exyyri",
+      "key": "numberOfSections",
+      "name": "No. Of Sections",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "m5pp51l45s",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "uf7fuxh1wyj",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 300,
+      "actions": [
+        {
+          "$key": "8r2ypwlg4c5",
+          "gridTitle": "Sections",
+          "value": "View Section",
+          "gridType": "expendedTable",
+          "apiUrl": "/admin/schoolsetup/section/all?classId=:_id _id"
+        },
+        {
+          "$key": "fmriboubj26",
+          "gridTitle": "Add Section",
+          "value": "Add Section",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/schoolsetup/section/add?classId=:_id _id"
+        },
+        {
+          "$key": "lcvxr75m8o",
+          "value": "Edit",
+          "apiUrl": "/admin/schoolsetup/class-section/edit?id=:_id _id",
+          "gridType": "popupForm",
+          "gridTitle": "Edit Class"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "5floz0cuc1g",
+      "value": "Add Class",
+      "gridTitle": "Add Class",
+      "apiUrl": "/admin/schoolsetup/class-section/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultSort": {
+      "order": "ascend",
+      "field": "sequenceNo"
+    },
+    "defaultFilters": []
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T14:07:00.738Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.429Z"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "667c048b74a25c4c696adb24",
+  "name": "All Batch Info",
+  "path": "/admin/farmer/batch-info/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "6662fdd407b1a041b15e0b96",
+  "innerGridType": "table",
+  "innerSourceId": "67aa468a8eb1a51b7f845af8",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-26T12:07:39.956Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

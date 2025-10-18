@@ -1,0 +1,131 @@
+{
+  "_id": "6615269aa10af254b4b438b1",
+  "gridTitle": "Staff",
+  "gridType": "form",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "rows": [
+    {
+      "$key": "6mbk071v5xg",
+      "fields": [
+        {
+          "$key": "s50pt52r7ho",
+          "id": "logo",
+          "title": "Profile Pic",
+          "span": 8,
+          "type": "upload",
+          "multiple": false
+        },
+        {
+          "id": "firstName",
+          "title": "FirstName",
+          "type": "text",
+          "span": 6,
+          "$key": "n2gi5ztewee"
+        },
+        {
+          "$key": "p32rknrrfk",
+          "id": "lastName",
+          "title": "Last Name",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "6lt74axndvw",
+          "id": "userName",
+          "title": "User Name",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "g8buikvmdul",
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": 6
+        },
+        {
+          "$key": "xi4p81allek",
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "multiple": false,
+          "options": [
+            {
+              "$key": "ku2tyow28",
+              "key": "male",
+              "value": "Male"
+            },
+            {
+              "$key": "ysvzpemnpgf",
+              "key": "female",
+              "value": "Female"
+            },
+            {
+              "$key": "7vlk40ey9rt",
+              "key": "other",
+              "value": "Other"
+            }
+          ],
+          "span": 4
+        },
+        {
+          "$key": "d22ftdqlsbq",
+          "id": "birthDate",
+          "title": "Birth Date",
+          "type": "date",
+          "span": 6
+        },
+        {
+          "$key": "nw8civ1tskj",
+          "id": "callingCode",
+          "title": "Calling Code",
+          "type": "list",
+          "multiple": false,
+          "span": 4
+        },
+        {
+          "$key": "sfc7idrzdug",
+          "id": "mobileNumber",
+          "title": "Mobile Number",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "95lzjrh3jgo",
+          "id": "userType",
+          "title": "User Type",
+          "type": "text",
+          "span": 4,
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "STAFF"
+        },
+        {
+          "$key": "8e15u2i4bz5",
+          "id": "address",
+          "title": "Address",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "8e7a87ys2f",
+          "id": "roleId",
+          "title": "Role",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T11:29:30.407Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/account/staff/all"
+}

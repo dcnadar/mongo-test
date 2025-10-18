@@ -1,0 +1,93 @@
+{
+  "_id": "6526bd74696fa159e510155f",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2023-10-08T00:00:00.000Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Highlights",
+          "id": "highlights",
+          "type": "strings",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 3,
+          "title": "Floating Image Up",
+          "id": "floatingImageUp",
+          "type": "upload",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 4,
+          "title": "Floating Image Down",
+          "id": "floatingImageDown",
+          "type": "upload",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 5,
+          "title": "Main Image",
+          "id": "mainImage",
+          "type": "upload",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 6,
+          "title": "Still Image Up",
+          "id": "stillImageUp",
+          "type": "upload",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 7,
+          "title": "Still Image Down",
+          "id": "stillImageDown",
+          "type": "upload",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 8,
+          "title": "Buttons",
+          "id": "buttons",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 4,
+          "add": true,
+          "delete": true,
+          "countTitle": "No Button Added"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "6526bb4d696fa159e510155c",
+  "gridTitle": "ReactGrid FoodioAppBanner"
+}

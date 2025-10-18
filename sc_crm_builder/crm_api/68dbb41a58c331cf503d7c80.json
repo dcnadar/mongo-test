@@ -1,0 +1,32 @@
+{
+  "_id": {
+    "$oid": "68dbb41a58c331cf503d7c80"
+  },
+  "name": "Delete Entity",
+  "path": "/admin/entity",
+  "apiType": "DELETE",
+  "action": "ENTITY_DELETE",
+  "gridType": "form",
+  "getAllRecords": false,
+  "modelId": "65e4e721d796c9ccbd1b408e",
+  "fetchDocWithoutId": false,
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true
+    }
+  ],
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1759228954625"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231673593"
+    }
+  }
+}

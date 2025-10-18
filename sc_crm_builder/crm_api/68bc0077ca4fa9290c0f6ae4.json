@@ -1,0 +1,26 @@
+{
+  "_id": {
+    "$oid": "68bc0077ca4fa9290c0f6ae4"
+  },
+  "name": "Account DB Credientials",
+  "path": "/admin/account/db/credentials",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68bc0044ca4fa9290c0f6ae3",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757151351312"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757151985677"
+    }
+  }
+}

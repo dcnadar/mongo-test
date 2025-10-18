@@ -1,0 +1,18 @@
+{
+  "_id": "668249ea3108ad7b7d063eca",
+  "name": "NativeGrid GlobalFeaturedBrandCardScrollView",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "3b1vy4m03b4",
+      "key": "section",
+      "name": "Section",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66824aee3108ad7b7d063ecc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T06:17:14.258Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

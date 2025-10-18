@@ -1,0 +1,36 @@
+{
+  "_id": "667bf1f074a25c4c696adb18",
+  "gridTitle": "NativeGrid GlobalCommonProductList4 User\t",
+  "gridType": "form",
+  "crmModelId": "667bf1b474a25c4c696adb17",
+  "rows": [
+    {
+      "$key": "872iy37xguj",
+      "fields": [
+        {
+          "id": "thumb",
+          "title": "Thumb",
+          "type": "upload",
+          "multiple": false,
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-26T10:48:16.331Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "66d5a6e474ed55427bf54770",
+  "name": "App Header Section",
+  "path": "/admin/mobileapp/header/section/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66d5aa4a74ed55427bf54773",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-02T11:52:04.811Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

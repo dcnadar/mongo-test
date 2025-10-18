@@ -1,0 +1,84 @@
+{
+  "_id": "66767c1361dc8d328bfa9ae4",
+  "gridTitle": "Roof Type",
+  "gridType": "table",
+  "crmModelId": "6676789261dc8d328bfa9ae0",
+  "columns": [
+    {
+      "$key": "8ef179yilu",
+      "key": "roofType",
+      "name": "Roof Type",
+      "width": 200,
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "2avh2dsihrh",
+      "type": "text",
+      "key": "customRoofType",
+      "name": "Custom Roof Type",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "pbwwywvlm1",
+      "key": "date",
+      "name": "Year",
+      "type": "text",
+      "width": 200,
+      "sort": false,
+      "valueCondition": "return new Date(this.date).getFullYear();"
+    },
+    {
+      "$key": "4sii4vb4109",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "iuf593liidq",
+          "apiUrl": "/admin/farmer/roof-type/edit?id=:_id _id",
+          "gridTitle": "Edit Roof Type",
+          "value": "Edit",
+          "gridType": "popupForm"
+        },
+        {
+          "$key": "8wu321n12nf",
+          "gridTitle": "Delete Roof Type",
+          "gridType": "confirm",
+          "apiUrl": "/admin/farmer/roof-type/delete?id=:_id _id",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/66629d6de2144644664d9bb4/65e8cdff97f0eca7ba094627/columns.3.actions.1.icon/2024/6/20/upload_fnfdb485r8s-1721459216069.png",
+          "type": "icon",
+          "gridMsg": "Are you sure to delete ':roofType'?",
+          "gridMsgParams": "roofType"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "egvs53enxge",
+      "gridTitle": "Add Roof Type",
+      "value": "Add Roof Type",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/farmer/roof-type/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-22T07:24:03.128Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/farmer/all",
+  "gridParams": [
+    {
+      "key": "farmerId",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_id": "660d9176c7b99128d924f76c",
+  "gridTitle": "Eduempower Designation",
+  "gridType": "table",
+  "crmModelId": "660818ea60d4f873b5fa4f48",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "kzs5oucjeh9",
+      "key": "name",
+      "name": "Designation Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "886sfzyqo9d",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "actions": [
+        {
+          "$key": "i9nl5j329v",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/account-settings/designation/edit?id=:_id&departmentId=:departmentId _id departmentId"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T17:27:18.600Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "departmentId",
+      "required": true
+    }
+  ],
+  "updated": "2025-09-08T10:51:00.042Z"
+}

@@ -1,0 +1,72 @@
+{
+  "_id": "6666dd6907b1a041b15e0bdf",
+  "name": "Firebase Settings",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "odatlmq33a",
+      "key": "apiKey",
+      "name": "Api Key",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "b18axm191u",
+      "key": "authDomain",
+      "name": "Auth Domain",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6et9chre6zm",
+      "key": "projectId",
+      "name": "Project Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ank9w9y7vkj",
+      "key": "storageBucket",
+      "name": "Storage Bucket",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bhkgd8ypndo",
+      "key": "messagingSenderId",
+      "name": "Messaging Sender Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "izlsyvnnnqg",
+      "key": "appId",
+      "name": "App Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jvxrz8svvia",
+      "key": "measurementId",
+      "name": "Measurement Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1nofu2ysa0l",
+      "key": "clientEmail",
+      "name": "Client Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "z7xuvra1h1s",
+      "key": "databaseURL",
+      "name": "Database URL",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "304ffb78fsz",
+      "key": "privateKey",
+      "name": "Private Key",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-10T11:03:05.144Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

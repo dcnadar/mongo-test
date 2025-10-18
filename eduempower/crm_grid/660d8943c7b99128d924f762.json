@@ -1,0 +1,64 @@
+{
+  "_id": "660d8943c7b99128d924f762",
+  "gridTitle": "Eduempower SchoolBuilding",
+  "gridType": "table",
+  "crmModelId": "66098350c7b99128d924f674",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "f98sjr623gh",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "eel696v1f5i",
+      "key": "noOfFloors",
+      "name": "No Of Floors",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "jgwskchmqe",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "197w3snew57",
+          "gridTitle": "Edit Buildings",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/schoolsetup/buildings/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "fpnmzekins",
+      "gridTitle": "Add Buildings",
+      "gridType": "popupForm",
+      "value": "Add Buildings",
+      "apiUrl": "/admin/schoolsetup/buildings/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T16:52:19.450Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.696Z"
+}

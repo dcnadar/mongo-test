@@ -1,0 +1,13 @@
+{
+  "_id": "661626b1a039b45c27dfdddd",
+  "name": "Edit Designation",
+  "path": "/admin/account-settings/designation/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cd44ac7b99128d924f722",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-10T05:42:09.345Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:50.755Z"
+}

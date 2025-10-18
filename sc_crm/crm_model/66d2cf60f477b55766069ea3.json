@@ -1,0 +1,28 @@
+{
+  "_id": "66d2cf60f477b55766069ea3",
+  "name": "Shipment Number Setting",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "am6w9zvzv2",
+      "key": "shipmentNoPrefix",
+      "name": "Shipment Number Prefix",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bqdu5qd65dc",
+      "key": "shipmentCurrentNo",
+      "name": "Shipment Current Number",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "efunkwnw31s",
+      "key": "shipmentNoPostfix",
+      "name": "Shipment Number Postfix",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-31T08:08:00.076Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

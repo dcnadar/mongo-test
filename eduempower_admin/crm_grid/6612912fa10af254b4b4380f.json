@@ -1,0 +1,31 @@
+{
+  "_id": "6612912fa10af254b4b4380f",
+  "gridTitle": "Eduempower ExaminationBoard",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "pat8rq63lb",
+      "fields": [
+        {
+          "id": "key",
+          "title": "Key",
+          "type": "text",
+          "span": 8,
+          "$key": "pwopfns8oz"
+        },
+        {
+          "$key": "eduks1881jr",
+          "id": "value",
+          "title": "Value",
+          "type": "text",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-07T12:27:27.278Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "crmModelId": "6612901ca10af254b4b4380e"
+}

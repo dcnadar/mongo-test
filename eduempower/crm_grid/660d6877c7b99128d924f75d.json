@@ -1,0 +1,107 @@
+{
+  "_id": "660d6877c7b99128d924f75d",
+  "gridTitle": "Eduempower FeeStructure",
+  "gridType": "table",
+  "crmModelId": "66096021c7b99128d924f667",
+  "columns": [
+    {
+      "$key": "sbme83eojqb",
+      "key": "classId",
+      "name": "Class",
+      "type": "card",
+      "sort": true,
+      "width": 75
+    },
+    {
+      "$key": "7rqk9bz6oj",
+      "key": "typeId",
+      "name": "Fee Type",
+      "sort": true,
+      "type": "card",
+      "width": 75
+    },
+    {
+      "$key": "iq1s89mwfi",
+      "name": "Fee Name",
+      "type": "text",
+      "sort": true,
+      "key": "name",
+      "width": 100
+    },
+    {
+      "$key": "h2dskezy8mu",
+      "key": "categoryId",
+      "name": "Fee Category",
+      "type": "card",
+      "sort": true,
+      "width": 75
+    },
+    {
+      "$key": "igbaaad7h2p",
+      "key": "scheduleId",
+      "name": "Fee Schedule",
+      "type": "card",
+      "sort": true,
+      "width": 75
+    },
+    {
+      "$key": "ail8q1t1jn",
+      "key": "installmentCount",
+      "name": "Installments Count",
+      "type": "text",
+      "sort": true,
+      "width": 180
+    },
+    {
+      "$key": "xsrajd1xomc",
+      "key": "amount",
+      "name": "Ammount",
+      "type": "text",
+      "sort": true,
+      "width": 100
+    },
+    {
+      "$key": "f8s8tfoox8",
+      "key": "status",
+      "name": "Status",
+      "type": "tag",
+      "sort": true,
+      "width": 75
+    },
+    {
+      "$key": "9z538w1vnpd",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 75,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "257yh2rzlfsj",
+          "gridTitle": "Edit Fee Structure",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/schoolsetup/fee-settings/fee-structure/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "ru9ydcse4ek",
+      "gridTitle": "Add Fee Structure",
+      "gridType": "popupForm",
+      "value": "Add Fee Structure",
+      "apiUrl": "/admin/schoolsetup/fee-settings/fee-structure/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T14:32:23.382Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.562Z"
+}

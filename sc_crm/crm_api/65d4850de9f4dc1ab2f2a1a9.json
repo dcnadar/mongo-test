@@ -1,0 +1,11 @@
+{
+  "_id": "65d4850de9f4dc1ab2f2a1a9",
+  "name": "Common SEO Setting (applied on all pages)",
+  "action": "FORM_SAVE",
+  "apiType": "POST",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "sourceId": "65dcee1418ed9e2c03283df4",
+  "path": "/admin/website/seo",
+  "created": "2024-02-20T10:55:09.460Z"
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "668e5ddf531ed762273ebc32",
+  "name": "Add Invoice",
+  "path": "/admin/order/invoice/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "668e37e3531ed762273ebc2c",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-10T10:09:35.384Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

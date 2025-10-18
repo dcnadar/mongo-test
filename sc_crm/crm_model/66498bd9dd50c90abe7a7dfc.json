@@ -1,0 +1,43 @@
+{
+  "_id": "66498bd9dd50c90abe7a7dfc",
+  "name": "FCM Token",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "fcm-token",
+  "properties": [
+    {
+      "$key": "sir8y7tyh6",
+      "key": "androidToken",
+      "name": "Andoid Token",
+      "unique": true,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "csejalxr5c",
+      "key": "userId",
+      "name": "User Id",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6",
+      "unique": true
+    },
+    {
+      "$key": "abzc65bppdh",
+      "key": "IosToken",
+      "name": "IOS Token",
+      "unique": true,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "x1u4t9cuvr",
+      "key": "webToken",
+      "name": "Web Token",
+      "unique": true,
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-05-19T05:19:21.994Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "6610de45fd0bb04de4cc7033",
+  "name": "Edit Academic Session",
+  "path": "/admin/schoolsetup/academic-session/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660d14ccc7b99128d924f745",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T05:31:49.162Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:43.930Z"
+}

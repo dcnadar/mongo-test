@@ -1,0 +1,32 @@
+{
+  "_id": "689f04384e2ed283d94615b3",
+  "name": "placementDriveRegisteredStudents",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "5dmrvcjfa8k",
+      "key": "studentId",
+      "name": "student",
+      "dataType": "REFERENCE",
+      "modelId": "6703b5dc30083226ac6affc4"
+    },
+    {
+      "$key": "xs18hurfthp",
+      "key": "registeredat",
+      "name": "Registered At",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "ngxn5ibc0r",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T09:56:08.672Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.536Z"
+}

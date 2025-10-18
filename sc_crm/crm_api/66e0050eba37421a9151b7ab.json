@@ -1,0 +1,24 @@
+{
+  "_id": "66e0050eba37421a9151b7ab",
+  "name": "Delete item from wishlist",
+  "path": "/cuser/wishlist/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "6618f331aee00c70206deb25",
+  "gridParams": [
+    {
+      "key": "productVariantId",
+      "required": true
+    },
+    {
+      "key": "customerId",
+      "required": true,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-10T08:36:30.713Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

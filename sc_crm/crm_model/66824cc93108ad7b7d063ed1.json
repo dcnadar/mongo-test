@@ -1,0 +1,30 @@
+{
+  "_id": "66824cc93108ad7b7d063ed1",
+  "name": "NativeGrid GlobalBlogCardsWithImage User",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "4oxjp9n1bpo",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nw8i3el1ydg",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jf9sqxfaqy8",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T06:29:29.504Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

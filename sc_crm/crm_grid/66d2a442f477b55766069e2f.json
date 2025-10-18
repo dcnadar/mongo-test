@@ -1,0 +1,109 @@
+{
+  "_id": "66d2a442f477b55766069e2f",
+  "gridTitle": "ReactGrid GlobalHeader4",
+  "gridType": "form",
+  "crmModelId": "66d29958f477b55766069dc9",
+  "rows": [
+    {
+      "$key": "pfswhbhsnun",
+      "fields": [
+        {
+          "id": "phoneNumber",
+          "title": "PhoneNumber",
+          "type": "text",
+          "span": 8,
+          "$key": "z7d8g5hkfr"
+        },
+        {
+          "$key": "kmfmcb7h4t",
+          "id": "emailId",
+          "title": "EmailId",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "10saiuuukigo",
+          "id": "mainMenu",
+          "title": "MainMenu",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 10,
+          "o": false
+        },
+        {
+          "$key": "h34qkir75zl",
+          "id": "category",
+          "title": "Category",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 10
+        },
+        {
+          "$key": "480c41pth2q",
+          "id": "loginData",
+          "title": "LoginData",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "z24ig734e5j",
+          "id": "hearderTopMassage",
+          "title": "HearderTopMassage",
+          "type": "text_editor",
+          "span": 24
+        },
+        {
+          "$key": "dr2c3w2yie",
+          "id": "thumb",
+          "title": "Thumb",
+          "type": "upload",
+          "multiple": false,
+          "span": 24,
+          "showCondition": "return !this.useSvg;"
+        },
+        {
+          "$key": "k7fgq49hjq",
+          "id": "svg",
+          "title": "Svg",
+          "type": "text",
+          "span": 24,
+          "showCondition": "return this.useSvg;"
+        },
+        {
+          "$key": "9469oyn2woc",
+          "id": "useSvg",
+          "title": "UseSvg",
+          "type": "bool",
+          "o": true,
+          "span": 8
+        },
+        {
+          "$key": "rddy94ql2v",
+          "id": "socialLinks",
+          "title": "SocialLinks",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-31T05:04:02.922Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

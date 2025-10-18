@@ -1,0 +1,54 @@
+{
+  "_id": "65b635bdf5cb7a5168589924",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "date",
+      "name": "Date",
+      "$key": "3q3c1sbyfik"
+    },
+    {
+      "dataType": "STRING",
+      "key": "tag",
+      "name": "Tag",
+      "$key": "darub8mwccr"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "modelId": "650d3713ac425a65d3141bcc",
+      "$key": "7v1rfhzfzjc"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image",
+      "$key": "lu2ntdbpgtb"
+    },
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title",
+      "$key": "e69zfyph0z"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "user",
+      "name": "User",
+      "modelId": "65b634476fb073b563efbd33",
+      "$key": "ysni8u31use"
+    },
+    {
+      "$key": "ocovqeajsdo",
+      "key": "enableButton",
+      "name": "Enable Button",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalBlogCards2 Section",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-28T11:08:45.237Z"
+}

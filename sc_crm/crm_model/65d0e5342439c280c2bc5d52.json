@@ -1,0 +1,16 @@
+{
+  "_id": "65d0e5342439c280c2bc5d52",
+  "properties": [
+    {
+      "dataType": "LIST_OF",
+      "key": "images",
+      "name": "Images",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalGallery",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-17T16:56:20.296Z"
+}

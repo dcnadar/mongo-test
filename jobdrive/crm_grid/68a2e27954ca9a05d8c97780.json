@@ -1,0 +1,101 @@
+{
+  "_id": "68a2e27954ca9a05d8c97780",
+  "gridTitle": "Interview",
+  "gridType": "form",
+  "crmModelId": "68a2dff154ca9a05d8c9777f",
+  "rows": [
+    {
+      "$key": "1dxt7jh1nd3",
+      "fields": [
+        {
+          "id": "studentId",
+          "title": "Student",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "wtg4z3o4mz",
+          "meta": {
+            "queryParams": "userType=STUDENT"
+          }
+        },
+        {
+          "$key": "6v0uwtojsa4",
+          "id": "roundName",
+          "title": "Round name",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "apiUrl": "/api/io/admin/interview/rounds?studentId=:studentId&driveId=:placementDrive studentId placementDrive"
+        },
+        {
+          "$key": "nv6joev25s",
+          "id": "interviewDateAndTime",
+          "title": "Interview Date And Time",
+          "type": "date_time",
+          "span": 8
+        },
+        {
+          "$key": "fa6pooln8xb",
+          "id": "interviewStatus",
+          "title": "Interview Status",
+          "span": 4,
+          "type": "list",
+          "multiple": false,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe",
+          "value": "SCHEDULED"
+        },
+        {
+          "$key": "xavpvvcjpx",
+          "id": "interviewerName",
+          "title": "Interviewer name",
+          "type": "text",
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "span": 8
+        },
+        {
+          "$key": "ob9vd1uq2m9",
+          "id": "interviewerEmail",
+          "title": "Interviewer email",
+          "type": "email",
+          "span": 8
+        },
+        {
+          "$key": "et4201t68sp",
+          "id": "studentSelectionStatus",
+          "title": "Student Selection Status",
+          "type": "text",
+          "multiple": false,
+          "span": 8,
+          "value": "PENDING",
+          "createType": "hidden_fe",
+          "updateType": "disabled_fe"
+        },
+        {
+          "$key": "ojepd6hos87",
+          "id": "placementDrive",
+          "title": "Placement drive",
+          "type": "list",
+          "multiple": false,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-18T08:21:13.164Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "driveId",
+      "required": true,
+      "documentKey": "placementDrive"
+    }
+  ],
+  "updated": "2025-09-05T11:02:53.069Z"
+}

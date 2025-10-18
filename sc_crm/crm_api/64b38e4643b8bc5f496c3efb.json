@@ -1,0 +1,11 @@
+{
+  "_id": "64b38e4643b8bc5f496c3efb",
+  "name": "Variants Pricing POST",
+  "action": "FORM_SAVE",
+  "sourceId": "64b43f1322d01c16ecc96061",
+  "gridType": "table",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "POST",
+  "path": "/admin/product/variant/pricing/update",
+  "created": "2024-01-27T07:48:45.383Z"
+}

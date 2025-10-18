@@ -1,0 +1,22 @@
+{
+  "_id": "67386a035bfbb47aebef4669",
+  "name": "Edit Academic Session",
+  "path": "/admin/account/session/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "673856365bfbb47aebef465c",
+  "innerGridType": "table",
+  "innerSourceId": "673859bf5bfbb47aebef465d",
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-16T09:46:43.922Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "650d3713ac425a65d3141bcc",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "navigateTo",
+      "name": "Navigate To",
+      "data": {
+        "options": [
+          {
+            "key": "category",
+            "value": "Category"
+          },
+          {
+            "key": "product",
+            "value": "Product"
+          },
+          {
+            "key": "page",
+            "value": "Website Page"
+          },
+          {
+            "key": "externalLink",
+            "value": "External Link"
+          }
+        ]
+      }
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "category",
+      "name": "Category",
+      "modelId": "648b5dfa568ed162c961ede3"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "product",
+      "name": "Product",
+      "modelId": "64a5d14d099de82bca61ca99"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "page",
+      "name": "Website Page",
+      "modelId": "65128242551621212be4a5ac"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "externalLink",
+      "name": "External Link"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Button Action",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:51.227Z"
+}

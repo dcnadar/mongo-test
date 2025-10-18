@@ -1,0 +1,25 @@
+{
+  "_id": "668783e23eaa6c40dacfe527",
+  "gridTitle": "Main Dashboard",
+  "gridType": "dashboard",
+  "crmModelId": "6662aede07b1a041b15e0b58",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-07-05T05:25:54.040Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

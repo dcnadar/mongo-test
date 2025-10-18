@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "677d913933897d49a1050d8c"
+  },
+  "name": "All App Menu",
+  "path": "/admin/app-menu",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "65e38baed9f66a4608444838",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1736282425180"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070148837"
+    }
+  }
+}

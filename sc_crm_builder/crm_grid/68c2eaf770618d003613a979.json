@@ -1,0 +1,75 @@
+{
+  "_id": {
+    "$oid": "68c2eaf770618d003613a979"
+  },
+  "gridTitle": "User Group Table",
+  "gridType": "table",
+  "crmModelId": "68c2e4ca70618d003613a976",
+  "columns": [
+    {
+      "$key": "ywpvsu8lrdp",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "3r53c2fu2o4",
+      "key": "roles",
+      "name": "Role",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "gsk4smf2ly",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "5wv07xyk9rk",
+          "value": "View Account Access",
+          "apiUrl": "/admin/user-group/account-access/all?userGroupId=:_id _id",
+          "gridType": "slug",
+          "gridTitle": "View Account Access",
+          "showCondition": "return false;"
+        },
+        {
+          "$key": "pks22qa23lo",
+          "apiUrl": "/admin/user-group/edit?id=:_id _id",
+          "gridType": "popupForm",
+          "value": "Edit Group",
+          "gridMsg": "Edit User Group",
+          "gridTitle": "Edit Group"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "pym6e6etec",
+      "value": "Add Group",
+      "apiUrl": "/admin/user-group/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757604599577"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "gridParams": [],
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377691721"
+    }
+  }
+}

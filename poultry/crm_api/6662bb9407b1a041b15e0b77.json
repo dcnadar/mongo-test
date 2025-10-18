@@ -1,0 +1,13 @@
+{
+  "_id": "6662bb9407b1a041b15e0b77",
+  "name": "Edit Block",
+  "path": "/admin/location/block/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6662af7b07b1a041b15e0b5a",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:49:40.587Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

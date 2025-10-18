@@ -1,0 +1,57 @@
+{
+  "_id": "660d8e6ec7b99128d924f766",
+  "gridTitle": "Eduempower Library",
+  "gridType": "table",
+  "crmModelId": "660af0dac7b99128d924f6da",
+  "columns": [
+    {
+      "$key": "fafgvvlkupk",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "0wpuwv0qxhbc",
+      "key": "initials",
+      "name": "Initials",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "rtk8pdhcszs",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "9rtv6yee4jl",
+          "gridTitle": "Edit Library",
+          "value": "Edit",
+          "apiUrl": "/admin/schoolsetup/library-setup/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "bom5bwfob4h",
+      "gridTitle": "Add Library",
+      "gridType": "popupForm",
+      "value": "Add Library",
+      "apiUrl": "/admin/schoolsetup/library-setup/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T17:14:22.189Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.833Z"
+}

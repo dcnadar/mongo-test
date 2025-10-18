@@ -1,0 +1,33 @@
+{
+  "_id": {
+    "$oid": "68bbfd84ca4fa9290c0f6ae2"
+  },
+  "name": "MongoDB Credential",
+  "properties": [
+    {
+      "key": "URI",
+      "name": "URI",
+      "dataType": "STRING",
+      "$key": "sw7d7wmuudp"
+    },
+    {
+      "$key": "pndko92onil",
+      "key": "dbName",
+      "name": "DB Name",
+      "dataType": "STRING"
+    }
+  ],
+  "modelType": "INNER",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757150596046"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757151989567"
+    }
+  }
+}

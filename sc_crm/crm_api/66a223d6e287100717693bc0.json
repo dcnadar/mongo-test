@@ -1,0 +1,13 @@
+{
+  "_id": "66a223d6e287100717693bc0",
+  "name": "Product Seo",
+  "path": "/admin/product/seo",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66a1fb38cba7cf7aed264a04",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-25T10:07:18.495Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

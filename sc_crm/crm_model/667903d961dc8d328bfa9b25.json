@@ -1,0 +1,39 @@
+{
+  "_id": "667903d961dc8d328bfa9b25",
+  "name": "NativeGrid GlobalCommonProductList2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "yrr5xnm9mrc",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6678ff9761dc8d328bfa9b23"
+    },
+    {
+      "$key": "5l2d6q3qudh",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING",
+      "listType": "INNER_MODEL",
+      "modelId": "667a7e5f74a25c4c696adacc"
+    },
+    {
+      "$key": "dp1s76hil9u",
+      "key": "showDynamicContent",
+      "name": "Show Dynamic Content",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "4yojlcxut3s",
+      "key": "dynamicContentFilter",
+      "name": "DynamicContentFilter",
+      "dataType": "INNER_MODEL",
+      "modelId": "668bf0a4531ed762273ebbfd"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-24T05:27:53.214Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

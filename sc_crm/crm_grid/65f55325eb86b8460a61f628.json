@@ -1,0 +1,53 @@
+{
+  "_id": "65f55325eb86b8460a61f628",
+  "gridTitle": "ReactGrid globalCTASection6",
+  "gridType": "form",
+  "crmModelId": "65f5528ceb86b8460a61f627",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 24,
+          "$key": "wveeumn5tad"
+        },
+        {
+          "$key": "t5b249x7fgb",
+          "id": "message",
+          "title": "Message",
+          "type": "text_editor",
+          "o": true,
+          "span": 24
+        },
+        {
+          "id": "buttons",
+          "title": "Buttons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 2,
+          "$key": "kajz12x08h8"
+        }
+      ],
+      "$key": "hvpwqy6dwng"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-16T08:07:01.667Z"
+}

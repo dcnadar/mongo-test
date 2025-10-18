@@ -1,0 +1,14 @@
+{
+  "_id": "67aec190397e373602fa0ce4",
+  "name": "Edit School Subject",
+  "path": "/admin/school-setup/examinations/school-subject/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67ae0563397e373602fa0ca6",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-14T04:07:44.519Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

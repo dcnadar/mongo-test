@@ -1,0 +1,74 @@
+{
+  "_id": {
+    "$oid": "68d14fc0f42bc3ef836dc7d7"
+  },
+  "gridTitle": "App Role Table",
+  "gridType": "table",
+  "crmModelId": "68d14de3f42bc3ef836dc7d5",
+  "columns": [
+    {
+      "$key": "ptm1zjzz0yb",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "w2pp2zw481r",
+      "key": "key",
+      "name": "Key",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "olq7dnsc9p",
+      "key": "permissions",
+      "name": "permissions",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "znx8q4xjyqo",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": false,
+      "actions": [
+        {
+          "$key": "enrmp5vj2ou",
+          "gridTitle": "Edit Role",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/app-role/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "ulu2fyv4l6",
+      "gridTitle": "Add Role",
+      "value": "Add Role",
+      "apiUrl": "/admin/app-role/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758547904911"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231679124"
+    }
+  },
+  "breadcrumb": []
+}

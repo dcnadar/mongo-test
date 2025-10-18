@@ -1,0 +1,26 @@
+{
+  "_id": "66e1abd5ab08f3103afa06ee",
+  "gridTitle": "Product Policy Menu",
+  "gridType": "menu",
+  "menuItems": [
+    {
+      "$key": "33ztuopu9f6",
+      "key": "cancelPolicy",
+      "slug": "admin/account/policy/cancel-policy/all",
+      "value": "Cancel Policy",
+      "icon": "<svg fill=\"currentColor\" width=\"64px\" height=\"64px\" viewBox=\"0 0 32 32\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <title>cancel</title> <path d=\"M10.771 8.518c-1.144 0.215-2.83 2.171-2.086 2.915l4.573 4.571-4.573 4.571c-0.915 0.915 1.829 3.656 2.744 2.742l4.573-4.571 4.573 4.571c0.915 0.915 3.658-1.829 2.744-2.742l-4.573-4.571 4.573-4.571c0.915-0.915-1.829-3.656-2.744-2.742l-4.573 4.571-4.573-4.571c-0.173-0.171-0.394-0.223-0.657-0.173v0zM16 1c-8.285 0-15 6.716-15 15s6.715 15 15 15 15-6.716 15-15-6.715-15-15-15zM16 4.75c6.213 0 11.25 5.037 11.25 11.25s-5.037 11.25-11.25 11.25-11.25-5.037-11.25-11.25c0.001-6.213 5.037-11.25 11.25-11.25z\"></path> </g></svg>"
+    },
+    {
+      "$key": "m8fql5w5ggs",
+      "key": "returnPolicy",
+      "slug": "admin/account/policy/return-policy/all",
+      "value": "Return Policy",
+      "icon": "<svg version=\"1.1\" id=\"svg2\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\" xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\" sodipodi:docname=\"return-key.svg\" inkscape:version=\"0.48.4 r9939\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"64px\" height=\"64px\" viewBox=\"0 0 1200 1200\" enable-background=\"new 0 0 1200 1200\" xml:space=\"preserve\" fill=\"currentColor\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path id=\"path19701\" inkscape:connector-curvature=\"0\" d=\"M808.969,133.929v257.06H942.94v267.899H417.981V508.763L0,787.417 l417.982,278.654V915.946h524.959H1200V658.888V390.988v-257.06H942.941H808.969L808.969,133.929z\"></path> </g></svg>"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T14:40:21.880Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "thumb": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/thumb/2024/8/11/file_agq1c94scqb-1726071952501.jpg",
+  "title": "Cancel/Return Policy"
+}

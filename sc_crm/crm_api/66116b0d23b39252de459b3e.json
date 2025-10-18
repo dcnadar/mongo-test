@@ -1,0 +1,12 @@
+{
+  "_id": "66116b0d23b39252de459b3e",
+  "name": "Add Website Footer Section",
+  "path": "/admin/website/footer/section/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66113f8423b39252de459b1c",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-06T15:32:29.080Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

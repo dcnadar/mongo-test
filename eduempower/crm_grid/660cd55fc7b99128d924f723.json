@@ -1,0 +1,75 @@
+{
+  "_id": "660cd55fc7b99128d924f723",
+  "gridTitle": "Eduempower LeaveType",
+  "gridType": "form",
+  "crmModelId": "66081d3c60d4f873b5fa4f49",
+  "rows": [
+    {
+      "$key": "h9ocl0fawfi",
+      "fields": [
+        {
+          "$key": "k8noit9fu6k",
+          "id": "name",
+          "title": "Leave Type Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "w264n5ehkng",
+          "id": "code",
+          "title": "Code",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "q2dxpxbl6",
+          "id": "leaveType",
+          "title": "TaggedTo",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "zoj354hinaf",
+          "id": "duration",
+          "title": "Duration",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "vibpegppfo",
+          "id": "maxLeaveAllowed",
+          "title": "Max Leave Allowed",
+          "type": "number",
+          "span": 8,
+          "min": 1
+        },
+        {
+          "$key": "kqd4ib2qrob",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "multiple": false,
+          "span": 8,
+          "value": "INACTIVE",
+          "createType": "hidden_fe",
+          "updateType": "hidden"
+        },
+        {
+          "$key": "i0juuq706mq",
+          "id": "paidLeave",
+          "title": "Paid Leave",
+          "type": "bool",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T04:04:47.556Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.245Z"
+}

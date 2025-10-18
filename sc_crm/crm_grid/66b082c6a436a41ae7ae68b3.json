@@ -1,0 +1,70 @@
+{
+  "_id": "66b082c6a436a41ae7ae68b3",
+  "gridTitle": "WebsItePageGridThemeSettings Background",
+  "gridType": "form",
+  "crmModelId": "6511ee6df9686d32acb3e2d3",
+  "rows": [
+    {
+      "$key": "o3hqyp90idc",
+      "fields": [
+        {
+          "$key": "4ket2clb0es",
+          "id": "styleSettings.isBackground",
+          "title": "Is Background",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "su88t8ixthb",
+          "id": "styleSettings.backgroundImage",
+          "title": "Background Image",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "wwobc7m68md",
+          "id": "styleSettings.backgroundSvg",
+          "title": "background Svg",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "b8mdg8u4nq",
+          "id": "styleSettings.backgroundPosition",
+          "title": "Background Position",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "5ivphe71kpe",
+          "id": "styleSettings.backgroundOverlayColor",
+          "title": "Background Overlay Color",
+          "type": "text",
+          "span": 8,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-05T07:44:06.289Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true
+    },
+    {
+      "key": "id",
+      "required": true
+    }
+  ]
+}

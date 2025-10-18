@@ -1,0 +1,11 @@
+{
+  "_id": "66066c21eea36066ca04cbc4",
+  "name": "eduempower",
+  "basePath": "",
+  "ecomAccountId": "66066c21eea36066ca04cbc3",
+  "appType": "ECOM_SUBSCRIBER_WEB",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-29T07:22:09.996Z",
+  "_class": "com.doonvalley.model.App",
+  "updated": "2025-09-08T10:50:43.533Z"
+}

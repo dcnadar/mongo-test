@@ -1,0 +1,23 @@
+{
+  "_id": "689c3a09e8e746ac85de559a",
+  "name": "trainingTrainerInformation",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "9uq57xa0sew",
+      "key": "trainername",
+      "name": "Trainer Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "anlisexntx7",
+      "key": "traineremail",
+      "name": "Trainer Email",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T07:08:57.866Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:54.990Z"
+}

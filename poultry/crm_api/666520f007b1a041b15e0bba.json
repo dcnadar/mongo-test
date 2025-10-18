@@ -1,0 +1,13 @@
+{
+  "_id": "666520f007b1a041b15e0bba",
+  "name": "Edit Gram Panchayat",
+  "path": "/admin/location/gram-panchayat/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66644d5e07b1a041b15e0ba3",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-09T03:26:40.116Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

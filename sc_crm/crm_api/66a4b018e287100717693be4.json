@@ -1,0 +1,12 @@
+{
+  "_id": "66a4b018e287100717693be4",
+  "name": "Wishlist",
+  "path": "/admin/customer/wishlist/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "6618f331aee00c70206deb25",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-27T08:30:16.554Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

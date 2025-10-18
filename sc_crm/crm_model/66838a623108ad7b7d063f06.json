@@ -1,0 +1,49 @@
+{
+  "_id": "66838a623108ad7b7d063f06",
+  "name": "Blog Comment",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "trufal_blog_comment",
+  "properties": [
+    {
+      "$key": "2l0z73c5504",
+      "key": "blogId",
+      "name": "Blog Id",
+      "dataType": "REFERENCE",
+      "modelId": "661cd412aee00c70206deb66"
+    },
+    {
+      "$key": "s22tbl9bk7p",
+      "key": "userId",
+      "name": "User Id",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6"
+    },
+    {
+      "$key": "fo3m3v1odlm",
+      "key": "comment",
+      "name": "Comment",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "7qkgikwyx9v",
+      "key": "likes",
+      "name": "Likes",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "6w465rtmfx4",
+      "key": "dislikes",
+      "name": "Dislikes",
+      "dataType": "INTEGER"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T05:04:34.480Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

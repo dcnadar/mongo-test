@@ -1,0 +1,29 @@
+{
+  "_id": "66e8424c99c5a61793d1b826",
+  "name": "ReactGrid GlobalHeader Settings RightButtons",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "2k8ylmnvri8",
+      "key": "buttonAction",
+      "name": "buttonAction",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "ppuguq3g2u9",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fpgn4037j5o",
+      "key": "icon",
+      "name": "Icon",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-16T14:35:56.091Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

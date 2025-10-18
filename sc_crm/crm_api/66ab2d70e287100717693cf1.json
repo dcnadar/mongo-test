@@ -1,0 +1,14 @@
+{
+  "_id": "66ab2d70e287100717693cf1",
+  "name": "Add Stock Available",
+  "path": "/admin/product/variant/stock/available",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66ab2c46e287100717693cef",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T06:38:40.612Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

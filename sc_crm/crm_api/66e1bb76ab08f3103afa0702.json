@@ -1,0 +1,16 @@
+{
+  "_id": "66e1bb76ab08f3103afa0702",
+  "name": "Add Product Cancel Policy",
+  "path": "/admin/account/policy/cancel-policy/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66e1b573ab08f3103afa06f2",
+  "innerGridType": "table",
+  "innerSourceId": "66e1b70aab08f3103afa06f4",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:47:02.066Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

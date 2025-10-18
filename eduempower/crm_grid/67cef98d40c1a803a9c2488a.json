@@ -1,0 +1,224 @@
+{
+  "_id": "67cef98d40c1a803a9c2488a",
+  "gridTitle": "Eduempower Staff import/export form",
+  "gridType": "form",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "rows": [
+    {
+      "$key": "cz9tbq58zn6",
+      "fields": [
+        {
+          "$key": "25rwhk1grrs",
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "s9geqqt8gpe",
+          "id": "martialStatus",
+          "title": "Martial Status",
+          "type": "list",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "17u58vu301q",
+          "id": "weddingDate",
+          "title": "Wedding Date",
+          "type": "date",
+          "span": 4,
+          "showCondition": "return this.martialStatus === 'MARRIED'"
+        },
+        {
+          "$key": "l70lumwvrmk",
+          "id": "salutation",
+          "title": "Salutation",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "idgdernm11r",
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "y28u5y4caie",
+          "id": "middleName",
+          "title": "Middle Name",
+          "type": "text",
+          "o": true,
+          "span": 6
+        },
+        {
+          "$key": "h3ufl0myaya",
+          "id": "lastName",
+          "title": "Last Name",
+          "type": "text",
+          "span": 6,
+          "o": true
+        },
+        {
+          "$key": "3n8sh7sw9oj",
+          "id": "email",
+          "title": "Email",
+          "type": "text",
+          "span": 6,
+          "onChangeCondition": [
+            {
+              "$key": "kc2ah2s0bzb",
+              "key": "userName",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.email;"
+            }
+          ]
+        },
+        {
+          "$key": "vz6ska9etu",
+          "id": "userName",
+          "title": "User Name",
+          "type": "text",
+          "span": 6,
+          "hint": "<p />",
+          "updateType": "none",
+          "createType": "none"
+        },
+        {
+          "$key": "h4hq39p0glp",
+          "id": "callingCode",
+          "title": "Calling Code",
+          "type": "list",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "t5z2spst2kb",
+          "id": "mobileNumber",
+          "title": "Mobile Number",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "xdxck4a1bt",
+          "id": "birthDate",
+          "title": "Birth Date",
+          "type": "date",
+          "span": 6
+        },
+        {
+          "$key": "u6a96uousm",
+          "id": "bloodGroup",
+          "title": "Blood Group",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "drzdc5006rc",
+          "id": "nationality",
+          "title": "Nationality",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "rag4ww1aco",
+          "id": "religion",
+          "title": "Religion",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "rjawslg3taq",
+          "id": "motherTongue",
+          "title": "Mother Tongue",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "ld3y980wnja",
+          "id": "dateOfJoining",
+          "title": "Date Of Joining",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "l0k6gy4xv5f",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "ACTIVE"
+        }
+      ],
+      "label": "General Details"
+    },
+    {
+      "$key": "czre9tjodifh889304",
+      "label": "Employment Details",
+      "fields": [
+        {
+          "$key": "rtmjzopjmj",
+          "id": "employmentDetail",
+          "title": "Employment Details",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "crmFormId": "67cf0ab440c1a803a9c24890"
+          },
+          "span": 24
+        }
+      ]
+    },
+    {
+      "$key": "cz9tjodifh889304",
+      "label": "Banking Details",
+      "fields": [
+        {
+          "$key": "f5sw73l8m9j",
+          "id": "bankingDetails",
+          "title": "Banking Details",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": false
+        }
+      ]
+    },
+    {
+      "$key": "cz9tbq5889304",
+      "fields": [
+        {
+          "$key": "ezu34ze8ogb",
+          "id": "presentAddress",
+          "title": "Present Address",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ],
+      "label": "Present Address"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T03:56:21.209Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/staff/all",
+  "upsertDoc": false,
+  "gridParams": [],
+  "updated": "2025-09-08T10:51:04.507Z"
+}

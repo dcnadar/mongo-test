@@ -1,0 +1,13 @@
+{
+  "_id": "6662ba5207b1a041b15e0b6e",
+  "name": "All Self Help Group",
+  "path": "/admin/groups/self-help-group/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6662b1f307b1a041b15e0b61",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:44:18.461Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

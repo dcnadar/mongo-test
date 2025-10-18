@@ -1,0 +1,55 @@
+{
+  "_id": "66d52645f477b55766069fd3",
+  "gridTitle": "Files table",
+  "gridType": "table",
+  "crmModelId": "66cd872decf9fb0993c3e6c4",
+  "columns": [
+    {
+      "$key": "0lqd715s38z",
+      "key": "title",
+      "name": "Title",
+      "type": "text",
+      "sort": true,
+      "width": 400,
+      "valueCondition": "return \"<a href='/api/public/downloadFile\" + this.file.path + \"' target='_blank'>\" + this.title + \"</a>\";"
+    },
+    {
+      "$key": "ukz1y86h06",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "width": 100,
+      "actions": [
+        {
+          "$key": "zmaqe1enr09",
+          "gridTitle": "Delete Publication",
+          "gridType": "confirm",
+          "value": "Delete Publication",
+          "gridMsg": "Are you sure, want to delete?",
+          "apiUrl": "/admin/gallery/publication/delete?id=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "q36a9hn2y8",
+      "gridTitle": "Add Publication",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/gallery/publication/add",
+      "value": "Add Pulication"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "created",
+    "file"
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-02T02:43:17.146Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

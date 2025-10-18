@@ -1,0 +1,73 @@
+{
+  "_id": "672070575f22ec7ba0264aab",
+  "gridTitle": "Front Offic Exit",
+  "gridType": "table",
+  "crmModelId": "671a5ed45f22ec7ba02649fe",
+  "columns": [
+    {
+      "$key": "motgl4pu0g",
+      "name": "Visitor",
+      "key": "visitorName",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "yrf9x71hkt",
+      "key": "visitId",
+      "name": "Visit ID",
+      "type": "link",
+      "sort": true,
+      "slug": "/admin/front-office/visitorList/all?id=:_id _id"
+    },
+    {
+      "$key": "ynur5d8ccdn",
+      "name": "Exit Time",
+      "type": "date",
+      "sort": true,
+      "key": "exitDateTime"
+    },
+    {
+      "$key": "3ufe71laybr",
+      "name": "Approval Type",
+      "key": "approvalType",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "wfzbup23xpm",
+      "name": "Status",
+      "key": "status",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "t096oq298n",
+      "name": "Approvers",
+      "type": "card",
+      "sort": true,
+      "key": "staffs"
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "22mzq6trooy",
+        "propertyKey": "status",
+        "operator": "EQUALS",
+        "EQUALS": "EXIT"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "visitorForms"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-29T05:19:19.588Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "gridParams": [],
+  "updated": "2025-09-08T10:51:02.853Z"
+}

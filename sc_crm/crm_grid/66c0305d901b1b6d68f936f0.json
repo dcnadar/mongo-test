@@ -1,0 +1,48 @@
+{
+  "_id": "66c0305d901b1b6d68f936f0",
+  "gridTitle": "PhonepePaymentGatewayConfig",
+  "gridType": "form",
+  "crmModelId": "66c02ef0901b1b6d68f936ed",
+  "rows": [
+    {
+      "$key": "aybl6ft5oac",
+      "fields": [
+        {
+          "id": "phonepeMerchantId",
+          "title": "Phonepe Merchant Id",
+          "type": "text",
+          "$key": "8ckjvb1bdwp",
+          "span": 12,
+          "o": false
+        },
+        {
+          "$key": "y5rxl7nav6",
+          "id": "phonepeSaltKey",
+          "title": "Phonepe Salt Key",
+          "type": "text",
+          "span": 12,
+          "o": false
+        },
+        {
+          "$key": "uci1bekrlz",
+          "id": "phonepeWebhookUsername",
+          "title": "Phonepe Webhook Username",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "w5kzn3io4r",
+          "id": "phonepeWebhookPassword",
+          "title": "Phonepe Webhook Password",
+          "type": "password",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-17T05:08:45.194Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

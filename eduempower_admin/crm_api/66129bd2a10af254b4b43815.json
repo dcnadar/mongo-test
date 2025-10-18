@@ -1,0 +1,15 @@
+{
+  "_id": "66129bd2a10af254b4b43815",
+  "name": "All State",
+  "path": "/admin/entity-setup/state/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66129328a10af254b4b43810",
+  "innerGridType": "table",
+  "innerSourceId": "661296eda10af254b4b43812",
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-07T13:12:50.320Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "ecomApiMappings": []
+}

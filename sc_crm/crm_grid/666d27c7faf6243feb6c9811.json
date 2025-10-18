@@ -1,0 +1,41 @@
+{
+  "_id": "666d27c7faf6243feb6c9811",
+  "gridTitle": "Website SVG Icon",
+  "gridType": "form",
+  "crmModelId": "666d2790faf6243feb6c9810",
+  "rows": [
+    {
+      "$key": "3l9o5br0n6f",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "o": false,
+          "span": 12,
+          "$key": "jcj8g8zkhc"
+        },
+        {
+          "$key": "8dglizdg3eo",
+          "id": "type",
+          "title": "Type",
+          "type": "list",
+          "multiple": false,
+          "o": false,
+          "span": 12
+        },
+        {
+          "$key": "0qgm692cf43g",
+          "id": "svg",
+          "title": "SVG",
+          "type": "textarea",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-15T05:33:59.625Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

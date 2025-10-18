@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "66d166fd97c5ab754648618a"
+  },
+  "name": "AppMenuIconSetting",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "awyhtnqftge",
+      "key": "height",
+      "name": "Height",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bvsi7p4vhu5",
+      "key": "width",
+      "name": "Width",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1724999421166"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070153339"
+    }
+  }
+}

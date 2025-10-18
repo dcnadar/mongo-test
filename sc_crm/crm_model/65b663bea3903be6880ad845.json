@@ -1,0 +1,37 @@
+{
+  "_id": "65b663bea3903be6880ad845",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "headingLeftText",
+      "name": "Heading Left Text"
+    },
+    {
+      "dataType": "STRING",
+      "key": "headingPrimaryText",
+      "name": "Heading Primary Text"
+    },
+    {
+      "dataType": "STRING",
+      "key": "headingRightText",
+      "name": "Heading Right Text"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "buttons",
+      "name": "Buttons",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalHeroSection3",
+  "modelType": "INNER",
+  "created": "2024-01-28T14:25:02.916Z",
+  "modelStatus": "ACTIVE"
+}

@@ -1,0 +1,65 @@
+{
+  "_id": "665a98d97a29a87a0def3d81",
+  "gridTitle": "Product Variant Table",
+  "gridType": "table",
+  "crmModelId": "665a974d7a29a87a0def3d7f",
+  "columns": [
+    {
+      "$key": "5o5n01m9htr",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": false,
+      "width": 250
+    },
+    {
+      "$key": "d684djynqmt",
+      "key": "mrp",
+      "name": "MRP",
+      "type": "text",
+      "sort": false,
+      "width": 175
+    },
+    {
+      "$key": "4yzfp2acra6",
+      "key": "price",
+      "name": "Price",
+      "type": "text",
+      "sort": false,
+      "width": 175
+    },
+    {
+      "$key": "dk1lt91z8p",
+      "key": "available",
+      "name": "Available",
+      "type": "text",
+      "sort": false,
+      "width": 175
+    },
+    {
+      "$key": "jn13udbtdoc",
+      "key": "onHand",
+      "name": "On Hand",
+      "type": "text",
+      "sort": false,
+      "width": 175
+    },
+    {
+      "$key": "9up60cdrj2f",
+      "key": "sku",
+      "name": "SKU",
+      "type": "text",
+      "sort": false,
+      "width": 175
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-01T03:43:21.274Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

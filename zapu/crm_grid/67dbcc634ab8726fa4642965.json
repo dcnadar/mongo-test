@@ -1,0 +1,36 @@
+{
+  "_id": "67dbcc634ab8726fa4642965",
+  "gridTitle": "Woocommerce Order",
+  "gridType": "form",
+  "crmModelId": "67dbcba44ab8726fa4642964",
+  "rows": [
+    {
+      "$key": "e5b0p7fn558",
+      "fields": [
+        {
+          "id": "woocommerceOrderData",
+          "title": "Woocommerce Order data",
+          "type": "json",
+          "o": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-03-20T08:05:55.961Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

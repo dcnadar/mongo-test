@@ -1,0 +1,29 @@
+{
+  "_id": "66e8477699c5a61793d1b827",
+  "name": "ReactGrid GlobalHeader Submenu",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "jy41h572kgg",
+      "name": "Title",
+      "dataType": "STRING",
+      "key": "title"
+    },
+    {
+      "$key": "ge6ek8zni6",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7n32s5ayssp",
+      "key": "buttonAction",
+      "name": "buttonAction",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-16T14:57:58.093Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

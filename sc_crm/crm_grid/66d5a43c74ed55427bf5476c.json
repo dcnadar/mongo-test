@@ -1,0 +1,80 @@
+{
+  "_id": "66d5a43c74ed55427bf5476c",
+  "gridTitle": "App Header Section",
+  "gridType": "table",
+  "crmModelId": "66d5a30874ed55427bf5476b",
+  "upsertDoc": false,
+  "columns": [
+    {
+      "$key": "5ly70epwe74",
+      "key": "name ",
+      "name": "Name ",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "2kedgigf3ty",
+      "key": "order",
+      "name": "Order",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "k4a2g21ecno",
+      "key": "gridInfo.thumb",
+      "name": "Grid Sample Thumb",
+      "type": "thumb",
+      "sort": true
+    },
+    {
+      "$key": "plrh78y19is",
+      "key": "created",
+      "name": "Created",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "f2bz5br3rch",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "maof2xneov",
+          "value": "EDIT",
+          "slug": "/admin/mobileapp/header/section/update?id=:_id _id"
+        },
+        {
+          "$key": "2n959konjhe",
+          "value": "Delete",
+          "gridMsg": "Are you sure want to delete?",
+          "gridType": "confirm",
+          "apiUrl": "/admin/mobileapp/header/section/delete",
+          "type": "icon",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.4.actions.1.icon/2024/8/4/file_p3zku1f44j-1725427460131.png"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "f0rlqmeom5a",
+      "value": "Add Header",
+      "slug": "/admin/mobileapp/header/section/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultSort": {
+      "field": "order",
+      "order": "ascend"
+    }
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-02T11:40:44.572Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

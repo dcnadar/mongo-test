@@ -1,0 +1,14 @@
+{
+  "_id": "6683987a3108ad7b7d063f15",
+  "name": "Edit Blog Commnet",
+  "path": "/admin/website/blog/comments/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66838c9e3108ad7b7d063f08",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T06:04:42.935Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

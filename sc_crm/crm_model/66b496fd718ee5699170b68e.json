@@ -1,0 +1,84 @@
+{
+  "_id": "66b496fd718ee5699170b68e",
+  "name": "ReactGrid GlobalPricing5 sections",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "5v1fdhubxu3",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ksz5r3lxsk",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y27btzry4z8",
+      "key": "points",
+      "name": "Points",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "br9qjnel9c",
+      "key": "buttonText",
+      "name": "Button Text",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ovcukymphd",
+      "key": "enableButton",
+      "name": "Enable Button",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "saypojmhxs",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "vuckru3jdzc",
+      "key": "primary",
+      "name": "Primary",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "wn6hch0c8hp",
+      "key": "currencySymbol",
+      "name": "Currency Symbol",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "r01c7nbwjqc",
+      "key": "priceMonthly",
+      "name": "Price Monthly",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yxdyisuf478",
+      "key": "priceYearly",
+      "name": "Price Yearly",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0i7zhcqytda8",
+      "key": "monthlyPlanText",
+      "name": "Monthly Plan Text",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kt4jwfj3mzi",
+      "key": "yearlyPlanText",
+      "name": "Yearly Plan Text",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-08T09:59:25.022Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

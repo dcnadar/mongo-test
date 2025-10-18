@@ -1,0 +1,92 @@
+{
+  "_id": "66e5517fab08f3103afa077f",
+  "gridTitle": "Order Return Requests",
+  "gridType": "table",
+  "crmModelId": "6684e3603108ad7b7d063f47",
+  "columns": [
+    {
+      "$key": "bobpwp9th2w",
+      "key": "userId",
+      "name": "Customer",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "bedtlhtoel",
+      "key": "productVariantId",
+      "name": "Product Variant",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "1wbmhc3ttms",
+      "key": "orderId",
+      "name": "Order",
+      "type": "tag",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "ofsm0co50rm",
+      "key": "returnData.returnReason",
+      "name": "Reason",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "u47kpp4rr2o",
+      "key": "returnData.returnRequestDate",
+      "name": "Request Date",
+      "type": "date",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "aorn9psvvv",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 300,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "nywldcwktuh",
+          "gridTitle": "Accept Request",
+          "gridType": "popupForm",
+          "value": "Accept",
+          "apiUrl": "/admin/order/return/request/accept?id=:_id _id"
+        },
+        {
+          "$key": "b3xtj9ocn3m",
+          "gridTitle": "Reject Request",
+          "gridType": "confirm",
+          "apiUrl": "/api/io/order/return/request/reject?orderId=:_id _id",
+          "value": "Reject",
+          "showGridComment": true,
+          "gridMsg": "Reject the return request?"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "emvd947m7nn",
+        "propertyKey": "status",
+        "operator": "EQUALS",
+        "EQUALS": "RETURN_REQUEST"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-14T09:03:59.488Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "6513dfc9581c417ed1d0dcf5",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 1,
+          "title": "Sections",
+          "id": "sections",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 3,
+          "max": 3,
+          "add": true,
+          "countTitle": "No Section Added"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "6513def2581c417ed1d0dcf4",
+  "gridTitle": "Foodio Grid Top Services"
+}

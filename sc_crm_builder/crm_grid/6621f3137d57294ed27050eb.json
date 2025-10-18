@@ -1,0 +1,58 @@
+{
+  "_id": {
+    "$oid": "6621f3137d57294ed27050eb"
+  },
+  "gridTitle": "Staff",
+  "gridType": "table",
+  "crmModelId": "65f6e30d52bbad30f7463f22",
+  "columns": [
+    {
+      "$key": "i6skwx96ntr",
+      "key": "firstName",
+      "name": "Name",
+      "type": "name",
+      "sort": true
+    },
+    {
+      "$key": "m4o33a8q5ee",
+      "key": "email",
+      "name": "Email",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "kf1tr6baygb",
+      "key": "userName",
+      "name": "UserName",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "il5jcugp1k7",
+      "key": "ecomAccountId",
+      "name": "Ecom Account",
+      "type": "card",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "lastName"
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1713500947595"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151391"
+    }
+  }
+}

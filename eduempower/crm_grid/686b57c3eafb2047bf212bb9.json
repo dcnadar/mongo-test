@@ -1,0 +1,54 @@
+{
+  "_id": "686b57c3eafb2047bf212bb9",
+  "gridTitle": "Eduempower Guardian Contact",
+  "gridType": "form",
+  "crmModelId": "686b5783eafb2047bf212bb8",
+  "rows": [
+    {
+      "$key": "0nm61b4pxnqf",
+      "fields": [
+        {
+          "$key": "7fdd1dz0vz",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "n84tlfsmln",
+          "id": "relation",
+          "title": "Relation",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "ddqwas91q0k",
+          "id": "contactNumber",
+          "title": "Contact Number",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "7zvgeth9ind",
+          "id": "email",
+          "title": "Email",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "a2wzjhgnc6n",
+          "id": "adharNo",
+          "title": "Adhar No",
+          "type": "text",
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-07-07T05:14:43.687Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:04.637Z"
+}

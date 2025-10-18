@@ -1,0 +1,17 @@
+{
+  "_id": "65d30b9b7d9157c0f06a3c39",
+  "properties": [
+    {
+      "dataType": "LIST_OF",
+      "key": "images",
+      "name": "Images",
+      "listType": "INNER_MODEL",
+      "modelId": "65d30b9c7d9157c0f06a3c3a"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalFullImages",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-19T08:04:43.001Z"
+}

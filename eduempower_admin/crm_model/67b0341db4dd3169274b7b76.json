@@ -1,0 +1,99 @@
+{
+  "_id": "67b0341db4dd3169274b7b76",
+  "name": "Eduempower Class",
+  "modelType": "COLLECTION",
+  "baseModelId": "67371c6002f79267ffc56592",
+  "collectionName": "eduempower_class",
+  "properties": [
+    {
+      "$key": "9emrsvoi4s6",
+      "key": "classType",
+      "name": "Class Type",
+      "dataType": "REFERENCE",
+      "modelId": "660c0713c7b99128d924f70b"
+    },
+    {
+      "$key": "zysxjjbia6s",
+      "key": "classNameInWord",
+      "name": "Class Name In Word",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "vakvmqsbzr",
+      "key": "capacity",
+      "name": "Capacity",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "2pdkdlrudsx",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "24mhgsi46gu",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "ad9fn0tfsyf",
+            "key": "INACTIVE",
+            "value": "InActive"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "6is1ym62ay8",
+      "key": "numberOfSections",
+      "name": "Number Of Sections",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "fi4pwfzd1k",
+      "key": "noOfIncharge",
+      "name": "No Of Incharge",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "hxc2jszumfv",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "67b03538b4dd3169274b7b77"
+    },
+    {
+      "$key": "kkd3qn07qzd",
+      "key": "sequenceNo",
+      "name": "Sequence Number",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "nqar573gmd",
+      "key": "entityType",
+      "name": "Entity Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "y2c7qgg4wfa",
+            "key": "MASTER_SETUP",
+            "value": "Master Setup"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "classNameInWord"
+  },
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-15T06:28:45.521Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

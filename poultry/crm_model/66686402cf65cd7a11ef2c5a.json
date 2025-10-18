@@ -1,0 +1,82 @@
+{
+  "_id": "66686402cf65cd7a11ef2c5a",
+  "name": "Gross Income",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "9naokwldfn",
+      "name": "Number Of Aged Birds Sold",
+      "dataType": "INTEGER",
+      "key": "noOfAgedBirdsSold"
+    },
+    {
+      "$key": "l51hx2u1awj",
+      "key": "totalWgtOfBirdsSold",
+      "name": "Total Weight Of Birds Sold",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "30lmced7vk8",
+      "key": "salesRateAdult",
+      "name": "Sales Rate Adult",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "mb5xc25885",
+      "key": "incomeAgedBirds",
+      "name": "Income From Sales Of Aged Birds",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "ht1wmxnk66c",
+      "key": "handicappedBirdsSold",
+      "name": "Number Of Handicapped Birds Sold",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "ktlm7b29i9b",
+      "key": "salesRateStunnted",
+      "name": "Sales Rate Stunnted",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "ilha0p97hw",
+      "key": "incomeHandicappedBirds",
+      "name": "Income From Sales Of Handicapped Birds",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "utq5go3azrl",
+      "key": "wgtHandicappedBirdsSold",
+      "name": "Total Weight Of Handicapped Birds Sold",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "xyesng2vbg",
+      "key": "quantityOfLitterSold",
+      "name": "Quantity Of Litter Sold",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "m41jzasr8if",
+      "key": "salesRateUsed",
+      "name": "Sales Rate Used",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "iyv1cbnd2x",
+      "key": "incomeFromSaleLitter",
+      "name": "Income From Sale Litter",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "g1e1gx79n4",
+      "key": "IncomeFeedEmptyBags",
+      "name": "Income From Selling Of Used Feed Empty Bags",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T14:49:38.799Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "67b03a7cb4dd3169274b7b7f",
+  "name": "Edit Class",
+  "path": "/admin/school-setup/class/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67b037adb4dd3169274b7b78",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-15T06:55:56.622Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "6662b94907b1a041b15e0b6a",
+  "name": "All Farmer",
+  "path": "/admin/farmer/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6662b26507b1a041b15e0b62",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:39:53.469Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

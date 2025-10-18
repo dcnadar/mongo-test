@@ -1,0 +1,11 @@
+{
+  "_id": "65f14821eb86b8460a61f5f3",
+  "name": "Add Website Page Section Info",
+  "path": "/admin/website/settings/section-info/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "65f147b8eb86b8460a61f5f2",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-13T06:30:57.534Z"
+}

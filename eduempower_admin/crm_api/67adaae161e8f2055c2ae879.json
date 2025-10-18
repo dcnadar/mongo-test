@@ -1,0 +1,14 @@
+{
+  "_id": "67adaae161e8f2055c2ae879",
+  "name": "Add Leave Types\t",
+  "path": "/admin/school-setup/leave-settings/leave-type/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67adaa8b61e8f2055c2ae877",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T08:18:41.445Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

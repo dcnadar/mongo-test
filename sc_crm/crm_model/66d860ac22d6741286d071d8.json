@@ -1,0 +1,32 @@
+{
+  "_id": "66d860ac22d6741286d071d8",
+  "name": "Delivery ServiceProvider setting",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "gy2l5qdwg5c",
+      "key": "serviceProvider",
+      "name": "Service Provider",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "16lqowkeq8n",
+            "key": "SHIPROCKET",
+            "value": "Shiprocket"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "axvap92t34e",
+      "key": "shiprocketSetting",
+      "name": "Shiprocket Setting",
+      "dataType": "INNER_MODEL",
+      "modelId": "66d8602b22d6741286d071d7"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-04T13:29:16.410Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

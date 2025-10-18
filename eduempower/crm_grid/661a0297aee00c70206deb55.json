@@ -1,0 +1,32 @@
+{
+  "_id": "661a0297aee00c70206deb55",
+  "gridTitle": "Eduempower Incharge",
+  "gridType": "form",
+  "crmModelId": "661a00d5aee00c70206deb54",
+  "rows": [
+    {
+      "$key": "4vpmlcxauht",
+      "fields": [
+        {
+          "id": "logo",
+          "title": "Staff Logo",
+          "type": "image",
+          "span": 8,
+          "$key": "n12fyu2pem"
+        },
+        {
+          "$key": "u2lu931wu2k",
+          "id": "name",
+          "title": "Staff Name",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-13T03:57:11.025Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:00.930Z"
+}

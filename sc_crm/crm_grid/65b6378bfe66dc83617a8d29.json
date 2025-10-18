@@ -1,0 +1,86 @@
+{
+  "_id": "65b6378bfe66dc83617a8d29",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-28T11:16:27.310Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Date",
+          "id": "date",
+          "type": "date",
+          "span": 8,
+          "o": true,
+          "format": "MM/DD/YYYY",
+          "hint": "Date of the blog post",
+          "$key": "crndrzepwed"
+        },
+        {
+          "index": 3,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Title of the blog post",
+          "$key": "xjilgur3c5h"
+        },
+        {
+          "index": 4,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 8,
+          "o": false,
+          "hint": "Image for the blog post",
+          "$key": "b9oirv95alo"
+        },
+        {
+          "$key": "xlupifj3ow",
+          "id": "enableButton",
+          "title": "Enable Section Button",
+          "type": "bool",
+          "o": true,
+          "span": 4
+        },
+        {
+          "index": 5,
+          "title": "Click Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 20,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "hint": "Define the action for the button. For example, you could set it to navigate to a blog page, open a modal, etc.",
+          "$key": "9w29nttt9i",
+          "showCondition": "return this.enableButton;"
+        },
+        {
+          "index": 6,
+          "title": "User",
+          "id": "user",
+          "type": "inner_form",
+          "span": 24,
+          "o": true,
+          "meta": {
+            "crmFormId": "65b6370857171837bd4d0c69",
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "hint": "Details about the author or related user",
+          "$key": "f51nenvqmk"
+        }
+      ],
+      "$key": "etm5958e7qm"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b635bdf5cb7a5168589924",
+  "gridTitle": "ReactGrid GlobalBlogCards2 Section",
+  "fetchDocWithoutId": false
+}

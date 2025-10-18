@@ -1,0 +1,70 @@
+{
+  "_id": "668e33a7531ed762273ebc2a",
+  "gridTitle": "OrderInvoice Item",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "c2pm3tofl9t",
+      "fields": [
+        {
+          "$key": "77pgrmx36c3",
+          "id": "name",
+          "title": "Name",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "uanchw48kyb",
+          "id": "description",
+          "title": "Description",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "u2urem0jczr",
+          "id": "sku",
+          "title": "Sku",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ihhayrnxjb",
+          "id": "mrp",
+          "title": "Mrp",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "0rmp8f9un7qc",
+          "id": "price",
+          "title": "Price",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "ybmj4ul976",
+          "id": "quantity",
+          "title": "Quantity",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "d690rxc7qea",
+          "id": "orderId",
+          "title": "Order Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-10T07:09:27.327Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "crmModelId": "668e3199531ed762273ebc29"
+}

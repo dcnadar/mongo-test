@@ -1,0 +1,16 @@
+{
+  "_id": "68a9a0ecb06332591026b7f9",
+  "name": "All Staff",
+  "path": "/admin/staff/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "getAllRecords": false,
+  "sourceId": "68a9a0c1b06332591026b7f8",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-23T11:07:24.464Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:50.781Z"
+}

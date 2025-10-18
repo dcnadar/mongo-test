@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "68c2ea2570618d003613a978"
+  },
+  "name": "View All User Group",
+  "path": "/admin/user-group",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "68c2eaf770618d003613a979",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757604389073"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377685364"
+    }
+  }
+}

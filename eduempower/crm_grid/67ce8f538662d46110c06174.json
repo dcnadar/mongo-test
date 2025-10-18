@@ -1,0 +1,36 @@
+{
+  "_id": "67ce8f538662d46110c06174",
+  "gridTitle": "Student Primary Address",
+  "gridType": "form",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "rows": [
+    {
+      "$key": "13hd6mcshl2",
+      "fields": [
+        {
+          "id": "primaryContact.relation",
+          "title": "Relation",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "c03nkasagau"
+        },
+        {
+          "$key": "ilwr3yszqk9",
+          "id": "primaryContact.salutation",
+          "title": "Salutation",
+          "type": "text",
+          "span": 8
+        }
+      ],
+      "label": "PRIMARY CONTACT DETAILS",
+      "tab": "contact"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-10T07:05:55.770Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:04.464Z"
+}

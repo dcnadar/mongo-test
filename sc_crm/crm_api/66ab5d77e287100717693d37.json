@@ -1,0 +1,19 @@
+{
+  "_id": "66ab5d77e287100717693d37",
+  "name": "Customer order",
+  "path": "/admin/customer/orders/get",
+  "apiType": "GET",
+  "action": "ENTITY_GET",
+  "modelId": "6684e3603108ad7b7d063f47",
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T10:03:35.286Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "66d94be020ea9a402cc8a3a8",
+  "name": "NativeGrid ButtonInfo",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "313kb5dq065",
+      "key": "svg",
+      "name": "Svg",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "uu5920z1e69",
+      "key": "buttonAction",
+      "name": "ButtonAction",
+      "dataType": "INNER_MODEL",
+      "modelId": "66d93f0020ea9a402cc8a3a3"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-05T06:12:48.291Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

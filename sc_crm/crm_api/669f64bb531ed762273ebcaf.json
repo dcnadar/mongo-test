@@ -1,0 +1,13 @@
+{
+  "_id": "669f64bb531ed762273ebcaf",
+  "name": "All Stock",
+  "path": "/admin/product/variant/stock/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "669a2918531ed762273ebc70",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-23T08:07:23.128Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

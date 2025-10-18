@@ -1,0 +1,80 @@
+{
+  "_id": "67aee6be397e373602fa0d1b",
+  "gridTitle": "Account Inner Branch",
+  "gridType": "form",
+  "crmModelId": "67aecfa1397e373602fa0cf5",
+  "rows": [
+    {
+      "$key": "3iy64qw7pbo",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8,
+          "$key": "7bdx1ka3d26"
+        },
+        {
+          "$key": "1xs9lwpu7am",
+          "id": "branchCode",
+          "title": "Branch Code",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "bppbsymtz6o",
+          "id": "board",
+          "title": "Board",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "25xfdken4o1",
+          "id": "primaryEmail",
+          "title": "Primary Email",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7370auly9uo",
+          "id": "primaryContact",
+          "title": "Primary Contact",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "6gn8s9rmrvr",
+          "id": "secondaryEmail",
+          "title": "Secondary Email",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ew55q28unac",
+          "id": "secondaryContact",
+          "title": "Secondary Contact",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-14T06:46:22.625Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

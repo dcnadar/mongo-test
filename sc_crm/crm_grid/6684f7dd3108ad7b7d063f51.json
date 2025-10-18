@@ -1,0 +1,52 @@
+{
+  "_id": "6684f7dd3108ad7b7d063f51",
+  "gridTitle": "Show Comment Reaction",
+  "gridType": "table",
+  "crmModelId": "66838bdb3108ad7b7d063f07",
+  "columns": [
+    {
+      "$key": "y60axq7m7xs",
+      "key": "userId",
+      "name": "User",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "4sypm13sp67",
+      "name": "Reaction",
+      "key": "type",
+      "type": "tag",
+      "sort": true,
+      "width": 200
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "9ig3voxusce",
+        "propertyKey": "sourceType",
+        "operator": "EQUALS",
+        "EQUALS": "COMMENT"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T07:03:57.273Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "blogId",
+      "required": true
+    },
+    {
+      "key": "commentId",
+      "required": true
+    }
+  ]
+}

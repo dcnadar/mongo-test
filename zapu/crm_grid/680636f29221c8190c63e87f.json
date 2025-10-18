@@ -1,0 +1,62 @@
+{
+  "_id": "680636f29221c8190c63e87f",
+  "gridTitle": "Customer ",
+  "gridType": "form",
+  "crmModelId": "67d96cdc6d85b3208a75ea71",
+  "rows": [
+    {
+      "$key": "u1aows1va2o",
+      "fields": [
+        {
+          "id": "firstName",
+          "title": "Full name",
+          "type": "text",
+          "$key": "81i825ygc8x"
+        },
+        {
+          "$key": "m66pcltn7co",
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "multiple": false,
+          "o": true
+        },
+        {
+          "$key": "898n894uzwj",
+          "id": "birthDate",
+          "title": "Date of birth",
+          "type": "date",
+          "o": true
+        },
+        {
+          "$key": "kb0pkoo381",
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "n00dxn9v8or",
+          "id": "mobileNumber",
+          "title": "Mobile number",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "jhsq5kn3nh",
+          "id": "webhookData",
+          "title": "Webhook Data",
+          "type": "json",
+          "span": 24,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-04-21T12:15:46.522Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

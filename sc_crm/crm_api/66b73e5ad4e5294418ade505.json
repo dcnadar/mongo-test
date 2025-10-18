@@ -1,0 +1,21 @@
+{
+  "_id": "66b73e5ad4e5294418ade505",
+  "name": "Edit current user cart",
+  "path": "/cuser/cart_items/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6619064baee00c70206deb28",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-10T10:18:02.104Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

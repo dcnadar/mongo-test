@@ -1,0 +1,35 @@
+{
+  "_id": "65b644c588ce476919e91bca",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "svg",
+      "name": "SVG"
+    },
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "heading",
+      "name": "Heading"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalTabSection2 Section",
+  "modelType": "INNER",
+  "created": "2024-01-28T12:12:53.384Z",
+  "modelStatus": "ACTIVE"
+}

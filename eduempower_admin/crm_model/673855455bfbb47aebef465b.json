@@ -1,0 +1,123 @@
+{
+  "_id": "673855455bfbb47aebef465b",
+  "name": "Eduempower AcademicSession",
+  "modelType": "COLLECTION",
+  "baseModelId": "67371c6002f79267ffc56592",
+  "collectionName": "eduempower_academic_session",
+  "properties": [
+    {
+      "$key": "1udu8v0sp9v",
+      "key": "session",
+      "name": "Session Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "laszuc11pkb",
+      "key": "from",
+      "name": "From Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "qku4gsaw14",
+      "key": "to",
+      "name": "To Date",
+      "unique": false,
+      "dataType": "DATE"
+    },
+    {
+      "$key": "k3kpss0plag",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ko0t3r21fsr",
+            "key": "PLANNED",
+            "value": "Planned"
+          },
+          {
+            "$key": "xjwpt6x720g",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "et40cx7qqx8",
+            "key": "INACTIVE",
+            "value": "InaAtive"
+          },
+          {
+            "$key": "gx0h7md2t6v",
+            "key": "PLANNED",
+            "value": "Planned"
+          },
+          {
+            "$key": "6pzayizm9kj",
+            "key": "COMPLETED",
+            "value": "Complete"
+          },
+          {
+            "$key": "h85bbn199sv",
+            "key": "ARCHIVED",
+            "value": "Archived"
+          }
+        ]
+      },
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "l48rg371s3f",
+      "key": "_workLocation",
+      "name": "Branch",
+      "dataType": "REFERENCE",
+      "modelId": "673846135bfbb47aebef4654"
+    },
+    {
+      "$key": "o7s5rdrw4pk",
+      "key": "ecomAccountId",
+      "name": "Account",
+      "dataType": "REFERENCE",
+      "modelId": "67371f8502f79267ffc56594"
+    },
+    {
+      "$key": "2g82vv5xrz",
+      "key": "copyFromCurrent",
+      "name": "Copy From Current",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "27k5lpcmtj9",
+      "key": "entityType",
+      "name": "Entity Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "mmjn70u3k2",
+            "key": "MASTER_SETUP",
+            "value": "Master Setup"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "session",
+    "subtitles": [
+      "status"
+    ]
+  },
+  "menuTargets": {
+    "title": "session",
+    "description": "status"
+  },
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-16T08:18:13.909Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

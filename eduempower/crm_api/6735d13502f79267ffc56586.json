@@ -1,0 +1,22 @@
+{
+  "_id": "6735d13502f79267ffc56586",
+  "name": "Fee Structure (Select Category)",
+  "path": "/admin/schoolsetup/fee-settings/fee-structure/classes/categories",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66114d8423b39252de459b20",
+  "gridParams": [
+    {
+      "key": "classId",
+      "required": true
+    }
+  ],
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-14T10:30:13.186Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "innerGridType": "progress_cards",
+  "innerSourceId": "6735c9b702f79267ffc56583",
+  "updated": "2025-09-08T10:50:56.071Z"
+}

@@ -1,0 +1,10 @@
+{
+  "_id": "67d7f2505ea132199e60a848",
+  "name": "Customer",
+  "permissions": [
+    "67d7f1ce5ea132199e60a847"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-17T09:58:40.474Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

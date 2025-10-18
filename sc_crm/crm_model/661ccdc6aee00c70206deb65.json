@@ -1,0 +1,41 @@
+{
+  "_id": "661ccdc6aee00c70206deb65",
+  "name": "Blog Category",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "blog_category",
+  "properties": [
+    {
+      "$key": "pzdx4ga6f7d",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true,
+        "primary": false,
+        "description": false
+      }
+    },
+    {
+      "$key": "654aajpku6",
+      "key": "slug",
+      "name": "Slug",
+      "dataType": "STRING",
+      "unique": true,
+      "searchable": {
+        "description": false,
+        "primary": false
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name",
+    "subtitles": [
+      "slug"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T06:48:38.116Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "67a9d65fb81dbd448287fa7d",
+  "name": "Edit Product Variant",
+  "path": "/admin/product/variant/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "64a9d52ae7d297735dc044ea",
+  "innerGridType": "form",
+  "innerSourceId": "66a899a5e287100717693c25",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-10T10:35:11.818Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,157 @@
+{
+  "_id": "668ce2f2531ed762273ebc03",
+  "gridTitle": "Transaction",
+  "gridType": "table",
+  "crmModelId": "668cdde4531ed762273ebc01",
+  "columns": [
+    {
+      "$key": "3axj91wc2v4",
+      "key": "customerId",
+      "name": "Customer",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "8rdnt8pau3r",
+      "key": "transactionType",
+      "name": "Transaction Type",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "h3nxdjfn9a5",
+      "key": "transactionId",
+      "name": "Transaction Id",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "y2u391vdf8m",
+      "key": "paymentMode",
+      "name": "Payment Mode",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "xdbsw837hrl",
+      "key": "paymentGateway",
+      "name": "Payment Gateway",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "dbesmbfc98j",
+      "key": "pgTransactionId",
+      "name": "Pg Transaction Id",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "wnrvl5zdm1g",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "0urorqalzfl",
+      "key": "orderIds",
+      "name": "Order Ids",
+      "type": "card",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "0mz6pewvs71d",
+      "key": "totalMrp",
+      "name": "Total Mrp",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "croqy0a7846",
+      "key": "totalDiscount",
+      "name": "Total Discount",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "r9wox4l2h4b",
+      "key": "totalPrice",
+      "name": "Total Price",
+      "type": "text",
+      "width": 150,
+      "sort": false,
+      "actions": []
+    },
+    {
+      "$key": "trsipdwb06i",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "5n65mhzis5i",
+          "gridTitle": "Edit Order",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/order/transaction/edit?id=:_id _id",
+          "value": "Edit",
+          "showCondition": "return false;"
+        },
+        {
+          "$key": "6wrol3h4thd",
+          "gridTitle": "View in Razorpay",
+          "value": "View in Razorpay",
+          "gridType": "slug",
+          "showGridComment": false,
+          "apiType": "GET",
+          "responseType": "url",
+          "showCondition": "return this.paymentGateway==='RAZORPAY' && this.status==='SUCCESS';",
+          "apiUrl": "https://dashboard.razorpay.com/app/payments/:pgPaymentId?init_page=Payments pgPaymentId",
+          "slugTarget": "_blank"
+        },
+        {
+          "$key": "me5bzmecq8",
+          "gridTitle": "View in Cashfree",
+          "value": "View in Cashfree",
+          "gridType": "slug",
+          "showGridComment": false,
+          "responseType": "url",
+          "apiType": "GET",
+          "slugTarget": "_blank",
+          "showCondition": "return this.paymentGateway==='CASHFREE' && this.status==='SUCCESS';",
+          "apiUrl": "https://merchant.cashfree.com/merchants/pg/transactions/payments/view?activeNavigation=Payments&txId=:pgPaymentId&env=prod pgPaymentId"
+        }
+      ],
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "vdljxeratvk",
+      "gridTitle": "Add Transaction",
+      "value": "Add Transaction",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/order/transaction/add/all",
+      "showCondition": "return false;"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "pgPaymentId"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-09T07:12:50.677Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

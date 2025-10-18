@@ -1,0 +1,30 @@
+{
+  "_id": "66863ada3108ad7b7d063f7d",
+  "name": "NativeGrid GlobalPriceing1 Header",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "1y0l7cz83oz",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "81g526vj8w",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "33f9hymsb3t",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-04T06:02:02.398Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

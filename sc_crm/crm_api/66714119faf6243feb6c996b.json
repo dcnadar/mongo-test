@@ -1,0 +1,14 @@
+{
+  "_id": "66714119faf6243feb6c996b",
+  "name": "App Screen Section",
+  "path": "/admin/mobileapp/app-screen-section/update",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "666fe6e9faf6243feb6c98e6",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T08:11:05.757Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

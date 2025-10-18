@@ -1,0 +1,61 @@
+{
+  "_id": "650f5d37b7a9b0077ae98615",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Parent",
+          "id": "parentId",
+          "type": "list",
+          "span": 12,
+          "o": true,
+          "updateType": "hidden",
+          "createType": "hidden"
+        },
+        {
+          "index": 1,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 24,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Enable Button",
+          "id": "enableButton",
+          "span": 8,
+          "type": "bool",
+          "o": false
+        },
+        {
+          "index": 3,
+          "title": "Button Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "showCondition": "return this.enableButton;"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "650d3b02ac425a65d3141bcf",
+  "gridTitle": "Website Header Menu Item Form",
+  "backUrl": "/admin/website/header/menu",
+  "gridParams": [
+    {
+      "key": "parentId",
+      "required": false
+    }
+  ]
+}

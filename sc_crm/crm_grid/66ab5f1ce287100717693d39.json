@@ -1,0 +1,64 @@
+{
+  "_id": "66ab5f1ce287100717693d39",
+  "gridTitle": "WebsiteGlobalThemeButtonCommonStyleSettings",
+  "gridType": "form",
+  "crmModelId": "66ab5146e287100717693d31",
+  "rows": [
+    {
+      "$key": "tu3g4paeg1",
+      "fields": [
+        {
+          "$key": "zhp5fuhqtsn",
+          "id": "backgroundColor",
+          "title": "Background Color",
+          "type": "color",
+          "span": 8
+        },
+        {
+          "$key": "b57dp7r3jgt",
+          "id": "textColor",
+          "title": "Text Color",
+          "type": "color",
+          "span": 8
+        },
+        {
+          "$key": "zbujxrv7c6",
+          "id": "borderColor",
+          "title": "Border Color",
+          "type": "color",
+          "span": 8
+        },
+        {
+          "$key": "nx55jlpvyqh",
+          "id": "borderRadius",
+          "title": "Border Radius",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "vcp4cg1thw",
+          "id": "borderWidth",
+          "title": "Border Width",
+          "type": "number",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T10:10:36.643Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

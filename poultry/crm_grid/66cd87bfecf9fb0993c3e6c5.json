@@ -1,0 +1,37 @@
+{
+  "_id": "66cd87bfecf9fb0993c3e6c5",
+  "gridTitle": "Image Gallery Form",
+  "gridType": "form",
+  "crmModelId": "66cd8665ecf9fb0993c3e6c2",
+  "rows": [
+    {
+      "$key": "7b9cukgt2v3",
+      "fields": [
+        {
+          "id": "image",
+          "title": "Image",
+          "type": "upload_v2",
+          "multiple": false,
+          "span": 24,
+          "meta": {
+            "uploadUISize": "lg"
+          },
+          "$key": "a3luy4xa9ad",
+          "fileAccept": "image/*"
+        },
+        {
+          "$key": "txjbhohhoz9",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-08-27T08:01:03.242Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

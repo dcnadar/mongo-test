@@ -1,0 +1,16 @@
+{
+  "_id": "67d7f2945ea132199e60a849",
+  "key": "seo_editor",
+  "name": "Seo Api Access",
+  "apisAccess": [
+    "66a21c17e287100717693bbe",
+    "66a223d6e287100717693bc0",
+    "65de426c6c4b7b61ae937941",
+    "65de426d6c4b7b61ae937942",
+    "65d4850de9f4dc1ab2f2a1a8",
+    "65d4850de9f4dc1ab2f2a1a9"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-17T09:59:48.433Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

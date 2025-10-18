@@ -1,0 +1,210 @@
+{
+  "_id": "667e88e33108ad7b7d063e97",
+  "gridTitle": "Batch Index main",
+  "gridType": "form",
+  "crmModelId": "667cfc6a74a25c4c696adb31",
+  "rows": [
+    {
+      "$key": "cyg8biy13wv",
+      "fields": [
+        {
+          "id": "batchIndex.farmSize",
+          "title": "Farm size (Sqft)",
+          "type": "text",
+          "span": 12,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe",
+          "$key": "dkggozoujh"
+        }
+      ]
+    },
+    {
+      "$key": "vixth7ro4fm",
+      "label": "Batch Index",
+      "fields": [
+        {
+          "title": "Number of Stunted bird",
+          "id": "batchIndex.noStuntedBird",
+          "type": "number",
+          "span": 12,
+          "min": 0,
+          "$key": "6eih2r81vf8",
+          "validate": "return this.batchIndex.noStuntedBird % 1 !== 0 ? \"Please enter whole number\" : \"\";",
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe"
+        },
+        {
+          "$key": "kbl7fnepca",
+          "id": "batchIndex.ageSold",
+          "title": "Age at sold (Avg. Days)",
+          "type": "number",
+          "min": 1,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe",
+          "span": 12
+        }
+      ],
+      "span": 24
+    },
+    {
+      "$key": "cjfka7kkr5e",
+      "fields": [
+        {
+          "id": "batchIndex.mortality",
+          "title": "Weekly Mortality",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "viprh55shf",
+          "validate": "let motality = (Object.values(this.batchIndex?.mortality || {}).reduce((a,v) => a + v, 0) + (this.batchIndex?.noOfSoldBird || 0) + (this.batchInfo?.noStuntedBird || 0)); if(motality > (this.batchInfo?.nOOfDocPlaced || 0)){ return 'Invalid mortality count, you have entered ' + (motality - (this.batchInfo?.nOOfDocPlaced || 0)) + ' extra bird count'; } if(motality < (this.batchInfo?.nOOfDocPlaced || 0)){ return 'Invalid mortality count, you have missed ' + ((this.batchInfo?.nOOfDocPlaced || 0) - motality) + ' bird count'; } return motality === (this.batchInfo?.nOOfDocPlaced || 0) ? '' : 'Mortality count invalid';"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "$key": "qtzgrkwmz5e",
+          "id": "batchIndex.costRearing",
+          "span": 12,
+          "title": "Cost of Rearing",
+          "type": "number",
+          "min": 0,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe",
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "wz8nfhvpvqm",
+          "id": "batchIndex.avgBodyWgt",
+          "title": "Average Body Weight",
+          "type": "number",
+          "span": 12,
+          "min": 0,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe",
+          "meta": {
+            "addonAfter": "KG"
+          }
+        },
+        {
+          "$key": "qf53xy4ulj",
+          "id": "batchIndex.livability",
+          "title": "Livability",
+          "type": "number",
+          "span": 12,
+          "min": 0,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe"
+        },
+        {
+          "$key": "sqbxlztxv4",
+          "id": "batchIndex.fcr",
+          "title": "FCR",
+          "type": "number",
+          "span": 12,
+          "min": 0,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe"
+        },
+        {
+          "$key": "paiy56gv66h",
+          "id": "batchIndex.ei",
+          "title": "EI",
+          "type": "number",
+          "min": 0,
+          "span": 12,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe"
+        },
+        {
+          "$key": "d5xt8dkn1zo",
+          "id": "batchIndex.grossIncome",
+          "title": "Gross Income",
+          "type": "number",
+          "span": 12,
+          "min": 0,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe",
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "l8zjrgexeql",
+          "id": "batchIndex.netIncome",
+          "title": "Net Income",
+          "type": "number",
+          "span": 12,
+          "min": 0,
+          "updateType": "disabled_fe",
+          "createType": "disabled_fe",
+          "meta": {
+            "addonBefore": "₹"
+          }
+        }
+      ],
+      "$key": "wkerxv6ooor"
+    },
+    {
+      "$key": "3s4vj7cfjh4",
+      "fields": [
+        {
+          "id": "batchInfo.nOOfDocPlaced",
+          "title": "nO of DOC placed",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "updateType": "hidden",
+          "createType": "hidden",
+          "$key": "2gyp0oz2lve"
+        },
+        {
+          "$key": "jeqgsb6gjvb",
+          "id": "batchIndex.noOfSoldBird",
+          "title": "noOfSoldBird",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "ttamnhwvr69",
+          "id": "batchIndex.incomeFromAgedBird",
+          "title": "Income From Aged Bird",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "createType": "hidden_fe",
+          "updateType": "hidden_fe"
+        },
+        {
+          "$key": "ur7mmstzbf",
+          "id": "batchIndex.inputCost",
+          "title": "Input Cost",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-28T09:56:51.467Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "gridParams": [
+    {
+      "key": "farmerId",
+      "required": true
+    }
+  ],
+  "upsertDoc": false
+}

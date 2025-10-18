@@ -1,0 +1,13 @@
+{
+  "_id": "66260b44990ac402ed0d3ee6",
+  "name": "NewsLetter",
+  "path": "/admin/account/newsletter/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "662605ee990ac402ed0d3edc",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T07:01:24.527Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

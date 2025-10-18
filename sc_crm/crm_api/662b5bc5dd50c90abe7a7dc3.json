@@ -1,0 +1,13 @@
+{
+  "_id": "662b5bc5dd50c90abe7a7dc3",
+  "name": "Website Plugins",
+  "path": "/admin/website/plugins",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "662b5737dd50c90abe7a7dc1",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-26T07:46:13.325Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

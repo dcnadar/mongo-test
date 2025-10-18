@@ -1,0 +1,77 @@
+{
+  "_id": "66687e75cf65cd7a11ef2c5f",
+  "gridTitle": "Cost Incurred",
+  "gridType": "form",
+  "crmModelId": "66685df5cf65cd7a11ef2c58",
+  "rows": [
+    {
+      "$key": "cp7no8yvep",
+      "fields": [
+        {
+          "$key": "rkzow9b6vz",
+          "id": "costOfChicksPerBatch",
+          "title": "Cost Of Chicks Per Batch",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "7i6nqa9vkiu",
+          "id": "costOfFeed",
+          "title": "Cost of Feed",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "0e5tzla5xflh",
+          "id": "costOfLitter",
+          "title": "Cost Of Litter",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "awl8yhymbdv",
+          "id": "transportCost",
+          "title": "Transport Cost",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "a9mvml63su4",
+          "id": "adminElectricityCosts",
+          "title": "Admin, Electricity & Other Misc. Costs",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "wt7entqpr3",
+          "id": "totalCostOfRearing",
+          "title": "Total Cost Of Rearing",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T16:42:29.226Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

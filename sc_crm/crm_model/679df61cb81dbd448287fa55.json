@@ -1,0 +1,16 @@
+{
+  "_id": "679df61cb81dbd448287fa55",
+  "name": "ReactGrid GlobalBanner3 Section [OLD]",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "p78nsiunq0b",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-01T10:23:24.403Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

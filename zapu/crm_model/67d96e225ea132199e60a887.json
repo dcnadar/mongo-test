@@ -1,0 +1,50 @@
+{
+  "_id": "67d96e225ea132199e60a887",
+  "name": "Theme Settings",
+  "modelType": "COLLECTION",
+  "baseModelId": "67d96c6c5ea132199e60a886",
+  "collectionName": "zapu_theme_settings",
+  "properties": [
+    {
+      "$key": "p3zy9c1fb4g",
+      "key": "themePrimaryColor",
+      "name": "Theme Primary Color",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nj4qjnztoth",
+      "key": "themeSecondaryColor",
+      "name": "Theme Secondary Color",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "l1zq2ustink",
+      "key": "backgroundColor",
+      "name": "Background Color",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jb8lspbgaz",
+      "key": "textColor",
+      "name": "Text Color",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2cznfx5chx5",
+      "key": "icon",
+      "name": "Icon",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nvra64k10gl",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-03-18T12:59:14.790Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

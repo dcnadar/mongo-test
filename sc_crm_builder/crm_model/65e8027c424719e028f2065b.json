@@ -1,0 +1,36 @@
+{
+  "_id": {
+    "$oid": "65e8027c424719e028f2065b"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid TableMeta",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "INNER_MODEL",
+      "key": "defaultSort",
+      "name": "Default Sort",
+      "modelId": "65e8027a424719e028f20659",
+      "$key": "6y7szvorvpi"
+    },
+    {
+      "$key": "0vxtal7npqi",
+      "key": "defaultFilters",
+      "name": "Default Filters",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6615571aa10af254b4b438c9"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709703804576"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070153069"
+    }
+  }
+}

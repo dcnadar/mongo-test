@@ -1,0 +1,226 @@
+{
+  "_id": "660c3819c7b99128d924f714",
+  "gridTitle": "Eduempower Student AcademicDetails",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "eo86i62rqke",
+      "fields": [
+        {
+          "$key": "unjyk27ssng",
+          "id": "academicSession",
+          "title": "Admission Academic Session",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "hint": "<p />",
+          "nullIds": [
+            "admissionSection",
+            "admissionClass"
+          ],
+          "updateType": "disabled"
+        },
+        {
+          "$key": "6g645ckl53n",
+          "id": "dateOfAdmission",
+          "title": "Date Of Admission",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "oklmc9gucf",
+          "id": "autoGenerate",
+          "title": "Auto Generate Addmission Number",
+          "span": 8,
+          "type": "bool",
+          "updateType": "hidden"
+        },
+        {
+          "$key": "h9ahiel7tj5",
+          "id": "admissionNo",
+          "title": "Admission No",
+          "span": 8,
+          "type": "text",
+          "updateType": "none",
+          "disableCondition": "return this.autoGenerate;",
+          "o": false
+        },
+        {
+          "$key": "m7w9s6a8igk",
+          "id": "class",
+          "title": "Class",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "section"
+          ]
+        },
+        {
+          "$key": "5gtapp8rk",
+          "id": "section",
+          "title": "Section",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "classId=:class class"
+          }
+        },
+        {
+          "$key": "dpxpienw2d",
+          "id": "rollNo",
+          "title": "Roll No",
+          "type": "number",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "vq6d8d9m2p",
+          "id": "firstLanguage",
+          "title": "First Language",
+          "type": "text",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "sn1hc6ignjd",
+          "id": "secondLanguage",
+          "title": "Second Language",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "jud9l5ra5k",
+          "id": "attendanceCode",
+          "title": "Attendance Code",
+          "type": "text",
+          "o": true,
+          "span": 8
+        },
+        {
+          "$key": "l194r1aewf8",
+          "id": "feeCategory",
+          "title": "Fee Category",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": 8,
+          "meta": {
+            "queryParams": "classes=:academicDetails.class academicDetails.class"
+          }
+        },
+        {
+          "$key": "u0d215g6e39",
+          "id": "registrationNo",
+          "title": "Registration No",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "y2nkfavup",
+          "id": "tempAdmNo",
+          "title": "Temp Adm No",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "s3zqmxhs77d",
+          "id": "withdrawalAdmNo",
+          "title": "Withdrawal Adm No",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "9snvb2l0ipo",
+          "id": "reAdmissionDate",
+          "title": "Re-Admission Date",
+          "type": "date",
+          "o": true
+        },
+        {
+          "$key": "6ie0j09109y",
+          "id": "registrationDate",
+          "title": "Registration Date",
+          "type": "date",
+          "o": true
+        },
+        {
+          "$key": "3829u6rgadl",
+          "o": true,
+          "id": "boardRollNo",
+          "title": "Board Roll No",
+          "type": "number"
+        },
+        {
+          "$key": "5fe0az441kp",
+          "id": "boardRegNo",
+          "title": "Board Reg No",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "x82m5pxlrtq",
+          "id": "oldStudent",
+          "title": "Old Student",
+          "type": "bool",
+          "o": true
+        },
+        {
+          "$key": "dhlpuhi55cu",
+          "id": "attending",
+          "title": "Attending",
+          "type": "list",
+          "multiple": false,
+          "o": true
+        },
+        {
+          "$key": "ikm9rconbdi",
+          "id": "house",
+          "title": "House",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "q3vun84sp7",
+          "id": "promotedOn",
+          "title": "Promoted On",
+          "type": "date",
+          "o": true
+        },
+        {
+          "$key": "kg35e87g7do",
+          "id": "promotedBy",
+          "title": "Promoted By",
+          "type": "list",
+          "multiple": false,
+          "o": true
+        },
+        {
+          "$key": "klthz6ks6c",
+          "id": "reportingTo",
+          "title": "Reporting To",
+          "type": "list",
+          "multiple": false,
+          "o": true
+        },
+        {
+          "$key": "uh9elxwxtud",
+          "id": "admissionBy",
+          "title": "Admission By",
+          "type": "list",
+          "multiple": false,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-02T16:53:45.991Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "crmModelId": "6606c8d3eea36066ca04cbd1",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.078Z"
+}

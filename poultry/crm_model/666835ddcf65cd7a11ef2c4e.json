@@ -1,0 +1,46 @@
+{
+  "_id": "666835ddcf65cd7a11ef2c4e",
+  "name": "Outputs",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "yr92b99kr",
+      "key": "numberOfAdultBirds",
+      "name": "Number Of Adult Birds",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "3tx314mnz97",
+      "key": "totalWeightOfBirds",
+      "name": "Total Weight Of Birds",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "dkx0z2mqx3",
+      "key": "noOfHandicapperBirds",
+      "name": "Number Of Handicapper Birds",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "ggragnt60h9",
+      "key": "totalwgtOfdBirds",
+      "name": "Total Weight Of Handicapped Birds",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "hmgdhder9zj",
+      "key": "quantityOfLitter",
+      "name": "Quantity Of Litter",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "brce33gfzhb",
+      "key": "noOfEmptyFeedBags ",
+      "name": "Number Of Empty Feed Bags ",
+      "dataType": "INTEGER"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T11:32:45.554Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

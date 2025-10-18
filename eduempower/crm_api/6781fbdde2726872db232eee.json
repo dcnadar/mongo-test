@@ -1,0 +1,17 @@
+{
+  "_id": "6781fbdde2726872db232eee",
+  "name": "Document",
+  "path": "/admin/admission/update/documents",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "672fdbee7a1bdc0b65d0bd20",
+  "innerGridType": "table",
+  "innerSourceId": "678213e2e2726872db232ef1",
+  "gridParams": [],
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-11T05:04:29.512Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:57.047Z"
+}

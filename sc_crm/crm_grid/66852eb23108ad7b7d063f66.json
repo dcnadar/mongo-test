@@ -1,0 +1,55 @@
+{
+  "_id": "66852eb23108ad7b7d063f66",
+  "gridTitle": "Payment Setting",
+  "gridType": "form",
+  "crmModelId": "661679a02742031ccaab99cf",
+  "rows": [
+    {
+      "$key": "gddaidy4vjh",
+      "fields": [
+        {
+          "id": "defaultCurrency",
+          "title": "Default Currency",
+          "type": "list",
+          "multiple": false,
+          "span": 24,
+          "$key": "194h3av7x96"
+        },
+        {
+          "$key": "t60g10y7pb",
+          "id": "allowCODAtCheckout",
+          "title": "Allow COD at Checkout",
+          "type": "bool",
+          "span": 24
+        }
+      ],
+      "description": "#### Default Currency\n\n* Specifies the primary currency for all transactions processed on your platform.\n* Select from the drop-down list options:\n  **Indian Rupees (INR)**\n* Ensure the chosen currency aligns with your target market and financial reporting.\n\n#### Allow COD at Checkout\n\n* Enables or disables the Cash on Delivery (COD) option for customer orders.\n* Activate COD only if your logistics and operational setup support cash transactions.",
+      "span": 0,
+      "showDescription": true,
+      "descriptionSpan": 16
+    },
+    {
+      "$key": "sjfi3qwe7f",
+      "fields": [
+        {
+          "id": "paymentGatewaySettings",
+          "title": "Payment Gateway Settings",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": true,
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "wpy7tm76dof"
+        }
+      ],
+      "span": 0
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T10:57:54.379Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false
+}

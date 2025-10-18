@@ -1,0 +1,54 @@
+{
+  "_id": "66718a1cfaf6243feb6c9990",
+  "name": "App Screen Section Type",
+  "modelType": "COLLECTION",
+  "collectionName": "app_screen_section_type",
+  "properties": [
+    {
+      "$key": "h9zml83mkrt",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "jovp1moosjk",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "1ngdkdec6zt",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "09vynnd8o5ic",
+            "key": "INACTIVE",
+            "value": "InActive"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "p77j5oatk6o",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING",
+      "searchable": {
+        "thumb": true
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "compoundUniqueFields": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T13:22:36.485Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

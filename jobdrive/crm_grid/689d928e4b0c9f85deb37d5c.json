@@ -1,0 +1,103 @@
+{
+  "_id": "689d928e4b0c9f85deb37d5c",
+  "gridTitle": "AssessmentConfiguration",
+  "gridType": "form",
+  "crmModelId": "689d8feb4b0c9f85deb37d5b",
+  "rows": [
+    {
+      "$key": "czqbn5897c",
+      "fields": [
+        {
+          "id": "duration",
+          "title": "Duration",
+          "type": "number",
+          "span": 6,
+          "$key": "w6w59ilpchl"
+        },
+        {
+          "$key": "92v9kt9osq6",
+          "id": "totalquestions",
+          "title": "Total Questions",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "t21u3jo9h7",
+          "id": "maximumscore",
+          "title": "Maximum Score",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "wf75o38qpw",
+          "id": "passingscore",
+          "title": "Passing Score",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "ovmmqfvxt",
+          "id": "assessmentoptions",
+          "title": "Assessment Options",
+          "type": "checkbox_group",
+          "checkboxGroups": [
+            {
+              "$key": "maa5ze83cap",
+              "name": "Select",
+              "options": [
+                {
+                  "key": "enforcetimelimit",
+                  "value": "Enforce Time Limit",
+                  "$key": "u4mayi25ht"
+                },
+                {
+                  "$key": "jahitl9lzci",
+                  "key": "allowretakes",
+                  "value": "Allow Retakes"
+                },
+                {
+                  "$key": "w91j7n9s7y",
+                  "key": "showresultsimmediately",
+                  "value": "Show Results Immediately"
+                },
+                {
+                  "$key": "ly4yro4jaza",
+                  "key": "randomizequestionorder",
+                  "value": "Randomize Question Order"
+                }
+              ]
+            }
+          ],
+          "span": 8
+        },
+        {
+          "$key": "z50fbj58wo",
+          "id": "status",
+          "title": "Status",
+          "span": 16,
+          "type": "checkbox_group",
+          "checkboxGroups": [
+            {
+              "$key": "bg6kz807ypu",
+              "name": "Select",
+              "options": [
+                {
+                  "key": "activestudentcanregister",
+                  "value": "Active (Student Can Register)",
+                  "$key": "sua1mj8wv3h",
+                  "description": "Inactive assessments are saved as drafts and cannot be accessed by students."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T07:38:54.860Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.706Z"
+}

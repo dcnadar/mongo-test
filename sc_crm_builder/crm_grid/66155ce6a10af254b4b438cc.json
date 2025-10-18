@@ -1,0 +1,95 @@
+{
+  "_id": {
+    "$oid": "66155ce6a10af254b4b438cc"
+  },
+  "gridTitle": "Crm Grid TableMeta Filter",
+  "gridType": "form",
+  "crmModelId": "6615571aa10af254b4b438c9",
+  "rows": [
+    {
+      "$key": "joeu17dvep",
+      "fields": [
+        {
+          "id": "propertyKey",
+          "title": "Property Key",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "$key": "89osam4j1e3"
+        },
+        {
+          "$key": "l43j5yvrgvq",
+          "id": "operator",
+          "title": "Operator",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "$key": "pm1w3k0ch2b",
+          "id": "EQUALS",
+          "title": "Value",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.operator === 'EQUALS';"
+        },
+        {
+          "$key": "h1kfigbsa7b",
+          "id": "EXISTS",
+          "title": "Value",
+          "type": "bool",
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.operator === 'EXISTS';"
+        },
+        {
+          "$key": "q7azhdu9fd",
+          "id": "IN",
+          "title": "In",
+          "type": "strings",
+          "span": {
+            "$numberInt": "8"
+          },
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "100"
+          },
+          "showCondition": "return this.operator === 'IN';"
+        },
+        {
+          "$key": "mkfyyma3pfc",
+          "id": "NOT_EQUALS",
+          "showCondition": "return this.operator === 'NOT_EQUALS';",
+          "title": "Not Equals",
+          "type": "text",
+          "o": false,
+          "span": {
+            "$numberInt": "8"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1712676070773"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150917"
+    }
+  }
+}

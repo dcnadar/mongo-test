@@ -1,0 +1,66 @@
+{
+  "_id": "68ac2ad2e1a84e7a30bfdbd6",
+  "gridTitle": "Professional Experience",
+  "gridType": "form",
+  "crmModelId": "68ac2943e1a84e7a30bfdbd5",
+  "rows": [
+    {
+      "$key": "6u49mv0doak",
+      "fields": [
+        {
+          "id": "jobTitle",
+          "title": "Job Title",
+          "type": "text",
+          "$key": "k3cumcbmqo"
+        },
+        {
+          "$key": "caoh1gziwb",
+          "id": "organizationName",
+          "title": "Company / Organization Name",
+          "type": "text"
+        },
+        {
+          "$key": "peagqxo2gw",
+          "id": "location",
+          "title": "Location",
+          "type": "text"
+        },
+        {
+          "$key": "xpfs7c8wi3g",
+          "id": "start_date",
+          "title": "Start Date",
+          "type": "date"
+        },
+        {
+          "$key": "nkvnxx19y6h",
+          "id": "end_date",
+          "title": "End Date",
+          "type": "date",
+          "o": true
+        },
+        {
+          "$key": "vq0msf3ss3p",
+          "id": "description",
+          "title": "Description",
+          "type": "text_editor",
+          "multiple": false,
+          "add": true,
+          "delete": true,
+          "o": false,
+          "span": 16,
+          "textEditorElements": [
+            "bold_italic_underline",
+            "bullet_point",
+            "number_list"
+          ]
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-25T09:20:18.447Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:53.811Z"
+}

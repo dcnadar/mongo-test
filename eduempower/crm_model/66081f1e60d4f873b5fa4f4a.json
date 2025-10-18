@@ -1,0 +1,76 @@
+{
+  "_id": "66081f1e60d4f873b5fa4f4a",
+  "name": "Eduempower LeavePlan",
+  "modelType": "COLLECTION",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_leave_plan",
+  "properties": [
+    {
+      "$key": "8ot4gvmah6",
+      "key": "planName",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7kwy4j7xs12",
+      "key": "leaveType",
+      "name": "Leave Type",
+      "dataType": "REFERENCE",
+      "modelId": "66081d3c60d4f873b5fa4f49"
+    },
+    {
+      "$key": "pa0gc64bwm",
+      "key": "departmentId",
+      "name": "Department Name",
+      "dataType": "REFERENCE",
+      "modelId": "660817b960d4f873b5fa4f47",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "o4t373e61bp",
+      "key": "leavePlanDuration",
+      "name": "Max Leaves Per Duration",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "u902scbcq89",
+      "key": "effectiveFrom",
+      "name": "Effective From",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rgs8hf8nsxf",
+      "key": "effectiveTo",
+      "name": "Effective To",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cn5dkcs5hme",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "lda2osdsiad",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "5mg6b414sxd",
+            "key": "INACTIVE",
+            "value": "Inactive"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-30T14:18:06.523Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.294Z"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "661e3797e8eed80abc95348c",
+  "name": "Add Blog Content ",
+  "path": "[OLD]/admin/website/blog/content/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "668390263108ad7b7d063f10",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-16T08:32:23.714Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": [],
+  "innerGridType": "form",
+  "innerSourceId": "661e3193e8eed80abc953486"
+}

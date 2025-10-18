@@ -1,0 +1,13 @@
+{
+  "_id": "667d62af74a25c4c696adb4c",
+  "name": "Product variants table public",
+  "path": "/admin/public/product/variants",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "667d644474a25c4c696adb4e",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-27T13:01:35.946Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

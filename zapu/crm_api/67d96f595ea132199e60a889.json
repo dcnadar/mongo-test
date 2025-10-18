@@ -1,0 +1,15 @@
+{
+  "_id": "67d96f595ea132199e60a889",
+  "name": "Save Theme Settings",
+  "path": "/cuser/theme/settings",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "67d96f125ea132199e60a888",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-03-18T13:04:25.383Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

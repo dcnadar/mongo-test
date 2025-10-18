@@ -1,0 +1,38 @@
+{
+  "_id": "66252613990ac402ed0d3ebf",
+  "name": "Eduempower VendorDetails",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "3fy7q5ck0q7",
+      "key": "vendor",
+      "name": "Vendor",
+      "dataType": "REFERENCE",
+      "modelId": "660af1dfc7b99128d924f6de"
+    },
+    {
+      "$key": "7abintwzdpc",
+      "key": "purchasePrice",
+      "name": "Purchase Price",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "vm9vt233uz",
+      "key": "purchaseDate",
+      "name": "Purchase Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "g78h21qygfb",
+      "key": "quantity",
+      "name": "Quantity",
+      "dataType": "INTEGER"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T14:43:31.903Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.680Z"
+}

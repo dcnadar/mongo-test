@@ -1,0 +1,39 @@
+{
+  "_id": {
+    "$oid": "68dccc58bc64ef43cc5928f7"
+  },
+  "name": "Crm Grid Breadcrumb",
+  "properties": [
+    {
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      },
+      "$key": "so59xws1sdk"
+    },
+    {
+      "$key": "9jt65u9o5x8",
+      "key": "slug",
+      "name": "Slug (for link)",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    }
+  ],
+  "modelType": "INNER",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1759300696664"
+    }
+  },
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": {
+    "$date": {
+      "$numberLong": "1760538704418"
+    }
+  }
+}

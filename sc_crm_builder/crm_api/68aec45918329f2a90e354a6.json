@@ -1,0 +1,26 @@
+{
+  "_id": {
+    "$oid": "68aec45918329f2a90e354a6"
+  },
+  "name": "All Object",
+  "path": "/admin/entity/object",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "68aebb7718329f2a90e354a1",
+  "innerGridType": "table",
+  "innerSourceId": "68aec30818329f2a90e354a3",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1756283993755"
+    }
+  },
+  "createdBy": "68adb9f43e8ef56770f82104",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149345"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_id": "668bf0a4531ed762273ebbfd",
+  "name": "productDynamicContent",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "s72jvmuh87j",
+      "key": "sortBy",
+      "name": "SortBy",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "prsgipmady",
+            "key": "price-low-to-high",
+            "value": "Price Low To High"
+          },
+          {
+            "$key": "2m731mtvrd",
+            "key": "price-high-to-low",
+            "value": "Price High To Low"
+          },
+          {
+            "$key": "5vbm07jnewa",
+            "key": "title-accending",
+            "value": "Title Accending"
+          },
+          {
+            "$key": "hqjp8ilb1th",
+            "key": "title-decending",
+            "value": "Title Decending"
+          },
+          {
+            "$key": "i1rjqyjh0i8",
+            "key": "rating-low-to-high",
+            "value": "Rating Low To High"
+          },
+          {
+            "$key": "tp9x0xcp27d",
+            "key": "rating-high-to-low",
+            "value": "Rating High To Low"
+          },
+          {
+            "$key": "7tj97fhmrx3",
+            "key": "most-popular-first",
+            "value": "Most Popular First"
+          },
+          {
+            "$key": "jw5232y9pjh",
+            "key": "least-popular-first",
+            "value": "Least Popular First"
+          },
+          {
+            "$key": "gmdzn3ll37q",
+            "key": "newest-first",
+            "value": "Newest First"
+          },
+          {
+            "$key": "ecyb61lskdg",
+            "key": "oldest-first",
+            "value": "Oldest First"
+          },
+          {
+            "$key": "t7vsjix84wg",
+            "key": "highest-discount-first",
+            "value": "Highest Discount First"
+          },
+          {
+            "$key": "sxztzq3t2zj",
+            "key": "lowest-discount-first",
+            "value": "Lowest Discount First"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "9i5u07il91f",
+      "key": "totalCardsToShow",
+      "name": "Total Cards to show",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "c3gm3khhwa6",
+      "key": "showPagination",
+      "name": "Show Pagination",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "duv8pa6zat",
+      "key": "cardPerSection",
+      "name": "Card Per Section",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "nn5xozt1kk",
+      "key": "filters",
+      "name": "Filters",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "668cbf9c531ed762273ebbff"
+    },
+    {
+      "$key": "1q980h7vy1w",
+      "key": "showSideFilter",
+      "name": "ShowSideFilter",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T13:59:00.563Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

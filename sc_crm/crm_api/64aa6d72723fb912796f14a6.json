@@ -1,0 +1,11 @@
+{
+  "_id": "64aa6d72723fb912796f14a6",
+  "name": "Product Variants POST",
+  "action": "CRM_GRID",
+  "sourceId": "64aa67fde7d297735dc044fa",
+  "gridType": "table",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "POST",
+  "path": "/admin/product/variant",
+  "created": "2024-01-27T07:48:44.993Z"
+}

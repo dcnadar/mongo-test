@@ -1,0 +1,71 @@
+{
+  "_id": "66862d923108ad7b7d063f7a",
+  "name": "NativeGrid GlobalPriceing2 sections",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "p0bjy9vsz5",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1jg15j83l1p",
+      "key": "descriptions",
+      "name": "Descriptions",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ef2i40ypaz5",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vkxxt7uqmc",
+      "key": "currencySymbol",
+      "name": "CurrencySymbol",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "td8w2q4yrhn",
+      "key": "priceMonthly",
+      "name": "PriceMonthly",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "p472siirej9",
+      "key": "priceYearly",
+      "name": "PriceYearly",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "j4c8y1xxi",
+      "key": "yearlyPlanText",
+      "name": "YearlyPlanText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fkt07tkn86d",
+      "key": "monthlyPlanText",
+      "name": "MonthlyPlanText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "a5de14u3dba",
+      "key": "points",
+      "name": "Points",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "6psjn31cmh3",
+      "key": "primary",
+      "name": "primary",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-04T05:05:22.006Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,86 @@
+{
+  "_id": "66838cff3108ad7b7d063f09",
+  "gridTitle": "Blog Comment",
+  "gridType": "table",
+  "crmModelId": "66838a623108ad7b7d063f06",
+  "columns": [
+    {
+      "$key": "gmi7ckbdkpv",
+      "key": "userId",
+      "name": "User",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "iq0p9gop7l",
+      "key": "comment",
+      "name": "Comment",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "igz4gz6htw",
+      "key": "created",
+      "name": "Created",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "f6yuw77p4vw",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "8a5ivzf6pbj",
+          "gridTitle": "Edit Blog Comment",
+          "value": "Edit",
+          "apiUrl": "/admin/website/blog/comments/edit?id-:_id _id",
+          "gridType": "popupForm"
+        },
+        {
+          "$key": "ncnn1mz60sd",
+          "gridTitle": "Show Reaction",
+          "value": "Show Reaction",
+          "gridType": "popupTable",
+          "apiUrl": "/admin/website/blog/comment/reaction/all?commentId=:_id _id"
+        },
+        {
+          "$key": "wydez0mh6p",
+          "gridTitle": "Add Reaction",
+          "value": "Add Reaction",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/website/blog/comment/reaction/add?commentId=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "21m7hadk2w9",
+      "gridTitle": "Add Blog Comment",
+      "value": "Add Comment",
+      "apiUrl": "/admin/website/blog/comments/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T05:15:43.156Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "blogId",
+      "required": true
+    }
+  ],
+  "backUrl": "/admin/website/blog/all"
+}

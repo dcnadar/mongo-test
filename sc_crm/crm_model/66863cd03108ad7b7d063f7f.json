@@ -1,0 +1,71 @@
+{
+  "_id": "66863cd03108ad7b7d063f7f",
+  "name": "NativeGrid GlobalPriceing1 sections",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "wac4j3nfuga",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qmrfy36jjg",
+      "key": "descriptions",
+      "name": "Descriptions",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "hzyoz6rr256",
+      "key": "points",
+      "name": "Points",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "bwk6k1c85v6",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6txdp7wqisi",
+      "key": "currencySymbol",
+      "name": "CurrencySymbol",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cgipntc8s46",
+      "key": "price",
+      "name": "Price",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3fkqx7zuez9",
+      "key": "pointHeading",
+      "name": "PointHeading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "t6i0uww5xch",
+      "key": "cardHeading",
+      "name": "CardHeading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kd85mtc93nb",
+      "key": "cardDescription",
+      "name": "CardDescription",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vnbwyz9eiwn",
+      "key": "primary",
+      "name": "Primary",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-04T06:10:24.075Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

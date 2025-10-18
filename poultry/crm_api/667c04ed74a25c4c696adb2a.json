@@ -1,0 +1,13 @@
+{
+  "_id": "667c04ed74a25c4c696adb2a",
+  "name": "Edit Batch info",
+  "path": "/admin/farmer/batch-info/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "667bf83d74a25c4c696adb21",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-26T12:09:17.198Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

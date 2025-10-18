@@ -1,0 +1,98 @@
+{
+  "_id": "668e39ea531ed762273ebc2d",
+  "gridTitle": "OrderInvoice",
+  "gridType": "table",
+  "crmModelId": "668d18a2531ed762273ebc09",
+  "columns": [
+    {
+      "$key": "bjwnkuwxm7u",
+      "key": "invoiceNo",
+      "name": "Invoice No",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "wwqh5pahyaa",
+      "key": "totalAmount",
+      "name": "Total Amount",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "d9tqtyeb57f",
+      "key": "taxableAmount",
+      "name": "Taxable Amount",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "ys8ha3x2cug",
+      "key": "date",
+      "name": "Date",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "fvdnf9n1gis",
+      "key": "taxAmount",
+      "name": "Gst",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "qtflasgmegs",
+      "key": "billerDetail.name",
+      "name": "Biller Name",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "4599l7oa3sf",
+      "key": "buyerDetail.name",
+      "name": "Buyer Name",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "j3mgbancndc",
+      "key": "action",
+      "name": "Action",
+      "width": 150,
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "u4d9fizdq5",
+          "gridTitle": "Edit Order",
+          "apiUrl": "/admin/order/invoice/edit?id=:_id _id",
+          "value": "Edit",
+          "gridType": "popupForm"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "vmbmadqcgvo",
+      "gridTitle": "Add Invoice",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/order/order-invoice/add",
+      "value": "Add Invoice"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-10T07:36:10.330Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

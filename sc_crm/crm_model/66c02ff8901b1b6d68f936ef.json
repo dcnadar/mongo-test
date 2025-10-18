@@ -1,0 +1,56 @@
+{
+  "_id": "66c02ff8901b1b6d68f936ef",
+  "name": "PaymentGatewaySetting",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "dcpk9gxh4ec",
+      "key": "paymentGateway",
+      "name": "Payment Gateway",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "8zu3xli22t6",
+            "value": "Phonepe",
+            "key": "PHONEPE"
+          },
+          {
+            "$key": "hay0kjyi7dg",
+            "value": "Razorpay",
+            "key": "RAZORPAY"
+          },
+          {
+            "$key": "e9raom79dlk",
+            "key": "CASHFREE",
+            "value": "Cashfree"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "qohvk9x99d",
+      "key": "phonepeConfig",
+      "name": "Phonepe Config",
+      "dataType": "INNER_MODEL",
+      "modelId": "66c02ef0901b1b6d68f936ed"
+    },
+    {
+      "$key": "799g6rqjhya",
+      "key": "razorpayConfig",
+      "name": "Razorpay Config",
+      "dataType": "INNER_MODEL",
+      "modelId": "66c02f2d901b1b6d68f936ee"
+    },
+    {
+      "$key": "0pudbr7fgrq",
+      "key": "cashfreeConfig",
+      "name": "Cashfree Config",
+      "dataType": "INNER_MODEL",
+      "modelId": "66c1af4dd639dd7629bf973a"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-17T05:07:04.556Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

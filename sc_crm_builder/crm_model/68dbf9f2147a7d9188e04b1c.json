@@ -1,0 +1,51 @@
+{
+  "_id": {
+    "$oid": "68dbf9f2147a7d9188e04b1c"
+  },
+  "isOrg": false,
+  "isOrgScopeApplicable": false,
+  "isUserAccount": true,
+  "name": "Contact",
+  "collectionName": "contact",
+  "properties": [
+    {
+      "key": "fistName",
+      "dataType": "STRING",
+      "name": "First name",
+      "$key": "bttrqb6cg3f"
+    },
+    {
+      "key": "middleName",
+      "dataType": "STRING",
+      "name": "Middle name",
+      "$key": "hb4ju01yh4g"
+    },
+    {
+      "key": "lastName",
+      "dataType": "STRING",
+      "name": "Last name",
+      "$key": "gleawh76ybt"
+    },
+    {
+      "key": "email",
+      "dataType": "STRING",
+      "name": "Email",
+      "$key": "itgzzjftju"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "modelType": "COLLECTION",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1759246834095"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1760538704367"
+    }
+  }
+}

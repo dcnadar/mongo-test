@@ -1,0 +1,15 @@
+{
+  "_id": "661188cca10af254b4b4374e",
+  "name": "All Subject Teacher",
+  "path": "/admin/schoolsetup/examinations/subject-teacher/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660fc263c7b99128d924f77e",
+  "innerGridType": "table",
+  "innerSourceId": "660fc263c7b99128d924f77e",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T17:39:24.528Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:46.679Z"
+}

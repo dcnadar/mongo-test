@@ -1,0 +1,28 @@
+{
+  "_id": "65d1d9a79563a39f0decd552",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title",
+      "$key": "q7tf5uukcs"
+    },
+    {
+      "dataType": "STRING",
+      "key": "heading",
+      "name": "Heading",
+      "$key": "089yvwnmxh1e"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description",
+      "$key": "ami6e1h3kj"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalCommon ContentHeader",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-18T10:19:19.991Z"
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "68a9a149b06332591026b7fb",
+  "name": "Add Staff",
+  "path": "/admin/staff/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68a99ed0b06332591026b7f7",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-23T11:08:57.384Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:50.862Z"
+}

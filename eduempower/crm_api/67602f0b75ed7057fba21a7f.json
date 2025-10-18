@@ -1,0 +1,15 @@
+{
+  "_id": "67602f0b75ed7057fba21a7f",
+  "name": "SchoolAsset",
+  "path": "/admin/assets/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6760261375ed7057fba21a7b",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-16T13:45:47.736Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:56.507Z"
+}

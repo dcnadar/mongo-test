@@ -1,0 +1,15 @@
+{
+  "_id": "66e1b8ccab08f3103afa06f7",
+  "name": "All Product Return Policy",
+  "path": "/admin/account/policy/return-policy/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66e1abd5ab08f3103afa06ee",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-11T15:35:40.194Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "innerGridType": "table",
+  "innerSourceId": "66e1b66bab08f3103afa06f3"
+}

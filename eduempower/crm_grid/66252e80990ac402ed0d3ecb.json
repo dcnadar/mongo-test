@@ -1,0 +1,48 @@
+{
+  "_id": "66252e80990ac402ed0d3ecb",
+  "gridTitle": "Eduempower LibraryDetails",
+  "gridType": "form",
+  "crmModelId": "662526f2990ac402ed0d3ec0",
+  "rows": [
+    {
+      "$key": "4koul5b248f",
+      "fields": [
+        {
+          "$key": "60d7naq0t9t",
+          "id": "library",
+          "title": "Library",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "shelves"
+          ]
+        },
+        {
+          "$key": "tkjmexy7q3r",
+          "id": "arrivalDate",
+          "title": "Arrival Date",
+          "type": "date",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "mzo1l8msal",
+          "id": "shelves",
+          "title": "Shelves",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "libraryId=:library library"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T15:19:28.410Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:01.164Z"
+}

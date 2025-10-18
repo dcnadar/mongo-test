@@ -1,0 +1,14 @@
+{
+  "_id": "689d8e564b0c9f85deb37d5a",
+  "name": "Add Assessment",
+  "path": "/admin/assessments/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "689d8e104b0c9f85deb37d58",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T07:20:54.256Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:49.560Z"
+}

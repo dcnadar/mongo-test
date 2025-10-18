@@ -1,0 +1,196 @@
+{
+  "_id": {
+    "$oid": "65eb1832aa00ec382f84ccf3"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Key",
+          "id": "key",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Column Key of table",
+          "$key": "9vg8dhclm1c"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Column Name of table",
+          "$key": "grbo0eop20f"
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Column Type",
+          "id": "type",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Column Type of table",
+          "$key": "6dk0yyh68w2",
+          "multiple": false
+        },
+        {
+          "index": {
+            "$numberInt": "4"
+          },
+          "title": "Sort",
+          "id": "sort",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": false,
+          "hint": "Sort",
+          "$key": "d3x60yc09tb"
+        },
+        {
+          "index": {
+            "$numberInt": "5"
+          },
+          "title": "Slug",
+          "id": "slug",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Slug (for link)",
+          "showCondition": "return this.type === 'link';",
+          "$key": "nmhuynr8bhp"
+        },
+        {
+          "index": {
+            "$numberInt": "6"
+          },
+          "title": "Width",
+          "id": "width",
+          "type": "number",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Width",
+          "$key": "x6k6jbeploa"
+        },
+        {
+          "index": {
+            "$numberInt": "7"
+          },
+          "title": "Actions",
+          "id": "actions",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "max": {
+            "$numberInt": "10"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Actions (Grid Button)",
+          "showCondition": "return this.type === 'actions' || this.type === 'options';",
+          "$key": "i0f1kj3b77q"
+        },
+        {
+          "index": {
+            "$numberInt": "8"
+          },
+          "title": "Align",
+          "id": "align",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Align",
+          "showCondition": "return this.type === 'actions' || this.type === 'options';",
+          "$key": "aictohfxgsr",
+          "multiple": false
+        },
+        {
+          "index": {
+            "$numberInt": "10"
+          },
+          "title": "Disable Key",
+          "id": "disableKey",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Disable Key",
+          "showCondition": "return this.type === 'input';",
+          "$key": "z857bk26wo9"
+        },
+        {
+          "index": {
+            "$numberInt": "11"
+          },
+          "title": "Input Type",
+          "id": "inputType",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Input Type",
+          "showCondition": "return this.type === 'input';",
+          "$key": "wzxjpcux2hm"
+        },
+        {
+          "index": {
+            "$numberInt": "12"
+          },
+          "title": "Value Condition Function",
+          "id": "valueCondition",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "hint": "Value Condition Function",
+          "showCondition": "return this.type === 'text';",
+          "$key": "qiy50cpkyll"
+        }
+      ],
+      "$key": "0dqpybv15tl"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e80279424719e028f20658",
+  "gridTitle": "Crm Grid TableColumn",
+  "created": {
+    "$date": {
+      "$numberLong": "1709905970596"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150724"
+    }
+  }
+}

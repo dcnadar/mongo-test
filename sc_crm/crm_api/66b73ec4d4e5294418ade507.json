@@ -1,0 +1,19 @@
+{
+  "_id": "66b73ec4d4e5294418ade507",
+  "name": "Delete current user cart",
+  "path": "/cuser/cart_items/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "6618f1ceaee00c70206deb24",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-10T10:19:48.428Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

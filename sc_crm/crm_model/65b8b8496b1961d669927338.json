@@ -1,0 +1,17 @@
+{
+  "_id": "65b8b8496b1961d669927338",
+  "properties": [
+    {
+      "dataType": "LIST_OF",
+      "key": "sections",
+      "name": "Sections",
+      "listType": "INNER_MODEL",
+      "modelId": "65b8b8496b1961d669927337"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalImageWithTitleRow",
+  "modelType": "INNER",
+  "created": "2024-01-30T08:50:17.689Z",
+  "modelStatus": "ACTIVE"
+}

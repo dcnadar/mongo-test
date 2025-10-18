@@ -1,0 +1,32 @@
+{
+  "_id": "660af0dac7b99128d924f6da",
+  "name": "Eduempower Library",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_library",
+  "properties": [
+    {
+      "$key": "jumz7mzlyph",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "xjhxxeks0l",
+      "key": "initials",
+      "name": "Initials",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-01T17:37:30.880Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.184Z"
+}

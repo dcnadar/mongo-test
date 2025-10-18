@@ -1,0 +1,45 @@
+{
+  "_id": "67aafcff8eb1a51b7f845b04",
+  "gridTitle": "Blog Content Inner",
+  "gridType": "form",
+  "crmModelId": "661cd412aee00c70206deb66",
+  "rows": [
+    {
+      "$key": "44rlgjh4c0y",
+      "fields": [
+        {
+          "id": "content",
+          "title": "Content",
+          "type": "text_editor",
+          "o": false,
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "backUrl": "/admin/website/blog/all",
+  "gridParams": [
+    {
+      "key": "blogId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-11T07:32:15.431Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

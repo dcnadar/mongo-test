@@ -1,0 +1,49 @@
+{
+  "_id": "65f7204deece0c4fb315faf0",
+  "gridTitle": "ReactGrid GlobalNewsLetterSection4",
+  "gridType": "form",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8,
+          "$key": "k5qg9o218fk"
+        },
+        {
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 15,
+          "$key": "gi9virgfm0a"
+        },
+        {
+          "id": "emailaddresslabel",
+          "title": "EmailAddressLabel",
+          "type": "text",
+          "span": 8,
+          "$key": "wtc97pcpuhb"
+        },
+        {
+          "id": "subscribeButtonText",
+          "title": "Subscribe Button Text",
+          "span": 8,
+          "type": "text",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "$key": "g3pro87igxg"
+        }
+      ],
+      "$key": "tvkxya5mj6p"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-17T16:06:38.728Z",
+  "createdBy": "65f1586feece0c4fb315fa82",
+  "crmModelId": "65f71ff2eece0c4fb315faed"
+}

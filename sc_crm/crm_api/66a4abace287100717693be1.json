@@ -1,0 +1,13 @@
+{
+  "_id": "66a4abace287100717693be1",
+  "name": "edit customer",
+  "path": "/admin/customer/address/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66a3585de287100717693bd0",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-27T08:11:24.105Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

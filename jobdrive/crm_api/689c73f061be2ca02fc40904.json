@@ -1,0 +1,14 @@
+{
+  "_id": "689c73f061be2ca02fc40904",
+  "name": "Add Trainer",
+  "path": "/admin/trainer/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "68ac37657be295936f39ddd6",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T11:16:00.172Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:49.470Z"
+}

@@ -1,0 +1,554 @@
+{
+  "_id": {
+    "$oid": "65eaa00b6ac40fb24f3db14f"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Model Key",
+          "id": "id",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Model Key to sync crm form field",
+          "$key": "d12e9z5q1ha"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Label",
+          "id": "title",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Label for the field",
+          "$key": "s6os71m8c9m"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Type",
+          "id": "type",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Type of the field",
+          "$key": "i8lovq19048"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Optional",
+          "id": "o",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Optional field",
+          "$key": "9e224cfsiuc"
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Span",
+          "id": "span",
+          "type": "number",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "24"
+          },
+          "hint": "Span of the field",
+          "value": {
+            "$numberInt": "8"
+          },
+          "$key": "b88lli6f5m8"
+        },
+        {
+          "index": {
+            "$numberInt": "17"
+          },
+          "title": "Format",
+          "id": "format",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Format (for date, date_range, date_range_2, next_date) as dayjs",
+          "showCondition": "return this.type === 'date' || this.type === 'date_time'  || this.type === 'date_range' || this.type === 'date_range_2' || this.type === 'next_date'",
+          "$key": "wmzsi1qcj98"
+        },
+        {
+          "index": {
+            "$numberInt": "4"
+          },
+          "title": "Multiple",
+          "id": "multiple",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Multiple (for upload, list, tree, card, tag)",
+          "showCondition": "return this.type === 'upload' || this.type === 'list' || this.type === 'tree' || this.type === 'card' || this.type === 'tag' || this.type === 'upload_v2';",
+          "$key": "6we3zz9e1x4"
+        },
+        {
+          "index": {
+            "$numberInt": "4"
+          },
+          "title": "File Accept",
+          "id": "fileAccept",
+          "type": "text",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": true,
+          "hint": "File Accept (for upload)",
+          "showCondition": "return this.type === 'upload' || this.type === 'upload_v2';",
+          "$key": "exzixi6vgve"
+        },
+        {
+          "index": {
+            "$numberInt": "5"
+          },
+          "title": "Min",
+          "id": "min",
+          "type": "number",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Min (for strings, number, date, date_range, date_range_2, next_date, form_array, input_table, form_table, (upload, list, tree, card, tag)-> when multiple )",
+          "showCondition": "return this.type === 'strings' || this.type === 'number' || this.type === 'date' || this.type === 'date_time' || this.type === 'date_range' || this.type === 'date_range_2' || this.type === 'next_date' || this.type === 'form_array' || this.type === 'input_table' || this.type === 'form_table' || (this.multiple && (this.type === 'upload' || this.type === 'list' || this.type === 'tree' || this.type === 'card' || this.type === 'tag' || this.type === 'upload_v2'))",
+          "$key": "l6ggnzi0hnc"
+        },
+        {
+          "index": {
+            "$numberInt": "6"
+          },
+          "title": "Max",
+          "id": "max",
+          "type": "number",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Max (for number, date, date_range, date_range_2, next_date, form_array, input_table, form_table, (upload, list, tree, card, tag)-> when multiple )",
+          "showCondition": "return this.type === 'strings' || this.type === 'number' || this.type === 'date' || this.type === 'date_time' || this.type === 'date_range' || this.type === 'date_range_2' || this.type === 'next_date' || this.type === 'form_array' || this.type === 'input_table' || this.type === 'form_table' || (this.multiple && (this.type === 'upload' || this.type === 'list' || this.type === 'tree' || this.type === 'card' || this.type === 'tag' || this.type === 'upload_v2'))",
+          "$key": "5vbjgk4ydk5"
+        },
+        {
+          "index": {
+            "$numberInt": "7"
+          },
+          "title": "Hard Options",
+          "id": "options",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "max": {
+            "$numberInt": "200"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Options (for list, radio, card, tree)",
+          "showCondition": "return this.type === 'list' || this.type === 'radio' || this.type === 'card' || this.type === 'tree'",
+          "$key": "fy39xcezslq"
+        },
+        {
+          "index": {
+            "$numberInt": "8"
+          },
+          "title": "Checkbox Groups",
+          "id": "checkboxGroups",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "max": {
+            "$numberInt": "10"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Checkbox Groups (for checkbox_group)",
+          "showCondition": "return this.type === 'checkbox_group'",
+          "$key": "4bbzb500rve"
+        },
+        {
+          "index": {
+            "$numberInt": "9"
+          },
+          "title": "Data Api Url",
+          "id": "apiUrl",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Data Api Url",
+          "showCondition": "return this.type === 'list' || this.type === 'tree' || this.type === 'card' || this.type === 'search' || this.type === 'checkbox_group'",
+          "$key": "qu08lp31i2"
+        },
+        {
+          "$key": "bh024vwnyig",
+          "id": "selectApi",
+          "title": "Select Api",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "showCondition": "return this.type === 'search';"
+        },
+        {
+          "index": {
+            "$numberInt": "10"
+          },
+          "title": "Add Api Url",
+          "id": "addApiUrl",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Add Api Url (for list, tree, card)",
+          "showCondition": "return this.type === 'list' || this.type === 'tree' || this.type === 'card'",
+          "$key": "vzwufp7txvd"
+        },
+        {
+          "index": {
+            "$numberInt": "11"
+          },
+          "title": "Reset Fields on change",
+          "id": "nullIds",
+          "type": "strings",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Reset Fields on change",
+          "$key": "fl8e7l45b3"
+        },
+        {
+          "index": {
+            "$numberInt": "12"
+          },
+          "title": "Disable Condition Function",
+          "id": "disableCondition",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "hint": "Disable Condition Function",
+          "$key": "i3vb9mbd6a"
+        },
+        {
+          "index": {
+            "$numberInt": "13"
+          },
+          "title": "Show Condition Function",
+          "id": "showCondition",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "hint": "Show Condition Function",
+          "$key": "xv978syhhss"
+        },
+        {
+          "index": {
+            "$numberInt": "14"
+          },
+          "title": "Validate Function",
+          "id": "validate",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "hint": "Validate Function",
+          "$key": "tq5t7o4eqdf"
+        },
+        {
+          "index": {
+            "$numberInt": "15"
+          },
+          "title": "Update Other Fileds On Change",
+          "id": "onChangeCondition",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "max": {
+            "$numberInt": "10"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Update Other Fileds On Change",
+          "$key": "urmpneztv9c"
+        },
+        {
+          "index": {
+            "$numberInt": "16"
+          },
+          "title": "Details Function",
+          "id": "details",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "hint": "Details Function (for input_table)",
+          "showCondition": "return this.type === 'input_table'",
+          "$key": "w92aceo6s5"
+        },
+        {
+          "index": {
+            "$numberInt": "18"
+          },
+          "title": "Hint",
+          "id": "hint",
+          "type": "text_editor",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "hint": "Hint (html accepted)",
+          "$key": "g4thnrkz4ow",
+          "textEditorElements": [
+            "text_type",
+            "bold_italic_underline",
+            "list",
+            "link"
+          ]
+        },
+        {
+          "index": {
+            "$numberInt": "19"
+          },
+          "title": "Update Type",
+          "id": "updateType",
+          "type": "list",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": true,
+          "hint": "Update Type",
+          "$key": "jvamdyqnqll"
+        },
+        {
+          "index": {
+            "$numberInt": "20"
+          },
+          "title": "Create Type",
+          "id": "createType",
+          "type": "list",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": true,
+          "hint": "Create Type",
+          "$key": "n9pwe064po",
+          "multiple": false
+        },
+        {
+          "index": {
+            "$numberInt": "21"
+          },
+          "title": "Allow Add",
+          "id": "add",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Add (for form_array, input_table, form_table, tag, card)",
+          "showCondition": "return this.type === 'form_array' || this.type === 'input_table' || this.type === 'form_table' || (this.multiple && (this.type === 'upload' || this.type === 'list' || this.type === 'tree' || this.type === 'card' || this.type === 'tag'))",
+          "$key": "mi6ysex12u"
+        },
+        {
+          "index": {
+            "$numberInt": "22"
+          },
+          "title": "Allow Delete",
+          "id": "delete",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true,
+          "hint": "Delete (for form_array, input_table, form_table, tag, card, list)",
+          "showCondition": "return this.type === 'form_array' || this.type === 'input_table' || this.type === 'form_table' || (this.multiple && (this.type === 'upload' || this.type === 'list' || this.type === 'tree' || this.type === 'card' || this.type === 'tag'))",
+          "$key": "kztzqh4azrg"
+        },
+        {
+          "index": {
+            "$numberInt": "23"
+          },
+          "title": "Empty Message",
+          "id": "countTitle",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "hint": "Empty Message (for form_array, input_table, form_table)",
+          "showCondition": "return this.type === 'form_array' || this.type === 'input_table' || this.type === 'form_table'",
+          "$key": "4c981dholpq"
+        },
+        {
+          "$key": "5d0mc480ba6",
+          "id": "textEditorElements",
+          "title": "Text Editor elements",
+          "type": "list",
+          "o": false,
+          "span": {
+            "$numberInt": "24"
+          },
+          "checkboxGroups": [],
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "showCondition": "return this.type === 'text_editor';",
+          "options": [
+            {
+              "$key": "m0ieng35rfj",
+              "key": "text_type",
+              "value": "Text types"
+            },
+            {
+              "$key": "sg9le63c2g",
+              "key": "bold_italic_underline",
+              "value": "Bold Itlalic Underline"
+            },
+            {
+              "$key": "da1a3ssrhn7",
+              "key": "bullet_point",
+              "value": "Bullet points"
+            },
+            {
+              "$key": "xt5xyxx553b",
+              "key": "number_list",
+              "value": "Numbers list"
+            },
+            {
+              "$key": "xjcjkahbp7",
+              "key": "checkbox",
+              "value": "Checkboxes"
+            },
+            {
+              "$key": "q50d4ruj9j",
+              "key": "link",
+              "value": "Link"
+            },
+            {
+              "$key": "r1sk1z7rzm",
+              "key": "image",
+              "value": "Image"
+            },
+            {
+              "$key": "toiv0d7g8p7",
+              "key": "table",
+              "value": "Table"
+            },
+            {
+              "$key": "edioeb0t0gg",
+              "key": "horizontal_line",
+              "value": "Horizontal line"
+            }
+          ]
+        },
+        {
+          "index": {
+            "$numberInt": "24"
+          },
+          "title": "Meta",
+          "id": "meta",
+          "type": "inner_form",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "hint": "Meta of form field",
+          "$key": "e7onbw4sd4p",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "hideCollapse": false
+          }
+        },
+        {
+          "index": {
+            "$numberInt": "24"
+          },
+          "title": "Default Value",
+          "id": "value",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Default value of text form field",
+          "showCondition": "return this.type === 'text' || this.type === 'list';",
+          "$key": "0z74cib8jyl"
+        },
+        {
+          "$key": "fawrlrei628",
+          "id": "placeholder",
+          "title": "Placeholder",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true
+        }
+      ],
+      "$key": "89fifkx6so5"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e7bd39da2db33603c1698a",
+  "gridTitle": "Crm Grid FormRow FormField",
+  "created": {
+    "$date": {
+      "$numberLong": "1709875211379"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150398"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "689c1e0910339025b4c41caf",
+  "name": "companySocialMedia",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "rcxnylh8dp",
+      "key": "linkedein",
+      "name": "Linkedin",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "q25605r44xq",
+      "key": "twitter",
+      "name": "Twitter",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dvbeooelvne",
+      "key": "facebook",
+      "name": "Facebook",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T05:09:29.148Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:54.829Z"
+}

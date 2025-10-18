@@ -1,0 +1,44 @@
+{
+  "_id": "666441e707b1a041b15e0b9c",
+  "name": "Account Email Settings",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "bj76v8466z7",
+      "key": "fromEmail",
+      "name": "From Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "s3plizx843l",
+      "key": "helpUrl",
+      "name": "Help URL",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lnb02ce0p7k",
+      "key": "emailServiceProvider",
+      "name": "Email Service Provider",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "79ybjwnpm3i",
+            "key": "aws_ses",
+            "value": "AWS SES"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "cjozfzlfbt",
+      "key": "sesConfigurationSetName",
+      "name": "sesConfigurationSetName",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-08T11:35:03.204Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

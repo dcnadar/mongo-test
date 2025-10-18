@@ -1,0 +1,21 @@
+{
+  "_id": "6613027ea10af254b4b4383a",
+  "name": "Add Enquiry Public",
+  "path": "/admin/public/enquiry",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6612ff13a10af254b4b43839",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T20:30:54.211Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "ecomApiMappings": [
+    {
+      "$key": "flyzz3cl70e",
+      "ecomAccountId": "65bf9e2ec0fccc07b5d23381",
+      "action": "FORM_SAVE",
+      "gridType": "form",
+      "sourceId": "6624b1a9c9fe887cdf0ebd2d"
+    }
+  ]
+}

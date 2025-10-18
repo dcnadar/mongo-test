@@ -1,0 +1,29 @@
+{
+  "_id": "676fca9e33897d49a1050c9c",
+  "name": "Import Common [OLD]",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "cijpq41joce",
+      "key": "templateName",
+      "name": "Template Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1mf3ulozwem",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "mcwci4p8pn",
+      "key": "recommendedFor",
+      "name": "Recommended For",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-28T09:53:34.199Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:08.112Z"
+}

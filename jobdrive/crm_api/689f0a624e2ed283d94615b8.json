@@ -1,0 +1,16 @@
+{
+  "_id": "689f0a624e2ed283d94615b8",
+  "name": "All PlacementDrive",
+  "path": "/admin/placement-drive/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "getAllRecords": false,
+  "sourceId": "689f0a3e4e2ed283d94615b7",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T10:22:26.144Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:49.761Z"
+}

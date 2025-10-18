@@ -1,0 +1,28 @@
+{
+  "_id": "66824e043108ad7b7d063ed5",
+  "gridTitle": "NativeGrid GlobalFeaturedBrandCardScrollView",
+  "gridType": "form",
+  "crmModelId": "668249ea3108ad7b7d063eca",
+  "rows": [
+    {
+      "$key": "coew43rkq9m",
+      "fields": [
+        {
+          "id": "section",
+          "title": "Section",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 5,
+          "$key": "l34amffwop"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T06:34:44.580Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "689ee8c658973fec4e05cc48",
+  "name": "scheduleInterviewRounds",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "pkhquqrurse",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "p2d5gjoo84o",
+      "key": "date",
+      "name": "Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "lr9m1obtsta",
+      "key": "type",
+      "name": "Type",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T07:59:02.750Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.450Z"
+}

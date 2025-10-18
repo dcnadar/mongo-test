@@ -1,0 +1,92 @@
+{
+  "_id": {
+    "$oid": "68aeca5018329f2a90e354a8"
+  },
+  "gridTitle": "Base Form",
+  "gridType": "form",
+  "crmModelId": "65e4e721d796c9ccbd1b408e",
+  "rows": [
+    {
+      "$key": "5jv52c64vh",
+      "fields": [
+        {
+          "$key": "c9fbudr0879",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "hint": "Name of the entity",
+          "onChangeCondition": [
+            {
+              "$key": "froy0rspv9",
+              "key": "fieldName",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.name ? \"_\"+this.name.trim().toLowerCase().replaceAll(\" \", \"_\").replace(/[^a-z_]/g, \"\").replace(/_+/g, \"_\") : \"\";"
+            }
+          ]
+        },
+        {
+          "id": "fieldName",
+          "title": "Field Name",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "hint": "Field name for the base model",
+          "$key": "jbplo6dnlg"
+        },
+        {
+          "$key": "fvxwcad8115",
+          "id": "order",
+          "title": "Order",
+          "type": "number",
+          "span": {
+            "$numberInt": "12"
+          },
+          "hint": "Order for the base model"
+        },
+        {
+          "$key": "rgze9vztj1j",
+          "id": "modelId",
+          "title": "Entity Id",
+          "type": "list",
+          "multiple": false,
+          "hint": "Entity id for the base model",
+          "span": {
+            "$numberInt": "12"
+          }
+        },
+        {
+          "$key": "w9mvoqzo7wc",
+          "id": "modelType",
+          "title": "Model Type",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "BASE"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1756285520680"
+    }
+  },
+  "createdBy": "68adb9f43e8ef56770f82104",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151868"
+    }
+  }
+}

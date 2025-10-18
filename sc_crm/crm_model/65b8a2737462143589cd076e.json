@@ -1,0 +1,31 @@
+{
+  "_id": "65b8a2737462143589cd076e",
+  "properties": [
+    {
+      "dataType": "LIST_OF",
+      "key": "section",
+      "name": "Section",
+      "listType": "INNER_MODEL",
+      "modelId": "65b8a2737462143589cd076d",
+      "$key": "e9h5spws66e"
+    },
+    {
+      "$key": "7k0b79s6sol",
+      "key": "showDynamicContent",
+      "name": "Show Dynamic Content",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "umojj0meh39",
+      "key": "dynamicContentFilter",
+      "name": "Dynamic Content Filter",
+      "dataType": "INNER_MODEL",
+      "modelId": "668bf0a4531ed762273ebbfd"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid CommonProductList4",
+  "modelType": "INNER",
+  "created": "2024-01-30T07:17:07.603Z",
+  "modelStatus": "ACTIVE"
+}

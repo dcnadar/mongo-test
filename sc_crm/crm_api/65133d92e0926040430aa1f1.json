@@ -1,0 +1,11 @@
+{
+  "_id": "65133d92e0926040430aa1f1",
+  "name": "Website Page Section Add Form POST",
+  "action": "FORM_SAVE",
+  "sourceId": "6511fdbaf9686d32acb3e2d4",
+  "gridType": "form",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "POST",
+  "path": "/admin/website/page/section/add",
+  "created": "2024-01-27T07:48:46.630Z"
+}

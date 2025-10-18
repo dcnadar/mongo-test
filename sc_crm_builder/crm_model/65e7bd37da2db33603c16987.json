@@ -1,0 +1,33 @@
+{
+  "_id": {
+    "$oid": "65e7bd37da2db33603c16987"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid FormRow FormField CheckboxGroup",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Group Name"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "options",
+      "name": "Options",
+      "modelId": "65e46e2562e81af0993f8515"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709686071518"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152658"
+    }
+  }
+}

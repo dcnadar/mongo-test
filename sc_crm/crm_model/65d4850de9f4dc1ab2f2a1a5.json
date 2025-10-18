@@ -1,0 +1,43 @@
+{
+  "_id": "65d4850de9f4dc1ab2f2a1a5",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "favicon",
+      "name": "Favorite Icon"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "STRING",
+      "key": "keywords",
+      "name": "Keywords"
+    },
+    {
+      "dataType": "LIST_OF",
+      "key": "schemas",
+      "name": "Schemas",
+      "listType": "INNER_MODEL",
+      "modelId": "65d4850ce9f4dc1ab2f2a1a4"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Website Common SEO",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-02-20T10:55:09.022Z"
+}

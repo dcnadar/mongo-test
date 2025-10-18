@@ -1,0 +1,43 @@
+{
+  "_id": "689d8dd64b0c9f85deb37d57",
+  "name": "Assessment",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "assessment",
+  "properties": [
+    {
+      "$key": "c3rn37y7y3",
+      "key": "AssessmentBasicInformation",
+      "name": "Assessment Basic Information",
+      "dataType": "INNER_MODEL",
+      "modelId": "689d8cac4b0c9f85deb37d55"
+    },
+    {
+      "$key": "f0omfysel4f",
+      "key": "AssessmentConfiguration",
+      "name": "Assessment Configuration",
+      "dataType": "INNER_MODEL",
+      "modelId": "689d8feb4b0c9f85deb37d5b"
+    },
+    {
+      "$key": "3ppathl51tg",
+      "key": "AssessmentSchedule",
+      "name": "Schedule",
+      "dataType": "INNER_MODEL",
+      "modelId": "689d95d84b0c9f85deb37d5d"
+    },
+    {
+      "$key": "jj97wqnhq1",
+      "key": "AssessmentAssociation",
+      "name": "Association",
+      "dataType": "INNER_MODEL",
+      "modelId": "689daefb4b0c9f85deb37d5f"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T07:18:46.825Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.157Z"
+}

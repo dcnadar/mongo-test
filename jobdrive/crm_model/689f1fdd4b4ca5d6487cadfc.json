@@ -1,0 +1,29 @@
+{
+  "_id": "689f1fdd4b4ca5d6487cadfc",
+  "name": "SettingsSecurity",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "3sjvk3m7hy5",
+      "key": "currentPassword",
+      "name": "Current Password",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "q8xlh12aw6r",
+      "key": "newPassword",
+      "name": "New Password",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "tjsvogfztxq",
+      "key": "confirmNewPassword",
+      "name": "Confirm New Password",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T11:54:05.799Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.734Z"
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "6614f910a10af254b4b438a0",
+  "name": "Company Details",
+  "path": "/admin/account/settings/company-details",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66163513a039b45c27dfdde3",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T08:15:12.494Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": []
+}

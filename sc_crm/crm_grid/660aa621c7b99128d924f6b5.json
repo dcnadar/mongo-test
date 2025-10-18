@@ -1,0 +1,54 @@
+{
+  "_id": "660aa621c7b99128d924f6b5",
+  "gridTitle": "ReactGrid GlobalTestimonial7",
+  "gridType": "form",
+  "crmModelId": "660aa23fc7b99128d924f6b3",
+  "rows": [
+    {
+      "$key": "6m8k469r3xe",
+      "fields": [
+        {
+          "id": "headingTitle",
+          "title": "HeadingTitle",
+          "type": "text",
+          "span": 24,
+          "$key": "wz171rnrhx"
+        },
+        {
+          "$key": "je4eelx9yd9",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "f4dudaramm6",
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 3,
+          "max": 9
+        },
+        {
+          "$key": "4kptim0vni5",
+          "id": "button",
+          "title": "Button",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-01T12:18:41.738Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "upsertDoc": false
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "6662fe2c07b1a041b15e0b98",
+  "name": "All History",
+  "path": "admin/farmer/history/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6662fae307b1a041b15e0b95",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T12:33:48.831Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

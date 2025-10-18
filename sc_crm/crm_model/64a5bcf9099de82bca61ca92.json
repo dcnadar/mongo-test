@@ -1,0 +1,53 @@
+{
+  "_id": "64a5bcf9099de82bca61ca92",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Seller Name",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "callingCode",
+      "name": "Calling Code"
+    },
+    {
+      "dataType": "STRING",
+      "key": "email",
+      "name": "Email",
+      "searchable": {
+        "value": true,
+        "primary": true
+      }
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "deliveryAvailable",
+      "name": "Delivery Available"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "address",
+      "name": "Address",
+      "modelId": "64a5b2c2099de82bca61ca91"
+    }
+  ],
+  "collectionName": "seller",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Seller",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:50.665Z"
+}

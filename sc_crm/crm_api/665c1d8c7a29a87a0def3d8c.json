@@ -1,0 +1,13 @@
+{
+  "_id": "665c1d8c7a29a87a0def3d8c",
+  "name": "Add Variant Option",
+  "path": "/admin/product/variant-option/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "665c1bc47a29a87a0def3d87",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-02T07:21:48.871Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

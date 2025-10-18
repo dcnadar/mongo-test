@@ -1,0 +1,88 @@
+{
+  "_id": "67384de55bfbb47aebef4659",
+  "gridTitle": "Eduempower Branch",
+  "gridType": "table",
+  "crmModelId": "673846135bfbb47aebef4654",
+  "columns": [
+    {
+      "$key": "v97rfb9sw6",
+      "key": "name",
+      "name": "Branch Name",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "beep08877ir",
+      "key": "branchCode",
+      "name": "Branch Code",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "wu4d0qfl5of",
+      "key": "board",
+      "name": "Board",
+      "type": "card",
+      "sort": true,
+      "width": 200
+    },
+    {
+      "$key": "7xbh5qbyppg",
+      "key": "primaryEmail",
+      "name": "Primary Email",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "2320vwd59j6",
+      "key": "primaryContact",
+      "name": "Primary Contact",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "ozrbmt9tqk9",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 100,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "rezxtccyq7",
+          "gridTitle": "Edit Branch",
+          "value": "Edit",
+          "apiUrl": "/admin/account/branch/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "hb9cjlkjamc",
+      "gridTitle": "Add Branch",
+      "value": "Add Branch",
+      "apiUrl": "/admin/account/branch/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-16T07:46:45.611Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "gridParams": [
+    {
+      "key": "ecomAccountId",
+      "required": true
+    }
+  ]
+}

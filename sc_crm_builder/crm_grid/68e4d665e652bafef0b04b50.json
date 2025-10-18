@@ -1,0 +1,79 @@
+{
+  "_id": {
+    "$oid": "68e4d665e652bafef0b04b50"
+  },
+  "gridTitle": "Entity Index Form",
+  "gridType": "form",
+  "crmModelId": "68e4cc1ee652bafef0b04b4c",
+  "rows": [
+    {
+      "$key": "34bgt1hmda",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": {
+            "$numberInt": "24"
+          },
+          "$key": "u5b73ee3qpd"
+        },
+        {
+          "$key": "xhbmk17onso",
+          "id": "fields",
+          "title": "Fields",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": {
+            "$numberInt": "24"
+          }
+        },
+        {
+          "$key": "qgqrezmp5o",
+          "id": "options",
+          "title": "Options",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": {
+            "$numberInt": "24"
+          }
+        },
+        {
+          "$key": "vsrkgsfojm",
+          "id": "entity",
+          "title": "Entity",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "breadcrumb": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1759827557531"
+    }
+  },
+  "createdBy": "68e09e923a6ade54590da550",
+  "gridParams": [
+    {
+      "key": "entityId",
+      "required": true,
+      "documentKey": "entity"
+    }
+  ],
+  "postUrl": "/api/admin/index/create"
+}

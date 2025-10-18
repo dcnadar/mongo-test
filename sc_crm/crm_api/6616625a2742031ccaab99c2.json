@@ -1,0 +1,12 @@
+{
+  "_id": "6616625a2742031ccaab99c2",
+  "name": "Website Header Section",
+  "path": "/admin/website/header/section/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "661661c92742031ccaab99c0",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-10T09:56:42.470Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

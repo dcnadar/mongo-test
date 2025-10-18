@@ -1,0 +1,30 @@
+{
+  "_id": "66b48cd2718ee5699170b687",
+  "name": "ReactGrid GlobalPricing3 header",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "61e9xgnyimy",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vm0vwkxvi5j",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "r3ia4vw61om",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-08T09:16:02.438Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

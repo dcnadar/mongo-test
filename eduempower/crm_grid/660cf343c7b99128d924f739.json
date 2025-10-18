@@ -1,0 +1,72 @@
+{
+  "_id": "660cf343c7b99128d924f739",
+  "gridTitle": "Eduempower SchoolFloor",
+  "gridType": "form",
+  "crmModelId": "6609849cc7b99128d924f675",
+  "rows": [
+    {
+      "$key": "h97546zovlo",
+      "fields": [
+        {
+          "$key": "j26fqost4ac",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "awwp0ghhsbs",
+          "id": "type",
+          "title": "Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "g02ego63dv",
+          "id": "prefferedClassTypes",
+          "title": "Preffered Class Types",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 8
+        },
+        {
+          "$key": "4vt9o8i8dzi",
+          "id": "sequence",
+          "title": "Sequence",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "40ribf5gkrk",
+          "id": "buildingId",
+          "title": "Building Name",
+          "type": "list",
+          "span": 8,
+          "multiple": true,
+          "add": false,
+          "delete": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T06:12:19.770Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:58.918Z"
+}

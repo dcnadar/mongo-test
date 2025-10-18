@@ -1,0 +1,28 @@
+{
+  "_id": "6666e7e207b1a041b15e0be8",
+  "gridTitle": "App Firebase Settings",
+  "gridType": "form",
+  "crmModelId": "6666e12f07b1a041b15e0be0",
+  "rows": [
+    {
+      "$key": "w5x5hg72nap",
+      "fields": [
+        {
+          "id": "firebaseSettings",
+          "title": "Firebase Settings",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "92jj7puedxw"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-10T11:47:46.755Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,109 @@
+{
+  "_id": "6718cb915f22ec7ba0264911",
+  "gridTitle": "Eduempower Class & Sections",
+  "gridType": "form",
+  "crmModelId": "6718ac2d5f22ec7ba0264907",
+  "rows": [
+    {
+      "$key": "1zyuv0cbpx9",
+      "fields": [
+        {
+          "id": "studentType",
+          "title": "Student Type",
+          "type": "list",
+          "multiple": false,
+          "$key": "l3xd3t7p3u8",
+          "span": 8
+        },
+        {
+          "$key": "47sh3xq36ac",
+          "id": "oldNewAdmission",
+          "title": "Old/New Admission",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "smz1bfd0p",
+          "id": "stations",
+          "title": "Stations",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "fo7mztvo17l",
+          "id": "houses",
+          "title": "Houses",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "fyu394w2czm",
+          "id": "class",
+          "title": "Class",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "qebo46ro8kp",
+          "id": "section",
+          "title": "Section",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "10amw4w37jri",
+          "id": "departments",
+          "title": "Departments",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "muie4t4p38o",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 8
+        },
+        {
+          "$key": "9v0hcyx8so",
+          "id": "public",
+          "title": "Public",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "3y4itjc132l",
+          "id": "send",
+          "title": "Send",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:10:25.323Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:02.023Z"
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "665a97b27a29a87a0def3d80",
+  "name": "Product Variant Table 2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "8x9a3s7ftk",
+      "key": "productVariantTable",
+      "name": "Product Variant Table",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "665a974d7a29a87a0def3d7f"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-01T03:38:26.500Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

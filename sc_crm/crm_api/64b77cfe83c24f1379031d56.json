@@ -1,0 +1,11 @@
+{
+  "_id": "64b77cfe83c24f1379031d56",
+  "name": "Variants Pricing POST",
+  "action": "CRM_GRID",
+  "sourceId": "64b38c7d22d01c16ecc96046",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "POST",
+  "gridType": "table",
+  "path": "/admin/product/variant/pricing",
+  "created": "2024-01-27T07:48:45.450Z"
+}

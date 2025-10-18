@@ -1,0 +1,27 @@
+{
+  "_id": {
+    "$oid": "65e2e2e1eef2f462b74c9de7"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Account Filter",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "REFERENCE",
+      "key": "accountId",
+      "name": "Account",
+      "modelId": "65e2c398226e7b80fe49ae39"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709368033981"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152094"
+    }
+  }
+}

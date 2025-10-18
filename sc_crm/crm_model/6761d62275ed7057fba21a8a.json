@@ -1,0 +1,119 @@
+{
+  "_id": "6761d62275ed7057fba21a8a",
+  "name": "NYF Admission",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "nyf_admission",
+  "properties": [
+    {
+      "$key": "8xmo77odee9",
+      "key": "firstName",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "w10ax9vvigi",
+      "key": "mobileNumber",
+      "name": "Mobile",
+      "dataType": "STRING",
+      "unique": false,
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "2feup1zwvbn",
+      "key": "gender",
+      "name": "Gender",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jakl671sd9c",
+      "key": "class",
+      "name": "Class",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "whrkza2be3c",
+      "key": "fatherName",
+      "name": "Father Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9qggpgf21zm",
+      "key": "schoolName",
+      "name": "SchoolName",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qaghomkvw2f",
+      "key": "rollNo",
+      "name": "Roll Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gbj897axek",
+      "key": "productVariantId",
+      "name": "productVariantId",
+      "dataType": "REFERENCE",
+      "modelId": "64a5d14d099de82bca61ca99"
+    },
+    {
+      "$key": "5mtyi3zvgk",
+      "key": "userId",
+      "name": "User",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6"
+    },
+    {
+      "$key": "s6j6xr1eo39",
+      "key": "created",
+      "name": "Created",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "nibsepqwyu",
+      "key": "paymentStatus",
+      "name": "Payment status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "gimvak8uklj",
+            "key": "SUCCESS",
+            "value": "SUCCESS"
+          },
+          {
+            "$key": "9dls7uvawzo",
+            "key": "FAILED",
+            "value": "FAILED"
+          },
+          {
+            "$key": "iozlv7zmma9",
+            "key": "INITIATED",
+            "value": "INITIATED"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "8wfm2rmmo3",
+      "key": "pgTransactionId",
+      "name": "Pg Transaction Id",
+      "searchable": {
+        "thumbColor": false
+      },
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-12-17T19:50:58.147Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

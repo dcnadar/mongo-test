@@ -1,0 +1,15 @@
+{
+  "_id": "679dfd4db81dbd448287fa59",
+  "name": "Return Book",
+  "path": "/admin/library/return/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "679dfd10b81dbd448287fa57",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-02-01T10:54:05.782Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:57.438Z"
+}

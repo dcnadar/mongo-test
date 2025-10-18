@@ -1,0 +1,60 @@
+{
+  "_id": "65b91b639fd5786746ae453e",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-30T15:53:07.455Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Thumb",
+          "id": "thumb",
+          "type": "upload",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 5,
+          "title": "Enable Click",
+          "id": "enableButton",
+          "type": "bool",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 6,
+          "title": "Click Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 18,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "showCondition": "return this.enableButton;"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b91b639fd5786746ae453c",
+  "gridTitle": "ReactGrid GlobalImageWithTextCard Section"
+}

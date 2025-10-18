@@ -1,0 +1,94 @@
+{
+  "_id": "676401677efd1c53bd16c151",
+  "name": "ReactGrid GlobalHeaderSection5",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "p9ktn5nqy2n",
+      "key": "coverImage",
+      "name": "CoverImage",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8b83kuibv6b",
+      "key": "profileImage",
+      "name": "ProfileImage",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yuwrmy0srmb",
+      "key": "image1",
+      "name": "Image1",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7x7xwmgga2m",
+      "key": "image2",
+      "name": "Image2",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "a4qwgtuwy8",
+      "key": "image3",
+      "name": "Image3",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "j77bjnkf8fr",
+      "key": "image4",
+      "name": "Image4",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3j43rxyarxs",
+      "key": "image5",
+      "name": "Image5",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9nn9j44nlw6",
+      "key": "image6",
+      "name": "Image6",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vr4ha8zyz1",
+      "key": "image7",
+      "name": "Image7",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "s6pff2i5rg",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "979peqge1r",
+      "key": "heading1",
+      "name": "Heading1",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nkf6ljqzcf",
+      "key": "heading2",
+      "name": "Heading2",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "m2sd24v7oq",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "garhae5pe6",
+      "key": "heading3",
+      "name": "heading3",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-12-19T11:20:07.915Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

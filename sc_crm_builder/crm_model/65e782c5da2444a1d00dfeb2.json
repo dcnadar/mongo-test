@@ -1,0 +1,280 @@
+{
+  "_id": {
+    "$oid": "65e782c5da2444a1d00dfeb2"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm API",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name (Grid Name)",
+      "searchable": {
+        "value": true
+      },
+      "$key": "2l2ly64iias"
+    },
+    {
+      "dataType": "STRING",
+      "key": "path",
+      "name": "Path (Grid Path)",
+      "searchable": {
+        "description": true
+      },
+      "$key": "tdieutdbyx"
+    },
+    {
+      "dataType": "STRING",
+      "key": "apiType",
+      "name": "Api Type",
+      "data": {
+        "options": [
+          {
+            "key": "GET",
+            "value": "Get",
+            "$key": "th0vqchb32p"
+          },
+          {
+            "key": "POST",
+            "value": "Post",
+            "$key": "pgv0su5xt7"
+          },
+          {
+            "$key": "uwp7z19akcf",
+            "key": "PUT",
+            "value": "Put"
+          },
+          {
+            "$key": "mzogiumlny",
+            "key": "PATCH",
+            "value": "Patch"
+          },
+          {
+            "$key": "itocryzhb6",
+            "key": "DELETE",
+            "value": "Delete"
+          }
+        ]
+      },
+      "searchable": {
+        "description": true
+      },
+      "$key": "antkr08dypm"
+    },
+    {
+      "dataType": "STRING",
+      "key": "action",
+      "name": "Action",
+      "data": {
+        "options": [
+          {
+            "key": "CRM_GRID",
+            "value": "Send Grid",
+            "$key": "lnxbfrqklcn"
+          },
+          {
+            "key": "FORM_SAVE",
+            "value": "Save form data",
+            "$key": "r2mm88qlcpc"
+          },
+          {
+            "key": "ENTITY_DELETE",
+            "value": "Delete Entity",
+            "$key": "hmdtq7t3gw9"
+          },
+          {
+            "$key": "zcuigni2tqq",
+            "key": "ENTITY_GET",
+            "value": "Get Entity"
+          },
+          {
+            "$key": "eht4kuwy0i",
+            "key": "DOWNLOAD_FILE",
+            "value": "Download File"
+          },
+          {
+            "$key": "aehk0lvc1e",
+            "key": "FORM_VALUES_OPTIONS",
+            "value": "Form Values Options"
+          },
+          {
+            "$key": "s5ywdqgzel",
+            "key": "FORM_FIELDS",
+            "value": "Get Form Fields"
+          }
+        ]
+      },
+      "$key": "7ly1ywynhhx"
+    },
+    {
+      "dataType": "STRING",
+      "key": "gridType",
+      "name": "Grid Type",
+      "data": {
+        "options": [
+          {
+            "key": "table",
+            "value": "Table",
+            "$key": "h3mk8d8fq9r"
+          },
+          {
+            "key": "form",
+            "value": "Form",
+            "$key": "evwwg1qknqi"
+          },
+          {
+            "key": "menu",
+            "value": "Menu",
+            "$key": "q7wg264i5je"
+          },
+          {
+            "$key": "rt5q3c46tho",
+            "key": "dashboard",
+            "value": "Dashboard"
+          },
+          {
+            "$key": "elw95ukyj4p",
+            "key": "progress_cards",
+            "value": "Progress Cards"
+          },
+          {
+            "$key": "yqarkvk5mfg",
+            "key": "iframe",
+            "value": "iFrame"
+          },
+          {
+            "$key": "2e9tujmulce",
+            "key": "any",
+            "value": "Any"
+          }
+        ]
+      },
+      "$key": "z3g2pvy0m7i"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "sourceId",
+      "name": "Grid",
+      "modelId": "65e782c6da2444a1d00dfeb3",
+      "$key": "c5bykx93q7q"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "modelId",
+      "name": "Crm Model",
+      "modelId": "65e4e721d796c9ccbd1b408e",
+      "$key": "neezzpf4sd"
+    },
+    {
+      "dataType": "STRING",
+      "key": "innerGridType",
+      "name": "Inner Grid Type",
+      "data": {
+        "options": [
+          {
+            "key": "table",
+            "value": "Table",
+            "$key": "44v2cwwm8uc"
+          },
+          {
+            "key": "form",
+            "value": "Form",
+            "$key": "jpnqrh70t08"
+          },
+          {
+            "$key": "ldc46wcsd7",
+            "key": "dashboard",
+            "value": "Dashboard"
+          },
+          {
+            "$key": "x0wi6pkq8g",
+            "key": "progress_cards",
+            "value": "Progress Cards"
+          },
+          {
+            "$key": "xefiea66p",
+            "key": "iframe",
+            "value": "iFrame"
+          },
+          {
+            "$key": "8dhked9o5qb",
+            "key": "any",
+            "value": "Any"
+          }
+        ]
+      },
+      "$key": "ap5sy4n70i"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "innerSourceId",
+      "name": "Inner Grid",
+      "modelId": "65e782c6da2444a1d00dfeb3",
+      "$key": "kdvzgvj31k"
+    },
+    {
+      "$key": "9umflnt2iap",
+      "key": "gridParams",
+      "name": "Grid Params",
+      "dataType": "LIST_OF",
+      "modelId": "65e784bb58fbe5a161005480",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "v48mmyu8jzc",
+      "key": "fetchDocWithoutId",
+      "name": "Fetch Document without ID",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "llmgypp4rdl",
+      "key": "downloadFileType",
+      "name": "Download File Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "6lxvb4ti06v",
+            "key": "EXCEL",
+            "value": "Excel"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "omrtebb5i1j",
+      "key": "getAllRecords",
+      "name": "Get all records",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "kb5r5a5uai",
+      "key": "recordsLimit",
+      "name": "Records limit",
+      "dataType": "INTEGER"
+    }
+  ],
+  "collectionName": "crm_api",
+  "baseModelId": "65e2c399226e7b80fe49ae3a",
+  "created": {
+    "$date": {
+      "$numberLong": "1709671109848"
+    }
+  },
+  "cardDataTargets": {
+    "title": "name",
+    "subtitles": [
+      "path"
+    ],
+    "type": "apiType"
+  },
+  "menuTargets": {},
+  "compoundUniqueFields": [],
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152511"
+    }
+  }
+}

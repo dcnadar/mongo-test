@@ -1,0 +1,53 @@
+{
+  "_id": "689c8346c3fed26eaf84aab1",
+  "gridTitle": "trainingAdditionalFeatures",
+  "gridType": "form",
+  "crmModelId": "689c3b9ce8e746ac85de559b",
+  "rows": [
+    {
+      "$key": "7k5u23ufwiu",
+      "fields": [
+        {
+          "$key": "qflckp3z3zi",
+          "id": "enablequiz",
+          "type": "checkbox_group",
+          "checkboxGroups": [
+            {
+              "$key": "p57gpmhk6a",
+              "name": "Select",
+              "options": [
+                {
+                  "key": "enablequiz",
+                  "value": "Enable quiz/assessment for this training",
+                  "$key": "dblk956wg1j"
+                }
+              ]
+            }
+          ],
+          "title": ".",
+          "span": 24
+        },
+        {
+          "id": "completioncriteria",
+          "title": "Completion Criteria",
+          "type": "textarea",
+          "span": 24,
+          "$key": "x8ugr27jovc"
+        },
+        {
+          "$key": "90noshalgd4",
+          "id": "certificatetemplate",
+          "title": "Certificate Template",
+          "type": "textarea",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T12:21:26.485Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.561Z"
+}

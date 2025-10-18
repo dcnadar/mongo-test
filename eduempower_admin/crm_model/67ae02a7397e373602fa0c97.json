@@ -1,0 +1,94 @@
+{
+  "_id": "67ae02a7397e373602fa0c97",
+  "name": "Eduempower SchoolSubject",
+  "modelType": "COLLECTION",
+  "baseModelId": "67371c6002f79267ffc56592",
+  "collectionName": "eduempower_school_subject",
+  "properties": [
+    {
+      "$key": "pjfgn9qxf7",
+      "key": "subjectName",
+      "name": "Subject Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "b03egw2fzuo",
+      "key": "subjectCategory",
+      "name": "Subject Category",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "8iio77ou35",
+            "key": "SCHOLASTIC",
+            "value": "Scholastic"
+          },
+          {
+            "$key": "4pjyavhf8ga",
+            "key": "CO_SCHOLASTIC",
+            "value": "Co Scholastic"
+          },
+          {
+            "$key": "intzcuiqi8m",
+            "key": "OPTIONAL",
+            "value": "Optional"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "qceoen8bok",
+      "key": "shortName",
+      "name": "Short Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6vcdpcgirq3",
+      "key": "subjectCode",
+      "name": "Subject Code",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "b4apa294dmk",
+      "key": "isChargeable",
+      "name": "Is Chargeable",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "7mr4vf6tj2",
+      "key": "subjectFeeDetails",
+      "name": "Subject Fee Details",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "67ae00b9397e373602fa0c8d"
+    },
+    {
+      "$key": "wmfz9eudiib",
+      "key": "entityType",
+      "name": "Entity Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "9yr0hdyoz5k",
+            "key": "MASTER_SETUP",
+            "value": "Master Setup"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "subjectName",
+    "subtitles": [
+      "shortName"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T14:33:11.605Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

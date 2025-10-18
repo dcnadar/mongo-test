@@ -1,0 +1,39 @@
+{
+  "_id": "6760154075ed7057fba21a78",
+  "gridTitle": "SchoolAsset Log",
+  "gridType": "table",
+  "crmModelId": "6760104075ed7057fba21a76",
+  "columns": [
+    {
+      "$key": "8j4p7lpqmn3",
+      "key": "date",
+      "name": "Date",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "4qvfue6sr7j",
+      "key": "message",
+      "name": "Message",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "zrasnrosngh",
+      "key": "staffId",
+      "name": "Staff Id",
+      "type": "text",
+      "sort": true
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-16T11:55:44.033Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:03.324Z"
+}

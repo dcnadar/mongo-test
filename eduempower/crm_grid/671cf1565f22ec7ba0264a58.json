@@ -1,0 +1,121 @@
+{
+  "_id": "671cf1565f22ec7ba0264a58",
+  "gridTitle": "FrontOfficeOngoing",
+  "gridType": "table",
+  "crmModelId": "671a5ed45f22ec7ba02649fe",
+  "columns": [
+    {
+      "$key": "ae0r2m67jjf",
+      "key": "visitorName",
+      "name": "Visitor",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "yv1eeh46kp",
+      "key": "visitId",
+      "name": "Visit ID",
+      "type": "link",
+      "sort": true
+    },
+    {
+      "$key": "e52si4yxa7",
+      "key": "created",
+      "name": "Created Date Time",
+      "type": "text",
+      "valueCondition": "return new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short',day: '2-digit' }).format(new Date(this.created)) + ' ' + new Date(this.created).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });",
+      "sort": true
+    },
+    {
+      "$key": "gh6t9evhb9o",
+      "name": "Schedule Date Time",
+      "type": "text",
+      "sort": true,
+      "key": "scheduleStartDateAndTime",
+      "valueCondition": "return new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short',day: '2-digit' }).format(new Date(this.scheduleStartDateAndTime)) + ' ' + new Date(this.scheduleStartDateAndTime).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });"
+    },
+    {
+      "$key": "hkwi7aptog6",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "6yut3yzz6dn",
+      "key": "staffs",
+      "name": "Approvers",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "7qexmeimdcf",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "s76s8mr6yw9",
+          "value": "Exit",
+          "gridType": "confirm",
+          "showGridComment": true,
+          "apiType": "GET",
+          "submitType": "save",
+          "pagination": false,
+          "apiUrl": "/api/io/admin/visit/exit/?id=:_id _id",
+          "gridMsg": "Are you sure?"
+        },
+        {
+          "$key": "lnesiat04nn",
+          "apiUrl": "/api/io/admin/visit/download/id-cards?id=:_id _id",
+          "value": "Download Id Card",
+          "gridType": "private_download",
+          "showGridComment": false,
+          "gridMsg": "download Visitors Id Card",
+          "apiType": "GET",
+          "submitType": "download",
+          "responseType": "pdf"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "border": true,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "erkoxvfk4eb",
+      "fields": [
+        {
+          "$key": "ee3r23gqept",
+          "id": "created",
+          "title": "Date Range ",
+          "type": "date_range_2",
+          "span": 8,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "ua6krmyc6j",
+        "propertyKey": "status",
+        "operator": "EQUALS",
+        "EQUALS": "ONGOING"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "visitorForms"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-26T13:40:38.467Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "search": {
+    "placeHolder": "Search Visit Request"
+  },
+  "updated": "2025-09-08T10:51:02.819Z"
+}

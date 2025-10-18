@@ -1,0 +1,122 @@
+{
+  "_id": "6622129d7d57294ed27050f7",
+  "gridTitle": "ReactGrid GlobalPricing2 PricingSection",
+  "gridType": "form",
+  "crmModelId": "662206337d57294ed27050f4",
+  "rows": [
+    {
+      "$key": "uscb44rdzzl",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "$key": "vwv26x1wxg",
+          "span": 8
+        },
+        {
+          "$key": "wz9xuzog7h",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 8
+        },
+        {
+          "$key": "f4ghop94zfb",
+          "id": "points",
+          "title": "Points",
+          "type": "strings",
+          "span": 8,
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 5,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "multiple": false
+        },
+        {
+          "$key": "d1hq96m58zf",
+          "id": "primary",
+          "title": "Primary",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "dr6077a8nhg",
+          "id": "tag",
+          "title": "Tag",
+          "span": 8,
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "hhaw93d4ly4",
+          "id": "priceMonthly",
+          "title": "Price Monthly",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "a924m632xp",
+          "id": "monthlyPlanText",
+          "title": "Monthly Plan Text",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "47br8j5fbt",
+          "id": "priceYearly",
+          "title": "Price Yearly",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "rccdr8gx07",
+          "id": "currencySymbol",
+          "title": "Currency Symbol",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "hd4pvx7mb6c",
+          "id": "yearlyPlanText",
+          "title": "Yearly Plan Text",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "stxc1whgj09",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "qxzp6sq94g",
+          "id": "enableButton",
+          "title": "Enable Button",
+          "type": "bool"
+        },
+        {
+          "$key": "9w1yimxg19m",
+          "id": "buttonAction",
+          "title": "Button Action",
+          "span": 8,
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-19T06:43:41.648Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

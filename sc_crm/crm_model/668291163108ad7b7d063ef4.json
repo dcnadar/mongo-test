@@ -1,0 +1,36 @@
+{
+  "_id": "668291163108ad7b7d063ef4",
+  "name": "ReactGrid GlobalCategoryCard2 section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "yhmjovwhibp",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "aapao5i5swf",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lgxog7yxn3",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lm6ijn2tlm8",
+      "key": "button",
+      "name": "Button",
+      "dataType": "INNER_MODEL",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T11:20:54.151Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "66644ad107b1a041b15e0ba1",
+  "name": "Farmer Producer Organization",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "poultry_farmer_producer_organization",
+  "properties": [
+    {
+      "$key": "zq5xc155rhl",
+      "key": "fpoName",
+      "name": "FPO Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true,
+        "primary": true
+      }
+    },
+    {
+      "$key": "xs2osu6uvi",
+      "key": "blockId",
+      "name": "Blocks",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "6662ac4007b1a041b15e0b55"
+    },
+    {
+      "$key": "f8dw4ro2zzq",
+      "key": "registrationDate",
+      "name": "Registration Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "meupsw8k13f",
+      "key": "legalEntityType",
+      "name": "Legal Entity Type",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xk6018xle9",
+      "key": "noOfMember",
+      "name": "No Of Member",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "1n43axo481w",
+      "key": "noOfVillage",
+      "name": "No Of Village",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "n8u9a7pp5p",
+      "key": "noOfGramPanchayat",
+      "name": "No Of Gram Panchayat",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "pzcq908ynw",
+      "key": "noOfSHG",
+      "name": "No Of SHG",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "md6vh0a51x8",
+      "key": "noOfDistrict",
+      "name": "No Of District",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "t1zgp0du3j",
+      "key": "address",
+      "name": "Address",
+      "dataType": "INNER_MODEL",
+      "modelId": "66c524cfd443bf1476557a0f"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "fpoName"
+  },
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T12:13:05.599Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "compoundUniqueFields": []
+}

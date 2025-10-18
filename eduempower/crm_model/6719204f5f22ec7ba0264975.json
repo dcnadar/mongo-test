@@ -1,0 +1,75 @@
+{
+  "_id": "6719204f5f22ec7ba0264975",
+  "name": "Eduempower VisitorEntry Visitor",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ynqct6yzbvo",
+      "name": "Mobile No.",
+      "key": "mobileNumber",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dawb6vssfe",
+      "name": "First Name",
+      "key": "firstName",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y612ftt220i",
+      "key": "lastName",
+      "name": "Last Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yisdhkyvbaq",
+      "name": "Visiting",
+      "key": "visiting",
+      "dataType": "STRING",
+      "data": {
+        "tagCategory": "visitorVisiting"
+      }
+    },
+    {
+      "$key": "gplm9jjkc2f",
+      "name": "Representing",
+      "key": "representing",
+      "dataType": "STRING",
+      "data": {
+        "tagCategory": "visitorRepresenting"
+      }
+    },
+    {
+      "$key": "zhm6tt8e3y",
+      "name": "Purpose",
+      "key": "purpose",
+      "dataType": "STRING",
+      "data": {
+        "tagCategory": "visitorPurpose"
+      }
+    },
+    {
+      "$key": "zec9ff29zx",
+      "name": "Vehicle Detail",
+      "key": "vehicleDetail",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6xrfxdv58b",
+      "name": "Address",
+      "key": "presentAddress",
+      "dataType": "INNER_MODEL",
+      "modelId": "660ac9ccc7b99128d924f6c1"
+    },
+    {
+      "$key": "tlsrbshjm3d",
+      "name": "Visitor Photo",
+      "key": "logo",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T16:11:59.055Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-08T10:51:07.431Z"
+}

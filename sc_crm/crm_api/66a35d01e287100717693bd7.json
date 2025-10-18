@@ -1,0 +1,15 @@
+{
+  "_id": "66a35d01e287100717693bd7",
+  "name": "customer Address",
+  "path": "/admin/customer/address/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "661913d3aee00c70206deb2b",
+  "innerGridType": "table",
+  "innerSourceId": "66a35b13e287100717693bd2",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T08:23:29.111Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

@@ -1,0 +1,12 @@
+{
+  "_id": "6618d78eaee00c70206deb14",
+  "name": "All Vendor",
+  "path": "/admin/account/vendor/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6618d650aee00c70206deb11",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T06:41:18.635Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

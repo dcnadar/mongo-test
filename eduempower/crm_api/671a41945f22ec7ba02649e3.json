@@ -1,0 +1,15 @@
+{
+  "_id": "671a41945f22ec7ba02649e3",
+  "name": "Import Circular",
+  "path": "/admin/circulars&news/ImportCircular/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "671a41575f22ec7ba02649e2",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T12:46:12.596Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:55.108Z"
+}

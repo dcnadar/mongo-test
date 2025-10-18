@@ -1,0 +1,13 @@
+{
+  "_id": "66ae083ea436a41ae7ae67c6",
+  "name": "Reviews",
+  "path": "/admin/order/review/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66ae0815a436a41ae7ae67c5",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-03T10:36:46.749Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

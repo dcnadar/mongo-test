@@ -1,0 +1,30 @@
+{
+  "_id": "660c06a0c7b99128d924f70a",
+  "name": "Eduempower State",
+  "modelType": "COLLECTION",
+  "properties": [
+    {
+      "$key": "cqtmrauzla",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "6nqurx37woh",
+      "key": "countryId",
+      "name": "Country Id",
+      "dataType": "REFERENCE",
+      "modelId": "660c0606c7b99128d924f709"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-02T13:22:40.529Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "collectionName": "eduempower_state",
+  "baseModelId": "67371c6002f79267ffc56592"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "661cd6c3aee00c70206deb68",
+  "gridTitle": "Blog Category",
+  "gridType": "form",
+  "crmModelId": "661ccdc6aee00c70206deb65",
+  "rows": [
+    {
+      "$key": "ghwtm3j2o6v",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name ",
+          "type": "text",
+          "span": 12,
+          "$key": "24tjrrvglcd"
+        },
+        {
+          "$key": "tmhp9ihbu3",
+          "id": "slug",
+          "title": "Slug",
+          "type": "text",
+          "span": 12,
+          "meta": {
+            "addonBefore": "/"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T07:26:59.427Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/website/blog/all"
+}

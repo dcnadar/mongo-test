@@ -1,0 +1,108 @@
+{
+  "_id": "66e279c7ab08f3103afa070e",
+  "gridTitle": "User",
+  "gridType": "form",
+  "crmModelId": "6662a17007b1a041b15e0b52",
+  "rows": [
+    {
+      "$key": "a6iktedasy8",
+      "fields": [
+        {
+          "$key": "rem15ui9lo",
+          "id": "logo",
+          "title": "Logo",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "necfiklzxz",
+          "id": "firstName",
+          "title": "FirstName",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "kb8ymkhiltc",
+          "id": "lastName",
+          "title": "LastName",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "vip621bbtnc",
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": 6
+        },
+        {
+          "$key": "r1ykm4cs39",
+          "id": "userName",
+          "title": "User Name",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "umhy4olis2",
+          "id": "mobileNumber",
+          "title": "Mobile Number",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "f4x3l679jgr",
+          "id": "callingCode",
+          "title": "Calling Code",
+          "type": "list",
+          "multiple": false,
+          "span": 4
+        },
+        {
+          "$key": "wj5mxzp7scm",
+          "id": "birthDate",
+          "title": "Birth Date",
+          "type": "date",
+          "span": 6
+        },
+        {
+          "$key": "5569v3xaybv",
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "brvslkrojqs",
+          "id": "admin",
+          "title": "Admin",
+          "type": "bool",
+          "span": 6
+        },
+        {
+          "$key": "lwyw25adpmr",
+          "id": "roleId",
+          "title": "Role",
+          "type": "list",
+          "span": 6,
+          "showCondition": "return !this.admin;",
+          "multiple": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-12T05:19:03.496Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "documentKey": "id",
+      "required": false
+    }
+  ],
+  "backUrl": "/admin/user/all"
+}

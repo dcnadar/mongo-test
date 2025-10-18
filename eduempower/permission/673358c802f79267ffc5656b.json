@@ -1,0 +1,14 @@
+{
+  "_id": "673358c802f79267ffc5656b",
+  "key": "setting.branch-list",
+  "name": "Branch List",
+  "apisAccess": [
+    "66121f62a10af254b4b437c4",
+    "66121f59a10af254b4b437c3"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T13:31:52.352Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.450Z"
+}

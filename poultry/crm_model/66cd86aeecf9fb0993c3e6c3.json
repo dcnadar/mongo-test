@@ -1,0 +1,34 @@
+{
+  "_id": "66cd86aeecf9fb0993c3e6c3",
+  "name": "Video",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "gallery_video",
+  "properties": [
+    {
+      "$key": "jruyqxopnw",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "INNER_MODEL",
+      "modelId": "66d0ee0e97c5ab7546486098"
+    },
+    {
+      "$key": "9v8cup7i5j8",
+      "key": "video",
+      "name": "Video",
+      "dataType": "INNER_MODEL",
+      "modelId": "66cd872decf9fb0993c3e6c4"
+    },
+    {
+      "$key": "hzpxbz0w1w",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-08-27T07:56:30.434Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

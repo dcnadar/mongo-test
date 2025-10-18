@@ -1,0 +1,46 @@
+{
+  "_id": "667d3b2774a25c4c696adb45",
+  "gridTitle": "NativeGrid GlobalProfile",
+  "gridType": "form",
+  "crmModelId": "667d3a8674a25c4c696adb44",
+  "rows": [
+    {
+      "$key": "n8ejgap1lz",
+      "fields": [
+        {
+          "id": "headerTitle",
+          "title": "HeaderTitle",
+          "span": 24,
+          "type": "text",
+          "$key": "mm7h6mv6ghf"
+        },
+        {
+          "$key": "dbvoiosx6cj",
+          "id": "faq",
+          "title": "Faq",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "g6feigq08o",
+          "id": "aboutUs",
+          "title": "About Us",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "3twzp0d69lr",
+          "id": "termOfUse",
+          "title": "Term Of Use",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-27T10:12:55.087Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "upsertDoc": false
+}

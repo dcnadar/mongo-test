@@ -1,0 +1,14 @@
+{
+  "_id": "673338e902f79267ffc56568",
+  "key": "setting.department-list",
+  "name": "Department List",
+  "apisAccess": [
+    "66121e6ca10af254b4b437c2",
+    "66121e62a10af254b4b437c1"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T11:15:53.073Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.354Z"
+}

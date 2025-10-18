@@ -1,0 +1,71 @@
+{
+  "_id": "660fbc24c7b99128d924f77a",
+  "gridTitle": "Eduempower ClassSubject",
+  "gridType": "table",
+  "crmModelId": "66096978c7b99128d924f66f",
+  "columns": [
+    {
+      "$key": "eyi74c8ln1b",
+      "key": "classId",
+      "name": "Class",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "9ti725vrmvw",
+      "key": "schoolSubjectId",
+      "type": "card",
+      "sort": true,
+      "name": "School Subject"
+    },
+    {
+      "$key": "w3uda5uts8",
+      "key": "subjectName",
+      "name": "Subject Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "f37n0dkanvc",
+      "key": "shortName",
+      "name": "Short Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "0t23313f8pk",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "cm378a9v41p",
+          "gridTitle": "Edit Class Subject",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/schoolsetup/examinations/class-subject/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "db08r53bg8",
+      "gridTitle": "Add Class Subject",
+      "value": "Add Class Subject",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/schoolsetup/examinations/class-subject/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-05T08:53:56.113Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:00.216Z"
+}

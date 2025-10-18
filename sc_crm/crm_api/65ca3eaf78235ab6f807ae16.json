@@ -1,0 +1,11 @@
+{
+    "name": "All Examination",
+    "action": "CRM_GRID",
+    "sourceId": "65c8a8ee49292ef0296fcba5",
+    "gridType": "table",
+    "accountId": "65d0d41b0d1f40b74ff1bd92",
+    "apiType": "POST",
+    "path": "/admin/exams",
+    "created": "2024-02-12T15:52:15.668Z",
+    "_id": "65ca3eaf78235ab6f807ae16"
+}

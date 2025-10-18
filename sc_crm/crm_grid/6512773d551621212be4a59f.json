@@ -1,0 +1,101 @@
+{
+  "_id": "6512773d551621212be4a59f",
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "columns": [
+    {
+      "index": 0,
+      "name": "Order",
+      "key": "order",
+      "type": "text",
+      "sort": false,
+      "width": 50,
+      "$key": "hgf8b2ptq5g"
+    },
+    {
+      "index": 1,
+      "name": "Name",
+      "key": "name",
+      "type": "text",
+      "sort": false,
+      "$key": "2yp6taxpdlo"
+    },
+    {
+      "$key": "ivv7m2jw3k",
+      "key": "gridInfoId.thumb",
+      "name": "Grid Type",
+      "type": "thumb",
+      "width": 100,
+      "sort": false
+    },
+    {
+      "index": 2,
+      "name": "Created On",
+      "key": "created",
+      "type": "date",
+      "sort": false,
+      "$key": "z4tjqk0btje"
+    },
+    {
+      "index": 3,
+      "name": "Edit",
+      "key": "edit",
+      "type": "actions",
+      "show": true,
+      "align": "right",
+      "sort": false,
+      "width": 200,
+      "actions": [
+        {
+          "value": "Edit",
+          "slug": "/admin/website/page/section/update?id=:_id _id",
+          "type": "icon_button",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10015/10015359.png",
+          "$key": "plsu0pvtmmd"
+        },
+        {
+          "gridTitle": "Delete Menu Item",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure to delete ':name'?",
+          "gridMsgParams": "name",
+          "apiUrl": "/admin/website/page/section/delete?id=:_id&:pageId _id pageId",
+          "type": "icon",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10347/10347120.png",
+          "$key": "buk661263ku"
+        }
+      ],
+      "$key": "c6mdhoil7yv"
+    }
+  ],
+  "crmModelId": "6511ee6df9686d32acb3e2d3",
+  "gridTitle": "Website Page Section Table",
+  "apiType": "POST",
+  "createButton": {
+    "value": "Add Grid",
+    "slug": "/admin/website/page/section/add"
+  },
+  "apiUrl": "/admin/website/page/section",
+  "search": {
+    "placeHolder": "Search by Name"
+  },
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true
+    }
+  ],
+  "tableMeta": {
+    "defaultSort": {
+      "field": "order",
+      "order": "ascend"
+    }
+  },
+  "backUrl": "/admin/website/page",
+  "created": "2024-01-27T07:48:48.202Z",
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "fetchAdditionalKeys": [],
+  "leftOpenFilters": []
+}

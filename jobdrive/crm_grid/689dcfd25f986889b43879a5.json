@@ -1,0 +1,209 @@
+{
+  "_id": "689dcfd25f986889b43879a5",
+  "gridTitle": "placementDrive",
+  "gridType": "form",
+  "crmModelId": "689dc7635f986889b43879a3",
+  "rows": [
+    {
+      "$key": "cbeo7bkwi0s",
+      "fields": [
+        {
+          "id": "placementDriveCompanyAndPosition.companyId",
+          "title": "Company",
+          "span": 24,
+          "type": "list",
+          "multiple": false,
+          "$key": "4k6pw78sh5j"
+        },
+        {
+          "$key": "8voug0fu154",
+          "id": "placementDriveCompanyAndPosition.position",
+          "title": "Position",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "w87ccqi4v2",
+          "id": "placementDriveCompanyAndPosition.jobDescription",
+          "title": "Job Description",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "0mjzik47i2af",
+          "id": "placementDriveCompanyAndPosition.jobLocation",
+          "title": "Job Location",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "cqgtxarrrl4",
+          "id": "placementDriveCompanyAndPosition.minSalary",
+          "title": "Min Salary",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "yvoiklx8njc",
+          "id": "placementDriveCompanyAndPosition.maxSalary",
+          "title": "Max Salary",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "wjr4zuotx4",
+          "id": "placementDriveCompanyAndPosition.currency",
+          "title": "Currency",
+          "type": "list",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "bg1ulsvymw",
+          "id": "placementDriveCompanyAndPosition.jobType",
+          "title": "Job Type",
+          "type": "list",
+          "multiple": false,
+          "span": 6
+        }
+      ],
+      "label": "Company & Position",
+      "tab": "company"
+    },
+    {
+      "$key": "aw2hlea4o4t",
+      "fields": [
+        {
+          "id": "placementDriveEligibility.mincgpa",
+          "title": "Min CGPA",
+          "type": "number",
+          "span": 8,
+          "$key": "hgpucjyo7p8"
+        },
+        {
+          "$key": "ml9y4e1iwn",
+          "id": "placementDriveEligibility.maxBacklogs",
+          "title": "Max Backlogs",
+          "span": 8,
+          "type": "number"
+        },
+        {
+          "$key": "8oq6m2ev7u2",
+          "id": "placementDriveEligibility.eligibleBranches",
+          "title": "Eligible Branches",
+          "type": "list",
+          "span": 8,
+          "add": true,
+          "delete": true,
+          "multiple": true,
+          "min": 1,
+          "max": 5
+        },
+        {
+          "$key": "7tlxng424ya",
+          "id": "placementDriveEligibility.eligibleSemesters",
+          "title": "Eligible Semesters",
+          "type": "strings",
+          "span": 8,
+          "add": true,
+          "delete": true,
+          "multiple": false,
+          "o": true,
+          "meta": {
+            "inputParams": []
+          },
+          "validate": "return this.placementDriveEligibility && this.placementDriveEligibility.eligiblesemesters && this.placementDriveEligibility.eligiblesemesters.length > 0 && !this.placementDriveEligibility.eligiblesemesters.every(f => !isNaN(Number(f))) ? \"Please enter only numbers\"  : \"\";"
+        },
+        {
+          "$key": "ysjn2zn7tfh",
+          "id": "placementDriveEligibility.requiredSkills",
+          "title": "Required Skills",
+          "type": "strings",
+          "span": 8,
+          "multiple": true,
+          "add": false,
+          "delete": false
+        }
+      ],
+      "tab": "eligibility",
+      "label": "Eligibility Criteria"
+    },
+    {
+      "$key": "how9pfo7p3",
+      "tab": "schedule",
+      "label": "Schedule & Capacity",
+      "fields": [
+        {
+          "id": "placementDriveSchedule.registrationDeadline",
+          "title": "Registration Deadline",
+          "$key": "fsteduxx354",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "y0eu3rnnl1n",
+          "id": "placementDriveSchedule.testDate",
+          "title": "Test Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "08qkq6cktbgr",
+          "id": "placementDriveSchedule.interviewRounds",
+          "title": "Interview Rounds",
+          "type": "form_array",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "add": true,
+          "delete": true
+        },
+        {
+          "$key": "q9oq0whpbo",
+          "id": "placementDriveSchedule.driveDate",
+          "type": "date",
+          "title": "Drive Date",
+          "span": 8
+        }
+      ]
+    },
+    {
+      "$key": "wkz3itgfch",
+      "tab": "requirements",
+      "label": "Requirements",
+      "fields": [
+        {
+          "id": "placementDriveRequirements.isActive",
+          "title": "Is Active",
+          "type": "bool",
+          "span": 8,
+          "$key": "h1orhkablrb"
+        },
+        {
+          "$key": "i6qya80n2w",
+          "id": "placementDriveRequirements.status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T12:00:18.580Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "driveId",
+      "documentKey": "id",
+      "required": false
+    }
+  ],
+  "updated": "2025-09-05T11:02:52.869Z"
+}

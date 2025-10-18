@@ -1,0 +1,21 @@
+{
+  "_id": "67b735f2d102ac67ee6a50e0",
+  "name": "Account Settings",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "account_settings",
+  "properties": [
+    {
+      "$key": "yt5nvhz6pj",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-02-20T14:02:26.511Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:54.593Z"
+}

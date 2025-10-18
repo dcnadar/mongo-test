@@ -1,0 +1,13 @@
+{
+  "_id": "66852f063108ad7b7d063f68",
+  "name": "Payment Setting",
+  "path": "/admin/account/settings/payment",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66852eb23108ad7b7d063f66",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T10:59:18.258Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

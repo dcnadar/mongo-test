@@ -1,0 +1,13 @@
+{
+  "_id": "6611821ea10af254b4b43742",
+  "name": "Edit Fee Fine",
+  "path": "/admin/schoolsetup/fee-settings/fee-fine/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660ceef3c7b99128d924f731",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T17:10:54.964Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:46.312Z"
+}

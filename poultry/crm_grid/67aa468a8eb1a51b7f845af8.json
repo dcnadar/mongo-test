@@ -1,0 +1,87 @@
+{
+  "_id": "67aa468a8eb1a51b7f845af8",
+  "gridTitle": "Batch Info HTML",
+  "gridType": "table",
+  "crmModelId": "667cfc6a74a25c4c696adb31",
+  "columns": [
+    {
+      "$key": "mpq39sv1uzd",
+      "key": "All Batch Info",
+      "type": "text",
+      "valueCondition": "return `<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#333;\"><div style=\"display:flex;flex-wrap:wrap;\"><div style=\"flex:1;min-width:300px;padding:5px;\"><div style=\"color:#87c66b;font-weight:600;margin-bottom:6px;\">Batch Info</div><div style=\"display:flex;justify-content:space-between;margin-bottom:4px;\"><span>Batch Placement</span><span>${new Date(this.batchInfo.batchPlacement).toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}</span></div><div style=\"display:flex;justify-content:space-between;margin-bottom:4px;\"><span>Number of DOC Placed</span><span>${this.batchInfo.nOOfDocPlaced}</span></div><div style=\"display:flex;justify-content:space-between;margin-bottom:4px;\"><span>Number of Feeder</span><span>${this.batchInfo.nOOfFeeder}</span></div><div style=\"display:flex;justify-content:space-between;margin-bottom:4px;\"><span>Number of Feeder / 100 Bird</span><span>${this.batchInfo.nOOfFeederBird}</span></div><div style=\"display:flex;justify-content:space-between;margin-bottom:4px;\"><span>Number of Drinker</span><span>${this.batchInfo.nOOfDrinker}</span></div><div style=\"display:flex;justify-content:space-between;\"><span>Number of Drinker / 100 Bird</span><span>${this.batchInfo.nOOfDrinkerBird}</span></div></div><div style=\"flex:1;min-width:300px;padding:5px;border-left:1px solid #eee;\"><div style=\"color:#87c66b;font-weight:600;margin-bottom:6px;\">Hygiene & Practices</div><div style=\"display:flex;justify-content:space-between;margin-bottom:4px;\"><span>Practicing before Placement of DOC</span><span></span></div><div style=\"display:flex;justify-content:space-between;margin-bottom:4px;\"><span>Spraying Disinfectant</span><span>${this.batchInfo.sparyingDisinfectant}</span></div><div style=\"display:flex;justify-content:space-between;margin-bottom:4px;\"><span>White Wash</span><span>${this.batchInfo.whiteWash}</span></div><div style=\"display:flex;justify-content:space-between;margin-bottom:4px;\"><span>Wiping of Floor</span><span>${this.batchInfo.wipingOfFloor}</span></div><div style=\"display:flex;justify-content:space-between;\"><span>Fumigation</span><span>${this.batchInfo.fumigation}</span></div></div></div><div style=\"padding:5px;border-top:1px solid #eee;margin-top:10px;\"><div style=\"color:#87c66b;font-weight:600;margin-bottom:6px;\">Input Cost</div><div style=\"display:flex;justify-content:space-between;margin-bottom:4px;\"><span>Litter</span><span>₹${this.batchInfo.litter}</span></div><div style=\"display:flex;justify-content:space-between;\"><span>DOC</span><span>₹${this.batchInfo.doc}</span></div></div></div>`;",
+      "sort": false,
+      "width": 500,
+      "name": "Batches"
+    },
+    {
+      "$key": "c19psqz2wmm",
+      "key": "actions",
+      "sort": false,
+      "width": 100,
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "w8gc8x6fxw",
+          "gridTitle": "Edit Batch Info",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/farmer/batch-info/edit?id=:_id _id",
+          "value": "Edit Info",
+          "showCondition": "return !this.batchIndex;"
+        },
+        {
+          "$key": "ftdv9ld8ltc",
+          "gridTitle": "Close Batch",
+          "value": "Batch Close",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/farmer/batch-close?id=:_id _id",
+          "showCondition": "return !this.batchClose;",
+          "pagination": false
+        },
+        {
+          "$key": "rjvz3kf61x",
+          "gridTitle": "Edit Close Batch",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/farmer/batch-close?id=:_id _id",
+          "value": "Edit Batch Close",
+          "showCondition": "return this.batchClose && !this.batchIndex;"
+        },
+        {
+          "$key": "6fqrcdq0pf8",
+          "gridTitle": "Index Batch",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/farmer/batch-index?id=:_id _id",
+          "value": "Index Batch",
+          "showCondition": "return this.batchClose;"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "l5l1gk1t5",
+      "gridTitle": "Add Batch Info",
+      "value": "Add Batch Info",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/farmer/batch-info/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "batchInfo",
+    "batchClose",
+    "batchIndex"
+  ],
+  "gridParams": [
+    {
+      "key": "farmerId",
+      "required": true
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2025-02-10T18:33:46.525Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

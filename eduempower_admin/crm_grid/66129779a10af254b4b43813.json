@@ -1,0 +1,56 @@
+{
+  "_id": "66129779a10af254b4b43813",
+  "gridTitle": "Eduempower ClassType",
+  "gridType": "table",
+  "crmModelId": "660c0713c7b99128d924f70b",
+  "columns": [
+    {
+      "$key": "zve7ny3mxgc",
+      "key": "key",
+      "name": "Key",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "won4khfbubf",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "oyej213lil",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "actions": [
+        {
+          "$key": "lxmncxqxq",
+          "gridTitle": "Edit Class Type",
+          "value": "Edit",
+          "apiUrl": "/admin/entity-setup/class-type/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "tzzf15467m8",
+      "gridTitle": "Add Class Type",
+      "value": "Add Class Type",
+      "apiUrl": "/admin/entity-setup/class-type/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-07T12:54:17.431Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

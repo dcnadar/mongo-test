@@ -1,0 +1,13 @@
+{
+  "_id": "66651c5907b1a041b15e0bb2",
+  "name": "Edit State",
+  "path": "/admin/location/state/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66644c2607b1a041b15e0ba2",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-09T03:07:05.271Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

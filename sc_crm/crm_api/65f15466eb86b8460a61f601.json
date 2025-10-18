@@ -1,0 +1,11 @@
+{
+  "_id": "65f15466eb86b8460a61f601",
+  "name": "Update Page Section Group",
+  "path": "/admin/website/settings/section-group/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "65f1533feb86b8460a61f5fa",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-13T07:23:18.877Z"
+}

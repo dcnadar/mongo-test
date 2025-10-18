@@ -1,0 +1,84 @@
+{
+  "_id": "65fe9397af73461003dd256a",
+  "gridTitle": "ReactGrid GlobalBlogCards6 Section",
+  "gridType": "form",
+  "crmModelId": "65fe9123af73461003dd2568",
+  "rows": [
+    {
+      "$key": "wnjigtlgrc",
+      "fields": [
+        {
+          "id": "date",
+          "type": "date",
+          "span": 8,
+          "$key": "v9cqbt1loyp",
+          "title": "Date",
+          "format": "MM/DD/YYYY",
+          "o": true
+        },
+        {
+          "$key": "ig2v1fbyn6g",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "nd2rbl1q84f",
+          "id": "descriptions",
+          "title": "Descriptions",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "3u5m2953z8r",
+          "id": "enableButton",
+          "title": "Enable Section Click",
+          "type": "bool",
+          "o": true,
+          "span": 4
+        },
+        {
+          "$key": "av6y5el3vf4",
+          "id": "buttonAction",
+          "title": "Click Action",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 20,
+          "showCondition": "return this.enableButton;"
+        },
+        {
+          "$key": "1p8arwaq8nq",
+          "id": "user",
+          "title": "User",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-23T08:32:23.451Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

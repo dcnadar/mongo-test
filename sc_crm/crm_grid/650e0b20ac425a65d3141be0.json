@@ -1,0 +1,22 @@
+{
+  "_id": "650e0b20ac425a65d3141be0",
+  "gridType": "menu",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "gridTitle": "Header Menu",
+  "created": "2021-02-02T14:05:44.964Z",
+  "menuItems": [
+    {
+      "key": "header-menu",
+      "slug": "/admin/website/header/menu",
+      "value": "Main Menu"
+    },
+    {
+      "key": "header-settings",
+      "slug": "/admin/website/header/settings",
+      "value": "Header Settings"
+    }
+  ],
+  "thumb": "https://cdn-icons-png.flaticon.com/512/11817/11817755.png",
+  "slug": "/admin/website/header"
+}

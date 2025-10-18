@@ -1,0 +1,538 @@
+{
+  "_id": "6606cc9deea36066ca04cbd2",
+  "name": "Eduempower User",
+  "modelType": "COLLECTION",
+  "collectionName": "user",
+  "properties": [
+    {
+      "$key": "7y7zhpev9ng",
+      "key": "userType",
+      "name": "User Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [],
+        "tagCategory": "userType"
+      },
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "s99yu6tbjf",
+      "key": "firstName",
+      "name": "First Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "e785e1mml2",
+      "key": "lastName",
+      "name": "Last Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "b3d2xrq7tgk",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "obtc3xbypra",
+      "name": "User Name",
+      "key": "userName",
+      "dataType": "STRING",
+      "unique": true,
+      "searchable": {
+        "value": false,
+        "description": false
+      }
+    },
+    {
+      "$key": "wiys1da9bi",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "dataType": "STRING",
+      "searchable": {
+        "value": false,
+        "description": true
+      }
+    },
+    {
+      "$key": "gfgveygba2",
+      "key": "callingCode",
+      "name": "Calling Code",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "eb4d3j34b98",
+            "key": "+91",
+            "value": "+91"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "pcgsdmsdl",
+      "key": "birthDate",
+      "name": "Birth Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "jvxiwqo9e5h",
+      "key": "gender",
+      "name": "Gender",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "latcyv0frk",
+            "key": "MALE",
+            "value": "Male"
+          },
+          {
+            "$key": "d957zp4j678",
+            "key": "FEMALE",
+            "value": "Female"
+          },
+          {
+            "$key": "8p0kja03tsq",
+            "key": "OTHERS",
+            "value": "Others"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "v1nvp6oxm8",
+      "key": "bloodGroup",
+      "name": "BloodGroup",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wocgv8hxg2",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING",
+      "searchable": {
+        "thumb": true
+      }
+    },
+    {
+      "$key": "9nl9oz0gagc",
+      "key": "presentAddress",
+      "name": "Present Address",
+      "dataType": "INNER_MODEL",
+      "modelId": "660ac9ccc7b99128d924f6c1"
+    },
+    {
+      "$key": "6hs763b20rq",
+      "key": "permanentSameAsPresent",
+      "name": "Permanent Same As Present",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "xlfm3lomg9o",
+      "key": "permanentAddress",
+      "name": "Permanent Address",
+      "dataType": "INNER_MODEL",
+      "modelId": "660ac9ccc7b99128d924f6c1"
+    },
+    {
+      "$key": "gc7x5yfxk8n",
+      "key": "academicDetails",
+      "name": "Academic Details",
+      "dataType": "INNER_MODEL",
+      "modelId": "6606c8d3eea36066ca04cbd1"
+    },
+    {
+      "$key": "0hv3kqgmjct",
+      "key": "employmentDetail",
+      "name": "Employment Detail",
+      "dataType": "INNER_MODEL",
+      "modelId": "660ae805c7b99128d924f6d9"
+    },
+    {
+      "$key": "318qmcihwki",
+      "key": "salutation",
+      "name": "Salutation",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "z3mor2g9wo8",
+      "key": "middleName",
+      "name": "Middle Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cf8268xxukr",
+      "key": "bankingDetails",
+      "name": "Banking Details",
+      "dataType": "INNER_MODEL",
+      "modelId": "6622770b7d57294ed2705101"
+    },
+    {
+      "$key": "gmbsnspb686",
+      "key": "martialStatus",
+      "name": "Martial Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "edq2k5qzck",
+            "key": "MARRIED",
+            "value": "Married"
+          },
+          {
+            "$key": "dm03iex9c0p",
+            "key": "SINGLE",
+            "value": "Single"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "v3xgb0n1f9n",
+      "key": "weddingDate",
+      "name": "Wedding Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "5m093med9xw",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "1i27a0824inj",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "7mdsjie69wc",
+            "key": "INACTIVE",
+            "value": "Inactive"
+          },
+          {
+            "$key": "jzugl2xr28",
+            "key": "TEMP_BANNED",
+            "value": "TempBanned"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "f661lodrt5",
+      "key": "dateOfJoining",
+      "name": "Date Of Joining",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "ac2kngj7qm",
+      "key": "_id",
+      "name": "Id",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "c0e2oyxl0oa",
+      "key": "enqNo",
+      "name": "EnqNo",
+      "dataType": "STRING",
+      "unique": true
+    },
+    {
+      "$key": "heh2pezkd4",
+      "key": "enqDate",
+      "name": "EnqDate",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "4ngkmsrbkac",
+      "key": "nationality",
+      "name": "Nationality",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ow46oznyaqh",
+      "key": "religion",
+      "name": "Religion",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rh605p994y",
+      "key": "motherTongue",
+      "name": "MotherTongue",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gmv7n3bbszj",
+      "key": "source",
+      "name": "Source",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vcgt6wm3q2s",
+      "dataType": "STRING",
+      "key": "additionalInfo",
+      "name": "AdditionalInfo"
+    },
+    {
+      "$key": "1f052wy5xn7",
+      "key": "remarksLog",
+      "name": "Remarks Log",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "672fd82d7a1bdc0b65d0bd1f"
+    },
+    {
+      "$key": "306u3fsir8r",
+      "key": "admissionStepStatus",
+      "name": "AdmissionStepStatus",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gvv0nrjymj5",
+      "key": "followUp",
+      "name": "FollowUp",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "rq6nx8wxlw",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "31ny15ygqrz",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "qjqtbnwng0p",
+      "key": "followUps",
+      "name": "FollowUps",
+      "dataType": "LIST_OF",
+      "modelId": "672f03287a1bdc0b65d0bd0b",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "ofrt88tdjsc",
+      "key": "primaryContact",
+      "name": "PrimaryContact",
+      "dataType": "INNER_MODEL",
+      "modelId": "671923b95f22ec7ba0264976"
+    },
+    {
+      "$key": "0gfn2w8vfz8u",
+      "key": "secondaryContact",
+      "name": "SecondaryContact",
+      "dataType": "INNER_MODEL",
+      "modelId": "671923b95f22ec7ba0264976"
+    },
+    {
+      "$key": "0dsfgzwxtr8e",
+      "key": "admissionStep",
+      "name": "AdmissionStep",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "dq0do4nm127",
+            "key": "ENQUIRY",
+            "value": "Enquiry"
+          },
+          {
+            "$key": "7ewbeeujdsb",
+            "key": "APPLICATION",
+            "value": "Application"
+          },
+          {
+            "$key": "qwrbugae3mn",
+            "key": "REGISTRATION",
+            "value": "Registration"
+          },
+          {
+            "$key": "7v2kbiyctx9",
+            "key": "EVALUATION",
+            "value": "Evaluation"
+          },
+          {
+            "$key": "g6kok8qnfs",
+            "key": "SHORTLISTED",
+            "value": "Shortlisted"
+          },
+          {
+            "$key": "nvuygt511jb",
+            "key": "CONFIRMED",
+            "value": "Confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "kl0mvy017r",
+      "key": "autoGenerate",
+      "name": "autoGenerate",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "fjz82i5gtp8",
+      "key": "_workLocation",
+      "name": "Admission Branch",
+      "dataType": "REFERENCE",
+      "modelId": "6606750ceea36066ca04cbca"
+    },
+    {
+      "$key": "5j2bol2xw1v",
+      "key": "dateOfLeaving",
+      "name": "dateOfLeaving",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "gcbn5e1fjho",
+      "key": "remarks",
+      "name": "Remarks",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "olo14616yic",
+      "key": "vehicleDetail",
+      "dataType": "STRING",
+      "name": "Vehicle Detail"
+    },
+    {
+      "$key": "kprvfjeivlt",
+      "key": "password",
+      "name": "Password",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "diecqys8sxk",
+      "key": "admin",
+      "name": "Admin",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "p5kg4n6jev",
+      "key": "fatherContact",
+      "name": "Father Contact",
+      "dataType": "INNER_MODEL",
+      "modelId": "686b5654eafb2047bf212bb6"
+    },
+    {
+      "$key": "9vj21ofwmxa",
+      "key": "motherContact",
+      "name": "Mother Contact",
+      "dataType": "INNER_MODEL",
+      "modelId": "686b5654eafb2047bf212bb6"
+    },
+    {
+      "$key": "dgsmdek9zd",
+      "key": "grandMotherContact",
+      "name": "Grand Mother Contact",
+      "dataType": "INNER_MODEL",
+      "modelId": "686b5654eafb2047bf212bb6"
+    },
+    {
+      "$key": "lnpxuc9jfzn",
+      "key": "grandFatherContact",
+      "name": "Grand Father Contact",
+      "dataType": "INNER_MODEL",
+      "modelId": "686b5654eafb2047bf212bb6"
+    },
+    {
+      "$key": "nq7wit59ls",
+      "key": "guardianContact",
+      "name": "Guardian Contact",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "686b5783eafb2047bf212bb8"
+    },
+    {
+      "$key": "tnpq30swge8",
+      "key": "additionalContact",
+      "name": "Additional Contact",
+      "dataType": "INNER_MODEL",
+      "modelId": "686b5838eafb2047bf212bba"
+    },
+    {
+      "$key": "5pjaavipno5",
+      "key": "studentAdditionalDetails",
+      "name": " Student Additional Details",
+      "dataType": "INNER_MODEL",
+      "modelId": "686b5a75eafb2047bf212bbc"
+    },
+    {
+      "$key": "406bwwq85f8",
+      "key": "healthDetails",
+      "name": "Health Details",
+      "dataType": "INNER_MODEL",
+      "modelId": "686b5d29eafb2047bf212bc0"
+    },
+    {
+      "$key": "cx0b1duof7l",
+      "key": "onlyOneChild",
+      "name": "Only One Child",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "t4wyqo7oh2a",
+      "key": "minority",
+      "dataType": "BOOLEAN",
+      "name": "Minority"
+    },
+    {
+      "$key": "xdruyxf1lxm",
+      "key": "physicalDisability",
+      "name": "Physical Disability",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7yf4uzqn289",
+      "key": "adharNo",
+      "name": "Adhar No",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0vpq4g35u2rf",
+      "key": "caste",
+      "name": "Caste",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5s7qdecf3zu",
+      "key": "userManagement",
+      "name": "User Management",
+      "dataType": "INNER_MODEL",
+      "modelId": "686cde449ed1d9292763116c"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "salutation firstName middleName lastName",
+    "subtitles": [],
+    "type": "email",
+    "thumb": "logo"
+  },
+  "menuTargets": {
+    "title": "email",
+    "thumb": "logo"
+  },
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-29T14:13:49.706Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "updated": "2025-09-08T10:51:05.154Z"
+}

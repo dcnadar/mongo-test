@@ -1,0 +1,52 @@
+{
+  "_id": "65a640d050e8b0b52791282f",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Desktop Image",
+          "id": "image",
+          "type": "upload",
+          "span": 12,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Mobile Image",
+          "id": "mobileImage",
+          "type": "upload",
+          "span": 12,
+          "o": true
+        },
+        {
+          "index": 2,
+          "title": "Enable Button",
+          "id": "enableButton",
+          "span": 8,
+          "type": "bool",
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Button Action",
+          "id": "buttonAction",
+          "type": "inner_form",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "crmFormId": "6517ad7d581c417ed1d0dd4c"
+          },
+          "showCondition": "return this.enableButton;"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65a63ee13b27a4e28376faa4",
+  "gridTitle": "ReactGrid GlobalImageSlider Section",
+  "created": "2024-01-16T08:39:44.223Z"
+}

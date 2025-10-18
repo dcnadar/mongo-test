@@ -1,0 +1,11 @@
+{
+  "_id": "661666c22742031ccaab99c9",
+  "name": "Website Header Section",
+  "path": "/admin/website/header/section/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "66164bdf2742031ccaab99ba",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-10T10:15:30.765Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

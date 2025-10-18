@@ -1,0 +1,25 @@
+{
+  "_id": "6526ba2f696fa159e510155b",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "buttonText",
+      "name": "Button Text"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image"
+    },
+    {
+      "dataType": "STRING",
+      "key": "defaultBgColor",
+      "name": "Default Background Color"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid FoodioAppBanner Button",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:51.975Z"
+}

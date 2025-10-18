@@ -1,0 +1,202 @@
+{
+  "_id": "66194ccfaee00c70206deb4a",
+  "gridTitle": "Eduempower Staff",
+  "gridType": "table",
+  "columns": [
+    {
+      "$key": "4x3uy70x9i8",
+      "key": "_id",
+      "name": "Staff",
+      "type": "card",
+      "select": true,
+      "show": true,
+      "sort": false,
+      "width": 300
+    },
+    {
+      "$key": "k67mdoeusft",
+      "key": "employmentDetail.departmentId",
+      "name": "Department",
+      "select": true,
+      "show": true,
+      "type": "card",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "fil4kpp0srh",
+      "key": "employmentDetail.designationId",
+      "name": "Designation",
+      "type": "card",
+      "select": true,
+      "show": true,
+      "sort": false,
+      "width": 150
+    },
+    {
+      "$key": "y3jor6tmz8d",
+      "name": "Employee Id",
+      "type": "tag",
+      "width": 150,
+      "select": true,
+      "show": true,
+      "sort": false,
+      "key": "employmentDetail.employeeId"
+    },
+    {
+      "$key": "nmxjeb2979",
+      "key": "employmentDetail.attendanceCode",
+      "name": "Attendance Code",
+      "select": true,
+      "show": true,
+      "type": "tag",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "86vwplf43m7",
+      "key": "dateOfJoining",
+      "name": "Date Of Joining",
+      "type": "date",
+      "select": true,
+      "show": true,
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "zi5djwp7den",
+      "key": "status",
+      "name": "Status",
+      "select": true,
+      "show": true,
+      "type": "text",
+      "width": 100,
+      "sort": false
+    },
+    {
+      "$key": "b7g3qov7rk7",
+      "key": "actions",
+      "type": "options",
+      "width": 20,
+      "actions": [
+        {
+          "$key": "r74j7bw1sch",
+          "gridTitle": "Staff Info",
+          "value": "View Details",
+          "slug": "/admin/staff/edit?staffId=:_id _id"
+        },
+        {
+          "$key": "m3mhlaifyg",
+          "gridTitle": "Discontinue",
+          "apiUrl": "/admin/staff/discontinue/edit?staffId=:_id _id",
+          "value": "Discontinue",
+          "gridType": "popupForm",
+          "showCondition": "return this.status === \"ACTIVE\""
+        },
+        {
+          "$key": "zu6lhsfre6h",
+          "gridTitle": "Change Password",
+          "value": "Change Password",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/staff/password/edit?staffId=:_id _id"
+        }
+      ],
+      "sort": false,
+      "name": "'"
+    }
+  ],
+  "actions": [
+    {
+      "$key": "r4mq95wds2p",
+      "gridTitle": "Add Staff",
+      "value": "Add Staff",
+      "gridType": "popupForm",
+      "slug": "/admin/staff/add"
+    },
+    {
+      "$key": "11wskru6g11b",
+      "gridTitle": "Export Staff",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/staff/export",
+      "value": "Export"
+    },
+    {
+      "$key": "1xvhfmjok28",
+      "gridTitle": "Import Staff",
+      "slug": "/admin/staff/import",
+      "value": "Import"
+    }
+  ],
+  "border": false,
+  "customFilters": [
+    {
+      "$key": "6tzaskrup8q",
+      "fields": [
+        {
+          "$key": "vgknz5s8bpo",
+          "id": "employmentDetail.departmentId",
+          "title": "Department",
+          "type": "list",
+          "span": 24,
+          "o": true,
+          "multiple": false,
+          "nullIds": [
+            "employmentDetail.designationId"
+          ]
+        },
+        {
+          "$key": "om7521g1rfe",
+          "id": "employmentDetail.designationId",
+          "title": "Designation",
+          "type": "list",
+          "span": 24,
+          "o": true,
+          "multiple": false,
+          "meta": {
+            "queryParams": "departmentId=:employmentDetail.departmentId employmentDetail.departmentId"
+          }
+        },
+        {
+          "$key": "a5ubf1u51c6",
+          "id": "dateOfJoining",
+          "title": "Date Of Joining",
+          "type": "date",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "2xbfqf26h47",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "span": 24,
+          "multiple": false,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "5ntr3kmh5g6",
+        "operator": "EQUALS",
+        "EQUALS": "STAFF",
+        "propertyKey": "userType"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "_id"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-12T15:01:35.653Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "gridParams": [],
+  "search": {
+    "placeHolder": "Search by name, phone, employee id and email"
+  },
+  "updated": "2025-09-08T10:51:00.895Z"
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "65a94e69004f4d43a5f06c9e",
+  "properties": [
+    {
+      "dataType": "REFERENCE",
+      "key": "key",
+      "name": "Key",
+      "modelId": "6511dfccf9686d32acb3e2d2"
+    },
+    {
+      "dataType": "STRING",
+      "key": "value",
+      "name": "Value"
+    },
+    {
+      "dataType": "STRING",
+      "key": "thumb",
+      "name": "Thumbnail"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid Search Value",
+  "modelType": "INNER",
+  "created": "2024-01-18T10:42:37.143Z",
+  "modelStatus": "ACTIVE"
+}

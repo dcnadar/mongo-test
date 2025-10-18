@@ -1,0 +1,12 @@
+{
+  "_id": "67d7f3965ea132199e60a84e",
+  "key": "set_manager",
+  "name": "Set Manager Api Access",
+  "apisAccess": [
+    "6614f90aa10af254b4b4389f",
+    "6614f910a10af254b4b438a0"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-17T10:04:06.788Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

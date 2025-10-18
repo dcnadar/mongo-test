@@ -1,0 +1,13 @@
+{
+  "_id": "66124d9ea10af254b4b437f1",
+  "name": "Edit Class Incharge",
+  "path": "/admin/schoolsetup/class-incharge/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cf27bc7b99128d924f737",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T07:39:10.226Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:50.044Z"
+}

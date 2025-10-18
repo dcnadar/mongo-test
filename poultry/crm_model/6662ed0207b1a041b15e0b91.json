@@ -1,0 +1,207 @@
+{
+  "_id": "6662ed0207b1a041b15e0b91",
+  "name": "Farm Status (OLD)",
+  "modelType": "COLLECTION",
+  "properties": [
+    {
+      "$key": "rxyn9rbucm7",
+      "name": "Month",
+      "dataType": "STRING",
+      "key": "month",
+      "data": {
+        "options": [
+          {
+            "$key": "615whup4ho7",
+            "key": "01",
+            "value": "January"
+          },
+          {
+            "$key": "fpgr75mzaf7",
+            "key": "02",
+            "value": "February"
+          },
+          {
+            "$key": "wv4b1aa2sv",
+            "key": "03",
+            "value": "March"
+          },
+          {
+            "$key": "tysxzefluqr",
+            "key": "04",
+            "value": "April"
+          },
+          {
+            "$key": "6aobju1ulic",
+            "key": "05",
+            "value": "May"
+          },
+          {
+            "$key": "8ayf57r75d",
+            "key": "06",
+            "value": "June"
+          },
+          {
+            "$key": "01cizlh68vvz",
+            "key": "07",
+            "value": "July"
+          },
+          {
+            "$key": "klrtei3kqh",
+            "key": "08",
+            "value": "August"
+          },
+          {
+            "$key": "815fztaso1f",
+            "key": "09",
+            "value": "September"
+          },
+          {
+            "$key": "t57ucm0yxrp",
+            "key": "10",
+            "value": "October"
+          },
+          {
+            "$key": "00l01mgnno8h",
+            "key": "11",
+            "value": "November"
+          },
+          {
+            "$key": "7zon3ykax3x",
+            "key": "12",
+            "value": "December"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "o3be4tvady",
+      "name": "Year",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "sqyfm6vcp1b",
+            "key": "2024",
+            "value": "2024"
+          },
+          {
+            "$key": "vzzvq2u5cbl",
+            "key": "2025",
+            "value": "2025"
+          },
+          {
+            "$key": "sdsid1cepms",
+            "key": "2026",
+            "value": "2026"
+          },
+          {
+            "$key": "udksi3hbwf8",
+            "key": "2027",
+            "value": "2027"
+          },
+          {
+            "$key": "02v8t01ymr9v",
+            "key": "2028",
+            "value": "2028"
+          },
+          {
+            "$key": "fyc6nqt0ey",
+            "key": "2029",
+            "value": "2029"
+          },
+          {
+            "$key": "b728ez7nf16",
+            "key": "2030",
+            "value": "2030"
+          }
+        ]
+      },
+      "key": "year"
+    },
+    {
+      "$key": "cd3mds25ekk",
+      "key": "noOfBirds",
+      "name": "Number Of Birds",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "6miymk3nhuk",
+      "key": "avgWgtOfBirds",
+      "name": "Average Weight Of Birds",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "3qoyd0tfda4",
+      "key": "oldChicksProcured",
+      "name": "Number Of Day Old Chicks Procured",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "r7rtzp05ncp",
+      "key": "noOfDeadBirds",
+      "name": "Number Of Dead Birds",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "zs1a48a477b",
+      "key": "mortalityRate",
+      "name": "Mortality Rate",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kxjprblrd5a",
+      "key": "farmCondition",
+      "name": "Farm Condition",
+      "dataType": "INNER_MODEL",
+      "modelId": "66682eb7cf65cd7a11ef2c4a"
+    },
+    {
+      "$key": "u4lwx89hpv",
+      "key": "inputs",
+      "name": "Inputs",
+      "dataType": "INNER_MODEL",
+      "modelId": "666830c2cf65cd7a11ef2c4c"
+    },
+    {
+      "$key": "bac46219mpd",
+      "key": "outputs",
+      "name": "Outputs",
+      "dataType": "INNER_MODEL",
+      "modelId": "666835ddcf65cd7a11ef2c4e"
+    },
+    {
+      "$key": "ddqxjjtxkk7",
+      "key": "costIncurred",
+      "name": "Cost Incurred",
+      "dataType": "INNER_MODEL",
+      "modelId": "66685df5cf65cd7a11ef2c58"
+    },
+    {
+      "$key": "m7elipp8yta",
+      "key": "grossIncome",
+      "name": "Gross Income",
+      "dataType": "INNER_MODEL",
+      "modelId": "66686402cf65cd7a11ef2c5a"
+    },
+    {
+      "$key": "ugy0gezhn1l",
+      "key": "profitNetIncome",
+      "name": "Profit Net Income",
+      "dataType": "INNER_MODEL",
+      "modelId": "666868becf65cd7a11ef2c5b"
+    },
+    {
+      "$key": "xeroz1erveh",
+      "key": "farmerId",
+      "name": "Farmer ID",
+      "dataType": "REFERENCE",
+      "modelId": "6662aede07b1a041b15e0b58"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T11:20:34.454Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "cardDataTargets": {},
+  "collectionName": "poultry_farm_status",
+  "menuTargets": {}
+}

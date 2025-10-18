@@ -1,0 +1,36 @@
+{
+  "_id": "66cee05497c5ab7546485c1a",
+  "gridTitle": "ReactGrid GlobalHeade3 subMenu",
+  "gridType": "form",
+  "crmModelId": "66ced2cb7954ad1d98836ec0",
+  "rows": [
+    {
+      "$key": "abvu432rsn7",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "715clk3fbj8"
+        },
+        {
+          "$key": "kira4jv0rt",
+          "id": "items",
+          "title": "Items",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 32
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-28T08:31:16.161Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "673137117a1bdc0b65d0bd2b",
+  "name": "Remark log",
+  "path": "/admin/admission/update/remark-log",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "672fdbee7a1bdc0b65d0bd20",
+  "innerGridType": "table",
+  "innerSourceId": "67312c0b7a1bdc0b65d0bd25",
+  "gridParams": [
+    {
+      "required": true,
+      "key": "id"
+    }
+  ],
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-10T22:43:29.906Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:55.927Z"
+}

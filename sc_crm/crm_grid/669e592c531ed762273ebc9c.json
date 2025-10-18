@@ -1,0 +1,95 @@
+{
+  "_id": "669e592c531ed762273ebc9c",
+  "gridTitle": "NativeGrid GlobalProductList sections",
+  "gridType": "form",
+  "crmModelId": "669e4b3d531ed762273ebc9a",
+  "rows": [
+    {
+      "$key": "26u1y5qxpcf",
+      "fields": [
+        {
+          "id": "thumb",
+          "title": "Thumb",
+          "span": 8,
+          "type": "upload",
+          "$key": "83ssuzmnx86",
+          "multiple": false
+        },
+        {
+          "$key": "epgd28fpu1w",
+          "id": "rating",
+          "title": "Rating",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "my5p05ncff",
+          "id": "reviewCount",
+          "title": "Review Count",
+          "span": 8,
+          "type": "number"
+        },
+        {
+          "$key": "twv0xhspm1",
+          "id": "brand",
+          "title": "Brand",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "4dtzns3l6v8",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "grof40hj279",
+          "id": "category",
+          "title": "Category",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "j63ujbzf7v",
+          "id": "bestPrice",
+          "title": "BestPrice",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "e94mkrejdde",
+          "id": "currencySymbol",
+          "title": "Currency Symbol",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "fmny3d5xwdw",
+          "id": "price",
+          "title": "Price",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "wcdqosmp4h",
+          "id": "mrp",
+          "title": "Mrp",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "uu7fik1wjd",
+          "id": "discount",
+          "title": "Discount",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-22T13:05:48.196Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "67a730d7b81dbd448287fa6f",
+  "gridTitle": "ReactGrid GlobalBrand2",
+  "gridType": "form",
+  "crmModelId": "67a73028b81dbd448287fa6e",
+  "rows": [
+    {
+      "$key": "gfx05botcz",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "c7dj2cwtgg8"
+        },
+        {
+          "$key": "heflp0tky46",
+          "id": "description",
+          "title": "Description",
+          "type": "text_editor",
+          "span": 16
+        },
+        {
+          "$key": "icm9gcgi6g",
+          "id": "images",
+          "title": "Images",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 24,
+          "add": true,
+          "delete": true,
+          "min": 5,
+          "max": 20
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-08T10:24:23.722Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

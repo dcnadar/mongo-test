@@ -1,0 +1,13 @@
+{
+  "_id": "661e4e4ee8eed80abc953491",
+  "name": "Edit Blog Content ",
+  "path": "/admin/website/blog/content/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67aafcff8eb1a51b7f845b04",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-16T10:09:18.467Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": []
+}

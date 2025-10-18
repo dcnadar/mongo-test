@@ -1,0 +1,15 @@
+{
+  "_id": "676fa77d33897d49a1050c9b",
+  "name": "visitHistory",
+  "path": "/admin/front-office/visit/history/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "676fa64033897d49a1050c98",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-28T07:23:41.792Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:57.013Z"
+}

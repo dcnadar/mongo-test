@@ -1,0 +1,14 @@
+{
+  "_id": "6704e31b5f22ec7ba026473f",
+  "name": "All Package Category",
+  "path": "/admin/package/category/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6704e10e5f22ec7ba026473c",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-08T07:45:31.018Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:47.940Z"
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "662528f3990ac402ed0d3ec1",
+  "gridTitle": "Eduempower Inventory",
+  "gridType": "form",
+  "crmModelId": "6625200e990ac402ed0d3ebc",
+  "rows": [
+    {
+      "$key": "xr47k9ekyz",
+      "fields": [
+        {
+          "$key": "23i0oiy6hrxj",
+          "id": "isbn",
+          "title": "ISBN",
+          "type": "search",
+          "span": 8,
+          "selectApi": "/api/io/admin/library/isbn/search/values",
+          "apiUrl": "/api/io/admin/library/isbn/search"
+        },
+        {
+          "$key": "lmnxiw2qvdk",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "slyn9ldgfkn",
+          "id": "subTitle",
+          "title": "Sub Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "dw8hb4nlhxm",
+          "id": "edition",
+          "title": "Edition",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "htmm7rkn7ts",
+          "id": "bookImage",
+          "title": "Book Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "cxau7akaq25",
+          "id": "bookDetail",
+          "title": "Book Detail",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "tw7bfe44hy",
+          "id": "vendorDetail",
+          "title": "Vendor Detail",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "oeg74otn1o",
+          "id": "libraryDetails",
+          "title": "Library Details",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T14:55:47.146Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:51:01.032Z"
+}

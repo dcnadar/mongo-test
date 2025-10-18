@@ -1,0 +1,21 @@
+{
+  "_id": "671277735f22ec7ba0264878",
+  "name": "Edit Staff Documents",
+  "path": "/admin/staff/documents/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "671267805f22ec7ba026485e",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T14:57:55.152Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "documentKey": "userId",
+      "required": true
+    }
+  ],
+  "updated": "2025-09-08T10:50:52.437Z"
+}

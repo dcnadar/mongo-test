@@ -1,0 +1,109 @@
+{
+  "_id": "66b4b203718ee5699170b6b4",
+  "gridTitle": "ReactGrid GlobalPricing5 sections",
+  "gridType": "form",
+  "crmModelId": "66b496fd718ee5699170b68e",
+  "rows": [
+    {
+      "$key": "hw3ys3geve4",
+      "fields": [
+        {
+          "$key": "1p77hspt63o",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "1z0taodcdrc",
+          "id": "description",
+          "title": "Description",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "pqxgqah7o9",
+          "id": "points",
+          "title": "Points",
+          "span": 24,
+          "type": "strings",
+          "multiple": false,
+          "min": 0,
+          "max": 8
+        },
+        {
+          "$key": "9iogypl2slo",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "vnp3vckm34o",
+          "id": "enableButton",
+          "title": "Enable Button",
+          "type": "bool",
+          "span": 24
+        },
+        {
+          "$key": "a0s57nakq9g",
+          "id": "buttonAction",
+          "title": "Button Action",
+          "type": "inner_form",
+          "span": 24,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "kfklkd9kdon",
+          "id": "primary",
+          "title": "Primary",
+          "type": "bool",
+          "span": 24
+        },
+        {
+          "$key": "frn4c0pfo8n",
+          "id": "currencySymbol",
+          "title": "Currency Symbol",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "pi9gzbf3sfl",
+          "id": "priceMonthly",
+          "title": "Price Monthly",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "wyd2dektsb",
+          "id": "priceYearly",
+          "title": "Price Yearly",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "8ofmdvm4px",
+          "id": "monthlyPlanText",
+          "title": "Monthly Plan Text",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "ea0k0zjzvp",
+          "id": "yearlyPlanText",
+          "title": "Yearly Plan Text",
+          "type": "text",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-08T11:54:43.904Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "upsertDoc": false
+}

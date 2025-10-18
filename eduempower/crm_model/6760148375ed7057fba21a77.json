@@ -1,0 +1,194 @@
+{
+  "_id": "6760148375ed7057fba21a77",
+  "name": "Eduempower School Asset",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_school_asset",
+  "properties": [
+    {
+      "$key": "69qd1n4lp53",
+      "key": "assetType",
+      "name": "Asset Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "dxp9f1at6sm",
+            "key": "PHYSICAL",
+            "value": "physical"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "7un1fq9ejdg",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      },
+      "unique": true
+    },
+    {
+      "$key": "4jgnffscne8",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING",
+      "searchable": {
+        "description": false
+      }
+    },
+    {
+      "$key": "ku334he9e6",
+      "key": "images",
+      "name": "Images",
+      "dataType": "LIST_OF",
+      "listType": "STRING",
+      "searchable": {
+        "thumb": false
+      }
+    },
+    {
+      "$key": "66mvyh74zyw",
+      "key": "currentlyAssignedTo",
+      "name": "Currently Assigned To",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "lltplksu24",
+      "key": "logs",
+      "name": "Logs",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6760104075ed7057fba21a76"
+    },
+    {
+      "$key": "m5s2z3r29i",
+      "key": "conditionStatus",
+      "name": "Condition Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "640m1yf8h27",
+            "value": "New",
+            "key": "NEW"
+          },
+          {
+            "$key": "l7x5kcamvf",
+            "value": "Good Condition",
+            "key": "GOOD_CONDITION"
+          },
+          {
+            "$key": "7e9npvtgafk",
+            "value": "Damaged",
+            "key": "DAMAGED"
+          },
+          {
+            "$key": "hm0ebqzkg1f",
+            "value": "Worn Out",
+            "key": "WORN_OUT"
+          },
+          {
+            "$key": "yn4jiclculb",
+            "value": "Destroyed",
+            "key": "DESTROYED"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "dzsohtey0l",
+      "key": "ownershipStatus",
+      "name": "Ownership Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "njjovd4pur",
+            "value": "School-Owned",
+            "key": "SCHOOL_OWNED"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "1nf01jq6kaf",
+      "key": "usageStatus",
+      "name": "Usage Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "j193o3vlxfj",
+            "value": "Active",
+            "key": "ACTIVE"
+          },
+          {
+            "$key": "fgdg0an3mbb",
+            "value": "Idle",
+            "key": "IDLE"
+          },
+          {
+            "$key": "0uqai5kdqdqm",
+            "value": "Stored",
+            "key": "STORED"
+          },
+          {
+            "$key": "kusigc4ebsh",
+            "value": "Reassigned",
+            "key": "REASSIGNED"
+          },
+          {
+            "$key": "jqhnyuejsy",
+            "value": "Obsolete",
+            "key": "OBSOLETE"
+          },
+          {
+            "$key": "x5sgcltmlwj",
+            "key": "LOST",
+            "value": "Lost"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "4ae9trkn29c",
+      "key": "maintenanceStatus",
+      "name": "Maintenance Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "vvtgaq6tt8",
+            "value": "Operational",
+            "key": "OPERATIONAL"
+          },
+          {
+            "$key": "bebipdw1s0h",
+            "value": "Under",
+            "key": "UNDER"
+          },
+          {
+            "$key": "2ixv99pf6t2",
+            "value": "Awaiting",
+            "key": "AWAITING"
+          },
+          {
+            "$key": "9xirejbv9yo",
+            "value": "Beyond Repair",
+            "key": "BEYOND_REPAIR"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-16T11:52:35.024Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:07.983Z"
+}

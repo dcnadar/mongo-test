@@ -1,0 +1,78 @@
+{
+  "_id": "66b08554a436a41ae7ae68b5",
+  "gridTitle": "WebsitePageGridThemeSettings AlignmentStyle",
+  "gridType": "form",
+  "crmModelId": "6511ee6df9686d32acb3e2d3",
+  "rows": [
+    {
+      "$key": "osulack8ho",
+      "fields": [
+        {
+          "$key": "mm6ef4nqxaa",
+          "id": "styleSettings.outerSpacing",
+          "title": "Outer Spacing",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "fs2z5axiqiw",
+          "id": "styleSettings.innerSpacing",
+          "title": "Inner Spacing",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "95mumpze8w",
+          "id": "styleSettings.minHeight",
+          "title": "Min Height",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "1qks7m0vkbr",
+          "id": "styleSettings.horizontalAlignment",
+          "title": "Horizontal Alignment",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "2fzlz39xr54",
+          "id": "styleSettings.verticalAlignment",
+          "title": "Vertical Alignment",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "hpx2cutm17u",
+          "id": "styleSettings.fullWidth",
+          "title": "Full Width",
+          "type": "bool",
+          "o": false,
+          "span": 8
+        }
+      ],
+      "span": 24
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-05T07:55:00.780Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true
+    },
+    {
+      "key": "id",
+      "required": true
+    }
+  ],
+  "upsertDoc": false
+}

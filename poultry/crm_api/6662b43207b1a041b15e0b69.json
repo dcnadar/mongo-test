@@ -1,0 +1,13 @@
+{
+  "_id": "6662b43207b1a041b15e0b69",
+  "name": "All Block",
+  "path": "/admin/location/block/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6662b1c107b1a041b15e0b5f",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:18:10.947Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

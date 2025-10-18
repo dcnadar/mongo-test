@@ -1,0 +1,64 @@
+{
+  "_id": "64a5cc25099de82bca61ca98",
+  "properties": [
+    {
+      "dataType": "REFERENCE",
+      "key": "option",
+      "name": "Option Name",
+      "data": {
+        "tagCategory": "productVariantOption"
+      },
+      "$key": "qy5gglok6x",
+      "modelId": "665c1a407a29a87a0def3d85"
+    },
+    {
+      "dataType": "STRING",
+      "key": "displayName",
+      "name": "Display Name",
+      "$key": "52g5celwfsj"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "values",
+      "name": "Values",
+      "modelId": "655dfedf6bf5e640cd3a5c00",
+      "$key": "dayeggcof7i"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "colorValues",
+      "name": "Color Values",
+      "modelId": "655e0d956bf5e640cd3a5c06",
+      "$key": "174uc8qtl0z"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "sizeValues",
+      "name": "Size Values",
+      "modelId": "655e0da56bf5e640cd3a5c07",
+      "$key": "f1lnbktax0p"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "imageValues",
+      "name": "Image Values",
+      "modelId": "655e0db76bf5e640cd3a5c08",
+      "$key": "nraokieyuu"
+    },
+    {
+      "$key": "8tc4bjo0kt8",
+      "key": "valueType",
+      "name": "valueType",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Product Variant Option",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:50.932Z"
+}

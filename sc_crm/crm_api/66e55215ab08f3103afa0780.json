@@ -1,0 +1,13 @@
+{
+  "_id": "66e55215ab08f3103afa0780",
+  "name": "All Order Cancel",
+  "path": "/admin/order/cancel-request/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66e54da0ab08f3103afa077e",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-14T09:06:29.404Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,71 @@
+{
+  "_id": "67add45a61e8f2055c2ae88d",
+  "gridTitle": "Eduempower FeeCategory",
+  "gridType": "table",
+  "columns": [
+    {
+      "$key": "x48cetus1n",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "indhy7scqz",
+      "key": "code",
+      "name": "Code",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "t660qto6gan",
+      "key": "classTypes",
+      "name": "Class Type",
+      "sort": true,
+      "type": "card"
+    },
+    {
+      "$key": "ern2x3yxbgn",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "3dbf9tcxkpg",
+          "value": "Edit",
+          "gridTitle": "Edit Fee Category",
+          "apiUrl": "/admin/school-setup/fee-settings/fee-category/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "23l69m4fmg3",
+      "value": "Add Fee Category",
+      "gridTitle": "Add Fee Category",
+      "apiUrl": "/admin/school-setup/fee-settings/fee-category/add",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "yczwuk1hlqm",
+        "propertyKey": "entityType",
+        "operator": "EQUALS",
+        "EQUALS": "MASTER_SETUP"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T11:15:38.947Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "crmModelId": "67add38461e8f2055c2ae88c"
+}

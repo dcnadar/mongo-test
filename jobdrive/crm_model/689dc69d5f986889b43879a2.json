@@ -1,0 +1,105 @@
+{
+  "_id": "689dc69d5f986889b43879a2",
+  "name": "placementDriveCompanyAndPosition",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "witqxqcw4bf",
+      "key": "companyId",
+      "name": "Company",
+      "dataType": "REFERENCE",
+      "modelId": "689aca82ab9ccd58e2fca6d3",
+      "searchable": {
+        "value": false,
+        "description": false
+      }
+    },
+    {
+      "$key": "0q2mxufdrfda",
+      "key": "position",
+      "name": "Position",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "azrtg33kilh",
+      "key": "jobDescription",
+      "name": "Job Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "v0o0zdv0snm",
+      "key": "jobLocation",
+      "name": "Location",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "udzerjqu7uf",
+      "key": "minSalary",
+      "name": "Min Salary",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "j8jw172s9w",
+      "key": "maxSalary",
+      "name": "Max Salery",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "hc8d3bgppjt",
+      "key": "currency",
+      "name": "Currency",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "z8okocritjs",
+            "key": "INR",
+            "value": "Inr"
+          },
+          {
+            "$key": "le8jwcbxv6",
+            "key": "USD",
+            "value": "Usd"
+          },
+          {
+            "$key": "3ib6q6wmsfj",
+            "key": "EUR",
+            "value": "Eur"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "wm20p2r00wb",
+      "key": "jobType",
+      "name": "Job Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "8xws2yll6ms",
+            "value": "Full Time",
+            "key": "FULL-TIME"
+          },
+          {
+            "$key": "3gd6517km6d",
+            "value": "Internship",
+            "key": "INTERNSHIP"
+          },
+          {
+            "$key": "2cy4tbue7u3",
+            "value": "Contract",
+            "key": "CONTRACT"
+          }
+        ]
+      }
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T11:21:01.009Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.319Z"
+}

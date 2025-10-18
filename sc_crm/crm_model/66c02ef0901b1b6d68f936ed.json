@@ -1,0 +1,34 @@
+{
+  "_id": "66c02ef0901b1b6d68f936ed",
+  "name": "PhonepePaymentGatewayConfig",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "dxoks5vrxip",
+      "key": "phonepeMerchantId",
+      "name": "Phonepe Merchant Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ep7e55lngns",
+      "key": "phonepeSaltKey",
+      "name": "Phonepe Salt Key",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8fh5ha812ws",
+      "key": "phonepeWebhookUsername",
+      "name": "Phonepe Webhook Username",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rx98rdcaeao",
+      "key": "phonepeWebhookPassword",
+      "name": "Phonepe Webhook Password",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-17T05:02:40.716Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

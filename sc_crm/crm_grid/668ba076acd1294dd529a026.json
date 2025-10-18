@@ -1,0 +1,162 @@
+{
+  "_id": "668ba076acd1294dd529a026",
+  "gridTitle": "Order",
+  "gridType": "table",
+  "crmModelId": "6684e3603108ad7b7d063f47",
+  "columns": [
+    {
+      "$key": "qymm5pp4bz",
+      "key": "userId",
+      "name": "User Id",
+      "sort": false,
+      "width": 150,
+      "type": "card"
+    },
+    {
+      "$key": "qxo2ufyjt7a",
+      "key": "orderId",
+      "name": "Order Id",
+      "width": 150,
+      "type": "tag",
+      "sort": false
+    },
+    {
+      "$key": "nyrks8yje9",
+      "key": "taxAmount",
+      "name": "Tax Amount",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "txxstizjhs",
+      "key": "orderDate",
+      "name": "Dates",
+      "width": 200,
+      "type": "text",
+      "sort": false,
+      "valueCondition": "function formatDate(dateStr) { const date = new Date(dateStr); const options = { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true }; return date.toLocaleString('en-US', options); } const { orderDate, shippingDate, deliveryDate } = this; let html = ''; if (orderDate) { html += `<p><span style=\"color: gray;\">Order date:<br></span><span style=\"color: orange;\">${formatDate(orderDate)}</span></p>`; } if (shippingDate) { html += `<p><span style=\"color: gray;\">Shipping date:<br></span><span style=\"color: blue;\">${formatDate(shippingDate)}</span></p>`; } if (deliveryDate) { html += `<p><span style=\"color: gray;\">Delivery date:<br></span><span style=\"color: green;\">${formatDate(deliveryDate)}</span></p>`; } return html;"
+    },
+    {
+      "$key": "arnm2beunjf",
+      "key": "deliveredDate",
+      "name": "Delivered Date",
+      "type": "text",
+      "valueCondition": "function formatDate(dateStr) { const date = new Date(dateStr); const options = { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true }; return date.toLocaleString('en-US', options); } const { deliveredDate, shippingDate, deliveryDate } = this; let html = ''; if (deliveredDate) { html += `<p><span style=\"color: gray;\">Delivered Date:<br></span><span style=\"color: orange;\">${formatDate(deliveredDate)}</span></p>`; } if (shippingDate) { html += `<p><span style=\"color: gray;\">Shipping date:<br></span><span style=\"color: blue;\">${formatDate(shippingDate)}</span></p>`; } if (deliveryDate) { html += `<p><span style=\"color: gray;\">Delivery date:<br></span><span style=\"color: green;\">${formatDate(deliveryDate)}</span></p>`; } return html;",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "24rqnptesir",
+      "key": "status",
+      "name": "Status",
+      "width": 150,
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "oo19y83w5g",
+      "key": "productVariantId",
+      "name": "Product Variant Id",
+      "width": 150,
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "aygwe7zurhu",
+      "key": "mrp",
+      "name": "MRP",
+      "type": "text",
+      "sort": false,
+      "width": 150
+    },
+    {
+      "$key": "t5g40o8s2lh",
+      "key": "discount",
+      "name": "Discount",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "e5zyxd92ovg",
+      "key": "price",
+      "name": "Price",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "dqqjrutnek5",
+      "key": "taxablePrice",
+      "name": "Taxable Price",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "df7u97zsdxq",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 150,
+      "actions": [
+        {
+          "$key": "vz6fbxz8krs",
+          "gridTitle": "View Order Details",
+          "value": "View Details",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/order/edit?id=:_id _id",
+          "showCondition": "return true;"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "nwzvu9jmn5d",
+      "gridTitle": "Add Order",
+      "value": "Add Order",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/order/add",
+      "showCondition": "return false;"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "c6ev628348",
+      "fields": [
+        {
+          "$key": "y67zs9pb9y",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": true,
+          "o": true,
+          "span": 8,
+          "add": false,
+          "delete": false,
+          "min": 0,
+          "max": 5
+        }
+      ]
+    }
+  ],
+  "tableMeta": {
+    "defaultFilters": []
+  },
+  "fetchAdditionalKeys": [
+    "orderReview",
+    "shippingDate"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T08:16:54.760Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "gridParams": [],
+  "search": {
+    "placeHolder": "Search by order id"
+  }
+}

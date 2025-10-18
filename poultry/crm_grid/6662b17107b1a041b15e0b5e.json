@@ -1,0 +1,58 @@
+{
+  "_id": "6662b17107b1a041b15e0b5e",
+  "gridTitle": "District",
+  "gridType": "table",
+  "crmModelId": "6662abef07b1a041b15e0b54",
+  "columns": [
+    {
+      "$key": "vnuzkc7gff",
+      "key": "districtName",
+      "name": "Name",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "azztgnrbebw",
+      "key": "stateId",
+      "name": "State",
+      "type": "card",
+      "sort": true,
+      "width": 200
+    },
+    {
+      "$key": "ks1cjwix12k",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "4w0tdzt9mjl",
+          "gridTitle": "Edit District",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/location/district/edit?id=:_id _id",
+          "value": "Edit"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "ru8yh05r9y8",
+      "gridTitle": "Add District",
+      "gridType": "popupForm",
+      "value": "Add District",
+      "apiUrl": "/admin/location/district/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:06:25.661Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

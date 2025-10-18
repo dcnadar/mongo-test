@@ -1,0 +1,13 @@
+{
+  "_id": "667d253674a25c4c696adb41",
+  "name": "Batch Close",
+  "path": "/admin/farmer/batch-close",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "667d0cee74a25c4c696adb3a",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-27T08:39:18.542Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

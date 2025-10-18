@@ -1,0 +1,60 @@
+{
+  "_id": {
+    "$oid": "68cd719df42bc3ef836dc7b8"
+  },
+  "name": "Setup Tasks",
+  "properties": [
+    {
+      "key": "metaDataProvision",
+      "name": "Meta Data Provision",
+      "dataType": "BOOLEAN",
+      "$key": "qbyl3npkvb8"
+    },
+    {
+      "$key": "ezufigwy29n",
+      "key": "entityDataProvision",
+      "name": "Entity Data Provision",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "ax0i024nj9s",
+      "key": "cetificateIssue",
+      "name": "Cetificate Issue",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "qmm4ye06yu9",
+      "key": "certificateAssignedtoALB",
+      "name": "Certificate Assigned To ALB",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "d9aptdojzy",
+      "key": "notifyByEmail",
+      "name": "Notify By Email",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "s2kn43i6ei",
+      "key": "lastAccessTime",
+      "name": "Last Access Time",
+      "dataType": "DATE",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    }
+  ],
+  "modelType": "INNER",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758294429110"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377696489"
+    }
+  }
+}

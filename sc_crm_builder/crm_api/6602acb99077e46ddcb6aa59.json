@@ -1,0 +1,23 @@
+{
+  "_id": {
+    "$oid": "6602acb99077e46ddcb6aa59"
+  },
+  "name": "Update Tag",
+  "path": "/admin/tag/update",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6602ac749077e46ddcb6aa55",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1711451321400"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070148129"
+    }
+  }
+}

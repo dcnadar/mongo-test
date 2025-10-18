@@ -1,0 +1,14 @@
+{
+  "_id": "6733592e02f79267ffc5656c",
+  "key": "setting.branch.create",
+  "name": "Branch Create",
+  "apisAccess": [
+    "66121fb0a10af254b4b437c5",
+    "66121fb9a10af254b4b437c6"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T13:33:34.211Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.484Z"
+}

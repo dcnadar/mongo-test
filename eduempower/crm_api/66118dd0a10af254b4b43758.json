@@ -1,0 +1,13 @@
+{
+  "_id": "66118dd0a10af254b4b43758",
+  "name": "Add Class Subject",
+  "path": "/admin/schoolsetup/examinations/class-subject/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cf128c7b99128d924f735",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T18:00:48.967Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:46.894Z"
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "65b8b8496b1961d669927337",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "heading",
+      "name": "Heading"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65b8b8496b1961d669927336",
+      "key": "row",
+      "name": "Row"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalCategoryImageCards Section",
+  "modelType": "INNER",
+  "created": "2024-01-30T08:50:17.639Z",
+  "modelStatus": "ACTIVE"
+}

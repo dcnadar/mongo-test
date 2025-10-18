@@ -1,0 +1,51 @@
+{
+  "_id": "689c77485f29df003c753d98",
+  "gridTitle": "trainingScheduleAndVenue\t",
+  "gridType": "form",
+  "crmModelId": "689c37b4e8e746ac85de5598",
+  "rows": [
+    {
+      "$key": "12v3ukdost8q",
+      "fields": [
+        {
+          "id": "startDate",
+          "title": "Start Date",
+          "$key": "gd6m4mbea3i",
+          "span": 12,
+          "type": "date"
+        },
+        {
+          "$key": "syxinvehroc",
+          "id": "enddate",
+          "title": "EndDate",
+          "type": "date",
+          "span": 12
+        },
+        {
+          "$key": "62huahv55tf",
+          "id": "venue",
+          "title": "Venue",
+          "type": "text",
+          "span": 24
+        },
+        {
+          "$key": "lqjgc83o8vh",
+          "id": "trainingSchedule",
+          "title": "Schedule",
+          "span": 24,
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "min": 1,
+          "max": 10
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T11:30:16.366Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.439Z"
+}

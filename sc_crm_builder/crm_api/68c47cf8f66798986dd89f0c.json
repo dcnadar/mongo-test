@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "68c47cf8f66798986dd89f0c"
+  },
+  "name": "Add User Group Details",
+  "path": "/admin/user-group/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "68c3bab770618d003613a97b",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757707512753"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377686070"
+    }
+  }
+}

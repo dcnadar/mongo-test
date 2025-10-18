@@ -1,0 +1,52 @@
+{
+  "_id": "671a41575f22ec7ba02649e2",
+  "gridTitle": "Import Circular\t",
+  "gridType": "table",
+  "crmModelId": "671a40ec5f22ec7ba02649e1",
+  "columns": [
+    {
+      "$key": "m5u4u47r25",
+      "key": "templateName",
+      "name": "Template Name",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "pnuefv1r1sp",
+      "key": "description",
+      "name": "Description",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "ymz3f8d1c6a",
+      "key": "recommendedFor",
+      "name": "Recommended for",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "6x1ozadakgt",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "icfwjvna37",
+          "value": "Download"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T12:45:11.902Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:02.648Z"
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "665c1c3a7a29a87a0def3d88",
+  "gridTitle": "Variant Option",
+  "gridType": "table",
+  "crmModelId": "665c1a407a29a87a0def3d85",
+  "columns": [
+    {
+      "$key": "6a53dxx6w07",
+      "key": "optionName",
+      "name": "Option Name",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "6o1hjknc9fr",
+      "key": "displayName",
+      "name": "Display Name",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "6f0868650c4",
+      "key": "valueType",
+      "name": "Value type",
+      "type": "tag",
+      "sort": false
+    },
+    {
+      "$key": "wk46rkqp2mo",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "0rekhg3ragu",
+          "gridTitle": "Edit Variant Option",
+          "value": "Edit",
+          "slug": "/admin/product/variant-option/edit?id=:_id _id",
+          "type": "icon_button",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.2.actions.0.icon/2024/5/2/upload_2ekd5ncvzd5-1717316014884.png"
+        },
+        {
+          "$key": "nzzgqcreqxk",
+          "gridTitle": "Delete Variant Option",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure to delete",
+          "apiUrl": "/admin/product/variant-option/deletes?id=:_id _id",
+          "type": "icon",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.2.actions.1.icon/2024/5/2/upload_mmkv4if8fdm-1717315993991.png"
+        }
+      ],
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "ndy1v7bbtab",
+      "gridTitle": "Add Variant Option",
+      "gridType": "popupForm",
+      "value": "Add Variant Option",
+      "slug": "/admin/product/variant-option/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-02T07:16:10.784Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,17 @@
+{
+  "_id": "6662a0e707b1a041b15e0b51",
+  "name": "Poultry Account Base",
+  "modelType": "BASE",
+  "properties": [
+    {}
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "fieldName": "ecomAccountId",
+  "dataType": "REFERENCE",
+  "order": 1,
+  "modelId": "66629fa607b1a041b15e0b50",
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T05:55:51.967Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

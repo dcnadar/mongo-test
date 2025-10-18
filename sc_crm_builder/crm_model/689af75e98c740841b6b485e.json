@@ -1,0 +1,45 @@
+{
+  "_id": {
+    "$oid": "689af75e98c740841b6b485e"
+  },
+  "name": "User Details",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "f0c4inpqydg",
+      "key": "firstName",
+      "name": "First Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "oo14bf6iffr",
+      "key": "lastName",
+      "name": "Last Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "yl68cbvv348",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING",
+      "searchable": {
+        "description": false
+      }
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1754986334020"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070153583"
+    }
+  }
+}

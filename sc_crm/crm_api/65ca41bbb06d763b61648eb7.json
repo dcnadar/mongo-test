@@ -1,0 +1,11 @@
+{
+    "name": "Update Student",
+    "action": "CRM_GRID",
+    "sourceId": "65ca41bab06d763b61648eb4",
+    "gridType": "form",
+    "accountId": "65d0d41b0d1f40b74ff1bd92",
+    "apiType": "GET",
+    "path": "/admin/students/update",
+    "created": "2024-02-12T16:05:15.016Z",
+    "_id": "65ca41bbb06d763b61648eb7"
+}

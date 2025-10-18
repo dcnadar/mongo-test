@@ -1,0 +1,52 @@
+{
+  "_id": "68ad5cc0077fdcc858b135c6",
+  "gridTitle": "Student Certificate",
+  "gridType": "form",
+  "crmModelId": "68ad5b74077fdcc858b135c5",
+  "rows": [
+    {
+      "$key": "ghbr2rp4otn",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Certificate Title",
+          "type": "text",
+          "span": 8,
+          "$key": "7ptrdordrti"
+        },
+        {
+          "$key": "r97sml50ov",
+          "id": "organizationName",
+          "title": "Organization Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "2xooisbczw4",
+          "id": "issue_date",
+          "title": "Date of Completion",
+          "type": "date",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T07:05:36.773Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:54.024Z"
+}

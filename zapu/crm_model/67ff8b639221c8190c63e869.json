@@ -1,0 +1,115 @@
+{
+  "_id": "67ff8b639221c8190c63e869",
+  "name": "Customer Address",
+  "modelType": "COLLECTION",
+  "baseModelId": "67d96c6c5ea132199e60a886",
+  "collectionName": "customer_address",
+  "properties": [
+    {
+      "$key": "ffotpc9byz",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "description": false,
+        "value": true
+      }
+    },
+    {
+      "$key": "ruw44h23o9l",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING",
+      "searchable": {
+        "description": false
+      }
+    },
+    {
+      "$key": "a43axlh7ybo",
+      "key": "customerId",
+      "name": "Customer Id",
+      "dataType": "REFERENCE",
+      "modelId": "67d96cdc6d85b3208a75ea71",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "ab83iwsirml",
+      "key": "pinCode",
+      "name": "Pin Code",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "oc6lndt4dbj",
+      "key": "city",
+      "name": "City",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "s12r81cs6t",
+      "key": "state",
+      "name": "State",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "u7msyzsb5xh",
+      "key": "completeAddress",
+      "name": "Complete Address",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "idd3g5e52ki",
+      "key": "landmark",
+      "name": "Landmark",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cjfhhouaid",
+      "key": "addressType",
+      "name": "Address Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "p3vd2pcj12h",
+            "key": "HOME",
+            "value": "Home"
+          },
+          {
+            "$key": "57rgtkgjuwk",
+            "key": "WORK",
+            "value": "Work"
+          },
+          {
+            "$key": "fj2xq4vwukj",
+            "key": "OTHER",
+            "value": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "pyizpaw6gkc",
+      "key": "defaultAddress",
+      "name": "Default Address",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "lymp1n2u2p",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "customerId"
+  },
+  "menuTargets": {},
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-04-16T10:50:11.714Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

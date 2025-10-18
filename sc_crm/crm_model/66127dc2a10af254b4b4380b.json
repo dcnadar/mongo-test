@@ -1,0 +1,67 @@
+{
+  "_id": "66127dc2a10af254b4b4380b",
+  "name": "Tax Settings",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "65wrjzb1c1g",
+      "key": "enableTax",
+      "name": "EnableTax",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "tu5nsu68r8",
+      "key": "taxLabel",
+      "name": "TaxLabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9q5d62ptfqs",
+      "key": "taxPercent",
+      "name": "TaxPercent",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "hhwixlklj8u",
+      "key": "addGstNumberInvoice",
+      "name": "Add Gst Number Invoice",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "mumjdkrwlv7",
+      "key": "gstNumber",
+      "name": "Gst Number",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "tb9ipypzgo",
+      "key": "gstState",
+      "name": "Gst State",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "evesljnki4s",
+      "key": "includeTaxInProductPrice",
+      "name": "Include TAX in product price",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "kkhesqvmyu",
+      "key": "enableExtraCharges",
+      "name": "Enable Extra Charges",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "pt73uqrvom",
+      "key": "extraCharges",
+      "name": "Extra Charges",
+      "unique": false,
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "67693dd97efd1c53bd16c159"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T11:04:34.973Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

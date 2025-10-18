@@ -1,0 +1,84 @@
+{
+  "_id": "689ace13ab9ccd58e2fca6d4",
+  "gridTitle": "Companies",
+  "gridType": "table",
+  "crmModelId": "689aca82ab9ccd58e2fca6d3",
+  "columns": [
+    {
+      "$key": "n6kf0znbjyd",
+      "key": "companylogo",
+      "name": "Compony Logo",
+      "type": "thumb",
+      "sort": true
+    },
+    {
+      "$key": "q952ze3itbk",
+      "key": "companyname",
+      "name": "Company Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "yxsx5a2pal",
+      "key": "industry",
+      "name": "Industry",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "lqdqzyke0z",
+      "key": "description",
+      "name": "Description",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "psgkx9lysr",
+      "key": "foundedyear",
+      "name": "Founded Year",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "exkqn9r8f0h",
+      "key": "employeecount",
+      "name": "Employee Count",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "hhirwnny9h",
+      "key": "action",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "vunvgpngstk",
+          "gridTitle": "Edit Companies",
+          "value": "Edit",
+          "apiUrl": "/admin/companies/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "a911diigjci",
+      "gridTitle": "Add Companies",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/companies/add",
+      "value": "Add Companies"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-12T05:16:03.875Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.235Z"
+}

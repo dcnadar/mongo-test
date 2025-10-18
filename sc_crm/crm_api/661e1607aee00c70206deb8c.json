@@ -1,0 +1,12 @@
+{
+  "_id": "661e1607aee00c70206deb8c",
+  "name": "Blog Category",
+  "path": "/admin/blog/category/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "661cd6c3aee00c70206deb68",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-16T06:09:11.481Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

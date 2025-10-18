@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "65e7bd38da2db33603c16988"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid FormRow FormField Meta InputGroupParam",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "type",
+      "name": "Input Type",
+      "data": {
+        "options": [
+          {
+            "value": "text",
+            "label": "Text",
+            "$key": "1fe7xpgjbg3",
+            "key": "text"
+          },
+          {
+            "value": "number",
+            "label": "Number",
+            "$key": "nbo6sqcbsd",
+            "key": "number"
+          }
+        ]
+      },
+      "$key": "89bobnx74hu"
+    },
+    {
+      "dataType": "STRING",
+      "key": "placeholder",
+      "name": "Placeholder",
+      "$key": "c9mrpbg01br"
+    },
+    {
+      "dataType": "INTEGER",
+      "key": "min",
+      "name": "Min",
+      "$key": "ywxv0tkalkk"
+    },
+    {
+      "dataType": "INTEGER",
+      "key": "max",
+      "name": "Max",
+      "$key": "afwcfuys1fj"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709686072210"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152694"
+    }
+  }
+}

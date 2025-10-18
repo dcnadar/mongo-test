@@ -1,0 +1,142 @@
+{
+  "_id": "667cfd1074a25c4c696adb33",
+  "gridTitle": "Batch Info",
+  "gridType": "table",
+  "crmModelId": "667cfc6a74a25c4c696adb31",
+  "columns": [
+    {
+      "$key": "2nmnpnbo1kg",
+      "name": "Batch Placement",
+      "type": "date",
+      "width": 150,
+      "sort": true,
+      "key": "batchInfo.batchPlacement"
+    },
+    {
+      "$key": "1rz74unq2ct",
+      "key": "batchInfo.nOOfDocPlaced",
+      "name": "Number of DOC Placed",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "3neu8knqczr",
+      "key": "batchInfo.nOOfFeeder",
+      "name": "Number of Feeder",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "nq58odp786",
+      "key": "batchInfo.nOOfFeederBird",
+      "name": "Number of Feeder / 100 Bird",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "durxu9i94d",
+      "key": "batchInfo.nOOfDrinker",
+      "name": "Number of Drinker",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "gjlp5q8d88o",
+      "key": "batchInfo.nOOfDrinkerBird",
+      "name": "Number of Drinker / 100 Bird",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "tgh09zta8ts",
+      "key": "batchInfo.litter",
+      "name": "Litter",
+      "type": "text",
+      "width": 100,
+      "sort": true
+    },
+    {
+      "$key": "2r7qd99m2vw",
+      "key": "batchInfo.doc",
+      "name": "DOC",
+      "type": "text",
+      "width": 100,
+      "sort": true
+    },
+    {
+      "$key": "c19psqz2wmm",
+      "key": "actions",
+      "sort": false,
+      "width": 325,
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "w8gc8x6fxw",
+          "gridTitle": "Edit Batch Info",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/farmer/batch-info/edit?id=:_id _id",
+          "value": "Edit Info",
+          "showCondition": "return !this.batchIndex;"
+        },
+        {
+          "$key": "ftdv9ld8ltc",
+          "gridTitle": "Close Batch",
+          "value": "Batch Close",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/farmer/batch-close?id=:_id _id",
+          "showCondition": "return !this.batchClose;",
+          "pagination": false
+        },
+        {
+          "$key": "rjvz3kf61x",
+          "gridTitle": "Edit Close Batch",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/farmer/batch-close?id=:_id _id",
+          "value": "Edit Batch Close",
+          "showCondition": "return this.batchClose && !this.batchIndex;"
+        },
+        {
+          "$key": "6fqrcdq0pf8",
+          "gridTitle": "Index Batch",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/farmer/batch-index?id=:_id _id",
+          "value": "Index Batch",
+          "showCondition": "return this.batchClose;"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "l5l1gk1t5",
+      "gridTitle": "Add Batch Info",
+      "value": "Add Batch Info",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/farmer/batch-info/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "batchClose",
+    "batchIndex"
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-27T05:48:00.183Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/farmer/all",
+  "gridParams": [
+    {
+      "key": "farmerId",
+      "required": true
+    }
+  ]
+}

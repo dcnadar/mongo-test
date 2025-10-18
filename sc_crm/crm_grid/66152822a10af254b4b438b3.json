@@ -1,0 +1,85 @@
+{
+  "_id": "66152822a10af254b4b438b3",
+  "gridTitle": "Staff",
+  "gridType": "table",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "columns": [
+    {
+      "$key": "xw3t7pjpr2h",
+      "key": "logo",
+      "name": "Profile Pic",
+      "type": "thumb",
+      "sort": false
+    },
+    {
+      "$key": "8jskb6rnlz4",
+      "key": "firstName",
+      "name": "FirstName",
+      "type": "name",
+      "sort": true
+    },
+    {
+      "$key": "90ug6g5gkfd",
+      "key": "email",
+      "name": "Email",
+      "type": "link",
+      "slug": "/admin/account/staff/update?id=_id :_id",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "mi9t65iqjbp",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "type": "text",
+      "valueCondition": "return '+91-' + this.mobileNumber",
+      "sort": true
+    },
+    {
+      "$key": "mati7mt5v7h",
+      "key": "edit",
+      "name": "Edit",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "26a7js3jste",
+          "value": "Edit",
+          "slug": "/admin/account/staff/update?id=:_id _id"
+        },
+        {
+          "$key": "liv4dwb42xm",
+          "value": "Change Password",
+          "apiUrl": "/admin/account/staff/password/update?user=:_id _id",
+          "gridType": "popupForm",
+          "gridTitle": "Update Password"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "x7ehtrcf4a",
+      "value": "Add Staff",
+      "slug": "/admin/account/staff/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "euf2h8qmklg",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EQUALS": "STAFF"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T11:36:02.029Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "upsertDoc": false
+}

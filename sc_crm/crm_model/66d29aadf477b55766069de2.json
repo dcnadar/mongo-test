@@ -1,0 +1,37 @@
+{
+  "_id": "66d29aadf477b55766069de2",
+  "name": "ReactGrid GlobalHeader4 mainMenu",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "uk1g1ef6tdq",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vfnpxfin5ts",
+      "key": "buttonAction",
+      "name": "ButtonAction",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "lnoqtafq9tq",
+      "key": "enableButton",
+      "name": "EnableButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "g3e5cx7om4",
+      "key": "subMenu",
+      "name": "SubMenu",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66d29bedf477b55766069de9"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-31T04:23:09.152Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

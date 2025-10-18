@@ -1,0 +1,285 @@
+{
+  "_id": "668cdde4531ed762273ebc01",
+  "name": "Transaction",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "transaction",
+  "properties": [
+    {
+      "$key": "qlwgf1i07m",
+      "key": "transactionId",
+      "name": "Transaction Id",
+      "unique": false,
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "0z33md3h662q",
+      "key": "paymentMode",
+      "name": "Payment Mode",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "sosg7yjtcvi",
+            "value": "cash",
+            "key": "CASH"
+          },
+          {
+            "$key": "mv47gzljli",
+            "value": "online",
+            "key": "ONLINE"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "2aljgxlx9rd",
+      "key": "paymentGateway",
+      "name": "Payment Gateway",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "z517njkivd",
+            "value": "Phonepe",
+            "key": "PHONEPE"
+          },
+          {
+            "$key": "p5o1nbrk4o",
+            "value": "Razorpay",
+            "key": "RAZORPAY"
+          },
+          {
+            "$key": "xh3pmy0rgw",
+            "key": "CASHFREE",
+            "value": "Cashfree"
+          },
+          {
+            "$key": "56df7ky7n28",
+            "value": "Stripe",
+            "key": "STRIPE"
+          },
+          {
+            "$key": "8kw5uo75r7e",
+            "value": "Instamojo",
+            "key": "INSTAMOJO"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "zdag6u3cq6r",
+      "key": "pgTransactionId",
+      "name": "PG Transaction Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wgudlif3z5b",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "9p3cjvazpgf",
+            "value": "initiated",
+            "key": "INITIATED"
+          },
+          {
+            "$key": "ka3wehxqo1",
+            "value": "success",
+            "key": "SUCCESS"
+          },
+          {
+            "$key": "jobwntbq2ig",
+            "value": "failed",
+            "key": "FAILED"
+          },
+          {
+            "$key": "x0u4575tre",
+            "value": "refunded",
+            "key": "REFUNDED"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "2pemizwhwz8",
+      "key": "orderIds",
+      "name": "Order Ids",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "6684e3603108ad7b7d063f47"
+    },
+    {
+      "$key": "2c6k13rocnc",
+      "key": "totalPrice",
+      "name": "Total Price",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "s2i5t8bmmk9",
+      "key": "phonepePayAPIResponse",
+      "name": "Phonepe Pay API Response",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "y8ue2wa9p3c",
+      "key": "phonepePayAPIData",
+      "name": "Phonepe Pay API Data",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "u6moc20plj8",
+      "key": "razorpayCreateOrderResponse",
+      "name": "Razorpay Create Order Response",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "o4jm589x0r",
+      "key": "cashfreeCreateOrderResponse",
+      "name": "Cashfree Create Order Response",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "dgacwovkf8e",
+      "key": "customerId",
+      "name": "Customer",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6"
+    },
+    {
+      "$key": "yllnerri9zs",
+      "key": "totalMrp",
+      "name": "Total Mrp",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "hsqmuyfzn8",
+      "key": "totalDiscount",
+      "name": "Total Discount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "fxt19aud77l",
+      "key": "razorpayWebhookResponse",
+      "name": "Razorpay Webhook Response",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "mg6iah8fimp",
+      "key": "cashfreeWebhookResponse",
+      "name": "Cashfree Webhook Response",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "3tgzqr0ixpk",
+      "key": "phonepeWebhookResponse",
+      "name": "Phonepe Webhook Response",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "jqqfq0511e",
+      "key": "transactionType",
+      "name": "Transaction Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "e6mq4dm2mx5",
+            "key": "ORDER",
+            "value": "Order"
+          },
+          {
+            "$key": "khrbwbx0wim",
+            "key": "REFUND",
+            "value": "Refund"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "kqy88rg132m",
+      "key": "cancelData",
+      "name": "Cancel Data",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "rimrcroewvj",
+      "key": "returnData",
+      "name": "Return Data",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "atqu7sg6cvn",
+      "key": "taxableAmount",
+      "name": "Taxable Amount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "c4ykdhgrf3",
+      "key": "taxOnAmount",
+      "name": "Tax on Amount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "mkgt5gwyjsg",
+      "key": "totalAmount",
+      "name": "Total Amount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "7eivc5z5ce3",
+      "key": "totalExtraCharges",
+      "name": "Total Extra Charges",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "k51n1hqc7t",
+      "key": "totalTaxOnExtraCharges",
+      "name": "Total Tax on Extra Charges",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "2ywfsohdula",
+      "key": "extraCharges",
+      "name": "Extra Charges Details",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "x4i1svbqf0l",
+      "key": "finalTotal",
+      "name": "Final Total",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "bh55ftvrm1",
+      "key": "taxSettings",
+      "name": "Tax Settings",
+      "dataType": "INNER_MODEL",
+      "modelId": "66127dc2a10af254b4b4380b"
+    },
+    {
+      "$key": "yb8zhozemc",
+      "key": "pgPaymentResponse",
+      "name": "pgPaymentResponse",
+      "dataType": "OBJECT"
+    },
+    {
+      "$key": "0mm5w3zhajok",
+      "key": "pgPaymentId",
+      "name": "pgPaymentId",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "transactionId"
+  },
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-09T06:51:16.912Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

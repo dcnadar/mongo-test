@@ -1,0 +1,14 @@
+{
+  "_id": "66e2a41cab08f3103afa0724",
+  "name": "Password",
+  "path": "/admin/password/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66e2699bab08f3103afa0708",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-09-12T08:19:40.804Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

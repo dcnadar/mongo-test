@@ -1,0 +1,65 @@
+{
+  "_id": "66b07300a436a41ae7ae68ae",
+  "gridTitle": "WebsitePageGridThemeSettings ColorSetting",
+  "gridType": "form",
+  "crmModelId": "6511ee6df9686d32acb3e2d3",
+  "rows": [
+    {
+      "$key": "5owmzru0m7p",
+      "fields": [
+        {
+          "$key": "g35pl6ewnyu",
+          "id": "styleSettings.colorSetting.colors",
+          "title": "Colors",
+          "type": "inner_form",
+          "span": 8,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "qmbl4lrglra",
+          "id": "styleSettings.colorSetting.colorType",
+          "title": "Color type",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "5vk99as3yck",
+          "id": "styleSettings.colorSetting.moodType",
+          "title": "Mood Type",
+          "type": "text",
+          "span": 8,
+          "showCondition": "return this.styleSettings && this.styleSettings.colorSetting && (this.styleSettings.colorSetting.colorType === 'mood');"
+        },
+        {
+          "$key": "vfueefv4d0m",
+          "showCondition": "return this.styleSettings && this.styleSettings.colorSetting && (this.styleSettings.colorSetting.colorType === 'mood');",
+          "id": "styleSettings.colorSetting.moodOptionType",
+          "title": "Mood Option Type",
+          "type": "text",
+          "o": true,
+          "span": 8,
+          "updateType": "none",
+          "createType": "none"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-05T06:36:48.701Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "upsertDoc": false,
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true
+    },
+    {
+      "key": "id",
+      "required": true
+    }
+  ]
+}

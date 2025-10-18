@@ -1,0 +1,71 @@
+{
+  "_id": {
+    "$oid": "68c4974bf66798986dd89f17"
+  },
+  "gridTitle": "Privilege Form",
+  "gridType": "form",
+  "crmModelId": "68c3def470618d003613a97f",
+  "rows": [
+    {
+      "$key": "usulf0wkk3q",
+      "fields": [
+        {
+          "id": "hasAllAccess",
+          "title": "Has All Access",
+          "type": "bool",
+          "$key": "lp9uyd9je2",
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "$key": "b2jabk1133b",
+          "id": "access",
+          "title": "Access",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "apiUrl": "/api/base/entity/data?formName=:$formName $formName",
+          "showCondition": "return !this.hasAllAccess;"
+        },
+        {
+          "$key": "prqdw3coj2g",
+          "id": "except",
+          "title": "Except",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "apiUrl": "/api/base/entity/data?formName=:$formName $formName",
+          "showCondition": "return this. hasAllAccess;"
+        }
+      ],
+      "span": {
+        "$numberInt": "0"
+      },
+      "label": "PRIVILEGES",
+      "tab": "PRIVILEGES"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757714251352"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377692145"
+    }
+  }
+}

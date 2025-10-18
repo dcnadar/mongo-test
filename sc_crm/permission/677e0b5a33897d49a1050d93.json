@@ -1,0 +1,14 @@
+{
+  "_id": "677e0b5a33897d49a1050d93",
+  "key": "nyf_admission",
+  "name": "Nirala Youth Foundation Admission",
+  "apisAccess": [
+    "677e0b1a33897d49a1050d91",
+    "677e0b2033897d49a1050d92"
+  ],
+  "conditions": [],
+  "description": "Only to access nyf admission",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-01-08T05:21:30.759Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

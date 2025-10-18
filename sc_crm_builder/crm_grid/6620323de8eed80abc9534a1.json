@@ -1,0 +1,94 @@
+{
+  "_id": {
+    "$oid": "6620323de8eed80abc9534a1"
+  },
+  "gridTitle": "Permission",
+  "gridType": "form",
+  "rows": [
+    {
+      "$key": "cc4vet7oup9",
+      "fields": [
+        {
+          "$key": "qqytsq4nnwp",
+          "id": "key",
+          "title": "Key",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "$key": "zhrx8yi4b7g"
+        },
+        {
+          "$key": "3y8a2i3t9gn",
+          "id": "apisAccess",
+          "title": "APIs Access",
+          "type": "list",
+          "multiple": true,
+          "span": {
+            "$numberInt": "24"
+          },
+          "add": true,
+          "delete": true,
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "100"
+          }
+        },
+        {
+          "$key": "dhfk77byegn",
+          "id": "conditions",
+          "title": "Conditions",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "10"
+          },
+          "span": {
+            "$numberInt": "24"
+          }
+        },
+        {
+          "$key": "rqctp734b9",
+          "id": "description",
+          "title": "Description",
+          "type": "text",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "backUrl": "/admin/permissions",
+  "gridParams": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1713386045930"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "crmModelId": "66202f1ae8eed80abc9534a0",
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151235"
+    }
+  }
+}

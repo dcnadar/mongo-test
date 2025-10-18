@@ -1,0 +1,68 @@
+{
+  "_id": "66130c5ca10af254b4b4383b",
+  "gridTitle": "Enquiry",
+  "gridType": "table",
+  "crmModelId": "6612fbdba10af254b4b43838",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "vtotlmrdcf",
+      "key": "customerName",
+      "name": "Customer Name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "nbljmewnys",
+      "key": "customerContact",
+      "name": "Contact Number",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "xjebf4muou",
+      "key": "customerEmail",
+      "name": "Customer Email",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "k4eqfyihdl",
+      "key": "message",
+      "name": "Message",
+      "type": "text",
+      "width": 300,
+      "sort": false
+    },
+    {
+      "$key": "0wrvdy8h2wwj",
+      "key": "created",
+      "name": "Created Date",
+      "type": "date",
+      "sort": true
+    }
+  ],
+  "actions": [
+    {
+      "$key": "0bnxre4rfx1j",
+      "gridTitle": "Add Enquiry",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/enquiry/add",
+      "value": "Add Enquiry"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T21:13:00.068Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

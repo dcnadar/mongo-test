@@ -1,0 +1,13 @@
+{
+  "_id": "669b5d94531ed762273ebc7e",
+  "name": "Delete Farmer",
+  "path": "/admin/farmer/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "6662aede07b1a041b15e0b58",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-07-20T06:47:48.565Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

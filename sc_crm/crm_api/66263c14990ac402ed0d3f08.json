@@ -1,0 +1,12 @@
+{
+  "_id": "66263c14990ac402ed0d3f08",
+  "name": "FAQ",
+  "path": "/admin/website/faq/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "661cd493aee00c70206deb67",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T10:29:40.316Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

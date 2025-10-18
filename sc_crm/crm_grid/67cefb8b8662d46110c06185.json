@@ -1,0 +1,90 @@
+{
+  "_id": "67cefb8b8662d46110c06185",
+  "gridTitle": "ReactGrid CommonProductList7 Section",
+  "gridType": "form",
+  "crmModelId": "67cef6808662d46110c06183",
+  "rows": [
+    {
+      "$key": "4pas0cbkmij",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "bj39pegfjth"
+        },
+        {
+          "$key": "eoes8mcculw",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          }
+        },
+        {
+          "$key": "vjwvi9zuqs",
+          "id": "currencycode",
+          "title": "Currency Symbol",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "wskj2j79kca",
+          "id": "price",
+          "title": "Price",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "4vzo4c37jjh",
+          "id": "enableButton",
+          "title": "Enable  Button",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "5rudvm4rv6x",
+          "id": "buttonAction",
+          "title": "Button Action",
+          "type": "inner_form",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 18
+        },
+        {
+          "$key": "kx7l2api45g",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ttnxi3kzwws",
+          "id": "mrp",
+          "title": "Mrp",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "jzduhfto1wa",
+          "id": "subTitle",
+          "title": "SubTitle",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-03-10T14:47:39.776Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

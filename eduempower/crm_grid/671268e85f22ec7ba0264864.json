@@ -1,0 +1,65 @@
+{
+  "_id": "671268e85f22ec7ba0264864",
+  "gridTitle": "Student Transfer History",
+  "gridType": "table",
+  "crmModelId": "660fe465c7b99128d924f781",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T13:55:52.966Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "actions": [],
+  "border": false,
+  "columns": [
+    {
+      "$key": "coojuimm9vj",
+      "key": "when",
+      "name": "When",
+      "type": "date",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "bymtqx2loj",
+      "key": "userId",
+      "name": "User",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "s6nmi9s8fo",
+      "key": "doneBy",
+      "name": "Done By",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "i2ipazymn4e",
+      "key": "details",
+      "name": "Details",
+      "type": "changes",
+      "width": 500,
+      "sort": false
+    }
+  ],
+  "customFilters": [],
+  "fetchAdditionalKeys": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "94p9j3t6x1t",
+        "propertyKey": "type",
+        "operator": "EQUALS",
+        "EQUALS": "STUDENT"
+      },
+      {
+        "$key": "pu2nklhcwe9",
+        "propertyKey": "historyType",
+        "operator": "EQUALS",
+        "EQUALS": "TRANSFER"
+      }
+    ]
+  },
+  "updated": "2025-09-08T10:51:01.612Z"
+}

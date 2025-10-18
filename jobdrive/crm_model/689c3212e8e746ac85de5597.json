@@ -1,0 +1,136 @@
+{
+  "_id": "689c3212e8e746ac85de5597",
+  "name": "trainingBasicInformation",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "kj5vqj46twl",
+      "key": "traningtitle",
+      "name": "TraningTitle",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "cyh8sfmkj5",
+      "key": "category",
+      "name": "Category",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "oaru8sk01m",
+            "key": "TECHNICAL_Skills",
+            "value": "Technical Skills"
+          },
+          {
+            "$key": "vlgort97vzf",
+            "key": "SOFT_Skills",
+            "value": "Soft Skills"
+          },
+          {
+            "$key": "x7c9dzo6c",
+            "key": "INTERVIEW_PREPARATION",
+            "value": "Interview Preparation"
+          },
+          {
+            "$key": "ppvv0r6q3gd",
+            "key": "CERTIFICATION",
+            "value": "Certification"
+          },
+          {
+            "$key": "c4r3x6qedxl",
+            "key": "LEADERSHIP",
+            "value": "Leadership"
+          },
+          {
+            "$key": "vj2byg3vs2",
+            "key": "COMMUNICATION",
+            "value": "Communication"
+          },
+          {
+            "$key": "unbg1dkzoah",
+            "key": "PROJECT_MANAGEMENT",
+            "value": "Project Management"
+          },
+          {
+            "$key": "1bo7istk88n",
+            "key": "DATA_ANALYSIS",
+            "value": "Data Analysis"
+          },
+          {
+            "$key": "yup7v18nrgs",
+            "value": "Programming",
+            "key": "PROGRAMMING"
+          },
+          {
+            "$key": "itgkrcgu08n",
+            "value": "Design",
+            "key": "DESIGN"
+          },
+          {
+            "$key": "g5xe0qsn0in",
+            "value": "Marketing",
+            "key": "MARKETING"
+          },
+          {
+            "$key": "qnbvc5jh7tr",
+            "value": "Finance",
+            "key": "FINANCE"
+          },
+          {
+            "$key": "hiwzd9119v",
+            "key": "OTHER",
+            "value": "Other"
+          }
+        ]
+      },
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "qjpeo6yr8x",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "r4o2ul3npl",
+      "name": "Training Type",
+      "key": "trainingtype",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "eux8ucsmbl",
+            "key": "INTERNAL",
+            "value": "Internal"
+          },
+          {
+            "$key": "0jz8dq9xljes",
+            "key": "EXTERNAL",
+            "value": "External"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "9yy9zv2s7l",
+      "name": "Duration (nours)",
+      "key": "duration",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "jck0wzueldj",
+      "key": "maxparticipants",
+      "name": "Max Participants",
+      "dataType": "INTEGER"
+    }
+  ],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T06:34:58.495Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:54.870Z"
+}

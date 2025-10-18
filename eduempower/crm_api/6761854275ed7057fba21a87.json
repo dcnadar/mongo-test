@@ -1,0 +1,21 @@
+{
+  "_id": "6761854275ed7057fba21a87",
+  "name": "Staff Assets all",
+  "path": "/admin/staff/assets/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6761812775ed7057fba21a84",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-17T14:05:54.535Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true,
+      "documentKey": "currentlyAssignedTo"
+    }
+  ],
+  "updated": "2025-09-08T10:50:56.644Z"
+}

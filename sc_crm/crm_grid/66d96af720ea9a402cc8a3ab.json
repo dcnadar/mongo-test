@@ -1,0 +1,116 @@
+{
+  "_id": "66d96af720ea9a402cc8a3ab",
+  "gridTitle": "ReactGrid GlobalHeader4 loginData",
+  "gridType": "form",
+  "crmModelId": "66d9407120ea9a402cc8a3a4",
+  "rows": [
+    {
+      "$key": "peal84t3y5g",
+      "fields": [
+        {
+          "id": "loginHeading",
+          "$key": "m79zvulrqwd",
+          "title": "LoginHeading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "u6cfzqefhel",
+          "id": "resetHeading",
+          "title": "ResetHeading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7p12tiv6ahs",
+          "id": "registerHeading",
+          "title": "RegisterHeading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "7ua61gga51s",
+          "id": "forgetButtonText",
+          "title": "ForgetButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "a0wazeqiqin",
+          "id": "customerButtonText",
+          "title": "CustomerButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "3gxk3dexkbj",
+          "id": "resetTitle",
+          "title": "ResetTitle",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "bq2rwmw59ze",
+          "id": "cancelButtonText",
+          "title": "CancelButtonText",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "sbb256lzd5s",
+          "id": "registerButtonText",
+          "title": "RegisterButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "b9peofvrfu",
+          "id": "emailLabel",
+          "title": "EmailLabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "c7r64zy7ynf",
+          "id": "passwordLabel",
+          "title": "PasswordLabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "4t67988a1ne",
+          "id": "firstNameLabel",
+          "title": "FirstNameLabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "tv1l6fmyf9",
+          "id": "lastNameLabel",
+          "title": "LastNameLabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "n2tonpf4sw",
+          "id": "mobileNumberLabel",
+          "title": "MobileNumberLabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "kxvv8j7w7yg",
+          "id": "emailAddressLabel",
+          "title": "EmailAddressLabel",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-05T08:25:27.478Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

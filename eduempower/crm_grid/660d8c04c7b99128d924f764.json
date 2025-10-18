@@ -1,0 +1,75 @@
+{
+  "_id": "660d8c04c7b99128d924f764",
+  "gridTitle": "Eduempower SchoolRoomType",
+  "gridType": "table",
+  "crmModelId": "660a3913c7b99128d924f6a2",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "vw6omwe1m1r",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "1w4krn0oxcx",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "3qc7ub6eng",
+          "apiUrl": "/admin/schoolsetup/room-types/all?parentRoomTypeId=:_id _id",
+          "gridType": "expendedTable",
+          "value": "View Subroom types"
+        },
+        {
+          "$key": "up3adj65xt",
+          "gridType": "expendedForm",
+          "apiUrl": "/admin/schoolsetup/room-types/add?parentRoomTypeId=:_id _id",
+          "value": "Add Subroom type"
+        },
+        {
+          "$key": "c14ajp1lpt6",
+          "gridTitle": "Edit Room Types",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/schoolsetup/room-types/edit?id=:_id _id",
+          "value": "Edit"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "3nyz56gf2aj",
+      "gridTitle": "Add Room Types",
+      "value": "Add Room Types",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/schoolsetup/room-types/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T17:04:04.746Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "parentRoomTypeId",
+      "required": false
+    }
+  ],
+  "updated": "2025-09-08T10:50:59.763Z"
+}

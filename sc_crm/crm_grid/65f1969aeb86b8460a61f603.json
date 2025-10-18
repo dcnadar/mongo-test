@@ -1,0 +1,65 @@
+{
+  "_id": "65f1969aeb86b8460a61f603",
+  "gridTitle": "ReactGrid GlobalHeroSection7",
+  "gridType": "form",
+  "crmModelId": "65f18988eb86b8460a61f602",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8,
+          "$key": "hk7afadpqil"
+        },
+        {
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 16,
+          "$key": "m8ld850s4x"
+        },
+        {
+          "id": "buttons",
+          "title": "Buttons",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 2,
+          "$key": "u8gi2m0dqvc"
+        },
+        {
+          "id": "images",
+          "title": "Images",
+          "type": "upload",
+          "multiple": true,
+          "span": 24,
+          "add": true,
+          "delete": true,
+          "o": false,
+          "min": 5,
+          "max": 5,
+          "$key": "1ispco3gsgg"
+        }
+      ],
+      "$key": "trsphkgbp9"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-13T12:05:46.814Z"
+}

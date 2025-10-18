@@ -1,0 +1,27 @@
+{
+  "_id": "6824889c9762cb256a8b64ef",
+  "gridTitle": "Order",
+  "gridType": "table",
+  "crmModelId": "67dbcba44ab8726fa4642964",
+  "columns": [
+    {
+      "$key": "7qh9asy3syc",
+      "name": "Customer",
+      "type": "card",
+      "width": 0,
+      "key": "customerId",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "woocommerceOrderData"
+  ],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-05-14T12:12:12.907Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

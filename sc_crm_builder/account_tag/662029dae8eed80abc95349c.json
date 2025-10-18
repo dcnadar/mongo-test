@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "662029dae8eed80abc95349c"
+  },
+  "category": "status",
+  "categoryName": "Status",
+  "name": [
+    "ACTIVE",
+    "INACTIVE",
+    "BANNED"
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1713383898411"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070147024"
+    }
+  }
+}

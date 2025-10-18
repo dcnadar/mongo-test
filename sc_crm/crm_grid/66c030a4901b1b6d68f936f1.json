@@ -1,0 +1,44 @@
+{
+  "_id": "66c030a4901b1b6d68f936f1",
+  "gridTitle": "RazorpayPaymentGatewayConfig",
+  "gridType": "form",
+  "crmModelId": "66c02f2d901b1b6d68f936ee",
+  "rows": [
+    {
+      "$key": "0utc8vrdapt",
+      "fields": [
+        {
+          "$key": "wb57ymk1tph",
+          "id": "razorpayAPIKey",
+          "title": "Razorpay API Key",
+          "type": "text",
+          "span": 24,
+          "o": false
+        },
+        {
+          "$key": "zv8czv4tau",
+          "id": "razorpaySecretKey",
+          "title": "Razorpay Secret Key",
+          "type": "text",
+          "span": 24,
+          "o": false
+        },
+        {
+          "$key": "i9ggmqrt4ke",
+          "id": "razorpayWebhookSecretKey",
+          "title": "Razorpay Webhook Secret Key",
+          "type": "text",
+          "span": 24
+        }
+      ],
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "description": "#### Razorpay API Key\n\n* The public key provided by Razorpay for API integration.\n\n#### Razorpay Secret Key\n\n* The confidential key used alongside the API Key to secure transactions.\n\n#### Razorpay Webhook Secret Key\n\n* A key used to validate webhook requests from Razorpay.\n* This is the <html style=\"color : red\">most recommended</html>to setup webhook\n* Please read <html style=\"color : red\">'To Setup Webhook'</html>which is given below for setup webhook.\n\n***\n\n#### To Generate Razorpay Api Key and Secret Key\n\n* **Sign Up / Log In:**\n  * If you don’t have an account, sign up at [Razorpay](https://razorpay.com/). If you already have one, simply log in to your Razorpay dashboard.\n* **Switch Environment**\n  * Make sure you have in Production Mode.\n* **Navigate to API Settings:**\n  * In your Razorpay dashboard, look for the “Settings” option in the sidebar.\n  * Within Settings, find and click on “API Keys” or a similar option related to API credentials.\n* **Generate the API Key Pair:**\n  * Click on the “Generate Key” button.\n  * You might be asked to enter your account password as a security step.\n* **Copy and Save Your Keys:**\n  * Once generated, you will see both your API key (often called “Key ID”) and your secret key.\n  * **Important:** The secret key is displayed only once. Make sure to copy it and store it securely (for example, in a secure password manager or a safe place on your computer).\n  * Now copy the keys And paste it here in the **Razorpay API Key** and **Razorpay Secret Key** column.\n* **Use Your Keys Safely:**\n  * Do not share your secret key with anyone.\n\n***\n\n#### To Setup Webhook\n\n* **Log In to Your Razorpay Dashboard:**\n  * Visit [Razorpay](https://razorpay.com/) and log in with your credentials.\n* **Navigate to the Webhooks Section:**\n  * In the dashboard sidebar, click on **Settings**.\n  * Look for the **Webhooks** option. (If it’s not immediately visible, check under integration or API settings.)\n* **Add a New Webhook:**\n  * Click the **Add New Webhook** (or similar) button.\n  * In the form that appears, enter your **Webhook URL**. This is the endpoint on your server where you want to receive webhook events.\n  * The **Webhook URL** should be: <html style=\"color : red\">https://{yourdomainName}/api/public/webhook/razor-pay/payment</html>\n  * eg: [https://example.com/api/public/webhook/razor-pay/payment](https://example.com/api/public/webhook/razor-pay/payment)\n* **Select Events to Subscribe To:**\n  * You’ll see a list of available events such as **Payment Captured**, **Payment Failed**, etc.\n  * Select these events:\n    * <html style=\"color : red\">payment.captured</html>\n    * <html style=\"color : red\">payment.failed</html>\n    * <html style=\"color : red\">payment.authorized</html>\n    * <html style=\"color : red\">order.paid</html>\n    * <html style=\"color : red\">refund.processed</html>\n    * <html style=\"color : red\">refund.failed</html>\n    * <html style=\"color : red\">refund.created</html>\n  * Check the events that are relevant to your application so that Razorpay sends notifications for those events.\n* **Set a Webhook Secret Key**\n  * Enter a <html style=\"color : red\">Secret Key</html>This secret is used by Razorpay to sign the webhook payload.\n  * Insert this same Secret Key here also **Webhook Secret Key** column.\n  * Make sure you store this secret securely.\n* **Save Your Webhook Configuration:**\n  * Once you’ve entered the URL, selected the events, and set a secret, click **Save** or **Create Webhook** to finalize the setup."
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-17T05:09:56.775Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

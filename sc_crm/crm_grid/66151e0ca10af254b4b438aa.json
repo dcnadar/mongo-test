@@ -1,0 +1,87 @@
+{
+  "_id": "66151e0ca10af254b4b438aa",
+  "gridTitle": "Customer",
+  "gridType": "table",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "columns": [
+    {
+      "$key": "fr5fycqsen8",
+      "key": "logo",
+      "name": "Profile Pic",
+      "type": "thumb",
+      "sort": false
+    },
+    {
+      "$key": "m6afm9xrjuf",
+      "key": "firstName",
+      "name": "FirstName",
+      "type": "name",
+      "sort": true
+    },
+    {
+      "$key": "d9s5dkcuj8p",
+      "key": "email",
+      "name": "Email",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "7q1c7fgx12e",
+      "key": "mobileNumber",
+      "name": "mobile Number",
+      "sort": true,
+      "type": "text",
+      "valueCondition": "return '+91-' + this.mobileNumber;"
+    },
+    {
+      "$key": "00odbakeo7z9",
+      "key": "edit",
+      "name": "Details",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "i4szj0a79jt",
+          "value": "View Details",
+          "slug": "/admin/account/customer/update?customerId=:_id _id"
+        },
+        {
+          "$key": "g8i3c97zipn",
+          "gridTitle": "Update Password",
+          "value": "Change password",
+          "apiUrl": "/admin/account/staff/password/update?user=:_id _id",
+          "gridType": "popupForm"
+        }
+      ],
+      "sort": true
+    }
+  ],
+  "actions": [
+    {
+      "$key": "33g1g1wn9oo",
+      "value": "Add Customer",
+      "slug": "/admin/account/customer/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "lambdch3d",
+        "propertyKey": "userType",
+        "operator": "EQUALS",
+        "EQUALS": "CUSTOMER"
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "lastName"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T10:53:00.861Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "search": {
+    "placeHolder": "Search by name or email"
+  }
+}

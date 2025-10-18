@@ -1,0 +1,194 @@
+{
+  "_id": "6718ac2d5f22ec7ba0264907",
+  "name": "Eduempower Class & Sections",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "1is6k8hpthf",
+      "key": "studentType",
+      "name": "Student Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "2aj12efrg3a",
+            "key": "SCHOLARSHIP",
+            "value": "Scholarship"
+          },
+          {
+            "$key": "nr0hjby2yx8",
+            "key": "NON_SCHOLARSHIP",
+            "value": "Non Scholarship"
+          },
+          {
+            "$key": "djl3vz8h948",
+            "key": "DAY_SCHOLAR",
+            "value": "Day scholar"
+          },
+          {
+            "$key": "749mzm3i14j",
+            "key": "HOSTELER",
+            "value": "Hosteler"
+          },
+          {
+            "$key": "gzlctdiwsyk",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "1155yc79wqy",
+      "key": "oldNewAdmission",
+      "name": "Old/New Admission",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "4vsm5qb2am",
+            "key": "OLD",
+            "value": "Old Student"
+          },
+          {
+            "$key": "nn89f3179z8",
+            "key": "NEW",
+            "value": "New Student"
+          },
+          {
+            "$key": "63de6sms9pw",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "hycidujs8af",
+      "key": "stations",
+      "name": "Stations",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "9uwzy1xtwpj",
+            "key": "GREEN",
+            "value": "Green"
+          },
+          {
+            "$key": "rd4ix8zykh",
+            "key": "RED",
+            "value": "Red"
+          },
+          {
+            "$key": "mhp9dvi5id8",
+            "key": "YELLOW",
+            "value": "Yellow"
+          },
+          {
+            "$key": "da8asfgjpa",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "kk6xcdf4jr",
+      "key": "houses",
+      "name": "Houses",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "nr5witn2aba",
+            "key": "GREEN",
+            "value": "Green"
+          },
+          {
+            "$key": "jc43tue2mxn",
+            "key": "RED",
+            "value": "Red"
+          },
+          {
+            "$key": "0glq3h0lwlba",
+            "key": "YELLOW",
+            "value": "Yellow"
+          },
+          {
+            "$key": "lnjfhnjmsf",
+            "key": "ALL",
+            "value": "All"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "xtovt2xwir",
+      "key": "class",
+      "name": "Class",
+      "dataType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4"
+    },
+    {
+      "$key": "7ueyr0qeijp",
+      "key": "section",
+      "name": "Section",
+      "dataType": "REFERENCE",
+      "modelId": "6710fa555f22ec7ba026482b"
+    },
+    {
+      "$key": "ae8n5yyd3cj",
+      "key": "departments",
+      "name": "Departments",
+      "dataType": "REFERENCE",
+      "modelId": "660817b960d4f873b5fa4f47"
+    },
+    {
+      "$key": "q3uubbgwx4p",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "e25ihpif1cn",
+      "key": "public",
+      "name": "Public",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "enjs2n3iybu",
+      "key": "send",
+      "name": "Send",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "vce1ke13y28",
+            "key": "ONLY_SMS",
+            "value": "Only SMS"
+          },
+          {
+            "$key": "m1xgjig3lfb",
+            "key": "ONLY_NOTIFICATION",
+            "value": "Only Notification"
+          },
+          {
+            "$key": "nvsws6kj5e",
+            "key": "SMS_AND_NOTIFICATION",
+            "value": "SMS & Notification"
+          },
+          {
+            "$key": "be8lxpjp8ep",
+            "key": "NONE",
+            "value": "None"
+          }
+        ]
+      }
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T07:56:29.862Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:07.152Z"
+}

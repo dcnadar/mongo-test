@@ -1,0 +1,68 @@
+{
+  "_id": "66864ad53108ad7b7d063f8d",
+  "gridTitle": "NativeGrid GlobalBlogSection1 sections",
+  "gridType": "form",
+  "crmModelId": "668647b43108ad7b7d063f89",
+  "rows": [
+    {
+      "$key": "htdig20ewya",
+      "fields": [
+        {
+          "id": "data",
+          "title": "Data",
+          "type": "text",
+          "span": 8,
+          "$key": "j7pl8lbrrvo"
+        },
+        {
+          "$key": "lyha2ow0dc",
+          "id": "tag",
+          "title": "Tag",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "k9meqxf392m",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 9
+        },
+        {
+          "$key": "g0gtv5kypmm",
+          "id": "descriptions",
+          "title": "descriptions",
+          "type": "textarea",
+          "span": 16
+        },
+        {
+          "$key": "0zov1662td",
+          "id": "user",
+          "title": "user",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-04T07:10:13.113Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

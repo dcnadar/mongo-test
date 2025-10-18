@@ -1,0 +1,13 @@
+{
+  "_id": "66b348ec718ee5699170b353",
+  "name": "WebsItePageGridThemeSettings Background",
+  "path": "/admin/website/page/grid/theme/settings/background",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66b082c6a436a41ae7ae68b3",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-07T10:14:04.214Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

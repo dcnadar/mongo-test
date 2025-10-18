@@ -1,0 +1,24 @@
+{
+  "_id": {
+    "$oid": "68d15829f42bc3ef836dc7e0"
+  },
+  "name": "Edit Permissions",
+  "path": "/admin/app-permission/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "68d0ed7ef42bc3ef836dc7cc",
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758550057737"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231672698"
+    }
+  }
+}

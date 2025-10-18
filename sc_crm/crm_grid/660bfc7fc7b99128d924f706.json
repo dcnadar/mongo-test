@@ -1,0 +1,41 @@
+{
+  "_id": "660bfc7fc7b99128d924f706",
+  "gridTitle": "ReactGrid Global3dCards",
+  "gridType": "form",
+  "crmModelId": "660bf0d7c7b99128d924f704",
+  "rows": [
+    {
+      "$key": "y7h3hrdk3qi",
+      "fields": [
+        {
+          "onChangeCondition": [],
+          "$key": "r97tqrnq0br",
+          "type": "form_array",
+          "span": 24,
+          "id": "section",
+          "title": "Section",
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 5
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-02T12:39:27.453Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

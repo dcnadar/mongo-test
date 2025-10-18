@@ -1,0 +1,170 @@
+{
+  "_id": "68ac37657be295936f39ddd6",
+  "gridTitle": "Trainer",
+  "gridType": "form",
+  "crmModelId": "6703b5dc30083226ac6affc4",
+  "rows": [
+    {
+      "$key": "8oz3sdic6me",
+      "fields": [
+        {
+          "$key": "hv1m42tbhco",
+          "id": "avatarUrl",
+          "title": "Avatar Url",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "rzfuav52hba",
+          "title": "Cover Image Url",
+          "id": "coverImageUrl",
+          "span": 8,
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          }
+        },
+        {
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 8,
+          "$key": "i0eyez9n5gr"
+        },
+        {
+          "$key": "u2f62u8bmy",
+          "id": "lastName",
+          "title": "Last Name",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "jrh5wfux3a",
+          "id": "slug",
+          "title": "Slug",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "6pe219ffv06",
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": 8
+        },
+        {
+          "$key": "0uffe1ljuhi9",
+          "id": "mobileNumber",
+          "title": "Phone Number",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "k1cq41ufiln",
+          "id": "bio",
+          "title": "Bio",
+          "type": "textarea",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "ptcimdcychh",
+          "id": "headline",
+          "title": "Headline",
+          "span": 8,
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "48ir0qewcxn",
+          "id": "yearsExperience",
+          "title": "Years Experience",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "w4kqux8q7ae",
+          "id": "expertise",
+          "title": "Expertise",
+          "type": "strings",
+          "span": 8
+        },
+        {
+          "$key": "5sndqhiy4cg",
+          "id": "topics",
+          "title": "Topics",
+          "type": "strings",
+          "span": 8
+        },
+        {
+          "$key": "60tf3t71d32",
+          "id": "languages",
+          "title": "Languages",
+          "type": "strings",
+          "span": 8
+        },
+        {
+          "$key": "dpltdh4e95q",
+          "id": "timeZone",
+          "o": true,
+          "title": "TimeZone",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "nte5i40jcv",
+          "id": "preferredModes",
+          "title": "Preferred Modes",
+          "span": 8,
+          "type": "strings"
+        },
+        {
+          "$key": "wjyhyv0oee",
+          "id": "travelWilling",
+          "title": "Travel Willing",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "938ft90y1xq",
+          "id": "baseLocation",
+          "title": "Base Location",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "03t7wcygsh3e",
+          "title": "Remote Only",
+          "id": "remoteOnly",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "t5rntmgsr4",
+          "id": "isActive",
+          "title": "isActive",
+          "type": "bool",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-25T10:13:57.560Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:53.851Z"
+}

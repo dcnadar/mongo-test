@@ -1,0 +1,16 @@
+{
+  "_id": "6739ed885bfbb47aebef466a",
+  "name": "All Admin",
+  "path": "/admin/account/users/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67384f635bfbb47aebef465a",
+  "innerGridType": "table",
+  "innerSourceId": "6738f30d15937f5e7bfb2e70",
+  "gridParams": [],
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-17T13:20:08.615Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

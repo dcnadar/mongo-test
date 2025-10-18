@@ -1,0 +1,105 @@
+{
+  "_id": "66151ae7a10af254b4b438a9",
+  "gridTitle": "Customer",
+  "gridType": "form",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "rows": [
+    {
+      "$key": "9g3klu9hc2i",
+      "fields": [
+        {
+          "$key": "d6rsuizyghm",
+          "id": "logo",
+          "title": "Profile pic",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        },
+        {
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 6,
+          "$key": "hj1sdwuwire"
+        },
+        {
+          "$key": "jbgpublorca",
+          "id": "lastName",
+          "title": "Last Name",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "84izma9vtfn",
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": 6
+        },
+        {
+          "$key": "bzlfc3p5ibk",
+          "id": "userName",
+          "title": "User Name",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "75lcrnyst1p",
+          "id": "mobileNumber",
+          "title": "Mobile Number",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "30kszncbc5f",
+          "id": "callingCode",
+          "title": "Calling Code",
+          "type": "list",
+          "span": 4,
+          "multiple": false,
+          "options": []
+        },
+        {
+          "$key": "kr1x97joot",
+          "id": "birthDate",
+          "title": "Birth Date",
+          "type": "date",
+          "span": 6
+        },
+        {
+          "$key": "4f91zr4o514",
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "span": 6,
+          "multiple": false,
+          "options": []
+        },
+        {
+          "$key": "xw8eih7fv4c",
+          "id": "userType",
+          "title": "User Type",
+          "type": "text",
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "CUSTOMER"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T10:39:35.297Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/customer/all",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "documentKey": "id",
+      "required": false
+    }
+  ],
+  "upsertDoc": false
+}

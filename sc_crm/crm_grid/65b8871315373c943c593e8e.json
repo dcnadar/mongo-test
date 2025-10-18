@@ -1,0 +1,52 @@
+{
+  "_id": "65b8871315373c943c593e8e",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-30T05:20:19.403Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "$key": "qg137i1f9r",
+          "id": "showDynamicContent",
+          "title": "Show Dynamic Content",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "njqsq5gv4f",
+          "id": "dynamicContentFilter",
+          "title": "Dynamic Content Filters",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "showCondition": "return this.showDynamicContent;"
+        },
+        {
+          "index": 0,
+          "title": "Sections",
+          "id": "section",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 20,
+          "add": true,
+          "delete": true,
+          "hint": "Products data",
+          "$key": "jrvjp31d31q",
+          "showCondition": "return !this.showDynamicContent;"
+        }
+      ],
+      "$key": "tzggjyzrene"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b8871315373c943c593e8c",
+  "gridTitle": "ReactGrid CommonProductList2",
+  "fetchDocWithoutId": false
+}

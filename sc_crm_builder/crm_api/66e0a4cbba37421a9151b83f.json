@@ -1,0 +1,25 @@
+{
+  "_id": {
+    "$oid": "66e0a4cbba37421a9151b83f"
+  },
+  "name": "Delete permission",
+  "path": "/admin/permissions/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "66202f1ae8eed80abc9534a0",
+  "gridParams": [],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1725998283036"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070148763"
+    }
+  }
+}

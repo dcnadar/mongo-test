@@ -1,0 +1,83 @@
+{
+  "_id": "671267ee5f22ec7ba0264860",
+  "gridTitle": "Student Documents",
+  "gridType": "table",
+  "crmModelId": "671266f85f22ec7ba026485d",
+  "columns": [
+    {
+      "$key": "l0vzaj43gs",
+      "key": "document",
+      "name": "Document",
+      "type": "thumb",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "7du5qlftqlq",
+      "key": "documentName",
+      "name": "Document Name",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "0k8ils8gttfb",
+      "key": "type",
+      "name": "Type",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "mpyh2py62u",
+      "key": "expiry",
+      "name": "Expiry",
+      "type": "date",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "6a2sjdlkaqx",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "80xo66wppok",
+          "gridTitle": "Edit Document",
+          "value": "Edit",
+          "apiUrl": "/admin/student/documents/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "7r7aw8gyq95",
+      "gridTitle": "Add Document",
+      "value": "Add Document",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/student/documents/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T13:51:42.479Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/student/all",
+  "gridParams": [
+    {
+      "key": "studentId",
+      "required": true,
+      "documentKey": "userId"
+    }
+  ],
+  "updated": "2025-09-08T10:51:01.578Z"
+}

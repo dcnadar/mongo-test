@@ -1,0 +1,34 @@
+{
+  "_id": "6710fbc55f22ec7ba026482e",
+  "gridTitle": "Eduempower Class Section",
+  "gridType": "form",
+  "crmModelId": "660698f6eea36066ca04cbce",
+  "rows": [
+    {
+      "$key": "z2h913iwwmd",
+      "fields": [
+        {
+          "$key": "tlx6pb531e",
+          "id": "sectionName",
+          "title": "Section Name",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "dfi9y6ited",
+          "id": "sectionSeatingCapacity",
+          "title": "Section Seating Capacity",
+          "type": "number",
+          "span": 12,
+          "min": 0
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-17T11:57:57.003Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:01.373Z"
+}

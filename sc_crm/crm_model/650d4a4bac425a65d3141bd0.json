@@ -1,0 +1,24 @@
+{
+  "_id": "650d4a4bac425a65d3141bd0",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Website Header Settings",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "logo",
+      "name": "Logo"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "rightButtons",
+      "name": "Right Buttons",
+      "modelId": "65b0b2b014cae9d8eba5398a"
+    }
+  ],
+  "collectionName": "website_header_settings",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "created": "2024-01-27T07:48:51.332Z"
+}

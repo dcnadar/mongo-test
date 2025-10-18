@@ -1,0 +1,71 @@
+{
+  "_id": "660d6646c7b99128d924f75b",
+  "gridTitle": "Eduempower FeeType",
+  "gridType": "table",
+  "crmModelId": "6608f72b60d4f873b5fa4f6d",
+  "columns": [
+    {
+      "$key": "y8cghr12u19",
+      "key": "name",
+      "name": "Fee Type Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "x5hxxd7xxqt",
+      "key": "code",
+      "name": "Fee Type Code",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "vzysnpbbz2",
+      "key": "type",
+      "name": "Fee Type",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "lm56tqvx2y9",
+      "key": "classes",
+      "name": "Classes",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "6kix40fl9l5",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "8qhozrfftdl",
+          "apiUrl": "/admin/schoolsetup/fee-settings/fee-type/edit?id=:_id _id",
+          "gridTitle": "Edit Fee Type",
+          "value": "Edit",
+          "gridType": "popupForm"
+        }
+      ],
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "bffopih74p5",
+      "value": "Add Fee Type",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/schoolsetup/fee-settings/fee-type/add",
+      "gridTitle": "Add Fee Type"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T14:23:02.228Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.496Z"
+}

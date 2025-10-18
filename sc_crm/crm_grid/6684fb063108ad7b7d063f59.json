@@ -1,0 +1,33 @@
+{
+  "_id": "6684fb063108ad7b7d063f59",
+  "gridTitle": "NativeGrid GlobalVideoDescription castlist",
+  "gridType": "form",
+  "crmModelId": "6684f3ab3108ad7b7d063f4e",
+  "rows": [
+    {
+      "$key": "nr6yegqyevo",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8,
+          "$key": "vj3xg58nnrr",
+          "multiple": false
+        },
+        {
+          "$key": "wes1zaqvw1k",
+          "id": "imageUri",
+          "title": "ImageUri",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T07:17:26.407Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,86 @@
+{
+  "_id": "6612465aa10af254b4b437e4",
+  "name": "Invoice ",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "invoice ",
+  "properties": [
+    {
+      "$key": "objyur924s",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "66q5ofct6mg",
+      "key": "form",
+      "name": "Form",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66123e4aa10af254b4b437dc"
+    },
+    {
+      "$key": "3zf7d66tq65",
+      "key": "to",
+      "name": "To",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66123fa9a10af254b4b437dd"
+    },
+    {
+      "$key": "ccy22cv6dkg",
+      "key": "number",
+      "name": "Number",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "zibhp5f2jde",
+      "key": "date",
+      "name": "Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "8cdxsp40e1s",
+      "key": "terms",
+      "name": "Terms",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "c70hfjvxjr",
+      "key": "item",
+      "name": "Item",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6612413ba10af254b4b437e0"
+    },
+    {
+      "$key": "jhjpl3z8iop",
+      "key": "subTotal",
+      "name": "SubTotal",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "zqkgbp42gk",
+      "key": "tax (0%)",
+      "name": "Tax (0%)",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "la9dfxmg7b",
+      "key": "total",
+      "name": "Total",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "64wlct898y7",
+      "key": "balance Due",
+      "dataType": "INTEGER",
+      "name": "Balance Due"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T07:08:10.176Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

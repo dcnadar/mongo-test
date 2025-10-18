@@ -1,0 +1,82 @@
+{
+  "_id": "6662b1dc07b1a041b15e0b60",
+  "gridTitle": "Producer Group",
+  "gridType": "table",
+  "crmModelId": "6662ac9c07b1a041b15e0b56",
+  "columns": [
+    {
+      "$key": "x44th60kze",
+      "key": "pgName",
+      "name": "Name",
+      "type": "text",
+      "sort": true,
+      "width": 200
+    },
+    {
+      "$key": "ex2rmcj7l88",
+      "key": "blockId",
+      "name": "Block",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "v0aw9x0ldhn",
+      "key": "bankAccountNo",
+      "name": "Bank Account No",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "72bh736qohi",
+      "key": "accountType",
+      "name": "Account Type",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "ws264t59us",
+      "key": "ifscCode",
+      "name": "IFSC Code",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "904hhrht3y",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "width": 200,
+      "actions": [
+        {
+          "$key": "l7wrztzgaap",
+          "gridTitle": "Edit Producer Group",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/groups/producer-group/edit?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "0f36f3zix7co",
+      "gridTitle": "Add Producer Group",
+      "gridType": "popupForm",
+      "value": "Add Producer Group",
+      "apiUrl": "/admin/groups/producer-group/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:08:12.354Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

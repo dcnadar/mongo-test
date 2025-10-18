@@ -1,0 +1,13 @@
+{
+  "_id": "66652bef07b1a041b15e0bbe",
+  "name": "All Village",
+  "path": "/admin/location/village/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "666453f707b1a041b15e0ba8",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-09T04:13:35.670Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

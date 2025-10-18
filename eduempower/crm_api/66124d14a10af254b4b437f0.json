@@ -1,0 +1,13 @@
+{
+  "_id": "66124d14a10af254b4b437f0",
+  "name": "Add Class Incharge",
+  "path": "/admin/schoolsetup/class-incharge/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cf27bc7b99128d924f737",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T07:36:52.809Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:50.010Z"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "660cd3a9c7b99128d924f721",
+  "gridTitle": "Eduempower Department",
+  "gridType": "form",
+  "crmModelId": "660817b960d4f873b5fa4f47",
+  "rows": [
+    {
+      "$key": "tm5hmym00ge",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Department Name",
+          "type": "text",
+          "span": 8,
+          "$key": "asgwhjprpqk"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T03:57:29.939Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/account-settings/department/all",
+  "gridParams": [],
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.177Z"
+}

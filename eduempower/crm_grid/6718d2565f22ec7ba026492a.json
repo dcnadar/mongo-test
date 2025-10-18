@@ -1,0 +1,185 @@
+{
+  "_id": "6718d2565f22ec7ba026492a",
+  "gridTitle": "Eduempower Circulars",
+  "gridType": "form",
+  "crmModelId": "6718b51d5f22ec7ba026490b",
+  "rows": [
+    {
+      "$key": "3x38hugr0oh",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "e2z0ngaxz6t"
+        },
+        {
+          "$key": "reothlf3su",
+          "id": "publishDate",
+          "title": "Publish Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "5s10hjxi5pc",
+          "id": "publishTime",
+          "title": "Publish Time",
+          "type": "time",
+          "span": 8
+        },
+        {
+          "$key": "j0j7cvmz01n",
+          "id": "noticeFor",
+          "title": "Notice For",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "u9k6mekoc6",
+          "id": "audienceType",
+          "title": "AudienceType",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "3t0yq874g3a",
+          "id": "classes",
+          "title": "Classes",
+          "span": 8,
+          "type": "list",
+          "multiple": true,
+          "showCondition": "return this.audienceType==='CLASS_WISE'",
+          "add": false,
+          "delete": false,
+          "min": 1
+        },
+        {
+          "$key": "xysa4v7dvee",
+          "id": "admissionNo",
+          "title": "Enter Admission No. Comma Separated",
+          "type": "list",
+          "multiple": true,
+          "span": 8,
+          "min": 1,
+          "showCondition": "return this.audienceType==='STUDENT_WISE';",
+          "add": false,
+          "delete": false,
+          "o": true
+        },
+        {
+          "$key": "diybskcfahs",
+          "id": "classSections",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "title": "Class & Sections",
+          "span": 24,
+          "showCondition": "return this .audienceType==='SECTION_WISE'",
+          "o": true
+        },
+        {
+          "$key": "dwn0g24d9h8",
+          "id": "studentType",
+          "title": "Student Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true,
+          "addApiUrl": "return this .",
+          "showCondition": "return this.noticeFor==='STUDENT' "
+        },
+        {
+          "$key": "wlt88ov5xos",
+          "id": "admissionType",
+          "type": "list",
+          "multiple": false,
+          "title": "Old/New Admission",
+          "span": 8,
+          "o": true,
+          "showCondition": "return this.noticeFor==='STUDENT'"
+        },
+        {
+          "$key": "yhg4rehfnh",
+          "title": "Stations",
+          "id": "stations",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "lvve542c5zm",
+          "id": "houses",
+          "title": "Houses",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "sihfxvj1jwo",
+          "id": "departments",
+          "title": "Departments",
+          "span": 8,
+          "type": "list",
+          "multiple": false,
+          "o": true
+        },
+        {
+          "$key": "viwiejcizuq",
+          "id": "staffCategory",
+          "title": "Staff Category",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true,
+          "showCondition": "return this.noticeFor==='STAFF' "
+        },
+        {
+          "$key": "xc5ap6r915",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "fegskwvtw3j",
+          "title": "Public",
+          "id": "isPublic",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "aj39tsm63i",
+          "id": "notificationType",
+          "type": "list",
+          "multiple": false,
+          "title": "Send",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "jnkvs2vf9gb",
+          "title": "Attachments",
+          "id": "attachments",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:39:18.311Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/circulars&news/circulars/all",
+  "updated": "2025-09-08T10:51:02.161Z"
+}

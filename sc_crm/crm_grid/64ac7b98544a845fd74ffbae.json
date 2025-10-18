@@ -1,0 +1,32 @@
+{
+  "_id": "64ac7b98544a845fd74ffbae",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "gridType": "form",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Type",
+          "id": "type",
+          "type": "tag",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Image",
+          "id": "url",
+          "type": "upload",
+          "span": 8,
+          "o": false
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "gridTitle": "Product Asset",
+  "crmModelId": "64a5c52d099de82bca61ca95"
+}

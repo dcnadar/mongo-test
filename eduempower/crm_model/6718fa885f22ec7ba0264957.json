@@ -1,0 +1,31 @@
+{
+  "_id": "6718fa885f22ec7ba0264957",
+  "name": "Eduempower News Attachments",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "rd03ota13zj",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xflaui8k9jp",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wbovcwnsc1",
+      "key": "index",
+      "name": "Index",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T13:30:48.409Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:07.359Z"
+}

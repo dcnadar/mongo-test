@@ -1,0 +1,26 @@
+{
+  "_id": {
+    "$oid": "68d15010f42bc3ef836dc7da"
+  },
+  "name": "Add App Role",
+  "path": "/admin/app-role/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68d14e3ef42bc3ef836dc7d6",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758547984424"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231672258"
+    }
+  }
+}

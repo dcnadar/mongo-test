@@ -1,0 +1,100 @@
+{
+  "_id": "660cf854c7b99128d924f741",
+  "gridTitle": "Eduempower LibraryMembership",
+  "gridType": "form",
+  "crmModelId": "660af302c7b99128d924f6df",
+  "rows": [
+    {
+      "$key": "p9iuqk1qv9e",
+      "fields": [
+        {
+          "$key": "eltx2ocbrzr",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "tgkx58ypc9",
+          "id": "userType",
+          "title": "User Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "bl943gwpgzv",
+          "id": "classes",
+          "title": "Class",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 8,
+          "showCondition": "return this.userType === 'STUDENT'"
+        },
+        {
+          "$key": "bxzyric4ms8",
+          "id": "departments",
+          "title": "Department Id",
+          "type": "list",
+          "span": 8,
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "nullIds": [
+            "designation"
+          ],
+          "showCondition": "return this.userType === 'STAFF'"
+        },
+        {
+          "$key": "qcmqpgrzlyd",
+          "id": "designation",
+          "title": "Designation Id",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 8,
+          "showCondition": "return this.userType === 'STAFF'",
+          "meta": {
+            "queryParams": "departmentId=:departments departments"
+          }
+        },
+        {
+          "$key": "prcf7fejzea",
+          "id": "dailyBookLimit",
+          "title": "Daily Book Limit",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "prt8objna3",
+          "id": "monthlyBookLimit",
+          "title": "Monthly Book Limit",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "95fajetk6wq",
+          "id": "maxIssueCount",
+          "title": "Max Issue Count",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "o5l4edzo91",
+          "id": "reIssueCount",
+          "title": "ReIssue Count",
+          "type": "number",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T06:33:56.099Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.187Z"
+}

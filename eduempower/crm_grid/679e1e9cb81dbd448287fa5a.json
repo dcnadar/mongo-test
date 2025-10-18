@@ -1,0 +1,46 @@
+{
+  "_id": "679e1e9cb81dbd448287fa5a",
+  "gridTitle": "Book",
+  "gridType": "table",
+  "crmModelId": "6790930d179e036c80a4d934",
+  "columns": [
+    {
+      "$key": "skar5aau9c",
+      "key": "isbn",
+      "name": "Isbn",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "xbmm2w9iyy",
+      "key": "totalBook",
+      "name": "Total Book",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "lck0qz1f49k",
+      "key": "availbleBooks",
+      "name": "Available Books",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "xy6qevz3vce",
+      "key": "issued",
+      "name": "Issued",
+      "type": "text",
+      "sort": true
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-02-01T13:16:12.721Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:04.133Z"
+}

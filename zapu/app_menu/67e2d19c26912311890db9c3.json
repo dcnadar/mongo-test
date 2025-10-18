@@ -1,0 +1,15 @@
+{
+  "_id": "67e2d19c26912311890db9c3",
+  "menuItems": [
+    {
+      "key": "Details",
+      "slug": "/admin/product",
+      "value": "Details"
+    }
+  ],
+  "iconSetting": {},
+  "bottomMenu": [],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-03-25T15:54:04.337Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

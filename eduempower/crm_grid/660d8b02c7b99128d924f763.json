@@ -1,0 +1,85 @@
+{
+  "_id": "660d8b02c7b99128d924f763",
+  "gridTitle": "Eduempower SchoolRoom",
+  "gridType": "table",
+  "crmModelId": "660a3b8ec7b99128d924f6a3",
+  "columns": [
+    {
+      "$key": "gieoh67g9xh",
+      "key": "roomName",
+      "name": "Room Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "ibg4a53harh",
+      "key": "roomType",
+      "name": "Room Type",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "9ujyef1zphe",
+      "key": "roomSubTypes",
+      "name": "Room Sub Types",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "y0i2xjfa00o",
+      "key": "capacity",
+      "name": "Capacity",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "5i024yp10pf",
+      "key": "roomSize",
+      "name": "Room Size",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "r4zpbankgk",
+      "key": "furnitureType",
+      "name": "Furniture Type",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "miw44bzwsze",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "nqn2d09qpjo",
+          "gridTitle": "Edit Room",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/schoolsetup/rooms/edit?id=:_id _id"
+        }
+      ],
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "p39r2f2vf9k",
+      "gridTitle": "Add Rooms",
+      "value": "Add Room",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/schoolsetup/rooms/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T16:59:46.740Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.729Z"
+}

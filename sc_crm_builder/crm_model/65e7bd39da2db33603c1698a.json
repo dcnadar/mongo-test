@@ -1,0 +1,469 @@
+{
+  "_id": {
+    "$oid": "65e7bd39da2db33603c1698a"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid FormRow FormField",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "id",
+      "name": "Key",
+      "$key": "ilrlgd41q1k"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "options",
+      "name": "Options",
+      "modelId": "65e46e2562e81af0993f8515",
+      "$key": "zrd8t8ifr3h"
+    },
+    {
+      "dataType": "INTEGER",
+      "key": "span",
+      "name": "Span",
+      "$key": "t9wo24yy49n"
+    },
+    {
+      "dataType": "INTEGER",
+      "key": "min",
+      "name": "Min (for number, date, date_range, date_range_2, next_date, form_array, input_table, form_table, (upload, list, tree, card, tag)-> when multiple )",
+      "$key": "5jw6eba41aj"
+    },
+    {
+      "dataType": "INTEGER",
+      "key": "max",
+      "name": "Max (for number, date, date_range, date_range_2, next_date, form_array, input_table, form_table, (upload, list, tree, card, tag)-> when multiple )",
+      "$key": "67qy141y14t"
+    },
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Label",
+      "$key": "dp2gexj819d"
+    },
+    {
+      "dataType": "STRING",
+      "key": "type",
+      "name": "Type",
+      "data": {
+        "options": [
+          {
+            "key": "text",
+            "value": "Text",
+            "$key": "ig4r1aiwtk"
+          },
+          {
+            "key": "password",
+            "value": "Password",
+            "$key": "nn3nbx7g9r"
+          },
+          {
+            "key": "textarea",
+            "value": "Textarea",
+            "$key": "7d87ikhnk1v"
+          },
+          {
+            "key": "number",
+            "value": "Number",
+            "$key": "lqh96e7136o"
+          },
+          {
+            "key": "email",
+            "value": "Email",
+            "$key": "0i4pu67auv1"
+          },
+          {
+            "key": "list",
+            "value": "List",
+            "$key": "1x7025dywz1"
+          },
+          {
+            "key": "date",
+            "value": "Date",
+            "$key": "fbajimu97a"
+          },
+          {
+            "$key": "z1o1zuimesa",
+            "key": "date_time",
+            "value": "Date Time"
+          },
+          {
+            "key": "time",
+            "value": "Time",
+            "$key": "uhx4ct31rvh"
+          },
+          {
+            "key": "date_range",
+            "value": "Date Range",
+            "$key": "zd94xbhxtm"
+          },
+          {
+            "key": "date_range_2",
+            "value": "Date Range 2",
+            "$key": "dme1pgpca2k"
+          },
+          {
+            "key": "next_date",
+            "value": "Next Date",
+            "$key": "tc22qk83szf"
+          },
+          {
+            "key": "text_editor",
+            "value": "Text Editor",
+            "$key": "4wy963vt28"
+          },
+          {
+            "key": "bool",
+            "value": "Bool",
+            "$key": "zkt3ptji0e"
+          },
+          {
+            "key": "url",
+            "value": "Url",
+            "$key": "qffnz2fv4q"
+          },
+          {
+            "key": "url_path",
+            "value": "Url Path",
+            "$key": "6ikar18aeiq"
+          },
+          {
+            "key": "image",
+            "value": "Image",
+            "$key": "m65pp40s12"
+          },
+          {
+            "key": "upload",
+            "value": "Upload",
+            "$key": "1ixifsjpbsx"
+          },
+          {
+            "key": "checkbox_group",
+            "value": "Checkbox Group",
+            "$key": "6i894h1aosu"
+          },
+          {
+            "key": "form_table",
+            "value": "Form Table",
+            "$key": "nane5z8zem"
+          },
+          {
+            "key": "location",
+            "value": "Location",
+            "$key": "nlryxs52xu"
+          },
+          {
+            "key": "radio",
+            "value": "Radio",
+            "$key": "6mwogbvr72v"
+          },
+          {
+            "key": "input_table",
+            "value": "Input Table",
+            "$key": "gbw7c86vw7q"
+          },
+          {
+            "key": "webcam",
+            "value": "Webcam",
+            "$key": "u1bdnv0lnl"
+          },
+          {
+            "key": "otp",
+            "value": "Otp",
+            "$key": "te7ckulu3x"
+          },
+          {
+            "key": "form_array",
+            "value": "Form Array",
+            "$key": "g4okw534mct"
+          },
+          {
+            "key": "search",
+            "value": "Search",
+            "$key": "cnwxm9wggsg"
+          },
+          {
+            "key": "tag",
+            "value": "Tag",
+            "$key": "emhog5rmeog"
+          },
+          {
+            "key": "card",
+            "value": "Card",
+            "$key": "yek36xrke3"
+          },
+          {
+            "key": "tree",
+            "value": "Tree",
+            "$key": "wik9jam4qss"
+          },
+          {
+            "key": "color",
+            "value": "Color",
+            "$key": "5uvb07ifkf2"
+          },
+          {
+            "key": "attachment",
+            "value": "Attachment",
+            "$key": "7iemb4bu3jg"
+          },
+          {
+            "key": "inner_form",
+            "value": "Inner Form",
+            "$key": "7j33vxbofa"
+          },
+          {
+            "key": "strings",
+            "value": "Strings",
+            "$key": "3lw9w5l7taw"
+          },
+          {
+            "key": "input_group",
+            "value": "Input Group",
+            "$key": "vee6x3p1n"
+          },
+          {
+            "$key": "d9pygn95y7p",
+            "key": "json",
+            "value": "JSON"
+          },
+          {
+            "$key": "y4k8n9b682",
+            "key": "upload_v2",
+            "value": "Upload v2"
+          }
+        ]
+      },
+      "$key": "iljd1fa6c1f"
+    },
+    {
+      "dataType": "STRING",
+      "key": "fileAccept",
+      "name": "File Accept (for upload)",
+      "$key": "0kuruymuk019"
+    },
+    {
+      "dataType": "ANY",
+      "key": "value",
+      "name": "Value",
+      "$key": "20ylcyrpfmm"
+    },
+    {
+      "dataType": "INTEGER",
+      "key": "index",
+      "name": "Index",
+      "$key": "69nd2fzty0m"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "o",
+      "name": "Optional",
+      "$key": "8ryq2reg84q"
+    },
+    {
+      "dataType": "STRING",
+      "key": "apiUrl",
+      "name": "Data Api Url",
+      "$key": "7knm6gqxmn"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "STRING",
+      "key": "nullIds",
+      "name": "Reset Fields on change",
+      "$key": "canvxchxwqu"
+    },
+    {
+      "dataType": "STRING",
+      "key": "disableCondition",
+      "name": "Disable Condition Function",
+      "$key": "eq8whh2r6j8"
+    },
+    {
+      "dataType": "STRING",
+      "key": "showCondition",
+      "name": "Show Condition Function",
+      "$key": "0rak5325ttt"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65e7bd3ada2db33603c1698b",
+      "key": "onChangeCondition",
+      "name": "Update Other Fileds On Change",
+      "$key": "d7h08yxxxcj"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "multiple",
+      "name": "Multiple (for upload, list, tree, card, tag)",
+      "$key": "f4nysk3ua49"
+    },
+    {
+      "dataType": "STRING",
+      "key": "details",
+      "name": "Details Function (for input_table)",
+      "$key": "4vsk6f5888u"
+    },
+    {
+      "dataType": "STRING",
+      "key": "validate",
+      "name": "Validate Function",
+      "$key": "ng0fawylo"
+    },
+    {
+      "dataType": "STRING",
+      "key": "format",
+      "name": "Format (for date, date_range, date_range_2, next_date) as dayjs",
+      "$key": "38n3m2uixqd"
+    },
+    {
+      "dataType": "STRING",
+      "key": "hint",
+      "name": "Hint (html accepted)",
+      "$key": "65diwtabl1j"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "checkboxGroups",
+      "name": "Checkbox Groups (for checkbox_group)",
+      "modelId": "65e7bd37da2db33603c16987",
+      "$key": "wyo8yn5s3d"
+    },
+    {
+      "dataType": "STRING",
+      "key": "updateType",
+      "name": "Update Type",
+      "data": {
+        "options": [
+          {
+            "key": "none",
+            "value": "None",
+            "$key": "k3i6mh10elh"
+          },
+          {
+            "key": "hidden",
+            "value": "Hidden",
+            "$key": "wh3pgcnxhms"
+          },
+          {
+            "key": "hidden_fe",
+            "value": "Hidden FE",
+            "$key": "4831ec8whik"
+          },
+          {
+            "key": "disabled",
+            "value": "Disabled",
+            "$key": "g8f5rv3m25"
+          },
+          {
+            "$key": "f38kc5xwntu",
+            "key": "disabled_fe",
+            "value": "Disabled FE"
+          }
+        ]
+      },
+      "$key": "b91ve1ej4i"
+    },
+    {
+      "dataType": "STRING",
+      "key": "createType",
+      "name": "Create Type",
+      "data": {
+        "options": [
+          {
+            "key": "none",
+            "value": "None",
+            "$key": "axmnlrqejt7"
+          },
+          {
+            "key": "hidden",
+            "value": "Hidden",
+            "$key": "bls4rmrexf5"
+          },
+          {
+            "key": "hidden_fe",
+            "value": "Hidden FE",
+            "$key": "wo33ies28f9"
+          },
+          {
+            "key": "disabled",
+            "value": "Disabled",
+            "$key": "cz3k5grxide"
+          },
+          {
+            "$key": "4iu7szlxdw2",
+            "key": "disabled_fe",
+            "value": "Disabled FE"
+          }
+        ]
+      },
+      "$key": "5run4xr1qll"
+    },
+    {
+      "dataType": "STRING",
+      "key": "addApiUrl",
+      "name": "Add Api Url (for list, tree, card)",
+      "$key": "ha7j3qnf1b6"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "add",
+      "name": "Add (for form_array, input_table, form_table)",
+      "$key": "calqrqdfxmt"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "delete",
+      "name": "Delete (for form_array, input_table, form_table)",
+      "$key": "91seatifbod"
+    },
+    {
+      "dataType": "STRING",
+      "key": "countTitle",
+      "name": "Count Title (for form_array, input_table, form_table)",
+      "$key": "qldcjrj3bg"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "modelId": "65e7bd38da2db33603c16989",
+      "key": "meta",
+      "name": "Meta",
+      "$key": "pyf0bgi849"
+    },
+    {
+      "$key": "j4b2y0hc3oc",
+      "key": "selectApi",
+      "name": "selectApi",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ervrn43cp8f",
+      "key": "placeholder",
+      "name": "Placeholder",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y0sb2iu65hj",
+      "key": "textEditorElements",
+      "name": "textEditorElements",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709686073664"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152791"
+    }
+  }
+}

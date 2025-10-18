@@ -1,0 +1,15 @@
+{
+  "_id": "6718ddb45f22ec7ba026493d",
+  "name": "Add Leave Request",
+  "path": "/admin/leave/leave-request/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660fe795c7b99128d924f782",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T11:27:48.337Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:53.966Z"
+}

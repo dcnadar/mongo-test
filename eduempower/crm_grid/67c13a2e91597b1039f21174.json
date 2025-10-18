@@ -1,0 +1,35 @@
+{
+  "_id": "67c13a2e91597b1039f21174",
+  "gridTitle": "Image Bulk upload",
+  "gridType": "form",
+  "crmModelId": "67c139a191597b1039f21173",
+  "rows": [
+    {
+      "$key": "8ia2fnuq0up",
+      "fields": [
+        {
+          "id": "images",
+          "title": "Images",
+          "span": 24,
+          "type": "upload_v2",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false,
+            "uploadUISize": "md"
+          },
+          "$key": "6zzh97q1d5r",
+          "add": false,
+          "delete": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-02-28T04:23:10.737Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "postUrl": "/api/io/admin/students/upload/bulk/image",
+  "updated": "2025-09-08T10:51:04.201Z"
+}

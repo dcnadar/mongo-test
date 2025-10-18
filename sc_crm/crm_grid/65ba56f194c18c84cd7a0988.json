@@ -1,0 +1,79 @@
+{
+  "_id": "65ba56f194c18c84cd7a0988",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-31T14:19:29.419Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "hint": "Title for the OTP verification."
+        },
+        {
+          "index": 1,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "hint": "Main heading for the OTP verification."
+        },
+        {
+          "index": 2,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 24,
+          "o": false,
+          "hint": "Additional details or instructions regarding OTP verification."
+        },
+        {
+          "index": 3,
+          "title": "Email Address Label",
+          "id": "emailaddresslabel",
+          "type": "email",
+          "span": 8,
+          "o": false,
+          "hint": "Email address for sending/receiving OTP."
+        },
+        {
+          "index": 4,
+          "title": "OTP Label",
+          "id": "otptitle",
+          "type": "number",
+          "span": 8,
+          "o": false,
+          "hint": "Field for entering the OTP."
+        },
+        {
+          "index": 5,
+          "title": "Button Text",
+          "id": "buttonText",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "hint": "Text for the verification button."
+        },
+        {
+          "index": 6,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 12,
+          "o": false,
+          "hint": "Image related to OTP verification."
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65ba56f194c18c84cd7a0987",
+  "gridTitle": "ReactGrid GlobalTrufalSignup OTP"
+}

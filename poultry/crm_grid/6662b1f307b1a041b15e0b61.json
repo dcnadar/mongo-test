@@ -1,0 +1,64 @@
+{
+  "_id": "6662b1f307b1a041b15e0b61",
+  "gridTitle": "Self Help Group",
+  "gridType": "table",
+  "crmModelId": "6662acf307b1a041b15e0b57",
+  "columns": [
+    {
+      "$key": "b1z1sepfb2",
+      "key": "shgName",
+      "name": "Name",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "p5yub7ahas",
+      "key": "shgCode",
+      "name": "SHG code",
+      "type": "tag",
+      "sort": true
+    },
+    {
+      "$key": "g8yu35p1o8c",
+      "key": "dateOfEstablishment",
+      "name": "Date of Establishment",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "llj4ql3himg",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "width": 200,
+      "actions": [
+        {
+          "$key": "08vwjmu0xryp",
+          "gridTitle": "Edit Self Help Group",
+          "value": "Edit",
+          "apiUrl": "/admin/groups/self-help-group/edit?id=:_id _id",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "5rz4twf8w09",
+      "gridTitle": "Add Self Help Group",
+      "value": "Add Self Help Group",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/groups/self-help-group/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:08:35.387Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

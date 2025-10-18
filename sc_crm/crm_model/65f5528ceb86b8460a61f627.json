@@ -1,0 +1,31 @@
+{
+  "_id": "65f5528ceb86b8460a61f627",
+  "name": "ReactGrid globalCTASection6",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING",
+      "$key": "p23aulzov2b"
+    },
+    {
+      "key": "buttons",
+      "name": "Buttons",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a",
+      "$key": "wfmgstlw4m"
+    },
+    {
+      "$key": "wtmwdns29h",
+      "key": "message",
+      "name": "Message",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-16T08:04:28.618Z"
+}

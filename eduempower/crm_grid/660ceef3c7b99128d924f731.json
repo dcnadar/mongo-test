@@ -1,0 +1,87 @@
+{
+  "_id": "660ceef3c7b99128d924f731",
+  "gridTitle": "Eduempower FeeFine",
+  "gridType": "form",
+  "crmModelId": "660964bec7b99128d924f66b",
+  "rows": [
+    {
+      "$key": "ox1vesa3br",
+      "fields": [
+        {
+          "$key": "52md4qr0ehd",
+          "id": "classes",
+          "title": "Class",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 8
+        },
+        {
+          "$key": "zxn2tqy84ek",
+          "id": "feeTypes",
+          "title": "Fee Types",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "span": 8
+        },
+        {
+          "$key": "oxr3hd5p04g",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "p09hm0i1mxo",
+          "id": "fineType",
+          "title": "Fine Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "zt0tmsn94wg",
+          "id": "feeFavourLogic",
+          "title": "Fee Favour Logic",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "5ro1c39qy95",
+          "id": "value",
+          "title": "Value",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "gl82hjva7wg",
+          "id": "feeFineAssign",
+          "title": "Fee Fine Assign",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "t2mr5airzmp",
+          "id": "feeSlabFavourLogics",
+          "title": "Fee Slab Favour Logics",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T05:53:55.800Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:58.650Z"
+}

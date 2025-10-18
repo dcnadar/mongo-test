@@ -1,0 +1,15 @@
+{
+  "_id": "676f855933897d49a1050c96",
+  "name": "Staff export",
+  "path": "/admin/staff/export",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "676f850133897d49a1050c95",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-28T04:58:01.192Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:56.912Z"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "671903775f22ec7ba0264963",
+  "name": "Eduempower News",
+  "path": "/admin/circulars&news/news/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6719002a5f22ec7ba026495e",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T14:08:55.092Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:54.434Z"
+}

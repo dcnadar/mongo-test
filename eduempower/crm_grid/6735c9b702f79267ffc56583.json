@@ -1,0 +1,12 @@
+{
+  "_id": "6735c9b702f79267ffc56583",
+  "gridTitle": "Fee Structure Class Category Progress cards",
+  "gridType": "progress_cards",
+  "crmModelId": "6608f6c160d4f873b5fa4f6c",
+  "backUrl": "/admin/schoolsetup/fee-settings/fee-structure/classes",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-14T09:58:15.583Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "gridParams": [],
+  "updated": "2025-09-08T10:51:03.188Z"
+}

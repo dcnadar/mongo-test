@@ -1,0 +1,24 @@
+{
+  "_id": "647c458e4c329b1425376251",
+  "gridType": "account_filters",
+  "status": "ACTIVE",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "ecomAccountId",
+          "modelKey": "id",
+          "index": 0,
+          "o": false,
+          "span": 8,
+          "title": "Ecom Account",
+          "type": "list"
+        }
+      ]
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "gridTitle": "Ecom Account Selection",
+  "crmModelId": "64a499e91952437b761aac16"
+}

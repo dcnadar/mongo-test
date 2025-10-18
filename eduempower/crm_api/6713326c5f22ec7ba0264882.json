@@ -1,0 +1,15 @@
+{
+  "_id": "6713326c5f22ec7ba0264882",
+  "name": "Edit History",
+  "path": "/admin/staff/history/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "671268e85f22ec7ba0264864",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T04:15:40.213Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:52.636Z"
+}

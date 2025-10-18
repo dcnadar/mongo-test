@@ -1,0 +1,14 @@
+{
+  "_id": "662529ce990ac402ed0d3ec3",
+  "name": "All Inventory",
+  "path": "/admin/library/inventory/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66252989990ac402ed0d3ec2",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T14:59:26.504Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:51.314Z"
+}

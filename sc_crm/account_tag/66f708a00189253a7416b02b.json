@@ -1,0 +1,12 @@
+{
+  "_id": "66f708a00189253a7416b02b",
+  "category": "active_status",
+  "categoryName": "Active Status",
+  "name": [
+    "ACTIVE",
+    "INACTIVE"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-27T19:33:52.222Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

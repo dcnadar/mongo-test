@@ -1,0 +1,27 @@
+{
+  "_id": "68ad719a077fdcc858b135cb",
+  "gridTitle": "Student Summary",
+  "gridType": "form",
+  "crmModelId": "68ad713c077fdcc858b135ca",
+  "rows": [
+    {
+      "$key": "zxgnpmga8p",
+      "fields": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "type": "textarea",
+          "span": 24,
+          "$key": "pqc8d4hernn",
+          "validate": "return this.summary && ((count = this.summary.trim().split(/\\s+/).filter(w => w.length > 0).length) > 60)      ? `Only 60 words are allowed (currently ${count} words)`      : \"\";"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T08:34:34.936Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:54.191Z"
+}

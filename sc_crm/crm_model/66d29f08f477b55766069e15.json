@@ -1,0 +1,24 @@
+{
+  "_id": "66d29f08f477b55766069e15",
+  "name": "ReactGrid GlobalHeader4 category",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "qgcq43heefi",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cifxdr9rtl4",
+      "key": "categoryMenu",
+      "name": "CategoryMenu",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66d29fb9f477b55766069e19"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-31T04:41:44.026Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

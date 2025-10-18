@@ -1,0 +1,54 @@
+{
+  "_id": "660ba66dc7b99128d924f6f4",
+  "gridTitle": "ReactGrid GlobalTeamSections7",
+  "gridType": "form",
+  "crmModelId": "660b9762c7b99128d924f6f2",
+  "rows": [
+    {
+      "$key": "fnt734e2xda",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "span": 8,
+          "type": "text",
+          "$key": "114p22blm1j"
+        },
+        {
+          "$key": "ueb6yaeqnvm",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 8
+        },
+        {
+          "$key": "synp5qkuisk",
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 10
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-02T06:32:13.215Z",
+  "createdBy": "660a41ecdeefcc0a51709289"
+}

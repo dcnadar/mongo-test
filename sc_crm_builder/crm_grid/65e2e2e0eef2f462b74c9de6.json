@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "65e2e2e0eef2f462b74c9de6"
+  },
+  "gridType": "account_filter",
+  "status": "ACTIVE",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "accountId",
+          "index": {
+            "$numberInt": "0"
+          },
+          "o": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "title": "Account",
+          "type": "list",
+          "$key": "5g768w0z6cx",
+          "meta": {
+            "queryParams": "status=UNDER_DEVELOPMENT,UNDER_REVIEW_AND_ACCEPTANCE,LIVE,UNDER_MAINTENANCE,SUBSCRIPTION_EXPIRED"
+          }
+        }
+      ],
+      "$key": "f2j4xfuklnp"
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "gridTitle": "Account Selection",
+  "crmModelId": "65e2e2e1eef2f462b74c9de7",
+  "created": {
+    "$date": {
+      "$numberLong": "1709368032960"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149794"
+    }
+  }
+}

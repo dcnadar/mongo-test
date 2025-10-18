@@ -1,0 +1,41 @@
+{
+  "_id": "65b0e0d54720140d59822ed7",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-24T10:05:09.424Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 12,
+          "o": false
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b0e0d54720140d59822ed6",
+  "gridTitle": "ReactGrid GlobalCommon FeatureSectionHeader",
+  "fetchDocWithoutId": false
+}

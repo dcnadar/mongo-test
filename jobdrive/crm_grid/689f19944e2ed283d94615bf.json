@@ -1,0 +1,95 @@
+{
+  "_id": "689f19944e2ed283d94615bf",
+  "gridTitle": "Settings Basic Details",
+  "gridType": "form",
+  "crmModelId": "6703b5dc30083226ac6affc4",
+  "rows": [
+    {
+      "$key": "76uqyymrrb7",
+      "fields": [
+        {
+          "id": "logo",
+          "title": "Avatar",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 6,
+          "$key": "t06dq9nvt0i",
+          "o": true
+        },
+        {
+          "$key": "827hqtze1k5",
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 9
+        },
+        {
+          "$key": "p4dm632eqgk",
+          "id": "lastName",
+          "title": "Last name",
+          "type": "text",
+          "span": 9
+        },
+        {
+          "$key": "fd0qfie3fj",
+          "id": "userName",
+          "title": "Username",
+          "type": "text",
+          "span": 8,
+          "createType": "disabled",
+          "updateType": "disabled"
+        },
+        {
+          "$key": "hpj4km50qc6",
+          "id": "email",
+          "title": "Email Address",
+          "type": "email",
+          "span": 8,
+          "createType": "disabled",
+          "updateType": "disabled"
+        },
+        {
+          "$key": "u861js3atp",
+          "id": "mobileNumber",
+          "title": "Phone Number",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "2uqstgz0z35",
+          "id": "address",
+          "title": "Address",
+          "type": "textarea",
+          "span": 12
+        },
+        {
+          "$key": "bdnf2pp31c",
+          "id": "bio",
+          "title": "Bio",
+          "type": "textarea",
+          "span": 12,
+          "o": true
+        }
+      ],
+      "label": "Profile Information",
+      "tab": "profile"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T11:27:16.576Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "updated": "2025-09-05T11:02:53.032Z"
+}

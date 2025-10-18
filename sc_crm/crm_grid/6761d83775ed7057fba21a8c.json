@@ -1,0 +1,71 @@
+{
+  "_id": "6761d83775ed7057fba21a8c",
+  "gridTitle": "NYF Admission",
+  "gridType": "form",
+  "crmModelId": "6761d62275ed7057fba21a8a",
+  "rows": [
+    {
+      "$key": "dv71mgrsy3f",
+      "fields": [
+        {
+          "id": "firstName",
+          "title": "Student Name",
+          "type": "text",
+          "$key": "87se1wb9xz4"
+        },
+        {
+          "$key": "umqcdwe0jv",
+          "id": "mobileNumber",
+          "title": "Mobile number",
+          "type": "text"
+        },
+        {
+          "$key": "hkbkt4wut5t",
+          "id": "gender",
+          "title": "Gender",
+          "type": "text",
+          "multiple": false
+        },
+        {
+          "$key": "e6pdb17oy5d",
+          "id": "class",
+          "title": "Class",
+          "type": "number",
+          "min": 5,
+          "max": 10
+        },
+        {
+          "$key": "vybpyp573zj",
+          "id": "fatherName",
+          "title": "Father Name",
+          "type": "text"
+        },
+        {
+          "$key": "8b4nbx8x28e",
+          "id": "schoolName",
+          "title": "School Name",
+          "type": "text"
+        },
+        {
+          "$key": "pqbbltlowd",
+          "id": "productVariantId",
+          "title": "productVariantId",
+          "type": "list",
+          "multiple": false
+        },
+        {
+          "$key": "acj0g5h0j4",
+          "id": "userId",
+          "title": "User",
+          "type": "list",
+          "multiple": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-12-17T19:59:51.621Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "6618f331aee00c70206deb25",
+  "name": "Wishlist",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "wishlist",
+  "properties": [
+    {
+      "$key": "eommewfl1r",
+      "key": "productVariantId",
+      "name": "Product Variant",
+      "dataType": "REFERENCE",
+      "modelId": "64a5d14d099de82bca61ca99"
+    },
+    {
+      "$key": "7086sck37z4",
+      "key": "customerId",
+      "name": "Customer",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T08:39:13.876Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

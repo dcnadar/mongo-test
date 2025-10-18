@@ -1,0 +1,13 @@
+{
+  "_id": "67beb9a791597b1039f21170",
+  "name": "Export staff fields",
+  "path": "/admin/staff/export/fields",
+  "apiType": "GET",
+  "action": "FORM_FIELDS",
+  "sourceId": "660cd365c7b99128d924f720",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-02-26T06:50:15.178Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:57.538Z"
+}

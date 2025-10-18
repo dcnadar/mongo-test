@@ -1,0 +1,28 @@
+{
+  "_id": "66838d023108ad7b7d063f0a",
+  "name": "NativeGrid GlobalPopularBrand",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "dbg7oeqg86k",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rb71fau483g",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "df8gb78drdc",
+      "key": "message",
+      "name": "Message",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T05:15:46.369Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

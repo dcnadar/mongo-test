@@ -1,0 +1,17 @@
+{
+  "_id": "6719f04b5f22ec7ba02649a1",
+  "category": "admission_status",
+  "categoryName": "Admission Status",
+  "name": [
+    "ENQUIRY",
+    "APPLICATION",
+    "REGISTRATION",
+    "EVALUATION",
+    "SHORTLISTED",
+    "CONFIRMED"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T06:59:23.053Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:50:43.421Z"
+}

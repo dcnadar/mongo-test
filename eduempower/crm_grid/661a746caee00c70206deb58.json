@@ -1,0 +1,83 @@
+{
+  "_id": "661a746caee00c70206deb58",
+  "gridTitle": "Eduempower SubjectTeacher",
+  "gridType": "form",
+  "crmModelId": "66096cbec7b99128d924f671",
+  "rows": [
+    {
+      "$key": "ha5ufxo125",
+      "fields": [
+        {
+          "id": "classId",
+          "title": "Class",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "94m5l4nn7bd",
+          "nullIds": [
+            "sectionId"
+          ]
+        },
+        {
+          "$key": "whjsisb70u9",
+          "id": "sectionId",
+          "title": "Section",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "className=:classId classId"
+          }
+        },
+        {
+          "$key": "zyaf4y7tnfe",
+          "id": "teacherType",
+          "title": "Teacher Type",
+          "type": "text",
+          "multiple": false,
+          "span": 8,
+          "value": "SUBJECT_TEACHER",
+          "updateType": "hidden",
+          "createType": "hidden_fe"
+        },
+        {
+          "$key": "8g5ol84l9yj",
+          "id": "userId",
+          "title": "Subject Teacher",
+          "type": "list",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "1vn22zydw1h",
+          "id": "schoolSubject",
+          "title": "School Subject",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "knxdi197zm",
+          "id": "isPrimary",
+          "title": "Is Primary",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "n396castraj",
+          "id": "priority",
+          "title": "Priority",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-13T12:02:52.968Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:51:00.963Z"
+}

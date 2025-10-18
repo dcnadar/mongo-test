@@ -1,0 +1,32 @@
+{
+  "_id": "660c2fb3c7b99128d924f711",
+  "gridTitle": "Eduempower State",
+  "gridType": "form",
+  "crmModelId": "660c06a0c7b99128d924f70a",
+  "rows": [
+    {
+      "$key": "nr3g2yr6i4d",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8,
+          "$key": "4nwfo465fat"
+        },
+        {
+          "$key": "4ej04eizbkj",
+          "id": "countryId",
+          "title": "Country",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-02T16:17:55.682Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

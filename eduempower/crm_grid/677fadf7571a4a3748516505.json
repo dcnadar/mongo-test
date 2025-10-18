@@ -1,0 +1,83 @@
+{
+  "_id": "677fadf7571a4a3748516505",
+  "gridTitle": "Student Discontinue",
+  "gridType": "form",
+  "crmModelId": "677faba5571a4a3748516504",
+  "rows": [
+    {
+      "$key": "vwc0z83kbj9",
+      "fields": [
+        {
+          "$key": "84qkqqr3wq",
+          "id": "studentId",
+          "title": "User",
+          "type": "list",
+          "multiple": false,
+          "span": 24,
+          "updateType": "none",
+          "createType": "none",
+          "meta": {
+            "queryParams": "userType=STUDENT"
+          }
+        },
+        {
+          "$key": "ikn2setx31d",
+          "id": "type",
+          "title": "Type ",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "muaa16fjcp9",
+          "id": "from",
+          "title": "From",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "dd2w6upj6u5",
+          "id": "till",
+          "title": "Till",
+          "span": 8,
+          "type": "date",
+          "showCondition": "return this.type === 'TEMPORARILY'"
+        },
+        {
+          "$key": "p8hcah1wde",
+          "id": "remark",
+          "title": "Remark",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "xtwscn25ixc",
+          "id": "document",
+          "title": "Document",
+          "type": "upload",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 8,
+          "o": false
+        },
+        {
+          "$key": "fp11zq5s0cl",
+          "id": "userMessage",
+          "title": "User Message",
+          "type": "text",
+          "span": 16
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-09T11:07:35.006Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "postUrl": "/api/io/admin/students/discontinue",
+  "updated": "2025-09-08T10:51:03.759Z"
+}

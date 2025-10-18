@@ -1,0 +1,96 @@
+{
+  "_id": {
+    "$oid": "65e5b5cc41f4f9dcaa63ac7b"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Description",
+          "id": "description",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Slug",
+          "id": "slug",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Thumb",
+          "id": "thumb",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true
+        },
+        {
+          "index": {
+            "$numberInt": "4"
+          },
+          "title": "Details (Search Options)",
+          "id": "details",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "16"
+          },
+          "o": true,
+          "min": {
+            "$numberInt": "0"
+          },
+          "max": {
+            "$numberInt": "10"
+          },
+          "countTitle": "No Detail Added",
+          "add": true,
+          "delete": true
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e4e721d796c9ccbd1b408f",
+  "gridTitle": "Crm Model MenuTargets",
+  "created": {
+    "$date": {
+      "$numberLong": "1709553100028"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150022"
+    }
+  }
+}

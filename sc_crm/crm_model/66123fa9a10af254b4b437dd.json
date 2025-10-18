@@ -1,0 +1,48 @@
+{
+  "_id": "66123fa9a10af254b4b437dd",
+  "name": "Invoice To",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "bwayjadysw",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kxprdwm0zo",
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6y5tuuu5fyj",
+      "key": "address",
+      "name": "Address",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3xqgi07aomz",
+      "key": "phone",
+      "name": "Phone",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "evc4xav5l1k",
+      "key": "mobile",
+      "name": "Mobile",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "ywg1ag02pk",
+      "key": "fax",
+      "name": "Fax",
+      "dataType": "INTEGER"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T06:39:37.997Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

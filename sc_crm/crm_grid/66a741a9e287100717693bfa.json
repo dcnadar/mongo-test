@@ -1,0 +1,102 @@
+{
+  "_id": "66a741a9e287100717693bfa",
+  "gridTitle": "Customer Order",
+  "gridType": "table",
+  "crmModelId": "6684e3603108ad7b7d063f47",
+  "columns": [
+    {
+      "$key": "eidgzvqjxpa",
+      "key": "orderId",
+      "name": "Order Id",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "1whm348259jj",
+      "key": "orderDate",
+      "name": " Order Date",
+      "type": "date",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "58yxvwgzdgi",
+      "key": "shippingDate",
+      "name": "Shipping Date",
+      "type": "date",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "2zjng8sj9pm",
+      "key": "deliveredDate",
+      "name": "Delivered Date",
+      "type": "text",
+      "width": 150,
+      "sort": false,
+      "valueCondition": "function formatDate(dateStr) { const date = new Date(dateStr); const options = { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true }; return date.toLocaleString('en-US', options); } const { deliveredDate, shippingDate, deliveryDate } = this; let html = ''; if (deliveredDate) { html += `<p><span style=\"color: gray;\">Delivered Date:<br></span><span style=\"color: orange;\">${formatDate(deliveredDate)}</span></p>`; } if (shippingDate) { html += `<p><span style=\"color: gray;\">Shipping date:<br></span><span style=\"color: blue;\">${formatDate(shippingDate)}</span></p>`; } if (deliveryDate) { html += `<p><span style=\"color: gray;\">Delivery date:<br></span><span style=\"color: green;\">${formatDate(deliveryDate)}</span></p>`; } return html;"
+    },
+    {
+      "$key": "ss106su9r3",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "vmktc4qcfyi",
+      "key": "productVariantId",
+      "name": "Product Variant Id\t ",
+      "type": "card",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "m35nubwjoqp",
+      "key": "quantity",
+      "name": "Quantity",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "420yxe91xnv",
+      "key": "mrp",
+      "name": "MRP",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    },
+    {
+      "$key": "uy5bnksahsj",
+      "key": "price",
+      "name": "Price",
+      "type": "text",
+      "width": 150,
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "orderReview"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-29T07:15:53.724Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true,
+      "documentKey": "userId"
+    }
+  ],
+  "search": {
+    "placeHolder": "Search by order id"
+  }
+}

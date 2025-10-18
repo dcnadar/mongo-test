@@ -1,0 +1,68 @@
+{
+  "_id": "66096978c7b99128d924f66f",
+  "name": "Eduempower ClassSubject",
+  "modelType": "COLLECTION",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_class_subject",
+  "properties": [
+    {
+      "$key": "9d7ctrqsx6",
+      "key": "schoolSubjectId",
+      "name": "School Subject Id",
+      "dataType": "REFERENCE",
+      "modelId": "66096853c7b99128d924f66e",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "sat244xrmpk",
+      "key": "classId",
+      "name": "Class Id",
+      "dataType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4"
+    },
+    {
+      "$key": "zis9kyimui",
+      "key": "mandatory",
+      "name": "Mandatory",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "ibu3d4odk9l",
+      "key": "subjectName",
+      "name": "Subject Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "hkcinoj2n6",
+      "key": "shortName",
+      "name": "ShortName",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "hvhxn1k28os",
+      "key": "section",
+      "name": "Section",
+      "dataType": "REFERENCE",
+      "modelId": "660698f6eea36066ca04cbce"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "subjectName",
+    "subtitles": [
+      "shortName"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T13:47:36.622Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.798Z"
+}

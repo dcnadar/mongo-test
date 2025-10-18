@@ -1,0 +1,69 @@
+{
+  "_id": "65f6a45952bbad30f7463eea",
+  "gridTitle": "ReactGrid GlobalStatsSection4 Section",
+  "gridType": "form",
+  "crmModelId": "65f6a32d52bbad30f7463ee7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "type": "text",
+          "span": 8,
+          "id": "title",
+          "title": "Title"
+        },
+        {
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "type": "textarea",
+          "add": true,
+          "delete": true,
+          "span": 16,
+          "min": 0,
+          "max": 20,
+          "id": "description",
+          "title": "Description"
+        },
+        {
+          "id": "backgroundColor",
+          "title": "BackgroundColor",
+          "type": "color",
+          "span": 8
+        },
+        {
+          "id": "gap",
+          "title": "Gap",
+          "type": "number",
+          "span": 8,
+          "max": 1000,
+          "min": 0
+        },
+        {
+          "id": "textColor",
+          "title": "TextColor",
+          "type": "color",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-17T08:05:45.011Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

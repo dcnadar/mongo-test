@@ -1,0 +1,12 @@
+{
+  "_id": "6621f44d7d57294ed27050ee",
+  "name": "StaffFullAccess",
+  "apisAccess": [
+    "6621f32c7d57294ed27050ec",
+    "6621f32f7d57294ed27050ed"
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2024-04-19T04:34:21.587Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:33.737Z"
+}

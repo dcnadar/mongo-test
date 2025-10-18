@@ -1,0 +1,57 @@
+{
+  "_id": "667949c937de15173d7be4e3",
+  "gridTitle": "NativeGrid GlobalCommonProductList3 sections",
+  "gridType": "form",
+  "crmModelId": "6679458a37de15173d7be4df",
+  "rows": [
+    {
+      "$key": "0oh51ykchbxj",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "l6cqq6dt9pg"
+        },
+        {
+          "$key": "9bbem75cgx",
+          "id": "price",
+          "title": "Price",
+          "type": "text",
+          "span": 7
+        },
+        {
+          "$key": "dqqil4jfbh",
+          "id": "currency",
+          "title": "Currency",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "d1m8v42zm8s",
+          "id": "category",
+          "title": "Category",
+          "type": "text",
+          "span": 7
+        },
+        {
+          "$key": "e703o6mfpue",
+          "id": "thumb",
+          "title": "Thumb",
+          "type": "upload",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8,
+          "multiple": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-24T10:26:17.578Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

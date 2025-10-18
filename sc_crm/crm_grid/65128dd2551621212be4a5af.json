@@ -1,0 +1,35 @@
+{
+  "_id": "65128dd2551621212be4a5af",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 2,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 24,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Path",
+          "id": "path",
+          "type": "url_path",
+          "span": 24,
+          "o": false,
+          "meta": {
+            "addonBefore": "/"
+          }
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65128242551621212be4a5ac",
+  "gridTitle": "Website Page Form"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": {
+    "$oid": "677d896633897d49a1050d8a"
+  },
+  "gridTitle": "Crm App Menu (OLD)",
+  "gridType": "table",
+  "crmModelId": "65e3886f5850bd3b0c0f2962",
+  "columns": [
+    {
+      "$key": "xdc1h8w0at",
+      "key": "ecomAccountId",
+      "name": "Ecom Account",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "xllvp849l8c",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "width": {
+        "$numberInt": "100"
+      },
+      "actions": [
+        {
+          "$key": "8tv2yx53sd9",
+          "gridTitle": "Edit App Menu",
+          "gridType": "popupForm",
+          "slug": "/admin/app-menu/edit?id=:_id _id",
+          "value": "Edit"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "3vv4ei6y6na",
+      "gridTitle": "Add Menu",
+      "slug": "/admin/app-menu/add",
+      "value": "Add Menu"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1736280422088"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151612"
+    }
+  }
+}

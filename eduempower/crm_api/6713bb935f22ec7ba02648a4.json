@@ -1,0 +1,15 @@
+{
+  "_id": "6713bb935f22ec7ba02648a4",
+  "name": "All Student Documents",
+  "path": "/admin/student/documents/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "671267ee5f22ec7ba0264860",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T14:00:51.439Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "updated": "2025-09-08T10:50:52.966Z"
+}

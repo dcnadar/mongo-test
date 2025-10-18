@@ -1,0 +1,89 @@
+{
+  "_id": "65f147b8eb86b8460a61f5f2",
+  "gridTitle": "Website Page Section Info",
+  "gridType": "form",
+  "crmModelId": "6511dfccf9686d32acb3e2d2",
+  "rows": [
+    {
+      "fields": [
+        {
+          "id": "reactGrid",
+          "title": "React Component Name",
+          "type": "text",
+          "span": 24,
+          "$key": "5k5gks5lt3"
+        },
+        {
+          "id": "thumb",
+          "title": "Screenshot",
+          "type": "upload",
+          "multiple": false,
+          "span": 12,
+          "$key": "9df5fp8ud2o"
+        },
+        {
+          "$key": "yzlverlf4w",
+          "id": "designPrototype",
+          "title": "Design Prototype",
+          "type": "upload",
+          "multiple": false,
+          "o": true,
+          "span": 8
+        },
+        {
+          "id": "theme",
+          "title": "Theme",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "$key": "5islmvhvlbm"
+        },
+        {
+          "id": "crmForm",
+          "title": "Crm Form",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "$key": "p5lsptj762"
+        },
+        {
+          "id": "sectionTypeId",
+          "title": "Section Group",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "$key": "5nhk6wust52",
+          "meta": {
+            "queryParams": "?status=ACTIVE"
+          }
+        },
+        {
+          "$key": "uovpxwspndm",
+          "id": "sampleData",
+          "title": "Global Sample Data",
+          "type": "textarea",
+          "o": true,
+          "span": 24
+        },
+        {
+          "$key": "2dwujg5jyrm",
+          "id": "ecomSampleData",
+          "title": "Ecom Sample Data",
+          "span": 24,
+          "o": true,
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 10
+        }
+      ],
+      "$key": "1a6r896k8fu"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-13T06:29:12.252Z",
+  "backUrl": "/admin/website/settings/section-info",
+  "upsertDoc": false
+}

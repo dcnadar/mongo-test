@@ -1,0 +1,14 @@
+{
+  "_id": "66253662990ac402ed0d3ed2",
+  "name": "Add Issued Books",
+  "path": "/admin/library/issued-books/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6625343f990ac402ed0d3ece",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T15:53:06.588Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:51.585Z"
+}

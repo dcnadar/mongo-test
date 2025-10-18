@@ -1,0 +1,47 @@
+{
+  "_id": "666d2790faf6243feb6c9810",
+  "name": "Website SVG Icon",
+  "modelType": "COLLECTION",
+  "collectionName": "website_svg_icon",
+  "properties": [
+    {
+      "$key": "fnoc6gwua5o",
+      "key": "name",
+      "name": "Name",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dpklmavqx0a",
+      "key": "svg",
+      "name": "SVG",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "55lhwvtgjzc",
+      "key": "type",
+      "name": "Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "vkuoyhjztm",
+            "key": "regular",
+            "value": "Regular"
+          },
+          {
+            "$key": "hxzolyxo617",
+            "key": "solid",
+            "value": "Solid"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-15T05:33:04.734Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "compoundUniqueFields": []
+}

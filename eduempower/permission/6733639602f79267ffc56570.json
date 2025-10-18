@@ -1,0 +1,14 @@
+{
+  "_id": "6733639602f79267ffc56570",
+  "key": "leave.leave-request",
+  "name": "Leave Request",
+  "apisAccess": [
+    "6718dd9d5f22ec7ba026493b",
+    "6718dda25f22ec7ba026493c"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T14:17:58.923Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.581Z"
+}

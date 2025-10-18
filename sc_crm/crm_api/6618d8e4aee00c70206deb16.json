@@ -1,0 +1,12 @@
+{
+  "_id": "6618d8e4aee00c70206deb16",
+  "name": "Add Vender",
+  "path": "/admin/account/vendor/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6618d5a8aee00c70206deb10",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T06:47:00.041Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

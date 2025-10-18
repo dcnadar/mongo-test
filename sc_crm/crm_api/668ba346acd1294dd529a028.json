@@ -1,0 +1,14 @@
+{
+  "_id": "668ba346acd1294dd529a028",
+  "name": "All Order",
+  "path": "/admin/order/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "668ba076acd1294dd529a026",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T08:28:54.163Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

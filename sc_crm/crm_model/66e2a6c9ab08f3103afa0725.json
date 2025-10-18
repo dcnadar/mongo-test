@@ -1,0 +1,154 @@
+{
+  "_id": "66e2a6c9ab08f3103afa0725",
+  "name": "ReactGrid GlobalCart",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "rao255sinlo",
+      "key": "deliverToText",
+      "name": "DeliverToText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "do7myovtpok",
+      "key": "changeAddressText",
+      "name": "ChangeAddressText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "79rbqeqqrt8",
+      "key": "couponText",
+      "name": "CouponText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bkf5htdu9f",
+      "key": "applayCouponsText",
+      "name": "ApplayCouponsText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "27cho481lr9",
+      "key": "applayCouponsButtonText",
+      "name": "ApplayCouponsButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "37b2en9qjse",
+      "key": "editButtonText",
+      "name": "EditButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cq2sfqqmbip",
+      "key": "outOfStockMessage",
+      "name": "OutOfStockMessage",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8bovrdl1wcj",
+      "key": "fewLeftText",
+      "name": "FewLeftText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "h9vn8mszv1",
+      "key": "orderSummaryHeading",
+      "name": "OrderSummaryHeading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2to4vqom21n",
+      "key": "shoppingCartHeading",
+      "name": "ShoppingCartHeading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kaot9nhjxbe",
+      "key": "discountText",
+      "name": "DiscountText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ib72kk98ono",
+      "key": "checkoutButtonText",
+      "name": "CheckoutButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "71ge3w8imph",
+      "key": "subTotalText",
+      "name": "SubTotalText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dddxue50ix",
+      "key": "shippingText",
+      "name": "ShippingText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wpv5f8yjtp",
+      "key": "taxText",
+      "name": "TaxText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "uregau2vt3t",
+      "key": "orderTotalText",
+      "name": "OrderTotalText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ursxy5kd3x",
+      "key": "emptyMessageText",
+      "name": "EmptyMessageText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y3ue5xar6te",
+      "key": "storeButtonText",
+      "name": "StoreButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "b9ciegyog7",
+      "key": "onlineModeText",
+      "name": "OnlineModeText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kngb9lg1x1p",
+      "key": "payLableText",
+      "name": "PayLableText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "xg3qq0kdljk",
+      "key": "cashModeText",
+      "name": "CashModeText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6wspss270p6",
+      "key": "taxableAmountText",
+      "name": "TaxableAmountText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6x7370o3vfm",
+      "key": "gstText",
+      "name": "GstText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ldd0il19alf",
+      "key": "extraChargesText",
+      "name": "ExtraChargesText",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-12T08:31:05.673Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

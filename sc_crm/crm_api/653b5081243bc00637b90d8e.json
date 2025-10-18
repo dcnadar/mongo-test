@@ -1,0 +1,13 @@
+{
+  "_id": "653b5081243bc00637b90d8e",
+  "name": "Update Product Basic Details",
+  "action": "CRM_GRID",
+  "sourceId": "64a9d52ae7d297735dc044ea",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "gridType": "menu",
+  "path": "/admin/product/basic-details/update",
+  "innerGridType": "form",
+  "innerSourceId": "64a7ccfae7d297735dc044c7",
+  "created": "2024-01-27T07:48:46.836Z"
+}

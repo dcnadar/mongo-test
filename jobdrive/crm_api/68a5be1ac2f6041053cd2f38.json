@@ -1,0 +1,16 @@
+{
+  "_id": "68a5be1ac2f6041053cd2f38",
+  "name": "Interview",
+  "path": "/admin/interview/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68a2e27954ca9a05d8c97780",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-20T12:22:50.095Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:50.416Z"
+}

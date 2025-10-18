@@ -1,0 +1,31 @@
+{
+  "_id": "66163542a039b45c27dfdde4",
+  "gridTitle": "Account Tax Setting",
+  "gridType": "form",
+  "crmModelId": "661679a02742031ccaab99cf",
+  "rows": [
+    {
+      "$key": "iqmxs89slnc",
+      "fields": [
+        {
+          "id": "taxSettings",
+          "title": "Tax Settings",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "hideCollapse": true
+          },
+          "span": 24,
+          "o": true,
+          "$key": "vyaidiv5uyl"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-10T06:44:18.243Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "upsertDoc": false
+}

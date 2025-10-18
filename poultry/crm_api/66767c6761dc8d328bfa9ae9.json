@@ -1,0 +1,13 @@
+{
+  "_id": "66767c6761dc8d328bfa9ae9",
+  "name": "Edit Roof Type",
+  "path": "/admin/farmer/roof-type/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6676790d61dc8d328bfa9ae1",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-22T07:25:27.395Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

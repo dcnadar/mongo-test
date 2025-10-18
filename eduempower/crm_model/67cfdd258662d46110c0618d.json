@@ -1,0 +1,23 @@
+{
+  "_id": "67cfdd258662d46110c0618d",
+  "name": "School asset configuration",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "7xwmlk8h9nl",
+      "key": "key",
+      "name": "Key",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gx7rxlbksw",
+      "key": "value",
+      "name": "Value",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-11T06:50:13.172Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.592Z"
+}

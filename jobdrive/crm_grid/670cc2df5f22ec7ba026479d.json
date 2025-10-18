@@ -1,0 +1,122 @@
+{
+  "_id": "670cc2df5f22ec7ba026479d",
+  "gridTitle": "User",
+  "gridType": "table",
+  "crmModelId": "6703b5dc30083226ac6affc4",
+  "columns": [
+    {
+      "$key": "f33ed62of4",
+      "key": "firstName",
+      "name": "First Name",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "gmyhv4asf6q",
+      "key": "lastName",
+      "name": "Last Name",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "f1rv0o3c9n",
+      "key": "email",
+      "name": "Email",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "8k6y4cjbqd7",
+      "key": "userName",
+      "name": "User Name",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "r3i8fz625wb",
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "02h7man4h38l",
+      "key": "callingCode",
+      "name": "Calling Code",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "0s8m15tmvce",
+      "key": "birthDate",
+      "name": "Birth Date",
+      "type": "date",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "zyrllc2nm6q",
+      "key": "gender",
+      "name": "Gender",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "gdpwbjk69z",
+      "key": "userType",
+      "name": "User Type",
+      "width": 200,
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "p0ydvr2x06i",
+      "key": "admin",
+      "name": "Admin",
+      "type": "name",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "hye46kjzd5",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "o5k4jptvf8",
+          "gridTitle": "Edit User",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/user/edit?id=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "yyw03xu5v9c",
+      "gridTitle": "Add user",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/user/add",
+      "value": "Add User"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-14T07:06:07.598Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:51.909Z"
+}

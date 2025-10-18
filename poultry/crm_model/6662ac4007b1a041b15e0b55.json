@@ -1,0 +1,43 @@
+{
+  "_id": "6662ac4007b1a041b15e0b55",
+  "name": "Block",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "poultry_block",
+  "properties": [
+    {
+      "$key": "b2fvvsv8ks",
+      "key": "districtId",
+      "name": "District",
+      "dataType": "REFERENCE",
+      "modelId": "6662abef07b1a041b15e0b54",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "qqi9muyzgy",
+      "key": "stateId",
+      "name": "State",
+      "dataType": "REFERENCE",
+      "modelId": "6664474607b1a041b15e0b9e"
+    },
+    {
+      "$key": "ajj1xwx763",
+      "key": "blockName",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true,
+        "primary": true
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "blockName"
+  },
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T06:44:16.669Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

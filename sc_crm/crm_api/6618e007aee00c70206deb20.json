@@ -1,0 +1,13 @@
+{
+  "_id": "6618e007aee00c70206deb20",
+  "name": "Supplier",
+  "path": "/admin/account/supplier/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6618dbb0aee00c70206deb1b",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T07:17:27.642Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": []
+}

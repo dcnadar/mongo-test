@@ -1,0 +1,57 @@
+{
+  "_id": "648b5dfa568ed162c961ede3",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Product Category",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Category Name",
+      "unique": true,
+      "searchable": {
+        "value": true
+      },
+      "$key": "6kr7i23rz5e"
+    },
+    {
+      "dataType": "STRING",
+      "key": "path",
+      "name": "Category Path",
+      "unique": true,
+      "$key": "5qne6fhrq53"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "parentId",
+      "name": "Parent Category",
+      "modelId": "648b5dfa568ed162c961ede3",
+      "$key": "hukcy89bvmt"
+    },
+    {
+      "dataType": "STRING",
+      "key": "logo",
+      "name": "Category Logo",
+      "searchable": {
+        "thumb": true
+      },
+      "$key": "ccu086i9kqb"
+    },
+    {
+      "dataType": "DATE",
+      "key": "created",
+      "name": "Created On",
+      "$key": "8r6ms3att8u"
+    }
+  ],
+  "collectionName": "product_category",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "cardDataTargets": {
+    "title": "name",
+    "thumb": "logo",
+    "slug": "/admin/product/category/update?id=:category category"
+  },
+  "created": "2024-01-27T07:48:50.349Z",
+  "menuTargets": {}
+}

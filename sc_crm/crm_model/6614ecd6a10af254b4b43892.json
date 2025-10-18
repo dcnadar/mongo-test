@@ -1,0 +1,26 @@
+{
+  "_id": "6614ecd6a10af254b4b43892",
+  "name": "Branches",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "branches",
+  "properties": [
+    {
+      "$key": "3wolgb2inkz",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gqalw01znd",
+      "key": "address",
+      "name": "Address",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T07:23:02.237Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,71 @@
+{
+  "_id": "660d69eec7b99128d924f75f",
+  "gridTitle": "Eduempower FeeConcession",
+  "gridType": "table",
+  "crmModelId": "66096668c7b99128d924f66c",
+  "columns": [
+    {
+      "$key": "8trbw2q0vpv",
+      "key": "feeTypes",
+      "name": "Fee Type",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "fq8hp424onr",
+      "key": "name",
+      "name": "Concession Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "x09h2hkshml",
+      "key": "type",
+      "name": "Concession Type",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "h8pa3j2oo",
+      "key": "logicsCount",
+      "name": "Logics Count",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "liunl5mb9r8",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 200,
+      "sort": false,
+      "actions": [
+        {
+          "$key": "1n7udwfwzhg",
+          "apiUrl": "/admin/schoolsetup/fee-settings/fee-concession/edit?id=:_id _id",
+          "gridTitle": "Edit Fee Concession",
+          "value": "Edit",
+          "gridType": "popupForm"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "owogakatzar",
+      "gridTitle": "Add Fee Concession",
+      "gridType": "popupForm",
+      "value": "Add Fee Concession",
+      "apiUrl": "/admin/schoolsetup/fee-settings/fee-concession/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T14:38:38.607Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.628Z"
+}

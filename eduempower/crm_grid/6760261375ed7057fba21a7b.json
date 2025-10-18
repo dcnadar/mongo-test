@@ -1,0 +1,101 @@
+{
+  "_id": "6760261375ed7057fba21a7b",
+  "gridTitle": "SchoolAsset",
+  "gridType": "form",
+  "crmModelId": "6760148375ed7057fba21a77",
+  "rows": [
+    {
+      "$key": "z4iewq3maqr",
+      "fields": [
+        {
+          "id": "assetType",
+          "title": "Asset Type",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": 8,
+          "$key": "g8acmz6h006"
+        },
+        {
+          "$key": "uq1s5vs80eh",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "8v8ss0d924",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 8
+        },
+        {
+          "$key": "nqqgk0dy94f",
+          "id": "images",
+          "title": "Images",
+          "type": "upload",
+          "multiple": true,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          },
+          "span": 8,
+          "add": false,
+          "delete": false,
+          "min": 1,
+          "max": 10
+        },
+        {
+          "$key": "f92rzrs9eur",
+          "id": "conditionStatus",
+          "title": "Condition Status",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "updateType": "none",
+          "createType": "none",
+          "value": "NEW"
+        },
+        {
+          "$key": "rqcy78vw22",
+          "id": "ownershipStatus",
+          "title": "Ownership Status",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "value": "SCHOOL_OWNED",
+          "updateType": "disabled",
+          "createType": "disabled"
+        },
+        {
+          "$key": "u82xdv9at4",
+          "id": "usageStatus",
+          "title": "Usage Status",
+          "span": 8,
+          "type": "list",
+          "multiple": false,
+          "value": "STORED",
+          "updateType": "disabled",
+          "createType": "disabled"
+        },
+        {
+          "$key": "v8h0pi2ouo",
+          "id": "maintenanceStatus",
+          "title": "Maintenance Status",
+          "span": 8,
+          "type": "list",
+          "multiple": false,
+          "value": "OPERATIONAL"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-16T13:07:31.542Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/assets/all",
+  "updated": "2025-09-08T10:51:03.424Z"
+}

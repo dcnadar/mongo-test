@@ -1,0 +1,194 @@
+{
+  "_id": {
+    "$oid": "65e4e721d796c9ccbd1b408e"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Model",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "$key": "tclxkc27cqp",
+      "key": "isOrg",
+      "name": "Is Org",
+      "dataType": "BOOLEAN",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    },
+    {
+      "$key": "14mimiznn5x",
+      "name": "Is Org scope Applicable",
+      "key": "isOrgScopeApplicable",
+      "dataType": "BOOLEAN",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    },
+    {
+      "$key": "3pgzssitt4y",
+      "key": "parent",
+      "name": "Parent",
+      "unique": false,
+      "dataType": "REFERENCE",
+      "$meta": {
+        "fetchModelType": "COLLECTION"
+      },
+      "modelId": "65e4e721d796c9ccbd1b408e"
+    },
+    {
+      "$key": "x9vvmgqwov9",
+      "key": "parentRelationship",
+      "name": "Parent relationship",
+      "dataType": "STRING",
+      "$meta": {
+        "fetchModelType": ""
+      },
+      "data": {
+        "options": [
+          {
+            "$key": "i8d6wpi2dcd",
+            "key": "SINGLE",
+            "value": "Single"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "m0re6u70g1p",
+      "key": "isUserAccount",
+      "name": "Is User Account",
+      "dataType": "BOOLEAN",
+      "$meta": {
+        "fetchModelType": ""
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name",
+      "unique": true,
+      "searchable": {
+        "value": true
+      },
+      "$key": "wdv6ra3esp"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "baseModelId",
+      "name": "Base Model Id",
+      "modelId": "65e4e721d796c9ccbd1b408e",
+      "$key": "1yph6wt2y5gj"
+    },
+    {
+      "dataType": "STRING",
+      "key": "modelType",
+      "name": "Model Type",
+      "data": {
+        "options": [
+          {
+            "key": "BASE",
+            "value": "Base Model",
+            "$key": "232chlzgis"
+          },
+          {
+            "key": "COLLECTION",
+            "value": "Collection",
+            "$key": "bmekgbhvyf"
+          },
+          {
+            "key": "INNER",
+            "value": "Inner",
+            "$key": "c9ph2cnh9t"
+          }
+        ]
+      },
+      "searchable": {
+        "description": true
+      },
+      "$key": "ezaooddun7t"
+    },
+    {
+      "dataType": "STRING",
+      "key": "collectionName",
+      "name": "Collection Name",
+      "$key": "2t5nl6sqcj5",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "properties",
+      "name": "Properties",
+      "modelId": "65e46e2762e81af0993f8517",
+      "$key": "6uhejs5ysba"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "cardDataTargets",
+      "name": "Card Data Targets (Grid CardData)",
+      "modelId": "65e4e720d796c9ccbd1b408d",
+      "$key": "3vr0ph6nli2"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "menuTargets",
+      "name": "Menu Targets",
+      "modelId": "65e4e721d796c9ccbd1b408f",
+      "$key": "xdqdehyekd"
+    },
+    {
+      "dataType": "STRING",
+      "key": "fieldName",
+      "name": "Field Name",
+      "$key": "5ywiavjyrfg"
+    },
+    {
+      "dataType": "STRING",
+      "key": "dataType",
+      "name": "Data Type",
+      "data": {
+        "tagCategory": "crmModelDataType"
+      },
+      "$key": "e9tx0ar08gw"
+    },
+    {
+      "dataType": "INTEGER",
+      "key": "order",
+      "name": "Order",
+      "$key": "z837cd3xyn"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "modelId",
+      "name": "Model Id",
+      "modelId": "65e4e721d796c9ccbd1b408e",
+      "$key": "odc0v2v8xtq"
+    }
+  ],
+  "collectionName": "crm_model",
+  "cardDataTargets": {
+    "title": "name",
+    "subtitles": [
+      "modelType"
+    ],
+    "slug": "/admin/model/update?id=:crmModelId crmModelId"
+  },
+  "created": {
+    "$date": {
+      "$numberLong": "1709500193119"
+    }
+  },
+  "menuTargets": {},
+  "compoundUniqueFields": [],
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152436"
+    }
+  },
+  "isOrg": false,
+  "isUserAccount": false,
+  "baseModelId": "65e2c399226e7b80fe49ae3a"
+}

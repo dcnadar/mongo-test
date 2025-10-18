@@ -1,0 +1,44 @@
+{
+  "_id": "66d59b2374ed55427bf54765",
+  "name": "NativeGrid GlobalHeader2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "vnkxjckmpa",
+      "key": "leftIcons",
+      "name": "LeftIcons",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66d94be020ea9a402cc8a3a8"
+    },
+    {
+      "$key": "41bajfvohmj",
+      "key": "useSvgLogo",
+      "name": "Use Svg Logo",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "aulwau7ocga",
+      "key": "logoSvg",
+      "name": "logoSvg",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "mmx8rtu5wa",
+      "key": "logoImage",
+      "name": "Logo Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "pe611aq54u",
+      "key": "rightIcons",
+      "name": "Right Icons",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66d94be020ea9a402cc8a3a8"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-02T11:01:55.079Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "660ac9ccc7b99128d924f6c1",
+  "name": "Eduempower Address",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "1z136ms15uq",
+      "key": "addressLine1",
+      "name": "Address Line 1",
+      "dataType": "STRING",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "chbgzp6iw19",
+      "key": "addressLine2",
+      "name": "Address Line 2",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "s0jfbp6ugh9",
+      "key": "landmark",
+      "name": "Landmark",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7t8hme4hfvx",
+      "key": "country",
+      "name": "Country",
+      "dataType": "REFERENCE",
+      "modelId": "673883822989183eda4d14b2",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "otec5mg95d",
+      "key": "state",
+      "name": "State",
+      "dataType": "REFERENCE",
+      "modelId": "673883eb2989183eda4d14b4",
+      "searchable": {
+        "value": false
+      }
+    },
+    {
+      "$key": "j7nkf8kpd9h",
+      "key": "city",
+      "name": "City",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "mmhuouylau8",
+      "key": "pincode",
+      "name": "Pincode",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "d90wnax2i9k",
+      "key": "areaType",
+      "name": "Area Type",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3iyjjdfiz7z",
+      "key": "station",
+      "name": "Station",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-01T14:50:52.172Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.080Z"
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "65a63ee13b27a4e28376faa4",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "mobileImage",
+      "name": "Mobile Image URL"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image URL"
+    },
+    {
+      "name": "Enable Button",
+      "key": "enableButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "modelId": "650d3713ac425a65d3141bcc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalImageSlider Section",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-16T08:31:29.208Z"
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "65a431d12d653b284338a316",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name",
+      "searchable": {
+        "value": true
+      },
+      "$key": "eez7yzfeaob"
+    },
+    {
+      "dataType": "STRING",
+      "key": "thumb",
+      "name": "Thumb",
+      "searchable": {
+        "thumb": false
+      },
+      "$key": "66k1riiu1yx"
+    },
+    {
+      "dataType": "STRING",
+      "key": "status",
+      "name": "Status",
+      "$key": "ao7stpxrqr",
+      "data": {
+        "tagCategory": "active_status"
+      }
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Website Page Section Type",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "collectionName": "website_page_section_type",
+  "created": "2024-01-14T19:11:13.380Z",
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {}
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "65d1c1d28d99a73c7f3f81cd",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Section Type",
+          "id": "type",
+          "type": "tag",
+          "span": 6,
+          "o": false,
+          "$key": "vn3wqz2g8ni"
+        },
+        {
+          "index": 2,
+          "title": "Image",
+          "id": "image",
+          "type": "upload",
+          "span": 18,
+          "o": false,
+          "showCondition": "return this.type === 'Image';",
+          "$key": "l30o3orvle"
+        },
+        {
+          "index": 2,
+          "title": "Paragraph",
+          "id": "paragraph",
+          "type": "textarea",
+          "span": 18,
+          "o": false,
+          "showCondition": "return this.type === 'Paragraph';",
+          "$key": "58f1h9kbrsb"
+        },
+        {
+          "index": 2,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 18,
+          "o": false,
+          "showCondition": "return this.type === 'Heading';",
+          "$key": "1n9g670htc9"
+        },
+        {
+          "index": 3,
+          "title": "Points",
+          "id": "points",
+          "type": "form_array",
+          "span": 18,
+          "o": false,
+          "min": 1,
+          "max": 20,
+          "countTitle": "No Point Added",
+          "add": true,
+          "delete": true,
+          "showCondition": "return this.type === 'Points';",
+          "$key": "3kjf4sx41gu"
+        },
+        {
+          "index": 4,
+          "title": "Quote",
+          "id": "quote",
+          "type": "inner_form",
+          "span": 18,
+          "o": false,
+          "showCondition": "return this.type === 'Quote';",
+          "meta": {
+            "crmFormId": "65d1c1d48d99a73c7f3f81d0"
+          },
+          "$key": "jpsg1lr0oe"
+        },
+        {
+          "index": 5,
+          "title": "Buttons",
+          "id": "buttons",
+          "type": "form_array",
+          "span": 18,
+          "o": true,
+          "min": 1,
+          "max": 5,
+          "countTitle": "No Button Added",
+          "add": true,
+          "delete": true,
+          "showCondition": "return this.type === 'Buttons';",
+          "hint": "Buttons will be displayed in the order they are added, according to the index value.",
+          "$key": "djzhw7eejqj"
+        },
+        {
+          "index": 5,
+          "title": "Data Points",
+          "id": "dataPoints",
+          "type": "input_table",
+          "span": 18,
+          "o": false,
+          "min": 1,
+          "max": 20,
+          "countTitle": "No Data Point Added",
+          "add": true,
+          "delete": true,
+          "showCondition": "return this.type === 'Data Points';",
+          "$key": "0e6j462nnuwn"
+        },
+        {
+          "$key": "dvczyq6kitn",
+          "id": "message",
+          "title": "Message",
+          "type": "text_editor",
+          "span": 18,
+          "showCondition": "return this.type === 'Message';"
+        }
+      ],
+      "$key": "rax93cc2ke9"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65d1b9912a35a061866919e4",
+  "gridTitle": "ReactGrid GlobalCommon ContentSection",
+  "created": "2024-02-18T08:37:38.140Z",
+  "fetchDocWithoutId": false
+}

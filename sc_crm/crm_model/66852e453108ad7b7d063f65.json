@@ -1,0 +1,34 @@
+{
+  "_id": "66852e453108ad7b7d063f65",
+  "name": "Account Setting",
+  "modelType": "COLLECTION",
+  "collectionName": "trufal_account_setting",
+  "properties": [
+    {
+      "$key": "9fy723it15b",
+      "key": "defaultCurrency",
+      "name": "Default Currency",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "kzucrog14ee",
+            "key": "INR",
+            "value": "INR ( ₹ )"
+          },
+          {
+            "$key": "96ug4hpy01",
+            "key": "USD",
+            "value": "USD ( $ )"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T10:56:05.312Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "baseModelId": "64822a187d5f915dc103d271"
+}

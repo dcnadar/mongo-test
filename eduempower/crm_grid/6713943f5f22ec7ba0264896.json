@@ -1,0 +1,169 @@
+{
+  "_id": "6713943f5f22ec7ba0264896",
+  "gridTitle": "Student Transfer",
+  "gridType": "form",
+  "crmModelId": "67138ed05f22ec7ba0264895",
+  "rows": [
+    {
+      "$key": "8l6nwf7meq5",
+      "label": "Student",
+      "span": 24,
+      "fields": [
+        {
+          "id": "student",
+          "title": "Select Student",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "ng0wve38n47",
+          "onChangeCondition": [
+            {
+              "$key": "tg74zc2xul",
+              "key": "$ROOT",
+              "meta": {
+                "type": "url",
+                "apiType": "GET"
+              },
+              "value": "/api/io/admin/students/transfer/info/:student student"
+            }
+          ],
+          "meta": {
+            "queryParams": "userType=STUDENT"
+          }
+        }
+      ]
+    },
+    {
+      "$key": "0v0fvj9rlw5e",
+      "fields": [
+        {
+          "$key": "lnuj8jd2zzh",
+          "id": "studentBranch",
+          "title": "Student Branch",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "disabled",
+          "createType": "disabled"
+        },
+        {
+          "$key": "9iwpu7caa1w",
+          "id": "academicSession",
+          "title": "Academic Session",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "disabled",
+          "createType": "disabled"
+        },
+        {
+          "$key": "jq5m8qm6b7",
+          "id": "class",
+          "title": "Class",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "section"
+          ],
+          "updateType": "disabled",
+          "createType": "disabled"
+        },
+        {
+          "$key": "y8kictybvd",
+          "id": "section",
+          "title": "Section",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "classId=:class class"
+          },
+          "updateType": "disabled",
+          "createType": "disabled"
+        },
+        {
+          "$key": "6k8g6d50hy6",
+          "id": "rollNumber",
+          "title": "Roll Number",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "updateType": "disabled",
+          "createType": "disabled"
+        }
+      ],
+      "label": "Details",
+      "span": 24
+    },
+    {
+      "$key": "fy8j9sqedv9",
+      "fields": [
+        {
+          "id": "transferStudentBranch",
+          "title": "Student Branch",
+          "$key": "vpj1ccqyuam",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "transferAcademicSession",
+            "transferClass",
+            "transferSection"
+          ]
+        },
+        {
+          "$key": "fk9mytuqc8j",
+          "id": "transferAcademicSession",
+          "title": "Academic Session",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "_workLocation=:transferStudentBranch transferStudentBranch"
+          }
+        },
+        {
+          "$key": "fyhnq2k0b2f",
+          "id": "transferClass",
+          "title": "Class",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "_sessionId=:transferAcademicSession&_workLocation=:transferStudentBranch transferStudentBranch transferAcademicSession"
+          }
+        },
+        {
+          "$key": "w0xam3or83s",
+          "id": "transferSection",
+          "title": "Section",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "classId=:transferClass&_sessionId=:transferAcademicSession&_workLocation=:transferStudentBranch transferStudentBranch transferAcademicSession transferClass"
+          }
+        },
+        {
+          "$key": "qzsaknl9oid",
+          "id": "transferRollNumber",
+          "title": "Roll Number",
+          "type": "number",
+          "span": 8,
+          "min": 0
+        }
+      ],
+      "label": "Transfer Details",
+      "span": 24
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T11:13:03.454Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "postUrl": "/api/io/admin/students/transfer",
+  "updated": "2025-09-08T10:51:01.749Z"
+}

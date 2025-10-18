@@ -1,0 +1,26 @@
+{
+  "_id": {
+    "$oid": "68d6a896a2635b176e34b798"
+  },
+  "name": "Edit User Access",
+  "path": "/admin/settings/user-access/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68d6a6cea2635b176e34b791",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758898326040"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231673520"
+    }
+  }
+}

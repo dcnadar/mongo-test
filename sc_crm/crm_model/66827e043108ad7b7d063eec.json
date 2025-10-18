@@ -1,0 +1,18 @@
+{
+  "_id": "66827e043108ad7b7d063eec",
+  "name": "NativeGrid GlobalOmgDealCard",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "xyqaisdcm2r",
+      "key": "section",
+      "name": "Section",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66827eb63108ad7b7d063eed"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T09:59:32.360Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,86 @@
+{
+  "_id": "66096853c7b99128d924f66e",
+  "name": "Eduempower SchoolSubject",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_school_subject",
+  "properties": [
+    {
+      "$key": "8gxw209jfhc",
+      "key": "subjectName",
+      "name": "Subject Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "irczkxkj1vb",
+      "key": "subjectCategory",
+      "name": "Subject Category",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "u9ylst6biy",
+            "key": "SCHOLASTIC",
+            "value": "Scholastic"
+          },
+          {
+            "$key": "byvu32b1fu",
+            "key": "CO_SCHOLASTIC",
+            "value": "Co Scholastic"
+          },
+          {
+            "$key": "9e4x0ik852e",
+            "key": "OPTIONAL",
+            "value": "Optional"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "v7z9fltukai",
+      "key": "shortName",
+      "name": "Short Name",
+      "dataType": "STRING",
+      "searchable": {
+        "description": false
+      }
+    },
+    {
+      "$key": "ecuej8jdog",
+      "key": "subjectCode",
+      "name": "Subject Code",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "pspzjuakftj",
+      "key": "isChargeable",
+      "name": "Is Chargeable",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "qmn35ohyrp",
+      "key": "subjectFeeDetails",
+      "name": "Subject Fee Details",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "660966ebc7b99128d924f66d"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "subjectName",
+    "subtitles": [
+      "shortName"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-31T13:42:43.862Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:05.765Z"
+}

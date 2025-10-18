@@ -1,0 +1,27 @@
+{
+  "_id": "65b644c588ce476919e91bcb",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "heading",
+      "name": "Heading"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description"
+    },
+    {
+      "dataType": "LIST_OF",
+      "key": "section",
+      "name": "Section",
+      "listType": "INNER_MODEL",
+      "modelId": "65b644c588ce476919e91bca"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalTabSection2",
+  "modelType": "INNER",
+  "created": "2024-01-28T12:12:53.444Z",
+  "modelStatus": "ACTIVE"
+}

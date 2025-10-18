@@ -1,0 +1,56 @@
+{
+  "_id": "66129691a10af254b4b43811",
+  "gridTitle": "Eduempower Country",
+  "gridType": "table",
+  "crmModelId": "660c0606c7b99128d924f709",
+  "columns": [
+    {
+      "$key": "j149fyj1xic",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "b1u7rplj4rm",
+      "key": "code",
+      "name": "Code",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "ycs9l3pm5w",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "actions": [
+        {
+          "$key": "fanmh7b0h1b",
+          "apiUrl": "/admin/entity-setup/country/edit?id=:_id _id",
+          "gridTitle": "Edit Country",
+          "value": "Edit",
+          "gridType": "popupForm"
+        }
+      ],
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "9eu16wnonhs",
+      "gridTitle": "Add Country",
+      "gridType": "popupForm",
+      "value": "Add Country",
+      "apiUrl": "/admin/entity-setup/country/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-07T12:50:25.638Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

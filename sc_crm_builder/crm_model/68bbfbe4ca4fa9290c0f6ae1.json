@@ -1,0 +1,59 @@
+{
+  "_id": {
+    "$oid": "68bbfbe4ca4fa9290c0f6ae1"
+  },
+  "name": "Account DB Credentials",
+  "properties": [
+    {
+      "key": "dev",
+      "name": "Dev",
+      "unique": false,
+      "dataType": "INNER_MODEL",
+      "modelId": "68baceb72d9faaf2ca5a746e",
+      "$key": "94i4ego3akl"
+    },
+    {
+      "$key": "32eeyijndkg",
+      "key": "qa",
+      "name": "QA",
+      "dataType": "INNER_MODEL",
+      "$meta": {
+        "fetchModelType": "INNER"
+      },
+      "modelId": "68baceb72d9faaf2ca5a746e"
+    },
+    {
+      "$key": "824hyvairzb",
+      "key": "uat",
+      "name": "UAT",
+      "dataType": "INNER_MODEL",
+      "$meta": {
+        "fetchModelType": "INNER"
+      },
+      "modelId": "68baceb72d9faaf2ca5a746e"
+    },
+    {
+      "$key": "bbl19vowdk6",
+      "key": "prod",
+      "name": "Prod",
+      "dataType": "INNER_MODEL",
+      "$meta": {
+        "fetchModelType": "INNER"
+      },
+      "modelId": "68baceb72d9faaf2ca5a746e"
+    }
+  ],
+  "modelType": "INNER",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757150180213"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757151989529"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "679b2d08b81dbd448287fa14",
+  "gridTitle": "Return Book",
+  "gridType": "form",
+  "crmModelId": "662533b2990ac402ed0d3ecd",
+  "rows": [
+    {
+      "$key": "dn2yvz266bl",
+      "fields": [
+        {
+          "id": "comment",
+          "title": "Comment",
+          "type": "text",
+          "span": 12,
+          "$key": "4vaoj3alm0f"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-30T07:40:56.292Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "postUrl": "/api/io/admin/library/return",
+  "updated": "2025-09-08T10:51:03.996Z"
+}

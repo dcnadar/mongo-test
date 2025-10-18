@@ -1,0 +1,26 @@
+{
+  "_id": "660672deeea36066ca04cbc8",
+  "name": "Eduempower Account",
+  "modelType": "COLLECTION",
+  "collectionName": "ecom_account",
+  "properties": [
+    {
+      "$key": "9rqteu11y1i",
+      "key": "name",
+      "name": "Account Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "na77pbfv2br",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-03-29T07:50:54.713Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:04.877Z"
+}

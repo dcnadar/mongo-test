@@ -1,0 +1,211 @@
+{
+  "_id": "667bf83d74a25c4c696adb21",
+  "gridTitle": "Batch Info Main",
+  "gridType": "form",
+  "crmModelId": "667cfc6a74a25c4c696adb31",
+  "rows": [
+    {
+      "$key": "rxljghjehp",
+      "fields": [
+        {
+          "id": "batchInfo.batchPlacement",
+          "title": "Batch Placement",
+          "type": "date",
+          "span": 8,
+          "$key": "63v7yuklnp4"
+        },
+        {
+          "$key": "wlherdburyj",
+          "id": "farmerId",
+          "title": "Farmer Id",
+          "type": "list",
+          "multiple": false,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    },
+    {
+      "$key": "c2bexxazcpu",
+      "fields": [
+        {
+          "id": "batchInfo.nOOfDocPlaced",
+          "title": "Number of DOC Placed",
+          "type": "number",
+          "span": 12,
+          "$key": "5ixwmaf2xcw",
+          "onChangeCondition": [
+            {
+              "$key": "f6e7ug5ij7n",
+              "key": "batchInfo.nOOfFeederBird",
+              "meta": {
+                "type": "function"
+              },
+              "value": "let r = (this.batchInfo.nOOfFeeder * 100) / this.batchInfo.nOOfDocPlaced; return typeof r === 'number' ? Math.round(r) : 0;"
+            },
+            {
+              "$key": "ywwx4d6a9m",
+              "meta": {
+                "type": "function"
+              },
+              "key": "batchInfo.nOOfDrinkerBird",
+              "value": "let r = (this.batchInfo.nOOfDrinker * 100) / this.batchInfo.nOOfDocPlaced; return typeof r === 'number' ? Math.round(r) : 0;"
+            }
+          ],
+          "validate": "return this.batchInfo.nOOfDocPlaced % 1 !== 0 ? \"Please enter whole number\" : \"\";"
+        }
+      ],
+      "span": 0
+    },
+    {
+      "$key": "ze4foav0i2",
+      "fields": [
+        {
+          "id": "batchInfo.nOOfFeeder",
+          "title": "Number of Feeder",
+          "type": "number",
+          "span": 12,
+          "$key": "9z28no68utc",
+          "onChangeCondition": [
+            {
+              "$key": "imqawwid9sg",
+              "meta": {
+                "type": "function"
+              },
+              "key": "batchInfo.nOOfFeederBird",
+              "value": "let r = (this.batchInfo.nOOfFeeder * 100) / this.batchInfo.nOOfDocPlaced; return typeof r === 'number' ? Math.round(r) : 0;"
+            }
+          ],
+          "validate": "return this.batchInfo.nOOfFeeder % 1 !== 0 ? \"Please enter whole number\" : \"\";"
+        },
+        {
+          "$key": "61juh07s457",
+          "id": "batchInfo.nOOfFeederBird",
+          "title": "Number of Feeder / 100 Bird",
+          "type": "number",
+          "span": 12,
+          "updateType": "disabled",
+          "createType": "disabled"
+        }
+      ]
+    },
+    {
+      "$key": "9cw3scprdgl",
+      "fields": [
+        {
+          "id": "batchInfo.nOOfDrinker",
+          "title": "Number of Drinker",
+          "type": "number",
+          "span": 12,
+          "$key": "bgtl3lvjrd",
+          "onChangeCondition": [
+            {
+              "$key": "vlvizn0wuhp",
+              "meta": {
+                "type": "function"
+              },
+              "key": "batchInfo.nOOfDrinkerBird",
+              "value": "let r = (this.batchInfo.nOOfDrinker * 100) / this.batchInfo.nOOfDocPlaced; return typeof r === 'number' ? Math.round(r) : 0;"
+            }
+          ],
+          "updateType": "none",
+          "createType": "none",
+          "validate": "return this.batchInfo.nOOfDrinker % 1 !== 0 ? \"Please enter whole number\" : \"\";"
+        },
+        {
+          "$key": "jrtoezy4kk9",
+          "id": "batchInfo.nOOfDrinkerBird",
+          "title": "Number of Drinker / 100 Bird",
+          "type": "number",
+          "span": 12,
+          "updateType": "disabled",
+          "createType": "disabled"
+        }
+      ]
+    },
+    {
+      "$key": "eo5rsev3yh4",
+      "label": "Practicing before Placement of DOC",
+      "span": 24,
+      "fields": [
+        {
+          "$key": "7vohey49yib",
+          "id": "batchInfo.sparyingDisinfectant",
+          "title": "Sparying Disinfectant",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "span": 6
+        },
+        {
+          "$key": "ym5v34grcpr",
+          "id": "batchInfo.whiteWash",
+          "span": 6,
+          "title": "White Wash",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          }
+        },
+        {
+          "$key": "99r2czlt9u9",
+          "id": "batchInfo.wipingOfFloor",
+          "title": "Wiping of Floor",
+          "span": 6,
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          }
+        },
+        {
+          "$key": "yjyif6lzmbl",
+          "id": "batchInfo.fumigation",
+          "title": "Fumigation",
+          "span": 6,
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          }
+        }
+      ]
+    },
+    {
+      "$key": "f15tp3gq3gd",
+      "label": "Input (Value)",
+      "span": 24,
+      "fields": [
+        {
+          "$key": "8awm2kysuu",
+          "id": "batchInfo.litter",
+          "title": "Litter",
+          "type": "number",
+          "span": 12,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "fdcjgl64sx7",
+          "id": "batchInfo.doc",
+          "title": "DOC",
+          "type": "number",
+          "span": 12,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-26T11:15:09.042Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "farmerId",
+      "required": true
+    }
+  ]
+}

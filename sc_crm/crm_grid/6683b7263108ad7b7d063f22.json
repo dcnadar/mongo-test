@@ -1,0 +1,52 @@
+{
+  "_id": "6683b7263108ad7b7d063f22",
+  "gridTitle": "ReactGrid GlobalContentSection Common Comment",
+  "gridType": "form",
+  "crmModelId": "6683b6753108ad7b7d063f21",
+  "rows": [
+    {
+      "$key": "ds7d70ise4s",
+      "fields": [
+        {
+          "id": "commentHeading",
+          "title": "CommentHeading",
+          "type": "text",
+          "span": 8,
+          "$key": "k9i2mb131tl"
+        },
+        {
+          "$key": "201nj5hc8t2",
+          "id": "successMessage",
+          "title": "SuccessMessage",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "oeritxk7hfe",
+          "id": "errorMessage",
+          "title": "ErrorMessage",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "gtf1q7r78u",
+          "id": "commentButtonText",
+          "title": "CommentButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "cjulfrwz1w",
+          "id": "loadMoreButtonText",
+          "title": "LoadMoreButtonText",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T08:15:34.095Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

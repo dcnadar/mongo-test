@@ -1,0 +1,23 @@
+{
+  "_id": "64a5c52d099de82bca61ca95",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "type",
+      "name": "Type",
+      "data": {
+        "tagCategory": "productAssetType"
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "url",
+      "name": "URL"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Product Asset",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:50.856Z"
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "65a902e6747bf6a7900a206a",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-18T10:52:22.026Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 1,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 0,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 6,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 12,
+          "o": false
+        },
+        {
+          "index": 3,
+          "title": "Main Image",
+          "id": "mainImage",
+          "type": "upload",
+          "span": 8,
+          "o": false
+        },
+        {
+          "index": 4,
+          "id": "images",
+          "title": "Brand Images",
+          "min": 1,
+          "max": 8,
+          "type": "upload",
+          "span": 16,
+          "o": false,
+          "multiple": true,
+          "countTitle": "No Media Added",
+          "add": true,
+          "delete": true
+        },
+        {
+          "index": 5,
+          "title": "Buttons",
+          "id": "buttons",
+          "type": "form_array",
+          "span": 24,
+          "o": true,
+          "min": 0,
+          "max": 3,
+          "countTitle": "No Button Added",
+          "add": true,
+          "delete": true,
+          "hint": "Buttons will be displayed in the order they are added, according to the index value."
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65a902e5747bf6a7900a2069",
+  "gridTitle": "ReactGrid GlobalHeroSection4"
+}

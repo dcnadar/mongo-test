@@ -1,0 +1,288 @@
+{
+  "_id": {
+    "$oid": "65e782c6da2444a1d00dfeb3"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "gridTitle",
+      "name": "Name",
+      "searchable": {
+        "value": true
+      },
+      "$key": "bh9ju819f4f"
+    },
+    {
+      "dataType": "STRING",
+      "key": "gridType",
+      "name": "Grid Type",
+      "data": {
+        "options": [
+          {
+            "key": "table",
+            "value": "Table",
+            "$key": "rn7heiqpfa"
+          },
+          {
+            "key": "form",
+            "value": "Form",
+            "$key": "hw3rz26lurj"
+          },
+          {
+            "key": "menu",
+            "value": "Menu",
+            "$key": "w4t40ios4tj"
+          },
+          {
+            "$key": "2nbw7jy2q12",
+            "key": "dashboard",
+            "value": "Dashboard"
+          },
+          {
+            "$key": "yu6g75lhll",
+            "key": "account_filter",
+            "value": "Base Filter"
+          },
+          {
+            "$key": "quaaz5wlr8i",
+            "key": "calendar",
+            "value": "Calendar"
+          },
+          {
+            "$key": "exwhalkcfw8",
+            "key": "calendar_table",
+            "value": "Calendar table"
+          },
+          {
+            "$key": "zxqs4w438gm",
+            "key": "progress_cards",
+            "value": "Progress Cards"
+          },
+          {
+            "$key": "lz6dak04ep",
+            "key": "iframe",
+            "value": "iFrame"
+          },
+          {
+            "$key": "tjv5z42lql",
+            "key": "any",
+            "value": "Any"
+          }
+        ]
+      },
+      "searchable": {
+        "description": true
+      },
+      "$key": "ay7ymzw5la5"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "crmModelId",
+      "name": "Crm Model",
+      "modelId": "65e4e721d796c9ccbd1b408e",
+      "$key": "zxppu4x86il"
+    },
+    {
+      "dataType": "STRING",
+      "key": "backUrl",
+      "name": "Back URL (API path)",
+      "$key": "e2ytm6e1q4p"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "gridParams",
+      "name": "Grid Params (Request params for auto filter criteria)",
+      "modelId": "65e784bb58fbe5a161005480",
+      "$key": "bzta5lkavdj"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "rows",
+      "name": "Rows (Form)",
+      "modelId": "65e78602fb169c602da0bfc5",
+      "$key": "1zytugx4ywt"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "fetchDocWithoutId",
+      "name": "Fetch Document Without Id (Form)",
+      "$key": "5q7bpcagw1q"
+    },
+    {
+      "dataType": "STRING",
+      "key": "thumb",
+      "name": "Thumb (Menu)",
+      "$key": "6akxlwsx51t"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "menuItems",
+      "name": "Menu Items (Menu)",
+      "modelId": "65e388705850bd3b0c0f2963",
+      "$key": "gqzxb4wsuyr"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "details",
+      "name": "Details (Points with key and value) (Menu)",
+      "modelId": "65e46e2562e81af0993f8515",
+      "$key": "feoofwu8ywv"
+    },
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title (Menu)",
+      "$key": "5kg38vqx9dl"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description (Menu)",
+      "$key": "8ungvglyvvw"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "columns",
+      "name": "Columns (Table)",
+      "modelId": "65e80279424719e028f20658",
+      "$key": "upcwhi8hgr"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "createButton",
+      "name": "Create Button (Crm Grid Button) (Table)",
+      "modelId": "65e80278424719e028f20657",
+      "$key": "fw4om5zi5n"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "actions",
+      "name": "Actions (Crm Grid Buttons) (Table)",
+      "modelId": "65e80278424719e028f20657",
+      "$key": "7fohsturzl"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "border",
+      "name": "Border (Table)",
+      "$key": "pu3cqdv6e9n"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "customFilters",
+      "name": "Custom Filters (Crm Grid FormRows) (Table)",
+      "modelId": "65e78602fb169c602da0bfc5",
+      "$key": "aknoz44vxfo"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "search",
+      "name": "Search (Table)",
+      "modelId": "65e8027b424719e028f2065a",
+      "$key": "3n15wv5je2"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "leftOpenFilters",
+      "name": "Left Open Filters (Crm Grid FormRows) (Table)",
+      "modelId": "65e78602fb169c602da0bfc5",
+      "$key": "llv5sc58doe"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "tableMeta",
+      "name": "Table Meta",
+      "modelId": "65e8027c424719e028f2065b",
+      "$key": "fimuraxwu3o"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "STRING",
+      "key": "fetchAdditionalKeys",
+      "name": "Fetch Additional Keys",
+      "$key": "qqjo8m1n9u"
+    },
+    {
+      "$key": "v3cztibu9e",
+      "key": "upsertDoc",
+      "name": "Upsert Doc",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "55a30kys2k",
+      "key": "iframeSrc",
+      "dataType": "STRING",
+      "name": "iframeSrc"
+    },
+    {
+      "$key": "u6uvfso0m5f",
+      "key": "postUrl",
+      "name": "Post URL",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8o0voudtqkf",
+      "key": "submitType",
+      "name": "Submit Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "09v7untle474",
+            "key": "download",
+            "value": "Download"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "raextm3j0nk",
+      "key": "responseType",
+      "name": "ResponseType",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "tqwhskuw9ze",
+      "key": "breadcrumb",
+      "name": "Breadcrumb",
+      "dataType": "LIST_OF",
+      "$meta": {
+        "fetchModelType": "INNER"
+      },
+      "listType": "INNER_MODEL",
+      "modelId": "68dccc58bc64ef43cc5928f7"
+    }
+  ],
+  "collectionName": "crm_grid",
+  "cardDataTargets": {
+    "title": "gridTitle",
+    "subtitles": [
+      "gridType"
+    ]
+  },
+  "baseModelId": "65e2c399226e7b80fe49ae3a",
+  "created": {
+    "$date": {
+      "$numberLong": "1709671110880"
+    }
+  },
+  "menuTargets": {},
+  "compoundUniqueFields": [],
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152548"
+    }
+  }
+}

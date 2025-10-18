@@ -1,0 +1,99 @@
+{
+  "_id": "660d6912c7b99128d924f75e",
+  "gridTitle": "Eduempower FeeFine",
+  "gridType": "table",
+  "crmModelId": "660964bec7b99128d924f66b",
+  "columns": [
+    {
+      "$key": "k7gib91uvk",
+      "key": "classes",
+      "name": "Class",
+      "type": "card",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "bvaokfsy9bc",
+      "key": "feeTypes",
+      "name": "Fee Type",
+      "type": "card",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "g8fiu9yobhi",
+      "key": "name",
+      "name": "Fine Name",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "5l8rbttkny2",
+      "key": "fineType",
+      "name": "Fine Type",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "389tesht2go",
+      "key": "feeFavourLogic",
+      "name": "Logic",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "6gtvmipyszd",
+      "key": "value",
+      "name": "Value",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "27vc58xvlyj",
+      "key": "feeFineAssign",
+      "name": "Fine Assign",
+      "type": "text",
+      "sort": true,
+      "width": 150
+    },
+    {
+      "$key": "ttwks2zxqtg",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "width": 100,
+      "actions": [
+        {
+          "$key": "2c7d5uxe3ga",
+          "gridTitle": "Edit Fee Fine",
+          "gridType": "popupForm",
+          "value": "Edit",
+          "apiUrl": "/admin/schoolsetup/fee-settings/fee-fine/edit?id=:_id _id"
+        }
+      ],
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "0vkrcf9o0fmf",
+      "gridTitle": "Add Fee Fine",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/schoolsetup/fee-settings/fee-fine/add",
+      "value": "Add Fee Fine"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T14:34:58.414Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.595Z"
+}

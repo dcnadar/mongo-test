@@ -1,0 +1,276 @@
+{
+  "_id": "66682eb7cf65cd7a11ef2c4a",
+  "name": "Farm Condition",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "jf497lmucqm",
+      "key": "availabilityOfCrossVentilation ",
+      "name": "Availability Of Cross Ventilation ",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "cv9jvzlh1q",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "np18arm8jxr",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "wzzmq340l4",
+      "key": "typeOfHousing",
+      "name": "Type Of Housing",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "am7g0ykt8aw",
+            "key": "TEMPORARY",
+            "value": "Temporary"
+          },
+          {
+            "$key": "v6sf280ztzi",
+            "value": "Permanent",
+            "key": "PARMANENT"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "51p01gkmima",
+      "key": "separateBroodingHouse",
+      "name": "Separate Brooding House",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ln3tuqmha1r",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "vzqz2q0szj",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "xhtnf0ysmk",
+      "key": "typeOfPoultryHousing",
+      "name": "Type Of Poultry Housing",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "7mvtv5ni1e8",
+            "key": "1",
+            "value": "1"
+          },
+          {
+            "$key": "58irr6x77f2",
+            "key": "2",
+            "value": "2"
+          },
+          {
+            "$key": "fj1d24s9ix",
+            "key": "3",
+            "value": "3"
+          },
+          {
+            "$key": "jiiimwucnsg",
+            "key": "4",
+            "value": "4"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "sobdrqst75j",
+      "key": "whetherRodentProof",
+      "name": "Whether Rodent Proof ",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "uw99o18exlr",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "v5lzeerj7g",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "1gf1gha59un",
+      "key": "maintainFootBathContaining",
+      "name": "Maintain Foot Bath Containing",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "udbridvytb",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "m1veqrsdjw",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "c148bo3ubu9",
+      "key": "roofTypeOfTheHouse",
+      "name": "Roof Type Of The House",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5151czfn2yu",
+      "key": "noOfFeeders",
+      "name": "No Of Feeders",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "cwt7k8hoe1r",
+      "key": "noOfDrinker",
+      "name": "No Of Drinker",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "rbvh2phlej",
+      "key": "typeOfDrinker",
+      "name": "Type Of Drinker",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "fhe9egh4rjk",
+            "key": "BELL TYPE",
+            "value": "Bell Type"
+          },
+          {
+            "$key": "pvow1dj23s9",
+            "key": "AUTOMATIC NIPPLE DRINKER",
+            "value": "Automatic Nipple Drinker"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "we3qts5jats",
+      "key": "noOfFeederAvailable",
+      "name": "No Of Feeder Available",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "90o11xwq015",
+      "key": "sprayDisinfectantLitter",
+      "name": "Spray Of Any Disinfectant After Removal Of Litter",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "b3qr3ay5xpn",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "a1t0cqsut3",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "41p3454vqze",
+      "key": "wipingDisinfectantSolution",
+      "name": "Wiping The Floor With Any Disinfectant Solution",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "hhw9mnsdhsn",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "sqzh26to8sb",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "q2dhxpdog7b",
+      "key": "whiteWashFarmBird",
+      "name": "White Wash Of The Farm Before Every Entry Of Bird",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "3ry3917yazh",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "zfvo0tm4el",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "zcemwoxvhb",
+      "key": " fumigationFarmWhiteWashing",
+      "name": " Fumigation Of Farm House After Cleaning And White Washing",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "zu7xyycbkem",
+            "key": "YES",
+            "value": "Yes"
+          },
+          {
+            "$key": "zlwpegye9j",
+            "key": "NO",
+            "value": "No"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "trhy5j6p8qr",
+      "key": "ei",
+      "name": "EI",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "hi3ppemklph",
+      "name": "FCR",
+      "key": "fcr",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T11:02:15.860Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

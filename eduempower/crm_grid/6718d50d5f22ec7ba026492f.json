@@ -1,0 +1,83 @@
+{
+  "_id": "6718d50d5f22ec7ba026492f",
+  "gridTitle": "Eduempower Leave Report",
+  "gridType": "table",
+  "columns": [
+    {
+      "$key": "jc89lthlih",
+      "key": "leaveType",
+      "name": "Leave Type",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "4tfeqs56s3c",
+      "key": "carryForward",
+      "name": "Carry Forward (A)",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "2m6k7oypwoz",
+      "key": "accruedTillDate",
+      "name": "Accrued Till Date (B)",
+      "width": 200,
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "3y0deylvedo",
+      "key": "total",
+      "name": "Total (A+B)",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "0rdlmm93f9",
+      "key": "leaveTaken",
+      "name": "Leave Taken",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "h3vfwy4cjxp",
+      "key": "leaveBalance",
+      "name": "Leave Balance",
+      "type": "text",
+      "width": 200,
+      "sort": true
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "ju35jtcd2wr",
+      "fields": [
+        {
+          "$key": "jyo50ugx1to",
+          "id": "userId",
+          "title": "User",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": 8,
+          "add": false,
+          "delete": false
+        }
+      ]
+    }
+  ],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:50:53.394Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "crmModelId": "6718d3775f22ec7ba026492b",
+  "updated": "2025-09-08T10:51:02.194Z"
+}

@@ -1,0 +1,74 @@
+{
+  "_id": "6718cb635f22ec7ba0264910",
+  "gridTitle": "Eduempower front office (OLD)",
+  "gridType": "table",
+  "crmModelId": "6718a48d5f22ec7ba0264905",
+  "columns": [
+    {
+      "$key": "9sztpczqfw7",
+      "key": "visitorForms",
+      "name": "Visitor",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "rnurm1qey8l",
+      "key": "visitId",
+      "name": "Visit ID",
+      "type": "link",
+      "width": 200,
+      "sort": true
+    },
+    {
+      "$key": "cn0goaeu14i",
+      "key": "visitCreationTime",
+      "name": "Created Date Time",
+      "type": "date",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "hb51n3g28q6",
+      "key": "scheduledDateTime",
+      "name": "Schedule Date Time",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "wdvejixv4m",
+      "key": "approvalType",
+      "name": "Approval Type",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "b5wx1xwfj14",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "width": 200,
+      "sort": false
+    },
+    {
+      "$key": "6n2lrhlmv0a",
+      "key": "approvers",
+      "name": "Approvers",
+      "type": "card",
+      "width": 200,
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:09:39.106Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-08T10:51:01.990Z"
+}

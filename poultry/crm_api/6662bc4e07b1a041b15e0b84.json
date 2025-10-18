@@ -1,0 +1,15 @@
+{
+  "_id": "6662bc4e07b1a041b15e0b84",
+  "name": "Edit Farmer",
+  "path": "/admin/farmer/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "6662fdd407b1a041b15e0b96",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:52:46.309Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "innerGridType": "form",
+  "innerSourceId": "6662b14b07b1a041b15e0b5d"
+}

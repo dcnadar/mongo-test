@@ -1,0 +1,20 @@
+{
+  "_id": "676193ff75ed7057fba21a88",
+  "name": "Assign asset to staff form",
+  "path": "/admin/staff/assets/asign",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "67617d4175ed7057fba21a83",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true
+    }
+  ],
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-17T15:08:47.222Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:50:56.678Z"
+}

@@ -1,0 +1,90 @@
+{
+  "_id": {
+    "$oid": "65e2dae5851811d5b4cf8723"
+  },
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "crmModelId": "65e2d641af0f6b43ab65a1f9",
+  "gridTitle": "Account Tags Table",
+  "apiUrl": "/admin/tag",
+  "columns": [
+    {
+      "index": {
+        "$numberInt": "0"
+      },
+      "name": "Category Key",
+      "key": "category",
+      "type": "text",
+      "sort": true,
+      "$key": "e8she7snb7t"
+    },
+    {
+      "$key": "cswmhivirhl",
+      "key": "categoryName",
+      "name": "Category Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "index": {
+        "$numberInt": "1"
+      },
+      "name": "Options",
+      "key": "name",
+      "type": "text",
+      "valueCondition": "return this.name ? this.name.join(', ') : 'N/A'",
+      "sort": false,
+      "$key": "0ojonyqkprln"
+    },
+    {
+      "index": {
+        "$numberInt": "3"
+      },
+      "name": "Edit",
+      "key": "edit",
+      "type": "actions",
+      "show": true,
+      "align": "right",
+      "sort": false,
+      "width": {
+        "$numberInt": "100"
+      },
+      "actions": [
+        {
+          "value": "Edit",
+          "slug": "/admin/tag/update?id=:_id _id",
+          "type": "icon_button",
+          "icon": "https://cdn-icons-png.flaticon.com/512/10015/10015359.png",
+          "$key": "jug385k93n"
+        }
+      ],
+      "$key": "jemu74co0t"
+    }
+  ],
+  "createButton": {
+    "value": "Add Tags",
+    "slug": "/admin/tag/add"
+  },
+  "search": {
+    "placeHolder": "Search by category"
+  },
+  "created": {
+    "$date": {
+      "$numberLong": "1709365989414"
+    }
+  },
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "fetchAdditionalKeys": [
+    "created"
+  ],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149758"
+    }
+  }
+}

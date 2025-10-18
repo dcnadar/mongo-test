@@ -1,0 +1,14 @@
+{
+  "_id": "6719c5fe5f22ec7ba026497f",
+  "name": "Eduempower Circulars",
+  "path": "/admin/circulars&news/circulars/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "6718b51d5f22ec7ba026490b",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T03:58:54.183Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:54.735Z"
+}

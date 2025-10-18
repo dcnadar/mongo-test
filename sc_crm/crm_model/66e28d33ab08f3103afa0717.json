@@ -1,0 +1,28 @@
+{
+  "_id": "66e28d33ab08f3103afa0717",
+  "name": "ReactGrid WebsiteLogo2",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "wazc1fk4geo",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gg3fypi1esd",
+      "key": "useSvg",
+      "name": "UseSvg",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "10g7sqja0ru",
+      "key": "svg",
+      "name": "Svg",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-12T06:41:55.945Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

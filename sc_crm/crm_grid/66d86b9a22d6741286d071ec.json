@@ -1,0 +1,32 @@
+{
+  "_id": "66d86b9a22d6741286d071ec",
+  "gridTitle": "Delivery Service Provider",
+  "gridType": "form",
+  "crmModelId": "661679a02742031ccaab99cf",
+  "rows": [
+    {
+      "$key": "be7b803a7el",
+      "fields": [
+        {
+          "id": "deliveryServiceProviderSetting",
+          "title": "Delivery Service Provider",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "hideCollapse": true
+          },
+          "span": 24,
+          "$key": "im11nrnv01"
+        }
+      ],
+      "showDescription": true,
+      "descriptionSpan": 12
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-04T14:15:54.638Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

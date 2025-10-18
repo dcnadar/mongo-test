@@ -1,0 +1,45 @@
+{
+  "_id": "66ab5df5e287100717693d38",
+  "gridTitle": "WebsiteThemeSettings FontSettings",
+  "gridType": "form",
+  "crmModelId": "661679a02742031ccaab99cf",
+  "rows": [
+    {
+      "$key": "x4vd8j6xk6s",
+      "fields": [
+        {
+          "$key": "tg90bmab35c",
+          "id": "websiteThemeSettings.fontSetting.fontType",
+          "title": "Font Type",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "nn0ygkp8gx",
+          "id": "websiteThemeSettings.fontSetting.fontPackName",
+          "title": "Font Pack Name",
+          "type": "text",
+          "span": 8,
+          "showCondition": "return this.websiteThemeSettings && this.websiteThemeSettings.fontSetting && (this.websiteThemeSettings.fontSetting.fontType === 'fontPack');"
+        },
+        {
+          "$key": "2wkzav5uult",
+          "id": "websiteThemeSettings.fontSetting.customSettings",
+          "title": "Custom Settings",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8,
+          "showCondition": "return this.websiteThemeSettings && this.websiteThemeSettings.fontSetting && (this.websiteThemeSettings.fontSetting.fontType === 'custom');"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T10:05:41.956Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "upsertDoc": true
+}

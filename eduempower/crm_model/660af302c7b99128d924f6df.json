@@ -1,0 +1,88 @@
+{
+  "_id": "660af302c7b99128d924f6df",
+  "name": "Eduempower LibraryMembership",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_library_membership",
+  "properties": [
+    {
+      "$key": "g01wcs99ng",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dtwclfi3rz",
+      "key": "userType",
+      "name": "UserT ype",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "7hk21yfk4nm",
+            "key": "STUDENT",
+            "value": "Student"
+          },
+          {
+            "$key": "p8apvxhrum",
+            "key": "STAFF",
+            "value": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "uoy4hov6nhn",
+      "key": "classes",
+      "name": "Casses",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "660ace73c7b99128d924f6c4"
+    },
+    {
+      "$key": "3ywalrzrbam",
+      "key": "departments",
+      "name": "Departments",
+      "dataType": "LIST_OF",
+      "listType": "REFERENCE",
+      "modelId": "660817b960d4f873b5fa4f47"
+    },
+    {
+      "$key": "z9yj6kzqygp",
+      "key": "dailyBookLimit",
+      "name": "Daily Book Limit",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "47gr6p7sqc7",
+      "key": "monthlyBookLimit",
+      "name": "Monthly Book Limit",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "m484st77io",
+      "key": "maxIssueCount",
+      "name": "Max Issue Count",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "inmfc06gl5m",
+      "key": "reIssueCount",
+      "name": "ReIssue Count",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "n0h44jv6wl",
+      "key": "designation",
+      "name": "Designation",
+      "dataType": "REFERENCE",
+      "modelId": "660818ea60d4f873b5fa4f48"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-01T17:46:42.613Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.349Z"
+}

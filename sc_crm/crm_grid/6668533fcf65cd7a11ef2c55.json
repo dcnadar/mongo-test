@@ -1,0 +1,64 @@
+{
+  "_id": "6668533fcf65cd7a11ef2c55",
+  "gridTitle": "ReactGrid GlobalContentSection4v2\t",
+  "gridType": "form",
+  "crmModelId": "6668520ccf65cd7a11ef2c54",
+  "rows": [
+    {
+      "$key": "5s2cuuf2ym",
+      "fields": [
+        {
+          "id": "header",
+          "title": "Header",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "h4zyvpxzf46"
+        },
+        {
+          "$key": "4b7b4utk6zi",
+          "id": "mainImage",
+          "title": "Main Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "5c07o9utszk",
+          "id": "imageOverlay",
+          "title": "Main Image Overlay Color",
+          "type": "color",
+          "span": 12
+        },
+        {
+          "$key": "j44ltqaoh4s",
+          "id": "mainQuote",
+          "title": "MainQuote",
+          "type": "inner_form",
+          "add": false,
+          "delete": false,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 18
+        },
+        {
+          "$key": "k11oot7qjf",
+          "id": "sections",
+          "title": "Sections",
+          "type": "text_editor",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-11T13:38:07.254Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "upsertDoc": false
+}

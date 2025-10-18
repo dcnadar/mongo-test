@@ -1,0 +1,106 @@
+{
+  "_id": "66b1dc4f718ee5699170b138",
+  "gridTitle": "ReactGrid GlobalPricing1 section",
+  "gridType": "form",
+  "crmModelId": "66b1d5b2718ee5699170b105",
+  "rows": [
+    {
+      "$key": "90hxxbjf63n",
+      "fields": [
+        {
+          "$key": "t98qi40kxxh",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "c8bqqqrjvqt",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 16
+        },
+        {
+          "$key": "0vb2595kp71q",
+          "id": "points",
+          "title": "Points",
+          "type": "strings",
+          "span": 8,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "multiple": false
+        },
+        {
+          "$key": "umra2czro6s",
+          "title": "Enable Button",
+          "id": "enableButton",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "efj2urlgyqn",
+          "id": "buttonText",
+          "title": "Button Text",
+          "type": "text",
+          "span": 8,
+          "showCondition": "return this.enableButton;"
+        },
+        {
+          "$key": "flxvo14v1af",
+          "id": "buttonAction",
+          "title": "Button Action",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8,
+          "showCondition": "return this.enableButton;"
+        },
+        {
+          "$key": "e752q30vguh",
+          "id": "currencySymbol",
+          "title": "Purrency Symbol",
+          "type": "text",
+          "span": 4
+        },
+        {
+          "$key": "ro8blsoie6l",
+          "id": "price",
+          "title": "Price",
+          "type": "number",
+          "span": 4,
+          "min": 0
+        },
+        {
+          "$key": "al9hqxiczpk",
+          "id": "pointHeading",
+          "title": "Point Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "nv1wpjgnmnb",
+          "id": "cardHeading",
+          "title": "Card Heading",
+          "span": 8,
+          "type": "text"
+        },
+        {
+          "$key": "7nblzf85fq",
+          "id": "cardDescription",
+          "title": "Card Description",
+          "type": "textarea",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-06T08:18:23.499Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

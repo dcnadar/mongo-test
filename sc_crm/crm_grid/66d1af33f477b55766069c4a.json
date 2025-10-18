@@ -1,0 +1,141 @@
+{
+  "_id": "66d1af33f477b55766069c4a",
+  "gridTitle": "Shiprocket PackageShipment",
+  "gridType": "form",
+  "crmModelId": "66d1ae7df477b55766069c49",
+  "rows": [
+    {
+      "$key": "mhog589hz",
+      "fields": [
+        {
+          "$key": "comn5v9h8d5",
+          "id": "customerId",
+          "title": "Customer Id",
+          "span": 8,
+          "type": "list",
+          "multiple": false,
+          "nullIds": []
+        },
+        {
+          "$key": "e1wubq3te98",
+          "id": "orderIds",
+          "title": "Order Ids",
+          "type": "list",
+          "multiple": true,
+          "span": 8,
+          "add": false,
+          "delete": false,
+          "min": 1
+        },
+        {
+          "$key": "x7tois1q7zr",
+          "id": "shipmentType",
+          "title": "Shipment Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "0ei3u17iwtlk",
+          "id": "transactionId",
+          "title": "Transaction Id",
+          "span": 8,
+          "type": "list",
+          "multiple": false,
+          "o": true
+        },
+        {
+          "$key": "jsoo4k6e5e",
+          "id": "shipmentId",
+          "title": "Shipment Id",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "b0ymkqrqddc",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "33b11q2c76f",
+          "id": "address",
+          "title": "Address Id",
+          "type": "inner_form",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "3ba9hei15a1",
+          "id": "deliveryPartner",
+          "title": "Delivery Partner",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "rqayq76cq3",
+          "id": "totalMrp",
+          "title": "Total Mrp",
+          "type": "number",
+          "min": 0,
+          "span": 8
+        },
+        {
+          "$key": "drrr3yzpoo",
+          "id": "totalDiscount",
+          "title": "Total Discount",
+          "type": "number",
+          "max": 0,
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "f48wmj6ypy9",
+          "id": "totalPrice",
+          "title": "Total Price",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "o": false
+        },
+        {
+          "$key": "cxhzsdsgp77",
+          "id": "shiprocketResponse",
+          "title": "Shiprocket Response",
+          "type": "json",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "a1fipt3sfz",
+          "id": "shiprocketWebhookResponse",
+          "title": "Shiprocket Webhook Response",
+          "type": "json",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "mn4nn74hne",
+          "title": "Final Total",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "id": "finalTotal"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-30T11:38:27.319Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

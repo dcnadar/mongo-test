@@ -1,0 +1,248 @@
+{
+  "_id": {
+    "$oid": "65e5b5d141f4f9dcaa63ac80"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "$key": "htyh0dozn7f",
+      "fields": [
+        {
+          "id": "isOrg",
+          "title": "Is Org",
+          "type": "bool",
+          "span": {
+            "$numberInt": "6"
+          },
+          "$key": "htklllluknp",
+          "onChangeCondition": [],
+          "updateType": "disabled"
+        },
+        {
+          "$key": "7an1lhk33z8",
+          "id": "parent",
+          "title": "Parent entity",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "10"
+          },
+          "showCondition": "return this.isOrg;",
+          "meta": {
+            "queryParams": "modelType=BASE"
+          },
+          "updateType": "disabled"
+        },
+        {
+          "$key": "sxbu22bqxuq",
+          "title": "Parent Relationship",
+          "id": "parentRelationship",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.isOrg;",
+          "updateType": "disabled"
+        }
+      ]
+    },
+    {
+      "$key": "htyh0dozn7f",
+      "fields": [
+        {
+          "$key": "vepqvgi6xvq",
+          "id": "isOrgScopeApplicable",
+          "title": "Is Org scope Applicable",
+          "type": "bool",
+          "span": {
+            "$numberInt": "6"
+          },
+          "showCondition": "return !this.isOrg;",
+          "updateType": "disabled"
+        },
+        {
+          "$key": "7rx965wohes",
+          "id": "isUserAccount",
+          "title": "Enable User Login",
+          "type": "bool",
+          "span": {
+            "$numberInt": "4"
+          },
+          "onChangeCondition": [
+            {
+              "$key": "etzek82vk85",
+              "key": "properties",
+              "meta": {
+                "type": "function"
+              },
+              "value": "function convert(properties) {   if (!properties) {     properties = [];   }   const requiredKeys = [     \"firstName\",     \"middleName\",     \"lastName\",     \"email\",     \"userId\",   ];   let existing = properties     .filter((p) => requiredKeys.includes(p.key))     .map((p) => p.key);   let notExisting = requiredKeys.filter((k) => !existing.includes(k));   notExisting.forEach((k) => {     if (k === \"firstName\") {       properties.push({         $key: Math.random().toString(36).substring(2),         key: k,         dataType: \"STRING\",         name: \"First name\",       });     }     if (k === \"lastName\") {       properties.push({         $key: Math.random().toString(36).substring(2),         key: k,         dataType: \"STRING\",         name: \"Last name\",       });     }     if (k === \"middleName\") {       properties.push({         $key: Math.random().toString(36).substring(2),         key: k,         dataType: \"STRING\",         name: \"Middle name\",       });     }     if (k === \"email\") {       properties.push({         $key: Math.random().toString(36).substring(2),         key: k,         dataType: \"STRING\",         name: \"Email\",       });     }     if (k === \"userId\") {       properties.push({         $key: Math.random().toString(36).substring(2),         key: k,         dataType: \"REFERENCE\",         name: \"User ID\",         modelId: \"User\",       });     }   });   return properties; } return this.isUserAccount ? convert(this.properties) : this.properties;"
+            }
+          ],
+          "updateType": "disabled"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Name of the model",
+          "$key": "fbam5w4e8zl",
+          "onChangeCondition": [
+            {
+              "$key": "ggxl17ln0hn",
+              "key": "collectionName",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.name ? this.name.trim().toLowerCase().replaceAll(\" \", \"_\").replace(/_+/g, \"_\") : \"\";"
+            }
+          ]
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Collection Name",
+          "id": "collectionName",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.modelType === 'COLLECTION';",
+          "$key": "mnuszbpe6k",
+          "validate": "return /^[A-Za-z][A-Za-z0-9_]*$/.test(this.collectionName) ? '' : 'Invalid collection name';",
+          "hint": "Collection name must start with a letter and contain only letters, numbers, or underscores."
+        },
+        {
+          "$key": "mix6u9fnbgg",
+          "id": "baseModelId",
+          "title": "Base model",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "meta": {
+            "queryParams": "modelType=BASE"
+          }
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Properties",
+          "id": "properties",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "200"
+          },
+          "add": true,
+          "delete": true,
+          "hint": "Properties of the model",
+          "showCondition": "return (this.modelType === 'COLLECTION' || this.modelType === 'INNER');",
+          "$key": "8xopjss1k7p"
+        },
+        {
+          "index": {
+            "$numberInt": "4"
+          },
+          "title": "Card Data Targets",
+          "id": "cardDataTargets",
+          "type": "inner_form",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "hint": "Card data targets for the model",
+          "meta": {
+            "crmFormId": "65e5b5ca41f4f9dcaa63ac7a",
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "showCondition": "return (this.modelType === 'COLLECTION');",
+          "$key": "5ev96sp1dsj"
+        },
+        {
+          "index": {
+            "$numberInt": "5"
+          },
+          "title": "Menu Targets",
+          "id": "menuTargets",
+          "type": "inner_form",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "hint": "Menu targets for the model",
+          "meta": {
+            "crmFormId": "65e5b5cc41f4f9dcaa63ac7b",
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "showCondition": "return (this.modelType === 'COLLECTION');",
+          "$key": "57d8q86ef0v"
+        },
+        {
+          "$key": "63xxree27iw",
+          "id": "modelType",
+          "title": "Model Type",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "COLLECTION"
+        }
+      ],
+      "$key": "fpzbu5htyqi"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e4e721d796c9ccbd1b408e",
+  "gridTitle": "Entity Form",
+  "created": {
+    "$date": {
+      "$numberLong": "1709553105818"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150211"
+    }
+  },
+  "breadcrum": [],
+  "breadcrumb": [],
+  "gridParams": [
+    {
+      "key": "entityId",
+      "documentKey": "id",
+      "required": false
+    }
+  ]
+}

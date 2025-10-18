@@ -1,0 +1,40 @@
+{
+  "_id": "66838dc63108ad7b7d063f0d",
+  "gridTitle": "NativeGrid GlobalPopularBrand",
+  "gridType": "form",
+  "crmModelId": "66838d023108ad7b7d063f0a",
+  "rows": [
+    {
+      "$key": "9f93r5qtvp6",
+      "fields": [
+        {
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "$key": "6vcw2d99hbp"
+        },
+        {
+          "$key": "fl0greopz8g",
+          "id": "logo",
+          "title": "Logo",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "p9t93xlshtb",
+          "id": "message",
+          "title": "Message",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T05:19:02.755Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

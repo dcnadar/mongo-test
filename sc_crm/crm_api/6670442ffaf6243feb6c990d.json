@@ -1,0 +1,12 @@
+{
+  "_id": "6670442ffaf6243feb6c990d",
+  "name": "AppScreen",
+  "path": "/admin/mobileapp/app-screen/delete",
+  "apiType": "GET",
+  "action": "ENTITY_DELETE",
+  "modelId": "666fddaafaf6243feb6c98d1",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-17T14:11:59.191Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

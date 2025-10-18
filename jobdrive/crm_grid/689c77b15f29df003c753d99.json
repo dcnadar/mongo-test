@@ -1,0 +1,46 @@
+{
+  "_id": "689c77b15f29df003c753d99",
+  "gridTitle": "trainingSchedule",
+  "gridType": "form",
+  "crmModelId": "689c391be8e746ac85de5599",
+  "rows": [
+    {
+      "$key": "2c0kfhn8rj9",
+      "fields": [
+        {
+          "id": "schedule",
+          "title": "Schedule",
+          "type": "list",
+          "multiple": false,
+          "span": 12,
+          "$key": "4c3m7d98uyk"
+        },
+        {
+          "$key": "p010n7o4ohk",
+          "id": "time",
+          "title": "Time",
+          "type": "time",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T11:32:01.036Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.479Z"
+}

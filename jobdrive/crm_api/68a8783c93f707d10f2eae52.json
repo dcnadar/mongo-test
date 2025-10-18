@@ -1,0 +1,14 @@
+{
+  "_id": "68a8783c93f707d10f2eae52",
+  "name": "Student Selection",
+  "path": "/admin/interview/selection",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "68a877c893f707d10f2eae51",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-22T14:01:32.836Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:50.702Z"
+}

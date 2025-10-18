@@ -1,0 +1,18 @@
+{
+  "_id": "65d1b98e2a35a061866919e3",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "category": "websiteReactGridContentSectionType",
+  "name": [
+    "Message",
+    "Image",
+    "Points",
+    "Quote",
+    "Paragraph",
+    "Buttons",
+    "Heading",
+    "Data Points",
+    "Horizontal Line"
+  ],
+  "created": "2024-02-18T08:02:22.676Z",
+  "categoryName": "Content Section type"
+}

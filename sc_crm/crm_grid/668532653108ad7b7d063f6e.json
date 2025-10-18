@@ -1,0 +1,60 @@
+{
+  "_id": "668532653108ad7b7d063f6e",
+  "gridTitle": "NativeGrid GlobalCategoryWithOverlay section",
+  "gridType": "form",
+  "crmModelId": "668531083108ad7b7d063f6c",
+  "rows": [
+    {
+      "$key": "usbsyb0k05h",
+      "fields": [
+        {
+          "$key": "cv48gx695qp",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "id": "image",
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "bsm00g8thb4",
+          "id": "heading",
+          "title": "Heading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "xy7rg8odzx",
+          "id": "description",
+          "title": "Description",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "jttwxz70st",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T11:13:41.456Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

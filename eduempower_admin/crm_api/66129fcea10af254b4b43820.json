@@ -1,0 +1,13 @@
+{
+  "_id": "66129fcea10af254b4b43820",
+  "name": "All Class Types",
+  "path": "/admin/entity-setup/class-type/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66129779a10af254b4b43813",
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-07T13:29:50.501Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "ecomApiMappings": []
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "65a8f9f0b2c24b7431451ad1",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "title",
+      "name": "Title"
+    },
+    {
+      "dataType": "STRING",
+      "key": "heading",
+      "name": "Heading"
+    },
+    {
+      "dataType": "STRING",
+      "key": "description",
+      "name": "Description"
+    },
+    {
+      "name": "Enable Button",
+      "key": "enableButton",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "dataType": "STRING",
+      "key": "buttonText",
+      "name": "Button Text"
+    },
+    {
+      "dataType": "INNER_MODEL",
+      "key": "buttonAction",
+      "name": "Button Action",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "dataType": "STRING",
+      "key": "image",
+      "name": "Image"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "ReactGrid GlobalCtaSection2",
+  "modelType": "INNER",
+  "created": "2024-01-18T10:14:08.642Z",
+  "modelStatus": "ACTIVE"
+}

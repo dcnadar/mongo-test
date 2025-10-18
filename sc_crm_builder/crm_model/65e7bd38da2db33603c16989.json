@@ -1,0 +1,165 @@
+{
+  "_id": {
+    "$oid": "65e7bd38da2db33603c16989"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid FormRow FormField Meta",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "REFERENCE",
+      "key": "crmFormId",
+      "name": "Crm Form (Grid) (for form_table, input_table, form_array and inner_form)",
+      "modelId": "65e782c6da2444a1d00dfeb3",
+      "$key": "upv6zabru1g"
+    },
+    {
+      "dataType": "STRING",
+      "key": "labelCondition",
+      "name": "Label Condition Function",
+      "$key": "uuc6e2k68sh"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "STRING",
+      "key": "searchAdditionalKeys",
+      "name": "Search Additional Keys (for type list)",
+      "$key": "hsqkonpifn"
+    },
+    {
+      "dataType": "STRING",
+      "key": "addonAfter",
+      "name": "Addon After Text (text, number, mobile)",
+      "$key": "vp8kmth5rlo"
+    },
+    {
+      "dataType": "STRING",
+      "key": "addonBefore",
+      "name": "Addon Before Text (text, number, mobile)",
+      "$key": "s3lvkboimvp"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "horizontal",
+      "name": "Horizontal (Checkbox, Radio)",
+      "$key": "fsbv0ent11r"
+    },
+    {
+      "dataType": "STRING",
+      "key": "crmFormIdField",
+      "name": "Field name for CrmFormId (for form_table, input_table, form_array and inner_form)",
+      "$key": "nx6y94iuqx8"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "defaultOpen",
+      "name": "Default Open (for inner_form)",
+      "$key": "rv7ouj3akd"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "showCopyToClipboard",
+      "name": "Show Copy To Clipboard (for inner_form)",
+      "$key": "yo52kaqcuie"
+    },
+    {
+      "dataType": "STRING",
+      "key": "modelUniqueKey",
+      "name": "Model Unique Key (for list)",
+      "$key": "2wilsx4zy9v"
+    },
+    {
+      "dataType": "STRING",
+      "key": "queryParams",
+      "name": "Query Params (for list)",
+      "$key": "1dmkbpfn4oo"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "inputParams",
+      "name": "Input Group Params (for input_group)",
+      "modelId": "65e7bd38da2db33603c16988",
+      "$key": "mmioyce5j"
+    },
+    {
+      "$key": "5xejuaeo0tj",
+      "key": "uploadUISize",
+      "name": "Upload UI Size",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "3eg6i3g6c1b",
+            "key": "sm",
+            "value": "Small"
+          },
+          {
+            "$key": "ss7i1y96i4",
+            "key": "md",
+            "value": "Medium"
+          },
+          {
+            "$key": "glibq0yoaxo",
+            "key": "lg",
+            "value": "Large"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "7us54pl3uis",
+      "key": "datePickerType",
+      "name": "datePickerType",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "n2968fculk8",
+            "key": "date",
+            "value": "Date"
+          },
+          {
+            "$key": "3dcowo3t904",
+            "key": "month",
+            "value": "Month"
+          },
+          {
+            "$key": "kofbzbbsgp",
+            "key": "year",
+            "value": "Year"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "a1uii4ect0d",
+      "key": "allowWebcam",
+      "name": "Allow Webcam",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "v4csq0mcqh",
+      "key": "allowGallery",
+      "name": "allowGallery",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "psf41einm0i",
+      "key": "hideCollapse",
+      "name": "Hide Collapse",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709686072930"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152729"
+    }
+  }
+}

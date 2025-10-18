@@ -1,0 +1,49 @@
+{
+  "_id": {
+    "$oid": "65e3886f5850bd3b0c0f2962"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm App Menu",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "menuItems",
+      "name": "Menu Items",
+      "modelId": "65e388705850bd3b0c0f2963",
+      "$key": "pycpv5fjro"
+    },
+    {
+      "$key": "nassyewiru",
+      "key": "iconSetting",
+      "name": "Icon Setting",
+      "dataType": "INNER_MODEL",
+      "listType": "STRING",
+      "modelId": "66d166fd97c5ab754648618a"
+    },
+    {
+      "$key": "xcng0hk5ms",
+      "key": "bottomMenu",
+      "name": "Bottom Menu",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65e388705850bd3b0c0f2963"
+    }
+  ],
+  "collectionName": "app_menu",
+  "baseModelId": "65e2c399226e7b80fe49ae3a",
+  "created": {
+    "$date": {
+      "$numberLong": "1709410415549"
+    }
+  },
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152133"
+    }
+  }
+}

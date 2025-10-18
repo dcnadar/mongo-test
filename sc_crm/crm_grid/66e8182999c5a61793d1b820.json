@@ -1,0 +1,58 @@
+{
+  "_id": "66e8182999c5a61793d1b820",
+  "gridTitle": "ReactGrid GlobalHeader4 socialLinks",
+  "gridType": "form",
+  "crmModelId": "66e8138c99c5a61793d1b81e",
+  "rows": [
+    {
+      "$key": "ate66fbv3dr",
+      "fields": [
+        {
+          "id": "facebookLink",
+          "title": "FacebookLink",
+          "type": "text",
+          "span": 12,
+          "$key": "xx6r9d5vpqm",
+          "o": true
+        },
+        {
+          "$key": "dxguibggv6l",
+          "id": "twitterLink",
+          "type": "text",
+          "title": "TwitterLink",
+          "span": 12,
+          "o": true
+        },
+        {
+          "$key": "g672qqh2atn",
+          "id": "instagramLink",
+          "title": "InstagramLink",
+          "type": "text",
+          "span": 12,
+          "o": true
+        },
+        {
+          "$key": "vx78pvh8dbl",
+          "id": "linkedInLink",
+          "title": "LinkedInLink",
+          "type": "text",
+          "span": 12,
+          "o": true
+        },
+        {
+          "$key": "b0vp05y37fi",
+          "id": "pinterestLink",
+          "title": "PinterestLink",
+          "type": "text",
+          "span": 12,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-16T11:36:09.468Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

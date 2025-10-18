@@ -1,0 +1,62 @@
+{
+  "_id": {
+    "$oid": "68e4d4f8e652bafef0b04b4e"
+  },
+  "gridTitle": "Index Option",
+  "gridType": "form",
+  "crmModelId": "68e4c8bbe652bafef0b04b4a",
+  "rows": [
+    {
+      "$key": "4a38gptrner",
+      "fields": [
+        {
+          "id": "unique",
+          "title": "Unique",
+          "type": "bool",
+          "span": {
+            "$numberInt": "12"
+          },
+          "$key": "7p9g8zxoi25",
+          "o": true
+        },
+        {
+          "$key": "jt2izdk2i79",
+          "id": "sparse",
+          "title": "Sparse",
+          "o": true,
+          "span": {
+            "$numberInt": "12"
+          },
+          "type": "bool"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "breadcrumb": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1759827192951"
+    }
+  },
+  "createdBy": "68e09e923a6ade54590da550",
+  "updated": {
+    "$date": {
+      "$numberLong": "1760538701242"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "68ad616423737c0ed9ef89e8",
+  "name": "Add Trainer",
+  "path": "/admin/training/trainer/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "getAllRecords": false,
+  "sourceId": "68ad5f2123737c0ed9ef89e4",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T07:25:24.505Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:51.551Z"
+}

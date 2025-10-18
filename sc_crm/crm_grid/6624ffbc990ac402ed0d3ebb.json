@@ -1,0 +1,91 @@
+{
+  "_id": "6624ffbc990ac402ed0d3ebb",
+  "gridTitle": "Blog Filter",
+  "gridType": "form",
+  "crmModelId": "6624f67c990ac402ed0d3eb8",
+  "rows": [
+    {
+      "$key": "5nm2sh1hw8",
+      "fields": [
+        {
+          "$key": "kpcfrijyxz",
+          "id": "propertyKey",
+          "title": "Property Key",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "add": false,
+          "delete": false
+        },
+        {
+          "$key": "mu4iywc9yoj",
+          "id": "dateRange",
+          "title": "Date Range",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "showCondition": "return this.propertyKey === 'dateRange';"
+        },
+        {
+          "$key": "8frkks4nz7r",
+          "id": "title",
+          "title": "Title",
+          "span": 8,
+          "type": "tag",
+          "multiple": false,
+          "showCondition": "return this.propertyKey === 'title';"
+        },
+        {
+          "$key": "7ekzdvb4ar9",
+          "id": "author",
+          "title": "Author",
+          "type": "list",
+          "span": 8,
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "min": 0,
+          "max": 0,
+          "meta": {
+            "queryParams": "userType=STAFF"
+          },
+          "showCondition": "return this.propertyKey === 'author';"
+        },
+        {
+          "$key": "kkxjo3su1m9",
+          "id": "category",
+          "title": "Category",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "min": 0,
+          "max": 0,
+          "span": 8,
+          "showCondition": "return this.propertyKey === 'blogCategory';"
+        },
+        {
+          "$key": "an69oqgky1r",
+          "id": "customDateRange",
+          "title": "Custom ",
+          "type": "date_range",
+          "multiple": false,
+          "span": 8,
+          "showCondition": "return this.propertyKey === 'dateRange'&&this.dateRange === 'customDateRange'"
+        },
+        {
+          "$key": "v8fncrcwn8",
+          "id": "value",
+          "title": "Value",
+          "span": 8,
+          "type": "text",
+          "showCondition": "return this.propertyKey === 'title'"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-21T11:59:56.022Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

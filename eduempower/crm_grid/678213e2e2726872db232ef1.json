@@ -1,0 +1,61 @@
+{
+  "_id": "678213e2e2726872db232ef1",
+  "gridTitle": "Admission Documents",
+  "gridType": "table",
+  "crmModelId": "671266f85f22ec7ba026485d",
+  "columns": [
+    {
+      "$key": "49qzcp3xdiq",
+      "key": "document",
+      "name": "Document",
+      "type": "thumb",
+      "sort": true
+    },
+    {
+      "$key": "5m35r4cmmka",
+      "key": "documentName",
+      "name": "Document Name",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "i93180usczl",
+      "key": "type",
+      "name": "Type",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "h20rb1bk9yv",
+      "key": "expiry",
+      "name": "Expiry",
+      "type": "date",
+      "sort": true
+    }
+  ],
+  "actions": [
+    {
+      "$key": "3le4bi3k0xe",
+      "value": "Add Document",
+      "apiUrl": "/admin/admission/documents/add",
+      "gridType": "popupForm",
+      "gridTitle": "Add Document"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true,
+      "documentKey": "userId"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-11T06:46:58.720Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:03.826Z"
+}

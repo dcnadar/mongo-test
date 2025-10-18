@@ -1,0 +1,14 @@
+{
+  "_id": "689db54d5f986889b438799f",
+  "name": "All Assessment",
+  "path": "/admin/assessments/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "689db4e85f986889b438799d",
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T10:07:09.159Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:49.601Z"
+}

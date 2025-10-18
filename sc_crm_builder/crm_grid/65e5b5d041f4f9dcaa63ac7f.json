@@ -1,0 +1,188 @@
+{
+  "_id": {
+    "$oid": "65e5b5d041f4f9dcaa63ac7f"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Key",
+          "id": "key",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "$key": "or3sqz5484b",
+          "validate": "return /^[A-Za-z][A-Za-z0-9_]*$/.test(this.key) ? '' : 'Invalid key';",
+          "hint": "Key must start with a letter and contain only letters, numbers, or underscores.",
+          "onChangeCondition": [
+            {
+              "$key": "18w0al6px6c",
+              "key": "name",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.key.replace(/^[_-]+/, '').replace(/([a-z])([A-Z0-9])/g, '$1 $2').replace(/[_-]+/g, ' ').replace(/\\b\\w/g, c => c.toUpperCase()).trim();"
+            }
+          ]
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Display Name",
+          "id": "name",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Name of the property (used in UI)",
+          "$key": "rje89k14aur"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Unique",
+          "id": "unique",
+          "type": "bool",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Turn on if the property is unique",
+          "$key": "bcodehkob4a"
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Data Type",
+          "id": "dataType",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Data Type of the property",
+          "$key": "me0wssga15",
+          "onChangeCondition": [
+            {
+              "$key": "d3y9b9pjeom",
+              "key": "$meta.fetchModelType",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.dataType === 'REFERENCE' || (this.dataType === 'LIST_OF' && this.listType === 'REFERENCE') ? 'COLLECTION' : (this.dataType === 'INNER_MODEL' || (this.dataType === 'LIST_OF' && this.listType === 'INNER_MODEL') ? 'INNER' : '');"
+            }
+          ]
+        },
+        {
+          "index": {
+            "$numberInt": "4"
+          },
+          "title": "List Data Type",
+          "id": "listType",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "showCondition": "return this.dataType === 'LIST_OF';",
+          "hint": "List Data Type of the property",
+          "$key": "5alll6ibdtk",
+          "onChangeCondition": [
+            {
+              "$key": "43708i1g3k",
+              "value": "return this.dataType === 'REFERENCE' || (this.dataType === 'LIST_OF' && this.listType === 'REFERENCE') ? 'COLLECTION' : (this.dataType === 'INNER_MODEL' || (this.dataType === 'LIST_OF' && this.listType === 'INNER_MODEL') ? 'INNER' : '');",
+              "key": "$meta.fetchModelType",
+              "meta": {
+                "type": "function"
+              }
+            }
+          ]
+        },
+        {
+          "index": {
+            "$numberInt": "5"
+          },
+          "title": "Crm Model",
+          "id": "modelId",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "showCondition": "return (this.dataType === 'REFERENCE' || this.dataType === 'INNER_MODEL') || (this.dataType === 'LIST_OF' && (this.listType === 'REFERENCE' || this.listType === 'INNER_MODEL'));",
+          "hint": "Crm Model of Reference or Inner model property",
+          "$key": "vbrz6k7k08b",
+          "meta": {
+            "queryParams": "modelType=:$meta.fetchModelType $meta.fetchModelType"
+          }
+        },
+        {
+          "index": {
+            "$numberInt": "6"
+          },
+          "title": "Data Setting",
+          "id": "data",
+          "type": "inner_form",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "showCondition": "return this.dataType === 'STRING' || (this.dataType === 'LIST_OF' && this.listType === 'STRING');",
+          "hint": "Data Setting of the property",
+          "meta": {
+            "crmFormId": "65e5b5ce41f4f9dcaa63ac7d"
+          },
+          "$key": "tzkh2lxvgsg"
+        },
+        {
+          "index": {
+            "$numberInt": "7"
+          },
+          "title": "Search Setting",
+          "id": "searchable",
+          "type": "inner_form",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "showCondition": "return (this.$root.modelType === 'COLLECTION');",
+          "hint": "Search Setting of the property",
+          "meta": {
+            "crmFormId": "65e5b5cf41f4f9dcaa63ac7e"
+          },
+          "$key": "0zzqf69exaw"
+        }
+      ],
+      "$key": "6yg126i6ruj"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e46e2762e81af0993f8517",
+  "gridTitle": "Crm Model Property",
+  "created": {
+    "$date": {
+      "$numberLong": "1709553104610"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150174"
+    }
+  },
+  "breadcrum": [],
+  "breadcrumb": []
+}

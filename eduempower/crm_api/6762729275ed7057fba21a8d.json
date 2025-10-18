@@ -1,0 +1,14 @@
+{
+  "_id": "6762729275ed7057fba21a8d",
+  "name": "SchoolAsset(OLD)",
+  "path": "/admin/staff/asset/return",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6760261375ed7057fba21a7b",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-18T06:58:26.032Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:56.712Z"
+}

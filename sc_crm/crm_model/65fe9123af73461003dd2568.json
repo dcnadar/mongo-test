@@ -1,0 +1,50 @@
+{
+  "_id": "65fe9123af73461003dd2568",
+  "name": "ReactGrid GlobalBlogCards6 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ul3vv3dv2bo",
+      "key": "date",
+      "name": "Date",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "uhpszq9dot",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jqupys0tmt",
+      "key": "buttonAction",
+      "name": "Click Action",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "bzg1nfhho6",
+      "key": "descriptions",
+      "name": "Descriptions",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "u7hv1aulwxi",
+      "key": "user",
+      "name": "User",
+      "dataType": "INNER_MODEL",
+      "modelId": "65b53659f7815fa135bd04d9"
+    },
+    {
+      "$key": "nxkccke0vyq",
+      "key": "enableButton",
+      "name": "Enable Button",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-23T08:21:55.399Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

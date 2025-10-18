@@ -1,0 +1,57 @@
+{
+  "_id": {
+    "$oid": "68d6115450534a672a4cc5e0"
+  },
+  "gridTitle": "Account Menu Table\t",
+  "gridType": "table",
+  "crmModelId": "65e2c398226e7b80fe49ae39",
+  "columns": [
+    {
+      "$key": "ycmoe1rjusi",
+      "key": "aId",
+      "name": "Account ID",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "wozah1p785",
+      "key": "name",
+      "name": "Account Name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "m48vzx7f3oo",
+      "key": "userDetails.firstName",
+      "name": "User",
+      "type": "name",
+      "sort": false
+    }
+  ],
+  "actions": [
+    {
+      "$key": "l3q5tb3v758",
+      "apiUrl": "/admin/settings/account/add",
+      "gridTitle": "Add Account",
+      "value": "Add Account",
+      "gridType": "popupForm"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1758859604367"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1759231679574"
+    }
+  }
+}

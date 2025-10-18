@@ -1,0 +1,39 @@
+{
+  "_id": "668532ec3108ad7b7d063f71",
+  "gridTitle": "NativeGrid GlobalCategoryWithOverlay",
+  "gridType": "form",
+  "crmModelId": "668531493108ad7b7d063f6d",
+  "rows": [
+    {
+      "$key": "26x4c0ivmr7",
+      "fields": [
+        {
+          "id": "section",
+          "title": "Section",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 10
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T11:15:56.138Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

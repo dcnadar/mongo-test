@@ -1,0 +1,32 @@
+{
+  "_id": "66d86ea822d6741286d071f2",
+  "name": "Shiprocket Token",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "shiprocket_token",
+  "properties": [
+    {
+      "$key": "slnx3oaby2e",
+      "key": "token",
+      "name": "Token",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "yed4mmipeod",
+      "key": "createdDate",
+      "name": "Created Date",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "88tlkj85pw",
+      "key": "expiredDate",
+      "name": "Expired Date",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-04T14:28:56.431Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

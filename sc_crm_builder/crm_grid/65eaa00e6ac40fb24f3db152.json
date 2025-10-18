@@ -1,0 +1,93 @@
+{
+  "_id": {
+    "$oid": "65eaa00e6ac40fb24f3db152"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Param Key",
+          "id": "key",
+          "type": "text",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "hint": "name of key, can me same as document key (id is not required)",
+          "$key": "np6uu19nl7l"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Required",
+          "id": "required",
+          "type": "bool",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": false,
+          "hint": "is this key required to fetch this grid",
+          "$key": "grwdmjwjbvc"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Document Key",
+          "id": "documentKey",
+          "type": "text",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "hint": "Document Key is property of crm model",
+          "$key": "7ikqw4l9hwq"
+        },
+        {
+          "$key": "9nhj9x9ulyf",
+          "id": "serverValue",
+          "title": "Server Value",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "24"
+          }
+        },
+        {
+          "$key": "xiqygf5wew8",
+          "id": "value",
+          "title": "Value",
+          "type": "text",
+          "span": {
+            "$numberInt": "24"
+          },
+          "showCondition": "return this.serverValue === 'fixed_value' ||  this.serverValue === 'filter_value';"
+        }
+      ],
+      "$key": "t3832g3ks1"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e784bb58fbe5a161005480",
+  "gridTitle": "Crm Grid Param",
+  "created": {
+    "$date": {
+      "$numberLong": "1709875214308"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150510"
+    }
+  }
+}

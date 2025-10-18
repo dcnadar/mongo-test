@@ -1,0 +1,14 @@
+{
+  "_id": "667bb22274a25c4c696adafb",
+  "name": "Edit Cart Items",
+  "path": "/admin/customer/cart_items/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6619064baee00c70206deb28",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-26T06:16:02.755Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

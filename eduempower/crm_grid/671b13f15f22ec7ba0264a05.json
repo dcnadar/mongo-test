@@ -1,0 +1,164 @@
+{
+  "_id": "671b13f15f22ec7ba0264a05",
+  "gridTitle": "Eduempower Visit",
+  "gridType": "table",
+  "crmModelId": "671a5ed45f22ec7ba02649fe",
+  "columns": [
+    {
+      "$key": "xwbaeb3ebwo",
+      "key": "visitorName",
+      "name": "Visitor",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "xmqgpi73gz",
+      "key": "visitId",
+      "name": "Visit ID",
+      "type": "link",
+      "sort": true
+    },
+    {
+      "$key": "4mkxbwa6ur3",
+      "key": "scheduleStartDateAndTime",
+      "name": "Schedule Date And Time",
+      "type": "text",
+      "sort": true,
+      "valueCondition": "return new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short',day: '2-digit' }).format(new Date(this.scheduleStartDateAndTime)) + ' ' + new Date(this.scheduleStartDateAndTime).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });"
+    },
+    {
+      "$key": "8204wk4szqc",
+      "key": "approvalType",
+      "name": "Approval Type",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "q85i817l8jn",
+      "key": "status",
+      "name": "Status",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "di219d4wkfi",
+      "key": "staffs",
+      "name": "Approvers",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "3lv5lno7cmm",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "u2suxe0us4q",
+          "value": "Edit",
+          "slug": "/admin/front-office/approvalPending/edit?id=:_id _id",
+          "gridTitle": "Edit Form"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [
+    {
+      "$key": "k22jheiga9s",
+      "fields": [
+        {
+          "$key": "jgo8l1n4pub",
+          "id": "visitId",
+          "title": "Visit Id",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "56txkba5wk",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "2z1bnk5oz8v",
+          "id": "visitorForms.mobileNumber",
+          "title": "Mobile NO",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "mbgddodwmen",
+          "id": "visitorForms.visiting",
+          "title": "Visiting",
+          "type": "tag",
+          "span": 8,
+          "o": true,
+          "multiple": false
+        },
+        {
+          "$key": "1b9eg9se9lk",
+          "id": "visitorForms.representing",
+          "title": "Representing",
+          "type": "tag",
+          "span": 8,
+          "o": true,
+          "multiple": false
+        },
+        {
+          "$key": "exjf0kf0zgq",
+          "id": "visitorForms.purpose",
+          "title": "Purpose",
+          "type": "tag",
+          "o": true,
+          "span": 8,
+          "multiple": false
+        }
+      ]
+    }
+  ],
+  "leftOpenFilters": [
+    {
+      "$key": "kxmx4erfd2l",
+      "fields": [
+        {
+          "$key": "4dc8c11tun4",
+          "id": "created",
+          "title": "Date Range ",
+          "type": "date_range_2",
+          "span": 8,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "tableMeta": {
+    "defaultFilters": [
+      {
+        "$key": "pierwkkf9ls",
+        "propertyKey": "status",
+        "operator": "IN",
+        "IN": [
+          "APPROVAL_PENDING",
+          "REJECTED"
+        ]
+      }
+    ]
+  },
+  "fetchAdditionalKeys": [
+    "visitorForms"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-25T03:43:45.268Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "search": {
+    "placeHolder": "Search Visit Request"
+  },
+  "updated": "2025-09-08T10:51:02.715Z"
+}

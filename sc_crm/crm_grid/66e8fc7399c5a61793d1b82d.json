@@ -1,0 +1,46 @@
+{
+  "_id": "66e8fc7399c5a61793d1b82d",
+  "gridTitle": "ReactGrid GlobalHeader Settings RightButtons",
+  "gridType": "form",
+  "crmModelId": "66e8424c99c5a61793d1b826",
+  "rows": [
+    {
+      "$key": "cjrak8k82n",
+      "fields": [
+        {
+          "$key": "qexi3mbj827",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 12,
+          "o": true
+        },
+        {
+          "$key": "s6fibmu5ek",
+          "id": "icon",
+          "title": "Icon",
+          "type": "text",
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "onsnunw8jdr",
+          "id": "buttonAction",
+          "title": "ButtonAction",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-17T03:50:11.889Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

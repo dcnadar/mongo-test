@@ -1,0 +1,49 @@
+{
+  "_id": "66d83c5022d6741286d071d0",
+  "gridTitle": "ReactGrid GlobalHeader3 login",
+  "gridType": "form",
+  "crmModelId": "66d83bb122d6741286d071cf",
+  "rows": [
+    {
+      "$key": "w3im9cni9jo",
+      "fields": [
+        {
+          "$key": "eurzww0pmoo",
+          "id": "emailaddresslabel",
+          "title": "Emailaddresslabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "yt728astde",
+          "id": "passwordlabel",
+          "title": "passwordlabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "lrxmpxhriod",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text"
+        },
+        {
+          "$key": "p2sk5ispccn",
+          "id": "logo",
+          "title": "Logo",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-04T10:54:08.838Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

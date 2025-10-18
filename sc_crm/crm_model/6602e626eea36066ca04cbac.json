@@ -1,0 +1,26 @@
+{
+  "_id": "6602e626eea36066ca04cbac",
+  "name": "ReactGrid GlobalFooter2 Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "tjs6h8uvbu",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9flrkrgirvm",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a",
+      "name": "Links",
+      "key": "links"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-26T15:13:42.010Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

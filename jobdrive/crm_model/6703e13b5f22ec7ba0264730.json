@@ -1,0 +1,84 @@
+{
+  "_id": "6703e13b5f22ec7ba0264730",
+  "name": "Package",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "package",
+  "properties": [
+    {
+      "$key": "gva683kp74",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "mretrhpeis",
+      "key": "category",
+      "name": "Category",
+      "dataType": "REFERENCE",
+      "modelId": "6703d9815f22ec7ba026472e"
+    },
+    {
+      "$key": "xs114suxiam",
+      "key": "bannerImages",
+      "name": "Banner Images",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    },
+    {
+      "$key": "l534ghsxpm",
+      "key": "plans",
+      "name": "Plans",
+      "dataType": "LIST_OF",
+      "modelId": "6703c98c5f22ec7ba0264721",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "k6nby0m675",
+      "key": "platformCovered",
+      "name": "PlatformCovered",
+      "dataType": "STRING",
+      "listType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "630ic6bwr4q",
+            "key": "FACEBOOK",
+            "value": "Fackbook"
+          },
+          {
+            "$key": "r4i65xk3jcb",
+            "key": "INSTAGRAM",
+            "value": "Instagram"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "4p2pbk2th53",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "rr0al9gqx4",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "ube9kcl2lyn",
+            "key": "INACTIVE",
+            "value": "Inactive"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-07T13:25:15.396Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:54.510Z"
+}

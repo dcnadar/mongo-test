@@ -1,0 +1,52 @@
+{
+  "_id": "67138b495f22ec7ba0264891",
+  "name": "Eduempower Previous School",
+  "modelType": "COLLECTION",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "collectionName": "eduempower_previous_school",
+  "properties": [
+    {
+      "$key": "oemprboh9m",
+      "key": "school",
+      "name": "School",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "771i6cz6nl6",
+      "key": "obtained",
+      "name": "Obtained",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "yhil1ki465p",
+      "key": "from",
+      "name": "From",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "jpusvgq4lws",
+      "key": "to",
+      "name": "To",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "v3eyusfqy8",
+      "key": "studentId",
+      "name": "Student",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "5oppfir5u3a",
+      "key": "uDiseNo",
+      "name": "U-Dise No",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T10:34:49.102Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:07.018Z"
+}

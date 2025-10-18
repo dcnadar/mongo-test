@@ -1,0 +1,57 @@
+{
+  "_id": "66ed1bdbd5507f395e7dbe32",
+  "gridTitle": "Customer profile details update",
+  "gridType": "form",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "rows": [
+    {
+      "$key": "9g3klu9hc2i",
+      "fields": [
+        {
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 6,
+          "$key": "hj1sdwuwire"
+        },
+        {
+          "$key": "jbgpublorca",
+          "id": "lastName",
+          "title": "Last Name",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "kr1x97joot",
+          "id": "birthDate",
+          "title": "Birth Date",
+          "type": "date",
+          "span": 6
+        },
+        {
+          "$key": "4f91zr4o514",
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "span": 6,
+          "multiple": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T10:39:35.297Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/customer/all",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "documentKey": "id",
+      "required": false,
+      "serverValue": "current_user_id"
+    }
+  ],
+  "upsertDoc": false
+}

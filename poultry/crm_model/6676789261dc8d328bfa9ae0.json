@@ -1,0 +1,63 @@
+{
+  "_id": "6676789261dc8d328bfa9ae0",
+  "name": "Roof Type",
+  "modelType": "COLLECTION",
+  "baseModelId": "6662a0e707b1a041b15e0b51",
+  "collectionName": "poultry_roof_type",
+  "properties": [
+    {
+      "$key": "7t6lq3b50s",
+      "key": "roofType",
+      "name": "Roof Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "fmy3vc2o278",
+            "key": "ASBESTOS",
+            "value": "Asbestos"
+          },
+          {
+            "$key": "vwew0wvn7j",
+            "key": "GC_SHEET",
+            "value": "GC Sheet"
+          },
+          {
+            "$key": "2er0xfax0ml",
+            "key": "BAMBOO_THATCHED",
+            "value": "Bamboo Thatched"
+          },
+          {
+            "$key": "c5frcejl944",
+            "key": "ANY_OTHER",
+            "value": "Any Other"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "updnvy1flyh",
+      "key": "customRoofType",
+      "name": "Custom Roof Type",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3co1ry01d8v",
+      "key": "date",
+      "name": "Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "b0m87idqfr",
+      "name": "Farmer Id",
+      "dataType": "REFERENCE",
+      "modelId": "6662aede07b1a041b15e0b58",
+      "key": "farmerId"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-22T07:09:06.937Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

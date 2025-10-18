@@ -1,0 +1,28 @@
+{
+  "_id": "661210b1a10af254b4b43781",
+  "gridTitle": "ReactGrid Header2 MainMenuItem SubMenuItem\t",
+  "gridType": "form",
+  "crmModelId": "66120d1fa10af254b4b4377d",
+  "rows": [
+    {
+      "$key": "hmkk5or544m",
+      "fields": [
+        {
+          "id": "column",
+          "title": "column",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 30,
+          "$key": "y407bpq8nhj"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-07T03:19:13.363Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

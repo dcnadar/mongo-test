@@ -1,0 +1,48 @@
+{
+  "_id": "65744df6489ec219fd2a9eaa",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Option Type",
+          "id": "option",
+          "type": "tag",
+          "span": 5,
+          "o": false
+        },
+        {
+          "index": 1,
+          "title": "Display Name",
+          "id": "displayName",
+          "type": "text",
+          "span": 5,
+          "o": false
+        },
+        {
+          "index": 2,
+          "title": "Name",
+          "id": "name",
+          "type": "text",
+          "span": 5,
+          "o": false
+        },
+        {
+          "index": 3,
+          "title": "Value",
+          "id": "value",
+          "type": "text",
+          "span": 5,
+          "o": false
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65744d65489ec219fd2a9ea9",
+  "gridTitle": "Product Variant Option Value"
+}

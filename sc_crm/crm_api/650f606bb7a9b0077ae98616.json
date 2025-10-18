@@ -1,0 +1,11 @@
+{
+  "_id": "650f606bb7a9b0077ae98616",
+  "name": "Add Sub Menu",
+  "action": "CRM_GRID",
+  "sourceId": "650f5d37b7a9b0077ae98615",
+  "gridType": "form",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/website/header/menu/add",
+  "created": "2024-01-27T07:48:45.679Z"
+}

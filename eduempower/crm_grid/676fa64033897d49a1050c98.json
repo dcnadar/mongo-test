@@ -1,0 +1,61 @@
+{
+  "_id": "676fa64033897d49a1050c98",
+  "gridTitle": "Visit History\t",
+  "gridType": "table",
+  "crmModelId": "676912907efd1c53bd16c158",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "7k4ul0z458q",
+      "key": "visitId",
+      "name": "Visit Id",
+      "sort": true,
+      "type": "link"
+    },
+    {
+      "$key": "dqvzzdr30bu",
+      "key": "updatedDate",
+      "name": "Updated Date",
+      "sort": true,
+      "type": "date"
+    },
+    {
+      "$key": "n6q6qdwy6no",
+      "key": "actionTakenBy",
+      "name": "Updated By",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "33hhq6a4opk",
+      "key": "status",
+      "name": "Status",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "twukjh38muo",
+      "key": "remark",
+      "name": "Remark",
+      "sort": true,
+      "type": "text"
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-28T07:18:24.185Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:03.657Z"
+}

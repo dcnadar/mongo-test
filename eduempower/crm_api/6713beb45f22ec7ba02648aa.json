@@ -1,0 +1,15 @@
+{
+  "_id": "6713beb45f22ec7ba02648aa",
+  "name": "All Student Transfer",
+  "path": "/admin/student/transfer/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6713be975f22ec7ba02648a9",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T14:14:12.307Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:53.135Z"
+}

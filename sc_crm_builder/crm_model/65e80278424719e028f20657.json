@@ -1,0 +1,314 @@
+{
+  "_id": {
+    "$oid": "65e80278424719e028f20657"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm Grid Button",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "gridTitle",
+      "name": "Grid Title",
+      "$key": "owbyoxhqkem"
+    },
+    {
+      "dataType": "STRING",
+      "key": "gridType",
+      "name": "Grid Type",
+      "data": {
+        "options": [
+          {
+            "key": "popupForm",
+            "value": "Popup Form",
+            "$key": "y285vqjibje"
+          },
+          {
+            "key": "popupTable",
+            "value": "Popup Table",
+            "$key": "e0r80smii2"
+          },
+          {
+            "key": "confirm",
+            "value": "Confirm",
+            "$key": "llwwwlvowta"
+          },
+          {
+            "key": "download",
+            "value": "Download",
+            "$key": "uel9tkeya3"
+          },
+          {
+            "key": "private_download",
+            "value": "Private Download",
+            "$key": "kuohnogbyc"
+          },
+          {
+            "key": "expendedTable",
+            "value": "Expended Table",
+            "$key": "4c307sab2wf"
+          },
+          {
+            "key": "expendedForm",
+            "value": "Expended Form",
+            "$key": "ffd568xcaa"
+          },
+          {
+            "key": "table_download",
+            "value": "Table Download",
+            "$key": "crau7f62fcj"
+          },
+          {
+            "key": "slug",
+            "value": "Slug",
+            "$key": "7jd0gik0bc"
+          }
+        ]
+      },
+      "$key": "k6mfutv2t8e"
+    },
+    {
+      "dataType": "STRING",
+      "key": "gridMsg",
+      "name": "Grid Message",
+      "$key": "0zoa6w1ztxf"
+    },
+    {
+      "dataType": "STRING",
+      "key": "gridMsgParams",
+      "name": "Grid Message Params",
+      "$key": "6jsxes14fhv"
+    },
+    {
+      "dataType": "STRING",
+      "key": "apiUrl",
+      "name": "API URL",
+      "$key": "iyl9arcbydc"
+    },
+    {
+      "dataType": "STRING",
+      "key": "slug",
+      "name": "Slug",
+      "$key": "5panl5ia75c"
+    },
+    {
+      "dataType": "STRING",
+      "key": "value",
+      "name": "Value",
+      "$key": "v3bwg3rtoo"
+    },
+    {
+      "dataType": "STRING",
+      "key": "type",
+      "name": "Icon Type",
+      "data": {
+        "options": [
+          {
+            "key": "icon",
+            "value": "Icon",
+            "$key": "ej5kilnx284"
+          },
+          {
+            "key": "anchor",
+            "value": "Anchor",
+            "$key": "4mavs06kfy9"
+          },
+          {
+            "key": "icon_button",
+            "value": "Icon on button",
+            "$key": "gs3i9iu4e9e"
+          },
+          {
+            "$key": "hg4vt1kiize",
+            "key": "svg",
+            "value": "SVG"
+          },
+          {
+            "$key": "l5bm0lin55",
+            "key": "svg_button",
+            "value": "SVG on button"
+          }
+        ]
+      },
+      "$key": "ess8wpvc48"
+    },
+    {
+      "dataType": "STRING",
+      "key": "icon",
+      "name": "Icon",
+      "$key": "lvfmg9mhm7"
+    },
+    {
+      "dataType": "STRING",
+      "key": "showCondition",
+      "name": "Show Condition Function",
+      "$key": "emdbiyicftu"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "showGridComment",
+      "name": "Take Action Comment (for confirm and private_download)",
+      "$key": "djuctdxoj6o"
+    },
+    {
+      "dataType": "STRING",
+      "key": "responseType",
+      "name": "Response Type (for private_download)",
+      "$key": "19yt7app3yc",
+      "data": {
+        "options": [
+          {
+            "$key": "psbfoa405hc",
+            "key": "xlxs",
+            "value": "Excel"
+          },
+          {
+            "$key": "u5wvk9gawbl",
+            "key": "pdf",
+            "value": "PDF"
+          }
+        ]
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "color",
+      "name": "Button Background Color",
+      "$key": "9qi9zceixwl"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "pagination",
+      "name": "Pagination (to use filter data of table)",
+      "$key": "hg85c0rjnzk"
+    },
+    {
+      "dataType": "STRING",
+      "key": "apiType",
+      "name": "API Type",
+      "data": {
+        "options": [
+          {
+            "key": "GET",
+            "value": "GET",
+            "$key": "7zm0hvvmg5d"
+          },
+          {
+            "key": "POST",
+            "value": "POST",
+            "$key": "y4parzmsrg"
+          },
+          {
+            "$key": "kqmvp0lo8a",
+            "key": "PUT",
+            "value": "PUT"
+          },
+          {
+            "$key": "lefms400m2b",
+            "key": "PATCH",
+            "value": "PATCH"
+          },
+          {
+            "$key": "udi1ytnd0a",
+            "key": "DELETE",
+            "value": "DELETE"
+          }
+        ]
+      },
+      "$key": "az9b1xnvcr"
+    },
+    {
+      "dataType": "STRING",
+      "key": "submitType",
+      "name": "Submit Type",
+      "data": {
+        "options": [
+          {
+            "key": "save",
+            "value": "Form Save",
+            "$key": "byb8iu7apg"
+          },
+          {
+            "key": "download",
+            "value": "Download",
+            "$key": "lfgrpzt7smh"
+          }
+        ]
+      },
+      "$key": "ji3h0o3fjvi"
+    },
+    {
+      "dataType": "STRING",
+      "key": "permissions",
+      "name": "Permission Key",
+      "$key": "mth925oi39"
+    },
+    {
+      "$key": "hujnsu0txtj",
+      "key": "slugTarget",
+      "name": "Slug Target",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "3a6vd5qtxiv",
+            "key": "_self",
+            "value": "Self"
+          },
+          {
+            "$key": "996j1voj9bp",
+            "key": "_blank",
+            "value": "Blank"
+          },
+          {
+            "$key": "o0r2mo56gz8",
+            "key": "_parent",
+            "value": "Parent"
+          },
+          {
+            "$key": "91j6dgzcgom",
+            "key": "_top",
+            "value": "Top"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "4ot6mt9ilon",
+      "key": "svg",
+      "name": "SVG",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lf3fzb68o",
+      "key": "iconPosition",
+      "name": "Icon Position",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "0gr2o7ys300b",
+            "key": "start",
+            "value": "Start"
+          },
+          {
+            "$key": "myihzdr4pf",
+            "key": "end",
+            "value": "End"
+          }
+        ]
+      }
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709703800551"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152908"
+    }
+  }
+}

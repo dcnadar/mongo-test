@@ -1,0 +1,119 @@
+{
+  "_id": "6624f67c990ac402ed0d3eb8",
+  "name": "Blog Filter",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "7m70i9kxvre",
+      "key": "propertyKey",
+      "name": "Property Key",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "y4puzcv3k4",
+            "key": "dateRange",
+            "value": "Date "
+          },
+          {
+            "$key": "heyx2k6zjus",
+            "key": "title",
+            "value": "Title"
+          },
+          {
+            "$key": "2pscbpt5rcc",
+            "key": "author",
+            "value": "Author"
+          },
+          {
+            "$key": "m0itn6ecnog",
+            "key": "blogCategory",
+            "value": "Blog Category"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "6a152toqvt",
+      "key": "dateRange",
+      "name": " Date Range",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "d2yia7r59d",
+            "value": "today",
+            "key": "TODAY"
+          },
+          {
+            "$key": "qt7n8n5ktu",
+            "value": "yesterday",
+            "key": "YESTERDAY"
+          },
+          {
+            "$key": "3nx8txe2d4j",
+            "value": "last_7_day",
+            "key": "LAST_7_DAY"
+          },
+          {
+            "$key": "soih52kmoxh",
+            "value": "last_30_day",
+            "key": "LAST_30_DAY"
+          },
+          {
+            "$key": "f5goywo2f0d",
+            "key": "customDateRange",
+            "value": "Custom"
+          }
+        ]
+      },
+      "listType": "STRING"
+    },
+    {
+      "$key": "rub81i0tmu",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING",
+      "data": {
+        "tagCategory": "string-filter",
+        "options": []
+      },
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "l40m4j2dtac",
+      "key": "author",
+      "name": "Author",
+      "dataType": "REFERENCE",
+      "listType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6"
+    },
+    {
+      "$key": "6v2o6n2m6q",
+      "key": "category",
+      "name": "Category",
+      "dataType": "REFERENCE",
+      "modelId": "661ccdc6aee00c70206deb65"
+    },
+    {
+      "$key": "3z15op1qf2x",
+      "key": "customDateRange",
+      "name": "Custom Date Range",
+      "dataType": "STRING",
+      "data": {
+        "options": []
+      }
+    },
+    {
+      "$key": "wlj7lwmbcrb",
+      "key": "value",
+      "name": "Value",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-21T11:20:28.355Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

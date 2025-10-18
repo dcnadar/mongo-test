@@ -1,0 +1,90 @@
+{
+  "_id": "6618dbb0aee00c70206deb1b",
+  "gridTitle": "Supplier",
+  "gridType": "form",
+  "crmModelId": "64c7748983c24f1379031dc6",
+  "rows": [
+    {
+      "$key": "rqv3ku48qeq",
+      "fields": [
+        {
+          "$key": "xjfken9frc8",
+          "id": "logo",
+          "title": "Profile Pic",
+          "type": "upload",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 8,
+          "$key": "v6imh40rkcp"
+        },
+        {
+          "$key": "osnt3jnp6s",
+          "id": "lastName",
+          "title": "Last Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "2j19g6wy7a",
+          "id": "userName",
+          "title": "User Name",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "jtnkht1utuf",
+          "id": "email",
+          "title": "Email",
+          "type": "text",
+          "span": 6
+        },
+        {
+          "$key": "d1rig3rrxek",
+          "id": "callingCode",
+          "title": "Calling Code",
+          "type": "list",
+          "multiple": false,
+          "span": 6
+        },
+        {
+          "$key": "z01b7bb3ots",
+          "id": "mobileNumber",
+          "title": "Mobile Number",
+          "type": "number",
+          "span": 6
+        },
+        {
+          "$key": "qi4w5wmf1lh",
+          "id": "address",
+          "title": "Address",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        },
+        {
+          "$key": "ol9ct63n8p",
+          "id": "userType",
+          "title": "User Type",
+          "type": "text",
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "SUPPLIER"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T06:58:56.658Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "backUrl": "/admin/account/supplier/all"
+}

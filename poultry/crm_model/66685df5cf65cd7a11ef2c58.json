@@ -1,0 +1,46 @@
+{
+  "_id": "66685df5cf65cd7a11ef2c58",
+  "name": "Cost Incurred",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "x59oogev9xd",
+      "key": "costOfChicksPerBatch",
+      "name": "Cost Of Chicks Per Batch",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "y25cx5ihiag",
+      "key": "costOfFeed",
+      "name": "Cost Of Feed",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "zc1v666gfqr",
+      "key": "costOfLitter",
+      "name": "Cost Of Litter",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "7mu7l86uklw",
+      "key": "transportCost",
+      "name": "Transport Cost",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "xbnx0cy59ba",
+      "key": "adminElectricityCosts",
+      "name": "Admin Electricity & Other Misc Costs",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "kox3q6w864q",
+      "key": "totalCostOfRearing",
+      "name": "Total Cost Of Rearing",
+      "dataType": "INTEGER"
+    }
+  ],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T14:23:49.738Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

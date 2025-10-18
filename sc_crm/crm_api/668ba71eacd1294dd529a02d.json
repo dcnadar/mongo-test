@@ -1,0 +1,14 @@
+{
+  "_id": "668ba71eacd1294dd529a02d",
+  "name": "Edit Order",
+  "path": "/admin/order/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "668b7d233eaa6c40dacfe533",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-08T08:45:18.198Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

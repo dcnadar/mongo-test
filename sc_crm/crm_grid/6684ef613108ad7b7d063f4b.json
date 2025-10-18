@@ -1,0 +1,43 @@
+{
+  "_id": "6684ef613108ad7b7d063f4b",
+  "gridTitle": "NativeGrid GlobalImageReview",
+  "gridType": "form",
+  "crmModelId": "6684ee2f3108ad7b7d063f49",
+  "rows": [
+    {
+      "$key": "bniiktarn2v",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "8g0b5g6zc"
+        },
+        {
+          "$key": "2jfi3p8nqsn",
+          "id": "description",
+          "title": "Description",
+          "type": "text",
+          "span": 12
+        },
+        {
+          "$key": "mubypufdv6b",
+          "id": "imageSection",
+          "title": "ImageSection",
+          "type": "upload",
+          "add": true,
+          "delete": true,
+          "span": 8,
+          "min": 1,
+          "max": 10,
+          "multiple": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T06:27:45.988Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

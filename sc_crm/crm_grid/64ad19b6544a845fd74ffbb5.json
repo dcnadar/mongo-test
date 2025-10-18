@@ -1,0 +1,173 @@
+{
+  "_id": "64ad19b6544a845fd74ffbb5",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2021-02-02T14:05:44.964Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Option Type",
+          "id": "option",
+          "type": "list",
+          "span": 12,
+          "o": false,
+          "onChangeCondition": [
+            {
+              "$key": "mpytlpzsna",
+              "key": "$ROOT",
+              "meta": {
+                "type": "url",
+                "apiType": "POST"
+              },
+              "value": "/api/io/product/variant/info"
+            },
+            {
+              "key": "displayName",
+              "value": "return this.meta.displayName;",
+              "meta": {
+                "type": "function"
+              },
+              "$key": "k9ghvmyikga"
+            },
+            {
+              "$key": "6n9lci7s3al",
+              "key": "values",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.meta.values;"
+            },
+            {
+              "$key": "gr7ryfasv25",
+              "key": "imageValues",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.meta.imageValues;"
+            },
+            {
+              "$key": "br2bj5fdf1a",
+              "key": "colorValues",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.meta.colorValues;"
+            },
+            {
+              "$key": "h3ix7cftuwi",
+              "key": "valueType",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.meta.valueType;"
+            }
+          ],
+          "$key": "1wm0o4xe0fn",
+          "meta": {
+            "searchAdditionalKeys": [
+              "displayName",
+              "values",
+              "valueType",
+              "colorValues",
+              "imageValues"
+            ]
+          },
+          "addApiUrl": "/admin/product/variant-option/add",
+          "options": []
+        },
+        {
+          "index": 1,
+          "title": "Display Name",
+          "id": "displayName",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "$key": "63jfumgdags"
+        },
+        {
+          "$key": "ixuoxg8ekj",
+          "id": "valueType",
+          "title": "Value Type",
+          "type": "text",
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ],
+      "$key": "ol7jtpnsyts",
+      "span": 12
+    },
+    {
+      "$key": "0zj2t8pzj21",
+      "span": 12,
+      "fields": [
+        {
+          "index": 2,
+          "title": "Color Values",
+          "id": "colorValues",
+          "type": "input_table",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 20,
+          "countTitle": "No Color Values Added",
+          "add": true,
+          "delete": true,
+          "showCondition": "return this.meta && this.meta.valueType === 'color';",
+          "$key": "yqubcsgc00t"
+        },
+        {
+          "index": 3,
+          "title": "Size Values",
+          "id": "sizeValues",
+          "type": "input_table",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 20,
+          "countTitle": "No Size Values Added",
+          "add": true,
+          "delete": true,
+          "showCondition": "return this.meta && this.meta.valueType === 'size';",
+          "$key": "0eie6np34zai"
+        },
+        {
+          "index": 4,
+          "title": "Images",
+          "id": "imageValues",
+          "type": "input_table",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 20,
+          "countTitle": "No Images Added",
+          "add": true,
+          "delete": true,
+          "showCondition": "return this.meta && this.meta.valueType === 'image';",
+          "$key": "sgst11w45b"
+        },
+        {
+          "id": "values",
+          "title": "Values",
+          "type": "input_table",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 1,
+          "max": 20,
+          "showCondition": "if(!(this.meta && this.meta.valueType)) return false; var op = this.meta.valueType; return !(op === 'color' || op === 'size' || op === 'image');",
+          "countTitle": "No Values Added",
+          "$key": "g8611x96rp"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "64a5cc25099de82bca61ca98",
+  "gridTitle": "Product Variant Option",
+  "fetchDocWithoutId": false,
+  "upsertDoc": false
+}

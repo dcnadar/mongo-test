@@ -1,0 +1,13 @@
+{
+  "_id": "6663ee9907b1a041b15e0b9a",
+  "name": "Add Status(OLD)",
+  "path": "(OLD)/admin/farmer/status/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6662ec3707b1a041b15e0b90",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-08T05:39:37.837Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "66824aee3108ad7b7d063ecc",
+  "name": "NativeGrid GlobalFeaturedBrandCardScrollView Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "5ogzod8rrda",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "usucmqyukzb",
+      "key": "icon",
+      "name": "Icon",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "f09wutet1dv",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "pt2xo3ytr0p",
+      "key": "price",
+      "name": "Price",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kxmbg182ifb",
+      "key": "curency",
+      "name": "Curency",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T06:21:34.257Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

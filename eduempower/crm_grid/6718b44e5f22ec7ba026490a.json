@@ -1,0 +1,410 @@
+{
+  "_id": "6718b44e5f22ec7ba026490a",
+  "gridTitle": "Admission",
+  "gridType": "form",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "rows": [
+    {
+      "$key": "hesz02f56w",
+      "label": "LOGO",
+      "tab": "basic",
+      "fields": [
+        {
+          "id": "logo",
+          "title": "Profile Logo",
+          "type": "upload",
+          "o": true,
+          "span": 8,
+          "$key": "10cgigqsmbv",
+          "multiple": false
+        },
+        {
+          "$key": "ynwq6idwz7p",
+          "id": "userType",
+          "title": "UserType",
+          "type": "text",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "STUDENT"
+        },
+        {
+          "$key": "rnekc1344n",
+          "id": "admissionStep",
+          "title": "Status",
+          "type": "text",
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "value": "ENQUIRY"
+        }
+      ]
+    },
+    {
+      "$key": "g84tplacm3f",
+      "fields": [
+        {
+          "id": "enqNo",
+          "title": "  Enquiry No.",
+          "type": "text",
+          "span": 4,
+          "$key": "5e3hnxo5cx8",
+          "updateType": "hidden",
+          "createType": "none",
+          "disableCondition": "return !!this.autoGenerate;"
+        },
+        {
+          "$key": "c4kl632ydqu",
+          "id": "autoGenerate",
+          "title": "Auto Generate",
+          "type": "bool",
+          "updateType": "hidden",
+          "span": 4,
+          "createType": "none"
+        },
+        {
+          "$key": "06ik5wqhhsn4",
+          "id": "enqDate",
+          "title": "Enquiry Date",
+          "type": "date",
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "none"
+        },
+        {
+          "$key": "7hpo6lq4bvw",
+          "id": "_workLocation",
+          "title": "Admission Branch",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden",
+          "createType": "disabled"
+        },
+        {
+          "$key": "c3cawuzu2fq",
+          "id": "academicDetails.academicSession",
+          "title": "Session",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "academicDetails.class"
+          ]
+        },
+        {
+          "$key": "j8m3daqhll",
+          "id": "academicDetails.class",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "title": "Class",
+          "meta": {
+            "queryParams": "_sessionId=:academicDetails.academicSession academicDetails.academicSession"
+          },
+          "nullIds": []
+        }
+      ],
+      "label": "GENERAL DETAILS"
+    },
+    {
+      "$key": "yms2omqyuts",
+      "fields": [
+        {
+          "$key": "0rev0lohzwga",
+          "id": "firstName",
+          "title": "FirstName",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "2w1n0ki5zd4",
+          "id": "middleName",
+          "title": "MiddleName",
+          "o": true,
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "69f8eh5whnb",
+          "id": "lastName",
+          "title": "LastName",
+          "type": "text",
+          "o": true,
+          "span": 8
+        },
+        {
+          "$key": "860kn0x0kxg",
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "l245m68vo4",
+          "id": "birthDate",
+          "title": "BirthDate",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "xnegxz8aksc",
+          "id": "bloodGroup",
+          "title": "BloodGroup",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "ppam6k0w25s",
+          "id": "nationality",
+          "title": "Nationality",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "agho94orzpr",
+          "id": "religion",
+          "title": "Religion",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "rhjqqkc6j0m",
+          "id": "motherTongue",
+          "title": "MotherTongue",
+          "type": "text",
+          "span": 8
+        }
+      ],
+      "label": "STUDENT DETAILS",
+      "tab": "basic"
+    },
+    {
+      "$key": "lrf2byyjzb",
+      "label": "STUDENT FOLLOW-UP DETAILS",
+      "fields": [
+        {
+          "id": "followUp",
+          "title": "Follow-Up",
+          "type": "radio",
+          "meta": {
+            "horizontal": false
+          },
+          "updateType": "hidden",
+          "$key": "ltpemkwd59l",
+          "options": [
+            {
+              "$key": "atpzrf2nf6v",
+              "key": "YES",
+              "value": "Yes"
+            },
+            {
+              "$key": "55zqsez0izy",
+              "key": "NO",
+              "value": "No"
+            }
+          ]
+        },
+        {
+          "$key": "qsvqbqa8zr",
+          "title": "Follow-Up Details",
+          "id": "followUps",
+          "span": 24,
+          "type": "form_array",
+          "add": false,
+          "delete": false,
+          "min": 1,
+          "max": 5,
+          "updateType": "hidden",
+          "showCondition": "return this.followUp == 'YES';"
+        }
+      ]
+    },
+    {
+      "$key": "5z9y4qtn4gw",
+      "label": "PRIMARY CONTACT DETAILS",
+      "tab": "contact",
+      "fields": [
+        {
+          "id": "primaryContact.relation",
+          "title": "Relation",
+          "type": "list",
+          "multiple": false,
+          "$key": "urlyn6cbxj",
+          "span": 8
+        },
+        {
+          "$key": "j91gdghzpps",
+          "id": "primaryContact.salutation",
+          "title": "Salutation",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "n77cj56dk3",
+          "id": "primaryContact.firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ezub58j4v7",
+          "id": "primaryContact.middleName",
+          "title": "Middle Name",
+          "type": "text",
+          "o": true,
+          "span": 8
+        },
+        {
+          "$key": "b4lqczks32c",
+          "id": "primaryContact.lastName",
+          "title": "LastName",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "duxsid3ydbl",
+          "id": "primaryContact.mobileNumber",
+          "title": "Mobile No.",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "r5hv6jhfq8",
+          "id": "primaryContact.email",
+          "title": "Email",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "sszumb58tnm",
+          "id": "primaryContact.presentAddress",
+          "title": "PresentAddress",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          },
+          "span": 24
+        }
+      ]
+    },
+    {
+      "$key": "75d65s1l71y",
+      "label": "SECONDARY CONTACT DETAILS",
+      "tab": "contact",
+      "fields": [
+        {
+          "id": "secondaryContact.relation",
+          "title": "Relation",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "$key": "kotspz2lny"
+        },
+        {
+          "$key": "299lwax92u3",
+          "id": "secondaryContact.salutation",
+          "title": "Salutation",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "l0pwffujwar",
+          "id": "secondaryContact.firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "qyoo7esy01b",
+          "id": "secondaryContact.middleName",
+          "title": "Middle Name ",
+          "type": "text",
+          "o": true,
+          "span": 8
+        },
+        {
+          "$key": "0uikj1xxi7nl",
+          "id": "secondaryContact.lastName",
+          "title": "Last Name",
+          "span": 8,
+          "o": true,
+          "type": "text"
+        },
+        {
+          "$key": "t7bhxw958jf",
+          "id": "secondaryContact.mobileNumber",
+          "title": "Mobile No.",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "p70jkvezr4",
+          "id": "secondaryContact.email",
+          "title": "Email",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "fl9g7s02amh",
+          "id": "secondaryContact.presentAddress",
+          "title": "presentAddress",
+          "type": "inner_form",
+          "span": 24,
+          "add": false,
+          "delete": false,
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false
+          }
+        }
+      ]
+    },
+    {
+      "$key": "jxu4nlt20fr",
+      "label": "ADDITIONAL DETAILS",
+      "tab": "additional",
+      "fields": [
+        {
+          "id": "source",
+          "title": "Source",
+          "o": true,
+          "type": "text",
+          "span": 8,
+          "$key": "n67jqu3bw7"
+        },
+        {
+          "$key": "f2enrvuj98k",
+          "id": "additionalInfo",
+          "title": "Additional Info",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "qtpqxh8yath",
+          "id": "remarks",
+          "title": "Remarks   ",
+          "o": true,
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T08:31:10.483Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "backUrl": "/admin/admission/manage/all",
+  "updated": "2025-09-08T10:51:01.919Z"
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "667ba7f374a25c4c696adaf3",
+  "name": "Navigator Screen",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "5kgwejbkbfd",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9fv5plnwcyp",
+      "key": "screenId",
+      "name": "Screen Id",
+      "dataType": "REFERENCE",
+      "modelId": "666fddaafaf6243feb6c98d1"
+    },
+    {
+      "$key": "axdhu7qjcrk",
+      "key": "icon",
+      "name": "Icon",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-26T05:32:35.733Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

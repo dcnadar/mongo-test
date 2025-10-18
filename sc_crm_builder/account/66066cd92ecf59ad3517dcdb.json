@@ -1,0 +1,34 @@
+{
+  "_id": "66066cd92ecf59ad3517dcdb",
+  "status": "LIVE",
+  "name": "Eduempower",
+  "created": "2024-03-01T20:44:41.249Z",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "dbCredentials": {
+    "dev": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "eduempower-dev"
+      }
+    },
+    "qa": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "eduempower-qa"
+      }
+    },
+    "uat": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "eduempower-uat"
+      }
+    },
+    "prod": {
+      "mongoDBEntity": {
+        "useDefaultCluster": true,
+        "dbName": "eduempower"
+      }
+    }
+  },
+  "aId": "3"
+}

@@ -1,0 +1,108 @@
+{
+  "_id": "65127f83551621212be4a5a1",
+  "gridType": "table",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "columns": [
+    {
+      "index": 1,
+      "name": "Name",
+      "key": "name",
+      "type": "text",
+      "sort": true,
+      "$key": "zjrt3d00tpk"
+    },
+    {
+      "index": 1,
+      "name": "Path",
+      "key": "path",
+      "type": "text",
+      "sort": true,
+      "valueCondition": "return this.path === '$ROOT' ? '/' : ('/' + this.path);",
+      "$key": "ojhn5xtuxk"
+    },
+    {
+      "index": 2,
+      "name": "Created On",
+      "key": "created",
+      "type": "date",
+      "sort": true,
+      "$key": "6i6p0h3j4g3"
+    },
+    {
+      "index": 3,
+      "name": "Actions",
+      "key": "actions",
+      "type": "actions",
+      "show": true,
+      "align": "right",
+      "sort": false,
+      "width": 450,
+      "actions": [
+        {
+          "$key": "r7qaxe6hemr",
+          "gridTitle": "Webpage builder",
+          "value": "Webpage builder",
+          "gridType": "slug",
+          "apiUrl": "/website/builder?pageId=:_id _id",
+          "slugTarget": "_blank",
+          "type": "svg_button",
+          "svg": "<svg width=\"24px\" height=\"24px\" viewBox=\"-4.8 -4.8 57.60 57.60\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" transform=\"matrix(1, 0, 0, 1, 0, 0)\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <path d=\"M0 0h48v48H0z\" fill=\"none\"></path> <g id=\"Shopicon\"> <polygon points=\"44,30 40,30 40,38 8,38 8,10 20,10 20,6 4,6 4,42 44,42 \"></polygon> <polygon points=\"26,26.828 40,12.828 40,24 44,24 44,6 26,6 26,10 37.172,10 23.172,24 \"></polygon> </g> </g></svg>",
+          "iconPosition": "end"
+        },
+        {
+          "value": "View Sections",
+          "slug": "/admin/website/page/section?pageId=:_id _id",
+          "type": "anchor",
+          "$key": "ng5icodxfk",
+          "iconPosition": "end"
+        },
+        {
+          "value": "Edit",
+          "gridType": "popupForm",
+          "gridTitle": "Edit Page",
+          "apiUrl": "/admin/website/page/update?id=:_id _id",
+          "type": "svg_button",
+          "showCondition": "return this.path !== '$ROOT' ? true : false;",
+          "$key": "1dcbymiqd5b",
+          "svg": "<svg width=\"20px\" height=\"20px\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <title></title> <g id=\"Complete\"> <g id=\"edit\"> <g> <path d=\"M20,16v4a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V6A2,2,0,0,1,4,4H8\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path> <polygon fill=\"none\" points=\"12.5 15.8 22 6.2 17.8 2 8.3 11.5 8 16 12.5 15.8\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></polygon> </g> </g> </g> </g></svg>",
+          "iconPosition": "end"
+        },
+        {
+          "gridTitle": "Delete Page",
+          "gridType": "confirm",
+          "gridMsg": "Are you sure to delete page: ':name'?",
+          "gridMsgParams": "name",
+          "apiUrl": "/admin/website/page/delete?id=:_id _id",
+          "type": "svg",
+          "showCondition": "return this.path !== '$ROOT' ? true : false;",
+          "$key": "w29dvh0s45s",
+          "showGridComment": false,
+          "svg": "<svg width=\"24px\" height=\"24px\" viewBox=\"0 -0.5 21 21\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"#000000\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <title>delete [#ff0000]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"> <g id=\"Dribbble-Light-Preview\" transform=\"translate(-179.000000, -360.000000)\" fill=\"#ff0000\"> <g id=\"icons\" transform=\"translate(56.000000, 160.000000)\"> <path d=\"M130.35,216 L132.45,216 L132.45,208 L130.35,208 L130.35,216 Z M134.55,216 L136.65,216 L136.65,208 L134.55,208 L134.55,216 Z M128.25,218 L138.75,218 L138.75,206 L128.25,206 L128.25,218 Z M130.35,204 L136.65,204 L136.65,202 L130.35,202 L130.35,204 Z M138.75,204 L138.75,200 L128.25,200 L128.25,204 L123,204 L123,206 L126.15,206 L126.15,220 L140.85,220 L140.85,206 L144,206 L144,204 L138.75,204 Z\" id=\"delete-[#ff0000]\"> </path> </g> </g> </g> </g></svg>",
+          "value": "Delete Page"
+        }
+      ],
+      "$key": "stl5xivwzae"
+    }
+  ],
+  "crmModelId": "65128242551621212be4a5ac",
+  "gridTitle": "Website Page Table",
+  "apiType": "POST",
+  "createButton": {
+    "gridType": "popupForm",
+    "gridTitle": "Add Page",
+    "value": "Add Page",
+    "apiUrl": "/admin/website/page/add"
+  },
+  "apiUrl": "/admin/website/page",
+  "search": {
+    "placeHolder": "Search by Name"
+  },
+  "created": "2024-01-27T07:48:48.254Z",
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "fetchAdditionalKeys": [],
+  "leftOpenFilters": [],
+  "tableMeta": {}
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "671ccb11fdb5870d2105163a",
+  "gridTitle": "Staff Attendance",
+  "gridType": "table",
+  "crmModelId": "6606cc9deea36066ca04cbd2",
+  "columns": [
+    {
+      "$key": "dcij65ud6vb",
+      "key": "firstName",
+      "name": "Name",
+      "type": "name",
+      "sort": false
+    },
+    {
+      "$key": "6pqs0l6midl",
+      "key": "employmentDetail.employeeId",
+      "name": "Employee Id",
+      "type": "tag",
+      "sort": true
+    },
+    {
+      "$key": "cnun51wq1l9",
+      "key": "inTime",
+      "name": "Swipe In Time",
+      "type": "tag",
+      "sort": false
+    },
+    {
+      "$key": "1csiqbtu7cp",
+      "name": "Swipe Out Time",
+      "key": "outTime",
+      "type": "tag",
+      "sort": false
+    },
+    {
+      "$key": "nhytd5fq44",
+      "key": "type",
+      "name": "Attendance Status",
+      "type": "mark",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "nqbl5dkog7o",
+      "fields": [
+        {
+          "$key": "k4hgi1wjbeq",
+          "id": "employmentDetail.departmentId",
+          "title": "Department",
+          "type": "list",
+          "multiple": true,
+          "o": true,
+          "span": 8,
+          "add": false,
+          "delete": false,
+          "min": 0
+        }
+      ]
+    }
+  ],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [
+    "lastName",
+    "middleName",
+    "dateOfJoining",
+    "dateOfLeaving"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-26T10:06:54.814Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:02.785Z"
+}

@@ -1,0 +1,72 @@
+{
+  "_id": "67138bfd5f22ec7ba0264892",
+  "gridTitle": "Previous School",
+  "gridType": "form",
+  "crmModelId": "67138b495f22ec7ba0264891",
+  "rows": [
+    {
+      "$key": "cqscgd5n9u4",
+      "fields": [
+        {
+          "$key": "aearfuddvq",
+          "id": "school",
+          "title": "School",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "bsctef54055",
+          "id": "uDiseNo",
+          "title": "U-Dise No",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "jrcp37o5mqd",
+          "id": "obtained",
+          "title": "Obtained",
+          "span": 8,
+          "type": "number",
+          "min": 0,
+          "meta": {
+            "addonAfter": "%"
+          }
+        },
+        {
+          "$key": "vhtpnnmyqxr",
+          "id": "from",
+          "title": "From",
+          "type": "date",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "kpwlqas2ugo",
+          "id": "to",
+          "title": "To",
+          "type": "date",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "qhjgnrk51fh",
+          "id": "studentId",
+          "title": "Student",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T10:37:49.000Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "backUrl": "/admin/student/all",
+  "updated": "2025-09-08T10:51:01.681Z"
+}

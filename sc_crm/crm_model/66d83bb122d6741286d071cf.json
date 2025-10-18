@@ -1,0 +1,35 @@
+{
+  "_id": "66d83bb122d6741286d071cf",
+  "name": "ReactGrid GlobalHeader3 login",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "mlop7zvhf4i",
+      "key": "emailaddresslabel",
+      "name": "Emailaddresslabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y0gndhrqqmp",
+      "key": "passwordlabel",
+      "name": "Passwordlabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6ffadla9vvn",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "eocxe5mdke",
+      "key": "logo",
+      "name": "logo",
+      "dataType": "INNER_MODEL",
+      "modelId": "66e28d33ab08f3103afa0717"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-04T10:51:29.425Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

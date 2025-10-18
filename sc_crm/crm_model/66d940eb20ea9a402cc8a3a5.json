@@ -1,0 +1,34 @@
+{
+  "_id": "66d940eb20ea9a402cc8a3a5",
+  "name": "ReactGrid GlobalHeader3 reset",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "d7wvrnm3hq",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "24chuxbv685",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "f21gd02xl1r",
+      "key": "emailaddresslabel",
+      "name": "Emailaddresslabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "es9jmy0qnrq",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-05T05:26:03.483Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

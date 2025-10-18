@@ -1,0 +1,13 @@
+{
+  "_id": "66121e62a10af254b4b437c1",
+  "name": "All Departments",
+  "path": "/admin/account-settings/department/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660d91d0c7b99128d924f76d",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T04:17:38.165Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:49.269Z"
+}

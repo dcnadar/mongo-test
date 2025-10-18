@@ -1,0 +1,69 @@
+{
+  "_id": "6684f2f93108ad7b7d063f4d",
+  "name": "NativeGrid GlobalVideoDescription",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "cl6surdpy79",
+      "key": "bgimage",
+      "name": "Bgimage",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2kt3xn5ktz9",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y5pg1ij5y2",
+      "unique": false,
+      "key": "tags",
+      "name": "Tags",
+      "dataType": "LIST_OF",
+      "listType": "STRING",
+      "modelId": "647dbb584c329b142537625c"
+    },
+    {
+      "$key": "rn04uq67kok",
+      "key": "duration",
+      "name": "Duration",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "glhft63ry9m",
+      "key": "rating",
+      "name": "Rating",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2hr1bhkkvxb",
+      "key": "descriptionHeading",
+      "name": "DescriptionHeading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "mmakmr2ld1p",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "x9pflf35lp",
+      "key": "castHeading",
+      "name": "CastHeading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "e4k7er75ax",
+      "key": "castlist",
+      "name": "Castlist",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "6684f3ab3108ad7b7d063f4e"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T06:43:05.691Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

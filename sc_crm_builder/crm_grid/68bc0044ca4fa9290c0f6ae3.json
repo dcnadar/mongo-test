@@ -1,0 +1,49 @@
+{
+  "_id": {
+    "$oid": "68bc0044ca4fa9290c0f6ae3"
+  },
+  "gridTitle": "Account DB Credientials",
+  "gridType": "form",
+  "crmModelId": "65e2c398226e7b80fe49ae39",
+  "rows": [
+    {
+      "$key": "q9qgwnysa5m",
+      "label": "Dev",
+      "fields": [
+        {
+          "id": "dbCredentials.dev.mongoDBMeta.URI",
+          "title": "Please Enter Dev MongoBD META URI",
+          "type": "text",
+          "span": {
+            "$numberInt": "24"
+          },
+          "placeholder": "mongodb://uname:password@sub.example.com/",
+          "$key": "hkhlfdnkj4"
+        },
+        {
+          "$key": "5fc4rosft6f",
+          "id": "dbCredentials.dev.mongoDBMeta.dbName",
+          "title": "Please enter Dev MongoDB META name ",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757151300857"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757151987786"
+    }
+  }
+}

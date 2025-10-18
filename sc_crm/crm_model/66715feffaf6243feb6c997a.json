@@ -1,0 +1,77 @@
+{
+  "_id": "66715feffaf6243feb6c997a",
+  "name": "ReactGrid GlobalTrufalLogin ForgetPassword",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "uvovh1wckrq",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8nnuyfc960w",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "l0hho0gkfra",
+      "key": "headingLeftText",
+      "name": "HeadingLeftText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vjcru4zls9",
+      "key": "forgetText",
+      "name": "ForgetText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "uueog8bxky",
+      "key": "singUpOtpText",
+      "name": "SingUpOtpText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qgd4ej9lkx",
+      "key": "headingLinkText",
+      "name": "HeadingLinkText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wjrni8zxmx",
+      "key": "headingRightText",
+      "name": "HeadingRightText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "mnr70av0sk",
+      "key": "emailaddresslabel",
+      "name": "Emailaddresslabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "jzedx8nyq9s",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "t9o8id3pn5r",
+      "key": "sucessMessage",
+      "name": "SucessMessage",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "sc845p01kr",
+      "key": "errorMessage",
+      "name": "ErrorMessage",
+      "dataType": "STRING"
+    }
+  ],
+  "compoundUniqueFields": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T10:22:39.580Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

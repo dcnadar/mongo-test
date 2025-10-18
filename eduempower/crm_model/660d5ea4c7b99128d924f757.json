@@ -1,0 +1,28 @@
+{
+  "_id": "660d5ea4c7b99128d924f757",
+  "name": "Branch and Academic Session Filter",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "9o6zikwiisq",
+      "key": "_workLocation",
+      "name": "Branch",
+      "dataType": "REFERENCE",
+      "modelId": "6606750ceea36066ca04cbca",
+      "unique": false
+    },
+    {
+      "$key": "zqw7bctqa8",
+      "key": "_sessionId",
+      "name": "Academic Session",
+      "dataType": "REFERENCE",
+      "modelId": "66067807eea36066ca04cbcc"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T13:50:28.654Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-08T10:51:06.414Z"
+}

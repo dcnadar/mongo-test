@@ -1,0 +1,78 @@
+{
+  "_id": "65fd62b3cd007d13da9db2cb",
+  "gridTitle": "ReactGrid GlobalBlogCards4",
+  "gridType": "form",
+  "crmModelId": "65fd5843cd007d13da9db2bb",
+  "rows": [
+    {
+      "$key": "ndxz4napyj",
+      "fields": [
+        {
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "$key": "zaakdqgr4of",
+          "id": "header",
+          "title": "Header"
+        },
+        {
+          "$key": "dtm587twpzi",
+          "id": "showDynamicContent",
+          "title": "Show Dynamic Content",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "7gan4w7togq",
+          "id": "dynamicContentFilter",
+          "title": "Dynamic Content Filters",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "showCondition": "return this.showDynamicContent;"
+        },
+        {
+          "$key": "xxspjjuhyeq",
+          "type": "form_array",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "id": "sections",
+          "title": "Sections",
+          "add": true,
+          "delete": true,
+          "min": 1,
+          "max": 20,
+          "showCondition": "return !this.showDynamicContent;"
+        },
+        {
+          "$key": "0cxw8jnbps1o",
+          "id": "showFilter",
+          "title": "ShowFilter",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "kvibcvn1b2m",
+          "id": "showSearch",
+          "title": "ShowSearch",
+          "type": "bool",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-22T10:51:31.234Z",
+  "createdBy": "65f1586feece0c4fb315fa82",
+  "upsertDoc": false
+}

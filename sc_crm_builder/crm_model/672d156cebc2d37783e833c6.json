@@ -1,0 +1,31 @@
+{
+  "_id": {
+    "$oid": "672d156cebc2d37783e833c6"
+  },
+  "name": "Account Settings",
+  "modelType": "COLLECTION",
+  "baseModelId": "65e2c399226e7b80fe49ae3a",
+  "collectionName": "account_settings",
+  "properties": [
+    {
+      "$key": "7b9po1wecua",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1731007852468"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070153470"
+    }
+  }
+}

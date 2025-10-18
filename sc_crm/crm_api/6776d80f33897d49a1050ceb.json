@@ -1,0 +1,13 @@
+{
+  "_id": "6776d80f33897d49a1050ceb",
+  "name": "WebsItePageGridThemeSettings Font",
+  "path": "/admin/website/page/grid/theme/settings/font",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66b076b5a436a41ae7ae68af",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-01-02T18:16:47.203Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

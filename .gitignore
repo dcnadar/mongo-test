@@ -1,0 +1,4 @@
+node_modules
+.env
+.env.trufal_prod
+.env.poultry_prod

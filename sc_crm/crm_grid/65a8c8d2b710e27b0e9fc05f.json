@@ -1,0 +1,45 @@
+{
+  "_id": "65a8c8d2b710e27b0e9fc05f",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-18T06:44:34.327Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": 12,
+          "o": false,
+          "$key": "g9gb2ic6gp6"
+        },
+        {
+          "index": 1,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 12,
+          "o": false,
+          "$key": "0d8js4ltmkjw"
+        },
+        {
+          "index": 2,
+          "title": "Features",
+          "id": "section",
+          "type": "strings",
+          "span": 12,
+          "o": false,
+          "$key": "91kcxdfagbr"
+        }
+      ],
+      "$key": "bhh3sxh6ogc"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65a8c8d2b710e27b0e9fc05d",
+  "gridTitle": "ReactGrid GlobalCtaSection3 Content",
+  "fetchDocWithoutId": false
+}

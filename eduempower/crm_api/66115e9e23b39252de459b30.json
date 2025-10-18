@@ -1,0 +1,13 @@
+{
+  "_id": "66115e9e23b39252de459b30",
+  "name": "Add Fee Type",
+  "path": "/admin/schoolsetup/fee-settings/fee-type/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cd920c7b99128d924f727",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T14:39:26.636Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:45.746Z"
+}

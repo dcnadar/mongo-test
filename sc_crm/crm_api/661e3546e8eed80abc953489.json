@@ -1,0 +1,13 @@
+{
+  "_id": "661e3546e8eed80abc953489",
+  "name": "All Blog Content ",
+  "path": "[OLD]/admin",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "661e326ee8eed80abc953487",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-16T08:22:30.491Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "ecomApiMappings": []
+}

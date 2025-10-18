@@ -1,0 +1,46 @@
+{
+  "_id": "660ce3bdc7b99128d924f72d",
+  "gridTitle": "Eduempower FeeFine Setting",
+  "gridType": "form",
+  "crmModelId": "660961edc7b99128d924f669",
+  "rows": [
+    {
+      "$key": "db3o9x11wvb",
+      "fields": [
+        {
+          "$key": "ae5ibrfva5g",
+          "id": "feeFineAssign",
+          "title": "Fee Fine Assign",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "7yfz18g85td",
+          "id": "refuseTimeFrames",
+          "title": "Refuse Time Frames",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T05:06:05.865Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:58.584Z"
+}

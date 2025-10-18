@@ -1,0 +1,61 @@
+{
+  "_id": "68ad5fd123737c0ed9ef89e5",
+  "gridTitle": "Training Trainer",
+  "gridType": "table",
+  "crmModelId": "68ad56e323737c0ed9ef89e2",
+  "columns": [
+    {
+      "$key": "njnqftu78j",
+      "key": "userId",
+      "name": "User",
+      "type": "card",
+      "sort": true
+    },
+    {
+      "$key": "yvodxvgo9v",
+      "key": "verification",
+      "name": "Verification",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "urm54xd08e",
+      "key": "ratingAvg",
+      "name": "Rating Avg",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "ef0iwtkb01d",
+      "key": "ratingCount",
+      "name": "Rating Count",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "l3s9fkhftp",
+      "key": "trainingId",
+      "name": "Training",
+      "type": "card",
+      "sort": true
+    }
+  ],
+  "actions": [
+    {
+      "$key": "dxvvj3r0f6l",
+      "gridTitle": "Add Trainer",
+      "value": "Add Trainer",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/training/trainer/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T07:18:41.060Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:54.113Z"
+}

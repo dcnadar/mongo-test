@@ -1,0 +1,55 @@
+{
+  "_id": "6720fb5c70db0a44d1ad548c",
+  "gridTitle": "VisitorList",
+  "gridType": "table",
+  "crmModelId": "671a5ed45f22ec7ba02649fe",
+  "columns": [
+    {
+      "$key": "fs9bn4d04dv",
+      "name": "Visitor Name",
+      "type": "name",
+      "key": "firstName",
+      "sort": true
+    },
+    {
+      "$key": "b5ptmk0jpf",
+      "name": "Email",
+      "key": "email",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "sy7v12oge4",
+      "name": "Mobile No",
+      "key": "mobileNumber",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "l6zzwx4o34s",
+      "name": "Profile Picture",
+      "key": "logo",
+      "sort": true,
+      "type": "thumb"
+    }
+  ],
+  "actions": [],
+  "border": true,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-29T15:12:28.912Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "search": {
+    "placeHolder": "Search VisitorList"
+  },
+  "gridParams": [
+    {
+      "required": true,
+      "key": "id"
+    }
+  ],
+  "updated": "2025-09-08T10:51:02.920Z"
+}

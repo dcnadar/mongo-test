@@ -1,0 +1,74 @@
+{
+  "_id": "666d27f7faf6243feb6c9812",
+  "gridTitle": "Website SVG Icon",
+  "gridType": "table",
+  "columns": [
+    {
+      "$key": "xib80vqqcab",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "width": 150,
+      "sort": true
+    },
+    {
+      "$key": "dp5ilgrttc",
+      "key": "svg",
+      "name": "SVG",
+      "type": "html_view",
+      "sort": false
+    },
+    {
+      "$key": "u7ediyn1hhr",
+      "key": "type",
+      "name": "Type",
+      "type": "tag",
+      "sort": false
+    },
+    {
+      "$key": "1ii61f7wmiwi",
+      "key": "action",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "align": "right",
+      "actions": [
+        {
+          "$key": "jgg8m4b97f",
+          "gridType": "confirm",
+          "type": "icon",
+          "icon": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/columns.3.actions.0.icon/2024/5/15/upload_zeme1pj99dh-1718447356816.svg",
+          "value": "Delete",
+          "gridTitle": "Are you sure you want to delete?",
+          "gridMsg": "Are you sure you want to delete?",
+          "apiUrl": "/admin/website/settings/icon/delete?id=:_id _id"
+        },
+        {
+          "$key": "o2loguyas4m",
+          "apiUrl": "/admin/website/settings/icon/edit?id=:_id _id",
+          "value": "Edit",
+          "gridType": "popupForm",
+          "gridTitle": "Edit Icon"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "b2xvd2qd26j",
+      "gridTitle": "Add Icon",
+      "gridType": "popupForm",
+      "value": "Add Icon",
+      "apiUrl": "/admin/website/settings/icon/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-15T05:34:47.345Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "crmModelId": "666d2790faf6243feb6c9810"
+}

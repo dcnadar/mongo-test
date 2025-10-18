@@ -1,0 +1,68 @@
+{
+  "_id": "668253bc3108ad7b7d063edb",
+  "gridTitle": "NativeGrid GlobalNotification",
+  "gridType": "form",
+  "crmModelId": "668251183108ad7b7d063eda",
+  "rows": [
+    {
+      "$key": "8f7cetlkwzr",
+      "fields": [
+        {
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "multiple": false,
+          "span": 20,
+          "$key": "89g1o5zl2zy"
+        },
+        {
+          "$key": "ltxxt9xdp4j",
+          "id": "icon",
+          "title": "Icon",
+          "type": "upload",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "vnbxgsrcy2",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "zxp52b8b2k",
+          "id": "subTitle",
+          "title": "SubTitle",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "077jurcn7sqd",
+          "id": "description",
+          "title": "Description",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ft0fap9kd0u",
+          "id": "timeText",
+          "title": "TimeText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "qgvh8l0gal",
+          "id": "button",
+          "title": "Button",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T06:59:08.354Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

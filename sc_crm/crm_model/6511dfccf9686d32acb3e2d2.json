@@ -1,0 +1,95 @@
+{
+  "_id": "6511dfccf9686d32acb3e2d2",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name",
+      "searchable": {
+        "value": false
+      },
+      "$key": "0yhqqfqma5xc"
+    },
+    {
+      "dataType": "STRING",
+      "key": "thumb",
+      "name": "Thumb",
+      "searchable": {
+        "thumb": true
+      },
+      "$key": "ee7bpv0584"
+    },
+    {
+      "$key": "jbvzz3in7lj",
+      "key": "designPrototype",
+      "name": "Design prototype",
+      "unique": false,
+      "dataType": "STRING"
+    },
+    {
+      "dataType": "STRING",
+      "key": "theme",
+      "name": "Theme",
+      "data": {
+        "options": [
+          {
+            "key": "global",
+            "value": "Global",
+            "$key": "t5i2pqvcozi"
+          },
+          {
+            "key": "foodio",
+            "value": "Foodio",
+            "$key": "csd9bzqlfs6"
+          }
+        ]
+      },
+      "$key": "9e7oehwxgvw"
+    },
+    {
+      "dataType": "STRING",
+      "key": "reactGrid",
+      "name": "React Component Name",
+      "$key": "3qo9azcfdow",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "crmForm",
+      "name": "Crm Form",
+      "modelId": "6511dc91f9686d32acb3e2cf",
+      "$key": "pnv1tlhorvd"
+    },
+    {
+      "dataType": "REFERENCE",
+      "key": "sectionTypeId",
+      "name": "Section Type",
+      "modelId": "65a431d12d653b284338a316",
+      "$key": "vjfxroc57r7"
+    },
+    {
+      "$key": "wwetlhs9rnj",
+      "key": "sampleData",
+      "name": "Global Sample Data",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5cw4opz9y4v",
+      "key": "ecomSampleData",
+      "name": "Ecom Sample Data",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "66766e0361dc8d328bfa9add"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Website Page Section Info",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "collectionName": "website_page_section_info",
+  "created": "2024-01-27T07:48:51.432Z",
+  "cardDataTargets": {},
+  "menuTargets": {}
+}

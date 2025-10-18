@@ -1,0 +1,88 @@
+{
+  "_id": "66862b793108ad7b7d063f79",
+  "gridTitle": "NativeGrid GlobalPriceing2 sections",
+  "gridType": "form",
+  "crmModelId": "66862d923108ad7b7d063f7a",
+  "rows": [
+    {
+      "$key": "s9df0s0ztuo",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "3ensex0aps6"
+        },
+        {
+          "$key": "p05cvrqjbu",
+          "id": "descriptions",
+          "title": "Descriptions",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "t8p10duehnc",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "dxg5ix425s9",
+          "id": "currencySymbol",
+          "title": "CurrencySymbol",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "nhefm1l8psn",
+          "id": "priceMonthly",
+          "title": "PriceMonthly",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "rocph8tkbo",
+          "id": "priceYearly",
+          "title": "PriceYearly",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "fdungkwpc2",
+          "id": "yearlyPlanText",
+          "title": "YearlyPlanText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "cqci3v5kbb",
+          "id": "monthlyPlanText",
+          "title": "MonthlyPlanText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "6swl06mr22l",
+          "id": "points",
+          "title": "Points",
+          "type": "strings",
+          "span": 8,
+          "min": 1,
+          "max": 10
+        },
+        {
+          "$key": "p1q9owazeh",
+          "id": "primary",
+          "title": "Primary",
+          "type": "bool"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-04T04:56:25.849Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

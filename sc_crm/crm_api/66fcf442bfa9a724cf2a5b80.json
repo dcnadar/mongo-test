@@ -1,0 +1,22 @@
+{
+  "_id": "66fcf442bfa9a724cf2a5b80",
+  "name": "Current user Orders",
+  "path": "/cuser/orders/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66a741a9e287100717693bfa",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true,
+      "documentKey": "userId",
+      "serverValue": "current_user_id"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-10-02T07:20:34.554Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

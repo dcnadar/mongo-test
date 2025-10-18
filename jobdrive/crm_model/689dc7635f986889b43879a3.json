@@ -1,0 +1,43 @@
+{
+  "_id": "689dc7635f986889b43879a3",
+  "name": "PlacementDrive",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "placement_drive",
+  "properties": [
+    {
+      "$key": "rbc6pw8uchr",
+      "key": "placementDriveCompanyAndPosition",
+      "name": "Company And Position",
+      "dataType": "INNER_MODEL",
+      "modelId": "689dc69d5f986889b43879a2"
+    },
+    {
+      "$key": "dpq703fbsqg",
+      "key": "placementDriveEligibility",
+      "name": "PacementDrive Eligibility",
+      "dataType": "INNER_MODEL",
+      "modelId": "689edb1658973fec4e05cc46"
+    },
+    {
+      "$key": "1ibw79stoai",
+      "key": "placementDriveSchedule",
+      "name": "Schedule",
+      "dataType": "INNER_MODEL",
+      "modelId": "689ee97458973fec4e05cc49"
+    },
+    {
+      "$key": "6frceqy2szh",
+      "key": "placementDriveRequirements",
+      "name": "placementDrive Requirements",
+      "dataType": "INNER_MODEL",
+      "modelId": "689f05a54e2ed283d94615b5"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-14T11:24:19.724Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.359Z"
+}

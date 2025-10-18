@@ -1,0 +1,271 @@
+{
+  "_id": {
+    "$oid": "65eaa00a6ac40fb24f3db14e"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Select Form",
+          "id": "crmFormId",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Select Form (for form\\_table, input\\_table, form\\_array and inner\\_form)",
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'form_table' || parent.type === 'input_table' || parent.type === 'form_array' || parent.type === 'inner_form';",
+          "$key": "7vyzbblulb"
+        },
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Label Condition Function",
+          "id": "labelCondition",
+          "type": "text",
+          "span": {
+            "$numberInt": "16"
+          },
+          "o": true,
+          "hint": "Label Condition Function",
+          "$key": "sfkfoty5ol"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Search Additional Keys",
+          "id": "searchAdditionalKeys",
+          "type": "strings",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Search Additional Keys (for type list)",
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'list';",
+          "$key": "mv2j625b36l"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Addon After Text",
+          "id": "addonAfter",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Addon After Text (text, number, mobile)",
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'text' || parent.type === 'number' || parent.type === 'mobile';",
+          "$key": "17tmqdcli5u"
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Addon Before Text",
+          "id": "addonBefore",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Addon Before Text (text, number, mobile)",
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'text' || parent.type === 'number' || parent.type === 'mobile';",
+          "$key": "yhda7v92ae"
+        },
+        {
+          "index": {
+            "$numberInt": "4"
+          },
+          "title": "Horizontal",
+          "id": "horizontal",
+          "type": "bool",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Horizontal (Checkbox, Radio)",
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'checkbox' || parent.type === 'radio';",
+          "$key": "nzpve1j5ymb"
+        },
+        {
+          "index": {
+            "$numberInt": "5"
+          },
+          "title": "Field name for CrmFormId",
+          "id": "crmFormIdField",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Field name for CrmFormId (for form\\_table, input\\_table, form\\_array and inner\\_form)",
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'form_table' || parent.type === 'input_table' || parent.type === 'form_array' || parent.type === 'inner_form';",
+          "$key": "lcrfh76jba"
+        },
+        {
+          "$key": "irkp1cetkdn",
+          "id": "hideCollapse",
+          "title": "Hide Collapse",
+          "type": "bool",
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'inner_form';"
+        },
+        {
+          "index": {
+            "$numberInt": "6"
+          },
+          "title": "Default Open",
+          "id": "defaultOpen",
+          "type": "bool",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Default Open (for inner\\_form)",
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'inner_form' && !this.hideCollapse;",
+          "$key": "2k4k6nmj4oc"
+        },
+        {
+          "index": {
+            "$numberInt": "7"
+          },
+          "title": "Show Copy To Clipboard",
+          "id": "showCopyToClipboard",
+          "type": "bool",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Show Copy To Clipboard (for inner\\_form)",
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'inner_form';",
+          "$key": "jt7radjcpq9"
+        },
+        {
+          "index": {
+            "$numberInt": "8"
+          },
+          "title": "Model Unique Key",
+          "id": "modelUniqueKey",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Model Unique Key (for list)",
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'list';",
+          "$key": "k1y9b5ngk7"
+        },
+        {
+          "index": {
+            "$numberInt": "9"
+          },
+          "title": "Query Params",
+          "id": "queryParams",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Query Params (for list)",
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'list';",
+          "$key": "uriwvcaz1jd"
+        },
+        {
+          "index": {
+            "$numberInt": "10"
+          },
+          "title": "Input Group Params",
+          "id": "inputParams",
+          "type": "form_array",
+          "span": {
+            "$numberInt": "24"
+          },
+          "o": true,
+          "max": {
+            "$numberInt": "10"
+          },
+          "hint": "Input Group Params (for input\\_group)",
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'input_group';",
+          "$key": "94pb39iy9ec",
+          "add": true,
+          "delete": true
+        },
+        {
+          "$key": "74wgur1qhvn",
+          "id": "uploadUISize",
+          "title": "Upload UI Size",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'upload' || parent.type === 'upload_v2';"
+        },
+        {
+          "$key": "kkwc6ylj6lf",
+          "id": "allowWebcam",
+          "title": "Allow webcam",
+          "type": "bool",
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'upload' || parent.type === 'upload_v2';"
+        },
+        {
+          "$key": "327sms6gvcl",
+          "id": "allowGallery",
+          "title": "Allow Gallery",
+          "type": "bool",
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'upload' || parent.type === 'upload_v2';"
+        },
+        {
+          "$key": "rkr4p7z8ub",
+          "id": "datePickerType",
+          "title": "Date Picket type",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "var fieldParentPath = this.$formName.slice(0, this.$formName.length - 5); var parent = resolveProp(this.$root, fieldParentPath, {}); return parent.type === 'date';"
+        }
+      ],
+      "$key": "4tjz8flwlap"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e7bd38da2db33603c16989",
+  "gridTitle": "Crm Grid FormRow FormField Meta",
+  "created": {
+    "$date": {
+      "$numberLong": "1709875210540"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150360"
+    }
+  }
+}

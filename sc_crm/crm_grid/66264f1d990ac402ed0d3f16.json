@@ -1,0 +1,48 @@
+{
+  "_id": "66264f1d990ac402ed0d3f16",
+  "gridTitle": "ReactGrid GlobalSwiperJSCrousal ",
+  "gridType": "form",
+  "crmModelId": "662649f2990ac402ed0d3f14",
+  "rows": [
+    {
+      "$key": "re54leb65pc",
+      "fields": [
+        {
+          "$key": "dwa89ylax7",
+          "id": "autoSlide",
+          "title": "AutoSlide",
+          "type": "bool",
+          "span": 8,
+          "o": true
+        },
+        {
+          "id": "autoSlideTime",
+          "title": "AutoSlideTime",
+          "type": "number",
+          "span": 8,
+          "min": 2,
+          "max": 5,
+          "o": true,
+          "$key": "omwb99qyz0g",
+          "showCondition": "return this.autoSlide;"
+        },
+        {
+          "$key": "8an4ibl3mhe",
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "multiple": false,
+          "span": 24,
+          "min": 1,
+          "max": 5
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-22T11:50:53.846Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

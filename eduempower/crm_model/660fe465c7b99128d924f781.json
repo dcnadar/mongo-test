@@ -1,0 +1,89 @@
+{
+  "_id": "660fe465c7b99128d924f781",
+  "name": "Eduempower User History",
+  "modelType": "COLLECTION",
+  "baseModelId": "66067544eea36066ca04cbcb",
+  "collectionName": "eduempower_user_history",
+  "properties": [
+    {
+      "$key": "3v9bp4fo3ho",
+      "key": "when",
+      "name": "When",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "jug3n6j2mg9",
+      "key": "userId",
+      "name": "User",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "sxdpnpqndrd",
+      "key": "doneBy",
+      "name": "Done By",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    },
+    {
+      "$key": "2z7gp8a3k1h",
+      "key": "type",
+      "name": "Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "wg22e9z2mrq",
+            "key": "STAFF",
+            "value": "Staff"
+          },
+          {
+            "$key": "2tz58qfts7g",
+            "key": "STUDENT",
+            "value": "Student"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ygbmzd84bd",
+      "key": "details",
+      "name": "Details",
+      "dataType": "LIST_OF",
+      "modelId": "660fe2f7c7b99128d924f780",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "wsye7z5xb6m",
+      "key": "historyType",
+      "name": "History Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "iaj46wajw1k",
+            "key": "TRANSFER",
+            "value": "Transfer"
+          },
+          {
+            "$key": "anappap1jpw",
+            "key": "UPDATE",
+            "value": "Update"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "ub3aaw8tshg",
+      "key": "message",
+      "name": "Message",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-05T11:45:41.643Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.514Z"
+}

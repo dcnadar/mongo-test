@@ -1,0 +1,50 @@
+{
+  "_id": {
+    "$oid": "68c3bab770618d003613a97b"
+  },
+  "gridTitle": "User Group Form",
+  "gridType": "form",
+  "crmModelId": "68c2e4ca70618d003613a976",
+  "rows": [
+    {
+      "$key": "b82kvnt41iq",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "$key": "250ps85z67i"
+        },
+        {
+          "$key": "c9jdz7177es",
+          "id": "roles",
+          "title": "Role",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "min": {
+            "$numberInt": "1"
+          },
+          "max": {
+            "$numberInt": "10"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757657783596"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377691798"
+    }
+  }
+}

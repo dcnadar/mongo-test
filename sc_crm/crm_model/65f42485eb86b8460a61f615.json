@@ -1,0 +1,27 @@
+{
+  "_id": "65f42485eb86b8460a61f615",
+  "name": "ReactGrid GlobalFeatureSection5",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "key": "sections",
+      "name": "sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65f434a8eb86b8460a61f618"
+    }
+  ],
+  "cardDataTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-15T10:35:49.842Z"
+}

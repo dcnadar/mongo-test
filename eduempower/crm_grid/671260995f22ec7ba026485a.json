@@ -1,0 +1,97 @@
+{
+  "_id": "671260995f22ec7ba026485a",
+  "gridTitle": "Work Experience",
+  "gridType": "form",
+  "crmModelId": "67124cce5f22ec7ba0264857",
+  "rows": [
+    {
+      "$key": "lzfr2janpps",
+      "fields": [
+        {
+          "$key": "9a8b4zlqxk",
+          "id": "departmentId",
+          "title": "Department",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "designationId"
+          ]
+        },
+        {
+          "$key": "w7f9enrwxx",
+          "id": "designationId",
+          "title": "Designation",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "departmentId=:departmentId departmentId"
+          }
+        },
+        {
+          "$key": "gey2c320bi8",
+          "id": "natureOfEducation",
+          "title": "Nature Of Education",
+          "type": "list",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "ejptdb4lm57",
+          "id": "organizationName",
+          "title": "Organization Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "w6cwt28mqp8",
+          "id": "place",
+          "title": "Place",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "cg49l13dsc6",
+          "id": "from",
+          "title": "From",
+          "type": "date",
+          "min": 0,
+          "span": 8
+        },
+        {
+          "$key": "k2osyg10ica",
+          "id": "to",
+          "title": "To",
+          "type": "date",
+          "span": 8,
+          "min": 0
+        },
+        {
+          "$key": "j95ds3m3zwr",
+          "id": "currentlyWorking",
+          "title": "Currently Working",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "2f1zt7zihc2",
+          "id": "staffId",
+          "type": "list",
+          "multiple": false,
+          "title": "Staff",
+          "span": 8,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-18T13:20:25.662Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "updated": "2025-09-08T10:51:01.474Z"
+}

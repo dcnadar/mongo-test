@@ -1,0 +1,75 @@
+{
+  "_id": "662535c7990ac402ed0d3ecf",
+  "gridTitle": "Eduempower IssuedBooks",
+  "gridType": "table",
+  "crmModelId": "662533b2990ac402ed0d3ecd",
+  "columns": [
+    {
+      "$key": "njxwrt008fc",
+      "key": "bookId",
+      "name": "Book Name",
+      "type": "card",
+      "sort": true,
+      "width": 200
+    },
+    {
+      "$key": "ca7nmwp5g48",
+      "key": "inventoryBookId",
+      "name": "Available Books",
+      "type": "card",
+      "sort": true,
+      "width": 200
+    },
+    {
+      "$key": "nqs5jnssg6",
+      "key": "track",
+      "name": "Track",
+      "type": "text",
+      "sort": true,
+      "width": 200,
+      "valueCondition": "const track = this.track || [];  let htmlString = `     <div style=\"width: 100%; max-width: 600px; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; display: grid; grid-template-columns: 1fr;\"> `;  track.forEach(({ comment, issuedDate, bookReturnDate }) => {     htmlString += `         <div style=\"padding: 10px; border-bottom: 1px solid #ddd;\">             <div style=\"font-weight: bold; color: #333; font-size: 16px; margin-bottom: 5px;\">${comment}</div>             <div style=\"color: #555; font-size: 13px; line-height: 1.5;\">                 <span><strong>Issued Date:</strong> ${new Date(issuedDate).toLocaleDateString()}</span><br>                 <span><strong>Book Return Date:</strong> ${new Date(bookReturnDate).toLocaleDateString()}</span>             </div>         </div>     `; });  htmlString += `</div>`; return htmlString;"
+    },
+    {
+      "$key": "xwnqj89idlk",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": false,
+      "width": 100,
+      "actions": [
+        {
+          "$key": "hqf1t8f9mzc",
+          "value": "Return Book",
+          "gridType": "popupForm",
+          "gridTitle": "Return Book",
+          "apiUrl": "/admin/library/return/book?id=:_id _id"
+        },
+        {
+          "$key": "rbfcn3wiiqb",
+          "value": "Re-Issue",
+          "gridTitle": "Re issue",
+          "gridType": "popupForm",
+          "apiUrl": "/admin/library/re-issue?id=:_id _id"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "agax6801c0s",
+      "gridTitle": "Add Issue Book",
+      "gridType": "popupForm",
+      "value": "Add Issue Book",
+      "apiUrl": "/admin/library/issued-books/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-21T15:50:31.495Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:01.233Z"
+}

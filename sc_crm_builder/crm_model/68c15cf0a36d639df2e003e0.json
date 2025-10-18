@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "68c15cf0a36d639df2e003e0"
+  },
+  "name": "Reset password request",
+  "baseModelId": "65e2c399226e7b80fe49ae3a",
+  "collectionName": "reset_password_request",
+  "properties": [
+    {
+      "$key": "sgardxi5c",
+      "key": "requestId",
+      "name": "requestId",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "bjo08kq479",
+      "key": "isUsed",
+      "name": "isUsed",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "zcfw8osgy4",
+      "key": "email",
+      "name": "email",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "modelType": "COLLECTION",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757502704656"
+    }
+  },
+  "createdBy": "688b3e0b049b509a8e8b88ce",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377696067"
+    }
+  }
+}

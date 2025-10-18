@@ -1,0 +1,42 @@
+{
+  "_id": "6683b6753108ad7b7d063f21",
+  "name": "ReactGrid GlobalContentSection Common Comment",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "lm1898b3ybs",
+      "key": "commentHeading",
+      "name": "CommentHeading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "d94bipiqhfl",
+      "key": "successMessage",
+      "name": "SuccessMessage",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5drm0efsz44",
+      "key": "errorMessage",
+      "name": "ErrorMessage",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "g7th6yheadb",
+      "key": "commentButtonText",
+      "name": "CommentButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "eadsbqnt3vv",
+      "key": "loadMoreButtonText",
+      "name": "LoadMoreButtonText",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T08:12:37.462Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

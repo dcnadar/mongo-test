@@ -1,0 +1,81 @@
+{
+  "_id": "66716610faf6243feb6c997e",
+  "gridTitle": "ReactGrid GlobalTrufalLogin LoginWithotp",
+  "gridType": "form",
+  "crmModelId": "66715eaefaf6243feb6c9979",
+  "rows": [
+    {
+      "$key": "thqa5wli09n",
+      "fields": [
+        {
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "$key": "j7mde553coo"
+        },
+        {
+          "$key": "g00m6jzdr1s",
+          "id": "buttonText",
+          "title": "ButtonText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "ael11b2dlbo",
+          "id": "headingLeftText",
+          "title": "HeadingLeftText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "r84d8g7ets",
+          "id": "forgetText",
+          "title": "ForgetText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "dqs39351dxu",
+          "id": "singUpOtpText",
+          "title": "SingUpOtpText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "nfauuncusuj",
+          "id": "headingLinkText",
+          "title": "HeadingLinkText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "vb9jgkiwuh",
+          "id": "headingRightText",
+          "title": "HeadingRightText",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "odbzydrzc6",
+          "id": "emailaddresslabel",
+          "title": "Emailaddresslabel",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "5xjs1cc51d9",
+          "id": "image",
+          "title": "Image",
+          "type": "upload",
+          "span": 8,
+          "multiple": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-18T10:48:48.186Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

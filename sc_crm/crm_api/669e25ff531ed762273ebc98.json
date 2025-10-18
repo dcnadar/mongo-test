@@ -1,0 +1,13 @@
+{
+  "_id": "669e25ff531ed762273ebc98",
+  "name": " Edit Transaction",
+  "path": "/admin/order/transaction/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "668ce076531ed762273ebc02",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-22T09:27:27.932Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

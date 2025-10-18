@@ -1,0 +1,75 @@
+{
+  "_id": "66838bdb3108ad7b7d063f07",
+  "name": "Blog Reaction",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "trufal_blog_reaction",
+  "properties": [
+    {
+      "$key": "g2w3op4urg",
+      "key": "blogId",
+      "name": "Blog Id",
+      "dataType": "REFERENCE",
+      "modelId": "661cd412aee00c70206deb66"
+    },
+    {
+      "$key": "hdh487gi0v5",
+      "key": "userId",
+      "name": "User Id",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6"
+    },
+    {
+      "$key": "ki1hqgk4nj9",
+      "key": "commentId",
+      "name": "Comment Id",
+      "dataType": "REFERENCE",
+      "modelId": "66838a623108ad7b7d063f06"
+    },
+    {
+      "$key": "hb0s79z2a24",
+      "key": "sourceType",
+      "name": "Source Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "n929yu3yeds",
+            "key": "BLOG",
+            "value": "Blog"
+          },
+          {
+            "$key": "4kgy2pkyyrk",
+            "key": "COMMENT",
+            "value": "Comment"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "twztq17595f",
+      "key": "type",
+      "name": "Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "ln1anwphg39",
+            "key": "LIKE",
+            "value": "Like"
+          },
+          {
+            "$key": "lmuzxhhg0tj",
+            "key": "DISLIKE",
+            "value": "Dislike"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T05:10:51.600Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

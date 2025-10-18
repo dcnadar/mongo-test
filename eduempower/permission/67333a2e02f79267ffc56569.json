@@ -1,0 +1,14 @@
+{
+  "_id": "67333a2e02f79267ffc56569",
+  "key": "setting.department.create",
+  "name": "Department Create",
+  "apisAccess": [
+    "661272e7a10af254b4b43808",
+    "661272f1a10af254b4b43809"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T11:21:18.763Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.385Z"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "6705411e5f22ec7ba026475d",
+  "name": "Edit Package",
+  "path": "/admin/package/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "6704d8525f22ec7ba026473a",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-08T14:26:38.049Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:48.370Z"
+}

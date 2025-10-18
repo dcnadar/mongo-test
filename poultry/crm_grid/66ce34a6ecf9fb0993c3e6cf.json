@@ -1,0 +1,49 @@
+{
+  "_id": "66ce34a6ecf9fb0993c3e6cf",
+  "gridTitle": "Gallery Video form",
+  "gridType": "form",
+  "crmModelId": "66cd86aeecf9fb0993c3e6c3",
+  "rows": [
+    {
+      "$key": "4g9k6ix23uq",
+      "fields": [
+        {
+          "id": "thumb",
+          "title": "Thumb",
+          "type": "upload_v2",
+          "multiple": false,
+          "$key": "kc70ygco8he",
+          "span": 12,
+          "meta": {
+            "uploadUISize": "lg"
+          },
+          "fileAccept": "image/*"
+        },
+        {
+          "$key": "98374v26kat",
+          "id": "video",
+          "title": "Video",
+          "type": "upload_v2",
+          "multiple": false,
+          "span": 12,
+          "meta": {
+            "uploadUISize": "lg"
+          },
+          "fileAccept": "video/mp4,video/x-m4v,video/*"
+        },
+        {
+          "$key": "p5km5um4m3c",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-08-27T20:18:46.458Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

@@ -1,0 +1,200 @@
+{
+  "_id": {
+    "$oid": "68c4685bf66798986dd89f06"
+  },
+  "gridTitle": "User Details Form",
+  "gridType": "form",
+  "crmModelId": "65f6e30d52bbad30f7463f22",
+  "rows": [
+    {
+      "$key": "cox92d4n2ec",
+      "fields": [
+        {
+          "$key": "ix66c31pp4",
+          "id": "firstName",
+          "title": "First Name",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "updateType": "none",
+          "createType": "none"
+        },
+        {
+          "$key": "9ts692w874c",
+          "id": "middleName",
+          "title": "Middle Name",
+          "type": "text",
+          "o": true
+        },
+        {
+          "$key": "o0lsehhcqt8",
+          "id": "lastName",
+          "title": "Last Name",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true
+        },
+        {
+          "$key": "t6199h2bguo",
+          "id": "email",
+          "title": "Email",
+          "type": "email",
+          "span": {
+            "$numberInt": "12"
+          },
+          "onChangeCondition": [
+            {
+              "$key": "mwyu0eag638",
+              "key": "userName",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.email ? this.email.trim().toLowerCase() : \"\";"
+            }
+          ]
+        },
+        {
+          "id": "userName",
+          "title": "Username",
+          "type": "text",
+          "$key": "bn8z1djei15",
+          "span": {
+            "$numberInt": "12"
+          },
+          "updateType": "disabled",
+          "createType": "disabled"
+        },
+        {
+          "$key": "7l62dribpqe",
+          "id": "callingCode",
+          "title": "Calling Code",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "4"
+          },
+          "o": true
+        },
+        {
+          "$key": "umuvi38pna",
+          "id": "mobileNumber",
+          "title": "Mobile Number",
+          "type": "text",
+          "span": {
+            "$numberInt": "13"
+          },
+          "o": true
+        },
+        {
+          "$key": "av9h1t1lkje",
+          "id": "birthDate",
+          "title": "Birth Date",
+          "type": "date",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true
+        },
+        {
+          "$key": "il8mv9jfmoq",
+          "id": "gender",
+          "title": "Gender",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true
+        },
+        {
+          "$key": "3216w00svjf",
+          "id": "status",
+          "title": "Status",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "createType": "disabled",
+          "value": "INVITED"
+        },
+        {
+          "$key": "ivy1truzdt",
+          "id": "isFirstLogin",
+          "title": "Is FirstLogin",
+          "type": "bool",
+          "span": {
+            "$numberInt": "8"
+          },
+          "createType": "hidden_fe",
+          "updateType": "hidden"
+        }
+      ]
+    },
+    {
+      "$key": "7jpv9awivql",
+      "fields": [
+        {
+          "title": "Password",
+          "id": "password",
+          "span": {
+            "$numberInt": "12"
+          },
+          "type": "password",
+          "onChangeCondition": [],
+          "$key": "lfjg0ah6dsn",
+          "hint": "Enter a temprory password, user will have to reset this password after first time login",
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "o": true
+        }
+      ],
+      "showDescription": false
+    },
+    {
+      "$key": "de6bbmysmlo",
+      "label": "Role and Group",
+      "fields": [
+        {
+          "id": "appRoleId",
+          "title": "Role",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "$key": "axk5flwfsei"
+        },
+        {
+          "$key": "iyzba1e0hd",
+          "id": "userGroupId",
+          "title": "User group",
+          "type": "list",
+          "multiple": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757702235133"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377692048"
+    }
+  },
+  "breadcrumb": []
+}

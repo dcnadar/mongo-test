@@ -1,0 +1,112 @@
+{
+  "_id": "65fe91e3af73461003dd2569",
+  "gridTitle": "ReactGrid GlobalBlogCards6",
+  "gridType": "form",
+  "crmModelId": "65fe8f91af73461003dd2567",
+  "rows": [
+    {
+      "$key": "1igjit530jr",
+      "fields": [
+        {
+          "id": "heading",
+          "title": "Heading",
+          "span": 8,
+          "type": "text",
+          "$key": "6t4lu1b9ba3"
+        },
+        {
+          "$key": "rwx3wjluq8i",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 16
+        },
+        {
+          "$key": "jdl7yu5djrj",
+          "id": "date",
+          "title": "Date",
+          "type": "date",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "cerqqlx2hnq",
+          "id": "button",
+          "title": "Button",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 16
+        },
+        {
+          "$key": "f7di3utif7",
+          "id": "user",
+          "title": "User",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "o": true
+        },
+        {
+          "$key": "3r8kml5mq6h",
+          "id": "showDynamicContent",
+          "title": "Show Dynamic Content",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "4h9qzum0nar",
+          "id": "dynamicContentFilter",
+          "title": "Dynamic Content Filters",
+          "span": 24,
+          "showCondition": "return this.showDynamicContent;",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "34tmioydeuv",
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 24,
+          "add": true,
+          "delete": true,
+          "min": 1,
+          "max": 20,
+          "showCondition": "return !this.showDynamicContent;"
+        },
+        {
+          "$key": "l4vtumu5rqh",
+          "id": "showFilter",
+          "title": "ShowFilter",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "eggsvn5eswg",
+          "id": "showSearch",
+          "title": "ShowSearch",
+          "type": "bool",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-23T08:25:07.378Z",
+  "createdBy": "65f1586feece0c4fb315fa82",
+  "upsertDoc": false
+}

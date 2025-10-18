@@ -1,0 +1,15 @@
+{
+  "_id": "66121229a10af254b4b43788",
+  "name": "All Author",
+  "path": "/admin/schoolsetup/author/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "660d8f78c7b99128d924f768",
+  "innerGridType": "table",
+  "innerSourceId": "660d8f38c7b99128d924f767",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T03:25:29.063Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:48.173Z"
+}

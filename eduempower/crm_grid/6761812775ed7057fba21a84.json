@@ -1,0 +1,86 @@
+{
+  "_id": "6761812775ed7057fba21a84",
+  "gridTitle": "Staff Asset",
+  "gridType": "table",
+  "crmModelId": "6760148375ed7057fba21a77",
+  "columns": [
+    {
+      "$key": "a1x8myv8zq6",
+      "key": "name",
+      "name": "Name",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "pofj978na3m",
+      "key": "description",
+      "name": "Description",
+      "sort": true,
+      "type": "text"
+    },
+    {
+      "$key": "n1uqony57cn",
+      "key": "images",
+      "name": "Images",
+      "type": "thumb",
+      "sort": true
+    },
+    {
+      "$key": "elrs83r7vk",
+      "name": "Status",
+      "type": "card",
+      "sort": true,
+      "key": "status"
+    },
+    {
+      "$key": "edj9f79d0v7",
+      "key": "actions",
+      "name": "Actions",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "5zhrfd1tuby",
+          "value": "Return",
+          "gridType": "confirm",
+          "apiUrl": "/api/io/admin/staff/asset/return?assetId=:_id _id",
+          "showGridComment": false,
+          "gridMsg": "are you sure want to return?"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "k9h72jknh1e",
+      "value": "Assign Asset",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/staff/assets/asign",
+      "gridTitle": "Assign Asset to staff"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {
+    "defaultFilters": []
+  },
+  "fetchAdditionalKeys": [
+    "conditionStatus",
+    "currentlyAssignedTo",
+    "ownershipStatus",
+    "usageStatus",
+    "maintenanceStatus"
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-17T13:48:23.437Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true,
+      "documentKey": "currentlyAssignedTo"
+    }
+  ],
+  "updated": "2025-09-08T10:51:03.491Z"
+}

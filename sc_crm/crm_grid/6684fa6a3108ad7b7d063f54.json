@@ -1,0 +1,91 @@
+{
+  "_id": "6684fa6a3108ad7b7d063f54",
+  "gridTitle": "NativeGrid GlobalVideoDescription",
+  "gridType": "form",
+  "crmModelId": "6684f2f93108ad7b7d063f4d",
+  "rows": [
+    {
+      "$key": "ht0nmxgqkj",
+      "fields": [
+        {
+          "id": "bgimage",
+          "title": "Bgimage",
+          "type": "upload",
+          "multiple": false,
+          "span": 8,
+          "$key": "u78cc4cf4z"
+        },
+        {
+          "$key": "8gbxrjm3lzg",
+          "id": "title",
+          "title": "Title",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "zxijc7gog1",
+          "id": "tags",
+          "title": "Tags",
+          "type": "strings",
+          "add": true,
+          "delete": true,
+          "span": 8,
+          "min": 0,
+          "max": 10,
+          "o": false,
+          "multiple": true
+        },
+        {
+          "$key": "n0y1m0dqije",
+          "id": "duration",
+          "title": "Duration",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "kklqbgvcz2b",
+          "id": "rating",
+          "title": "Rating",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "n0iyh9v5m7f",
+          "id": "descriptionHeading",
+          "title": "DescriptionHeading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "meqih6ghb4",
+          "id": "description",
+          "title": "Description",
+          "type": "textarea",
+          "span": 24
+        },
+        {
+          "$key": "sh3ff74jjo",
+          "id": "castHeading",
+          "title": "CastHeading",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "u7wy7x7yq6",
+          "id": "castlist",
+          "title": "Castlist",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 5
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T07:14:50.462Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

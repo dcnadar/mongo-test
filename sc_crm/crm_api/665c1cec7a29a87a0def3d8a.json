@@ -1,0 +1,13 @@
+{
+  "_id": "665c1cec7a29a87a0def3d8a",
+  "name": "All Variant Option",
+  "path": "/admin/product/variant-option/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "665c1c3a7a29a87a0def3d88",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-02T07:19:08.106Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

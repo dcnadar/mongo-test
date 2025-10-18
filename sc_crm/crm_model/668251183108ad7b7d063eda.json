@@ -1,0 +1,52 @@
+{
+  "_id": "668251183108ad7b7d063eda",
+  "name": "NativeGrid GlobalNotification",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "8emlewthdi6",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8ivbbmvnth",
+      "key": "icon",
+      "name": "Icon",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "623h160u1zy",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "hxkwceo9hjj",
+      "key": "subTitle",
+      "name": "SubTitle",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ovto12t6he",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kr9g60x5ge",
+      "key": "timeText",
+      "name": "TimeText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4a77g2pu6rk",
+      "key": "button",
+      "name": "Button",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-01T06:47:52.161Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,258 @@
+{
+  "_id": "6684e3603108ad7b7d063f47",
+  "name": "Order",
+  "modelType": "COLLECTION",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "collectionName": "trufal_order",
+  "properties": [
+    {
+      "$key": "gys3mdpist",
+      "key": "userId",
+      "name": "User Id",
+      "dataType": "REFERENCE",
+      "modelId": "64c7748983c24f1379031dc6",
+      "unique": false
+    },
+    {
+      "$key": "ol09oimdyi9",
+      "key": "orderId",
+      "name": "Order Id",
+      "dataType": "STRING",
+      "unique": true,
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "o2muqy8uurc",
+      "key": "orderDate",
+      "name": "Order Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "80wxbp03dj7",
+      "key": "shippingDate",
+      "name": "Shipping Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "0ghhf3thbca",
+      "key": "deliveredDate",
+      "name": "Delivered Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "rex47r6pngq",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "z6vw74ch6r",
+            "key": "ORDER_PENDING",
+            "value": "Order Pending"
+          },
+          {
+            "$key": "hdjy7ef4n9s",
+            "value": "Order Placed",
+            "key": "ORDER_PLACED"
+          },
+          {
+            "$key": "4a84q6w3vej",
+            "key": "PAYMENT_FAILED",
+            "value": "Payment Failed"
+          },
+          {
+            "$key": "l6hh6sapv8r",
+            "value": "Shipped",
+            "key": "SHIPPED"
+          },
+          {
+            "$key": "p7eqg11ovs",
+            "key": "OUT_FOR_DELIVERY",
+            "value": "Out for Delivery"
+          },
+          {
+            "$key": "1pbq9viga9a",
+            "key": "DELIVERED",
+            "value": "Delivered"
+          },
+          {
+            "$key": "d38h70r0m5p",
+            "key": "REPLACE_REQUEST",
+            "value": "Replace Request"
+          },
+          {
+            "$key": "03u6vhxfdl91",
+            "key": "RETURN_REQUEST",
+            "value": "Return Request"
+          },
+          {
+            "$key": "9zqnnwci1cc",
+            "key": "PICKUP_SCHEDULED",
+            "value": "Pickup Scheduled"
+          },
+          {
+            "$key": "lx0er7xpzc",
+            "key": "OUT_FOR_PICKUP",
+            "value": "Out for Pickup"
+          },
+          {
+            "$key": "gse32ufl6e6",
+            "key": "PICKED",
+            "value": "Picked"
+          },
+          {
+            "$key": "4p0jm53kefb",
+            "key": "REPLACED",
+            "value": "Replaced"
+          },
+          {
+            "$key": "7a0093e5x5w",
+            "key": "RETURNED",
+            "value": "Returned"
+          },
+          {
+            "$key": "jks54at34ts",
+            "key": "REFUNDED",
+            "value": "Refunded"
+          },
+          {
+            "$key": "kg9u52udwd",
+            "key": "CANCELLED",
+            "value": "Cancelled"
+          },
+          {
+            "$key": "snl25hkcvtb",
+            "key": "CANCEL_REQUEST",
+            "value": "Cancel Request"
+          },
+          {
+            "$key": "udn3q00ic3",
+            "key": "SHIPMENT_READY",
+            "value": "Shipment Ready"
+          },
+          {
+            "$key": "6t8j4fofmrs",
+            "key": "IN_TRANSIT",
+            "value": "In Transit"
+          },
+          {
+            "$key": "vnccenigobi",
+            "value": "Pickup Failed",
+            "key": "PICKUP_FAILED"
+          },
+          {
+            "$key": "xm5cjyr744m",
+            "value": "Undelivered",
+            "key": "UNDELIVERED"
+          },
+          {
+            "$key": "9tl6c0w239",
+            "key": "REACHED_AT_DESTINATION",
+            "value": "Reached at Destination"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "suu4a39rjf",
+      "key": "productVariantId",
+      "name": "Product Variant Id",
+      "dataType": "REFERENCE",
+      "modelId": "64a5d14d099de82bca61ca99"
+    },
+    {
+      "$key": "3n0mg9wjzib",
+      "key": "mrp",
+      "name": "MRP",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "tgmun0r3nxb",
+      "key": "price",
+      "name": "Price",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "x2pizs1o24",
+      "key": "orderReview",
+      "name": "Review",
+      "dataType": "INNER_MODEL",
+      "modelId": "66ae069ea436a41ae7ae67bc"
+    },
+    {
+      "$key": "onfo5rsw8g",
+      "key": "cancelData",
+      "name": "cancelData",
+      "unique": false,
+      "dataType": "INNER_MODEL",
+      "modelId": "66b4d63b718ee5699170b6be"
+    },
+    {
+      "$key": "74k57dk818g",
+      "key": "returnData",
+      "name": "Return Data",
+      "dataType": "INNER_MODEL",
+      "modelId": "66b4d610718ee5699170b6bd"
+    },
+    {
+      "$key": "blsw149ztn4",
+      "key": "address",
+      "name": "Address",
+      "dataType": "INNER_MODEL",
+      "modelId": "66a35460e287100717693bcf"
+    },
+    {
+      "$key": "foi9fw1nzrg",
+      "key": "discount",
+      "name": "Discount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "ag4rg5t5ybn",
+      "key": "cancelDate",
+      "name": "Cancel Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "mkhwmtiqus",
+      "key": "nyf_admissionId",
+      "name": "nyf_admissionId",
+      "dataType": "REFERENCE",
+      "modelId": "6761d62275ed7057fba21a8a"
+    },
+    {
+      "$key": "0emok1iu16bs",
+      "key": "taxablePrice",
+      "name": "Taxable Price",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "04tcixq5z8sr",
+      "key": "taxAmount",
+      "name": "Tax Amount",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "598c1aiaq14",
+      "key": "finalPrice",
+      "name": "Final Price",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "i7liyjvrj3r",
+      "key": "taxPercent",
+      "name": "Tax Percent",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "orderId"
+  },
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-03T05:36:32.703Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "66a4aba3e287100717693be0",
+  "name": "edit customer",
+  "path": "/admin/customer/address/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66a3585de287100717693bd0",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-27T08:11:15.066Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

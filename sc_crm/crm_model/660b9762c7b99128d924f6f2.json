@@ -1,0 +1,32 @@
+{
+  "_id": "660b9762c7b99128d924f6f2",
+  "name": "ReactGrid GlobalTeamSections7",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ftg9k4ng8ck",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "b51eyfy8zav",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "90s08is1lt",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "660b96cfc7b99128d924f6f1"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-02T05:28:02.314Z",
+  "createdBy": "660a41ecdeefcc0a51709289"
+}

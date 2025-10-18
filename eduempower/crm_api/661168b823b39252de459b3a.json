@@ -1,0 +1,13 @@
+{
+  "_id": "661168b823b39252de459b3a",
+  "name": "Edit Fee Category",
+  "path": "/admin/schoolsetup/fee-settings/fee-category/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cd81fc7b99128d924f726",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T15:22:32.543Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:45.892Z"
+}

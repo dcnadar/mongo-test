@@ -1,0 +1,42 @@
+{
+  "_id": "661903fbaee00c70206deb26",
+  "gridTitle": "Wishlist",
+  "gridType": "form",
+  "crmModelId": "6618f331aee00c70206deb25",
+  "rows": [
+    {
+      "$key": "3wlcf5dqesw",
+      "fields": [
+        {
+          "$key": "ghsnnpkxifi",
+          "id": "productVariantId",
+          "title": "Product Variant",
+          "type": "list",
+          "multiple": false,
+          "span": 12
+        },
+        {
+          "$key": "yrgz0ukja3p",
+          "id": "customerId",
+          "title": "Customer",
+          "span": 12,
+          "type": "list",
+          "multiple": false,
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-12T09:50:51.144Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true
+    }
+  ],
+  "upsertDoc": false
+}

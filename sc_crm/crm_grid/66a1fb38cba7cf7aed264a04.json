@@ -1,0 +1,52 @@
+{
+  "_id": "66a1fb38cba7cf7aed264a04",
+  "gridTitle": "Product Seo",
+  "gridType": "form",
+  "crmModelId": "648563687d5f915dc103d28f",
+  "rows": [
+    {
+      "$key": "ebluzor2tjo",
+      "fields": [
+        {
+          "$key": "226odiy5oxb",
+          "id": "productSeo.title",
+          "title": "Title",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "i2snos75jt9",
+          "id": "productSeo.description",
+          "title": "Description",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "avg3ipcphi8",
+          "id": "productSeo.keywords",
+          "title": "Keywords",
+          "type": "strings",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "o": true
+        },
+        {
+          "$key": "lttn405g3dl",
+          "id": "productSeo.image",
+          "title": "image",
+          "type": "upload",
+          "span": 8,
+          "multiple": false,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-25T07:14:00.605Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

@@ -1,0 +1,96 @@
+{
+  "_id": {
+    "$oid": "68c40b87f66798986dd89ef1"
+  },
+  "gridTitle": "User Group Account Access Form",
+  "gridType": "form",
+  "crmModelId": "68c2e3bf70618d003613a975",
+  "rows": [
+    {
+      "$key": "lqkml04tge",
+      "fields": [
+        {
+          "$key": "126gmlekyhyn",
+          "id": "admin",
+          "title": "Admin",
+          "type": "bool"
+        },
+        {
+          "id": "role",
+          "title": "Role",
+          "type": "list",
+          "multiple": true,
+          "add": false,
+          "delete": false,
+          "options": [],
+          "$key": "q1bf109mwvo",
+          "showCondition": "return !this.admin;"
+        },
+        {
+          "$key": "9msp6qm26is",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "updateType": "hidden",
+          "createType": "hidden_fe",
+          "onChangeCondition": [],
+          "value": "invited"
+        },
+        {
+          "$key": "39awt1w2wfx",
+          "id": "portalLoginAccess",
+          "title": "Portal Login Access",
+          "type": "bool"
+        }
+      ]
+    },
+    {
+      "$key": "ba0zxywekr",
+      "fields": [
+        {
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "id": "privileges",
+          "title": "Privileges",
+          "span": {
+            "$numberInt": "24"
+          },
+          "$key": "78keze0szco",
+          "meta": {
+            "hideCollapse": false,
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "min": {
+            "$numberInt": "1"
+          },
+          "multiple": false
+        }
+      ],
+      "span": {
+        "$numberInt": "24"
+      }
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "gridParams": [
+    {
+      "key": "userGroupId",
+      "required": true
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1757678471741"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1758377691878"
+    }
+  }
+}

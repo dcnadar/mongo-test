@@ -1,0 +1,15 @@
+{
+  "_id": "67c13aa191597b1039f21176",
+  "name": "Image Bulk upload\t",
+  "path": "/admin/student/bulk/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67c13a2e91597b1039f21174",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-02-28T04:25:05.909Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:50:57.605Z"
+}

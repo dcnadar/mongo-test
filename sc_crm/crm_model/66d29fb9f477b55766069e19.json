@@ -1,0 +1,37 @@
+{
+  "_id": "66d29fb9f477b55766069e19",
+  "name": "ReactGrid GlobalHeader4 categoryMenu",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "8ugttmt95jb",
+      "key": "buttonText",
+      "name": "ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2zomgw68xo1",
+      "key": "icon",
+      "name": "icon",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nt81j31nrvn",
+      "key": "buttonAction",
+      "name": "ButtonAction",
+      "dataType": "INNER_MODEL",
+      "modelId": "650d3713ac425a65d3141bcc"
+    },
+    {
+      "$key": "rg0tx5d3fmq",
+      "key": "enableButton",
+      "name": "EnableButton",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-31T04:44:41.179Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

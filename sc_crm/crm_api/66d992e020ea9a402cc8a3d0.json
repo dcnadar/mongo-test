@@ -1,0 +1,13 @@
+{
+  "_id": "66d992e020ea9a402cc8a3d0",
+  "name": "Customer create public",
+  "path": "/admin/public/customer/create",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66d9906e20ea9a402cc8a3c4",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-05T11:15:44.717Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

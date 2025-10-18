@@ -1,0 +1,12 @@
+{
+  "_id": "661ce4a5aee00c70206deb74",
+  "name": "FAQ",
+  "path": "/admin/website/faq/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "661cd989aee00c70206deb6a",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-15T08:26:13.190Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

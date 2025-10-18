@@ -1,0 +1,44 @@
+{
+  "_id": "667bb0cc74a25c4c696adaf7",
+  "gridTitle": "Navigator Screen",
+  "gridType": "form",
+  "crmModelId": "667ba7f374a25c4c696adaf3",
+  "rows": [
+    {
+      "$key": "1tr5arp0uv5",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "$key": "fq4e3ftc6ir",
+          "span": 12
+        },
+        {
+          "$key": "j9med7tz3z",
+          "id": "screenId",
+          "title": "Screen Id",
+          "span": 12,
+          "type": "list",
+          "multiple": false,
+          "meta": {
+            "searchAdditionalKeys": [
+              "path"
+            ]
+          }
+        },
+        {
+          "$key": "sy1whl5k0rj",
+          "id": "icon",
+          "title": "Icon",
+          "type": "textarea",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-26T06:10:20.884Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

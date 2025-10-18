@@ -1,0 +1,38 @@
+{
+  "_id": "689f04a24e2ed283d94615b4",
+  "name": "placementDriveResults",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "35m9xqv5hp3",
+      "key": "studentId",
+      "name": "student",
+      "dataType": "REFERENCE",
+      "modelId": "6703b5dc30083226ac6affc4"
+    },
+    {
+      "$key": "111au6c8o3qn",
+      "key": "round",
+      "name": "Round",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "81qkqzwxkrt",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "7zdi9pj958u",
+      "key": "feedback",
+      "name": "Feedback",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T09:57:54.691Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.575Z"
+}

@@ -1,0 +1,52 @@
+{
+  "_id": {
+    "$oid": "6899f1537805d23c977499b2"
+  },
+  "name": "Company Details",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "vq0liqbmh3",
+      "key": "subDomain",
+      "name": "Sub Domain",
+      "dataType": "STRING",
+      "listType": "STRING",
+      "unique": true
+    },
+    {
+      "$key": "mqqvzltunrl",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING",
+      "unique": false,
+      "searchable": {
+        "thumb": true
+      }
+    },
+    {
+      "$key": "2168tjynonq",
+      "key": "favicon",
+      "name": "Favicon",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "s2qhavzfw7",
+      "key": "loginImages",
+      "name": "Login Images",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1754919251831"
+    }
+  },
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070153544"
+    }
+  }
+}

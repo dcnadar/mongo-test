@@ -1,0 +1,14 @@
+{
+  "_id": "6739edb75bfbb47aebef466c",
+  "name": "Add Admin",
+  "path": "/admin/account/users/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "6738eff415937f5e7bfb2e64",
+  "gridParams": [],
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-17T13:20:55.012Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

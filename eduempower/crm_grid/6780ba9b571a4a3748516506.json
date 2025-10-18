@@ -1,0 +1,61 @@
+{
+  "_id": "6780ba9b571a4a3748516506",
+  "gridTitle": "Student All History",
+  "gridType": "table",
+  "crmModelId": "660fe465c7b99128d924f781",
+  "rows": [
+    {}
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {
+      "$key": "7hxjx5vt32l",
+      "key": "when",
+      "name": "When",
+      "sort": true,
+      "type": "date"
+    },
+    {
+      "$key": "q8iud29whh",
+      "key": "doneBy",
+      "name": "Done By",
+      "sort": true,
+      "type": "card"
+    },
+    {
+      "$key": "beg9cceujtw",
+      "key": "details",
+      "name": "Details",
+      "type": "changes",
+      "sort": true
+    },
+    {
+      "$key": "pdlyq3dvtj8",
+      "key": "message",
+      "name": "Message",
+      "type": "text",
+      "sort": true
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "gridParams": [
+    {
+      "documentKey": "userId",
+      "key": "studentId",
+      "required": true
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-01-10T06:13:47.193Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:03.792Z"
+}

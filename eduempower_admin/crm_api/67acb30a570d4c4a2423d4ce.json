@@ -1,0 +1,13 @@
+{
+  "_id": "67acb30a570d4c4a2423d4ce",
+  "name": "Edit School Academic Session",
+  "path": "/admin/entity-setup/academic-session/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "67af3e50ff270b0488bcfe24",
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-12T14:41:14.136Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

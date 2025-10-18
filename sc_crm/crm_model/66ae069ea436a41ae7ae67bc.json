@@ -1,0 +1,29 @@
+{
+  "_id": "66ae069ea436a41ae7ae67bc",
+  "name": "Order Review",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "gcnd0q1z0oi",
+      "key": "rating",
+      "name": "Rating",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "1qn3l0mgeo2j",
+      "key": "message",
+      "name": "Message",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ar7mu8e5mt5",
+      "key": "images",
+      "name": "Images",
+      "dataType": "LIST_OF",
+      "listType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-03T10:29:50.530Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

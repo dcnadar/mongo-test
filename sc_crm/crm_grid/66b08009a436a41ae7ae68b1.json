@@ -1,0 +1,45 @@
+{
+  "_id": "66b08009a436a41ae7ae68b1",
+  "gridTitle": "WebsItePageGridThemeSettings BackgroudSvg",
+  "gridType": "form",
+  "crmModelId": "66b069e6a436a41ae7ae68ab",
+  "rows": [
+    {
+      "$key": "z188q6fuii",
+      "fields": [
+        {
+          "$key": "4cwuswhm7aw",
+          "id": "name",
+          "title": "Component name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "pdejxv9w7go",
+          "id": "blur",
+          "title": "Blur",
+          "type": "number",
+          "span": 7
+        },
+        {
+          "$key": "srime1m7efd",
+          "id": "scale",
+          "title": "Scale",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "ng1ks75a8l",
+          "id": "colors",
+          "title": "Colors",
+          "type": "strings",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-05T07:32:25.343Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

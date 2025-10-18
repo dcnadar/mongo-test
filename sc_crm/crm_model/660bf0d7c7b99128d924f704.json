@@ -1,0 +1,20 @@
+{
+  "_id": "660bf0d7c7b99128d924f704",
+  "name": "ReactGrid Global3dCards",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "lfcxd65stz",
+      "dataType": "LIST_OF",
+      "key": "section",
+      "name": "Section",
+      "listType": "INNER_MODEL",
+      "modelId": "6610f9f823b39252de459aff"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-02T11:49:43.458Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

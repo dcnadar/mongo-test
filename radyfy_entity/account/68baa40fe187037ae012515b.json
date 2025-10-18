@@ -1,0 +1,21 @@
+{
+  "_id": "68baa40fe187037ae012515b",
+  "name": "RK enterprise",
+  "aId": "3423",
+  "userDetails": {
+    "firstName": "Pintu",
+    "lastName": "Kumar",
+    "email": "skpintu93@gmail.com"
+  },
+  "companyDetails": {
+    "favicon": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/65e8cdff97f0eca7ba094627/imageUpload/2025/7/20/file_skhklda97fe-1755688945264.png",
+    "loginImages": [
+      "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/65e8cdff97f0eca7ba094627/imageUpload/2025/7/20/file_skhklda97fe-1755688945264.png"
+    ],
+    "subDomain": "rk-enterprise",
+    "logo": "/65e23e399013eda2edcd3f2e/65e2539fefb82357eb86d514/65e8cdff97f0eca7ba094627/imageUpload/2025/7/20/file_skhklda97fe-1755688945264.png"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": "2025-09-05T08:49:19.185Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

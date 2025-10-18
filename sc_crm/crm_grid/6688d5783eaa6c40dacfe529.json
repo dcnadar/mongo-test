@@ -1,0 +1,35 @@
+{
+  "_id": "6688d5783eaa6c40dacfe529",
+  "gridTitle": "NativeGrid GlobalProductOrders",
+  "gridType": "form",
+  "crmModelId": "6688d4f83eaa6c40dacfe528",
+  "rows": [
+    {
+      "$key": "88d6wj7w60f",
+      "fields": [
+        {
+          "id": "headerTitle",
+          "title": "HeaderTitle",
+          "type": "text",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-06T05:26:16.257Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

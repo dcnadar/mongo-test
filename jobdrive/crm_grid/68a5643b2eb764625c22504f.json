@@ -1,0 +1,27 @@
+{
+  "_id": "68a5643b2eb764625c22504f",
+  "gridTitle": "Interview Reschedule",
+  "gridType": "form",
+  "crmModelId": "68a2dff154ca9a05d8c9777f",
+  "rows": [
+    {
+      "$key": "ad07ivbkaqf",
+      "fields": [
+        {
+          "id": "interviewDateAndTime",
+          "title": "Scheduled date and time",
+          "type": "date_time",
+          "$key": "kzjd0ahwh4",
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-20T05:59:23.508Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "postUrl": "/api/io/admin/interview/reschedule",
+  "updated": "2025-09-05T11:02:53.279Z"
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "66839d583108ad7b7d063f1a",
+  "name": "Add Reaction",
+  "path": "/admin/website/blog/reaction/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66838db73108ad7b7d063f0c",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T06:25:28.259Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

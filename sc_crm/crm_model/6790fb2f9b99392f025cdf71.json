@@ -1,0 +1,54 @@
+{
+  "_id": "6790fb2f9b99392f025cdf71",
+  "name": "ReactGrid GlobalContactUsForm",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "q73iir3v5c",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nnwmftn585",
+      "key": "nameLabel",
+      "name": "NameLabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "a2c0p7zd80r",
+      "key": "mobileLabel",
+      "name": "MobileLabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ph3dta54vkb",
+      "key": "emailLabel",
+      "name": "EmailLabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "r90kthpzr1j",
+      "key": "messageLabel",
+      "name": "MessageLabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "21yp7l823sv",
+      "key": "saveButtonLabel",
+      "name": "SaveButtonLabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "9yr5wqa741t",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-01-22T14:05:35.482Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

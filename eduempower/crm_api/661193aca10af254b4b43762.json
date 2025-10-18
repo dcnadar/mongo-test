@@ -1,0 +1,13 @@
+{
+  "_id": "661193aca10af254b4b43762",
+  "name": "Edit Subject Teacher",
+  "path": "/admin/schoolsetup/examinations/subject-teacher/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "661a746caee00c70206deb58",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T18:25:48.191Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:47.242Z"
+}

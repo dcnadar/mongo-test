@@ -1,0 +1,13 @@
+{
+  "_id": "66d867b622d6741286d071e2",
+  "name": "Delivery service provider",
+  "path": "/admin/account/setting/delivery-service-provider",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "66d86b9a22d6741286d071ec",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-04T13:59:18.785Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

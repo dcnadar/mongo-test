@@ -1,0 +1,13 @@
+{
+  "_id": "66194cf3aee00c70206deb4b",
+  "name": "All Staff",
+  "path": "/admin/staff/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66194ccfaee00c70206deb4a",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-12T15:02:11.831Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:51.047Z"
+}

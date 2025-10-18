@@ -1,0 +1,18 @@
+{
+  "_id": "689f09c97805d23c977499c2",
+  "name": "AccountsBase",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "2qg60ehrc17",
+      "key": "name",
+      "name": "Name",
+      "unique": true,
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-08-15T10:19:53.895Z",
+  "createdBy": "688b3e0b049b509a8e8b88ce",
+  "updated": "2025-09-08T10:51:08.864Z"
+}

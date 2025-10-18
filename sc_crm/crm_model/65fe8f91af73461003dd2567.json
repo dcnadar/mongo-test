@@ -1,0 +1,76 @@
+{
+  "_id": "65fe8f91af73461003dd2567",
+  "name": "ReactGrid GlobalBlogCards6",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "4004rc0qtbj",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6i3k5qr6z9p",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "0m3sr5ud7ljh",
+      "key": "date",
+      "name": "Date",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "5v4cejp1ccq",
+      "key": "user",
+      "name": "User",
+      "dataType": "INNER_MODEL",
+      "modelId": "65b53659f7815fa135bd04d9"
+    },
+    {
+      "$key": "wnohsa9mh1",
+      "key": "button",
+      "name": "Button",
+      "dataType": "INNER_MODEL",
+      "modelId": "65b0b2b014cae9d8eba5398a",
+      "listType": "INNER_MODEL"
+    },
+    {
+      "$key": "25q55cmfn0b",
+      "key": "showDynamicContent",
+      "name": "Show Dynamic Content",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "wzy19u6mlv",
+      "key": "dynamicContentFilter",
+      "name": "Dynamic Content Filter",
+      "dataType": "INNER_MODEL",
+      "modelId": "66222ca07d57294ed27050fa"
+    },
+    {
+      "$key": "acqlqsdqb8e",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "65fe9123af73461003dd2568"
+    },
+    {
+      "$key": "39m6gaym0b8",
+      "key": "showFilter",
+      "name": "ShowFilter",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "5vv6i1lm20p",
+      "key": "showSearch",
+      "name": "ShowSearch",
+      "dataType": "BOOLEAN"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-23T08:15:13.682Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

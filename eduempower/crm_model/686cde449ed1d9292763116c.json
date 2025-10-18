@@ -1,0 +1,25 @@
+{
+  "_id": "686cde449ed1d9292763116c",
+  "name": "Eduempower User Management",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ixx084y5mgr",
+      "key": "loginId",
+      "name": "Login ID",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "x7sqiwfp59r",
+      "key": "password",
+      "name": "Password",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-07-08T09:00:52.910Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:08.798Z"
+}

@@ -1,0 +1,169 @@
+{
+  "_id": "660ace73c7b99128d924f6c4",
+  "name": "Eduempower Class",
+  "modelType": "COLLECTION",
+  "baseModelId": "660678a6eea36066ca04cbcd",
+  "collectionName": "eduempower_class",
+  "properties": [
+    {
+      "$key": "iplpiev3tek",
+      "key": "classType",
+      "name": "Class Type",
+      "dataType": "REFERENCE",
+      "data": {
+        "options": [
+          {
+            "$key": "tfl7s9704pg",
+            "key": "NURSERY",
+            "value": "Nursery"
+          },
+          {
+            "$key": "igfeviknuz8",
+            "key": "LKG",
+            "value": "L.K.G"
+          },
+          {
+            "$key": "rjm9sgzwcdo",
+            "key": "UKG",
+            "value": "U.K.G"
+          },
+          {
+            "$key": "fk4eds68dh6",
+            "key": "PREKG",
+            "value": "Pre-KG"
+          },
+          {
+            "$key": "jubmdd466xs",
+            "key": "I",
+            "value": "I"
+          },
+          {
+            "$key": "tnnkgjs37l",
+            "key": "II",
+            "value": "II"
+          },
+          {
+            "$key": "cd6gxrv8xsr",
+            "key": "III",
+            "value": "III"
+          },
+          {
+            "$key": "fdvkss6lj8",
+            "key": "IV",
+            "value": "IV"
+          },
+          {
+            "$key": "dw0n5qf3d0v",
+            "key": "V",
+            "value": "V"
+          },
+          {
+            "$key": "o27z3xnhmy",
+            "key": "VI",
+            "value": "VI"
+          },
+          {
+            "$key": "89d2gci5atx",
+            "key": "VII",
+            "value": "VII"
+          },
+          {
+            "$key": "68ao0b751xi",
+            "key": "VIII",
+            "value": "VIII"
+          },
+          {
+            "$key": "x8mtqzs5rdk",
+            "key": "IX",
+            "value": "IX"
+          },
+          {
+            "$key": "x170b9wt3c",
+            "key": "X",
+            "value": "X"
+          },
+          {
+            "$key": "m4rjdixb99",
+            "key": "XI",
+            "value": "XI"
+          },
+          {
+            "$key": "y539p8m4gpi",
+            "key": "XII",
+            "value": "XII"
+          }
+        ]
+      },
+      "modelId": "673883452989183eda4d14b0"
+    },
+    {
+      "$key": "3py9zjmtqxs",
+      "key": "classNameInWord",
+      "name": "Class Name In Word",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "n4brhcfbcb",
+      "key": "capacity",
+      "name": "Capacity",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "nnqixsejofl",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "1ene04lggv4",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "auzh3n6ins",
+            "key": "INACTIVE",
+            "value": "Inactive"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "vtoo91xvp1q",
+      "key": "numberOfSections",
+      "name": "Number Of Sections",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "e0sz7nx1f6b",
+      "key": "noOfIncharge",
+      "name": "No Of Incharge",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "622pkscdkl6",
+      "key": "sections",
+      "name": "Sections",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "660698f6eea36066ca04cbce"
+    },
+    {
+      "$key": "0lkgu6qu58r",
+      "key": "sequenceNo",
+      "name": "Sequence Number",
+      "dataType": "INTEGER"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "classNameInWord"
+  },
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-01T15:10:43.933Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:51:06.112Z"
+}

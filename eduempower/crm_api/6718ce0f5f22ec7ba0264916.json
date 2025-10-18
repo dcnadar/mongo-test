@@ -1,0 +1,15 @@
+{
+  "_id": "6718ce0f5f22ec7ba0264916",
+  "name": "All Apply Leave",
+  "path": "/admin/leave/apply-leave/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6718cd6f5f22ec7ba0264913",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-23T10:21:03.614Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:53.485Z"
+}

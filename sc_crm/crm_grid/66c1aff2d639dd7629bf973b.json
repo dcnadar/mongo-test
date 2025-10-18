@@ -1,0 +1,35 @@
+{
+  "_id": "66c1aff2d639dd7629bf973b",
+  "gridTitle": "CashfreePaymentGatewayConfig",
+  "gridType": "form",
+  "crmModelId": "66c1af4dd639dd7629bf973a",
+  "rows": [
+    {
+      "$key": "cgxv1nqxqh6",
+      "fields": [
+        {
+          "id": "cashfreeApiKey",
+          "type": "text",
+          "title": "Cashfree API Key",
+          "span": 24,
+          "$key": "lqu8amlhuxr"
+        },
+        {
+          "$key": "pw6eed4tpgm",
+          "id": "cashfreeSecretKey",
+          "title": "Cashfree Secret Key",
+          "type": "text",
+          "span": 24
+        }
+      ],
+      "showDescription": true,
+      "descriptionSpan": 16,
+      "description": "#### Cashfree API Key\n\n* The key provided by Cashfree for accessing its API.\n\n#### Cashfree Secret Key\n\n* The confidential key used to secure transactions alongside the API key.\n\n#### Setup Webhook\n\n* This is the <html style=\"color : red\">most recommended</html> to setup webhook\n* Please read <html style=\"color : red\">'To Setup Webhook'</html> which is given below for setup webhook.\n***\n#### To Generate Cashfree Api Key and Secret Key\n\n* **Sign Up / Log In:**\n  * If you don’t have an account, sign up at [Cashfree](https://www.cashfree.com/ \"Cashfree\") If you already have one, simply log in to your Cashfree dashboard.\n* **Switch Environment**\n  * Make sure you have in Production Mode.\n* **Navigate to the API Section**\n  * In your Cashfree dashboard, look for the **\"Settings\"** or **\"Developer Settings\"** on your dashboard.\n  * After going to settings you will find API keys inside **\"Payment Gateway\"** section.\n* **Generate New Keys**\n  * In the API Keys section, look for a button or link that says **\"Generate API Key\"** or **\"Create New Key\"**.\n  * Click this button. Cashfree will then generate a new set of keys for your account.\n* **Copy and Save Your Keys:**\n  * After the keys are generated, you will see both the **API Key** (public key) and the **Secret Key** (confidential key) displayed on the screen.\n  * **Important:** It’s recommended to store them securely (for example, in a secure password manager) as you may not be able to view the Secret Key again once you navigate away.\n  * Now copy the keys And paste it here in the **Cashfree API Key** and **Cashfree Secret Key** column.\n* **Use Your Keys Safely:**\n  * Do not share your secret key with anyone.\n***\n#### To Setup Webhook\n\n* **Log In to Your Razorpay Dashboard:**\n  * Visit [Cashfree](https://www.cashfree.com) and log in with your credentials.\n* **Navigate to the Webhooks Section:**\n  * In your Cashfree dashboard, look for the **\"Settings\"** or **\"Developer Settings\"** on your dashboard.\n  * After going to settings you will find Webhooks inside **\"Payment Gateway\"** section.\n* **Add a New Webhook:**\n  * Click the **Add Webhook Endpoint** (or similar) button.\n  * This URL is the endpoint on your server where you want to receive notifications.\n  * The **Webhook Endpoint URL** should be:\n  <html style=\"color : red\">https://{yourdomainName}/api/public/webhook/cash-free/payment</html>\n  * eg:\n  [https://example.com/api/public/webhook/cash-free/payment](https://example.com/api/public/webhook/cash-free/payment)\n* **Select Webhook Version**\n  * The webhook version should be:<html style=\"color : red\">2022-09-01</html>\n* **Test Endpoint Url**\n  * Click the test button to test given Webhook Endpoint Url correct or not.\n  * After test if Endopint Url correct then click to continue button.\n* **Add Policy Details**\n  * Set Retry Policy as:<html style=\"color : red\">Default</html>\n  * There will be total of 3 retries and each retry will happen after 2,10,30 minutes\n* **Select Event Types**\n  * Choose which events you’d like to be notified about (e.g., payment success, payment failure, refunds).\n  * Select these events:\n    * <html style=\"color : red\">success payment</html>\n    * <html style=\"color : red\">failed payment</html>\n    * <html style=\"color : red\">refund</html>\n  * Check the appropriate boxes or follow the provided options to subscribe to these events.\n* **Save Your Webhook Configuration**\n  * Click **Save** or **Update** to store your settings.\n  * Confirm that your changes have been applied successfully.\n"
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-18T08:25:22.993Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "689c74fe61be2ca02fc40905",
+  "gridTitle": "Training",
+  "gridType": "table",
+  "crmModelId": "689c3cc7e8e746ac85de559c",
+  "columns": [
+    {
+      "$key": "hwffvi7g5h4",
+      "key": "trainingBasicInformation",
+      "name": "Basic Information",
+      "type": "text",
+      "sort": true,
+      "valueCondition": "const info = this.trainingBasicInformation || {};    let htmlString = `      <div style=\"width: 100%; max-width: 600px; margin: 0 auto; border-radius: 8px; overflow: hidden; display: grid; grid-template-columns: 1fr;\">          <div style=\"padding: 10px;\">              <div style=\"font-weight: bold; color: #333; font-size: 16px; margin-bottom: 5px;\">                  ${info.traningtitle || 'N/A'}              </div>              <div style=\"color: #555; font-size: 13px; line-height: 1.5;\">                  <span><strong>Category:</strong> ${info.category || 'N/A'}</span><br>                  <span><strong>Training Type:</strong> ${info.trainingtype || 'N/A'}</span><br>                  <span><strong>Duration:</strong> ${info.duration !== undefined ? info.duration + ' Days' : 'N/A'}</span><br>                  <span><strong>Max Participants:</strong> ${info.maxparticipants !== undefined ? info.maxparticipants : 'N/A'}</span>              </div>          </div>      </div>  `;    return htmlString;"
+    },
+    {
+      "$key": "bbqx9nogoon",
+      "type": "text",
+      "valueCondition": "function formatDate(dateString) {        if (!dateString) return \"N/A\";        const date = new Date(dateString);        if (isNaN(date)) return \"N/A\";        return date.toLocaleDateString(\"en-GB\", { day: \"2-digit\", month: \"short\", year: \"numeric\" });  }    function formatTime(timeString) {        if (!timeString) return \"N/A\";        if (/^\\d{1,2}:\\d{2}$/.test(timeString)) {              const [hours, minutes] = timeString.split(\":\").map(Number);              const date = new Date();              date.setHours(hours, minutes, 0, 0);              return date.toLocaleTimeString(\"en-US\", { hour: \"2-digit\", minute: \"2-digit\", hour12: true });        }        const date = new Date(timeString);        if (!isNaN(date)) {              return date.toLocaleTimeString(\"en-US\", { hour: \"2-digit\", minute: \"2-digit\", hour12: true });        }        return \"N/A\";  }    const scheduleData = this.trainingScheduleAndVenue || {};  const scheduleList = scheduleData.trainingSchedule || [];    let htmlString = `        <div style=\"width: 100%; max-width: 600px; margin: 0 auto; border-radius: 8px; overflow: hidden;\">              <div style=\"padding: 15px; font-size: 14px; color: #333;\">                    <div style=\"margin-bottom: 10px;\">                          <strong>Date:</strong> ${formatDate(scheduleData.startDate)} - ${formatDate(scheduleData.enddate)}                    </div>                    <div style=\"margin-bottom: 10px;\">                          <strong>Venue:</strong> ${scheduleData.venue || \"N/A\"}                    </div>                    <div style=\"margin-bottom: 10px;\">                          <strong>Schedule:</strong>                          ${scheduleList.length > 0             ? `<ul style=\"padding-left: 18px; margin-top: 5px;\">${                scheduleList.map(item => `                                              <li>${(item.schedule || \"\").charAt(0).toUpperCase() + (item.schedule || \"\").slice(1).toLowerCase()} - ${formatTime(item.time)}</li>`).join(\"\")}              </ul>`             : \"N/A\"}                    </div>              </div>        </div>  `;    return htmlString;",
+      "key": "trainingScheduleAndVenue",
+      "name": "Schedule & Venue",
+      "sort": true
+    },
+    {
+      "$key": "5ovi2dp4k6w",
+      "key": "trainingTrainerInformation",
+      "name": "Trainer Information",
+      "type": "text",
+      "sort": true,
+      "valueCondition": "const trainerData = this.trainingTrainerInformation || {};    let htmlString = `        <div style=\"width: 100%; max-width: 600px; margin: 0 auto; border-radius: 8px; overflow: hidden;\">              <div style=\"padding: 15px; font-size: 14px; color: #333;\">                    <div style=\"margin-bottom: 10px;\">                          <strong>Trainer Name:</strong> ${trainerData.trainername || \"N/A\"}                    </div>                    <div>                          <strong>Trainer Email:</strong> ${trainerData.traineremail || \"N/A\"}                    </div>              </div>        </div>  `;    return htmlString;"
+    },
+    {
+      "$key": "a6pnqtk8j9i",
+      "key": "trainingAdditionalFeatures",
+      "name": "Additional Features",
+      "type": "text",
+      "valueCondition": "const featuresData = this.trainingAdditionalFeatures || {};    let htmlString = `        <div style=\"width: 100%; max-width: 600px; margin: 0 auto; border-radius: 8px; overflow: hidden;\">              <div style=\"padding: 15px; font-size: 14px; color: #333;\">                    <div style=\"margin-bottom: 10px;\">                          <strong>Enable Quiz:</strong> ${           featuresData.enablequiz?.includes(\"enablequiz\")              ? \"Yes - Enable quiz/assessment for this training\"              : \"No\"         }                    </div>                    <div style=\"margin-bottom: 10px;\">                          <strong>Completion Criteria:</strong> ${featuresData.completioncriteria || \"N/A\"}                    </div>                    <div>                          <strong>Certificate Template:</strong> ${featuresData.certificatetemplate || \"N/A\"}                    </div>              </div>        </div>  `;    return htmlString;",
+      "sort": true
+    },
+    {
+      "$key": "9rgz5d1p79v",
+      "key": "actions",
+      "name": "Actions",
+      "type": "options",
+      "actions": [
+        {
+          "$key": "cqqj0dlogtv",
+          "value": "View Details",
+          "gridTitle": "Details",
+          "gridType": "slug",
+          "slugTarget": "_self",
+          "apiUrl": "/admin/training/edit?trainingId=:_id _id"
+        }
+      ],
+      "sort": true
+    }
+  ],
+  "actions": [
+    {
+      "$key": "zgrgkvppt99",
+      "gridTitle": "Add Training",
+      "gridType": "popupForm",
+      "value": "Add Training",
+      "apiUrl": "/admin/training/add"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-13T11:20:30.124Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:52.398Z"
+}

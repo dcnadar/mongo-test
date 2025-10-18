@@ -1,0 +1,29 @@
+{
+  "_id": "65b91b639fd5786746ae453f",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-30T15:53:07.516Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Sections",
+          "id": "sections",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 1,
+          "max": 20,
+          "add": true,
+          "delete": true,
+          "hint": "Category data"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b91b639fd5786746ae453d",
+  "gridTitle": "ReactGrid GlobalImageWithTextCard"
+}

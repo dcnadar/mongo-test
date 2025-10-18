@@ -1,0 +1,42 @@
+{
+  "_id": "66ab5146e287100717693d31",
+  "name": "WebsiteGlobalThemeButtonCommonStyleSettings",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "ptcmw8bj0qa",
+      "key": "backgroundColor",
+      "name": "Background Color",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "fhf59ji6clu",
+      "key": "textColor",
+      "name": "Text Color",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6kk7zcsthwn",
+      "key": "borderColor",
+      "name": "Border Color",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "g26brwyk5de",
+      "key": "borderRadius",
+      "name": "Border Radius",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "re82prkqruh",
+      "key": "borderWidth",
+      "name": "Border Width",
+      "dataType": "DOUBLE"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T09:11:34.579Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

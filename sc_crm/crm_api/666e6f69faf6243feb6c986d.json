@@ -1,0 +1,14 @@
+{
+  "_id": "666e6f69faf6243feb6c986d",
+  "name": "Edit SVG Icon",
+  "path": "/admin/website/settings/icon/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "666d27c7faf6243feb6c9811",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-16T04:51:53.050Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

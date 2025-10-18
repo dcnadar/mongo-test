@@ -1,0 +1,14 @@
+{
+  "_id": "67330f2f02f79267ffc5655e",
+  "key": "staff.create",
+  "name": "Staff Create",
+  "apisAccess": [
+    "66194d23aee00c70206deb4d",
+    "66194d2aaee00c70206deb4e"
+  ],
+  "conditions": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-12T08:17:51.926Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47",
+  "updated": "2025-09-08T10:51:09.100Z"
+}

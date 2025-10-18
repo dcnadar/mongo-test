@@ -1,0 +1,112 @@
+{
+  "_id": {
+    "$oid": "65e5b5ca41f4f9dcaa63ac7a"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Title",
+          "id": "title",
+          "type": "text",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": true,
+          "$key": "d8qj28hhllg"
+        },
+        {
+          "$key": "v922uw5y68o",
+          "id": "type",
+          "title": "Type",
+          "type": "text",
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          }
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Thumb",
+          "id": "thumb",
+          "type": "text",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": true,
+          "$key": "asn4kyp7pjn"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Subtitles",
+          "id": "subtitles",
+          "type": "strings",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": true,
+          "$key": "s6hfgygttr"
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Slug",
+          "id": "slug",
+          "type": "text",
+          "span": {
+            "$numberInt": "6"
+          },
+          "o": true,
+          "$key": "3tkntj7dg2k"
+        },
+        {
+          "$key": "137kt3243lv",
+          "id": "thumbInitials",
+          "title": "Thumb Initials",
+          "type": "text",
+          "o": true,
+          "span": {
+            "$numberInt": "4"
+          }
+        },
+        {
+          "$key": "5fo4tbllzyp",
+          "id": "thumbColor",
+          "title": "Thumb Color",
+          "type": "color",
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          }
+        }
+      ],
+      "$key": "hic1ijo3g7a"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e4e720d796c9ccbd1b408d",
+  "gridTitle": "Crm Model CardDataTargets",
+  "created": {
+    "$date": {
+      "$numberLong": "1709553098891"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070149985"
+    }
+  }
+}

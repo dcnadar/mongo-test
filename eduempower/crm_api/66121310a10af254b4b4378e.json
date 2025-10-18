@@ -1,0 +1,15 @@
+{
+  "_id": "66121310a10af254b4b4378e",
+  "name": "All Vendor",
+  "path": "/admin/schoolsetup/vendor/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "661210eba10af254b4b43782",
+  "innerGridType": "table",
+  "innerSourceId": "660d8fe0c7b99128d924f76a",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T03:29:20.099Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:48.313Z"
+}

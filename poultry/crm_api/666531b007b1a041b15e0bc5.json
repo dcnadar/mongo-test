@@ -1,0 +1,13 @@
+{
+  "_id": "666531b007b1a041b15e0bc5",
+  "name": "All Farmer Producer Organization",
+  "path": "/admin/groups/farmer-producer-organization/all",
+  "apiType": "POST",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "6664551f07b1a041b15e0ba9",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-09T04:38:08.778Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

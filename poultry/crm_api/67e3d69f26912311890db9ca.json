@@ -1,0 +1,14 @@
+{
+  "_id": "67e3d69f26912311890db9ca",
+  "name": "Farmer export",
+  "path": "/admin/farmer/export/excel",
+  "apiType": "POST",
+  "action": "DOWNLOAD_FILE",
+  "downloadFileType": "EXCEL",
+  "getAllRecords": true,
+  "sourceId": "6662b14b07b1a041b15e0b5d",
+  "ecomApiMappings": [],
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2025-03-26T10:27:43.246Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

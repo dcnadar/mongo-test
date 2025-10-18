@@ -1,0 +1,13 @@
+{
+  "_id": "6621f53c7d57294ed27050f0",
+  "name": "LeadFullAccess",
+  "apisAccess": [
+    "66130cc3a10af254b4b4383d",
+    "66130c9ba10af254b4b4383c",
+    "6613100ea10af254b4b4383e",
+    "66131028a10af254b4b4383f"
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-19T04:38:20.079Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

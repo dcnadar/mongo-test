@@ -1,0 +1,13 @@
+{
+  "_id": "6611830da10af254b4b43745",
+  "name": "Add Fee Concession",
+  "path": "/admin/schoolsetup/fee-settings/fee-concession/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "660cef75c7b99128d924f732",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-06T17:14:53.083Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:46.415Z"
+}

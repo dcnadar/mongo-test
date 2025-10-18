@@ -1,0 +1,76 @@
+{
+  "_id": "6679025961dc8d328bfa9b24",
+  "name": "ReactGrid GlobalTrufalResetPassword",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "dcxdq1nagus",
+      "key": "logo",
+      "name": "Logo",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "x1kfael0n8o",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "nynp71w91cm",
+      "key": "headingLeftText",
+      "name": "HeadingLeftText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ve6gqnfi2sf",
+      "key": "forgetText",
+      "name": "ForgetText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "97pcpaum6cl",
+      "key": "emailaddresslabel",
+      "name": "Emailaddresslabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "k1ijo6sw1jp",
+      "key": "passwordlabel",
+      "name": "Passwordlabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "pozi696ftvk",
+      "key": "confirmpasswordlabel",
+      "name": "Confirmpasswordlabel",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "y23yzxk6h9a",
+      "key": "buttonText",
+      "name": "Enable Button",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "t2l44so917s",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "4clxbc0d1ft",
+      "key": "successMessage",
+      "name": "SuccessMessage",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "g1pye6tkznr",
+      "key": "errorMessage",
+      "name": "ErrorMessage",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-24T05:21:29.607Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

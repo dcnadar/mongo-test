@@ -1,0 +1,12 @@
+{
+  "_id": "6611771423b39252de459b48",
+  "name": " Website Footer Section",
+  "path": "/admin/website/footer/section/edit/update",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "66113f8423b39252de459b1c",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-06T16:23:48.918Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

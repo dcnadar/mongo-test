@@ -1,0 +1,15 @@
+{
+  "_id": "66a34d9ee287100717693bcd",
+  "name": "Order Settings",
+  "path": "/admin/account/setting/order",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "66657c9a07b1a041b15e0bd8",
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T07:17:50.715Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "innerGridType": "form",
+  "innerSourceId": "66a34d7ee287100717693bcc"
+}

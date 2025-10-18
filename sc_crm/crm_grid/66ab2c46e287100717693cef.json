@@ -1,0 +1,52 @@
+{
+  "_id": "66ab2c46e287100717693cef",
+  "gridTitle": "Stock Availble Form",
+  "gridType": "form",
+  "crmModelId": "669a1f0e531ed762273ebc6f",
+  "rows": [
+    {
+      "$key": "t3dx0dxc5ca",
+      "fields": [
+        {
+          "$key": "3ub7eoyozwh",
+          "id": "productVariantId",
+          "title": "Product Variant",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "updateType": "disabled",
+          "createType": "disabled"
+        },
+        {
+          "$key": "dsjwztw4pip",
+          "id": "availableDate",
+          "title": "Available Date",
+          "type": "date",
+          "span": 8
+        },
+        {
+          "$key": "25ms09vefh9",
+          "id": "availableMessage",
+          "title": "Available Message",
+          "type": "textarea",
+          "span": 8
+        },
+        {
+          "$key": "pbpaoxchseo",
+          "id": "status",
+          "title": "Status",
+          "type": "text",
+          "value": "AVAILABLE",
+          "updateType": "hidden_fe",
+          "createType": "hidden_fe",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T06:33:42.527Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "upsertDoc": false
+}

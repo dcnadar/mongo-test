@@ -1,0 +1,42 @@
+{
+  "_id": "660cd44ac7b99128d924f722",
+  "gridTitle": "Eduempower Designation",
+  "gridType": "form",
+  "crmModelId": "660818ea60d4f873b5fa4f48",
+  "rows": [
+    {
+      "$key": "sw9kiayyl5q",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8,
+          "$key": "at2h6pxptmd"
+        },
+        {
+          "$key": "2qgtylxujxv",
+          "id": "departmentId",
+          "title": "Department Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "createType": "hidden_fe",
+          "updateType": "hidden"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T04:00:10.431Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "departmentId",
+      "required": true
+    }
+  ],
+  "upsertDoc": false,
+  "updated": "2025-09-08T10:50:58.213Z"
+}

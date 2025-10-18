@@ -1,0 +1,12 @@
+{
+  "_id": "662377177928e73376eab9f9",
+  "name": "Password",
+  "path": "/admin/account/staff/password/update",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "662371b27d57294ed2705109",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-20T08:04:39.981Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

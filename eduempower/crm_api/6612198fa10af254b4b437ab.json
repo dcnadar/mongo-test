@@ -1,0 +1,13 @@
+{
+  "_id": "6612198fa10af254b4b437ab",
+  "name": "Add Publisher",
+  "path": "/admin/schoolsetup/publisher/add",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "660cf5dbc7b99128d924f73f",
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-07T03:57:03.220Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:48.896Z"
+}

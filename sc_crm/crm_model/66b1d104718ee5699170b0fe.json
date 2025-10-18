@@ -1,0 +1,22 @@
+{
+  "_id": "66b1d104718ee5699170b0fe",
+  "name": "ReactGrid GlobalPricing1 header",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "izs2tngtp2",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dqtyxmhatsu",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-06T07:30:12.217Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

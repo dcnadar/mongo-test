@@ -1,0 +1,11 @@
+{
+  "_id": "65f14859eb86b8460a61f5f4",
+  "name": "Add Website Page Section Info",
+  "path": "/admin/website/settings/section-info/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "65f147b8eb86b8460a61f5f2",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-13T06:31:53.925Z"
+}

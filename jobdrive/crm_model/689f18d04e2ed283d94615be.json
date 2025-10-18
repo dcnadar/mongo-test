@@ -1,0 +1,43 @@
+{
+  "_id": "689f18d04e2ed283d94615be",
+  "name": "Settings",
+  "modelType": "COLLECTION",
+  "baseModelId": "6703b5b65f22ec7ba0264709",
+  "collectionName": "settings",
+  "properties": [
+    {
+      "$key": "24chmdhm4ub",
+      "key": "settingsProfile",
+      "name": "settings Profile",
+      "dataType": "INNER_MODEL",
+      "modelId": "689f188a4e2ed283d94615bd"
+    },
+    {
+      "$key": "jih6fpjng",
+      "key": "settingsSecurity",
+      "name": "settings Security",
+      "dataType": "INNER_MODEL",
+      "modelId": "689f1fdd4b4ca5d6487cadfc"
+    },
+    {
+      "$key": "iatalblmsqe",
+      "key": "settingsNotification",
+      "name": "settings Notification",
+      "dataType": "INNER_MODEL",
+      "modelId": "689f2c224b4ca5d6487cadfe"
+    },
+    {
+      "$key": "200q5t1tnfk",
+      "key": "settingsPreferences",
+      "name": "settings Preferences",
+      "dataType": "INNER_MODEL",
+      "modelId": "689f24bb4b4ca5d6487cadfd"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T11:24:00.042Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-05T11:02:55.696Z"
+}

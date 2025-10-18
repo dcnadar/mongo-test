@@ -1,0 +1,139 @@
+{
+  "_id": "6719ed065f22ec7ba026499b",
+  "gridTitle": "Eduempower Alerts",
+  "gridType": "table",
+  "crmModelId": "6719e6445f22ec7ba0264994",
+  "columns": [
+    {
+      "$key": "wzuxg6qjk9o",
+      "key": "title",
+      "name": "Title",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "w7cyetuo8k",
+      "key": "type",
+      "name": "Type",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "e9b1zyo63th",
+      "key": "publishDate",
+      "name": "Publish Date",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "e195x7z0i5",
+      "key": "closeDate",
+      "name": "Close Date",
+      "type": "date",
+      "sort": true
+    },
+    {
+      "$key": "z0vlns73bm",
+      "key": "targetUsers",
+      "name": "Target User",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "5gd8dsc8az",
+      "key": "banner",
+      "name": "Banner",
+      "type": "thumb",
+      "sort": true
+    },
+    {
+      "$key": "cu3y6ke79ed",
+      "key": "platform",
+      "name": "Platform",
+      "type": "text",
+      "sort": true
+    },
+    {
+      "$key": "5bkmis5w3ne",
+      "key": "action",
+      "name": "Action",
+      "type": "actions",
+      "sort": true,
+      "actions": [
+        {
+          "$key": "kxorw9rozd",
+          "value": "Edit",
+          "slug": "/admin/circulars&news/alerts/edit?id=:_id _id",
+          "gridTitle": "Edit Form"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "$key": "oon1x7fcuoh",
+      "value": "Add Alerts",
+      "gridType": "popupForm",
+      "apiUrl": "/admin/circulars&news/alerts/add",
+      "gridTitle": "Add  Alerts"
+    }
+  ],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [
+    {
+      "$key": "f20um0t41y4",
+      "fields": [
+        {
+          "$key": "cmjky063spg",
+          "id": "targetUsers",
+          "title": "Target User",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "e0fkkg8751",
+          "id": "type",
+          "title": "Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "py9w0iwf5d",
+          "id": "publishDate",
+          "title": "Publish Date",
+          "type": "date",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "63egld3pxh3",
+          "id": "closeDate",
+          "title": "Close Date",
+          "type": "date",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "l89ujafy8zr",
+          "id": "platform",
+          "title": "Platform",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true
+        }
+      ]
+    }
+  ],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-24T06:45:26.426Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:02.548Z"
+}

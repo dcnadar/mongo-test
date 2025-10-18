@@ -1,0 +1,304 @@
+{
+  "_id": {
+    "$oid": "65eb182faa00ec382f84ccf0"
+  },
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": {
+            "$numberInt": "0"
+          },
+          "title": "Grid Title",
+          "id": "gridTitle",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Grid Title",
+          "$key": "ky462ivkl6"
+        },
+        {
+          "index": {
+            "$numberInt": "1"
+          },
+          "title": "Grid Type",
+          "id": "gridType",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Grid Type",
+          "$key": "b8bgz3s8rla"
+        },
+        {
+          "index": {
+            "$numberInt": "2"
+          },
+          "title": "Grid Message",
+          "id": "gridMsg",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Grid Message",
+          "$key": "4anyu0jun2r"
+        },
+        {
+          "index": {
+            "$numberInt": "3"
+          },
+          "title": "Grid Message Params",
+          "id": "gridMsgParams",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Grid Message Params",
+          "$key": "2kz4cv8irhk"
+        },
+        {
+          "index": {
+            "$numberInt": "4"
+          },
+          "title": "API URL",
+          "id": "apiUrl",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "API URL",
+          "$key": "uqb4ovirncr"
+        },
+        {
+          "index": {
+            "$numberInt": "5"
+          },
+          "title": "Slug",
+          "id": "slug",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Slug",
+          "$key": "i8qnu0itxb",
+          "showCondition": "return !!this.slug;"
+        },
+        {
+          "$key": "0aw6sil6py4",
+          "id": "slugTarget",
+          "title": "Slug Target",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.gridType === 'slug';"
+        },
+        {
+          "index": {
+            "$numberInt": "7"
+          },
+          "title": "Button UI type",
+          "id": "type",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Type",
+          "$key": "8ulowoo4nj7",
+          "multiple": false
+        },
+        {
+          "index": {
+            "$numberInt": "8"
+          },
+          "title": "Icon",
+          "id": "icon",
+          "type": "upload",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Icon",
+          "$key": "e5jj8e1rsfi",
+          "showCondition": "return this.type === 'icon_button' || this.type === 'icon';",
+          "multiple": false,
+          "meta": {
+            "allowWebcam": false,
+            "allowGallery": false
+          }
+        },
+        {
+          "$key": "71ihqu94d2",
+          "id": "svg",
+          "title": "SVG",
+          "type": "text",
+          "o": false,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.type === 'svg_button' || this.type === 'svg';"
+        },
+        {
+          "$key": "2qhvzo2v8be",
+          "id": "iconPosition",
+          "title": "Icon Position",
+          "type": "list",
+          "multiple": false,
+          "o": true,
+          "span": {
+            "$numberInt": "8"
+          },
+          "showCondition": "return this.type === 'svg_button' || this.type === 'icon_button';"
+        },
+        {
+          "index": {
+            "$numberInt": "6"
+          },
+          "title": "Value",
+          "id": "value",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Value",
+          "$key": "9hs5m12oacw",
+          "meta": {
+            "labelCondition": "return this.type === 'svg' || this.type === 'icon' ? 'Tooltip text' : 'Button text';"
+          }
+        },
+        {
+          "index": {
+            "$numberInt": "9"
+          },
+          "title": "Show Condition Function",
+          "id": "showCondition",
+          "type": "text",
+          "span": {
+            "$numberInt": "12"
+          },
+          "o": true,
+          "hint": "Show Condition Function",
+          "$key": "bdqmqile3f"
+        },
+        {
+          "index": {
+            "$numberInt": "10"
+          },
+          "title": "Take Action Comment",
+          "id": "showGridComment",
+          "type": "bool",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Take Action Comment (for confirm and private\\_download)",
+          "showCondition": "return this.gridType === 'confirm' || this.gridType === 'private_download';",
+          "$key": "w5v5m08d6rl"
+        },
+        {
+          "index": {
+            "$numberInt": "11"
+          },
+          "title": "Response Type",
+          "id": "responseType",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": false,
+          "hint": "Response Type (for private\\_download)",
+          "showCondition": "return this.gridType === 'private_download'",
+          "$key": "1jqrw2mifke",
+          "multiple": false
+        },
+        {
+          "index": {
+            "$numberInt": "13"
+          },
+          "title": "Pagination (to use filter data of table)",
+          "id": "pagination",
+          "type": "bool",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Pagination (to use filter data of table, in popup grid)",
+          "$key": "h2w1bihcgat"
+        },
+        {
+          "index": {
+            "$numberInt": "14"
+          },
+          "title": "API Type",
+          "id": "apiType",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "API Type",
+          "$key": "jh6cbnf628l"
+        },
+        {
+          "index": {
+            "$numberInt": "15"
+          },
+          "title": "Submit Type",
+          "id": "submitType",
+          "type": "list",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Submit Type",
+          "$key": "uzj1fqzuzdr",
+          "multiple": false
+        },
+        {
+          "index": {
+            "$numberInt": "16"
+          },
+          "title": "Permission Key",
+          "id": "permissions",
+          "type": "text",
+          "span": {
+            "$numberInt": "8"
+          },
+          "o": true,
+          "hint": "Permission Key",
+          "$key": "jfeei79yi2"
+        }
+      ],
+      "$key": "bd3advthctg"
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65e80278424719e028f20657",
+  "gridTitle": "Crm Grid Button",
+  "created": {
+    "$date": {
+      "$numberLong": "1709905967990"
+    }
+  },
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070150617"
+    }
+  }
+}

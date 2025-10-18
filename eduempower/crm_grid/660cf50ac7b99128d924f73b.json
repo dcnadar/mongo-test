@@ -1,0 +1,98 @@
+{
+  "_id": "660cf50ac7b99128d924f73b",
+  "gridTitle": "Eduempower SchoolRoom",
+  "gridType": "form",
+  "crmModelId": "660a3b8ec7b99128d924f6a3",
+  "rows": [
+    {
+      "$key": "ytwzu6tp35",
+      "fields": [
+        {
+          "$key": "hu2q2mmc7di",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "tx5imogyzc",
+          "id": "builderId",
+          "title": "Builder Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "v0xqk5s6r9",
+          "id": "floorId",
+          "title": "Floor Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "dtjua683pdh",
+          "id": "roomType",
+          "title": "Room Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "t0ia294lu2i",
+          "id": "roomSubType",
+          "title": "Room Sub Type",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "c1nu3xs1m2",
+          "id": "classSectionId",
+          "title": "Class Section Id",
+          "type": "list",
+          "multiple": false,
+          "span": 8
+        },
+        {
+          "$key": "ljm32oh1jtt",
+          "id": "capacity",
+          "title": "Capacity",
+          "type": "number",
+          "span": 8
+        },
+        {
+          "$key": "non6pniuz6",
+          "id": "roomAreaSize",
+          "title": "Room Area Size",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "1sxwg9wpbk0j",
+          "id": "furnitureType",
+          "title": "Furniture Type",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T06:19:54.280Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:58.984Z"
+}

@@ -1,0 +1,145 @@
+{
+  "_id": "67c2be4fb0b44915d3227f2e",
+  "name": "Eduempower Fee Mark",
+  "modelType": "COLLECTION",
+  "baseModelId": "6606734eeea36066ca04cbc9",
+  "collectionName": "eduempower_fee_mark",
+  "properties": [
+    {
+      "$key": "m7qfjr6ehv",
+      "key": "userId",
+      "name": "User Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "vbam8omuz4",
+      "key": "classId",
+      "name": "ClassId",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "kn8xzoefg69",
+      "key": "categoryId",
+      "name": "Category Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "glz4bn7kj4",
+      "key": "typeId",
+      "name": "Type Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ahild261hpa",
+      "key": "scheduleId",
+      "name": "Schedule Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rfdi9v440pi",
+      "key": "structureId",
+      "name": "Structure Id",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "mcv03uc97z",
+      "key": "installmentName",
+      "name": "Installment Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "gy6v5ufxst",
+      "key": "type",
+      "name": "Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "vezi1eqjf8",
+            "key": "COLLECTED",
+            "value": "Collected",
+            "thumbColor": "green",
+            "thumbInitials": "C"
+          },
+          {
+            "$key": "zd806e12ww",
+            "key": "PARTIALLY_COLLECTED",
+            "value": "Partially Collected",
+            "thumbColor": "lightgreen",
+            "thumbInitials": "PC"
+          },
+          {
+            "$key": "at5p4i5wdkp",
+            "key": "PENDING",
+            "value": "Pending",
+            "thumbColor": "yellow",
+            "thumbInitials": "P"
+          },
+          {
+            "$key": "vonrswhdxos",
+            "key": "PENDING_APPROVAL",
+            "value": "Pending Approval",
+            "thumbColor": "orange",
+            "thumbInitials": "PA"
+          },
+          {
+            "$key": "tfb5py9awnj",
+            "key": "REJECTED",
+            "value": "Rejected",
+            "thumbColor": "red",
+            "thumbInitials": "RF"
+          },
+          {
+            "$key": "28siy2bazqu",
+            "key": "REFUNDED",
+            "value": "Refunded",
+            "thumbColor": "blue",
+            "thumbInitials": "RJ"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "3p3yivamwkh",
+      "key": "date",
+      "name": "Date",
+      "dataType": "DATE"
+    },
+    {
+      "$key": "5knbqclk2d9",
+      "key": "feeAmount",
+      "name": "Fee Amount",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "og73bktitse",
+      "key": "fine",
+      "name": "Fine",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "g9db8vx9t",
+      "key": "toPay",
+      "name": "To Pay",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "e6wsyj5txbb",
+      "key": "concession",
+      "name": "Concession",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "21hl8nrbhj5",
+      "key": "discount",
+      "name": "Discount",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2025-03-01T07:59:11.058Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.421Z"
+}

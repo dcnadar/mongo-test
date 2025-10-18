@@ -1,0 +1,47 @@
+{
+  "_id": "67312c0b7a1bdc0b65d0bd25",
+  "gridTitle": "Admission Remark",
+  "gridType": "table",
+  "crmModelId": "672fd82d7a1bdc0b65d0bd1f",
+  "columns": [
+    {
+      "$key": "foc33ri90k",
+      "name": "Date",
+      "key": "created",
+      "type": "date",
+      "sort": false
+    },
+    {
+      "$key": "8wqb39xqzxu",
+      "name": "Action Performed",
+      "key": "description",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "ay8yb2v1scj",
+      "name": "Done by",
+      "key": "doneBy",
+      "type": "card",
+      "sort": false
+    },
+    {
+      "$key": "30icaj3npxw",
+      "key": "remark",
+      "name": "Remark",
+      "type": "text",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-11-10T21:56:27.300Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "backUrl": "/admin/admission/manage/all",
+  "updated": "2025-09-08T10:51:03.054Z"
+}

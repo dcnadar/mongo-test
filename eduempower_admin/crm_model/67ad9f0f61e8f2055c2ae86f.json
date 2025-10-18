@@ -1,0 +1,159 @@
+{
+  "_id": "67ad9f0f61e8f2055c2ae86f",
+  "name": "Eduempower LeaveType",
+  "modelType": "COLLECTION",
+  "baseModelId": "67371c6002f79267ffc56592",
+  "collectionName": "eduempower_leave_type",
+  "properties": [
+    {
+      "$key": "u1o2zkanf8",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    },
+    {
+      "$key": "ixx60ogn9v",
+      "key": "code",
+      "name": "Code ",
+      "dataType": "STRING",
+      "searchable": {
+        "description": true
+      }
+    },
+    {
+      "$key": "fspb47jotyl",
+      "key": "leaveType",
+      "name": "Tagged To",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "lonewor3jr",
+            "key": "BIRTHDAY_LEAVE",
+            "value": "Birthday Leave"
+          },
+          {
+            "$key": "mnhq3z9omvp",
+            "key": "CASUAL_LEAVE",
+            "value": "Casual Leave"
+          },
+          {
+            "$key": "hq7fxsxl7yc",
+            "key": "EARNED_LEAVE",
+            "value": "Earned Leave"
+          },
+          {
+            "$key": "oqmejav19w",
+            "key": "MARRIAGE_LEAVE",
+            "value": "Marriage Leave"
+          },
+          {
+            "$key": "9mxyuqsxju6",
+            "key": "MATERNITY_LEAVE",
+            "value": "Maternity Leave"
+          },
+          {
+            "$key": "v0c1tl4kteh",
+            "key": "SICK_LEAVE",
+            "value": "Sick Leave"
+          },
+          {
+            "$key": "931km98q83",
+            "key": "PATERNITY_LEAVE",
+            "value": "Paternity Leave"
+          },
+          {
+            "$key": "xlpbjplthvo",
+            "key": "ON_DUTY_LEAVE",
+            "value": "On Duty Leave"
+          },
+          {
+            "$key": "svmn4rydh6d",
+            "key": "OTHER_LEAVE",
+            "value": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "7g1e5g82dmk",
+      "key": "duration",
+      "name": "Duration",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "bke5cbvr5xt",
+            "key": "MONTHLY",
+            "value": "Monthly"
+          },
+          {
+            "$key": "xhb84ke1h8q",
+            "key": "YEARLY",
+            "value": "Yearly"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "jd5m7o0gmz",
+      "key": "status",
+      "name": "Status",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "0f3alxwqswmg",
+            "key": "ACTIVE",
+            "value": "Active"
+          },
+          {
+            "$key": "vgeyy851sll",
+            "key": "INACTIVE",
+            "value": "InActive"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "can0q5qh45",
+      "key": "maxLeaveAllowed",
+      "name": "Max Leave Allowed",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "5b90w3p3etv",
+      "key": "paidLeave",
+      "name": "Paid Leave",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "j5ehcu1e0g",
+      "key": "entityType",
+      "name": "Entity Type",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "$key": "5usr988ma29",
+            "key": "MASTER_SETUP",
+            "value": "Master Setup"
+          }
+        ]
+      }
+    }
+  ],
+  "cardDataTargets": {
+    "title": "name",
+    "subtitles": [
+      "code"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-13T07:28:15.245Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

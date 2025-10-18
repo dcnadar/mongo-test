@@ -1,0 +1,47 @@
+{
+  "_id": "65b6219359f0d2a7a20d69ca",
+  "gridType": "form",
+  "status": "ACTIVE",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-01-28T09:42:43.814Z",
+  "rows": [
+    {
+      "fields": [
+        {
+          "index": 0,
+          "title": "Heading",
+          "id": "heading",
+          "type": "text",
+          "span": 8,
+          "o": false,
+          "hint": "Main heading of the tab section"
+        },
+        {
+          "index": 1,
+          "title": "Description",
+          "id": "description",
+          "type": "textarea",
+          "span": 8,
+          "o": false,
+          "hint": "Short description below the heading"
+        },
+        {
+          "index": 3,
+          "title": "Sections",
+          "id": "sections",
+          "type": "form_array",
+          "span": 24,
+          "o": false,
+          "min": 2,
+          "max": 5,
+          "add": true,
+          "delete": true,
+          "hint": "Dynamic sections with title, description, and image"
+        }
+      ]
+    }
+  ],
+  "edit": true,
+  "crmModelId": "65b6219359f0d2a7a20d69c8",
+  "gridTitle": "ReactGrid GlobalTabSection1"
+}

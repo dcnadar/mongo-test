@@ -1,0 +1,58 @@
+{
+  "_id": "654b2a7bf9b217759444504e",
+  "properties": [
+    {
+      "dataType": "LIST_OF",
+      "key": "technicalPoints",
+      "name": "Technical Points",
+      "listType": "INNER_MODEL",
+      "modelId": "64a5c1b8099de82bca61ca93",
+      "$key": "lsbak0q0evi"
+    },
+    {
+      "dataType": "STRING",
+      "key": "smallDescription",
+      "name": "Small Description",
+      "$key": "x13u5ns8b2b"
+    },
+    {
+      "dataType": "LIST_OF",
+      "key": "media",
+      "name": "Media",
+      "listType": "STRING",
+      "$key": "djn2t7sgmso",
+      "searchable": {
+        "thumb": true
+      }
+    },
+    {
+      "dataType": "STRING",
+      "key": "longDescription",
+      "name": "Long Description",
+      "$key": "n7hm3fzsuwf"
+    },
+    {
+      "dataType": "INTEGER",
+      "key": "quantityInStock",
+      "name": "Quantity In Stock",
+      "$key": "ug2z75bd70q"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "includeProductMedia",
+      "name": "Include Product Media",
+      "$key": "lu0g47ml0wg"
+    },
+    {
+      "dataType": "BOOLEAN",
+      "key": "includeProductTechicalPoints",
+      "name": "Include Product Techical Points",
+      "$key": "frhzyyuqudj"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "name": "Product Variant Basic Details",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "created": "2024-01-27T07:48:52.069Z"
+}

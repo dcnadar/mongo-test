@@ -1,0 +1,47 @@
+{
+  "_id": "6668810bcf65cd7a11ef2c61",
+  "gridTitle": "Profit Net Income",
+  "gridType": "form",
+  "crmModelId": "666868becf65cd7a11ef2c5b",
+  "rows": [
+    {
+      "$key": "h5srtzhlo5f",
+      "fields": [
+        {
+          "$key": "ktxpxakkdmm",
+          "id": "totalCostOfRearing",
+          "title": "Total Cost Of Rearing",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "barrn0z9cr6",
+          "id": "netIncome",
+          "title": "Net Income ",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "w2rkpq0xkj",
+          "id": "totalIncome",
+          "title": "Total Income",
+          "type": "number",
+          "span": 8,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-11T16:53:31.285Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}

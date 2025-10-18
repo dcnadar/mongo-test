@@ -1,0 +1,53 @@
+{
+  "_id": "668e3199531ed762273ebc29",
+  "name": "OrderInvoice Item",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "l9kxiy9ubij",
+      "key": "name",
+      "name": "Name",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "v5toeoirq7h",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "wocnbaziwld",
+      "key": "sku",
+      "name": "SKU",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "l61g81n0gz",
+      "key": "mrp",
+      "name": "MRP",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "cqbrdl8tjzc",
+      "key": "price",
+      "name": "Price",
+      "dataType": "DOUBLE"
+    },
+    {
+      "$key": "qrl5zr7anhp",
+      "key": "quantity",
+      "name": "Quantity",
+      "dataType": "INTEGER"
+    },
+    {
+      "$key": "8vdlm5ewchf",
+      "key": "orderId",
+      "name": "Order Id",
+      "dataType": "REFERENCE",
+      "modelId": "6684e3603108ad7b7d063f47"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-10T07:00:41.065Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "6686483f3108ad7b7d063f8a",
+  "name": "NativeGrid GlobalBlogSection1 user",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "z5ylywyb2l",
+      "dataType": "STRING",
+      "key": "thumb",
+      "name": "Thumb"
+    },
+    {
+      "$key": "wrm63oe3km",
+      "dataType": "STRING",
+      "key": "name",
+      "name": "Name"
+    },
+    {
+      "$key": "b9j5tw7vy5u",
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-04T06:59:11.283Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

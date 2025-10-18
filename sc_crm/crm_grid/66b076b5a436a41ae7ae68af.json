@@ -1,0 +1,62 @@
+{
+  "_id": "66b076b5a436a41ae7ae68af",
+  "gridTitle": "WebsitePageGridThemeSettings FontSetting",
+  "gridType": "form",
+  "crmModelId": "6511ee6df9686d32acb3e2d3",
+  "rows": [
+    {
+      "$key": "r2fh8f3yh48",
+      "fields": [
+        {
+          "$key": "ujmtxesy7dk",
+          "id": "styleSettings.fontSetting.fontType",
+          "title": "Font Type",
+          "type": "text",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        },
+        {
+          "$key": "gjmelpnbhq",
+          "id": "styleSettings.fontSetting.fontPackName",
+          "title": "Font Pack Name",
+          "type": "text",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8,
+          "showCondition": "return this.styleSettings && this.styleSettings.fontSetting && (this.styleSettings.fontSetting.fontType === 'fontPack');"
+        },
+        {
+          "$key": "lag6yipea4g",
+          "id": "styleSettings.fontSetting.customSettings",
+          "title": "Custom Settings",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          },
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-05T06:52:37.478Z",
+  "createdBy": "6684dfc48d3cda00d16339c6",
+  "upsertDoc": false,
+  "gridParams": [
+    {
+      "key": "pageId",
+      "required": true
+    },
+    {
+      "key": "id",
+      "required": true
+    }
+  ]
+}

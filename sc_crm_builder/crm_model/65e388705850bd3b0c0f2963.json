@@ -1,0 +1,48 @@
+{
+  "_id": {
+    "$oid": "65e388705850bd3b0c0f2963"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Crm App Menu Item",
+  "modelType": "INNER",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "STRING",
+      "key": "key",
+      "name": "Key"
+    },
+    {
+      "dataType": "STRING",
+      "key": "slug",
+      "name": "Slug"
+    },
+    {
+      "dataType": "STRING",
+      "key": "value",
+      "name": "Value"
+    },
+    {
+      "dataType": "STRING",
+      "key": "icon",
+      "name": "Icon"
+    },
+    {
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "key": "subMenu",
+      "name": "SubMenu",
+      "modelId": "65e388715850bd3b0c0f2964"
+    }
+  ],
+  "created": {
+    "$date": {
+      "$numberLong": "1709410416384"
+    }
+  },
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152173"
+    }
+  }
+}

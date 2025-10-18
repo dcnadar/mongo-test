@@ -1,0 +1,37 @@
+{
+  "_id": "660cf5b8c7b99128d924f73e",
+  "gridTitle": "Eduempower BookAuthor",
+  "gridType": "form",
+  "crmModelId": "660af18ac7b99128d924f6dc",
+  "rows": [
+    {
+      "$key": "222ehxwjnb4",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8,
+          "$key": "afqaf3ewme5"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "menuItems": [
+    {}
+  ],
+  "columns": [
+    {}
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-04-03T06:22:48.956Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "updated": "2025-09-08T10:50:59.086Z"
+}

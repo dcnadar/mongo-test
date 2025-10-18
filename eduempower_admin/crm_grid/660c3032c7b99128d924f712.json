@@ -1,0 +1,33 @@
+{
+  "_id": "660c3032c7b99128d924f712",
+  "gridTitle": "Eduempower ClassType",
+  "gridType": "form",
+  "crmModelId": "660c0713c7b99128d924f70b",
+  "rows": [
+    {
+      "$key": "p49qj4iaz2f",
+      "fields": [
+        {
+          "id": "key",
+          "title": "Key",
+          "type": "text",
+          "span": 8,
+          "$key": "6tviwr4a8xr"
+        },
+        {
+          "$key": "3txgtp57i2u",
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-04-02T16:20:02.582Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/account/all",
+  "upsertDoc": false
+}

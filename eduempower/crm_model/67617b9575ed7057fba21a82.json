@@ -1,0 +1,25 @@
+{
+  "_id": "67617b9575ed7057fba21a82",
+  "name": "Assign asset to staff temp",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "w7yxthfkj4q",
+      "key": "assetId",
+      "name": "Asset Id",
+      "dataType": "REFERENCE",
+      "modelId": "6760148375ed7057fba21a77"
+    },
+    {
+      "$key": "6f9x39nwzt8",
+      "key": "staffId",
+      "name": "Currently Assigned To",
+      "dataType": "REFERENCE",
+      "modelId": "6606cc9deea36066ca04cbd2"
+    }
+  ],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-12-17T13:24:37.557Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "updated": "2025-09-08T10:51:08.017Z"
+}

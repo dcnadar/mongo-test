@@ -1,0 +1,54 @@
+{
+  "_id": "6780ccc3571a4a3748516509",
+  "name": "ReactGrid CommonProductList Section",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "px5mflrnbf",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cnr7ay6w3vw",
+      "key": "currencySymbol",
+      "name": "CurrencySymbol",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1saskpvnfz9h",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "m0tdn138ge",
+      "key": "image",
+      "name": "Image",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "ndegqr617h",
+      "key": "price",
+      "name": "Price",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "49hu745ix75",
+      "key": "discount",
+      "name": "Discount",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "l44tcffeqk",
+      "key": "mrp",
+      "name": "Mrp",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-01-10T07:31:15.501Z",
+  "createdBy": "6606c4dd3afc795c92fa7f47"
+}

@@ -1,0 +1,154 @@
+{
+  "_id": "67b85b78d102ac67ee6a50f9",
+  "name": "ReactGrid  GlobalCustomerSignUp",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "g2n9d72zpdc",
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "55saqo8gcbd",
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "mrxw4hm2bw",
+      "key": "firstNameLabel",
+      "name": "FirstName Label",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "f40x04m53f8",
+      "key": "firstNamePlaceholder",
+      "name": "FirstName Placeholder",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "dg8bj41p5y",
+      "key": "lastNameLabel",
+      "name": "LastName Label",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "6y12a2j0q7",
+      "key": "lastNamePlaceholder",
+      "name": "LastName Placeholder",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cwzt4y54cyv",
+      "key": "emailLabel",
+      "name": "Email Label",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "3cg7kaf2h9q",
+      "key": "emailPlaceholder",
+      "name": "Email Placeholder",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rbzofss579k",
+      "key": "mobileNumberLabel",
+      "name": "MobileNumber Label",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "73bgdxoaxol",
+      "key": "mobileNumberPlaceholder",
+      "name": "MobileNumber Placeholder",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "pbz6x00mfu9",
+      "key": "birthDateLabel",
+      "name": "BirthDate Label",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qb1sz7hp4em",
+      "key": "genderLabel",
+      "name": "Gender Label",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2uoxbvhn2nt",
+      "key": "maleValueText",
+      "name": "male Value Text",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "rjb5ucqer4p",
+      "key": "femaleValueText",
+      "name": "Female Value Text",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "2jgexap8tld",
+      "key": "otherValueText",
+      "name": "Other Value Text",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "8gwdfshu9aq",
+      "key": "passwordLabel",
+      "name": "Password Label",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "46fmqfmihyh",
+      "key": "passwordPlaceholder",
+      "name": "Password Placeholder",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "s7jffb5wb3s",
+      "key": "confirmPasswordLabel",
+      "name": "ConfirmPassword Label",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "832bubf7xa8",
+      "key": "confirmPasswordPlaceholder",
+      "name": "ConfirmPassword Placeholder",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "1re8nxxggga",
+      "key": "signUpButtonText",
+      "name": "SignUp ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "cw8thi535m7",
+      "key": "otherSignUpText",
+      "name": "Other SignUpText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "h5jy636ni49",
+      "key": "googleButtonText",
+      "name": "Google ButtonText",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qrrfqo4z3ln",
+      "key": "signInMessage",
+      "name": "SignIn Message",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "lr2vy772bjj",
+      "key": "signInButtonText",
+      "name": "SignIn ButtonText",
+      "dataType": "STRING"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2025-02-21T10:54:48.040Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

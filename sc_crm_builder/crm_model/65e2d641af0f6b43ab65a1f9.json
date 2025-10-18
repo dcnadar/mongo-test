@@ -1,0 +1,53 @@
+{
+  "_id": {
+    "$oid": "65e2d641af0f6b43ab65a1f9"
+  },
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "name": "Account Tag",
+  "modelType": "COLLECTION",
+  "modelStatus": "ACTIVE",
+  "properties": [
+    {
+      "dataType": "LIST_OF",
+      "key": "name",
+      "name": "Options",
+      "listType": "STRING",
+      "$key": "munlkub4q9g"
+    },
+    {
+      "dataType": "STRING",
+      "key": "category",
+      "name": "Key",
+      "unique": true,
+      "searchable": {
+        "value": false
+      },
+      "$key": "0f40ib94dj3j"
+    },
+    {
+      "$key": "70jmk7rj9nj",
+      "key": "categoryName",
+      "name": "Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      }
+    }
+  ],
+  "collectionName": "account_tag",
+  "baseModelId": "65e2c399226e7b80fe49ae3a",
+  "created": {
+    "$date": {
+      "$numberLong": "1709364801855"
+    }
+  },
+  "cardDataTargets": {
+    "title": "name"
+  },
+  "menuTargets": {},
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070152057"
+    }
+  }
+}

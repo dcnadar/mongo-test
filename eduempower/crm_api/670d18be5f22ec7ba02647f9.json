@@ -1,0 +1,21 @@
+{
+  "_id": "670d18be5f22ec7ba02647f9",
+  "name": "Staff Change Password",
+  "path": "/admin/staff/password/edit",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "676be0c533897d49a1050c93",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-14T13:12:30.353Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "staffId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ],
+  "updated": "2025-09-08T10:50:51.757Z"
+}

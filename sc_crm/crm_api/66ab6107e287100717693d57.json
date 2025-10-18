@@ -1,0 +1,19 @@
+{
+  "_id": "66ab6107e287100717693d57",
+  "name": "Get Product Variant",
+  "path": "/admin/product/variant/get",
+  "apiType": "GET",
+  "action": "ENTITY_GET",
+  "modelId": "64a5d14d099de82bca61ca99",
+  "gridParams": [
+    {
+      "key": "id",
+      "required": true
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-01T10:18:47.948Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

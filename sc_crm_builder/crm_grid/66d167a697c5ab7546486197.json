@@ -1,0 +1,49 @@
+{
+  "_id": {
+    "$oid": "66d167a697c5ab7546486197"
+  },
+  "gridTitle": "AppMenuIconSetting form",
+  "gridType": "form",
+  "crmModelId": "66d166fd97c5ab754648618a",
+  "rows": [
+    {
+      "$key": "yl793incwtd",
+      "fields": [
+        {
+          "id": "height",
+          "title": "Height",
+          "type": "text",
+          "o": true,
+          "span": {
+            "$numberInt": "6"
+          },
+          "$key": "jgyzys03ed9"
+        },
+        {
+          "$key": "qemjm0lf9gl",
+          "id": "width",
+          "title": "Width",
+          "type": "text",
+          "o": true,
+          "span": {
+            "$numberInt": "6"
+          }
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1724999590871"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151463"
+    }
+  }
+}

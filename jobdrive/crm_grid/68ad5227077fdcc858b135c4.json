@@ -1,0 +1,42 @@
+{
+  "_id": "68ad5227077fdcc858b135c4",
+  "gridTitle": "Student Skills",
+  "gridType": "form",
+  "crmModelId": "68ad521d077fdcc858b135c3",
+  "rows": [
+    {
+      "$key": "r55eb3qfde8",
+      "fields": [
+        {
+          "id": "skill",
+          "title": "Skill Type",
+          "type": "text",
+          "$key": "k1m0t4c5c3p",
+          "span": 8,
+          "hint": "Ex: Programing , Hardware , Cloud services , Databases , Frameworks, Version Control, IDEs , Other Technologies&#x20;"
+        },
+        {
+          "$key": "gewnjd5l84e",
+          "id": "name",
+          "title": "Skill Title",
+          "type": "strings",
+          "min": 0,
+          "max": 0,
+          "o": false,
+          "span": 0,
+          "nullIds": [],
+          "add": false,
+          "delete": false,
+          "hint": "Ex: Java, C++, Mongo Db, SQL, Eclipse, AWS,  ESP32 , MQTT&#x20;",
+          "multiple": false
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-26T06:20:23.660Z",
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": "2025-09-05T11:02:53.981Z"
+}

@@ -1,0 +1,70 @@
+{
+  "_id": {
+    "$oid": "6731be307a1bdc0b65d0bd42"
+  },
+  "gridTitle": "Crm Model Property\t",
+  "gridType": "table",
+  "crmModelId": "65e46e2762e81af0993f8517",
+  "columns": [
+    {
+      "$key": "lstq6x7a17",
+      "key": "key",
+      "name": "Key",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "e7qxxlx00e",
+      "key": "name",
+      "name": "Name",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "b7bpw31nh6",
+      "key": "unique",
+      "name": "Unique",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "oualxpisyj",
+      "key": "dataType",
+      "name": "Data type",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "9i0sov7ele4",
+      "key": "listType",
+      "name": "List type",
+      "type": "text",
+      "sort": false
+    },
+    {
+      "$key": "yiicezpcfa",
+      "key": "modelId",
+      "name": "Crm Model",
+      "type": "text",
+      "sort": false
+    }
+  ],
+  "actions": [],
+  "border": false,
+  "customFilters": [],
+  "leftOpenFilters": [],
+  "tableMeta": {},
+  "fetchAdditionalKeys": [],
+  "accountId": "65e23e399013eda2edcd3f2e",
+  "created": {
+    "$date": {
+      "$numberLong": "1731313200599"
+    }
+  },
+  "createdBy": "65e25492efb82357eb86d518",
+  "updated": {
+    "$date": {
+      "$numberLong": "1757070151574"
+    }
+  }
+}

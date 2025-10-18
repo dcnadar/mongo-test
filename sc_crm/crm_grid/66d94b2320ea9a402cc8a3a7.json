@@ -1,0 +1,61 @@
+{
+  "_id": "66d94b2320ea9a402cc8a3a7",
+  "gridTitle": "NativeGrid ButtonAction",
+  "gridType": "form",
+  "crmModelId": "66d93f0020ea9a402cc8a3a3",
+  "rows": [
+    {
+      "$key": "6vms4o0uyyv",
+      "fields": [
+        {
+          "$key": "tnk4f8d8o3",
+          "id": "navigateTo",
+          "title": "NavigateTo",
+          "type": "list",
+          "span": 6,
+          "multiple": false
+        },
+        {
+          "$key": "o3mdssppjq",
+          "id": "category",
+          "title": "Category",
+          "type": "list",
+          "span": 6,
+          "showCondition": "return this.navigateTo === 'category';",
+          "multiple": false
+        },
+        {
+          "$key": "7bnkcooxihd",
+          "id": "product",
+          "title": "Product",
+          "type": "list",
+          "span": 6,
+          "showCondition": "return this.navigateTo === 'product';",
+          "multiple": false
+        },
+        {
+          "$key": "vha8ydg667",
+          "id": "screen",
+          "title": "Screen",
+          "span": 6,
+          "type": "list",
+          "showCondition": "return this.navigateTo === 'screen';",
+          "multiple": false
+        },
+        {
+          "$key": "erqdgvd1hiu",
+          "id": "webLink",
+          "title": "WebLink",
+          "type": "text",
+          "span": 6,
+          "showCondition": "return this.navigateTo === 'webView';"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-09-05T06:09:39.900Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

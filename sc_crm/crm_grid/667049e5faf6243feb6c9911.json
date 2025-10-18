@@ -1,0 +1,27 @@
+{
+  "_id": "667049e5faf6243feb6c9911",
+  "gridTitle": "App Screen Section",
+  "gridType": "menu",
+  "crmModelId": "666fddaafaf6243feb6c98d1",
+  "menuItems": [
+    {
+      "$key": "e48supcax8h",
+      "key": "appScreenSection",
+      "value": "App Section",
+      "slug": "/admin/mobileapp/app-screen-section",
+      "icon": "<svg width=\"64px\" height=\"64px\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"#000000\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"><path d=\"M17.476 0H7.524A1.524 1.524 0 0 0 6 1.524v19.952A1.524 1.524 0 0 0 7.524 23h9.952A1.524 1.524 0 0 0 19 21.476V1.524A1.524 1.524 0 0 0 17.476 0zM18 21.477a.524.524 0 0 1-.524.523H14v-1h-3v1H7.524A.524.524 0 0 1 7 21.477V20h11zM18 19H7V3h11zm0-17H7v-.477A.524.524 0 0 1 7.524 1h9.952a.524.524 0 0 1 .524.523zm-7.8 5.7v7.6l6-3.8zm.8 1.453l3.705 2.347L11 13.847z\"></path><path fill=\"none\" d=\"M0 0h24v24H0z\"></path></g></svg>"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-17T14:36:21.946Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "thumb": "/api/public/downloadFile/65e23e399013eda2edcd3f2e/5d6590b3af790ca2bcc707b7/65e8cdff97f0eca7ba094627/thumb/2024/5/17/upload_pgcw12921g9-1718636638656.png",
+  "backUrl": "/admin/mobileapp/appScreen/all",
+  "gridParams": [
+    {
+      "key": "screenId",
+      "required": true,
+      "documentKey": "id"
+    }
+  ]
+}

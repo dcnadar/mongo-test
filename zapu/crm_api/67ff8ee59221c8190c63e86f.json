@@ -1,0 +1,19 @@
+{
+  "_id": "67ff8ee59221c8190c63e86f",
+  "name": "Add Customer Address",
+  "path": "/admin/customer/address/add",
+  "apiType": "POST",
+  "action": "FORM_SAVE",
+  "gridType": "form",
+  "sourceId": "67ff8d089221c8190c63e86a",
+  "ecomApiMappings": [],
+  "accountId": "67d9625c6d85b3208a75ea5c",
+  "created": "2025-04-16T11:05:09.909Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [
+    {
+      "key": "customerId",
+      "required": true
+    }
+  ]
+}

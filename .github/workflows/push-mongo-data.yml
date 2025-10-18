@@ -1,0 +1,69 @@
+name: Push MongoDB Collection Data
+
+on:
+
+  workflow_dispatch:
+    inputs:
+      db_name:
+        description: "Target MongoDB database name (e.g. radyfy-dev-meta)"
+        required: true
+        type: string
+      folder_name:
+        description: "Folder name to import (e.g. sc_crm_builder )"
+        required: true
+        type: string
+
+jobs:
+  import-to-mongodb:
+    name: Import BSON Data to MongoDB
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Import BSON data into MongoDB
+        env:
+          MONGO_URI: ${{ secrets.MONGO_URI }}
+          DB_NAME: ${{ github.event.inputs.db_name }}
+          FOLDER_NAME: ${{ github.event.inputs.folder_name }}
+          BATCH_SIZE: 1000
+        run: |
+          echo "------------------------------------"
+          echo "Starting MongoDB import process"
+          echo "Database: $DB_NAME"
+          echo "Folder: $FOLDER_NAME"
+          echo "------------------------------------"
+          node save_all_json_to_mongo.js
+
+      - name: Upload logs (optional)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: import-logs
+          path: |
+            *.log
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Notify on success
+        if: success()
+        run: |
+          echo "✅ Successfully imported MongoDB collection data"
+          echo "Database: $DB_NAME"
+          echo "Folder: $FOLDER_NAME"
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Failed to import MongoDB collection data"
+          echo "Please check the logs for more details"

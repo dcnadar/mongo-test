@@ -1,0 +1,70 @@
+{
+  "_id": "66b5c6259d6357513a5b5b53",
+  "gridTitle": "ReactGrid GlobalPricing6",
+  "gridType": "form",
+  "crmModelId": "66b5c3249d6357513a5b5b4f",
+  "rows": [
+    {
+      "$key": "dvuni13uxso",
+      "fields": [
+        {
+          "$key": "9onmc8bis5",
+          "id": "header",
+          "title": "Header",
+          "span": 24,
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "e0d0z9u0ari",
+          "id": "backgroundImage",
+          "title": "Background Image",
+          "span": 24,
+          "type": "text"
+        },
+        {
+          "$key": "b3vq06f4pqi",
+          "id": "footer",
+          "title": "Footer",
+          "span": 24,
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": false,
+            "showCopyToClipboard": false
+          }
+        },
+        {
+          "$key": "e2hlobmt0i",
+          "id": "pointGroups",
+          "title": "Point Groups",
+          "type": "form_array",
+          "multiple": false,
+          "span": 23,
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 6
+        },
+        {
+          "$key": "oadguxpqbw8",
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "multiple": false,
+          "span": 24,
+          "add": true,
+          "delete": true,
+          "min": 0,
+          "max": 7
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-08-09T07:32:53.212Z",
+  "createdBy": "6684dfc48d3cda00d16339c6"
+}

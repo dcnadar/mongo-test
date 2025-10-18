@@ -1,0 +1,14 @@
+{
+  "_id": "67ac9c5a570d4c4a2423d4bb",
+  "name": "Designation",
+  "path": "/admin/entity-setup/designation/edit",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "form",
+  "sourceId": "67ac9b07570d4c4a2423d4b8",
+  "fetchDocWithoutId": false,
+  "ecomApiMappings": [],
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2025-02-12T13:04:26.867Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

@@ -1,0 +1,143 @@
+{
+  "_id": "6738ee4815937f5e7bfb2e60",
+  "name": "Eduempower User",
+  "modelType": "COLLECTION",
+  "baseModelId": "67371fca02f79267ffc56595",
+  "collectionName": "user",
+  "properties": [
+    {
+      "key": "firstName",
+      "name": "First Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      },
+      "$key": "e8502ro6vg"
+    },
+    {
+      "key": "lastName",
+      "name": "Last Name",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true
+      },
+      "$key": "g7ycs3hr3e"
+    },
+    {
+      "key": "email",
+      "name": "Email",
+      "dataType": "STRING",
+      "searchable": {
+        "value": true,
+        "primary": false
+      },
+      "unique": true,
+      "$key": "xltqfiq86m"
+    },
+    {
+      "key": "userName",
+      "name": "User Name",
+      "dataType": "STRING",
+      "unique": true,
+      "searchable": {
+        "primary": true
+      },
+      "$key": "rg4rnl1l1ud"
+    },
+    {
+      "key": "mobileNumber",
+      "name": "Mobile Number",
+      "dataType": "STRING",
+      "$key": "aqhwtwjgxq"
+    },
+    {
+      "key": "callingCode",
+      "name": "Calling Code",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "key": "+91",
+            "value": "+91 (India)",
+            "$key": "yvvdmwdd2si"
+          }
+        ]
+      },
+      "$key": "tqpc5ei1b2c"
+    },
+    {
+      "key": "birthDate",
+      "name": "Date of Birth",
+      "dataType": "DATE",
+      "$key": "251gxb8957b"
+    },
+    {
+      "key": "gender",
+      "name": "Gender",
+      "dataType": "STRING",
+      "data": {
+        "options": [
+          {
+            "key": "MALE",
+            "value": "Male",
+            "$key": "hlk4w5ofy18"
+          },
+          {
+            "key": "FEMALE",
+            "value": "Female",
+            "$key": "u4gfugd30ge"
+          },
+          {
+            "key": "OTHERS",
+            "value": "Others",
+            "$key": "x2upcqaikl8"
+          }
+        ]
+      },
+      "$key": "k31jygmoaqj"
+    },
+    {
+      "key": "userType",
+      "name": "User Type",
+      "dataType": "STRING",
+      "$key": "l7aj8zrbelr",
+      "data": {
+        "options": [
+          {
+            "$key": "j48hjvcr9ae",
+            "key": "ADMIN",
+            "value": "Admin"
+          }
+        ]
+      }
+    },
+    {
+      "$key": "4aubeps1vl9",
+      "key": "ecomAccountId",
+      "name": "Account",
+      "dataType": "REFERENCE",
+      "modelId": "67371f8502f79267ffc56594"
+    },
+    {
+      "$key": "yhmxwqpicjs",
+      "key": "admin",
+      "name": "Admin",
+      "dataType": "BOOLEAN"
+    },
+    {
+      "$key": "84gv8tin4rq",
+      "key": "password",
+      "name": "Password",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {
+    "title": "firstName",
+    "subtitles": [
+      "email"
+    ]
+  },
+  "menuTargets": {},
+  "accountId": "67371ac55e032502464b63a0",
+  "created": "2024-11-17T11:17:10.032Z"
+}

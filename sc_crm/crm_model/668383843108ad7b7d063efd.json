@@ -1,0 +1,18 @@
+{
+  "_id": "668383843108ad7b7d063efd",
+  "name": "NativeGrid Global FeaturedBrandCard1",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "xyhvrsqzyk9",
+      "key": "section",
+      "name": "Section",
+      "dataType": "LIST_OF",
+      "listType": "INNER_MODEL",
+      "modelId": "668383533108ad7b7d063efc"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-02T04:35:16.419Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

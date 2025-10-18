@@ -1,0 +1,28 @@
+{
+  "_id": "66a34b77e287100717693bc7",
+  "name": "Order Number Setting",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "oarcffmvl7s",
+      "key": "orderNoPrefix",
+      "name": "orderNoPrefix",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "h7jj21v8ez",
+      "key": "orderCurrentNo",
+      "name": "orderCurrentNo",
+      "dataType": "LONG"
+    },
+    {
+      "$key": "28a74ee7pcb",
+      "key": "orderNoPostfix",
+      "dataType": "STRING",
+      "name": "orderNoPostfix"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-07-26T07:08:39.682Z",
+  "createdBy": "65e25492efb82357eb86d518"
+}

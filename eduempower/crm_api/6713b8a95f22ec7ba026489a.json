@@ -1,0 +1,17 @@
+{
+  "_id": "6713b8a95f22ec7ba026489a",
+  "name": "All Previous School",
+  "path": "/admin/student/previous-school/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "menu",
+  "sourceId": "67139c0d5f22ec7ba0264899",
+  "innerGridType": "table",
+  "innerSourceId": "67138cea5f22ec7ba0264893",
+  "ecomApiMappings": [],
+  "accountId": "66066cd92ecf59ad3517dcdb",
+  "created": "2024-10-19T13:48:25.738Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "gridParams": [],
+  "updated": "2025-09-08T10:50:52.738Z"
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "68a82cfb3b1a69052f99ec02",
+  "gridTitle": "Settings ChangePassword",
+  "gridType": "form",
+  "crmModelId": "689f1fdd4b4ca5d6487cadfc",
+  "rows": [
+    {
+      "$key": "yebx0lu433",
+      "fields": [
+        {
+          "id": "currentPassword",
+          "title": "Current Password",
+          "type": "password",
+          "span": 24,
+          "$key": "p2o341lj7u"
+        },
+        {
+          "$key": "vrh0ucsujzc",
+          "id": "newPassword",
+          "title": "New Password",
+          "type": "password",
+          "span": 24
+        },
+        {
+          "$key": "nixuvgxbm1j",
+          "id": "confirmNewPassword",
+          "title": "Confirm new password",
+          "type": "password",
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": true,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2025-08-15T11:27:16.576Z",
+  "createdBy": "65f54d7deece0c4fb315fab7",
+  "postUrl": "/api/io/admin/settings/changePassword",
+  "updated": "2025-09-05T11:02:53.318Z"
+}

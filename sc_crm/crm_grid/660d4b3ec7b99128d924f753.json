@@ -1,0 +1,28 @@
+{
+  "_id": "660d4b3ec7b99128d924f753",
+  "gridTitle": "ReactGrid GlobalBanner2",
+  "gridType": "form",
+  "crmModelId": "660d47e8c7b99128d924f751",
+  "rows": [
+    {
+      "$key": "z529o9rgc9f",
+      "fields": [
+        {
+          "id": "sections",
+          "title": "Sections",
+          "type": "form_array",
+          "add": true,
+          "delete": true,
+          "span": 24,
+          "min": 0,
+          "max": 10,
+          "$key": "yrpsfviwzu"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-03T12:27:42.542Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

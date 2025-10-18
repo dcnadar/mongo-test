@@ -1,0 +1,41 @@
+{
+  "_id": "6679458a37de15173d7be4df",
+  "name": "NativeGrid GlobalCommonProductList3 sections",
+  "modelType": "INNER",
+  "properties": [
+    {
+      "$key": "0o70x3i9l6tn",
+      "key": "title",
+      "dataType": "STRING",
+      "name": "Title"
+    },
+    {
+      "$key": "59mwnm6iy8u",
+      "key": "price",
+      "name": "Price",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "341jmb64zbi",
+      "key": "currency",
+      "name": "Currency ",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "qd2fl2p7h18",
+      "key": "category",
+      "name": "Category",
+      "dataType": "STRING"
+    },
+    {
+      "$key": "18y0m7jrvof",
+      "key": "thumb",
+      "name": "Thumb",
+      "dataType": "STRING",
+      "modelId": "667a9dad74a25c4c696adada"
+    }
+  ],
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-06-24T10:08:10.781Z",
+  "createdBy": "660837fd3afc795c92fa7f61"
+}

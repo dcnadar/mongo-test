@@ -1,0 +1,81 @@
+{
+  "_id": "6704b9465f22ec7ba0264734",
+  "gridTitle": "Package plan",
+  "gridType": "form",
+  "crmModelId": "6703c98c5f22ec7ba0264721",
+  "rows": [
+    {
+      "$key": "wyv4vlacttl",
+      "fields": [
+        {
+          "id": "name",
+          "title": "Name",
+          "type": "text",
+          "span": 8,
+          "$key": "igtn7ghr2vs"
+        },
+        {
+          "$key": "qxam8qt8ixe",
+          "id": "amount",
+          "title": "Amount",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "max": 0,
+          "meta": {
+            "addonBefore": "₹"
+          }
+        },
+        {
+          "$key": "0cimj7dy9tg",
+          "id": "recommanded",
+          "title": "Recommanded",
+          "type": "bool",
+          "span": 8
+        },
+        {
+          "$key": "mo53vauo8pl",
+          "id": "estimateViews",
+          "title": "Estimate Views",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "max": 0
+        },
+        {
+          "$key": "t72es52bxn",
+          "id": "estimateMinLeads",
+          "title": "Estimate Min Leads",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "max": 0
+        },
+        {
+          "$key": "sszh66ua8h8",
+          "id": "estimateMaxLeads",
+          "title": "Estimate Max Leads",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "max": 0
+        },
+        {
+          "$key": "nes8x2hmafb",
+          "id": "adRunDays",
+          "title": "Ad Run Days",
+          "type": "number",
+          "span": 8,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "upsertDoc": false,
+  "accountId": "6703b44b30083226ac6affc0",
+  "created": "2024-10-08T04:47:02.510Z",
+  "createdBy": "65f54da5eece0c4fb315fab8",
+  "updated": "2025-09-05T11:02:51.708Z"
+}

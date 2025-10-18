@@ -1,0 +1,10 @@
+{
+  "_id": "64a7cdc2723fb912796f14a4",
+  "name": "Delete Product",
+  "action": "ENTITY_DELETE",
+  "modelId": "648563687d5f915dc103d28f",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "apiType": "GET",
+  "path": "/admin/product/delete",
+  "created": "2024-01-27T07:48:44.894Z"
+}

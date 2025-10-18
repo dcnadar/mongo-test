@@ -1,0 +1,262 @@
+{
+  "_id": "6662b14b07b1a041b15e0b5d",
+  "gridTitle": "Farmer",
+  "gridType": "form",
+  "crmModelId": "6662aede07b1a041b15e0b58",
+  "rows": [
+    {
+      "$key": "i7u2h5t97m",
+      "fields": [
+        {
+          "$key": "e34w53smdf6",
+          "id": "stateId",
+          "title": "State",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "nullIds": [
+            "districtId"
+          ],
+          "updateType": "disabled",
+          "createType": "none"
+        },
+        {
+          "$key": "mreh43qnga8",
+          "id": "districtId",
+          "title": "District",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "nullIds": [
+            "blockId"
+          ],
+          "meta": {
+            "queryParams": "stateId=:stateId stateId"
+          },
+          "updateType": "disabled",
+          "createType": "none"
+        },
+        {
+          "$key": "v5ifzb3h52k",
+          "id": "blockId",
+          "title": "Block",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "districtId=:districtId districtId"
+          },
+          "nullIds": [
+            "gramPanchayatId",
+            "fpoId",
+            "pgId"
+          ],
+          "updateType": "disabled",
+          "createType": "none"
+        },
+        {
+          "$key": "5wcmrqe5mde",
+          "id": "gramPanchayatId",
+          "title": "GP/VC",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "meta": {
+            "queryParams": "blockId=:blockId blockId"
+          },
+          "nullIds": [
+            "villageId"
+          ],
+          "updateType": "disabled",
+          "createType": "none"
+        },
+        {
+          "$key": "hfgzaq6uvlf",
+          "id": "villageId",
+          "title": "Village",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "meta": {
+            "queryParams": "gramPanchayatId=:gramPanchayatId gramPanchayatId"
+          },
+          "updateType": "disabled",
+          "createType": "none",
+          "nullIds": [
+            "farmerName",
+            "shgCode",
+            "shgId",
+            "dateOfEstablishment",
+            "uniqueId"
+          ]
+        },
+        {
+          "$key": "b8vfvynogvv",
+          "id": "shgId",
+          "title": "SHG",
+          "type": "list",
+          "span": 8,
+          "multiple": false,
+          "updateType": "disabled",
+          "createType": "none",
+          "meta": {
+            "searchAdditionalKeys": [
+              "shgCode",
+              "dateOfEstablishment"
+            ],
+            "queryParams": "villageId=:villageId villageId"
+          },
+          "onChangeCondition": [
+            {
+              "$key": "hfkzb5fswcr",
+              "meta": {
+                "type": "function"
+              },
+              "value": "return this.meta.dateOfEstablishment;",
+              "key": "dateOfEstablishment"
+            },
+            {
+              "$key": "kb3ywofmekc",
+              "value": "return this.meta.shgCode;",
+              "meta": {
+                "type": "function"
+              },
+              "key": "shgCode"
+            }
+          ],
+          "nullIds": [
+            "farmerName",
+            "uniqueId"
+          ]
+        },
+        {
+          "$key": "cwlb9q5cmm",
+          "id": "shgCode",
+          "title": "SHG code",
+          "type": "text",
+          "span": 8,
+          "updateType": "disabled",
+          "createType": "disabled_fe"
+        },
+        {
+          "$key": "lk0lz8uh5v",
+          "id": "dateOfEstablishment",
+          "title": "Date of establishment",
+          "type": "date",
+          "o": false,
+          "span": 8,
+          "updateType": "disabled",
+          "createType": "disabled_fe",
+          "format": "DD MMMM YYYY"
+        },
+        {
+          "$key": "gc5v9ph0dvg",
+          "type": "search",
+          "span": 8,
+          "updateType": "disabled",
+          "createType": "none",
+          "multiple": false,
+          "meta": {
+            "searchAdditionalKeys": [],
+            "queryParams": "blockId=:blockId&shgId=:shgId blockId shgId"
+          },
+          "selectApi": "/api/farmer/search/values",
+          "id": "farmerName",
+          "title": "Farmer",
+          "placeholder": "Search Farmer",
+          "options": [],
+          "onChangeCondition": [],
+          "apiUrl": "/search/model/67d060b78662d46110c0619a"
+        },
+        {
+          "$key": "cqj5cezstga",
+          "id": "uniqueId",
+          "title": "Unique Id",
+          "type": "text",
+          "span": 8,
+          "updateType": "disabled",
+          "createType": "disabled_fe"
+        },
+        {
+          "$key": "g1ma5fkbbn7",
+          "id": "fatherOrHusbandName",
+          "title": "Father or Husband Name",
+          "type": "text",
+          "span": 8
+        },
+        {
+          "$key": "lu9zdnf12sr",
+          "id": "phone",
+          "title": "Phone",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "ghx1k0h3t29",
+          "id": "aadhaar",
+          "title": "Aadhaar",
+          "type": "text",
+          "span": 8,
+          "onChangeCondition": []
+        },
+        {
+          "$key": "0beoumi35tf9",
+          "id": "pgId",
+          "title": "PG",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "meta": {
+            "queryParams": "blockId=:blockId blockId"
+          }
+        },
+        {
+          "$key": "crcq0onpmbi",
+          "id": "fpoId",
+          "title": "FPO",
+          "type": "list",
+          "multiple": false,
+          "span": 8,
+          "o": true,
+          "meta": {
+            "queryParams": "blockId=:blockId blockId"
+          }
+        },
+        {
+          "$key": "xkcsm30zgpj",
+          "id": "annualFamilyIncome",
+          "title": "Annual Family Income",
+          "type": "text",
+          "span": 8,
+          "o": true
+        },
+        {
+          "$key": "rpx82mgmz7",
+          "id": "farmerFarmStatus",
+          "title": "Farm Status",
+          "type": "inner_form",
+          "meta": {
+            "defaultOpen": true,
+            "showCopyToClipboard": false,
+            "hideCollapse": false
+          },
+          "span": 24
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "66629d6de2144644664d9bb4",
+  "created": "2024-06-07T07:05:47.496Z",
+  "createdBy": "660693433afc795c92fa7f45",
+  "backUrl": "/admin/farmer/all",
+  "gridParams": [
+    {
+      "key": "farmerId",
+      "required": false,
+      "documentKey": "id"
+    }
+  ],
+  "upsertDoc": false
+}

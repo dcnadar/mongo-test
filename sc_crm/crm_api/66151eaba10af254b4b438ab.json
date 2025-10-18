@@ -1,0 +1,12 @@
+{
+  "_id": "66151eaba10af254b4b438ab",
+  "name": "All Customer",
+  "path": "/admin/customer/all",
+  "apiType": "GET",
+  "action": "CRM_GRID",
+  "gridType": "table",
+  "sourceId": "66151e0ca10af254b4b438aa",
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-09T10:55:39.258Z",
+  "createdBy": "65f54d7deece0c4fb315fab7"
+}

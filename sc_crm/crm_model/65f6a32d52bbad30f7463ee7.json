@@ -1,0 +1,43 @@
+{
+  "_id": "65f6a32d52bbad30f7463ee7",
+  "name": "ReactGrid GlobalStatsSection4 Section",
+  "modelType": "INNER",
+  "baseModelId": "64822a187d5f915dc103d271",
+  "properties": [
+    {
+      "key": "title",
+      "name": "Title",
+      "dataType": "STRING"
+    },
+    {
+      "key": "heading",
+      "name": "Heading",
+      "dataType": "STRING"
+    },
+    {
+      "key": "description",
+      "name": "Description",
+      "dataType": "STRING"
+    },
+    {
+      "key": "backgroundColor",
+      "name": "BackgroundColor",
+      "dataType": "STRING"
+    },
+    {
+      "key": "gap",
+      "name": "Gap",
+      "dataType": "STRING"
+    },
+    {
+      "key": "textColor",
+      "name": "TextColor",
+      "dataType": "STRING"
+    }
+  ],
+  "cardDataTargets": {},
+  "menuTargets": {},
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-03-17T08:00:45.631Z",
+  "createdBy": "65f1586feece0c4fb315fa82"
+}

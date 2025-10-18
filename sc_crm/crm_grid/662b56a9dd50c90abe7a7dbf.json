@@ -1,0 +1,40 @@
+{
+  "_id": "662b56a9dd50c90abe7a7dbf",
+  "gridTitle": "WebsitePlugin",
+  "gridType": "form",
+  "crmModelId": "662b52c1dd50c90abe7a7dbd",
+  "rows": [
+    {
+      "$key": "d3jy413uuta",
+      "fields": [
+        {
+          "$key": "vdr92scenqp",
+          "id": "pluginType",
+          "title": "Plugin Type",
+          "type": "list",
+          "span": 8,
+          "multiple": false
+        },
+        {
+          "$key": "i98pbvudn7r",
+          "id": "measurementId",
+          "title": "Measurement Id",
+          "type": "text",
+          "span": 8,
+          "showCondition": "return this.pluginType === 'GOOGLE_ANALYTICS';"
+        },
+        {
+          "$key": "jplkrwf85t",
+          "id": "gtmId",
+          "title": "GTM Id",
+          "type": "text",
+          "showCondition": "return this.pluginType === 'GOOGLE_TAG_MANAGER';"
+        }
+      ]
+    }
+  ],
+  "fetchDocWithoutId": false,
+  "accountId": "5d6590b3af790ca2bcc707b7",
+  "created": "2024-04-26T07:24:25.563Z",
+  "createdBy": "660693433afc795c92fa7f45"
+}
