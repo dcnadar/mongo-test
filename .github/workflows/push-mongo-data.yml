@@ -2,9 +2,17 @@ name: Push MongoDB Collection Data
 
 on:
   workflow_dispatch:
+    inputs:
+      db_name:
+        description: "Target MongoDB database name (e.g. radyfy-dev-meta)"
+        required: true
+        type: string
+      folder_name:
+        description: "Folder name to import (e.g. sc_crm_builder )"
+        required: true
+        type: string
   release:
     types: [published]
-
 jobs:
   import-to-mongodb:
     name: Import BSON Data to MongoDB
