@@ -37,8 +37,8 @@ jobs:
       - name: Import BSON data into MongoDB
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}
-          DB_NAME: ${{secrets.DB_NAME }}
-          FOLDER_NAME: ${{secrets.FOLDER_NAME }}
+          DB_NAME: ${{github.event.inputs.db_name ||secrets.DB_NAME }}
+          FOLDER_NAME: ${{github.event.inputs.folder_name || secrets.FOLDER_NAME }}
           RELEASE_VERSION: ${{github.ref_name }}
           BATCH_SIZE: 1000
         run: |
