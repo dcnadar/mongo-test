@@ -7,11 +7,6 @@ on:
         description: "Release tag version (e.g. v0.1, v0.2)"
         required: false
         default: "manual-run"
-
-  # Auto-trigger when a new tag is pushed or a release is published
-  push:
-    tags:
-      - 'v*.*'  # e.g. v0.1, v1.0
   release:
     types: [published]
 
